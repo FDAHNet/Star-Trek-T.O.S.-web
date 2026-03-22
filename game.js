@@ -631,10 +631,6 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
         return item.title === seriesTitle;
       }) || universeSeries[0];
 
-      if (homeSeriesSummary) {
-        homeSeriesSummary.textContent = selectedSeries.title;
-      }
-
       if (homeSeriesDetail) {
         var breakdownText = selectedSeries.seasonBreakdown
           ? "capitulos por temporada: " + selectedSeries.seasonBreakdown + " | "
