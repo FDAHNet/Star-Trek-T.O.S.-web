@@ -100,6 +100,36 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
     var heroTitle = document.querySelector(".hero__copy h1");
     var heroText = document.querySelector(".hero__text");
     var heroActions = Array.prototype.slice.call(document.querySelectorAll(".hero__actions .button"));
+    var cardLabel = document.querySelector(".hero__card-label");
+    var quickMapTitle = document.querySelector(".quick-map__title");
+    var quickMapText = document.querySelector(".quick-map__text");
+    var quickMapLabels = Array.prototype.slice.call(document.querySelectorAll(".quick-map__label"));
+    var seriesSummary = document.getElementById("home-series-summary");
+    var dropdownLabel = document.querySelector(".stat-dropdown__label");
+    var dropdownField = document.querySelector(".stat-dropdown__field");
+    var homeSections = {
+      websiteEyebrow: document.querySelector("#vision .eyebrow"),
+      websiteTitle: document.querySelector("#vision h2"),
+      websiteText: document.querySelector("#vision .section-text"),
+      introTitles: Array.prototype.slice.call(document.querySelectorAll("#vision .intro-card h3")),
+      introTexts: Array.prototype.slice.call(document.querySelectorAll("#vision .intro-card p")),
+      seasonsEyebrow: document.querySelector("#temporadas .eyebrow"),
+      seasonsTitle: document.querySelector("#temporadas h2"),
+      seasonsText: document.querySelector("#temporadas .section-text"),
+      moreEyebrow: document.querySelector("#otras-series .eyebrow"),
+      moreTitle: document.querySelector("#otras-series h2"),
+      moreText: document.querySelector("#otras-series .section-text"),
+      sortButtons: Array.prototype.slice.call(document.querySelectorAll("[data-series-sort]")),
+      footerEyebrow: document.querySelector(".section--footer-note .eyebrow"),
+      footerTitle: document.querySelector(".section--footer-note h2"),
+      footerText: document.querySelector(".section--footer-note p:last-child"),
+      movieEyebrow: document.querySelector("#movies-modal .eyebrow"),
+      movieTitle: document.getElementById("movies-modal-title"),
+      movieText: document.querySelector("#movies-modal .section-text"),
+      movieClose: document.getElementById("close-movies-modal"),
+      movieSortButtons: Array.prototype.slice.call(document.querySelectorAll("[data-movie-sort]"))
+    };
+    var quickMapStats = Array.prototype.slice.call(document.querySelectorAll(".stat-list--quick-map li span"));
 
     if (eyebrow) {
       eyebrow.textContent = t("home.eyebrow");
@@ -115,6 +145,127 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
     }
     if (heroActions[1]) {
       heroActions[1].textContent = t("home.exploreMovies");
+    }
+    if (cardLabel) {
+      cardLabel.textContent = t("home.quickMapLabel");
+    }
+    if (quickMapTitle) {
+      quickMapTitle.textContent = t("home.quickMapTitle");
+    }
+    if (quickMapText) {
+      quickMapText.textContent = t("home.quickMapText");
+    }
+    if (quickMapLabels[0]) {
+      quickMapLabels[0].textContent = t("home.seriesLabel");
+    }
+    if (quickMapLabels[1]) {
+      quickMapLabels[1].textContent = t("home.directAccess");
+    }
+    if (quickMapLabels[2]) {
+      quickMapLabels[2].textContent = t("home.moviesLabel");
+    }
+    if (seriesSummary) {
+      seriesSummary.textContent = t("home.chooseSeries");
+    }
+    if (dropdownLabel) {
+      dropdownLabel.textContent = t("home.seriesUniverse");
+    }
+    if (dropdownField) {
+      dropdownField.textContent = t("home.selectSeries");
+    }
+    if (homeSeriesLink) {
+      homeSeriesLink.textContent = t("home.openSeriesFile");
+    }
+    if (homeMoviesShortcut) {
+      homeMoviesShortcut.textContent = t("home.openMovieArchive");
+    }
+    if (quickMapStats[0]) {
+      quickMapStats[0].textContent = t("home.activeSeries");
+    }
+    if (quickMapStats[1]) {
+      quickMapStats[1].textContent = t("home.archivedMovies");
+    }
+    if (quickMapStats[2]) {
+      quickMapStats[2].textContent = t("home.timelineCovered");
+    }
+    if (homeSections.websiteEyebrow) {
+      homeSections.websiteEyebrow.textContent = t("home.websiteEyebrow");
+    }
+    if (homeSections.websiteTitle) {
+      homeSections.websiteTitle.textContent = t("home.websiteTitle");
+    }
+    if (homeSections.websiteText) {
+      homeSections.websiteText.textContent = t("home.websiteText");
+    }
+    if (homeSections.introTitles[0]) {
+      homeSections.introTitles[0].textContent = t("home.intro1Title");
+    }
+    if (homeSections.introTexts[0]) {
+      homeSections.introTexts[0].textContent = t("home.intro1Text");
+    }
+    if (homeSections.introTitles[1]) {
+      homeSections.introTitles[1].textContent = t("home.intro2Title");
+    }
+    if (homeSections.introTexts[1]) {
+      homeSections.introTexts[1].textContent = t("home.intro2Text");
+    }
+    if (homeSections.introTitles[2]) {
+      homeSections.introTitles[2].textContent = t("home.intro3Title");
+    }
+    if (homeSections.introTexts[2]) {
+      homeSections.introTexts[2].textContent = t("home.intro3Text");
+    }
+    if (homeSections.seasonsEyebrow) {
+      homeSections.seasonsEyebrow.textContent = t("home.seasonsEyebrow");
+    }
+    if (homeSections.seasonsTitle) {
+      homeSections.seasonsTitle.textContent = t("home.seasonsTitle");
+    }
+    if (homeSections.seasonsText) {
+      homeSections.seasonsText.textContent = t("home.seasonsText");
+    }
+    if (homeSections.moreEyebrow) {
+      homeSections.moreEyebrow.textContent = t("home.moreTrekEyebrow");
+    }
+    if (homeSections.moreTitle) {
+      homeSections.moreTitle.textContent = t("home.moreTrekTitle");
+    }
+    if (homeSections.moreText) {
+      homeSections.moreText.textContent = t("home.moreTrekText");
+    }
+    if (homeSections.sortButtons[0]) {
+      homeSections.sortButtons[0].textContent = t("home.sortRelease");
+    }
+    if (homeSections.sortButtons[1]) {
+      homeSections.sortButtons[1].textContent = t("home.sortTimeline");
+    }
+    if (homeSections.footerEyebrow) {
+      homeSections.footerEyebrow.textContent = t("home.commandEyebrow");
+    }
+    if (homeSections.footerTitle) {
+      homeSections.footerTitle.textContent = t("home.commandTitle");
+    }
+    if (homeSections.footerText) {
+      homeSections.footerText.textContent = t("home.commandText");
+    }
+    if (homeSections.movieEyebrow) {
+      homeSections.movieEyebrow.textContent = t("home.moviesEyebrow");
+    }
+    if (homeSections.movieTitle) {
+      homeSections.movieTitle.textContent = t("home.moviesTitle");
+    }
+    if (homeSections.movieText) {
+      homeSections.movieText.textContent = t("home.moviesText");
+    }
+    if (homeSections.movieClose) {
+      homeSections.movieClose.textContent = t("home.closeMovies");
+      homeSections.movieClose.setAttribute("aria-label", t("home.closeMovies"));
+    }
+    if (homeSections.movieSortButtons[0]) {
+      homeSections.movieSortButtons[0].textContent = t("home.sortRelease");
+    }
+    if (homeSections.movieSortButtons[1]) {
+      homeSections.movieSortButtons[1].textContent = t("home.sortTimeline");
     }
   }
 
@@ -567,22 +718,26 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
     var seasonEntry = findSeriesSeasonEntry(seriesSlug);
 
     if (!seasonEntry || !seasonEntry.seasons.length) {
-      homeSeriesExtraLabel.textContent = "Temporadas";
+      homeSeriesExtraLabel.textContent = t("home.seasonsLabel");
       homeSeasonShortcuts.hidden = true;
       homeSeriesExtraText.hidden = false;
-      homeSeriesExtraText.textContent = "Esta serie todavia no tiene temporadas detalladas en la web.";
+      homeSeriesExtraText.textContent = getLanguage() === "en"
+        ? "This series does not yet have detailed season pages on the site."
+        : "Esta serie todavía no tiene temporadas detalladas en la web.";
       return;
     }
 
-    homeSeriesExtraLabel.textContent = "Temporadas";
+    homeSeriesExtraLabel.textContent = t("home.seasonsLabel");
     homeSeasonShortcuts.hidden = false;
     homeSeriesExtraText.hidden = true;
     homeSeriesExtraText.textContent = "";
     homeSeasonShortcuts.setAttribute("aria-label", "Temporadas de " + seasonEntry.title);
     homeSeasonShortcuts.innerHTML = seasonEntry.seasons.map(function (seasonItem) {
-      var suffix = seasonItem.episodesCount ? " | " + seasonItem.episodesCount + " episodios" : "";
+      var suffix = seasonItem.episodesCount
+        ? " | " + seasonItem.episodesCount + " " + (getLanguage() === "en" ? "episodes" : "episodios")
+        : "";
 
-      return '<a class="season-selector__link quick-map__chip" href="' + seasonItem.url + '">Temporada ' + seasonItem.number + suffix + "</a>";
+      return '<a class="season-selector__link quick-map__chip" href="' + seasonItem.url + '">' + (getLanguage() === "en" ? "Season " : "Temporada ") + seasonItem.number + suffix + "</a>";
     }).join("");
   }
 
@@ -788,18 +943,28 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
 
       if (homeSeriesDetail) {
         var breakdownText = selectedSeries.seasonBreakdown
-          ? "capitulos por temporada: " + selectedSeries.seasonBreakdown + " | "
+          ? (getLanguage() === "en"
+            ? "episodes per season: " + selectedSeries.seasonBreakdown + " | "
+            : "capitulos por temporada: " + selectedSeries.seasonBreakdown + " | ")
           : "";
 
-        homeSeriesDetail.textContent =
-          selectedSeries.seasonsCount +
-          " temporadas | " +
-          breakdownText +
-          "cronologia: " +
-          selectedSeries.timelineLabel +
-          " | emision: " +
-          selectedSeries.releaseLabel +
-          ".";
+        homeSeriesDetail.textContent = getLanguage() === "en"
+          ? selectedSeries.seasonsCount +
+            " seasons | " +
+            breakdownText +
+            "chronology: " +
+            selectedSeries.timelineLabel +
+            " | release: " +
+            selectedSeries.releaseLabel +
+            "."
+          : selectedSeries.seasonsCount +
+            " temporadas | " +
+            breakdownText +
+            "cronologia: " +
+            selectedSeries.timelineLabel +
+            " | emision: " +
+            selectedSeries.releaseLabel +
+            ".";
       }
 
       if (homeSeriesLink) {
