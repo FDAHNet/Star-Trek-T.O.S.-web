@@ -1,10 +1,11 @@
+import { MOVIE_DETAILS, SERIES_DETAILS } from "./franchise-data.js";
 import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
 
 (function () {
   "use strict";
 
   var body = document.body;
-  var pageType = body.getAttribute("data-page") === "home" ? "home" : "season";
+  var pageType = body.getAttribute("data-page") || "season";
   var seasonId = Number(body.getAttribute("data-season") || 1);
   var season = SEASONS[seasonId] || SEASONS[1];
 
@@ -50,6 +51,34 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
       .toLowerCase()
       .normalize("NFD")
       .replace(/[\u0300-\u036f]/g, "");
+  }
+
+  function getSeriesDetailUrl(title) {
+    var series = SERIES_DETAILS.find(function (entry) {
+      return entry.title === title;
+    });
+
+    return series ? "./serie-" + series.slug + ".html" : "#";
+  }
+
+  function getMovieDetailUrl(title) {
+    var movie = MOVIE_DETAILS.find(function (entry) {
+      return entry.title === title;
+    });
+
+    return movie ? "./pelicula-" + movie.slug + ".html" : "#";
+  }
+
+  function getSeriesOrderValues(title) {
+    if (title === "Star Trek: The Original Series") {
+      return { release: 1966, timeline: 2265 };
+    }
+
+    var source = OTHER_SERIES.find(function (entry) {
+      return entry.title === title;
+    });
+
+    return source ? { release: source.releaseStart, timeline: source.timelineStart } : { release: 9999, timeline: 9999 };
   }
 
   function randomBetween(min, max) {
@@ -378,7 +407,7 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
 
   function buildSeriesCard(item) {
     return [
-      '<article class="series-card">',
+      '<a class="series-card series-card--link" href="' + getSeriesDetailUrl(item.title) + '">',
       '  <div class="series-card__top">',
       "    <div>",
       "      <h3>" + item.title + "</h3>",
@@ -391,13 +420,13 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
       '    <p><strong>Orden dentro del universo:</strong> ' + item.timelineLabel + "</p>",
       '    <p><strong>Fecha estelar o marco temporal:</strong> ' + item.stardateLabel + "</p>",
       "  </div>",
-      "</article>"
+      "</a>"
     ].join("");
   }
 
   function buildMovieCard(item) {
     return [
-      '<article class="movie-card">',
+      '<a class="movie-card movie-card--link" href="' + getMovieDetailUrl(item.title) + '">',
       '  <div class="movie-card__top">',
       "    <div>",
       "      <h3>" + item.title + "</h3>",
@@ -410,7 +439,7 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
       '    <p><strong>Linea temporal:</strong> ' + item.timelineLabel + "</p>",
       '    <p><strong>Continuidad:</strong> ' + item.continuity + "</p>",
       "  </div>",
-      "</article>"
+      "</a>"
     ].join("");
   }
 
@@ -419,12 +448,15 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
       return;
     }
 
-    var sortedSeries = OTHER_SERIES.slice().sort(function (left, right) {
+    var sortedSeries = SERIES_DETAILS.slice().sort(function (left, right) {
+      var leftValues = getSeriesOrderValues(left.title);
+      var rightValues = getSeriesOrderValues(right.title);
+
       if (sortMode === "timeline") {
-        return left.timelineStart - right.timelineStart || left.releaseStart - right.releaseStart;
+        return leftValues.timeline - rightValues.timeline || leftValues.release - rightValues.release;
       }
 
-      return left.releaseStart - right.releaseStart || left.timelineStart - right.timelineStart;
+      return leftValues.release - rightValues.release || leftValues.timeline - rightValues.timeline;
     });
 
     franchiseSeriesGrid.innerHTML = sortedSeries.map(buildSeriesCard).join("");
@@ -538,7 +570,7 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
     }
 
     if (homeStatSeriesCount) {
-      homeStatSeriesCount.textContent = String(OTHER_SERIES.length);
+      homeStatSeriesCount.textContent = String(SERIES_DETAILS.length);
     }
 
     if (homeStatYears) {
@@ -589,6 +621,11 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
     renderFranchiseSeries("release");
     setupSeriesSort();
     setupMoviesModal();
+    return;
+  }
+
+  if (pageType === "detail") {
+    setupStarfield();
     return;
   }
 

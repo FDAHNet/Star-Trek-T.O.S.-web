@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star Trek</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="detail" data-detail-type="series" data-detail-slug="star-trek-picard">
+  <div class="stars" aria-hidden="true"></div>
+
+  <header class="hero">
+    <nav class="topbar">
+      <a class="brand" href="./index.html">Universo Star Trek</a>
+      <div class="topbar__nav">
+        <a class="topbar__link" href="./index.html">Inicio</a>
+        <a class="topbar__link" href="./index.html#otras-series">Series</a>
+        <a class="topbar__link" href="./index.html">Peliculas</a>
+      </div>
+    </nav>
+
+    <section class="hero__content">
+      <div class="hero__copy">
+        <p id="detail-badge" class="eyebrow"></p>
+        <h1 id="detail-title"></h1>
+        <p id="detail-summary" class="hero__text"></p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="./index.html">Volver al universo</a>
+        </div>
+      </div>
+
+      <aside class="hero__card" aria-label="Datos clave">
+        <div class="hero__visual detail-hero__visual">
+          <div>
+            <span class="timeline__tag" id="detail-meta-title"></span>
+            <strong id="detail-title-copy"></strong>
+          </div>
+        </div>
+        <ul id="detail-stat-list" class="stat-list"></ul>
+      </aside>
+    </section>
+  </header>
+
+  <main>
+    <section class="section section--intro">
+      <div class="section-heading">
+        <p class="eyebrow">Ficha</p>
+        <h2 id="detail-section-title"></h2>
+      </div>
+
+      <div id="detail-cards-grid" class="intro-grid intro-grid--home card-grid--triple"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Datos clave</p>
+        <h2>Aspectos rapidos</h2>
+      </div>
+      <ul id="detail-facts-list" class="detail-facts"></ul>
+    </section>
+
+    <section class="section section--footer-note">
+      <div class="footer-note">
+        <p class="eyebrow">Navegacion</p>
+        <h2 id="detail-footer-title"></h2>
+        <p>Esta ficha forma parte de la estructura multipagina del universo Star Trek y se puede recorrer una a una desde los listados principales.</p>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="game.js"></script>
+  <script type="module" src="detail.js"></script>
+</body>
+</html>

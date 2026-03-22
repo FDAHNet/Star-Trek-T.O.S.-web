@@ -1,16 +1,22 @@
+import { readdirSync } from "node:fs";
 import { defineConfig } from "vite";
+
+var htmlEntries = Object.fromEntries(
+  readdirSync(".")
+    .filter(function (file) {
+      return file.endsWith(".html");
+    })
+    .map(function (file) {
+      return [file.replace(/\.html$/, ""), file];
+    })
+);
 
 export default defineConfig({
   // Relative asset paths work on both GitHub Pages and Cloudflare deployments.
   base: "./",
   build: {
     rollupOptions: {
-      input: {
-        main: "index.html",
-        temporada1: "temporada-1.html",
-        temporada2: "temporada-2.html",
-        temporada3: "temporada-3.html"
-      }
+      input: htmlEntries
     }
   }
 });
