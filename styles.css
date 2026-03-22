@@ -219,6 +219,7 @@ h3 {
 }
 
 .button {
+  position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -228,7 +229,8 @@ h3 {
   border: 1px solid var(--line);
   text-decoration: none;
   font-weight: 700;
-  transition: transform 180ms ease, background-color 180ms ease, color 180ms ease;
+  overflow: hidden;
+  transition: transform 180ms ease, background-color 180ms ease, color 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
 }
 
 .button:hover,
@@ -244,6 +246,82 @@ h3 {
 .button--ghost {
   color: var(--text);
   background: rgba(255, 255, 255, 0.04);
+}
+
+.button--hero-series,
+.button--hero-movies {
+  min-width: 210px;
+  border-color: rgba(255, 255, 255, 0.14);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.18),
+    0 16px 34px rgba(0, 0, 0, 0.28);
+}
+
+.button--hero-series::before,
+.button--hero-movies::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      120deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.06) 35%,
+      rgba(255, 255, 255, 0.38) 50%,
+      rgba(255, 255, 255, 0.06) 65%,
+      transparent 100%
+    );
+  transform: translateX(-140%);
+  animation: hero-button-flash 4.6s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.button--hero-series {
+  color: #07101b;
+  background:
+    linear-gradient(135deg, #7fe7ff 0%, #57b8ff 52%, #d8fbff 100%);
+}
+
+.button--hero-movies {
+  color: #fff7e8;
+  background:
+    linear-gradient(135deg, #ff8a00 0%, #ff4d6d 48%, #8f5cff 100%);
+}
+
+.button--hero-series:hover,
+.button--hero-series:focus-visible,
+.button--hero-movies:hover,
+.button--hero-movies:focus-visible {
+  transform: translateY(-4px) scale(1.02);
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.24),
+    0 22px 48px rgba(0, 0, 0, 0.36),
+    0 0 24px rgba(127, 231, 255, 0.18);
+}
+
+.button--hero-series:hover {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.24),
+    0 22px 48px rgba(0, 0, 0, 0.36),
+    0 0 26px rgba(87, 184, 255, 0.3);
+}
+
+.button--hero-movies:hover {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.24),
+    0 22px 48px rgba(0, 0, 0, 0.36),
+    0 0 28px rgba(255, 77, 109, 0.3);
+}
+
+.button--hero-series::after,
+.button--hero-movies::after {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  pointer-events: none;
 }
 
 .hero__card {
@@ -823,6 +901,24 @@ h3 {
   }
 }
 
+@keyframes hero-button-flash {
+  0%,
+  70%,
+  100% {
+    transform: translateX(-140%);
+    opacity: 0;
+  }
+
+  12% {
+    opacity: 1;
+  }
+
+  35% {
+    transform: translateX(140%);
+    opacity: 0.9;
+  }
+}
+
 @media (max-width: 1100px) {
   .character-grid,
   .season-overview-grid {
@@ -911,6 +1007,11 @@ h3 {
 
 @media (prefers-reduced-motion: reduce) {
   h1 {
+    animation: none;
+  }
+
+  .button--hero-series::before,
+  .button--hero-movies::before {
     animation: none;
   }
 
