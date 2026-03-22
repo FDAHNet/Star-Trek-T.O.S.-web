@@ -1,4 +1,5 @@
 import { MOVIE_DETAILS, SERIES_DETAILS } from "./franchise-data.js";
+import { getLanguage, t } from "./i18n/index.js";
 import { setupLanguageSwitcher } from "./language-switcher.js";
 import { findSeriesSeasonEntry } from "./series-season-data.js";
 import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
@@ -42,6 +43,157 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
   var starField = document.querySelector(".stars");
 
   setupLanguageSwitcher();
+  document.documentElement.lang = getLanguage();
+
+  function localizeTopbar() {
+    var brand = document.querySelector(".brand");
+    var topbarLinks = Array.prototype.slice.call(document.querySelectorAll(".topbar__link"));
+
+    if (brand) {
+      brand.textContent = t("topbar.universe");
+    }
+
+    if (pageType === "home") {
+      if (topbarLinks[0]) {
+        topbarLinks[0].textContent = t("topbar.website");
+      }
+      if (topbarLinks[1]) {
+        topbarLinks[1].textContent = t("topbar.seasons");
+      }
+      if (topbarLinks[2]) {
+        topbarLinks[2].textContent = t("topbar.otherSeries");
+      }
+      return;
+    }
+
+    if (pageType === "season") {
+      if (topbarLinks[0]) {
+        topbarLinks[0].textContent = t("topbar.home");
+      }
+      if (topbarLinks[1]) {
+        topbarLinks[1].textContent = t("topbar.actors");
+      }
+      if (topbarLinks[2]) {
+        topbarLinks[2].textContent = t("topbar.characters");
+      }
+      if (topbarLinks[3]) {
+        topbarLinks[3].textContent = t("topbar.episodes");
+      }
+      return;
+    }
+
+    if (topbarLinks[0]) {
+      topbarLinks[0].textContent = t("topbar.home");
+    }
+    if (topbarLinks[1]) {
+      topbarLinks[1].textContent = t("topbar.series");
+    }
+    if (topbarLinks[2]) {
+      topbarLinks[2].textContent = t("topbar.movies");
+    }
+  }
+
+  localizeTopbar();
+
+  function localizeHomeStatic() {
+    var eyebrow = document.querySelector(".hero__copy .eyebrow");
+    var heroTitle = document.querySelector(".hero__copy h1");
+    var heroText = document.querySelector(".hero__text");
+    var heroActions = Array.prototype.slice.call(document.querySelectorAll(".hero__actions .button"));
+
+    if (eyebrow) {
+      eyebrow.textContent = t("home.eyebrow");
+    }
+    if (heroTitle) {
+      heroTitle.textContent = t("home.heroTitle");
+    }
+    if (heroText) {
+      heroText.textContent = t("home.heroText");
+    }
+    if (heroActions[0]) {
+      heroActions[0].textContent = t("home.exploreSeries");
+    }
+    if (heroActions[1]) {
+      heroActions[1].textContent = t("home.exploreMovies");
+    }
+  }
+
+  function localizeSeasonStatic() {
+    var heroActions = Array.prototype.slice.call(document.querySelectorAll(".hero__actions .button"));
+    var cardLabel = document.querySelector(".hero__card-label");
+    var statLabels = Array.prototype.slice.call(document.querySelectorAll(".hero__card .stat-list li span"));
+    var summaryEyebrow = document.querySelector("#resumen .eyebrow");
+    var castTitle = document.querySelector("#actores h3");
+    var crewEyebrow = document.querySelector("#personajes .section-heading .eyebrow");
+    var crewTitle = document.querySelector("#personajes .section-heading h2");
+    var crewText = document.querySelector("#personajes .section-heading .section-text");
+    var episodeLinks = Array.prototype.slice.call(document.querySelectorAll("[data-season-link]"));
+    var episodeEyebrow = document.querySelector("#episodios .section-heading .eyebrow");
+    var searchLabel = document.querySelector(".search-field__label");
+    var routeEyebrow = document.querySelector(".section--timeline .eyebrow");
+    var triviaEyebrow = document.querySelector(".section--footer-note .eyebrow");
+
+    if (heroActions[0]) {
+      heroActions[0].textContent = t("seasonPage.seeSummary");
+    }
+    if (heroActions[1]) {
+      heroActions[1].textContent = t("seasonPage.seeEpisodes");
+    }
+    if (cardLabel) {
+      cardLabel.textContent = t("seasonPage.quickFacts");
+    }
+    if (statLabels[0]) {
+      statLabels[0].textContent = t("seasonPage.statSeason");
+    }
+    if (statLabels[1]) {
+      statLabels[1].textContent = t("seasonPage.statEpisodes");
+    }
+    if (statLabels[2]) {
+      statLabels[2].textContent = t("seasonPage.statNetwork");
+    }
+    if (statLabels[3]) {
+      statLabels[3].textContent = t("seasonPage.statYears");
+    }
+    if (summaryEyebrow) {
+      summaryEyebrow.textContent = t("seasonPage.summary");
+    }
+    if (castTitle) {
+      castTitle.textContent = t("seasonPage.castAges");
+    }
+    if (crewEyebrow) {
+      crewEyebrow.textContent = t("seasonPage.crewEyebrow");
+    }
+    if (crewTitle) {
+      crewTitle.textContent = t("seasonPage.crewTitle");
+    }
+    if (crewText) {
+      crewText.textContent = t("seasonPage.crewText");
+    }
+    if (episodeLinks[0]) {
+      episodeLinks[0].textContent = t("seasonPage.season1");
+    }
+    if (episodeLinks[1]) {
+      episodeLinks[1].textContent = t("seasonPage.season2");
+    }
+    if (episodeLinks[2]) {
+      episodeLinks[2].textContent = t("seasonPage.season3");
+    }
+    if (episodeEyebrow) {
+      episodeEyebrow.textContent = t("seasonPage.episodeGuide");
+    }
+    if (searchLabel) {
+      searchLabel.textContent = t("seasonPage.searchEpisode");
+    }
+    if (routeEyebrow) {
+      routeEyebrow.textContent = t("seasonPage.route");
+    }
+    if (triviaEyebrow) {
+      triviaEyebrow.textContent = t("seasonPage.trivia");
+    }
+    if (emptyState) {
+      emptyState.textContent = t("seasonPage.noResults");
+    }
+  }
 
   var castMembers = [
     { actor: "William Shatner", birth: "1931-03-22", death: null, seasons: [1, 2, 3] },
@@ -671,6 +823,7 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
   if (pageType === "home") {
     setupStarfield();
     document.title = "Star Trek - Universo";
+    localizeHomeStatic();
     renderHomeStats();
     renderHomeSeasonCards();
     renderFranchiseSeries("release");
@@ -690,6 +843,7 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
   }
 
   setupStarfield();
+  localizeSeasonStatic();
   renderSeasonShell();
   renderCastAges();
   setupCharacterReveal();
