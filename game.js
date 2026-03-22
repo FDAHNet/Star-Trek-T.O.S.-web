@@ -1221,34 +1221,68 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
         return;
       }
 
+      var seriesDetailLabels = {
+        es: {
+          seasons: "temporadas",
+          episodesPerSeason: "capítulos por temporada",
+          chronology: "cronología",
+          release: "emisión"
+        },
+        en: {
+          seasons: "seasons",
+          episodesPerSeason: "episodes per season",
+          chronology: "chronology",
+          release: "release"
+        },
+        fr: {
+          seasons: "saisons",
+          episodesPerSeason: "épisodes par saison",
+          chronology: "chronologie",
+          release: "diffusion"
+        },
+        ru: {
+          seasons: "сезона",
+          episodesPerSeason: "эпизодов по сезонам",
+          chronology: "хронология",
+          release: "показ"
+        },
+        uk: {
+          seasons: "сезони",
+          episodesPerSeason: "епізодів по сезонах",
+          chronology: "хронологія",
+          release: "показ"
+        },
+        ca: {
+          seasons: "temporades",
+          episodesPerSeason: "episodis per temporada",
+          chronology: "cronologia",
+          release: "emissió"
+        }
+      };
+      var detailLabels = seriesDetailLabels[getLanguage()] || seriesDetailLabels.es;
       var selectedSeries = universeSeries.find(function (item) {
         return item.title === seriesTitle;
       }) || universeSeries[0];
 
       if (homeSeriesDetail) {
         var breakdownText = selectedSeries.seasonBreakdown
-          ? (getLanguage() === "en"
-            ? "episodes per season: " + selectedSeries.seasonBreakdown + " | "
-            : "capitulos por temporada: " + selectedSeries.seasonBreakdown + " | ")
+          ? detailLabels.episodesPerSeason + ": " + selectedSeries.seasonBreakdown + " | "
           : "";
 
-        homeSeriesDetail.textContent = getLanguage() === "en"
-          ? selectedSeries.seasonsCount +
-            " seasons | " +
-            breakdownText +
-            "chronology: " +
-            selectedSeries.timelineLabel +
-            " | release: " +
-            selectedSeries.releaseLabel +
-            "."
-          : selectedSeries.seasonsCount +
-            " temporadas | " +
-            breakdownText +
-            "cronologia: " +
-            selectedSeries.timelineLabel +
-            " | emision: " +
-            selectedSeries.releaseLabel +
-            ".";
+        homeSeriesDetail.textContent =
+          selectedSeries.seasonsCount +
+          " " +
+          detailLabels.seasons +
+          " | " +
+          breakdownText +
+          detailLabels.chronology +
+          ": " +
+          selectedSeries.timelineLabel +
+          " | " +
+          detailLabels.release +
+          ": " +
+          selectedSeries.releaseLabel +
+          ".";
       }
 
       if (homeSeriesLink) {
