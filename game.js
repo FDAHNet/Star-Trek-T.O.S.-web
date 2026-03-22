@@ -1,4 +1,4 @@
-import { OTHER_SERIES, SEASONS } from "./season-data.js";
+import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
 
 (function () {
   "use strict";
@@ -26,6 +26,11 @@ import { OTHER_SERIES, SEASONS } from "./season-data.js";
   var homeSeriesSelect = document.getElementById("home-series-select");
   var homeSeriesDetail = document.getElementById("home-series-detail");
   var homeSeriesSummary = document.getElementById("home-series-summary");
+  var openMoviesModalButton = document.getElementById("open-movies-modal");
+  var closeMoviesModalButton = document.getElementById("close-movies-modal");
+  var moviesModal = document.getElementById("movies-modal");
+  var moviesGrid = document.getElementById("movies-grid");
+  var movieSortButtons = Array.prototype.slice.call(document.querySelectorAll("[data-movie-sort]"));
 
   var castMembers = [
     { actor: "William Shatner", birth: "1931-03-22", death: null, seasons: [1, 2, 3] },
@@ -342,6 +347,25 @@ import { OTHER_SERIES, SEASONS } from "./season-data.js";
     ].join("");
   }
 
+  function buildMovieCard(item) {
+    return [
+      '<article class="movie-card">',
+      '  <div class="movie-card__top">',
+      "    <div>",
+      "      <h3>" + item.title + "</h3>",
+      '      <p class="series-card__summary">' + item.summary + "</p>",
+      "    </div>",
+      '    <span class="series-card__release">' + item.releaseLabel + "</span>",
+      "  </div>",
+      '  <div class="series-card__meta">',
+      '    <p><strong>Estreno:</strong> ' + item.releaseLabel + "</p>",
+      '    <p><strong>Linea temporal:</strong> ' + item.timelineLabel + "</p>",
+      '    <p><strong>Continuidad:</strong> ' + item.continuity + "</p>",
+      "  </div>",
+      "</article>"
+    ].join("");
+  }
+
   function renderFranchiseSeries(sortMode) {
     if (!franchiseSeriesGrid) {
       return;
@@ -377,6 +401,69 @@ import { OTHER_SERIES, SEASONS } from "./season-data.js";
       button.addEventListener("click", function () {
         renderFranchiseSeries(button.getAttribute("data-series-sort") || "release");
       });
+    });
+  }
+
+  function renderMovies(sortMode) {
+    if (!moviesGrid) {
+      return;
+    }
+
+    var sortedMovies = MOVIES.slice().sort(function (left, right) {
+      if (sortMode === "timeline") {
+        return left.timelineStart - right.timelineStart || left.releaseStart - right.releaseStart;
+      }
+
+      return left.releaseStart - right.releaseStart || left.timelineStart - right.timelineStart;
+    });
+
+    moviesGrid.innerHTML = sortedMovies.map(buildMovieCard).join("");
+
+    movieSortButtons.forEach(function (button) {
+      var isActive = button.getAttribute("data-movie-sort") === sortMode;
+      button.classList.toggle("is-active", isActive);
+      button.setAttribute("aria-pressed", isActive ? "true" : "false");
+    });
+  }
+
+  function setupMoviesModal() {
+    if (!moviesModal || !openMoviesModalButton) {
+      return;
+    }
+
+    function openModal() {
+      renderMovies("release");
+      if (typeof moviesModal.showModal === "function") {
+        moviesModal.showModal();
+      } else {
+        moviesModal.setAttribute("open", "open");
+      }
+    }
+
+    function closeModal() {
+      if (typeof moviesModal.close === "function") {
+        moviesModal.close();
+      } else {
+        moviesModal.removeAttribute("open");
+      }
+    }
+
+    openMoviesModalButton.addEventListener("click", openModal);
+
+    if (closeMoviesModalButton) {
+      closeMoviesModalButton.addEventListener("click", closeModal);
+    }
+
+    movieSortButtons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        renderMovies(button.getAttribute("data-movie-sort") || "release");
+      });
+    });
+
+    moviesModal.addEventListener("click", function (event) {
+      if (event.target === moviesModal) {
+        closeModal();
+      }
     });
   }
 
@@ -452,6 +539,7 @@ import { OTHER_SERIES, SEASONS } from "./season-data.js";
     renderHomeSeasonCards();
     renderFranchiseSeries("release");
     setupSeriesSort();
+    setupMoviesModal();
     return;
   }
 

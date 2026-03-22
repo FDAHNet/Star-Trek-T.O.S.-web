@@ -361,3 +361,132 @@ export var OTHER_SERIES = [
     summary: "Nueva serie centrada en cadetes y formación estelar dentro de la era más avanzada del canon televisivo actual."
   }
 ];
+
+export var MOVIES = [
+  {
+    title: "Star Trek: The Motion Picture",
+    releaseLabel: "1979",
+    releaseStart: 1979,
+    timelineLabel: "2273",
+    timelineStart: 2273,
+    summary: "La Enterprise se enfrenta a V'Ger en la primera gran película de la franquicia.",
+    continuity: "Línea principal"
+  },
+  {
+    title: "Star Trek II: The Wrath of Khan",
+    releaseLabel: "1982",
+    releaseStart: 1982,
+    timelineLabel: "2285",
+    timelineStart: 2285,
+    summary: "Khan regresa para vengarse de Kirk en una de las entregas más queridas.",
+    continuity: "Línea principal"
+  },
+  {
+    title: "Star Trek III: The Search for Spock",
+    releaseLabel: "1984",
+    releaseStart: 1984,
+    timelineLabel: "2285",
+    timelineStart: 2285.1,
+    summary: "Kirk desafía a la Flota para recuperar a Spock tras los sucesos de la película anterior.",
+    continuity: "Línea principal"
+  },
+  {
+    title: "Star Trek IV: The Voyage Home",
+    releaseLabel: "1986",
+    releaseStart: 1986,
+    timelineLabel: "2286",
+    timelineStart: 2286,
+    summary: "La tripulación clásica viaja a la Tierra del siglo XX para salvar el futuro.",
+    continuity: "Línea principal"
+  },
+  {
+    title: "Star Trek V: The Final Frontier",
+    releaseLabel: "1989",
+    releaseStart: 1989,
+    timelineLabel: "2287",
+    timelineStart: 2287,
+    summary: "Kirk, Spock y McCoy persiguen la promesa de encontrar a Dios más allá de la barrera galáctica.",
+    continuity: "Línea principal"
+  },
+  {
+    title: "Star Trek VI: The Undiscovered Country",
+    releaseLabel: "1991",
+    releaseStart: 1991,
+    timelineLabel: "2293",
+    timelineStart: 2293,
+    summary: "La tripulación original vive una intriga política decisiva para la paz con el Imperio Klingon.",
+    continuity: "Línea principal"
+  },
+  {
+    title: "Star Trek: Section 31",
+    releaseLabel: "2025",
+    releaseStart: 2025,
+    timelineLabel: "Principios del siglo XXIV",
+    timelineStart: 2330,
+    summary: "Philippa Georgiou lidera una misión de la Sección 31 en la llamada era perdida.",
+    continuity: "Línea principal"
+  },
+  {
+    title: "Star Trek Generations",
+    releaseLabel: "1994",
+    releaseStart: 1994,
+    timelineLabel: "2293 y 2371",
+    timelineStart: 2371,
+    summary: "El relevo entre la tripulación clásica y la de Picard toma forma con el Nexus como puente.",
+    continuity: "Línea principal"
+  },
+  {
+    title: "Star Trek: First Contact",
+    releaseLabel: "1996",
+    releaseStart: 1996,
+    timelineLabel: "2373",
+    timelineStart: 2373,
+    summary: "La Enterprise-E combate a los borg mientras protege el primer contacto con los vulcanos.",
+    continuity: "Línea principal"
+  },
+  {
+    title: "Star Trek: Insurrection",
+    releaseLabel: "1998",
+    releaseStart: 1998,
+    timelineLabel: "2375",
+    timelineStart: 2375,
+    summary: "Picard se rebela contra una operación de la Federación para defender a los Ba'ku.",
+    continuity: "Línea principal"
+  },
+  {
+    title: "Star Trek: Nemesis",
+    releaseLabel: "2002",
+    releaseStart: 2002,
+    timelineLabel: "2379",
+    timelineStart: 2379,
+    summary: "La tripulación de la Enterprise-E se enfrenta a Shinzon en el último film de la era TNG.",
+    continuity: "Línea principal"
+  },
+  {
+    title: "Star Trek",
+    releaseLabel: "2009",
+    releaseStart: 2009,
+    timelineLabel: "2233 y 2258",
+    timelineStart: 2258,
+    summary: "El incidente del USS Kelvin crea una línea temporal alternativa y reinicia la saga cinematográfica.",
+    continuity: "Línea Kelvin"
+  },
+  {
+    title: "Star Trek Into Darkness",
+    releaseLabel: "2013",
+    releaseStart: 2013,
+    timelineLabel: "2259",
+    timelineStart: 2259,
+    summary: "La nueva tripulación se mide a Khan en la segunda película de la línea Kelvin.",
+    continuity: "Línea Kelvin"
+  },
+  {
+    title: "Star Trek Beyond",
+    releaseLabel: "2016",
+    releaseStart: 2016,
+    timelineLabel: "2263",
+    timelineStart: 2263,
+    summary: "La Enterprise Kelvin explora más allá del espacio conocido y cae en la trampa de Krall.",
+    continuity: "Línea Kelvin"
+  }
+];

@@ -41,7 +41,7 @@
         </p>
         <div class="hero__actions">
           <a class="button button--primary" href="#otras-series">Explorar Series</a>
-          <a class="button button--ghost" href="#vision">Explorar Peliculas</a>
+          <button id="open-movies-modal" class="button button--ghost" type="button">Explorar Peliculas</button>
         </div>
       </div>
 
@@ -152,6 +152,28 @@
       </div>
     </section>
   </main>
+
+  <dialog id="movies-modal" class="movies-modal" aria-labelledby="movies-modal-title">
+    <div class="movies-modal__panel">
+      <div class="movies-modal__header">
+        <div>
+          <p class="eyebrow">Peliculas</p>
+          <h2 id="movies-modal-title">Todas las peliculas de Star Trek</h2>
+          <p class="section-text">
+            Ordenalas por fecha de estreno real o por su posicion dentro de la linea temporal de Star Trek.
+          </p>
+        </div>
+        <button id="close-movies-modal" class="movies-modal__close" type="button" aria-label="Cerrar peliculas">Cerrar</button>
+      </div>
+
+      <div class="series-sort" role="group" aria-label="Ordenar peliculas">
+        <button class="season-selector__link series-sort__button" type="button" data-movie-sort="release">Ordenar por emision</button>
+        <button class="season-selector__link series-sort__button" type="button" data-movie-sort="timeline">Ordenar por cronologia Trek</button>
+      </div>
+
+      <div id="movies-grid" class="movies-grid" aria-live="polite"></div>
+    </div>
+  </dialog>
 
   <script type="module" src="game.js"></script>
 </body>
