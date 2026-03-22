@@ -116,6 +116,94 @@ img {
   gap: 18px;
 }
 
+.language-panel {
+  display: grid;
+  gap: 8px;
+  margin-left: auto;
+  min-width: 250px;
+}
+
+.language-panel__label {
+  color: var(--accent-strong);
+  font-size: 0.68rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.language-panel__rail {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 6px;
+  padding: 8px;
+  border: 1px solid rgba(255, 211, 110, 0.24);
+  border-radius: 16px 28px 16px 28px;
+  background:
+    linear-gradient(90deg, rgba(255, 166, 92, 0.22) 0 15%, rgba(127, 231, 255, 0.08) 15% 100%),
+    rgba(6, 15, 28, 0.8);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.05),
+    0 12px 28px rgba(0, 0, 0, 0.28);
+}
+
+.language-panel__button {
+  min-width: 48px;
+  min-height: 34px;
+  padding: 0 12px;
+  border: 1px solid rgba(144, 196, 255, 0.24);
+  border-radius: 12px 18px 12px 18px;
+  background:
+    linear-gradient(135deg, rgba(12, 28, 50, 0.96), rgba(22, 49, 84, 0.88));
+  color: var(--muted);
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  transition: transform 180ms ease, border-color 180ms ease, color 180ms ease, box-shadow 180ms ease, background 180ms ease;
+}
+
+.language-panel__button:hover,
+.language-panel__button:focus-visible {
+  transform: translateY(-2px);
+  color: var(--text);
+  border-color: rgba(255, 211, 110, 0.42);
+  box-shadow: 0 0 18px rgba(127, 231, 255, 0.16);
+}
+
+.language-panel__button.is-active {
+  color: #07101b;
+  border-color: transparent;
+  background:
+    linear-gradient(135deg, #ffd36e 0%, #ffb36b 35%, #7fe7ff 100%);
+  box-shadow:
+    0 0 18px rgba(255, 211, 110, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.google-translate-anchor,
+.goog-te-banner-frame,
+.goog-logo-link,
+.goog-te-gadget span,
+.goog-te-gadget-icon {
+  display: none !important;
+}
+
+body {
+  top: 0 !important;
+}
+
+.goog-te-gadget {
+  font-size: 0 !important;
+}
+
+.goog-te-combo {
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+}
+
 .brand,
 .topbar__link,
 .eyebrow,
@@ -1166,6 +1254,19 @@ h3 {
 
   .topbar__nav {
     gap: 12px;
+  }
+
+  .language-panel {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .language-panel__label {
+    text-align: left;
+  }
+
+  .language-panel__rail {
+    justify-content: flex-start;
   }
 
   .hero {

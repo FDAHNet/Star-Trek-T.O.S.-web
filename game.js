@@ -1,4 +1,5 @@
 import { MOVIE_DETAILS, SERIES_DETAILS } from "./franchise-data.js";
+import { setupLanguageSwitcher } from "./language-switcher.js";
 import { findSeriesSeasonEntry } from "./series-season-data.js";
 import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
 
@@ -39,6 +40,8 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
   var moviesGrid = document.getElementById("movies-grid");
   var movieSortButtons = Array.prototype.slice.call(document.querySelectorAll("[data-movie-sort]"));
   var starField = document.querySelector(".stars");
+
+  setupLanguageSwitcher();
 
   var castMembers = [
     { actor: "William Shatner", birth: "1931-03-22", death: null, seasons: [1, 2, 3] },
