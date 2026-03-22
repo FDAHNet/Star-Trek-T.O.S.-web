@@ -198,9 +198,69 @@
     return visible + " de " + total + " episodios visibles";
   }
 
+  function escapeXml(value) {
+    return String(value)
+      .replace(/&/g, "&amp;")
+      .replace(/"/g, "&quot;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
+  }
+
+  function getPalette(episode) {
+    var palettes = [
+      ["#61dafb", "#19324f", "#ffd36e"],
+      ["#ff8a65", "#2b1d42", "#7fe7ff"],
+      ["#9fa8da", "#101c3a", "#ffd36e"],
+      ["#80cbc4", "#12263f", "#ffb74d"],
+      ["#ef9a9a", "#2e153f", "#90caf9"],
+      ["#ce93d8", "#1d1d46", "#ffd180"]
+    ];
+
+    return palettes[episode.number % palettes.length];
+  }
+
+  function buildEpisodeArt(episode) {
+    var palette = getPalette(episode);
+    var left = palette[0];
+    var base = palette[1];
+    var accent = palette[2];
+    var title = escapeXml(episode.title);
+    var label = escapeXml("Episodio " + episode.number);
+    var summary = escapeXml(episode.summary.slice(0, 42).toUpperCase());
+    var xOffset = 70 + ((episode.number * 17) % 180);
+    var planetRadius = 64 + (episode.number % 4) * 10;
+    var svg = [
+      '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="' + title + '">',
+      '<defs>',
+      '<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">',
+      '<stop offset="0%" stop-color="' + left + '"/>',
+      '<stop offset="100%" stop-color="' + base + '"/>',
+      '</linearGradient>',
+      '</defs>',
+      '<rect width="800" height="450" fill="url(#bg)"/>',
+      '<circle cx="' + xOffset + '" cy="108" r="3" fill="#ffffff" fill-opacity="0.75"/>',
+      '<circle cx="640" cy="90" r="2" fill="#ffffff" fill-opacity="0.7"/>',
+      '<circle cx="712" cy="162" r="4" fill="#ffffff" fill-opacity="0.65"/>',
+      '<circle cx="180" cy="318" r="' + planetRadius + '" fill="' + accent + '" fill-opacity="0.86"/>',
+      '<ellipse cx="180" cy="318" rx="' + (planetRadius + 20) + '" ry="' + Math.round(planetRadius * 0.34) + '" fill="none" stroke="#f4f7fb" stroke-opacity="0.35" stroke-width="6"/>',
+      '<path d="M332 250C430 196 566 188 700 230L638 278C544 252 452 256 366 302L332 250Z" fill="#f4f7fb" fill-opacity="0.92"/>',
+      '<path d="M310 266L676 220L706 238L348 284L310 266Z" fill="' + accent + '" fill-opacity="0.88"/>',
+      '<path d="M530 225L580 146L602 152L566 230L530 225Z" fill="#dfe8f4" fill-opacity="0.8"/>',
+      '<rect x="360" y="42" width="384" height="44" rx="22" fill="#08111f" fill-opacity="0.35"/>',
+      '<text x="388" y="71" fill="#f4f7fb" font-size="22" font-family="Trebuchet MS, sans-serif" letter-spacing="2">' + label + '</text>',
+      '<text x="360" y="374" fill="#f4f7fb" font-size="40" font-family="Impact, sans-serif">' + title + '</text>',
+      '<text x="360" y="410" fill="#d7e4f3" font-size="18" font-family="Trebuchet MS, sans-serif">' + summary + '</text>',
+      "</svg>"
+    ].join("");
+
+    return "data:image/svg+xml;charset=UTF-8," + encodeURIComponent(svg);
+  }
+
   function buildEpisodeCard(episode) {
     return [
       '<article class="episode-card">',
+      '  <img class="episode-card__image" src="' + buildEpisodeArt(episode) + '" alt="Ilustración del episodio ' + episode.number + ': ' + episode.title + '">',
+      '  <div class="episode-card__content">',
       '  <div class="episode-card__top">',
       '    <div>',
       '      <span class="episode-card__number">Episodio ' + episode.number + '</span>',
@@ -209,6 +269,7 @@
       '    </div>',
       '  </div>',
       '  <p>' + episode.summary + '</p>',
+      '  </div>',
       '</article>'
     ].join("");
   }
