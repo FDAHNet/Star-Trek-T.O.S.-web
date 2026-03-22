@@ -387,6 +387,66 @@ h3 {
   font-size: 0.8rem;
 }
 
+.quick-map {
+  display: grid;
+  gap: 18px;
+}
+
+.quick-map__intro,
+.quick-map__group {
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+.quick-map__group:last-of-type {
+  padding-bottom: 0;
+}
+
+.quick-map__title {
+  font-size: 1.7rem;
+}
+
+.quick-map__text {
+  margin: 12px 0 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.quick-map__label {
+  margin: 0 0 10px;
+  color: var(--accent-strong);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.78rem;
+}
+
+.quick-map__dropdown {
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 14px 16px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.quick-map__action {
+  width: 100%;
+  margin-top: 14px;
+}
+
+.quick-map__action--movies {
+  justify-content: center;
+}
+
+.quick-map__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.quick-map__chip {
+  min-width: 0;
+  flex: 1 1 120px;
+}
+
 .stat-list {
   list-style: none;
   margin: 0;
@@ -413,6 +473,10 @@ h3 {
 
 .stat-list strong {
   color: var(--text);
+}
+
+.stat-list--quick-map {
+  gap: 12px;
 }
 
 .stat-dropdown summary {
@@ -1106,6 +1170,15 @@ h3 {
   .movies-grid,
   .episode-grid {
     grid-template-columns: 1fr;
+  }
+
+  .quick-map__chips {
+    flex-direction: column;
+  }
+
+  .quick-map__chip {
+    width: 100%;
+    flex: none;
   }
 
   .episode-card__top {

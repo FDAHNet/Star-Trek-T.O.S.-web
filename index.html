@@ -50,9 +50,18 @@
           <img src="enterprise.svg" alt="Ilustracion estilizada de la USS Enterprise en el espacio">
         </div>
         <p class="hero__card-label">Mapa rapido</p>
-        <ul class="stat-list">
-          <li class="stat-list__dropdown-item">
-            <details class="stat-dropdown">
+        <div class="quick-map">
+          <div class="quick-map__intro">
+            <h2 class="quick-map__title">Navegador del universo</h2>
+            <p class="quick-map__text">
+              Usa este panel para saltar directamente a una serie, abrir el archivo de peliculas o entrar a las tres
+              temporadas de la serie original.
+            </p>
+          </div>
+
+          <div class="quick-map__group">
+            <p class="quick-map__label">Series</p>
+            <details class="stat-dropdown quick-map__dropdown">
               <summary>
                 <span id="home-series-summary">Elige Serie</span>
               </summary>
@@ -61,13 +70,29 @@
                 <label class="stat-dropdown__field" for="home-series-select">Selecciona una serie</label>
                 <select id="home-series-select" class="stat-dropdown__select"></select>
                 <p id="home-series-detail" class="stat-dropdown__detail" aria-live="polite"></p>
+                <a id="home-series-link" class="button button--primary quick-map__action" href="./serie-star-trek-the-original-series.html">Abrir ficha de la serie</a>
               </div>
             </details>
-          </li>
-          <li><span>Episodios clasicos</span><strong id="home-stat-episode-count"></strong></li>
-          <li><span>Otras series listadas</span><strong id="home-stat-series-count"></strong></li>
-          <li><span>Emision original</span><strong id="home-stat-years"></strong></li>
-        </ul>
+          </div>
+
+          <div class="quick-map__group">
+            <p class="quick-map__label">Peliculas</p>
+            <button id="home-movies-shortcut" class="button button--ghost quick-map__action quick-map__action--movies" type="button">
+              Abrir archivo de peliculas
+            </button>
+          </div>
+
+          <div class="quick-map__group">
+            <p class="quick-map__label">T.O.S.</p>
+            <div id="home-season-shortcuts" class="quick-map__chips" aria-label="Temporadas de la serie original"></div>
+          </div>
+
+          <ul class="stat-list stat-list--quick-map">
+            <li><span>Series activas en la web</span><strong id="home-stat-series-count"></strong></li>
+            <li><span>Peliculas archivadas</span><strong id="home-stat-movie-count"></strong></li>
+            <li><span>Cronologia cubierta</span><strong id="home-stat-timeline"></strong></li>
+          </ul>
+        </div>
       </aside>
     </section>
   </header>

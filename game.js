@@ -21,12 +21,15 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
   var homeSeasonGrid = document.getElementById("season-overview-grid");
   var franchiseSeriesGrid = document.getElementById("franchise-series-grid");
   var seriesSortButtons = Array.prototype.slice.call(document.querySelectorAll("[data-series-sort]"));
-  var homeStatEpisodeCount = document.getElementById("home-stat-episode-count");
   var homeStatSeriesCount = document.getElementById("home-stat-series-count");
-  var homeStatYears = document.getElementById("home-stat-years");
+  var homeStatMovieCount = document.getElementById("home-stat-movie-count");
+  var homeStatTimeline = document.getElementById("home-stat-timeline");
   var homeSeriesSelect = document.getElementById("home-series-select");
   var homeSeriesDetail = document.getElementById("home-series-detail");
   var homeSeriesSummary = document.getElementById("home-series-summary");
+  var homeSeriesLink = document.getElementById("home-series-link");
+  var homeSeasonShortcuts = document.getElementById("home-season-shortcuts");
+  var homeMoviesShortcut = document.getElementById("home-movies-shortcut");
   var openMoviesModalButton = document.getElementById("open-movies-modal");
   var closeMoviesModalButton = document.getElementById("close-movies-modal");
   var moviesModal = document.getElementById("movies-modal");
@@ -59,6 +62,26 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
     });
 
     return series ? "./serie-" + series.slug + ".html" : "#";
+  }
+
+  function getUniverseSeries() {
+    return [
+      {
+        title: "Star Trek: The Original Series",
+        seasonsCount: 3,
+        seasonBreakdown: "29, 26 y 24 episodios",
+        timelineLabel: "2265-2269",
+        releaseLabel: "1966-1969"
+      }
+    ].concat(OTHER_SERIES.map(function (item) {
+      return {
+        title: item.title,
+        seasonsCount: item.seasonsCount,
+        seasonBreakdown: item.seasonBreakdown,
+        timelineLabel: item.timelineLabel,
+        releaseLabel: item.releaseLabel
+      };
+    }));
   }
 
   function getMovieDetailUrl(title) {
@@ -530,6 +553,10 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
 
     openMoviesModalButton.addEventListener("click", openModal);
 
+    if (homeMoviesShortcut) {
+      homeMoviesShortcut.addEventListener("click", openModal);
+    }
+
     if (closeMoviesModalButton) {
       closeMoviesModalButton.addEventListener("click", closeModal);
     }
@@ -548,33 +575,18 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
   }
 
   function renderHomeStats() {
-    var totalEpisodes = Object.keys(SEASONS).reduce(function (sum, key) {
-      return sum + SEASONS[key].episodesCount;
-    }, 0);
-    var universeSeries = [
-      {
-        title: "Star Trek: The Original Series",
-        seasonsCount: 3,
-        seasonBreakdown: "29, 26 y 24 episodios"
-      }
-    ].concat(OTHER_SERIES.map(function (item) {
-      return {
-        title: item.title,
-        seasonsCount: item.seasonsCount,
-        seasonBreakdown: item.seasonBreakdown
-      };
-    }));
-
-    if (homeStatEpisodeCount) {
-      homeStatEpisodeCount.textContent = String(totalEpisodes);
-    }
+    var universeSeries = getUniverseSeries();
 
     if (homeStatSeriesCount) {
       homeStatSeriesCount.textContent = String(SERIES_DETAILS.length);
     }
 
-    if (homeStatYears) {
-      homeStatYears.textContent = "1966-1969";
+    if (homeStatMovieCount) {
+      homeStatMovieCount.textContent = String(MOVIES.length);
+    }
+
+    if (homeStatTimeline) {
+      homeStatTimeline.textContent = "2151-siglo XXXII";
     }
 
     if (homeSeriesSelect) {
@@ -600,7 +612,16 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
         homeSeriesDetail.textContent =
           selectedSeries.seasonsCount +
           " temporadas | capitulos por temporada: " +
-          selectedSeries.seasonBreakdown + ".";
+          selectedSeries.seasonBreakdown +
+          " | cronologia: " +
+          selectedSeries.timelineLabel +
+          " | emision: " +
+          selectedSeries.releaseLabel +
+          ".";
+      }
+
+      if (homeSeriesLink) {
+        homeSeriesLink.setAttribute("href", getSeriesDetailUrl(selectedSeries.title));
       }
     }
 
@@ -610,6 +631,14 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
       homeSeriesSelect.addEventListener("change", function (event) {
         renderSelectedSeriesDetail(event.target.value);
       });
+    }
+
+    if (homeSeasonShortcuts) {
+      homeSeasonShortcuts.innerHTML = Object.keys(SEASONS).map(function (key) {
+        var seasonData = SEASONS[key];
+
+        return '<a class="season-selector__link quick-map__chip" href="' + getSeasonUrl(seasonData.number) + '">Temporada ' + seasonData.number + "</a>";
+      }).join("");
     }
   }
 
