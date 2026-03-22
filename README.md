@@ -36,6 +36,10 @@ Previsualizar la versión compilada:
 npm run preview
 ```
 
+## Publicación en Internet
+
+El proyecto está preparado para desplegarse automáticamente en **GitHub Pages** mediante GitHub Actions cada vez que haces push a `main`.
+
 ## Archivos principales
 
 - `index.html`
