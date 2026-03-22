@@ -346,6 +346,41 @@ h3 {
   color: var(--text);
 }
 
+.season-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.season-selector__link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 16px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  color: var(--muted);
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.04);
+  transition: transform 180ms ease, border-color 180ms ease, color 180ms ease, background-color 180ms ease;
+}
+
+.season-selector__link:hover,
+.season-selector__link:focus-visible {
+  transform: translateY(-2px);
+  color: var(--text);
+  border-color: rgba(255, 211, 110, 0.45);
+}
+
+.season-selector__link.is-active {
+  color: #08101c;
+  background: linear-gradient(135deg, var(--accent) 0%, #d8fbff 100%);
+  border-color: transparent;
+  font-weight: 700;
+}
+
 .character-card {
   border-radius: 26px;
   overflow: hidden;
