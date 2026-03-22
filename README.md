@@ -10,12 +10,39 @@ Sitio web en español dedicado a la primera temporada de **Star Trek: The Origin
 - Buscador en tiempo real
 - Ilustraciones SVG locales
 
+## Desarrollo con npm
+
+Instalación de dependencias:
+
+```powershell
+npm install
+```
+
+Servidor local de desarrollo:
+
+```powershell
+npm run dev
+```
+
+Compilar para producción:
+
+```powershell
+npm run build
+```
+
+Previsualizar la versión compilada:
+
+```powershell
+npm run preview
+```
+
 ## Archivos principales
 
 - `index.html`
 - `styles.css`
 - `game.js`
+- `package.json`
 
-## Cómo abrir el proyecto
+## Proyecto estático
 
-Abre `index.html` en tu navegador.
+La web sigue siendo HTML, CSS y JavaScript plano. Vite se usa para servirla en local y generar una build moderna.
