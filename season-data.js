@@ -226,3 +226,105 @@ export var SEASONS = {
     ]
   }
 };
+
+export var OTHER_SERIES = [
+  {
+    title: "Star Trek: Enterprise",
+    releaseLabel: "2001-2005",
+    releaseStart: 2001,
+    timelineLabel: "2151-2155",
+    timelineStart: 2151,
+    stardateLabel: "Antes del sistema regular de fechas estelares televisivas",
+    summary: "Precuela sobre los primeros viajes humanos de largo alcance y el nacimiento de la futura Federación."
+  },
+  {
+    title: "Star Trek: Short Treks",
+    releaseLabel: "2018-2020",
+    releaseStart: 2018,
+    timelineLabel: "2239-3181",
+    timelineStart: 2239,
+    stardateLabel: "Antología repartida entre varias eras del universo Trek",
+    summary: "Colección de historias cortas ambientadas en distintas épocas, desde la Enterprise de Pike hasta el futuro lejano."
+  },
+  {
+    title: "Star Trek: Discovery",
+    releaseLabel: "2017-2024",
+    releaseStart: 2017,
+    timelineLabel: "2256-2258 y 3188-3191",
+    timelineStart: 2256,
+    stardateLabel: "Salta del siglo XXIII al XXXII tras un viaje temporal extremo",
+    summary: "Arranca antes de T.O.S. y luego da un gran salto al futuro, ampliando dos eras muy distintas de la franquicia."
+  },
+  {
+    title: "Star Trek: Strange New Worlds",
+    releaseLabel: "2022-presente",
+    releaseStart: 2022,
+    timelineLabel: "2259-2261",
+    timelineStart: 2259,
+    stardateLabel: "Etapa inmediatamente anterior a la misión clásica de Kirk",
+    summary: "Sigue a Pike, Spock y Number One en los años justo previos a la serie original."
+  },
+  {
+    title: "Star Trek: The Animated Series",
+    releaseLabel: "1973-1974",
+    releaseStart: 1973,
+    timelineLabel: "2269-2270",
+    timelineStart: 2269,
+    stardateLabel: "Fechas estelares aprox. 5371-6334",
+    summary: "Continuación animada directa de la tripulación clásica, con el mismo reparto principal de voces."
+  },
+  {
+    title: "Star Trek: The Next Generation",
+    releaseLabel: "1987-1994",
+    releaseStart: 1987,
+    timelineLabel: "2364-2370",
+    timelineStart: 2364,
+    stardateLabel: "Fechas estelares aprox. 41153-47988",
+    summary: "Presenta a la nueva Enterprise de Picard y relanza Star Trek para una nueva generación de audiencia."
+  },
+  {
+    title: "Star Trek: Deep Space Nine",
+    releaseLabel: "1993-1999",
+    releaseStart: 1993,
+    timelineLabel: "2369-2375",
+    timelineStart: 2369,
+    stardateLabel: "Fechas estelares aprox. 46379-52861",
+    summary: "Drama coral en una estación espacial fija, con política, guerra y religión como ejes centrales."
+  },
+  {
+    title: "Star Trek: Voyager",
+    releaseLabel: "1995-2001",
+    releaseStart: 1995,
+    timelineLabel: "2371-2378",
+    timelineStart: 2371,
+    stardateLabel: "Fechas estelares aprox. 48315-54973",
+    summary: "La USS Voyager queda aislada en el cuadrante Delta y debe intentar regresar a casa durante años."
+  },
+  {
+    title: "Star Trek: Lower Decks",
+    releaseLabel: "2020-2024",
+    releaseStart: 2020,
+    timelineLabel: "2380-2382",
+    timelineStart: 2380,
+    stardateLabel: "Fechas estelares aprox. 57436-59499",
+    summary: "Comedia animada centrada en oficiales subalternos, pero muy conectada con el canon clásico y moderno."
+  },
+  {
+    title: "Star Trek: Prodigy",
+    releaseLabel: "2021-2024",
+    releaseStart: 2021,
+    timelineLabel: "2383-2385",
+    timelineStart: 2383,
+    stardateLabel: "Después de Voyager, con Janeway como referencia clave",
+    summary: "Serie animada sobre un grupo joven que aprende a convertirse en tripulación mientras explora la galaxia."
+  },
+  {
+    title: "Star Trek: Picard",
+    releaseLabel: "2020-2023",
+    releaseStart: 2020,
+    timelineLabel: "2399-2402",
+    timelineStart: 2399,
+    stardateLabel: "Después de Nemesis y del final de la era TNG",
+    summary: "Jean-Luc Picard vuelve décadas después para cerrar grandes hilos de su vida y de su generación."
+  }
+];

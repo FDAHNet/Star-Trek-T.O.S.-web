@@ -3,215 +3,132 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Star Trek | The Original Series</title>
+  <title>Star Trek - La Serie Original</title>
   <meta
     name="description"
-    content="Web en español sobre las tres temporadas de Star Trek: The Original Series, con selector por temporada y guías de episodios."
+    content="Portada general en espanol sobre Star Trek: La Serie Original, sus tres temporadas y su lugar dentro del resto de series televisivas de Star Trek."
   >
   <link rel="stylesheet" href="styles.css">
 </head>
-<body data-season="1">
+<body data-page="home">
   <div class="stars" aria-hidden="true"></div>
 
   <header class="hero">
     <nav class="topbar">
-      <p class="brand">USS Enterprise NCC-1701</p>
+      <a class="brand" href="./index.html">Star Trek - La Serie Original</a>
       <div class="topbar__nav">
-        <a class="topbar__link" href="#actores">Actores</a>
-        <a class="topbar__link" href="#personajes">Personajes</a>
-        <a class="topbar__link" href="#episodios">Episodios</a>
+        <a class="topbar__link" href="#vision">La web</a>
+        <a class="topbar__link" href="#temporadas">Temporadas</a>
+        <a class="topbar__link" href="#otras-series">Otras series</a>
       </div>
     </nav>
 
     <section class="hero__content">
       <div class="hero__copy">
-        <p id="season-badge" class="eyebrow"></p>
-        <h1 id="season-hero-title"></h1>
-        <p id="season-hero-text" class="hero__text"></p>
+        <p class="eyebrow">Explorador en espanol</p>
+        <h1>Star Trek - La Serie Original</h1>
+        <p class="hero__text">
+          Esta portada sirve como punto de entrada a toda la web: explica de que va Star Trek: The Original Series,
+          resume las tres temporadas y te deja saltar a cada guia con sus episodios, personajes y actores.
+        </p>
         <div class="hero__actions">
-          <a class="button button--primary" href="#resumen">Ver resumen</a>
-          <a class="button button--ghost" href="#episodios">Ver episodios</a>
+          <a class="button button--primary" href="#temporadas">Explorar temporadas</a>
+          <a class="button button--ghost" href="./temporada-1.html">Entrar en temporada 1</a>
         </div>
       </div>
 
-      <aside class="hero__card" aria-label="Datos clave de la temporada">
+      <aside class="hero__card" aria-label="Datos clave del sitio">
         <div class="hero__visual">
-          <img src="enterprise.svg" alt="Ilustración estilizada de la USS Enterprise en el espacio">
+          <img src="enterprise.svg" alt="Ilustracion estilizada de la USS Enterprise en el espacio">
         </div>
-        <p class="hero__card-label">Datos rápidos</p>
+        <p class="hero__card-label">Mapa rapido</p>
         <ul class="stat-list">
-          <li><span>Temporada</span><strong id="stat-season"></strong></li>
-          <li><span>Episodios</span><strong id="stat-episodes"></strong></li>
-          <li><span>Cadena original</span><strong>NBC</strong></li>
-          <li><span>Años</span><strong id="stat-years"></strong></li>
+          <li><span>Temporadas T.O.S.</span><strong id="home-stat-season-count"></strong></li>
+          <li><span>Episodios clasicos</span><strong id="home-stat-episode-count"></strong></li>
+          <li><span>Otras series listadas</span><strong id="home-stat-series-count"></strong></li>
+          <li><span>Emision original</span><strong id="home-stat-years"></strong></li>
         </ul>
       </aside>
     </section>
   </header>
 
   <main>
-    <section id="resumen" class="section section--intro">
+    <section id="vision" class="section section--intro">
       <div class="section-heading">
-        <p class="eyebrow">Resumen</p>
-        <h2 id="summary-title"></h2>
-      </div>
-
-      <div class="intro-grid">
-        <article class="intro-card">
-          <h3 id="summary-card-1-title"></h3>
-          <p id="summary-card-1-text"></p>
-        </article>
-
-        <article class="intro-card">
-          <h3 id="summary-card-2-title"></h3>
-          <p id="summary-card-2-text"></p>
-        </article>
-
-        <article class="intro-card">
-          <h3 id="summary-card-3-title"></h3>
-          <p id="summary-card-3-text"></p>
-        </article>
-
-        <article id="actores" class="intro-card intro-card--cast">
-          <h3>Actores y edades</h3>
-          <p id="cast-age-intro"></p>
-          <ul id="cast-age-list" class="cast-age-list"></ul>
-        </article>
-      </div>
-    </section>
-
-    <section id="personajes" class="section">
-      <div class="section-heading">
-        <p class="eyebrow">Tripulación de la Enterprise</p>
-        <h2>Personajes principales y recurrentes de la serie</h2>
+        <p class="eyebrow">La web</p>
+        <h2>Una guia central para entender la serie clasica y su legado</h2>
         <p class="section-text">
-          La tripulación cambia ligeramente entre temporadas, pero este es el núcleo más reconocible de la nave a lo largo de la serie original.
+          La idea de esta pagina es reunir en espanol lo esencial de la serie original: que cuenta, como evoluciona
+          a lo largo de sus tres temporadas y como encaja dentro del universo mas amplio de Star Trek.
         </p>
       </div>
 
-      <div class="character-grid">
-        <article class="character-card">
-          <img class="character-card__image" src="kirk.svg" alt="Retrato ilustrado del capitán James T. Kirk">
-          <div class="character-card__body">
-            <p class="character-card__role">Capitán</p>
-            <h3>James T. Kirk</h3>
-            <p>Impulsivo, estratega y carismático. Lidera la Enterprise tomando decisiones rápidas incluso en situaciones límite.</p>
-          </div>
+      <div class="intro-grid intro-grid--home">
+        <article class="intro-card">
+          <h3>De que va</h3>
+          <p>
+            La USS Enterprise explora mundos desconocidos mientras Kirk, Spock y McCoy afrontan conflictos diplomaticos,
+            cientificos y morales que definieron la identidad de Star Trek.
+          </p>
         </article>
 
-        <article class="character-card">
-          <img class="character-card__image" src="spock.svg" alt="Retrato ilustrado de Spock">
-          <div class="character-card__body">
-            <p class="character-card__role">Primer oficial y ciencia</p>
-            <h3>Spock</h3>
-            <p>Su lógica vulcana aporta frialdad analítica, pero también una complejidad emocional clave en toda la serie.</p>
-          </div>
+        <article class="intro-card">
+          <h3>Como se navega</h3>
+          <p>
+            Cada temporada tiene su propia subpagina con resumen, reparto, personajes principales, buscador de episodios
+            y una ruta estelar para orientarte rapidamente.
+          </p>
         </article>
 
-        <article class="character-card">
-          <img class="character-card__image" src="mccoy.svg" alt="Retrato ilustrado del doctor Leonard McCoy">
-          <div class="character-card__body">
-            <p class="character-card__role">Médico jefe</p>
-            <h3>Leonard McCoy</h3>
-            <p>Representa la intuición y la conciencia moral. Su relación con Kirk y Spock define muchas decisiones del puente.</p>
-          </div>
-        </article>
-
-        <article class="character-card">
-          <img class="character-card__image" src="uhura.svg" alt="Retrato ilustrado de Nyota Uhura">
-          <div class="character-card__body">
-            <p class="character-card__role">Comunicaciones</p>
-            <h3>Nyota Uhura</h3>
-            <p>Es una presencia esencial en el puente, responsable de mantener el contacto con mundos, bases y naves desconocidas.</p>
-          </div>
-        </article>
-
-        <article class="character-card">
-          <img class="character-card__image" src="sulu.svg" alt="Retrato ilustrado de Hikaru Sulu">
-          <div class="character-card__body">
-            <p class="character-card__role">Timón</p>
-            <h3>Hikaru Sulu</h3>
-            <p>Pilota la nave con precisión y aporta serenidad en combate, exploración y maniobras de alto riesgo.</p>
-          </div>
-        </article>
-
-        <article class="character-card">
-          <img class="character-card__image" src="scotty.svg" alt="Retrato ilustrado de Montgomery Scott">
-          <div class="character-card__body">
-            <p class="character-card__role">Ingeniería</p>
-            <h3>Montgomery Scott</h3>
-            <p>El ingeniero jefe mantiene la Enterprise en funcionamiento cuando todo parece a punto de romperse.</p>
-          </div>
-        </article>
-
-        <article class="character-card">
-          <img class="character-card__image" src="chekov.svg" alt="Retrato ilustrado de Pavel Chekov">
-          <div class="character-card__body">
-            <p class="character-card__role">Navegación</p>
-            <h3>Pavel Chekov</h3>
-            <p>Se incorpora en la segunda temporada y aporta juventud, entusiasmo y una voz rusa muy reconocible en el puente.</p>
-          </div>
-        </article>
-
-        <article class="character-card">
-          <img class="character-card__image" src="rand.svg" alt="Retrato ilustrado de Janice Rand">
-          <div class="character-card__body">
-            <p class="character-card__role">Asistente del capitán</p>
-            <h3>Janice Rand</h3>
-            <p>Su presencia muestra el lado cotidiano del mando y aporta cercanía humana al entorno del capitán Kirk.</p>
-          </div>
-        </article>
-
-        <article class="character-card">
-          <img class="character-card__image" src="chapel.svg" alt="Retrato ilustrado de Christine Chapel">
-          <div class="character-card__body">
-            <p class="character-card__role">Enfermería</p>
-            <h3>Christine Chapel</h3>
-            <p>Enfermera de la nave y figura recurrente en la sección médica, con especial peso en varias tramas emocionales.</p>
-          </div>
+        <article class="intro-card">
+          <h3>Por que empezar aqui</h3>
+          <p>
+            Esta portada te deja ver el conjunto antes de entrar al detalle, y al final incluye el resto de series de
+            Star Trek ordenables por emision o por cronologia interna del universo.
+          </p>
         </article>
       </div>
     </section>
 
-    <section id="episodios" class="section">
-      <nav class="season-selector" aria-label="Selector de temporadas">
-        <a class="season-selector__link" data-season-link="1" href="./index.html">Temporada 1</a>
-        <a class="season-selector__link" data-season-link="2" href="./temporada-2.html">Temporada 2</a>
-        <a class="season-selector__link" data-season-link="3" href="./temporada-3.html">Temporada 3</a>
-      </nav>
-
+    <section id="temporadas" class="section">
       <div class="section-heading">
-        <p class="eyebrow">Guía de episodios</p>
-        <h2 id="episodes-title"></h2>
-        <p id="episodes-subtitle" class="section-text"></p>
+        <p class="eyebrow">Temporadas</p>
+        <h2>Las tres etapas de la mision original</h2>
+        <p class="section-text">
+          Desde la fundacion del canon en la primera temporada hasta el cierre mas extraño y melancolico de la tercera,
+          aqui tienes una entrada rapida a cada bloque de episodios.
+        </p>
       </div>
 
-      <div class="episode-toolbar">
-        <label class="search-field" for="episode-search">
-          <span class="search-field__label">Buscar episodio</span>
-          <input id="episode-search" class="search-field__input" type="search" placeholder="Ej.: Khan, tiempo, Spock, episodio 14">
-        </label>
-        <p id="episode-count" class="episode-count" aria-live="polite"></p>
-      </div>
-
-      <div id="episode-grid" class="episode-grid" aria-live="polite"></div>
-      <p id="empty-state" class="empty-state" hidden>No hay episodios que coincidan con esa búsqueda.</p>
+      <div id="season-overview-grid" class="season-overview-grid" aria-live="polite"></div>
     </section>
 
-    <section class="section section--timeline">
+    <section id="otras-series" class="section section--franchise">
       <div class="section-heading">
-        <p class="eyebrow">Ruta estelar</p>
-        <h2 id="timeline-title"></h2>
+        <p class="eyebrow">Mas Star Trek</p>
+        <h2>Todas las demas series televisivas del universo Star Trek</h2>
+        <p class="section-text">
+          Puedes ordenarlas por fecha de emision real o por la fecha en la que ocurren dentro del universo de Star Trek.
+          Cada ficha indica su marco temporal o la referencia de fecha estelar mas util para ubicarla.
+        </p>
       </div>
 
-      <div id="timeline-grid" class="timeline"></div>
+      <div class="series-sort" role="group" aria-label="Ordenar series">
+        <button class="season-selector__link series-sort__button" type="button" data-series-sort="release">Ordenar por emision</button>
+        <button class="season-selector__link series-sort__button" type="button" data-series-sort="timeline">Ordenar por cronologia Trek</button>
+      </div>
+
+      <div id="franchise-series-grid" class="series-grid" aria-live="polite"></div>
     </section>
 
     <section class="section section--footer-note">
       <div class="footer-note">
-        <p class="eyebrow">Curiosidad</p>
-        <h2 id="footer-note-title"></h2>
-        <p id="footer-note-text"></p>
+        <p class="eyebrow">Puente de mando</p>
+        <h2>De la portada al detalle</h2>
+        <p>
+          Usa esta pagina como centro de navegacion: entra a cada temporada para ver los episodios completos y vuelve
+          aqui cuando quieras situar la serie original dentro del resto del universo televisivo de Star Trek.
+        </p>
       </div>
     </section>
   </main>

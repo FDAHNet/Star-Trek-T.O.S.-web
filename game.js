@@ -1,10 +1,13 @@
-import { SEASONS } from "./season-data.js";
+import { OTHER_SERIES, SEASONS } from "./season-data.js";
 
 (function () {
   "use strict";
 
-  var seasonId = Number(document.body.getAttribute("data-season") || 1);
+  var body = document.body;
+  var pageType = body.getAttribute("data-page") === "home" ? "home" : "season";
+  var seasonId = Number(body.getAttribute("data-season") || 1);
   var season = SEASONS[seasonId] || SEASONS[1];
+
   var episodeGrid = document.getElementById("episode-grid");
   var episodeCount = document.getElementById("episode-count");
   var episodeSearch = document.getElementById("episode-search");
@@ -13,6 +16,15 @@ import { SEASONS } from "./season-data.js";
   var seasonLinks = Array.prototype.slice.call(document.querySelectorAll("[data-season-link]"));
   var castAgeList = document.getElementById("cast-age-list");
   var timelineGrid = document.getElementById("timeline-grid");
+
+  var homeSeasonGrid = document.getElementById("season-overview-grid");
+  var franchiseSeriesGrid = document.getElementById("franchise-series-grid");
+  var seriesSortButtons = Array.prototype.slice.call(document.querySelectorAll("[data-series-sort]"));
+  var homeStatSeasonCount = document.getElementById("home-stat-season-count");
+  var homeStatEpisodeCount = document.getElementById("home-stat-episode-count");
+  var homeStatSeriesCount = document.getElementById("home-stat-series-count");
+  var homeStatYears = document.getElementById("home-stat-years");
+
   var castMembers = [
     { actor: "William Shatner", birth: "1931-03-22", death: null, seasons: [1, 2, 3] },
     { actor: "Leonard Nimoy", birth: "1931-03-26", death: "2015-02-27", seasons: [1, 2, 3] },
@@ -101,13 +113,13 @@ import { SEASONS } from "./season-data.js";
   function buildEpisodeCard(episode) {
     return [
       '<article class="episode-card">',
-      '  <img class="episode-card__image" src="' + buildEpisodeArt(episode) + '" alt="Ilustración del episodio ' + episode.number + ": " + episode.title + '">',
+      '  <img class="episode-card__image" src="' + buildEpisodeArt(episode) + '" alt="Ilustracion del episodio ' + episode.number + ": " + episode.title + '">',
       '  <div class="episode-card__content">',
       '    <div class="episode-card__top">',
       "      <div>",
       '        <span class="episode-card__number">Episodio ' + episode.number + "</span>",
       '        <h3 class="episode-card__title">' + episode.title + "</h3>",
-      '        <p class="episode-card__meta">Emisión original: ' + episode.date + "</p>",
+      '        <p class="episode-card__meta">Emision original: ' + episode.date + "</p>",
       "      </div>",
       "    </div>",
       "    <p>" + episode.summary + "</p>",
@@ -171,7 +183,7 @@ import { SEASONS } from "./season-data.js";
       intro.innerHTML =
         'Edades calculadas durante el estreno de la temporada el <strong>' +
         season.episodes[0].date +
-        '</strong>, y situación verificada a <strong>22 de marzo de 2026</strong>.';
+        '</strong>, y situacion verificada a <strong>22 de marzo de 2026</strong>.';
     }
 
     if (!castAgeList) {
@@ -181,7 +193,7 @@ import { SEASONS } from "./season-data.js";
     castAgeList.innerHTML = visibleCast.map(function (member) {
       var ageThen = ageAtDate(member.birth, season.premiereDate);
       var ageNowOrDeath = member.death
-        ? "falleció en " + member.death.slice(0, 4) + " con " + ageAtDate(member.birth, member.death)
+        ? "fallecio en " + member.death.slice(0, 4) + " con " + ageAtDate(member.birth, member.death)
         : ageAtDate(member.birth, "2026-03-22") + " hoy";
 
       return "<li><strong>" + member.actor + "</strong>: " + ageThen + " entonces | " + ageNowOrDeath + "</li>";
@@ -214,11 +226,9 @@ import { SEASONS } from "./season-data.js";
 
     Object.keys(mapping).forEach(function (id) {
       var element = document.getElementById(id);
-      if (!element) {
-        return;
+      if (element) {
+        element.textContent = mapping[id];
       }
-
-      element.textContent = mapping[id];
     });
 
     if (episodeSearch) {
@@ -281,6 +291,122 @@ import { SEASONS } from "./season-data.js";
     characterCards.forEach(function (card) {
       observer.observe(card);
     });
+  }
+
+  function getSeasonUrl(number) {
+    return "./temporada-" + number + ".html";
+  }
+
+  function renderHomeSeasonCards() {
+    if (!homeSeasonGrid) {
+      return;
+    }
+
+    homeSeasonGrid.innerHTML = Object.keys(SEASONS).map(function (key) {
+      var seasonData = SEASONS[key];
+
+      return [
+        '<article class="season-overview-card">',
+        '  <p class="season-overview-card__eyebrow">' + seasonData.badge + "</p>",
+        "  <h3>" + seasonData.heroTitle + "</h3>",
+        "  <p>" + seasonData.heroText + "</p>",
+        '  <div class="season-overview-card__meta">',
+        '    <span class="timeline__tag">' + seasonData.episodesCount + " episodios</span>",
+        '    <span class="timeline__tag">' + seasonData.years + "</span>",
+        "  </div>",
+        '  <p class="season-overview-card__focus"><strong>Clave:</strong> ' + seasonData.summaryCards[2].text + "</p>",
+        '  <a class="button button--primary" href="' + getSeasonUrl(seasonData.number) + '">Abrir temporada ' + seasonData.number + "</a>",
+        "</article>"
+      ].join("");
+    }).join("");
+  }
+
+  function buildSeriesCard(item) {
+    return [
+      '<article class="series-card">',
+      '  <div class="series-card__top">',
+      "    <div>",
+      "      <h3>" + item.title + "</h3>",
+      '      <p class="series-card__summary">' + item.summary + "</p>",
+      "    </div>",
+      '    <span class="series-card__release">' + item.releaseLabel + "</span>",
+      "  </div>",
+      '  <div class="series-card__meta">',
+      '    <p><strong>Orden de emision:</strong> ' + item.releaseLabel + "</p>",
+      '    <p><strong>Orden dentro del universo:</strong> ' + item.timelineLabel + "</p>",
+      '    <p><strong>Fecha estelar o marco temporal:</strong> ' + item.stardateLabel + "</p>",
+      "  </div>",
+      "</article>"
+    ].join("");
+  }
+
+  function renderFranchiseSeries(sortMode) {
+    if (!franchiseSeriesGrid) {
+      return;
+    }
+
+    var sortedSeries = OTHER_SERIES.slice().sort(function (left, right) {
+      if (sortMode === "timeline") {
+        return left.timelineStart - right.timelineStart || left.releaseStart - right.releaseStart;
+      }
+
+      return left.releaseStart - right.releaseStart || left.timelineStart - right.timelineStart;
+    });
+
+    franchiseSeriesGrid.innerHTML = sortedSeries.map(buildSeriesCard).join("");
+
+    seriesSortButtons.forEach(function (button) {
+      var isActive = button.getAttribute("data-series-sort") === sortMode;
+      button.classList.toggle("is-active", isActive);
+      if (isActive) {
+        button.setAttribute("aria-pressed", "true");
+      } else {
+        button.setAttribute("aria-pressed", "false");
+      }
+    });
+  }
+
+  function setupSeriesSort() {
+    if (!seriesSortButtons.length) {
+      return;
+    }
+
+    seriesSortButtons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        renderFranchiseSeries(button.getAttribute("data-series-sort") || "release");
+      });
+    });
+  }
+
+  function renderHomeStats() {
+    var totalEpisodes = Object.keys(SEASONS).reduce(function (sum, key) {
+      return sum + SEASONS[key].episodesCount;
+    }, 0);
+
+    if (homeStatSeasonCount) {
+      homeStatSeasonCount.textContent = String(Object.keys(SEASONS).length);
+    }
+
+    if (homeStatEpisodeCount) {
+      homeStatEpisodeCount.textContent = String(totalEpisodes);
+    }
+
+    if (homeStatSeriesCount) {
+      homeStatSeriesCount.textContent = String(OTHER_SERIES.length);
+    }
+
+    if (homeStatYears) {
+      homeStatYears.textContent = "1966-1969";
+    }
+  }
+
+  if (pageType === "home") {
+    document.title = "Star Trek - La Serie Original";
+    renderHomeStats();
+    renderHomeSeasonCards();
+    renderFranchiseSeries("release");
+    setupSeriesSort();
+    return;
   }
 
   renderSeasonShell();
