@@ -302,6 +302,10 @@ h3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.intro-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .character-grid {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
@@ -317,6 +321,29 @@ h3 {
 .timeline__item p,
 .footer-note p {
   margin: 14px 0 0;
+}
+
+.intro-card--cast {
+  grid-column: span 2;
+}
+
+.cast-age-list {
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+
+.cast-age-list li {
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.cast-age-list strong {
+  color: var(--text);
 }
 
 .character-card {
@@ -521,6 +548,10 @@ h3 {
   .timeline,
   .episode-grid {
     grid-template-columns: 1fr;
+  }
+
+  .intro-card--cast {
+    grid-column: auto;
   }
 
   .hero__copy {
