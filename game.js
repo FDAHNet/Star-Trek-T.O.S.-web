@@ -398,6 +398,129 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
     return movie ? "./pelicula-" + movie.slug + ".html" : "#";
   }
 
+  function getLocalizedSeasonOverview(seasonData) {
+    if (getLanguage() !== "en") {
+      return {
+        badge: seasonData.badge,
+        title: seasonData.heroTitle,
+        text: seasonData.heroText,
+        focus: seasonData.summaryCards[2].text,
+        episodesLabel: seasonData.episodesCount + " episodios",
+        openLabel: "Abrir temporada " + seasonData.number
+      };
+    }
+
+    var translations = {
+      1: {
+        badge: "Season 1 | 1966-1967",
+        title: "The first season of Star Trek at a glance",
+        text: "The inaugural season of Star Trek: The Original Series introduced the crew of the USS Enterprise in a unique mix of space adventure, science fiction, and social commentary.",
+        focus: "The first season established the Trek universe with stories about war, racism, artificial intelligence, religion, identity, and the cost of power."
+      },
+      2: {
+        badge: "Season 2 | 1967-1968",
+        title: "The second season expands the classic universe",
+        text: "The second season turns Star Trek into a growing mythology: Vulcan, the mirror universe, tribbles, and new characters such as Chekov expand the canon with confidence and ambition.",
+        focus: "This season includes some of the most iconic chapters in the saga, such as \"Amok Time,\" \"Mirror, Mirror,\" and \"The Trouble with Tribbles.\""
+      },
+      3: {
+        badge: "Season 3 | 1968-1969",
+        title: "The third season closes the original mission",
+        text: "The final season of the original series is more uneven, but also stranger, bolder, and full of memorable ideas that kept echoing through the franchise for decades.",
+        focus: "Even as the last season, it left behind key ideas such as the Romulan intrigue of \"The Enterprise Incident\" and the temporal melancholy of \"All Our Yesterdays.\""
+      }
+    };
+
+    var translated = translations[seasonData.number];
+
+    return {
+      badge: translated.badge,
+      title: translated.title,
+      text: translated.text,
+      focus: translated.focus,
+      episodesLabel: seasonData.episodesCount + " episodes",
+      openLabel: "Open season " + seasonData.number
+    };
+  }
+
+  function getLocalizedSeriesCardContent(item) {
+    if (getLanguage() !== "en") {
+      return {
+        summary: item.summary,
+        releaseLabelText: "Orden de emision:",
+        timelineLabelText: "Orden dentro del universo:",
+        stardateLabelText: "Fecha estelar o marco temporal:",
+        releaseBadge: item.releaseLabel
+      };
+    }
+
+    var seriesTranslations = {
+      "Star Trek: The Original Series": {
+        summary: "Kirk, Spock, and McCoy's mission defines the DNA of Star Trek.",
+        stardate: "Stardate framework approx. 1312-5928"
+      },
+      "Star Trek: Enterprise": {
+        summary: "A prequel about humanity's first deep-space voyages and the birth of the future Federation.",
+        stardate: "Before the regular televised stardate system"
+      },
+      "Star Trek: Short Treks": {
+        summary: "A collection of short stories set across different eras, from Pike's Enterprise to the far future.",
+        stardate: "Anthology spread across several Trek eras"
+      },
+      "Star Trek: Discovery": {
+        summary: "It begins as a T.O.S. prequel and later leaps into the far future, expanding two very different Trek eras.",
+        stardate: "Jumps from the 23rd century to the 32nd after an extreme time jump"
+      },
+      "Star Trek: Strange New Worlds": {
+        summary: "Pike's Enterprise restores the classic spirit of exploration and adventure.",
+        stardate: "Set immediately before Kirk's original mission"
+      },
+      "Star Trek: The Animated Series": {
+        summary: "A direct animated continuation of the classic crew with the same principal voice cast.",
+        stardate: "Approx. stardates 5371-6334"
+      },
+      "Star Trek: The Next Generation": {
+        summary: "Picard relaunches Star Trek for a new generation aboard a new Enterprise.",
+        stardate: "Approx. stardates 41153-47988"
+      },
+      "Star Trek: Deep Space Nine": {
+        summary: "A political, spiritual, and wartime ensemble drama set on a frontier space station.",
+        stardate: "Approx. stardates 46379-52861"
+      },
+      "Star Trek: Voyager": {
+        summary: "The USS Voyager is stranded in the Delta Quadrant and must try to make its way home for years.",
+        stardate: "Approx. stardates 48315-54973"
+      },
+      "Star Trek: Lower Decks": {
+        summary: "An animated comedy about junior officers deeply connected to classic and modern Trek canon.",
+        stardate: "Approx. stardates 57436-59499"
+      },
+      "Star Trek: Prodigy": {
+        summary: "A young crew learns how to become a real starship crew while exploring the galaxy.",
+        stardate: "After Voyager, with Janeway as a key reference"
+      },
+      "Star Trek: Picard": {
+        summary: "Jean-Luc Picard returns decades later to close major threads in his life and generation.",
+        stardate: "After Nemesis and the end of the TNG era"
+      },
+      "Star Trek: Starfleet Academy": {
+        summary: "A new Trek series focused on cadets and Starfleet training in the 32nd century.",
+        stardate: "Set after Discovery's far-future era at the Starfleet Academy of the 32nd century"
+      }
+    };
+
+    var translated = seriesTranslations[item.title] || {};
+
+    return {
+      summary: translated.summary || item.summary,
+      releaseLabelText: "Release order:",
+      timelineLabelText: "In-universe order:",
+      stardateLabelText: "Stardate or time frame:",
+      releaseBadge: item.releaseLabel,
+      stardate: translated.stardate || item.stardateLabel
+    };
+  }
+
   function getSeriesOrderValues(title) {
     if (title === "Star Trek: The Original Series") {
       return { release: 1966, timeline: 2265 };
@@ -748,37 +871,40 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
 
     homeSeasonGrid.innerHTML = Object.keys(SEASONS).map(function (key) {
       var seasonData = SEASONS[key];
+      var localized = getLocalizedSeasonOverview(seasonData);
 
       return [
         '<article class="season-overview-card">',
-        '  <p class="season-overview-card__eyebrow">' + seasonData.badge + "</p>",
-        "  <h3>" + seasonData.heroTitle + "</h3>",
-        "  <p>" + seasonData.heroText + "</p>",
+        '  <p class="season-overview-card__eyebrow">' + localized.badge + "</p>",
+        "  <h3>" + localized.title + "</h3>",
+        "  <p>" + localized.text + "</p>",
         '  <div class="season-overview-card__meta">',
-        '    <span class="timeline__tag">' + seasonData.episodesCount + " episodios</span>",
+        '    <span class="timeline__tag">' + localized.episodesLabel + "</span>",
         '    <span class="timeline__tag">' + seasonData.years + "</span>",
         "  </div>",
-        '  <p class="season-overview-card__focus"><strong>Clave:</strong> ' + seasonData.summaryCards[2].text + "</p>",
-        '  <a class="button button--primary" href="' + getSeasonUrl(seasonData.number) + '">Abrir temporada ' + seasonData.number + "</a>",
+        '  <p class="season-overview-card__focus"><strong>' + (getLanguage() === "en" ? "Key:" : "Clave:") + "</strong> " + localized.focus + "</p>",
+        '  <a class="button button--primary" href="' + getSeasonUrl(seasonData.number) + '">' + localized.openLabel + "</a>",
         "</article>"
       ].join("");
     }).join("");
   }
 
   function buildSeriesCard(item) {
+    var localized = getLocalizedSeriesCardContent(item);
+
     return [
       '<a class="series-card series-card--link" href="' + getSeriesDetailUrl(item.title) + '">',
       '  <div class="series-card__top">',
       "    <div>",
       "      <h3>" + item.title + "</h3>",
-      '      <p class="series-card__summary">' + item.summary + "</p>",
+      '      <p class="series-card__summary">' + localized.summary + "</p>",
       "    </div>",
-      '    <span class="series-card__release">' + item.releaseLabel + "</span>",
+      '    <span class="series-card__release">' + localized.releaseBadge + "</span>",
       "  </div>",
       '  <div class="series-card__meta">',
-      '    <p><strong>Orden de emision:</strong> ' + item.releaseLabel + "</p>",
-      '    <p><strong>Orden dentro del universo:</strong> ' + item.timelineLabel + "</p>",
-      '    <p><strong>Fecha estelar o marco temporal:</strong> ' + item.stardateLabel + "</p>",
+      '    <p><strong>' + localized.releaseLabelText + "</strong> " + item.releaseLabel + "</p>",
+      '    <p><strong>' + localized.timelineLabelText + "</strong> " + item.timelineLabel + "</p>",
+      '    <p><strong>' + localized.stardateLabelText + "</strong> " + (localized.stardate || item.stardateLabel) + "</p>",
       "  </div>",
       "</a>"
     ].join("");
