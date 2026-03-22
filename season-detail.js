@@ -89,4 +89,42 @@ import { findSeriesSeasonEntry } from "./series-season-data.js";
       return "<li>" + fact + "</li>";
     }).join("");
   }
+
+  var main = document.querySelector("main");
+  var previousSeason = seriesEntry.seasons.find(function (item) {
+    return item.number === seasonEntry.number - 1;
+  });
+  var nextSeason = seriesEntry.seasons.find(function (item) {
+    return item.number === seasonEntry.number + 1;
+  });
+
+  if (main) {
+    var arcSection = document.createElement("section");
+    arcSection.className = "section";
+    arcSection.innerHTML = [
+      '<div class="section-heading">',
+      '  <p class="eyebrow">Dentro de la serie</p>',
+      '  <h2>Como encaja esta temporada en ' + seriesEntry.title + '</h2>',
+      '  <p class="section-text">' + seasonEntry.focus + '</p>',
+      '</div>',
+      '<div class="intro-grid intro-grid--home card-grid--triple">',
+      '  <article class="intro-card">',
+      '    <h3>Estado de la serie</h3>',
+      '    <p>' + seasonEntry.impact + '</p>',
+      '  </article>',
+      '  <article class="intro-card">',
+      '    <h3>Temporada anterior</h3>',
+      '    <p>' + (previousSeason ? previousSeason.fullTitle + " prepara el terreno para esta etapa dentro del recorrido de la serie." : "Aqui arranca el recorrido de la serie, asi que no hay una temporada previa dentro de esta web.") + '</p>',
+      (previousSeason ? '    <a class="button button--ghost season-detail__inline-action" href="' + previousSeason.url + '">Abrir temporada ' + previousSeason.number + '</a>' : ""),
+      '  </article>',
+      '  <article class="intro-card">',
+      '    <h3>Temporada siguiente</h3>',
+      '    <p>' + (nextSeason ? "Despues de esta etapa, la serie continua en " + nextSeason.fullTitle + "." : "Esta es la ultima temporada actualmente listada dentro de esta serie en la web.") + '</p>',
+      (nextSeason ? '    <a class="button button--ghost season-detail__inline-action" href="' + nextSeason.url + '">Abrir temporada ' + nextSeason.number + '</a>' : ""),
+      '  </article>',
+      '</div>'
+    ].join("");
+
+    main.insertBefore(arcSection, main.lastElementChild);
+  }
 }());

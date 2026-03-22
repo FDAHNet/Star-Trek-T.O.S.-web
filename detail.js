@@ -108,6 +108,35 @@ import { findSeriesSeasonEntry } from "./series-season-data.js";
       ].join("");
 
       main.insertBefore(seasonSection, main.lastElementChild);
+
+      var seasonGridSection = document.createElement("section");
+      seasonGridSection.className = "section";
+      seasonGridSection.innerHTML = [
+        '<div class="section-heading">',
+        '  <p class="eyebrow">Mapa de temporadas</p>',
+        '  <h2>Todas las temporadas explicadas</h2>',
+        '  <p class="section-text">Cada bloque resume de que va esa etapa, que cambia dentro de la serie y por que es importante dentro del universo Star Trek.</p>',
+        '</div>',
+        '<div class="season-overview-grid">' +
+          seasonEntry.seasons.map(function (season) {
+            return [
+              '<article class="season-overview-card">',
+              '  <p class="season-overview-card__eyebrow">Temporada ' + season.number + '</p>',
+              '  <h3>' + season.fullTitle + '</h3>',
+              '  <p>' + season.summary + '</p>',
+              '  <div class="season-overview-card__meta">',
+              '    <span class="timeline__tag">' + (season.episodesCount ? season.episodesCount + ' episodios' : 'episodios pendientes') + '</span>',
+              '    <span class="timeline__tag">' + (season.timelineWindow || seasonEntry.timelineLabel) + '</span>',
+              '  </div>',
+              '  <p class="season-overview-card__focus"><strong>Clave:</strong> ' + season.impact + '</p>',
+              '  <a class="button button--primary" href="' + season.url + '">Abrir temporada ' + season.number + '</a>',
+              '</article>'
+            ].join("");
+          }).join("") +
+        '</div>'
+      ].join("");
+
+      main.insertBefore(seasonGridSection, main.lastElementChild);
     }
   }
 }());

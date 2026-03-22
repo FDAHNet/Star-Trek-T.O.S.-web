@@ -847,6 +847,10 @@ h3 {
   line-height: 1.55;
 }
 
+.season-detail__inline-action {
+  margin-top: 16px;
+}
+
 .movies-modal {
   width: min(1120px, calc(100% - 32px));
   max-height: min(88vh, 980px);
