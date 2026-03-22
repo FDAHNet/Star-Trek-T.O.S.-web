@@ -272,12 +272,63 @@ h3 {
   border-bottom: 1px solid var(--line);
 }
 
+.stat-list__dropdown-item {
+  display: block;
+}
+
 .stat-list span {
   color: var(--muted);
 }
 
 .stat-list strong {
   color: var(--text);
+}
+
+.stat-dropdown summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.stat-dropdown summary::-webkit-details-marker {
+  display: none;
+}
+
+.stat-dropdown summary::after {
+  content: "+";
+  margin-left: auto;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.stat-dropdown[open] summary::after {
+  content: "-";
+}
+
+.stat-dropdown__content {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.stat-dropdown__label {
+  margin: 0 0 10px;
+  color: var(--accent-strong);
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.stat-dropdown__list {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+  line-height: 1.45;
 }
 
 .section {

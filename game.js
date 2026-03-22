@@ -24,6 +24,7 @@ import { OTHER_SERIES, SEASONS } from "./season-data.js";
   var homeStatEpisodeCount = document.getElementById("home-stat-episode-count");
   var homeStatSeriesCount = document.getElementById("home-stat-series-count");
   var homeStatYears = document.getElementById("home-stat-years");
+  var homeSeriesUniverseList = document.getElementById("home-series-universe-list");
 
   var castMembers = [
     { actor: "William Shatner", birth: "1931-03-22", death: null, seasons: [1, 2, 3] },
@@ -382,6 +383,14 @@ import { OTHER_SERIES, SEASONS } from "./season-data.js";
     var totalEpisodes = Object.keys(SEASONS).reduce(function (sum, key) {
       return sum + SEASONS[key].episodesCount;
     }, 0);
+    var universeSeries = [
+      "Star Trek: The Original Series",
+      "Star Trek: The Animated Series"
+    ].concat(OTHER_SERIES.map(function (item) {
+      return item.title;
+    }).filter(function (title) {
+      return title !== "Star Trek: The Animated Series";
+    }));
 
     if (homeStatSeasonCount) {
       homeStatSeasonCount.textContent = String(Object.keys(SEASONS).length);
@@ -398,10 +407,16 @@ import { OTHER_SERIES, SEASONS } from "./season-data.js";
     if (homeStatYears) {
       homeStatYears.textContent = "1966-1969";
     }
+
+    if (homeSeriesUniverseList) {
+      homeSeriesUniverseList.innerHTML = universeSeries.map(function (title) {
+        return "<li>" + title + "</li>";
+      }).join("");
+    }
   }
 
   if (pageType === "home") {
-    document.title = "Star Trek - La Serie Original";
+    document.title = "Star Trek - Universo";
     renderHomeStats();
     renderHomeSeasonCards();
     renderFranchiseSeries("release");

@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Star Trek - La Serie Original</title>
+  <title>Star Trek - Universo</title>
   <meta
     name="description"
-    content="Portada general en espanol sobre Star Trek: La Serie Original, sus tres temporadas y su lugar dentro del resto de series televisivas de Star Trek."
+    content="Portada general en espanol sobre Star Trek - Universo, con acceso a las temporadas de T.O.S. y al resto de series televisivas del universo Star Trek."
   >
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -15,7 +15,7 @@
 
   <header class="hero">
     <nav class="topbar">
-      <a class="brand" href="./index.html">Star Trek - La Serie Original</a>
+      <a class="brand" href="./index.html">Star Trek - Universo</a>
       <div class="topbar__nav">
         <a class="topbar__link" href="#vision">La web</a>
         <a class="topbar__link" href="#temporadas">Temporadas</a>
@@ -26,7 +26,7 @@
     <section class="hero__content">
       <div class="hero__copy">
         <p class="eyebrow">Explorador en espanol</p>
-        <h1>Star Trek - La Serie Original</h1>
+        <h1>Star Trek - Universo</h1>
         <p class="hero__text">
           Esta portada sirve como punto de entrada a toda la web: explica de que va Star Trek: The Original Series,
           resume las tres temporadas y te deja saltar a cada guia con sus episodios, personajes y actores.
@@ -43,7 +43,18 @@
         </div>
         <p class="hero__card-label">Mapa rapido</p>
         <ul class="stat-list">
-          <li><span>Temporadas T.O.S.</span><strong id="home-stat-season-count"></strong></li>
+          <li class="stat-list__dropdown-item">
+            <details class="stat-dropdown">
+              <summary>
+                <span>Temporadas T.O.S.</span>
+                <strong id="home-stat-season-count"></strong>
+              </summary>
+              <div class="stat-dropdown__content">
+                <p class="stat-dropdown__label">Series del universo Trek</p>
+                <ul id="home-series-universe-list" class="stat-dropdown__list"></ul>
+              </div>
+            </details>
+          </li>
           <li><span>Episodios clasicos</span><strong id="home-stat-episode-count"></strong></li>
           <li><span>Otras series listadas</span><strong id="home-stat-series-count"></strong></li>
           <li><span>Emision original</span><strong id="home-stat-years"></strong></li>

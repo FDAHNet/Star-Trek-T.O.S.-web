@@ -326,5 +326,14 @@ export var OTHER_SERIES = [
     timelineStart: 2399,
     stardateLabel: "Después de Nemesis y del final de la era TNG",
     summary: "Jean-Luc Picard vuelve décadas después para cerrar grandes hilos de su vida y de su generación."
+  },
+  {
+    title: "Star Trek: Starfleet Academy",
+    releaseLabel: "2026-prevista",
+    releaseStart: 2026,
+    timelineLabel: "siglo XXXII",
+    timelineStart: 3190,
+    stardateLabel: "Ambientada tras la etapa futura de Discovery, en la Academia de la Flota Estelar del siglo XXXII",
+    summary: "Nueva serie centrada en cadetes y formación estelar dentro de la era más avanzada del canon televisivo actual."
   }
 ];
