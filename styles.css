@@ -108,6 +108,7 @@ img {
   transform: translateX(-50%);
   width: min(1180px, calc(100% - 32px));
   z-index: 100;
+  isolation: isolate;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -115,8 +116,11 @@ img {
   padding: 14px 18px;
   border: 1px solid var(--line);
   border-radius: 999px;
-  background: rgba(6, 15, 28, 0.72);
+  background: rgba(6, 15, 28, 0.94);
   backdrop-filter: blur(12px);
+  box-shadow:
+    0 16px 36px rgba(0, 0, 0, 0.38),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.04);
 }
 
 .topbar__nav {
