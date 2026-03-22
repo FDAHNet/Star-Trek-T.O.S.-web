@@ -24,7 +24,8 @@ import { OTHER_SERIES, SEASONS } from "./season-data.js";
   var homeStatEpisodeCount = document.getElementById("home-stat-episode-count");
   var homeStatSeriesCount = document.getElementById("home-stat-series-count");
   var homeStatYears = document.getElementById("home-stat-years");
-  var homeSeriesUniverseList = document.getElementById("home-series-universe-list");
+  var homeSeriesSelect = document.getElementById("home-series-select");
+  var homeSeriesDetail = document.getElementById("home-series-detail");
 
   var castMembers = [
     { actor: "William Shatner", birth: "1931-03-22", death: null, seasons: [1, 2, 3] },
@@ -384,12 +385,17 @@ import { OTHER_SERIES, SEASONS } from "./season-data.js";
       return sum + SEASONS[key].episodesCount;
     }, 0);
     var universeSeries = [
-      "Star Trek: The Original Series",
-      "Star Trek: The Animated Series"
+      {
+        title: "Star Trek: The Original Series",
+        seasonsCount: 3,
+        seasonBreakdown: "29, 26 y 24 episodios"
+      }
     ].concat(OTHER_SERIES.map(function (item) {
-      return item.title;
-    }).filter(function (title) {
-      return title !== "Star Trek: The Animated Series";
+      return {
+        title: item.title,
+        seasonsCount: item.seasonsCount,
+        seasonBreakdown: item.seasonBreakdown
+      };
     }));
 
     if (homeStatSeasonCount) {
@@ -408,10 +414,33 @@ import { OTHER_SERIES, SEASONS } from "./season-data.js";
       homeStatYears.textContent = "1966-1969";
     }
 
-    if (homeSeriesUniverseList) {
-      homeSeriesUniverseList.innerHTML = universeSeries.map(function (title) {
-        return "<li>" + title + "</li>";
+    if (homeSeriesSelect) {
+      homeSeriesSelect.innerHTML = universeSeries.map(function (item) {
+        return '<option value="' + item.title + '">' + item.title + "</option>";
       }).join("");
+    }
+
+    function renderSelectedSeriesDetail(seriesTitle) {
+      if (!homeSeriesDetail) {
+        return;
+      }
+
+      var selectedSeries = universeSeries.find(function (item) {
+        return item.title === seriesTitle;
+      }) || universeSeries[0];
+
+      homeSeriesDetail.textContent =
+        selectedSeries.seasonsCount +
+        " temporadas | capitulos por temporada: " +
+        selectedSeries.seasonBreakdown + ".";
+    }
+
+    if (homeSeriesSelect) {
+      renderSelectedSeriesDetail(homeSeriesSelect.value || universeSeries[0].title);
+
+      homeSeriesSelect.addEventListener("change", function (event) {
+        renderSelectedSeriesDetail(event.target.value);
+      });
     }
   }
 
