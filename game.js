@@ -182,6 +182,7 @@
   var episodeCount = document.getElementById("episode-count");
   var episodeSearch = document.getElementById("episode-search");
   var emptyState = document.getElementById("empty-state");
+  var characterCards = Array.prototype.slice.call(document.querySelectorAll(".character-card"));
 
   function normalize(value) {
     return String(value || "")
@@ -305,11 +306,47 @@
     emptyState.hidden = filteredEpisodes.length > 0;
   }
 
+  function setupCharacterReveal() {
+    if (!characterCards.length) {
+      return;
+    }
+
+    characterCards.forEach(function (card, index) {
+      card.style.setProperty("--reveal-delay", String(index * 80) + "ms");
+    });
+
+    if (typeof window.IntersectionObserver !== "function") {
+      characterCards.forEach(function (card) {
+        card.classList.add("is-visible");
+      });
+      return;
+    }
+
+    var observer = new window.IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) {
+          return;
+        }
+
+        entry.target.classList.add("is-visible");
+        observer.unobserve(entry.target);
+      });
+    }, {
+      threshold: 0.2,
+      rootMargin: "0px 0px -5% 0px"
+    });
+
+    characterCards.forEach(function (card) {
+      observer.observe(card);
+    });
+  }
+
   if (episodeSearch) {
     episodeSearch.addEventListener("input", function (event) {
       renderEpisodes(event.target.value);
     });
   }
 
+  setupCharacterReveal();
   renderEpisodes("");
 }());

@@ -322,6 +322,16 @@ h3 {
 .character-card {
   border-radius: 26px;
   overflow: hidden;
+  opacity: 0;
+  transform: perspective(1000px) rotateX(14deg) rotateY(-18deg) translate3d(0, 54px, 0) scale(0.92);
+  transform-origin: center center;
+  transition:
+    opacity 720ms ease,
+    transform 900ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    box-shadow 300ms ease,
+    border-color 300ms ease;
+  transition-delay: var(--reveal-delay, 0ms);
+  will-change: transform, opacity;
 }
 
 .character-card__image {
@@ -339,6 +349,18 @@ h3 {
   margin: 0 0 10px;
   color: var(--accent-strong);
   font-size: 0.74rem;
+}
+
+.character-card.is-visible {
+  opacity: 1;
+  transform: perspective(1000px) rotateX(0deg) rotateY(0deg) translate3d(0, 0, 0) scale(1);
+}
+
+.character-card.is-visible:hover,
+.character-card.is-visible:focus-within {
+  transform: perspective(1000px) rotateX(-2deg) rotateY(4deg) translate3d(0, -8px, 0) scale(1.015);
+  border-color: rgba(255, 211, 110, 0.45);
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.42);
 }
 
 .timeline__tag,
@@ -551,5 +573,20 @@ h3 {
 
   .episode-card__top {
     flex-direction: column;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  h1 {
+    animation: none;
+  }
+
+  .character-card,
+  .character-card.is-visible,
+  .character-card.is-visible:hover,
+  .character-card.is-visible:focus-within {
+    opacity: 1;
+    transform: none;
+    transition: none;
   }
 }
