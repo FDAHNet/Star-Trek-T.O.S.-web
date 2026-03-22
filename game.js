@@ -1058,12 +1058,12 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
       return;
     }
 
-    homeSeasonGrid.innerHTML = Object.keys(SEASONS).map(function (key) {
-      var seasonData = SEASONS[key];
+    homeSeasonGrid.innerHTML = [1, 2, 3].map(function (seasonNumber) {
+      var seasonData = SEASONS[seasonNumber];
       var localized = getLocalizedSeasonOverview(seasonData);
 
       return [
-        '<article class="season-overview-card">',
+        '<article class="season-overview-card" data-season-card="' + seasonNumber + '">',
         '  <p class="season-overview-card__eyebrow">' + localized.badge + "</p>",
         "  <h3>" + localized.title + "</h3>",
         "  <p>" + localized.text + "</p>",
