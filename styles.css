@@ -82,7 +82,7 @@ img {
 }
 
 .hero {
-  padding: 24px 0 44px;
+  padding: 112px 0 44px;
 }
 
 .anniversary-banner {
@@ -103,8 +103,11 @@ img {
 }
 
 .topbar {
-  position: sticky;
+  position: fixed;
   top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(1180px, calc(100% - 32px));
   z-index: 20;
   display: flex;
   justify-content: space-between;
@@ -1277,7 +1280,7 @@ h3 {
   }
 
   .hero {
-    padding-top: 12px;
+    padding-top: 132px;
   }
 
   .hero__content {
