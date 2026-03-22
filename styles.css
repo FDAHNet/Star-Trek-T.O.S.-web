@@ -76,7 +76,6 @@ img {
 .hero,
 .section {
   position: relative;
-  z-index: 1;
   width: min(1180px, calc(100% - 32px));
   margin: 0 auto;
 }
@@ -108,7 +107,7 @@ img {
   left: 50%;
   transform: translateX(-50%);
   width: min(1180px, calc(100% - 32px));
-  z-index: 20;
+  z-index: 100;
   display: flex;
   justify-content: space-between;
   align-items: center;
