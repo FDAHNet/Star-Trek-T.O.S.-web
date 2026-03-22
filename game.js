@@ -399,125 +399,283 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
   }
 
   function getLocalizedSeasonOverview(seasonData) {
-    if (getLanguage() !== "en") {
-      return {
-        badge: seasonData.badge,
-        title: seasonData.heroTitle,
-        text: seasonData.heroText,
-        focus: seasonData.summaryCards[2].text,
-        episodesLabel: seasonData.episodesCount + " episodios",
-        openLabel: "Abrir temporada " + seasonData.number
-      };
-    }
-
-    var translations = {
-      1: {
-        badge: "Season 1 | 1966-1967",
-        title: "The first season of Star Trek at a glance",
-        text: "The inaugural season of Star Trek: The Original Series introduced the crew of the USS Enterprise in a unique mix of space adventure, science fiction, and social commentary.",
-        focus: "The first season established the Trek universe with stories about war, racism, artificial intelligence, religion, identity, and the cost of power."
+    var language = getLanguage();
+    var seasonTranslations = {
+      es: {
+        1: {
+          badge: "Temporada 1 | 1966-1967",
+          title: "La primera temporada de Star Trek en una sola mirada",
+          text: "La temporada inaugural de Star Trek: The Original Series presentó a la tripulación de la USS Enterprise en una mezcla única de aventura espacial, ciencia ficción y comentario social.",
+          focus: "La primera temporada asentó el universo Trek con episodios sobre guerra, racismo, inteligencia artificial, religión, identidad y el precio del poder."
+        },
+        2: {
+          badge: "Temporada 2 | 1967-1968",
+          title: "La segunda temporada expande el universo clásico",
+          text: "La segunda temporada convierte Star Trek en una mitología en expansión: Vulcano, el universo espejo, los tribbles y nuevos personajes como Chekov amplían el canon con seguridad y ambición.",
+          focus: "Esta temporada incluye algunos de los capítulos más icónicos de la saga, como \"Amok Time\", \"Mirror, Mirror\" y \"The Trouble with Tribbles\"."
+        },
+        3: {
+          badge: "Temporada 3 | 1968-1969",
+          title: "La tercera temporada cierra la misión original",
+          text: "La temporada final de la serie original es más irregular, pero también más extraña, audaz y llena de ideas memorables que siguieron resonando en la franquicia durante décadas.",
+          focus: "Incluso como última temporada, dejó ideas clave como la intriga romulana de \"The Enterprise Incident\" y la melancolía temporal de \"All Our Yesterdays\"."
+        },
+        episodesWord: "episodios",
+        openPrefix: "Abrir temporada",
+        keyLabel: "Clave:"
       },
-      2: {
-        badge: "Season 2 | 1967-1968",
-        title: "The second season expands the classic universe",
-        text: "The second season turns Star Trek into a growing mythology: Vulcan, the mirror universe, tribbles, and new characters such as Chekov expand the canon with confidence and ambition.",
-        focus: "This season includes some of the most iconic chapters in the saga, such as \"Amok Time,\" \"Mirror, Mirror,\" and \"The Trouble with Tribbles.\""
+      en: {
+        1: {
+          badge: "Season 1 | 1966-1967",
+          title: "The first season of Star Trek at a glance",
+          text: "The inaugural season of Star Trek: The Original Series introduced the crew of the USS Enterprise in a unique mix of space adventure, science fiction, and social commentary.",
+          focus: "The first season established the Trek universe with stories about war, racism, artificial intelligence, religion, identity, and the cost of power."
+        },
+        2: {
+          badge: "Season 2 | 1967-1968",
+          title: "The second season expands the classic universe",
+          text: "The second season turns Star Trek into a growing mythology: Vulcan, the mirror universe, tribbles, and new characters such as Chekov expand the canon with confidence and ambition.",
+          focus: "This season includes some of the most iconic chapters in the saga, such as \"Amok Time,\" \"Mirror, Mirror,\" and \"The Trouble with Tribbles.\""
+        },
+        3: {
+          badge: "Season 3 | 1968-1969",
+          title: "The third season closes the original mission",
+          text: "The final season of the original series is more uneven, but also stranger, bolder, and full of memorable ideas that kept echoing through the franchise for decades.",
+          focus: "Even as the last season, it left behind key ideas such as the Romulan intrigue of \"The Enterprise Incident\" and the temporal melancholy of \"All Our Yesterdays.\""
+        },
+        episodesWord: "episodes",
+        openPrefix: "Open season",
+        keyLabel: "Key:"
       },
-      3: {
-        badge: "Season 3 | 1968-1969",
-        title: "The third season closes the original mission",
-        text: "The final season of the original series is more uneven, but also stranger, bolder, and full of memorable ideas that kept echoing through the franchise for decades.",
-        focus: "Even as the last season, it left behind key ideas such as the Romulan intrigue of \"The Enterprise Incident\" and the temporal melancholy of \"All Our Yesterdays.\""
+      fr: {
+        1: {
+          badge: "Saison 1 | 1966-1967",
+          title: "La première saison de Star Trek en un seul regard",
+          text: "La saison inaugurale de Star Trek: The Original Series a présenté l'équipage de l'USS Enterprise dans un mélange unique d'aventure spatiale, de science-fiction et de commentaire social.",
+          focus: "La première saison a établi l'univers Trek avec des épisodes sur la guerre, le racisme, l'intelligence artificielle, la religion, l'identité et le prix du pouvoir."
+        },
+        2: {
+          badge: "Saison 2 | 1967-1968",
+          title: "La deuxième saison élargit l'univers classique",
+          text: "La deuxième saison transforme Star Trek en une mythologie en expansion: Vulcain, l'univers miroir, les tribbles et de nouveaux personnages comme Chekov étendent le canon avec assurance et ambition.",
+          focus: "Cette saison comprend certains des chapitres les plus emblématiques de la saga, comme \"Amok Time\", \"Mirror, Mirror\" et \"The Trouble with Tribbles\"."
+        },
+        3: {
+          badge: "Saison 3 | 1968-1969",
+          title: "La troisième saison clôt la mission originale",
+          text: "La saison finale de la série originale est plus inégale, mais aussi plus étrange, plus audacieuse et pleine d'idées mémorables qui ont résonné dans la franchise pendant des décennies.",
+          focus: "Même en tant que dernière saison, elle a laissé des idées majeures comme l'intrigue romulienne de \"The Enterprise Incident\" et la mélancolie temporelle de \"All Our Yesterdays\"."
+        },
+        episodesWord: "épisodes",
+        openPrefix: "Ouvrir la saison",
+        keyLabel: "Clé:"
+      },
+      ru: {
+        1: {
+          badge: "Сезон 1 | 1966-1967",
+          title: "Первый сезон Star Trek с первого взгляда",
+          text: "Дебютный сезон Star Trek: The Original Series представил экипаж USS Enterprise в уникальном сочетании космического приключения, научной фантастики и социального комментария.",
+          focus: "Первый сезон заложил основы вселенной Trek историями о войне, расизме, искусственном интеллекте, религии, идентичности и цене власти."
+        },
+        2: {
+          badge: "Сезон 2 | 1967-1968",
+          title: "Второй сезон расширяет классическую вселенную",
+          text: "Во втором сезоне Star Trek превращается в растущую мифологию: Вулкан, зеркальная вселенная, трибблы и новые персонажи вроде Чехова уверенно и амбициозно расширяют канон.",
+          focus: "Этот сезон включает некоторые из самых знаковых глав саги, такие как \"Amok Time\", \"Mirror, Mirror\" и \"The Trouble with Tribbles\"."
+        },
+        3: {
+          badge: "Сезон 3 | 1968-1969",
+          title: "Третий сезон завершает оригинальную миссию",
+          text: "Финальный сезон оригинального сериала более неровный, но также более странный, смелый и наполненный идеями, которые еще десятилетиями отзывались во франшизе.",
+          focus: "Даже будучи последним, он оставил важные идеи, такие как ромуланская интрига в \"The Enterprise Incident\" и временная меланхолия \"All Our Yesterdays\"."
+        },
+        episodesWord: "эпизодов",
+        openPrefix: "Открыть сезон",
+        keyLabel: "Ключ:"
+      },
+      uk: {
+        1: {
+          badge: "Сезон 1 | 1966-1967",
+          title: "Перший сезон Star Trek одним поглядом",
+          text: "Перший сезон Star Trek: The Original Series представив екіпаж USS Enterprise у неповторному поєднанні космічної пригоди, наукової фантастики та соціального коментаря.",
+          focus: "Перший сезон заклав основу всесвіту Trek епізодами про війну, расизм, штучний інтелект, релігію, ідентичність і ціну влади."
+        },
+        2: {
+          badge: "Сезон 2 | 1967-1968",
+          title: "Другий сезон розширює класичний всесвіт",
+          text: "Другий сезон перетворює Star Trek на міфологію, що розростається: Вулкан, дзеркальний всесвіт, трибли та нові персонажі на кшталт Чехова впевнено й амбітно розширюють канон.",
+          focus: "Цей сезон містить кілька найвідоміших розділів саги, зокрема \"Amok Time\", \"Mirror, Mirror\" і \"The Trouble with Tribbles\"."
+        },
+        3: {
+          badge: "Сезон 3 | 1968-1969",
+          title: "Третій сезон завершує оригінальну місію",
+          text: "Фінальний сезон оригінального серіалу більш нерівний, але водночас дивніший, сміливіший і сповнений пам'ятних ідей, що ще довго відлунювали у франшизі.",
+          focus: "Навіть як останній сезон, він залишив важливі ідеї, як-от ромуланська інтрига в \"The Enterprise Incident\" і часова меланхолія \"All Our Yesterdays\"."
+        },
+        episodesWord: "епізодів",
+        openPrefix: "Відкрити сезон",
+        keyLabel: "Ключ:"
+      },
+      ca: {
+        1: {
+          badge: "Temporada 1 | 1966-1967",
+          title: "La primera temporada de Star Trek d'un sol cop d'ull",
+          text: "La temporada inaugural de Star Trek: The Original Series va presentar la tripulació de la USS Enterprise en una barreja única d'aventura espacial, ciència-ficció i comentari social.",
+          focus: "La primera temporada va assentar l'univers Trek amb episodis sobre guerra, racisme, intel·ligència artificial, religió, identitat i el preu del poder."
+        },
+        2: {
+          badge: "Temporada 2 | 1967-1968",
+          title: "La segona temporada expandeix l'univers clàssic",
+          text: "La segona temporada converteix Star Trek en una mitologia en expansió: Vulcà, l'univers mirall, els tribbles i nous personatges com Chekov amplien el cànon amb seguretat i ambició.",
+          focus: "Aquesta temporada inclou alguns dels capítols més icònics de la saga, com \"Amok Time\", \"Mirror, Mirror\" i \"The Trouble with Tribbles\"."
+        },
+        3: {
+          badge: "Temporada 3 | 1968-1969",
+          title: "La tercera temporada tanca la missió original",
+          text: "La temporada final de la sèrie original és més irregular, però també més estranya, més atrevida i plena d'idees memorables que van continuar ressonant dins la franquícia durant dècades.",
+          focus: "Fins i tot com a darrera temporada, va deixar idees clau com la intriga romulana de \"The Enterprise Incident\" i la malenconia temporal de \"All Our Yesterdays\"."
+        },
+        episodesWord: "episodis",
+        openPrefix: "Obrir temporada",
+        keyLabel: "Clau:"
       }
     };
-
-    var translated = translations[seasonData.number];
+    var translatedGroup = seasonTranslations[language] || seasonTranslations.es;
+    var translated = translatedGroup[seasonData.number] || seasonTranslations.es[seasonData.number];
 
     return {
       badge: translated.badge,
       title: translated.title,
       text: translated.text,
       focus: translated.focus,
-      episodesLabel: seasonData.episodesCount + " episodes",
-      openLabel: "Open season " + seasonData.number
+      episodesLabel: seasonData.episodesCount + " " + translatedGroup.episodesWord,
+      openLabel: translatedGroup.openPrefix + " " + seasonData.number,
+      keyLabel: translatedGroup.keyLabel
     };
   }
 
   function getLocalizedSeriesCardContent(item) {
-    if (getLanguage() !== "en") {
-      return {
-        summary: item.summary,
-        releaseLabelText: "Orden de emision:",
+    var language = getLanguage();
+    var labelTranslations = {
+      es: {
+        releaseLabelText: "Orden de emisión:",
         timelineLabelText: "Orden dentro del universo:",
-        stardateLabelText: "Fecha estelar o marco temporal:",
-        releaseBadge: item.releaseLabel
-      };
-    }
-
-    var seriesTranslations = {
-      "Star Trek: The Original Series": {
-        summary: "Kirk, Spock, and McCoy's mission defines the DNA of Star Trek.",
-        stardate: "Stardate framework approx. 1312-5928"
+        stardateLabelText: "Fecha estelar o marco temporal:"
       },
-      "Star Trek: Enterprise": {
-        summary: "A prequel about humanity's first deep-space voyages and the birth of the future Federation.",
-        stardate: "Before the regular televised stardate system"
+      en: {
+        releaseLabelText: "Release order:",
+        timelineLabelText: "In-universe order:",
+        stardateLabelText: "Stardate or time frame:"
       },
-      "Star Trek: Short Treks": {
-        summary: "A collection of short stories set across different eras, from Pike's Enterprise to the far future.",
-        stardate: "Anthology spread across several Trek eras"
+      fr: {
+        releaseLabelText: "Ordre de diffusion:",
+        timelineLabelText: "Ordre dans l'univers:",
+        stardateLabelText: "Date stellaire ou période:"
       },
-      "Star Trek: Discovery": {
-        summary: "It begins as a T.O.S. prequel and later leaps into the far future, expanding two very different Trek eras.",
-        stardate: "Jumps from the 23rd century to the 32nd after an extreme time jump"
+      ru: {
+        releaseLabelText: "Порядок выхода:",
+        timelineLabelText: "Порядок во вселенной:",
+        stardateLabelText: "Звездная дата или период:"
       },
-      "Star Trek: Strange New Worlds": {
-        summary: "Pike's Enterprise restores the classic spirit of exploration and adventure.",
-        stardate: "Set immediately before Kirk's original mission"
+      uk: {
+        releaseLabelText: "Порядок виходу:",
+        timelineLabelText: "Порядок у всесвіті:",
+        stardateLabelText: "Зоряна дата або період:"
       },
-      "Star Trek: The Animated Series": {
-        summary: "A direct animated continuation of the classic crew with the same principal voice cast.",
-        stardate: "Approx. stardates 5371-6334"
-      },
-      "Star Trek: The Next Generation": {
-        summary: "Picard relaunches Star Trek for a new generation aboard a new Enterprise.",
-        stardate: "Approx. stardates 41153-47988"
-      },
-      "Star Trek: Deep Space Nine": {
-        summary: "A political, spiritual, and wartime ensemble drama set on a frontier space station.",
-        stardate: "Approx. stardates 46379-52861"
-      },
-      "Star Trek: Voyager": {
-        summary: "The USS Voyager is stranded in the Delta Quadrant and must try to make its way home for years.",
-        stardate: "Approx. stardates 48315-54973"
-      },
-      "Star Trek: Lower Decks": {
-        summary: "An animated comedy about junior officers deeply connected to classic and modern Trek canon.",
-        stardate: "Approx. stardates 57436-59499"
-      },
-      "Star Trek: Prodigy": {
-        summary: "A young crew learns how to become a real starship crew while exploring the galaxy.",
-        stardate: "After Voyager, with Janeway as a key reference"
-      },
-      "Star Trek: Picard": {
-        summary: "Jean-Luc Picard returns decades later to close major threads in his life and generation.",
-        stardate: "After Nemesis and the end of the TNG era"
-      },
-      "Star Trek: Starfleet Academy": {
-        summary: "A new Trek series focused on cadets and Starfleet training in the 32nd century.",
-        stardate: "Set after Discovery's far-future era at the Starfleet Academy of the 32nd century"
+      ca: {
+        releaseLabelText: "Ordre d'emissió:",
+        timelineLabelText: "Ordre dins l'univers:",
+        stardateLabelText: "Data estel·lar o marc temporal:"
       }
     };
-
-    var translated = seriesTranslations[item.title] || {};
+    var seriesTranslationsByLanguage = {
+      es: {},
+      en: {
+        "Star Trek: The Original Series": ["Kirk, Spock, and McCoy's mission defines the DNA of Star Trek.", "Stardate framework approx. 1312-5928"],
+        "Star Trek: Enterprise": ["A prequel about humanity's first deep-space voyages and the birth of the future Federation.", "Before the regular televised stardate system"],
+        "Star Trek: Short Treks": ["A collection of short stories set across different eras, from Pike's Enterprise to the far future.", "Anthology spread across several Trek eras"],
+        "Star Trek: Discovery": ["It begins as a T.O.S. prequel and later leaps into the far future, expanding two very different Trek eras.", "Jumps from the 23rd century to the 32nd after an extreme time jump"],
+        "Star Trek: Strange New Worlds": ["Pike's Enterprise restores the classic spirit of exploration and adventure.", "Set immediately before Kirk's original mission"],
+        "Star Trek: The Animated Series": ["A direct animated continuation of the classic crew with the same principal voice cast.", "Approx. stardates 5371-6334"],
+        "Star Trek: The Next Generation": ["Picard relaunches Star Trek for a new generation aboard a new Enterprise.", "Approx. stardates 41153-47988"],
+        "Star Trek: Deep Space Nine": ["A political, spiritual, and wartime ensemble drama set on a frontier space station.", "Approx. stardates 46379-52861"],
+        "Star Trek: Voyager": ["The USS Voyager is stranded in the Delta Quadrant and must try to make its way home for years.", "Approx. stardates 48315-54973"],
+        "Star Trek: Lower Decks": ["An animated comedy about junior officers deeply connected to classic and modern Trek canon.", "Approx. stardates 57436-59499"],
+        "Star Trek: Prodigy": ["A young crew learns how to become a real starship crew while exploring the galaxy.", "After Voyager, with Janeway as a key reference"],
+        "Star Trek: Picard": ["Jean-Luc Picard returns decades later to close major threads in his life and generation.", "After Nemesis and the end of the TNG era"],
+        "Star Trek: Starfleet Academy": ["A new Trek series focused on cadets and Starfleet training in the 32nd century.", "Set after Discovery's far-future era at the Starfleet Academy of the 32nd century"]
+      },
+      fr: {
+        "Star Trek: The Original Series": ["La mission de Kirk, Spock et McCoy définit l'ADN de Star Trek.", "Cadre des dates stellaires env. 1312-5928"],
+        "Star Trek: Enterprise": ["Une préquelle sur les premiers voyages humains dans l'espace profond et la naissance de la future Fédération.", "Avant le système régulier de dates stellaires télévisées"],
+        "Star Trek: Short Treks": ["Une collection de récits courts répartis sur différentes époques, de l'Enterprise de Pike jusqu'au futur lointain.", "Anthologie répartie sur plusieurs ères de Trek"],
+        "Star Trek: Discovery": ["Elle commence comme une préquelle de T.O.S. puis saute dans le futur lointain, élargissant deux ères Trek très différentes.", "Passe du XXIIIe au XXXIIe siècle après un saut temporel extrême"],
+        "Star Trek: Strange New Worlds": ["L'Enterprise de Pike retrouve l'esprit classique d'exploration et d'aventure.", "Située juste avant la mission originale de Kirk"],
+        "Star Trek: The Animated Series": ["Une continuation animée directe de l'équipage classique avec les mêmes voix principales.", "Dates stellaires approx. 5371-6334"],
+        "Star Trek: The Next Generation": ["Picard relance Star Trek pour une nouvelle génération à bord d'un nouvel Enterprise.", "Dates stellaires approx. 41153-47988"],
+        "Star Trek: Deep Space Nine": ["Un drame choral politique, spirituel et guerrier situé sur une station spatiale frontalière.", "Dates stellaires approx. 46379-52861"],
+        "Star Trek: Voyager": ["L'USS Voyager se retrouve bloqué dans le Quadrant Delta et doit tenter de rentrer chez lui pendant des années.", "Dates stellaires approx. 48315-54973"],
+        "Star Trek: Lower Decks": ["Une comédie animée sur de jeunes officiers très liée au canon classique et moderne de Trek.", "Dates stellaires approx. 57436-59499"],
+        "Star Trek: Prodigy": ["Un jeune équipage apprend à devenir un véritable équipage stellaire tout en explorant la galaxie.", "Après Voyager, avec Janeway comme repère majeur"],
+        "Star Trek: Picard": ["Jean-Luc Picard revient des décennies plus tard pour conclure de grands fils de sa vie et de sa génération.", "Après Nemesis et la fin de l'ère TNG"],
+        "Star Trek: Starfleet Academy": ["Une nouvelle série Trek centrée sur les cadets et la formation de Starfleet au XXXIIe siècle.", "Située après l'ère futuriste de Discovery à l'Académie de Starfleet du XXXIIe siècle"]
+      },
+      ru: {
+        "Star Trek: The Original Series": ["Миссия Кирка, Спока и Маккоя определяет саму ДНК Star Trek.", "Система звездных дат примерно 1312-5928"],
+        "Star Trek: Enterprise": ["Приквел о первых полетах человечества в дальний космос и рождении будущей Федерации.", "До регулярной телевизионной системы звездных дат"],
+        "Star Trek: Short Treks": ["Сборник коротких историй из разных эпох, от Enterprise Пайка до далекого будущего.", "Антология, охватывающая несколько эр Trek"],
+        "Star Trek: Discovery": ["Начинается как приквел к T.O.S., а затем уходит в далекое будущее, расширяя две очень разные эры Trek.", "Прыгает из XXIII в XXXII век после экстремального скачка во времени"],
+        "Star Trek: Strange New Worlds": ["Enterprise Пайка возвращает классический дух исследования и приключения.", "Происходит непосредственно перед оригинальной миссией Кирка"],
+        "Star Trek: The Animated Series": ["Прямое анимационное продолжение классического экипажа с теми же основными голосами.", "Звездные даты примерно 5371-6334"],
+        "Star Trek: The Next Generation": ["Пикар перезапускает Star Trek для нового поколения на борту нового Enterprise.", "Звездные даты примерно 41153-47988"],
+        "Star Trek: Deep Space Nine": ["Политическая, духовная и военная ансамблевая драма на пограничной космической станции.", "Звездные даты примерно 46379-52861"],
+        "Star Trek: Voyager": ["USS Voyager застревает в Дельта-квадранте и годами пытается вернуться домой.", "Звездные даты примерно 48315-54973"],
+        "Star Trek: Lower Decks": ["Анимационная комедия о младших офицерах, тесно связанная с классическим и современным каноном Trek.", "Звездные даты примерно 57436-59499"],
+        "Star Trek: Prodigy": ["Молодой экипаж учится быть настоящей звездной командой, исследуя галактику.", "После Voyager, с Джейнвей как ключевой точкой отсчета"],
+        "Star Trek: Picard": ["Жан-Люк Пикар возвращается спустя десятилетия, чтобы завершить важные линии своей жизни и своего поколения.", "После Nemesis и конца эры TNG"],
+        "Star Trek: Starfleet Academy": ["Новый сериал Trek о кадетах и обучении в Академии Звездного флота в XXXII веке.", "После далекого будущего Discovery в Академии Звездного флота XXXII века"]
+      },
+      uk: {
+        "Star Trek: The Original Series": ["Місія Кірка, Спока й Маккоя визначає саму ДНК Star Trek.", "Система зоряних дат приблизно 1312-5928"],
+        "Star Trek: Enterprise": ["Приквел про перші польоти людства в далекий космос і народження майбутньої Федерації.", "До регулярної телевізійної системи зоряних дат"],
+        "Star Trek: Short Treks": ["Збірка коротких історій із різних епох, від Enterprise Пайка до далекого майбутнього.", "Антологія, розподілена між кількома ерами Trek"],
+        "Star Trek: Discovery": ["Починається як приквел до T.O.S., а потім переноситься в далекий майбутній час, розширюючи дві дуже різні ери Trek.", "Стрибає з XXIII до XXXII століття після екстремального часового стрибка"],
+        "Star Trek: Strange New Worlds": ["Enterprise Пайка повертає класичний дух дослідження й пригод.", "Відбувається безпосередньо перед оригінальною місією Кірка"],
+        "Star Trek: The Animated Series": ["Пряме анімаційне продовження класичного екіпажу з тим самим основним акторським складом озвучення.", "Зоряні дати приблизно 5371-6334"],
+        "Star Trek: The Next Generation": ["Пікар перезапускає Star Trek для нового покоління на борту нового Enterprise.", "Зоряні дати приблизно 41153-47988"],
+        "Star Trek: Deep Space Nine": ["Політична, духовна та воєнна ансамблева драма на прикордонній космічній станції.", "Зоряні дати приблизно 46379-52861"],
+        "Star Trek: Voyager": ["USS Voyager застрягає в Дельта-квадранті й роками намагається повернутися додому.", "Зоряні дати приблизно 48315-54973"],
+        "Star Trek: Lower Decks": ["Анімаційна комедія про молодших офіцерів, тісно пов'язана з класичним і сучасним каноном Trek.", "Зоряні дати приблизно 57436-59499"],
+        "Star Trek: Prodigy": ["Молодий екіпаж вчиться бути справжньою зоряною командою, досліджуючи галактику.", "Після Voyager, із Джейнвей як ключовим орієнтиром"],
+        "Star Trek: Picard": ["Жан-Люк Пікар повертається через десятиліття, щоб завершити важливі сюжетні лінії свого життя й свого покоління.", "Після Nemesis і завершення ери TNG"],
+        "Star Trek: Starfleet Academy": ["Новий серіал Trek, зосереджений на кадетах і підготовці Зоряного флоту у XXXII столітті.", "Після далекого майбутнього Discovery в Академії Зоряного флоту XXXII століття"]
+      },
+      ca: {
+        "Star Trek: The Original Series": ["La missió de Kirk, Spock i McCoy defineix l'ADN de Star Trek.", "Marc de dates estel·lars aprox. 1312-5928"],
+        "Star Trek: Enterprise": ["Una preqüela sobre els primers viatges humans a l'espai profund i el naixement de la futura Federació.", "Abans del sistema regular de dates estel·lars televisives"],
+        "Star Trek: Short Treks": ["Una col·lecció d'històries curtes repartides per diferents eres, des de l'Enterprise de Pike fins al futur llunyà.", "Antologia repartida entre diverses eres de Trek"],
+        "Star Trek: Discovery": ["Comença com una preqüela de T.O.S. i més endavant salta al futur llunyà, ampliant dues eres Trek molt diferents.", "Salta del segle XXIII al XXXII després d'un salt temporal extrem"],
+        "Star Trek: Strange New Worlds": ["L'Enterprise de Pike recupera l'esperit clàssic d'exploració i aventura.", "Situada just abans de la missió original de Kirk"],
+        "Star Trek: The Animated Series": ["Una continuació animada directa de la tripulació clàssica amb les mateixes veus principals.", "Dates estel·lars aprox. 5371-6334"],
+        "Star Trek: The Next Generation": ["Picard rellança Star Trek per a una nova generació a bord d'una nova Enterprise.", "Dates estel·lars aprox. 41153-47988"],
+        "Star Trek: Deep Space Nine": ["Un drama coral polític, espiritual i bèl·lic situat en una estació espacial fronterera.", "Dates estel·lars aprox. 46379-52861"],
+        "Star Trek: Voyager": ["La USS Voyager queda atrapada al Quadrant Delta i ha d'intentar tornar a casa durant anys.", "Dates estel·lars aprox. 48315-54973"],
+        "Star Trek: Lower Decks": ["Una comèdia animada sobre oficials júnior molt connectada amb el cànon clàssic i modern de Trek.", "Dates estel·lars aprox. 57436-59499"],
+        "Star Trek: Prodigy": ["Una jove tripulació aprèn a convertir-se en una autèntica tripulació estel·lar mentre explora la galàxia.", "Després de Voyager, amb Janeway com a referència clau"],
+        "Star Trek: Picard": ["Jean-Luc Picard torna dècades després per tancar grans fils de la seva vida i de la seva generació.", "Després de Nemesis i del final de l'era TNG"],
+        "Star Trek: Starfleet Academy": ["Una nova sèrie Trek centrada en els cadets i la formació de l'Acadèmia de la Flota Estel·lar al segle XXXII.", "Situada després de l'era de futur llunyà de Discovery a l'Acadèmia de la Flota Estel·lar del segle XXXII"]
+      }
+    };
+    var labels = labelTranslations[language] || labelTranslations.es;
+    var translated = ((seriesTranslationsByLanguage[language] || {})[item.title]) || [];
 
     return {
-      summary: translated.summary || item.summary,
-      releaseLabelText: "Release order:",
-      timelineLabelText: "In-universe order:",
-      stardateLabelText: "Stardate or time frame:",
+      summary: translated[0] || item.summary,
+      releaseLabelText: labels.releaseLabelText,
+      timelineLabelText: labels.timelineLabelText,
+      stardateLabelText: labels.stardateLabelText,
       releaseBadge: item.releaseLabel,
-      stardate: translated.stardate || item.stardateLabel
+      stardate: translated[1] || item.stardateLabel
     };
   }
 
@@ -882,7 +1040,7 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
         '    <span class="timeline__tag">' + localized.episodesLabel + "</span>",
         '    <span class="timeline__tag">' + seasonData.years + "</span>",
         "  </div>",
-        '  <p class="season-overview-card__focus"><strong>' + (getLanguage() === "en" ? "Key:" : "Clave:") + "</strong> " + localized.focus + "</p>",
+        '  <p class="season-overview-card__focus"><strong>' + localized.keyLabel + "</strong> " + localized.focus + "</p>",
         '  <a class="button button--primary" href="' + getSeasonUrl(seasonData.number) + '">' + localized.openLabel + "</a>",
         "</article>"
       ].join("");
