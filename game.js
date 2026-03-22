@@ -25,6 +25,7 @@ import { OTHER_SERIES, SEASONS } from "./season-data.js";
   var homeStatYears = document.getElementById("home-stat-years");
   var homeSeriesSelect = document.getElementById("home-series-select");
   var homeSeriesDetail = document.getElementById("home-series-detail");
+  var homeSeriesSummary = document.getElementById("home-series-summary");
 
   var castMembers = [
     { actor: "William Shatner", birth: "1931-03-22", death: null, seasons: [1, 2, 3] },
@@ -416,7 +417,7 @@ import { OTHER_SERIES, SEASONS } from "./season-data.js";
     }
 
     function renderSelectedSeriesDetail(seriesTitle) {
-      if (!homeSeriesDetail) {
+      if (!homeSeriesDetail && !homeSeriesSummary) {
         return;
       }
 
@@ -424,10 +425,16 @@ import { OTHER_SERIES, SEASONS } from "./season-data.js";
         return item.title === seriesTitle;
       }) || universeSeries[0];
 
-      homeSeriesDetail.textContent =
-        selectedSeries.seasonsCount +
-        " temporadas | capitulos por temporada: " +
-        selectedSeries.seasonBreakdown + ".";
+      if (homeSeriesSummary) {
+        homeSeriesSummary.textContent = selectedSeries.title;
+      }
+
+      if (homeSeriesDetail) {
+        homeSeriesDetail.textContent =
+          selectedSeries.seasonsCount +
+          " temporadas | capitulos por temporada: " +
+          selectedSeries.seasonBreakdown + ".";
+      }
     }
 
     if (homeSeriesSelect) {
