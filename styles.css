@@ -432,6 +432,12 @@ h3 {
   margin-top: 14px;
 }
 
+.quick-map__series-followup {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+
 .quick-map__action--movies {
   justify-content: center;
 }
