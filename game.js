@@ -31,6 +31,7 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
   var moviesModal = document.getElementById("movies-modal");
   var moviesGrid = document.getElementById("movies-grid");
   var movieSortButtons = Array.prototype.slice.call(document.querySelectorAll("[data-movie-sort]"));
+  var starField = document.querySelector(".stars");
 
   var castMembers = [
     { actor: "William Shatner", birth: "1931-03-22", death: null, seasons: [1, 2, 3] },
@@ -49,6 +50,53 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
       .toLowerCase()
       .normalize("NFD")
       .replace(/[\u0300-\u036f]/g, "");
+  }
+
+  function randomBetween(min, max) {
+    return min + Math.random() * (max - min);
+  }
+
+  function setupStarfield() {
+    if (!starField) {
+      return;
+    }
+
+    var layers = [
+      { count: 110, className: "stars__layer--far", minSize: 1, maxSize: 2.2 },
+      { count: 80, className: "stars__layer--mid", minSize: 1.2, maxSize: 2.8 },
+      { count: 45, className: "stars__layer--near", minSize: 1.6, maxSize: 3.6 }
+    ];
+
+    starField.innerHTML = "";
+
+    layers.forEach(function (layerConfig, layerIndex) {
+      var layer = document.createElement("div");
+      layer.className = "stars__layer " + layerConfig.className;
+
+      for (var i = 0; i < layerConfig.count; i += 1) {
+        var star = document.createElement("span");
+        var size = randomBetween(layerConfig.minSize, layerConfig.maxSize);
+        var hue = i % 9 === 0 ? "var(--accent)" : i % 7 === 0 ? "rgba(255, 220, 170, 0.92)" : "rgba(255, 255, 255, 0.95)";
+
+        star.className = "star";
+        star.style.left = randomBetween(-5, 105).toFixed(2) + "%";
+        star.style.top = randomBetween(-8, 108).toFixed(2) + "%";
+        star.style.width = size.toFixed(2) + "px";
+        star.style.height = size.toFixed(2) + "px";
+        star.style.background = hue;
+        star.style.opacity = randomBetween(0.35, 1).toFixed(2);
+        star.style.setProperty("--twinkle-duration", randomBetween(2.8, 7.5).toFixed(2) + "s");
+        star.style.setProperty("--twinkle-delay", randomBetween(0, 4.5).toFixed(2) + "s");
+
+        if (layerIndex === 2 && i % 5 === 0) {
+          star.style.boxShadow = "0 0 10px rgba(255,255,255,0.35)";
+        }
+
+        layer.appendChild(star);
+      }
+
+      starField.appendChild(layer);
+    });
   }
 
   function formatCount(total, visible) {
@@ -534,6 +582,7 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
   }
 
   if (pageType === "home") {
+    setupStarfield();
     document.title = "Star Trek - Universo";
     renderHomeStats();
     renderHomeSeasonCards();
@@ -543,6 +592,7 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
     return;
   }
 
+  setupStarfield();
   renderSeasonShell();
   renderCastAges();
   setupCharacterReveal();
