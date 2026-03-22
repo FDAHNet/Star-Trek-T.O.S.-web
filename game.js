@@ -996,15 +996,46 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
       return;
     }
 
+    var seasonShortcutLabels = {
+      es: {
+        noPages: "Esta serie todavía no tiene temporadas detalladas en la web.",
+        season: "Temporada",
+        episodes: "episodios"
+      },
+      en: {
+        noPages: "This series does not yet have detailed season pages on the site.",
+        season: "Season",
+        episodes: "episodes"
+      },
+      fr: {
+        noPages: "Cette série n'a pas encore de pages de saison détaillées sur le site.",
+        season: "Saison",
+        episodes: "épisodes"
+      },
+      ru: {
+        noPages: "У этого сериала пока нет подробных страниц сезонов на сайте.",
+        season: "Сезон",
+        episodes: "эпизодов"
+      },
+      uk: {
+        noPages: "Цей серіал поки що не має докладних сторінок сезонів на сайті.",
+        season: "Сезон",
+        episodes: "епізодів"
+      },
+      ca: {
+        noPages: "Aquesta sèrie encara no té pàgines de temporada detallades al web.",
+        season: "Temporada",
+        episodes: "episodis"
+      }
+    };
+    var shortcutLabels = seasonShortcutLabels[getLanguage()] || seasonShortcutLabels.es;
     var seasonEntry = findSeriesSeasonEntry(seriesSlug);
 
     if (!seasonEntry || !seasonEntry.seasons.length) {
       homeSeriesExtraLabel.textContent = t("home.seasonsLabel");
       homeSeasonShortcuts.hidden = true;
       homeSeriesExtraText.hidden = false;
-      homeSeriesExtraText.textContent = getLanguage() === "en"
-        ? "This series does not yet have detailed season pages on the site."
-        : "Esta serie todavía no tiene temporadas detalladas en la web.";
+      homeSeriesExtraText.textContent = shortcutLabels.noPages;
       return;
     }
 
@@ -1015,10 +1046,10 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
     homeSeasonShortcuts.setAttribute("aria-label", "Temporadas de " + seasonEntry.title);
     homeSeasonShortcuts.innerHTML = seasonEntry.seasons.map(function (seasonItem) {
       var suffix = seasonItem.episodesCount
-        ? " | " + seasonItem.episodesCount + " " + (getLanguage() === "en" ? "episodes" : "episodios")
+        ? " | " + seasonItem.episodesCount + " " + shortcutLabels.episodes
         : "";
 
-      return '<a class="season-selector__link quick-map__chip" href="' + seasonItem.url + '">' + (getLanguage() === "en" ? "Season " : "Temporada ") + seasonItem.number + suffix + "</a>";
+      return '<a class="season-selector__link quick-map__chip" href="' + seasonItem.url + '">' + shortcutLabels.season + " " + seasonItem.number + suffix + "</a>";
     }).join("");
   }
 
