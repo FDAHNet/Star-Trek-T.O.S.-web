@@ -442,6 +442,17 @@ h3 {
   gap: 10px;
 }
 
+.quick-map__extra {
+  display: grid;
+  gap: 12px;
+}
+
+.quick-map__extra-text {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
 .quick-map__chip {
   min-width: 0;
   flex: 1 1 120px;

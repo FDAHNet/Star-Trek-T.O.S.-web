@@ -29,6 +29,8 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
   var homeSeriesSummary = document.getElementById("home-series-summary");
   var homeSeriesLink = document.getElementById("home-series-link");
   var homeSeasonShortcuts = document.getElementById("home-season-shortcuts");
+  var homeSeriesExtraLabel = document.getElementById("home-series-extra-label");
+  var homeSeriesExtraText = document.getElementById("home-series-extra-text");
   var homeMoviesShortcut = document.getElementById("home-movies-shortcut");
   var openMoviesModalButton = document.getElementById("open-movies-modal");
   var closeMoviesModalButton = document.getElementById("close-movies-modal");
@@ -622,6 +624,22 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
 
       if (homeSeriesLink) {
         homeSeriesLink.setAttribute("href", getSeriesDetailUrl(selectedSeries.title));
+      }
+
+      if (homeSeriesExtraLabel && homeSeasonShortcuts && homeSeriesExtraText) {
+        if (selectedSeries.title === "Star Trek: The Original Series") {
+          homeSeriesExtraLabel.textContent = "Temporadas T.O.S.";
+          homeSeasonShortcuts.hidden = false;
+          homeSeriesExtraText.hidden = true;
+          homeSeriesExtraText.textContent = "";
+        } else {
+          homeSeriesExtraLabel.textContent = "Formato de la serie";
+          homeSeasonShortcuts.hidden = true;
+          homeSeriesExtraText.hidden = false;
+          homeSeriesExtraText.textContent =
+            selectedSeries.title +
+            " no esta dividida aqui por temporadas individuales en la portada; usa la ficha completa de la serie para verla dentro del universo Trek.";
+        }
       }
     }
 
