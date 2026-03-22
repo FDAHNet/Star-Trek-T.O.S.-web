@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star Trek</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="series-season" data-series-slug="star-trek-voyager" data-series-season="1">
+  <div class="stars" aria-hidden="true"></div>
+
+  <header class="hero">
+    <nav class="topbar">
+      <a class="brand" href="./index.html">Universo Star Trek</a>
+      <div class="topbar__nav">
+        <a class="topbar__link" href="./index.html">Inicio</a>
+        <a class="topbar__link" href="./index.html#otras-series">Series</a>
+        <a class="topbar__link" href="./index.html">Peliculas</a>
+      </div>
+    </nav>
+
+    <section class="hero__content">
+      <div class="hero__copy">
+        <p id="season-detail-badge" class="eyebrow"></p>
+        <h1 id="season-detail-title"></h1>
+        <p id="season-detail-summary" class="hero__text"></p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="./serie-star-trek-voyager.html">Volver a la serie</a>
+          <a class="button button--ghost" href="./index.html#otras-series">Volver al universo</a>
+        </div>
+      </div>
+
+      <aside class="hero__card" aria-label="Datos clave de la temporada">
+        <div class="hero__visual detail-hero__visual">
+          <div>
+            <span class="timeline__tag" id="season-detail-meta-title"></span>
+            <strong id="season-detail-series-title"></strong>
+          </div>
+        </div>
+        <ul class="stat-list">
+          <li><span>Emision</span><strong id="season-detail-release"></strong></li>
+          <li><span>Cronologia Trek</span><strong id="season-detail-timeline"></strong></li>
+          <li><span>Episodios</span><strong id="season-detail-episodes"></strong></li>
+        </ul>
+      </aside>
+    </section>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Selector</p>
+        <h2>Temporadas de la serie</h2>
+      </div>
+      <div id="season-detail-nav" class="season-selector season-selector--detail"></div>
+    </section>
+
+    <section class="section section--intro">
+      <div class="section-heading">
+        <p class="eyebrow">Resumen</p>
+        <h2 id="season-detail-overview-title"></h2>
+      </div>
+      <div id="season-detail-cards-grid" class="intro-grid intro-grid--home card-grid--triple"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Datos clave</p>
+        <h2>Base rapida de la temporada</h2>
+      </div>
+      <ul id="season-detail-facts-list" class="detail-facts"></ul>
+    </section>
+
+    <section class="section section--footer-note">
+      <div class="footer-note">
+        <p class="eyebrow">Navegacion</p>
+        <h2 id="season-detail-footer-title"></h2>
+        <p>Estas fichas amplian la estructura de la web para que cada serie tenga sus propias temporadas navegables, igual que la serie original.</p>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="game.js"></script>
+  <script type="module" src="season-detail.js"></script>
+</body>
+</html>

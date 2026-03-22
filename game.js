@@ -1,4 +1,5 @@
 import { MOVIE_DETAILS, SERIES_DETAILS } from "./franchise-data.js";
+import { findSeriesSeasonEntry } from "./series-season-data.js";
 import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
 
 (function () {
@@ -67,23 +68,20 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
   }
 
   function getUniverseSeries() {
-    return [
-      {
-        title: "Star Trek: The Original Series",
-        seasonsCount: 3,
-        seasonBreakdown: "29, 26 y 24 episodios",
-        timelineLabel: "2265-2269",
-        releaseLabel: "1966-1969"
-      }
-    ].concat(OTHER_SERIES.map(function (item) {
+    return SERIES_DETAILS.map(function (item) {
+      var seasonEntry = findSeriesSeasonEntry(item.slug);
+
       return {
+        slug: item.slug,
         title: item.title,
-        seasonsCount: item.seasonsCount,
-        seasonBreakdown: item.seasonBreakdown,
+        seasonsCount: seasonEntry ? seasonEntry.seasons.length : 0,
+        seasonBreakdown: seasonEntry ? seasonEntry.seasons.map(function (season) {
+          return season.episodesCount;
+        }).filter(Boolean).join(", ") + " episodios" : "",
         timelineLabel: item.timelineLabel,
         releaseLabel: item.releaseLabel
       };
-    }));
+    });
   }
 
   function getMovieDetailUrl(title) {
@@ -406,6 +404,33 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
     return "./temporada-" + number + ".html";
   }
 
+  function renderSeriesSeasonShortcuts(seriesSlug) {
+    if (!homeSeasonShortcuts || !homeSeriesExtraLabel || !homeSeriesExtraText) {
+      return;
+    }
+
+    var seasonEntry = findSeriesSeasonEntry(seriesSlug);
+
+    if (!seasonEntry || !seasonEntry.seasons.length) {
+      homeSeriesExtraLabel.textContent = "Temporadas";
+      homeSeasonShortcuts.hidden = true;
+      homeSeriesExtraText.hidden = false;
+      homeSeriesExtraText.textContent = "Esta serie todavia no tiene temporadas detalladas en la web.";
+      return;
+    }
+
+    homeSeriesExtraLabel.textContent = "Temporadas";
+    homeSeasonShortcuts.hidden = false;
+    homeSeriesExtraText.hidden = true;
+    homeSeriesExtraText.textContent = "";
+    homeSeasonShortcuts.setAttribute("aria-label", "Temporadas de " + seasonEntry.title);
+    homeSeasonShortcuts.innerHTML = seasonEntry.seasons.map(function (seasonItem) {
+      var suffix = seasonItem.episodesCount ? " | " + seasonItem.episodesCount + " episodios" : "";
+
+      return '<a class="season-selector__link quick-map__chip" href="' + seasonItem.url + '">Temporada ' + seasonItem.number + suffix + "</a>";
+    }).join("");
+  }
+
   function renderHomeSeasonCards() {
     if (!homeSeasonGrid) {
       return;
@@ -611,11 +636,15 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
       }
 
       if (homeSeriesDetail) {
+        var breakdownText = selectedSeries.seasonBreakdown
+          ? "capitulos por temporada: " + selectedSeries.seasonBreakdown + " | "
+          : "";
+
         homeSeriesDetail.textContent =
           selectedSeries.seasonsCount +
-          " temporadas | capitulos por temporada: " +
-          selectedSeries.seasonBreakdown +
-          " | cronologia: " +
+          " temporadas | " +
+          breakdownText +
+          "cronologia: " +
           selectedSeries.timelineLabel +
           " | emision: " +
           selectedSeries.releaseLabel +
@@ -626,21 +655,7 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
         homeSeriesLink.setAttribute("href", getSeriesDetailUrl(selectedSeries.title));
       }
 
-      if (homeSeriesExtraLabel && homeSeasonShortcuts && homeSeriesExtraText) {
-        if (selectedSeries.title === "Star Trek: The Original Series") {
-          homeSeriesExtraLabel.textContent = "Temporadas T.O.S.";
-          homeSeasonShortcuts.hidden = false;
-          homeSeriesExtraText.hidden = true;
-          homeSeriesExtraText.textContent = "";
-        } else {
-          homeSeriesExtraLabel.textContent = "Formato de la serie";
-          homeSeasonShortcuts.hidden = true;
-          homeSeriesExtraText.hidden = false;
-          homeSeriesExtraText.textContent =
-            selectedSeries.title +
-            " no esta dividida aqui por temporadas individuales en la portada; usa la ficha completa de la serie para verla dentro del universo Trek.";
-        }
-      }
+      renderSeriesSeasonShortcuts(selectedSeries.slug);
     }
 
     if (homeSeriesSelect) {
@@ -651,13 +666,7 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
       });
     }
 
-    if (homeSeasonShortcuts) {
-      homeSeasonShortcuts.innerHTML = Object.keys(SEASONS).map(function (key) {
-        var seasonData = SEASONS[key];
-
-        return '<a class="season-selector__link quick-map__chip" href="' + getSeasonUrl(seasonData.number) + '">Temporada ' + seasonData.number + "</a>";
-      }).join("");
-    }
+    renderSeriesSeasonShortcuts(universeSeries[0].slug);
   }
 
   if (pageType === "home") {
@@ -672,6 +681,11 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
   }
 
   if (pageType === "detail") {
+    setupStarfield();
+    return;
+  }
+
+  if (pageType === "series-season") {
     setupStarfield();
     return;
   }

@@ -1,4 +1,5 @@
 import { MOVIE_DETAILS, SERIES_DETAILS } from "./franchise-data.js";
+import { findSeriesSeasonEntry } from "./series-season-data.js";
 
 (function () {
   "use strict";
@@ -38,8 +39,23 @@ import { MOVIE_DETAILS, SERIES_DETAILS } from "./franchise-data.js";
   });
 
   var cardsGrid = document.getElementById("detail-cards-grid");
+  var fallbackCards = item.cards || [
+    {
+      title: detailType === "movie" ? "De que va" : "Panorama general",
+      text: item.summary
+    },
+    {
+      title: detailType === "movie" ? "Ubicacion en Trek" : "Ubicacion en el canon",
+      text: (detailType === "movie" ? "Esta pelicula" : "Esta serie") + " se ubica en " + item.timelineLabel + " dentro de " + item.continuity.toLowerCase() + "."
+    },
+    {
+      title: detailType === "movie" ? "Por que verla" : "Por que importa",
+      text: item.facts ? item.facts.join(" | ") + "." : "Forma parte del mapa general del universo Star Trek."
+    }
+  ];
+
   if (cardsGrid) {
-    cardsGrid.innerHTML = item.cards.map(function (card) {
+    cardsGrid.innerHTML = fallbackCards.map(function (card) {
       return [
         '<article class="intro-card">',
         "  <h3>" + card.title + "</h3>",
@@ -51,15 +67,47 @@ import { MOVIE_DETAILS, SERIES_DETAILS } from "./franchise-data.js";
 
   var factsList = document.getElementById("detail-facts-list");
   if (factsList) {
-    factsList.innerHTML = item.facts.map(function (fact) {
+    factsList.innerHTML = (item.facts || []).map(function (fact) {
       return "<li>" + fact + "</li>";
     }).join("");
   }
 
   var statList = document.getElementById("detail-stat-list");
+  var fallbackStats = item.stats || [
+    { label: detailType === "movie" ? "Estreno" : "Emision", value: item.releaseLabel },
+    { label: "Cronologia", value: item.timelineLabel },
+    { label: "Continuidad", value: item.continuity }
+  ];
+
   if (statList) {
-    statList.innerHTML = item.stats.map(function (stat) {
+    statList.innerHTML = fallbackStats.map(function (stat) {
       return "<li><span>" + stat.label + "</span><strong>" + stat.value + "</strong></li>";
     }).join("");
+  }
+
+  if (detailType === "series") {
+    var seasonEntry = findSeriesSeasonEntry(detailSlug);
+    var main = document.querySelector("main");
+
+    if (seasonEntry && main) {
+      var seasonSection = document.createElement("section");
+      seasonSection.className = "section";
+      seasonSection.innerHTML = [
+        '<div class="section-heading">',
+        '  <p class="eyebrow">Temporadas</p>',
+        '  <h2>Explorar temporadas de ' + item.title + '</h2>',
+        '  <p class="section-text">Cada temporada tiene ahora su propia subpagina con explicacion, enfoque y acceso rapido dentro de la serie.</p>',
+        '</div>',
+        '<div class="season-selector season-selector--detail">' +
+          seasonEntry.seasons.map(function (season) {
+            var suffix = season.episodesCount ? " | " + season.episodesCount + " episodios" : "";
+
+            return '<a class="season-selector__link" href="' + season.url + '">Temporada ' + season.number + suffix + '</a>';
+          }).join("") +
+        '</div>'
+      ].join("");
+
+      main.insertBefore(seasonSection, main.lastElementChild);
+    }
   }
 }());
