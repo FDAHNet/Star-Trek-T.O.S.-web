@@ -20,7 +20,6 @@ import { OTHER_SERIES, SEASONS } from "./season-data.js";
   var homeSeasonGrid = document.getElementById("season-overview-grid");
   var franchiseSeriesGrid = document.getElementById("franchise-series-grid");
   var seriesSortButtons = Array.prototype.slice.call(document.querySelectorAll("[data-series-sort]"));
-  var homeStatSeasonCount = document.getElementById("home-stat-season-count");
   var homeStatEpisodeCount = document.getElementById("home-stat-episode-count");
   var homeStatSeriesCount = document.getElementById("home-stat-series-count");
   var homeStatYears = document.getElementById("home-stat-years");
@@ -397,10 +396,6 @@ import { OTHER_SERIES, SEASONS } from "./season-data.js";
         seasonBreakdown: item.seasonBreakdown
       };
     }));
-
-    if (homeStatSeasonCount) {
-      homeStatSeasonCount.textContent = String(Object.keys(SEASONS).length);
-    }
 
     if (homeStatEpisodeCount) {
       homeStatEpisodeCount.textContent = String(totalEpisodes);
