@@ -191,6 +191,27 @@
       </div>
     </section>
 
+    <section id="episodios" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Guía de episodios</p>
+        <h2>Todos los episodios de la temporada 1</h2>
+        <p class="section-text">
+          Busca por número, título o idea principal. Los títulos se mantienen en su versión original.
+        </p>
+      </div>
+
+      <div class="episode-toolbar">
+        <label class="search-field" for="episode-search">
+          <span class="search-field__label">Buscar episodio</span>
+          <input id="episode-search" class="search-field__input" type="search" placeholder="Ej.: Khan, tiempo, Spock, episodio 14">
+        </label>
+        <p id="episode-count" class="episode-count" aria-live="polite"></p>
+      </div>
+
+      <div id="episode-grid" class="episode-grid" aria-live="polite"></div>
+      <p id="empty-state" class="empty-state" hidden>No hay episodios que coincidan con esa búsqueda.</p>
+    </section>
+
     <section class="section section--timeline">
       <div class="section-heading">
         <p class="eyebrow">Ruta estelar</p>
@@ -216,27 +237,6 @@
           <p>Uno de los episodios más influyentes y recordados de toda la franquicia.</p>
         </article>
       </div>
-    </section>
-
-    <section id="episodios" class="section">
-      <div class="section-heading">
-        <p class="eyebrow">Guía de episodios</p>
-        <h2>Todos los episodios de la temporada 1</h2>
-        <p class="section-text">
-          Busca por número, título o idea principal. Los títulos se mantienen en su versión original.
-        </p>
-      </div>
-
-      <div class="episode-toolbar">
-        <label class="search-field" for="episode-search">
-          <span class="search-field__label">Buscar episodio</span>
-          <input id="episode-search" class="search-field__input" type="search" placeholder="Ej.: Khan, tiempo, Spock, episodio 14">
-        </label>
-        <p id="episode-count" class="episode-count" aria-live="polite"></p>
-      </div>
-
-      <div id="episode-grid" class="episode-grid" aria-live="polite"></div>
-      <p id="empty-state" class="empty-state" hidden>No hay episodios que coincidan con esa búsqueda.</p>
     </section>
 
     <section class="section section--footer-note">
