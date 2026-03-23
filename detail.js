@@ -85,6 +85,38 @@ import { findSeriesSeasonEntry } from "./series-season-data.js";
     }).join("");
   }
 
+  if (detailType === "movie") {
+    var movieMain = document.querySelector("main");
+
+    if (movieMain && item.detailedSynopsis) {
+      var synopsisSection = document.createElement("section");
+      synopsisSection.className = "section";
+      synopsisSection.innerHTML = [
+        '<div class="section-heading">',
+        '  <p class="eyebrow">Sinopsis detallada</p>',
+        '  <h2>La pelicula en profundidad</h2>',
+        '  <p class="section-text">' + item.detailedSynopsis + '</p>',
+        '</div>',
+        '<div class="intro-grid intro-grid--home card-grid--triple">',
+        '  <article class="intro-card">',
+        '    <h3>Contexto</h3>',
+        '    <p>' + item.summary + '</p>',
+        '  </article>',
+        '  <article class="intro-card">',
+        '    <h3>Ubicacion en Trek</h3>',
+        '    <p>Esta pelicula se sitúa en ' + item.timelineLabel + ' dentro de ' + item.continuity.toLowerCase() + '.</p>',
+        '  </article>',
+        '  <article class="intro-card">',
+        '    <h3>Claves</h3>',
+        '    <p>' + (item.facts || []).join(" | ") + '</p>',
+        '  </article>',
+        '</div>'
+      ].join("");
+
+      movieMain.insertBefore(synopsisSection, movieMain.lastElementChild);
+    }
+  }
+
   if (detailType === "series") {
     var seasonEntry = findSeriesSeasonEntry(detailSlug);
     var main = document.querySelector("main");
