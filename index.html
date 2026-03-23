@@ -47,7 +47,18 @@
 
       <aside class="hero__card" aria-label="Datos clave del sitio">
         <div class="hero__visual">
-          <img src="enterprise.svg" alt="Ilustracion estilizada de la USS Enterprise en el espacio">
+          <button id="open-quick-video-modal" class="quick-map__video-launch" type="button" aria-label="Abrir video de Star Trek en grande">
+            <span class="quick-map__video-frame quick-map__video-frame--hero">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/qHWlccpsYIA?rel=0"
+                title="Montaje visual de Star Trek sin voces"
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </span>
+          </button>
         </div>
         <p class="hero__card-label">Mapa rapido</p>
         <div class="quick-map">
@@ -57,26 +68,6 @@
               Usa este panel para saltar directamente a una serie, abrir el archivo de peliculas o entrar a las tres
               temporadas de la serie original.
             </p>
-          </div>
-
-          <div class="quick-map__group quick-map__group--video">
-            <p class="quick-map__label">Video recomendado</p>
-            <div class="quick-map__video-card">
-              <div class="quick-map__video-frame">
-                <iframe
-                  src="https://www.youtube-nocookie.com/embed/qHWlccpsYIA?rel=0"
-                  title="Montaje visual de Star Trek sin voces"
-                  loading="lazy"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen
-                ></iframe>
-              </div>
-              <p class="quick-map__video-text">
-                Un montaje visual de naves de <strong>Star Trek</strong> sin narración, pensado como ambientación rápida
-                para entrar en el tono espacial de la saga.
-              </p>
-            </div>
           </div>
 
           <div class="quick-map__group">
@@ -219,6 +210,29 @@
       </div>
 
       <div id="movies-grid" class="movies-grid" aria-live="polite"></div>
+    </div>
+  </dialog>
+
+  <dialog id="quick-video-modal" class="video-modal" aria-labelledby="quick-video-modal-title">
+    <div class="video-modal__panel">
+      <div class="movies-modal__header">
+        <div>
+          <p class="eyebrow">Star Trek</p>
+          <h2 id="quick-video-modal-title">Resumen visual del universo</h2>
+          <p class="section-text">Montaje sin voces para ver Star Trek a mayor tamaño.</p>
+        </div>
+        <button id="close-quick-video-modal" class="movies-modal__close" type="button" aria-label="Cerrar video">X</button>
+      </div>
+      <div class="video-modal__frame">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/qHWlccpsYIA?rel=0"
+          title="Montaje visual de Star Trek sin voces en grande"
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
     </div>
   </dialog>
 

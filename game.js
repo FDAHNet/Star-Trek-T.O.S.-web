@@ -40,6 +40,9 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
   var moviesModal = document.getElementById("movies-modal");
   var moviesGrid = document.getElementById("movies-grid");
   var movieSortButtons = Array.prototype.slice.call(document.querySelectorAll("[data-movie-sort]"));
+  var openQuickVideoModalButton = document.getElementById("open-quick-video-modal");
+  var closeQuickVideoModalButton = document.getElementById("close-quick-video-modal");
+  var quickVideoModal = document.getElementById("quick-video-modal");
   var starField = document.querySelector(".stars");
   var anniversaryBanner = document.getElementById("anniversary-banner");
 
@@ -1343,6 +1346,40 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
     });
   }
 
+  function setupQuickVideoModal() {
+    if (!quickVideoModal || !openQuickVideoModalButton) {
+      return;
+    }
+
+    function openModal() {
+      if (typeof quickVideoModal.showModal === "function") {
+        quickVideoModal.showModal();
+      } else {
+        quickVideoModal.setAttribute("open", "open");
+      }
+    }
+
+    function closeModal() {
+      if (typeof quickVideoModal.close === "function") {
+        quickVideoModal.close();
+      } else {
+        quickVideoModal.removeAttribute("open");
+      }
+    }
+
+    openQuickVideoModalButton.addEventListener("click", openModal);
+
+    if (closeQuickVideoModalButton) {
+      closeQuickVideoModalButton.addEventListener("click", closeModal);
+    }
+
+    quickVideoModal.addEventListener("click", function (event) {
+      if (event.target === quickVideoModal) {
+        closeModal();
+      }
+    });
+  }
+
   function renderHomeStats() {
     var universeSeries = getUniverseSeries();
 
@@ -1461,6 +1498,7 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
     renderFranchiseSeries("release");
     setupSeriesSort();
     setupMoviesModal();
+    setupQuickVideoModal();
     return;
   }
 
