@@ -41,6 +41,7 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
   var moviesGrid = document.getElementById("movies-grid");
   var movieSortButtons = Array.prototype.slice.call(document.querySelectorAll("[data-movie-sort]"));
   var starField = document.querySelector(".stars");
+  var anniversaryBanner = document.getElementById("anniversary-banner");
 
   setupLanguageSwitcher();
   document.documentElement.lang = getLanguage();
@@ -94,6 +95,39 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
   }
 
   localizeTopbar();
+
+  function setupAnniversaryIntro() {
+    var storageKey = "st-universe-60-intro-seen";
+
+    if (!anniversaryBanner || pageType !== "home") {
+      return;
+    }
+
+    anniversaryBanner.classList.add("anniversary-banner--ready");
+
+    try {
+      if (window.localStorage && window.localStorage.getItem(storageKey)) {
+        return;
+      }
+    } catch (error) {
+      return;
+    }
+
+    anniversaryBanner.classList.add("anniversary-banner--intro");
+
+    anniversaryBanner.addEventListener("animationend", function handleIntroEnd() {
+      anniversaryBanner.classList.remove("anniversary-banner--intro");
+      anniversaryBanner.removeEventListener("animationend", handleIntroEnd);
+    });
+
+    try {
+      if (window.localStorage) {
+        window.localStorage.setItem(storageKey, "true");
+      }
+    } catch (error) {
+      // Si el navegador bloquea storage, la animacion simplemente volvera a mostrarse.
+    }
+  }
 
   function localizeHomeStatic() {
     var eyebrow = document.querySelector(".hero__copy .eyebrow");
@@ -1419,6 +1453,7 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
 
   if (pageType === "home") {
     setupStarfield();
+    setupAnniversaryIntro();
     document.title = "Star Trek - Universo";
     localizeHomeStatic();
     renderHomeStats();

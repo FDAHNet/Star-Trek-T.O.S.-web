@@ -94,6 +94,15 @@ img {
   box-shadow: var(--shadow);
 }
 
+.anniversary-banner--ready {
+  transform-origin: center center;
+  will-change: transform, opacity, filter;
+}
+
+.anniversary-banner--intro {
+  animation: anniversary-arrival 2.9s cubic-bezier(0.18, 0.82, 0.18, 1) both;
+}
+
 .anniversary-banner__image {
   width: 100%;
   max-height: 220px;
@@ -1313,6 +1322,35 @@ h3 {
   }
 }
 
+@keyframes anniversary-arrival {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -220px, -900px) scale(0.18) rotate(-1080deg);
+    filter: blur(14px) brightness(1.9);
+  }
+
+  38% {
+    opacity: 1;
+    transform: translate3d(0, 24px, 0) scale(1.08) rotate(-180deg);
+    filter: blur(1px) brightness(1.2);
+  }
+
+  62% {
+    transform: translate3d(0, -10px, 0) scale(0.98) rotate(16deg);
+    filter: blur(0) brightness(1.05);
+  }
+
+  82% {
+    transform: translate3d(0, 3px, 0) scale(1.01) rotate(-6deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1) rotate(0deg);
+    filter: blur(0) brightness(1);
+  }
+}
+
 @keyframes star-drift-far {
   from {
     transform: translate3d(0, 0, 0);
@@ -1480,7 +1518,8 @@ h3 {
   .button--hero-series::before,
   .button--hero-movies::before,
   .stars__layer,
-  .star {
+  .star,
+  .anniversary-banner--intro {
     animation: none;
   }
 
