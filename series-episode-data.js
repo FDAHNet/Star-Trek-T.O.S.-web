@@ -140,7 +140,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "7",
         "overallNumber": "7",
-        "title": "What Are Little Girls Made Of?",
+        "title": "What Are Little Girls Made of?",
         "date": "1966-10-20",
         "productionCode": "10",
         "stardate": "",
@@ -225,7 +225,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "11",
         "overallNumber": "11",
-        "title": "The Menagerie",
+        "title": "The Menagerie Part I",
         "date": "1966-11-17",
         "productionCode": "16",
         "stardate": "",
@@ -251,7 +251,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "12",
         "overallNumber": "12",
-        "title": "The Menagerie",
+        "title": "The Menagerie Part II",
         "date": "1966-11-24",
         "productionCode": "16",
         "stardate": "",
@@ -655,7 +655,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "29",
         "overallNumber": "29",
-        "title": "Operation – Annihilate!",
+        "title": "Operation: Annihilate!",
         "date": "1967-04-13",
         "productionCode": "29",
         "stardate": "",
@@ -913,7 +913,19 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "32",
         "stardate": "",
         "synopsis": "The Federation sends Kirk to negotiate for mining rights with Aka'ar, Te'er of the Ten Tribes of Capella IV. Capella IV has deposits of the rare mineral topaline, needed for life support systems. The Klingons need this mineral, too, and their presence creates tension further complicated by conflict among the members of the tribe. Ma'ab murders Aka'ar and becomes the new Te'er, and he has a decidedly different attitude that favors the Klingonm perspective. Worse, Kirk and McCoy will not stand by while he murders Ele'en, the pregnant wife of the old Te'er, despite this being Capellan tradition. Soon enough, the Federation party is running for the hills - literally - with Capellans and a Klingon in pursuit.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Julie Newmar como Eleen",
+          "Tige Andrews como Kras",
+          "Bob Bralver como Grant",
+          "Kirk Raymone como Duur",
+          "Frank Da Vinci como Capellan Warrior",
+          "Cal Bolder como Keel",
+          "Ben Gage como Akaar",
+          "Michael Dante como Maab"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/144/361476.jpg"
       },
@@ -925,7 +937,18 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "40",
         "stardate": "",
         "synopsis": "Enterprise discovers the scientists on Gamma Hydra IV are all either dead or dying of old age, despite the fact that the oldest was around thirty! Matters get worse when the landing party begins to show signs of aging, all except for Chekov, who is mysteriously unaffected. Eventually, Kirk must be relieved of command, and as Spock and Scotty are both affected, Commodore Stocker assumes command. But Stocker has been a desk officer his entire career; he has no field experience, which leads him to make a desperate, wrong decision...",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "Beverly Washburn como Arlene Galway",
+          "Laura Wood como Elaine Johnson",
+          "Sarah Marshall como Janet Wallace",
+          "Felix Locher como Robert Johnson",
+          "Charles Drake como Commodore Stocker",
+          "Carolyn Nelson como Yeoman Atkins"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242126.jpg"
       },
@@ -937,7 +960,14 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "47",
         "stardate": "",
         "synopsis": "On an obscure planet, Kirk smells something that reminds him of the past. And then two crewman die, their ghastly pallor betraying the fact that every red blood cell in their bodies has been destroyed, the hemoglobin neatly removed. A long time ago, very far from here, Kirk was a young Lieutenant about the Farragut when that ship encountered the cause: a mysterious, gaseous cloud that feeds on blood. Now, Kirk is obsessed with destroying the monster that killed his then mentor, the Farragut's captain Garrovik. Perhaps to an unhealthy degree. Or, given what Spock discovers, perhaps not.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "Jerry Ayres como Ensign Rizzo",
+          "Stephen Brooks como Ensign Garrovick"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/437/1094690.jpg"
       },
@@ -949,7 +979,21 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "36",
         "stardate": "",
         "synopsis": "Kirk takes Scotty to Argelius, a planet renowed for hospitality. Scotty is still recovering from serious injuries accounted to a female member of the crew, so McCoy is concerned he might harbor subconscious resentment toward women. But apparently not; he takes a young woman for a walk through the fog. Kirk and McCoy leave later, and en route to another tavern, hear a high scream. They arrive to find Scotty, bloody knife in hand, standing over the body of the young woman, who has been stabbed dozens of times! They're certain Scotty is innocent despite the evidence, but proving that will require them to discover the actual murderer - and reveal a horrifying truth from history!",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "George Takei como Lt. Hikaru Sulu",
+          "John Winston como Transporter Chief",
+          "John Fiedler como Commissioner Hengist",
+          "Judith McConnell como Yeoman Tankris",
+          "Charles Macaulay como Prefect Jaris",
+          "Virginia Aldridge como Lt. Karen Tracy",
+          "Pilar Seurat como Sybo",
+          "Charles Dierkop como Morla",
+          "Joseph Bernard como Tark",
+          "Tania Lemani como Kara",
+          "Judi Sherven como Nurse",
+          "Paul Baxley como Hengist's Stunt Double"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/438/1095322.jpg"
       },
@@ -961,7 +1005,21 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "42",
         "stardate": "",
         "synopsis": "Under the terms of the Organian Peace Treaty, Sherman's Planet will become a colony of whoever can best develop it. To that end, the Federation intends to ship a large quantity of quadrotriticale to that planet, and Federation Undersecretary Nilz Baris is determined that the grain will arrive, so he orders the manager of Space Station K-9 to issue a distress call! Enterprise responds to discover no emergency; Baris just wants guards for his grain. And then a Klingon ship arrives, seeking shore leave. And Cyrano Jones, an itinerant trader, also arrives, with some odd animals he calls tribbles. Some very hungry, odd animals...",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "David L. Ross como Guard",
+          "Michael Pataki como Korax",
+          "Charlie Brill como Arne Darvin",
+          "Paul Baxley como Ensign Freeman",
+          "Edwin Reimers como Admiral Fitzpatrick",
+          "Guy Raymond como Trader",
+          "William Schallert como Nilz Baris",
+          "Whit Bissell como Lurry",
+          "Stanley Adams como Cyrano Jones",
+          "William Campbell como Koloth"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242129.jpg"
       },
@@ -973,7 +1031,18 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "46",
         "stardate": "",
         "synopsis": "Kirk, Uhura and Chekov are set to beam down to examine and maintain a communications relay station, when they vanish from the transporter room in a way inconsistent with normal transport! They have been whisked across planetary systems by the mysterious Providers, who gather \"inferior\" beings from all over the galaxy and pit them against each other in blood contests. This activity is the only thing that stimulates the Providers. As the three begin their involuntary training, Enterprise begins following the scant evidence their abductors left behind, trying to locate them.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Mickey Morton como Kloog",
+          "Joseph Ruskin como Galt",
+          "Victoria George como Ensign Jana Haines",
+          "Steve Sandor como Lars",
+          "Dick Crockett como Andorian Thrall",
+          "Jane Ross como Tamoon",
+          "Angelique Pettyjohn como Shahna"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/439/1098602.jpg"
       },
@@ -985,7 +1054,22 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "49",
         "stardate": "",
         "synopsis": "The Horizon visited the planet Iotia a hundred years ago, long before the Prime Directive forbid interference in pre-warp alien cultures. Beaming down to investigate the damage, Kirk, Spock and McCoy discover a culture run by mobsters! It seems that Horizon left behind a book, \"Chicago Mobs of the Twenties\", and the highly imitative people of Iotia patterned their society after the groups described in its pages. How can Enterprise undo the grievous harm Horizon did to this civilization?",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Dyanne Thorne como First Girl",
+          "Sharyn Hillyer como Second Girl",
+          "John Harmon como Tepo",
+          "Steven Marlo como Zabo",
+          "Anthony Caruso como Bela Oxmyx",
+          "Buddy Garion como Karf",
+          "Sheldon Collins como Tough Kid",
+          "Vic Tayback como Jojo Krako",
+          "Lee Delano como Kalo",
+          "Jay D. Jones como Mirt",
+          "Marlys Burdette como Krako's Girl"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/440/1101988.jpg"
       },
@@ -997,7 +1081,13 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "48",
         "stardate": "",
         "synopsis": "Spock senses the crew of Intrepid , a starship crewed solely by Vulcans, die. Enterprise investigates, and discovers a zone of darkness which conceals the hazard: an immense yet single-celled organism which drains energy from anything it encounters, as it did the Intrepid and her crew. And unless they can discover how to destroy it, Enterprise will be next. Worse, there are signs the organism has accumulated sufficient energy to reproduce...",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "John Winston como Lt. Kyle"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242132.jpg"
       },
@@ -1009,7 +1099,20 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "45",
         "stardate": "",
         "synopsis": "Kirk returns to a planet he surveyed years ago as a younger officer. There he discovers that the villagers and the hill people are now fighting, because the villagers have developed crude firearms and the idea that they should simply take anything they want from the hill people. Worse, Spock is the victim of a gunshot! Kirk and McCoy return to the surface to investigate more completely, but Enterprise must leave to avoid detection - and then a mugato bites Kirk! He must make contact with the hill people, who number among them a kind of witch doctor called a kanutu, who may be able to help. But that help comes with a price...",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "Booker Bradshaw como Dr. M'Benga",
+          "Nancy Kovack como Nona",
+          "Ned Romero como Krell",
+          "Paul Baxley como Patrol Leader",
+          "Michael Witney como Tyree",
+          "Janos Prohaska como The Gumato",
+          "Arthur Bernard como Apella",
+          "Gary Carpenter como Yutan"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242133.jpg"
       },
@@ -1021,7 +1124,15 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "51",
         "stardate": "",
         "synopsis": "Enterprise responds to odd readings, which lead the crew to a planet similar to Earth, except that it is much older, and a cataclysm stripped its atmosphere away a half million years ago; it has been dead ever since. But from somewhere on that world comes a voice. Something has evidently endured 500,000 years - the last survivors of the civilization that flourished here. And all they want are the bodies of a few humans...",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "Diana Muldaur como Dr. Anne Mulhall",
+          "Cindy Lou como Nurse",
+          "James Doohan como Sargon"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/441/1103965.jpg"
       },
@@ -1033,7 +1144,24 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "52",
         "stardate": "",
         "synopsis": "Historian and sociologist John Gill has stopped responding to transmissions. He is embedded in the Ekosian population to study it. Investigating, Kirk and Spock discover that Ekos has developed nuclear weapons - an achievement well ahead of where they should be scientifically, based on past probes. And they have modeled their society on Nazi Germany, right down to oppression of their sister planet, Zeon. It seems apparent Gill has contaminated this society, but why? And why Nazi Germany?",
-        "guestCast": [],
+        "guestCast": [
+          "Skip Homeier como Melakon",
+          "David Brian como John Gill",
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "William Wintersole como Abrom",
+          "Richard Evans como Isak",
+          "Gilbert Green como S.S. Major",
+          "Chuck Courtney como Davod",
+          "Ed McCready como S.S. Trooper",
+          "Lev Mailer como S.S. Lieutenant",
+          "Bart La Rue como Newscaster",
+          "Paul Baxley como First Trooper",
+          "Valora Noland como Daras",
+          "Peter Canon como Gestapo Lieutenant",
+          "Patrick Horgan como Eneg"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/442/1105178.jpg"
       },
@@ -1045,7 +1173,20 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "50",
         "stardate": "",
         "synopsis": "Kelvans from the Andromeda galaxy have discovered that rising radiation levels will make their galaxy uninhabitable within ten millenia. So they have dispatched generation ships of soldiers to nearby galaxies to see which of them they might conquer. Enterprise encounters such a group when her crew answers a distress call. With the Kelvans' superior technology, they may well be able to conquer the entire Milky Way galaxy!",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "Stewart Moss como Hanar",
+          "Carl Byrd como Lt. Shea",
+          "Warren Stevens como Rojan",
+          "Robert Fortier como Tomar",
+          "Julie Cobb como Yeoman",
+          "Lezlie Dalton como Drea",
+          "Barbara Bouchet como Kelinda",
+          "Eddie Paskey como Lt. Leslie"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/443/1107561.jpg"
       },
@@ -1057,7 +1198,18 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "54",
         "stardate": "",
         "synopsis": "Enterprise discovers her sister ship, Exeter in orbit around a planet, unresponsive. Kirk, Spock and McCoy beam aboard and discover only empty uniforms mixed with a handful of crystals. Then they find a log - the ship is infected with a deadly plague! Their only chance is to beam down to the planet's surface immediately. There, they discover heartbreaking evidence that Exeter's captain Ronald Tracy has violated the prime directive, up to and including mass murder. But he has what he believes is a good reason - and it depends on McCoy's research into a long ago bacteriological war.",
-        "guestCast": [],
+        "guestCast": [
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "David L. Ross como Lt. Galloway",
+          "Morgan Woodward como Captain Ronald \"Ron\" Tracey",
+          "Frank Atienza como Kohm Villager",
+          "Roy Jenson como Cloud William",
+          "Lloyd Kino como Wu",
+          "Ed McCready como Dr. Carter",
+          "Morgan Farley como Yang Scholar",
+          "Irene Kelly como Sirah"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/443/1109693.jpg"
       },
@@ -1069,7 +1221,15 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "53",
         "stardate": "",
         "synopsis": "Enterprise is chosen as the testbed for the revolutionary M-5 computer. The machine's inventor, Richard Daystrom, claims it can take control of a starship, freeing men for less dangerous and more rewarding work. It all depends on whether his breakthrough technology, multitronics, is as powerful and capable as he says. After a few exercises, Spock begins to wonder exactly how multitronics works - for the M-5 does not react as computers typically do.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "William Marshall como Dr. Daystrom",
+          "Barry Russo como Wesley",
+          "Sean Morgan como Harper"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242138.jpg"
       },
@@ -1081,7 +1241,20 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "43",
         "stardate": "",
         "synopsis": "The Enterprise follows the wreckage of the S.S. Beagle to a planet where they discover an Earth-like civilization, except that Rome never fell, and rules a world much like twentieth century America. Intercepted radio transmissions suggest deeper mysteries, so Kirk, Spock and McCoy beam down to investigate, and then find themselves caught between the Roman government and a group of \"sun worshippers\". Proconsul Claudius wants Kirk to beam down his entire crew; the Proconsul is determined that no one will leave this world!",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Max Kleven como Maximus",
+          "Bart La Rue como Announcer",
+          "William Smithers como Captain R. M. Merik",
+          "Jack Perkins como Master of Games",
+          "Lois Jewell como Drusilla",
+          "Logan Ramsey como Claudius",
+          "Ian Wolfe como Septimus",
+          "William Bramley como Policeman",
+          "Rhodes Reason como Flavius"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/447/1117504.jpg"
       },
@@ -1093,7 +1266,25 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "55",
         "stardate": "",
         "synopsis": "The Enterprise has used the \"light speed breakaway\" technique to travel to Earth in the year 1968, to study how humans survived the desperate problems of that era. Then, they intercept a man beaming back to Earth from at least a thousand light years away, a technical feat beyond even Federation science! Who is Gary Seven, how did he get access to such advanced technology, and why has he come to Earth? He has a story, but Kirk has trouble believing it. Worse, he has trouble knowing whether he should allow Seven to pursue his agenda, or try to stop him. One of those choices is certain to destroy the future... but which?",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Robert Lansing como Gary Seven",
+          "Ted Gehring como Second Policeman",
+          "Don Keefer como Cromwell",
+          "Bruce Mars como First Policeman",
+          "Morgan Jones como Col. Nesvig",
+          "Paul Baxley como Security Chief",
+          "Lincoln Demyan como Sergeant",
+          "Teri Garr como Roberta Lincoln",
+          "Barbara Babcock como Beta 5 Computer",
+          "Bob Johnson como Ground Control",
+          "Rudy Doucette como Staff Member",
+          "Eddie Paskey como Lt. Leslie",
+          "April Tatro como Cat Girl"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/448/1121250.jpg"
       }
@@ -1107,7 +1298,16 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "61",
         "stardate": "",
         "synopsis": "An alien woman materializes on the bridge of the Enterprise and knocks the command crew unconscious. When they come to, they discover that Spock's brain has been stolen and they have to race against time to track her down and recover the brain in order to save Mr. Spock.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "Marj Dusay como Kara",
+          "Sheila Leighton como Luma",
+          "James Daris como Creature"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242142.jpg"
       },
@@ -1119,7 +1319,19 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "59",
         "stardate": "",
         "synopsis": "Captain Kirk acts strangely and ends up taking the ship into the Romulan neutral zone where they are surrounded by Romulans, the Romulan commander then takes a interest in Mr. Spock.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "Joanne Linville como Romulan Commander",
+          "Richard Compton como Technical Officer",
+          "Mike Howden como Romulan Guard",
+          "Robert Gentile como Technician",
+          "Gordon Coffey como Romulan Soldier",
+          "Jack Donner como Sub-Commander Tal"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242143.jpg"
       },
@@ -1131,7 +1343,19 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "58",
         "stardate": "",
         "synopsis": "Mr. Spock must destroy an asteroid threatening a primitive world where lost and amnesiac Captain Kirk has taken a wife.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "George Takei como Lt. Hikaru Sulu",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "Rudy Solari como Salish",
+          "Sabrina Scharf como Miramanee",
+          "Richard Hale como Goro",
+          "Peter Virgo, Jr. como Warrior",
+          "Naomi Pollack como Indian Woman",
+          "John Lindesmith como Engineer",
+          "Lamont Laird como Indian Boy"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242144.jpg"
       },
@@ -1143,7 +1367,21 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "60",
         "stardate": "",
         "synopsis": "A group of orphaned children under an alien's control take over the minds of the Enterprise crew.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "Pamelyn Ferdin como Mary",
+          "Craig Huxley como Tommy Starnes",
+          "Brian Tochi como Ray",
+          "Louie Elias como 1st Technician",
+          "Melvin Belli como Gorgan",
+          "James Wellman como Professor Starnes",
+          "Caesar Belli como Steve",
+          "Mark Robert Brown como Don"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242145.jpg"
       },
@@ -1155,7 +1393,14 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "62",
         "stardate": "",
         "synopsis": "Only a jealous scientist can save Spock when he goes mad after seeing a hideous Medusan.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Diana Muldaur como Dr. Miranda Jones",
+          "David Frankham como Lawrence \"Larry\" Marvick"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/459/1148804.jpg"
       },
@@ -1167,7 +1412,21 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "56",
         "stardate": "",
         "synopsis": "Powerful aliens transport the Enterprise officers into an illusionary re-creation of the gunfight at the OK Corral.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Rex Holman como Morgan Earp",
+          "Charles Maxwell como Virgil Earp",
+          "Ron Soble como Wyatt Earp",
+          "Bonnie Beecher como Sylvia",
+          "Abraham Sofaer como Melkotian",
+          "Charles Seel como Ed",
+          "Sam Gilman como Doc Holliday",
+          "Ed McCready como Barber",
+          "Bill Zuckert como Johnny Behan",
+          "Eddie Paskey como Lt. Leslie"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/104/262044.jpg"
       },
@@ -1179,19 +1438,40 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "66",
         "stardate": "",
         "synopsis": "An alien which feeds on violence traps Klingons and Enterprise crewman together.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Michael Ansara como Kang",
+          "Susan Howard como Mara",
+          "David L. Ross como Lt. Johnson",
+          "Mark Tobin como Klingon",
+          "Eddie Hice como Security Guard",
+          "Phil Adams como Klingon Soldier",
+          "Charles Picerni como Klingon"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/464/1160912.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "63",
-        "title": "For the World Is Hollow and I Have Touched the Sky",
+        "title": "For the World is Hollow and I Have Touched the Sky",
         "date": "1968-11-08",
         "productionCode": "65",
         "stardate": "",
         "synopsis": "After Dr. McCoy informs Captain Kirk that he is dying, the Enterprise crew discovers a planetoid that is on a collision course with a inhabited world. Kirk, Spock and McCoy beam down and discover it is a populated space ship where most of the inhabitants having no clue they are on a space ship.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "Katherine Woodville como Natira",
+          "Byron Morrow como Admiral Westervliet",
+          "Jon Lormer como Old Man"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/464/1161581.jpg"
       },
@@ -1203,7 +1483,14 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "64",
         "stardate": "",
         "synopsis": "Kirk is trapped on a disintegrating star ship and drifts between dimensions while the Tholian's create a energy web around the Enterprise to prevent them from escaping.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "Sean Morgan como Lt. O'Neil"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242150.jpg"
       },
@@ -1215,7 +1502,16 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "67",
         "stardate": "",
         "synopsis": "Rulers of a culture modeled after Platos Republic kidnap Kirk, Spock and Dr. McCoy.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "Barbara Babcock como Philana",
+          "Michael Dunn como Alexander",
+          "Liam Sullivan como Parmen",
+          "Ted Scott como Eraclitus",
+          "Derek Partridge como Dionyd"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242151.jpg"
       },
@@ -1227,7 +1523,18 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "68",
         "stardate": "",
         "synopsis": "The dying Scalosians, invisible to humans, need the Enterprise crew to help repopulate their decimated planet.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "Kathie Browne como Deela",
+          "Jason Evers como Rael",
+          "Geoffrey Binney como Compton",
+          "Erik Holland como Ekor",
+          "Eddie Hice como Security Guard",
+          "Dick Geary como Scalosian"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/466/1167495.jpg"
       },
@@ -1239,7 +1546,15 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "63",
         "stardate": "",
         "synopsis": "After arriving at a outpost to pick up the two members of a science team, Kirk, McCoy and Spock find the team missing. They are then transported to another location by alien beings who use them in a torturous experiment involving a young girl who does not speak.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "George Takei como Lt. Hikaru Sulu",
+          "Kathryn Hays como Gem",
+          "Willard Sage como Thann",
+          "Alan Bergmann como Lal",
+          "Jason Wingreen como Dr. Linke",
+          "Davis Roberts como Dr. Ozaba"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242153.jpg"
       },
@@ -1251,7 +1566,21 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "57",
         "stardate": "",
         "synopsis": "Klingons interfere when the Enterprise is ordered to transport an unwilling royal bride to her wedding in another star system. During the trip, the enterprise is sabotaged.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "France Nuyen como Elaan",
+          "Jay Robinson como Petri",
+          "Dick Durock como Guard #1",
+          "Victor Brandt como Watson",
+          "Tony Young como Kryton",
+          "K.L. Smith como Klingon",
+          "Lee Duncan como Evans",
+          "Charles Beck como Guard #2",
+          "Eddie Paskey como Lt. Leslie"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242154.jpg"
       },
@@ -1263,7 +1592,16 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "71",
         "stardate": "",
         "synopsis": "Inmates gain control of an insane asylum, taking visiting Kirk and Spock prisoner.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Yvonne Craig como Marta",
+          "Keye Luke como Governor Donald Cory",
+          "Steve Ihnat como Garth of Izar",
+          "Gary Downey como Tellarite",
+          "Dick Geary como Andorian"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/78/195280.jpg"
       },
@@ -1275,7 +1613,15 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "70",
         "stardate": "",
         "synopsis": "A thousand-year feud between sworn enemies threatens to destroy the Enterprise .",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "Frank Gorshin como Bele",
+          "Lou Antonio como Lokai"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242156.jpg"
       },
@@ -1287,7 +1633,16 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "72",
         "stardate": "",
         "synopsis": "Captain Kirk suddenly finds himself on what appears to be the Enterprise, alone except for a beautiful alien woman while on a away mission to the planet Gideon.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Sharon Acker como Odona",
+          "David Hurst como Hodin",
+          "Gene Dynarski como Krodak",
+          "Richard Derr como Admiral Fitzgerald"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242157.jpg"
       },
@@ -1299,7 +1654,17 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "69",
         "stardate": "",
         "synopsis": "The Enterprise discovers a planet that defies the conventional theories of planetology, so Kirk, Sulu, McCoy and D'Amato (a geologist) beam down to investigate. As they depart, a mysterious woman appears in the transporter room and attacks the chief there. Then the Enterprise is hurled nearly a thousand light years away! The strange female apparition reappears, and demonstrates that she is a grave threat to both stranded crew and the ship...",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Lee Meriwether como Losira",
+          "Arthur Batanides como D'Amato",
+          "Booker Bradshaw como Dr. M'Benga",
+          "Kenneth Washington como Watkins",
+          "Naomi Pollack como Rahda",
+          "Brad Forrest como Ensign"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/78/195860.jpg"
       },
@@ -1311,7 +1676,16 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "73",
         "stardate": "",
         "synopsis": "A mysterious storm has inflicted heavy - perhaps irreparable - damage on the library planetoid Memory Alpha. And it seems to have a curious affiliation with new crewmember Myra Romaine. As the Enterprise pursues the hazard, Romaine falls more under its influence, and the crew learns is is not a storm at all, but a form of life that means to survive at ANY cost.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "Jan Shutan como Lt. Mira Romaine",
+          "John Winston como Lt. Kyle",
+          "Libby Erwin como Technician"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242159.jpg"
       },
@@ -1323,7 +1697,12 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "76",
         "stardate": "",
         "synopsis": "Rigelian Fever rages about the Enterprise; on a small planet named Holberg 917G, the crew has discovered a source of the only cure, ryetalin. Kirk, Spock and McCoy beam down, and discover the planet is the private property of Flint. At first uncooperative, Flint relents and permits the crew to gather the material. But events soon have them wondering about Flint's real goals, and his mysterious ward, the enchanting Rayna.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "Louise Sorel como Rayna",
+          "James Daly como Flint"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242160.jpg"
       },
@@ -1335,7 +1714,20 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "75",
         "stardate": "",
         "synopsis": "The Enterprise intercepts a stolen space yacht, whose thieves destroy it rather than face capture. But they are captured, and revealed as \"counterculture\" individuals looking for a mysterious planet they call Eden. Led by an insane genius, they manage to capture the Enterprise long enough to direct it to Eden, which is located in the Romulan Neutral Zone! And to make their escape, they create a lethal trap for the crew.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "George Takei como Lt. Hikaru Sulu",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "Skip Homeier como Sevrin",
+          "Charles Napier como Adam",
+          "Mary Linda Rapelye como Irina",
+          "Elizabeth Rogers como Lt. Palmer",
+          "Phyllis Douglas como Girl #2",
+          "Victor Brandt como Tongo Rad",
+          "Deborah Downey como Girl #1",
+          "James Drake como Sick-Bay Intern"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242161.jpg"
       },
@@ -1347,7 +1739,20 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "74",
         "stardate": "",
         "synopsis": "The planet Merek II is gripped by a botanical plague. The only cure is the mineral zeenite, and the only practical source of that is Ardana. But Ardana has a stratified city: the troglytes who labor live in harsh conditions, while philosophers and artists enjoy the beauty of its floating city, Stratos. One among the troglytes, Vanna, means to change this, and plans to exploit the crisis - and Federation representatives Kirk and Spock - to accomplish that.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "Jeff Corey como Plasus",
+          "Fred Williamson como Anka",
+          "Louie Elias como Troglyte #1",
+          "Garth Pillsbury como Prisoner",
+          "Kirk Raymone como Cloud Guard #1",
+          "Diana Ewing como Droxine",
+          "Charlene Polite como Vanna",
+          "Jimmy Fields como Cloud Guard #2",
+          "Harv Selsby como Guard",
+          "Ed Long como Midro"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/476/1190640.jpg"
       },
@@ -1359,7 +1764,20 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "77",
         "stardate": "",
         "synopsis": "The Enterprise surveys the planet Excalbia. As its surface is the temperature of molten rock, no landing party is possible, so when the orbital survey concludes, Kirk orders the ship to leave. And then... Abraham Lincoln appears, and at the same time a region forms on the planet suitable for human life. Kirk and Spock beam down and discover Yarnek. It seems the Excalbians are struggling to understand the concepts of good and evil; the help themselves they have constructed an experiment: four examplars of good, including Kirk and Spock, will battle four exemplars of evil, notorious figures from history. And if good loses, the Enterprise will be destroyed...",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Lee Bergere como President Abraham Lincoln",
+          "Barry Atwater como Surak",
+          "Nathan Jung como Ghengis Khan",
+          "Bob Herron como Kahless",
+          "Phillip Pine como Col. Green",
+          "Arell Blanton como Chief Security Guard",
+          "Carol Daniels como Zora",
+          "Janos Prohaska como Yarnek"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/477/1192592.jpg"
       },
@@ -1371,7 +1789,17 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "78",
         "stardate": "",
         "synopsis": "While trying to locate the missing population of a planet doomed by a coming nova, Kirk, Spock, and McCoy find a mysterious librarian who sends them back into the planet's past. While Spock and McCoy fight for survival in a frigid landscape, Kirk is accused of witchcraft.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Mariette Hartley como Zarabeth",
+          "Johnny Haymer como The Constable",
+          "Ian Wolfe como Mr. Atoz",
+          "Kermit Murdock como The Prosecutor",
+          "Al Cavens como Second Fop",
+          "Stan Barrett como The Jailor",
+          "Ed Bakey como The First Fop",
+          "Anna Karen como Woman"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242164.jpg"
       },
@@ -1383,7 +1811,20 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "79",
         "stardate": "",
         "synopsis": "Janice Lester, a lover from Kirk's past, uses alien technology to switch her consciousness into his body and vice versa, so that she can take command of the Enterprise and become a Starfleet captain as she always wanted.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "George Takei como Lt. Hikaru Sulu",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "William Shatner como Dr. Janice Lester (in Kirk's body)",
+          "Sandra Smith como Captain Kirk (in Janice's body)",
+          "Sandra Smith como Dr. Janice Lester",
+          "Harry Landers como Dr. Arthur Coleman",
+          "David L. Ross como Lt. Galloway",
+          "Barbara Baldavin como Lt. Lisa",
+          "John Boyer como Guard",
+          "James Drake como Security Guard"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242165.jpg"
       }
@@ -1399,7 +1840,14 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Kirk and crew beam aboard a massive derelict starship from an insect race, and learn that the ship's crew self-destructed rather than carrying a still-living malevolent entity to other worlds.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "James Doohan como Ancient Insectoid",
+          "James Doohan como Magnetic Organism"
+        ],
         "runtime": "30",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/407/1019424.jpg"
       },
@@ -1411,7 +1859,21 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "An expedition through the Guardian of Forever inadvertently prevents Spock from traveling back to his childhood to save his younger self. Spock discovers that history has recorded that he died at age 7 undergoing the Kahs-wan ordeal. Spock travels back to 2237 to save his own life. Spock is successful in restoring the proper timeline; however, this time, his pet sehlat dies during the ordeal.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Montgomery \"Scotty\" Scott",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "Majel Barrett Roddenberry como Amanda Grayson",
+          "Majel Barrett Roddenberry como Gray",
+          "James Doohan como Guardian of Forever",
+          "James Doohan como Thelin",
+          "James Doohan como Bates",
+          "James Doohan como Vulcan Healer",
+          "James Doohan como Erikson",
+          "James Doohan como Aleek-Om",
+          "Mark Lenard como Sarek",
+          "Billy Simpson como Young Spock",
+          "Keith Sutherland como Young Sepek"
+        ],
         "runtime": "30",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/480/1200383.jpg"
       },
@@ -1423,7 +1885,14 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "An enormous space-going cloud entity feeds on the energy of whole planetary systems, and a Federation colony is next in its path. The Enterprise braves its antimatter interior and finds a way to stop it. Spock mind-melds with the entity and tells it that it is killing life, and he persuades it to return to its place of origin.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "James Doohan como Lt. Arex",
+          "Majel Barrett Roddenberry como Enterprise Ship's Computer",
+          "James Doohan como Governor Bob Wesley"
+        ],
         "runtime": "30",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/480/1202322.jpg"
       },
@@ -1435,173 +1904,230 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Investigating a sector of space where starships have disappeared every 27 years, the U.S.S. Enterprise male crew are attracted by a mysterious signal. Kirk beams down with a landing party and encounters a race of beautiful women who survive by drawing the energy from the male members of the ships that they have lured to their planet.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "Majel Barrett Roddenberry como Theela",
+          "James Doohan como Carver"
+        ],
         "runtime": "30",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/482/1205218.jpg"
-      },
-      {
-        "displayNumber": "Investigating a sector of space where starships have disappeared every 27 years, the Enterprise finds a race of beautiful women living on the planet Taurus II.",
-        "overallNumber": "Investigating a sector of space where starships have disappeared every 27 years, the Enterprise finds a race of beautiful women living on the planet Taurus II.",
-        "title": "Investigating a sector of space where starships have disappeared every 27 years, the Enterprise finds a race of beautiful women living on the planet Taurus II.",
-        "date": "1973-10-06",
-        "productionCode": "",
-        "stardate": "",
-        "synopsis": "The U.S.S. Enterprise again crosses paths with Cyrano Jones, who this time has tribbles that do not breed but instead grow to an enormous size. The tribbles are back and are causing problems for the Klingons.",
-        "guestCast": [],
-        "runtime": "30",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/483/1208763.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "5",
         "title": "More Tribbles, More Troubles",
-        "date": "1973-10-13",
+        "date": "1973-10-06",
         "productionCode": "",
         "stardate": "",
-        "synopsis": "Patrolling near the Neutral Zone, the U.S.S. Enterprise finds a ship and rescues Carter Winston, a Federation citizen, financier, and philanthropist missing for 5 years. However, Winston turns out to really be a Vendorian, an alien species that can transform its shape at will. He is also allied with the Romulans.",
-        "guestCast": [],
+        "synopsis": "The U.S.S. Enterprise again crosses paths with Cyrano Jones, who this time has tribbles that do not breed but instead grow to an enormous size. The tribbles are back and are causing problems for the Klingons.",
+        "guestCast": [
+          "James Doohan como Lt. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "James Doohan como Captain Koloth",
+          "Stanley Adams como Cyrano Jones"
+        ],
         "runtime": "30",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/485/1212580.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/483/1208763.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "6",
         "title": "The Survivor",
-        "date": "1973-10-20",
+        "date": "1973-10-13",
         "productionCode": "",
         "stardate": "",
-        "synopsis": "On the recently-discovered planet Phylos, the U.S.S. Enterprise crew meets Dr. Keniclius, a human scientist who survived Earth's Eugenics Wars and now grown to giant proportions. The Phylosians are a once vast plant-based civilization that has been reduced to a few survivors. Led by Keniclius, the Phylosians abduct Spock so the doctor can make him into a giant clone with the intention of forcing peace on the galaxy.",
-        "guestCast": [],
+        "synopsis": "Patrolling near the Neutral Zone, the U.S.S. Enterprise finds a ship and rescues Carter Winston, a Federation citizen, financier, and philanthropist missing for 5 years. However, Winston turns out to really be a Vendorian, an alien species that can transform its shape at will. He is also allied with the Romulans.",
+        "guestCast": [
+          "James Doohan como Lt. Montgomery \"Scotty\" Scott",
+          "George Takei como Lt. Hikaru Sulu",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "Majel Barrett Roddenberry como Lt. M'Ress",
+          "Majel Barrett Roddenberry como Enterprise Ship's Computer",
+          "James Doohan como Romulan Commander",
+          "Nichelle Nichols como Lt. Anne Nored",
+          "Ted Knight como Carter Winston"
+        ],
         "runtime": "30",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/485/1214948.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/485/1212580.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "7",
         "title": "The Infinite Vulcan",
-        "date": "1973-10-27",
+        "date": "1973-10-20",
         "productionCode": "",
         "stardate": "",
-        "synopsis": "The Enterprise travels to the center of the galaxy only to discover themselves sucked into a dimension where the laws of time and space no longer apply, and \"magic\" functions for those capable of grasping its fundamentals. Stopping at Megas-Tu, a planet where magic and witchcraft are the norm, the crew finds their guide is Lucien, who is Lucifer of Earth mythology.",
-        "guestCast": [],
+        "synopsis": "On the recently-discovered planet Phylos, the U.S.S. Enterprise crew meets Dr. Keniclius, a human scientist who survived Earth's Eugenics Wars and now grown to giant proportions. The Phylosians are a once vast plant-based civilization that has been reduced to a few survivors. Led by Keniclius, the Phylosians abduct Spock so the doctor can make him into a giant clone with the intention of forcing peace on the galaxy.",
+        "guestCast": [
+          "James Doohan como Lt. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu"
+        ],
         "runtime": "30",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/487/1218589.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/485/1214948.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "8",
-        "title": "The Magicks of Megas-tu",
-        "date": "1973-11-03",
+        "title": "The Magicks of Megas-Tu",
+        "date": "1973-10-27",
         "productionCode": "",
         "stardate": "",
-        "synopsis": "The Enterprise travels to the shore leave planet for some well-deserved rest and relaxation. The planet can create organic androids based on the crew's imagination, but they soon discover that the planet has a hostile mind of its own. The \"amusement park\" planet's keeper is now dead and the untended machinery is constructing dangerous images from the crew members' thoughts.",
-        "guestCast": [],
+        "synopsis": "The Enterprise travels to the center of the galaxy only to discover themselves sucked into a dimension where the laws of time and space no longer apply, and \"magic\" functions for those capable of grasping its fundamentals. Stopping at Megas-Tu, a planet where magic and witchcraft are the norm, the crew finds their guide is Lucien, who is Lucifer of Earth mythology.",
+        "guestCast": [
+          "James Doohan como Lt. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu"
+        ],
         "runtime": "30",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/488/1221313.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/487/1218589.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "9",
         "title": "Once Upon a Planet",
-        "date": "1973-11-10",
+        "date": "1973-11-03",
         "productionCode": "",
         "stardate": "",
-        "synopsis": "Harry Fenton Mudd is once again apprehended and incarcerated by the U.S.S. Enterprise crew, after trying to sell love crystals. He claims the love potion can cause any male and female to fall in love. He inadvertently releases it into the Enterprise 's ventilation system and they discover that his claims are true. Mudd abducts Nurse Chapel and briefly escapes to a rocky planet in a stolen Enterprise Heavy shuttlecraft, but he is recaptured and sentenced to an indefinite period in rehabilitation therapy for violations of the Federation pharmaceutical code, including fraud, illegal drug manufacturing, swindling, and transport of a dangerous life-form (a Rigellian hypnoid).",
-        "guestCast": [],
+        "synopsis": "The Enterprise travels to the shore leave planet for some well-deserved rest and relaxation. The planet can create organic androids based on the crew's imagination, but they soon discover that the planet has a hostile mind of its own. The \"amusement park\" planet's keeper is now dead and the untended machinery is constructing dangerous images from the crew members' thoughts.",
+        "guestCast": [
+          "James Doohan como Lt. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "James Doohan como Lt. Arex",
+          "Majel Barrett Roddenberry como Lt. M'Ress"
+        ],
         "runtime": "30",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/489/1224839.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/488/1221313.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "10",
         "title": "Mudd's Passion",
-        "date": "1973-11-17",
+        "date": "1973-11-10",
         "productionCode": "",
         "stardate": "",
-        "synopsis": "While exploring a burnt-out supernova, the U.S.S. Enterprise responds to an old-style distress signal containing the word \"Terratin,\" and follow it to its source: an uninhabited planet about to shatter from internal stress. However, a mysterious beam strikes the ship and the crew begins to shrink... and shrink... On the planet, Kirk finds a miniature city called Terratin and soon discovers that it is a lost Earth colony that has mutated because of the supernova's radiation.",
-        "guestCast": [],
+        "synopsis": "Harry Fenton Mudd is once again apprehended and incarcerated by the U.S.S. Enterprise crew, after trying to sell love crystals. He claims the love potion can cause any male and female to fall in love. He inadvertently releases it into the Enterprise 's ventilation system and they discover that his claims are true. Mudd abducts Nurse Chapel and briefly escapes to a rocky planet in a stolen Enterprise Heavy shuttlecraft, but he is recaptured and sentenced to an indefinite period in rehabilitation therapy for violations of the Federation pharmaceutical code, including fraud, illegal drug manufacturing, swindling, and transport of a dangerous life-form (a Rigellian hypnoid).",
+        "guestCast": [
+          "James Doohan como Lt. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "James Doohan como Lt. Arex",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "Majel Barrett Roddenberry como Lt. M'Ress",
+          "Roger C. Carmel como Harcourt Fenton Mudd"
+        ],
         "runtime": "30",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/491/1228462.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/489/1224839.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "11",
         "title": "The Terratin Incident",
-        "date": "1973-11-24",
+        "date": "1973-11-17",
         "productionCode": "",
         "stardate": "",
-        "synopsis": "The U.S.S.Enterprise is sent on a mission to explore a \"Bermuda Triangle of Space,\" only to find itself and a Klingon battlecruiser trapped in a time warp after being caught in an ion storm. The two ships must cooperate before their only exit back to real space closes for good. This Delta Triangle is inhabited by other lost ships, many centuries old.",
-        "guestCast": [],
+        "synopsis": "While exploring a burnt-out supernova, the U.S.S. Enterprise responds to an old-style distress signal containing the word \"Terratin,\" and follow it to its source: an uninhabited planet about to shatter from internal stress. However, a mysterious beam strikes the ship and the crew begins to shrink... and shrink... On the planet, Kirk finds a miniature city called Terratin and soon discovers that it is a lost Earth colony that has mutated because of the supernova's radiation.",
+        "guestCast": [
+          "James Doohan como Lt. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "James Doohan como Lt. Arex",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel"
+        ],
         "runtime": "30",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/493/1234980.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/491/1228462.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "12",
         "title": "The Time Trap",
-        "date": "1973-12-01",
+        "date": "1973-11-24",
         "productionCode": "",
         "stardate": "",
-        "synopsis": "While exploring the aquatic planet Argo, Kirk and Spock are lost at sea. They are later found... but have been transformed into water breathers. Now they must track down the planet's mysterious undersea inhabitants and find a cure, or be left to live as freaks in the Federation. The venom of a deadly sea snake is the only antidote to return them to their normal selves.",
-        "guestCast": [],
+        "synopsis": "The U.S.S.Enterprise is sent on a mission to explore a \"Bermuda Triangle of Space,\" only to find itself and a Klingon battlecruiser trapped in a time warp after being caught in an ion storm. The two ships must cooperate before their only exit back to real space closes for good. This Delta Triangle is inhabited by other lost ships, many centuries old.",
+        "guestCast": [
+          "James Doohan como Lt. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "George Takei como Klingon Cmdr. Kuri",
+          "James Doohan como Kor",
+          "James Doohan como Gabler",
+          "James Doohan como Xerius",
+          "Nichelle Nichols como Kali",
+          "Nichelle Nichols como Devna"
+        ],
         "runtime": "30",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1240632.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/493/1234980.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "13",
         "title": "The Ambergris Element",
-        "date": "1973-12-15",
+        "date": "1973-12-01",
         "productionCode": "",
         "stardate": "",
-        "synopsis": "Spock, Sulu, and Uhura are delivering a stasis box from the extinct Slaver race on the shuttlecraft Copernicus . When they detect another box and follow its signal, they soon discover that a Kzinti privateer has set a trap. Capturing the Enterprise crew, they discover their box holds a rare find, a shape-shifting Slaver weapon. Now Spock and the others must keep the Kzinti from returning to their government with the weapon.",
-        "guestCast": [],
+        "synopsis": "While exploring the aquatic planet Argo, Kirk and Spock are lost at sea. They are later found... but have been transformed into water breathers. Now they must track down the planet's mysterious undersea inhabitants and find a cure, or be left to live as freaks in the Federation. The venom of a deadly sea snake is the only antidote to return them to their normal selves.",
+        "guestCast": [
+          "James Doohan como Lt. Montgomery \"Scotty\" Scott"
+        ],
         "runtime": "30",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/497/1243540.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1240632.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "14",
         "title": "The Slaver Weapon",
-        "date": "1974-01-05",
+        "date": "1973-12-15",
         "productionCode": "",
         "stardate": "",
-        "synopsis": "Beaming down to a planet to search for the crew of the missing ship Ariel , the U.S.S. Enterprise crew is captured by a race of super-intelligent slug creatures and become part of a zoo collection. They find the missing crew also trapped as prisoners in the alien zoo. Now they must somehow establish communications with their evolved slug-like captors who think of them as primitive animals.",
-        "guestCast": [],
+        "synopsis": "Spock, Sulu, and Uhura are delivering a stasis box from the extinct Slaver race on the shuttlecraft Copernicus . When they detect another box and follow its signal, they soon discover that a Kzinti privateer has set a trap. Capturing the Enterprise crew, they discover their box holds a rare find, a shape-shifting Slaver weapon. Now Spock and the others must keep the Kzinti from returning to their government with the weapon.",
+        "guestCast": [
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Majel Barrett Roddenberry como Slaver Weapon Computer",
+          "James Doohan como Chuft Captain",
+          "James Doohan como Kzinti Telepath"
+        ],
         "runtime": "30",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/498/1247036.jpg"
-      },
-      {
-        "displayNumber": "In the shuttlecraft Copernicus, Mr. Spock, Uhura and Sulu are en route to Starbase 25 to deliver a stasis box—a rare artifact of the Slaver culture when the Kzinti intervene.",
-        "overallNumber": "In the shuttlecraft Copernicus, Mr. Spock, Uhura and Sulu are en route to Starbase 25 to deliver a stasis box—a rare artifact of the Slaver culture when the Kzinti intervene.",
-        "title": "In the shuttlecraft Copernicus, Mr. Spock, Uhura and Sulu are en route to Starbase 25 to deliver a stasis box—a rare artifact of the Slaver culture when the Kzinti intervene.",
-        "date": "1974-01-12",
-        "productionCode": "",
-        "stardate": "",
-        "synopsis": "Kirk and Spock are chosen by a mysterious race to join an expedition of alien specialists to a \"mad planet\" and recover a missing artifact, the Soul of Alar, before the avian Skorr go on a galactic jihad.",
-        "guestCast": [],
-        "runtime": "30",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/499/1249216.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/497/1243540.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "15",
         "title": "The Eye of the Beholder",
-        "date": "January 5, 1974",
+        "date": "1974-01-05",
         "productionCode": "",
         "stardate": "",
-        "synopsis": "",
-        "guestCast": []
+        "synopsis": "Beaming down to a planet to search for the crew of the missing ship Ariel , the U.S.S. Enterprise crew is captured by a race of super-intelligent slug creatures and become part of a zoo collection. They find the missing crew also trapped as prisoners in the alien zoo. Now they must somehow establish communications with their evolved slug-like captors who think of them as primitive animals.",
+        "guestCast": [
+          "James Doohan como Lt. Montgomery \"Scotty\" Scott",
+          "Majel Barrett Roddenberry como Lt. M'Ress"
+        ],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/498/1247036.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "16",
         "title": "The Jihad",
-        "date": "January 12, 1974",
+        "date": "1974-01-12",
         "productionCode": "",
         "stardate": "",
-        "synopsis": "",
-        "guestCast": []
+        "synopsis": "Kirk and Spock are chosen by a mysterious race to join an expedition of alien specialists to a \"mad planet\" and recover a missing artifact, the Soul of Alar, before the avian Skorr go on a galactic jihad.",
+        "guestCast": [
+          "George Takei como Lt. Hikaru Sulu",
+          "James Doohan como Sord",
+          "James Doohan como Tchar",
+          "David Gerrold como Em/3/Green",
+          "Jane Webb como Lara",
+          "Jane Webb como Vedala"
+        ],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/499/1249216.jpg"
       }
     ],
     [
@@ -1613,7 +2139,12 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Spock is stricken ill with a disease that is fatal to Vulcans. With time running out, the U.S.S.Enterprise must rendezvous with the S.S. Huron , a freighter carrying the only known antidote. However, Orion pirates hijack the shipment and Kirk must deal with them before Spock dies.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "James Doohan como Lt. Arex"
+        ],
         "runtime": "30",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/500/1251785.jpg"
       },
@@ -1625,7 +2156,11 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "The U.S.S. Enterprise hosts Commander Ari bn Bem, an arrogant member of a neutral race from the newly-contacted planet Pandro. However, Bem endangers all of their lives when he conducts a test of suitability upon Kirk and Spock during an exploratory mission. This occurs on a planet of primitive natives under the guardianship of a noncorporeal being.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "James Doohan como Lt. Arex"
+        ],
         "runtime": "30",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/501/1254007.jpg"
       },
@@ -1637,7 +2172,13 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "After avoiding a Romulan ambush by three of their warships, the U.S.S. Enterprise enters a strange energy cloud. The gaseous cloud affects the ship's computer turning it insane. With the crew at the mercy of the Enterprise 's computer, it indulges in a series of increasingly aggressive practical jokes.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "James Doohan como Lt. Arex",
+          "Majel Barrett Roddenberry como Lt. M'Ress"
+        ],
         "runtime": "30",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/502/1256329.jpg"
       },
@@ -1649,7 +2190,11 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "The U.S.S. Enterprise goes to the planet Dramia to deliver medical supplies, only to have McCoy arrested and put on trial for deliberately spreading a plague that killed most of the population of the colony Dramia II. Nineteen years earlier, Dr. McCoy headed a mass-inoculation program there against Saurian virus. This disaster occurred after his team left the planet. Now Kirk must clear his friend's name before the doctor is executed.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu"
+        ],
         "runtime": "30",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/503/1258906.jpg"
       },
@@ -1661,7 +2206,11 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Backtracking a mysterious alien probe, the U.S.S. Enterprise encounters a ship in the shape of a giant feathered serpent, which turns out to be Kukulkan, a god of ancient Mayan-Aztec legend. Its captain, Kukulkan, is actually a very long-lived benevolent entity who wants the humans to worship him just as the Mayans and Aztecs did. He insists on putting Kirk and others through a test to determine if they have grown sufficiently to receive his wisdom.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "James Doohan como Lt. Arex"
+        ],
         "runtime": "30",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/504/1261272.jpg"
       },
@@ -1673,7 +2222,12 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "While en route to Babel transporting Commodore Robert April, the U.S.S. Enterprise 's first captain, and Dr. Sarah April, his wife and ship's first doctor, the Enterprise inadvertently locks a tractor beam on a ship diving into the Beta Niobe Nova. Both ships plunge through the nova and into a bizarre parallel universe where everything is backward. With time flying in reverse, the crew begins to grow younger at an accelerated rate.",
-        "guestCast": [],
+        "guestCast": [
+          "James Doohan como Lt. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "James Doohan como Lt. Arex"
+        ],
         "runtime": "30",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/504/1261482.jpg"
       }
@@ -1712,7 +2266,11 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "101 102",
         "stardate": "",
         "synopsis": "At the end of the trial, Q gives Captain Picard 24 hours to solve the mystery of Farpoint station and save the human race. Picard and his team come to a unusual conclusion about the problems encountered at the way station in space.",
-        "guestCast": [],
+        "guestCast": [
+          "John de Lancie como Q",
+          "Michael Bell como Groppler Zorn",
+          "Tim Dang como Main Bridge Security"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242169.jpg"
       },
@@ -1724,7 +2282,14 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "103",
         "stardate": "",
         "synopsis": "The Enterprise away team is investigating mysterious deaths and Geordi becomes infected with a illness that is mind-altering and starts spreading throughout the rest of the ships crew.",
-        "guestCast": [],
+        "guestCast": [
+          "Brooke Bundy como Sarah McDougal",
+          "Michael Rider como Transporter Chief",
+          "Skip Stellrecht como Engineering Crewman",
+          "Benjamin W. S. Lum como Jim Shimoda",
+          "David Renan como Conn",
+          "Kenny Koch como Kissing Crewman"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242170.jpg"
       },
@@ -1736,7 +2301,12 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "104",
         "stardate": "",
         "synopsis": "While involved in a treaty discussion with the inhabitants of Ligon II, Tasha is abducted and Picard is forced to abide by the inhabitants Code of Honor to obtain her release.",
-        "guestCast": [],
+        "guestCast": [
+          "Jessie Lawrence Ferguson como Lutan",
+          "Julian D. Christopher como Hagon",
+          "Karole Selmon como Yareena",
+          "Michael Rider como Transporter Chief"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242171.jpg"
       },
@@ -1748,7 +2318,13 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "107",
         "stardate": "",
         "synopsis": "Ferengi and Enterprise teams beam down to an unknown world to discover who or what has sapped power from both vessels.",
-        "guestCast": [],
+        "guestCast": [
+          "Armin Shimerman como Letek",
+          "Tracey Walter como Kayron",
+          "Jake Dengel como Mordoc",
+          "Darryl Henriques como Portal",
+          "Mike Gomez como Daimon Tarr"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242172.jpg"
       },
@@ -1760,7 +2336,14 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "106",
         "stardate": "",
         "synopsis": "Teenager Wesley Crusher and a dying alien are the crew's only hope for escape from a bizarre galaxy where thoughts become real.",
-        "guestCast": [],
+        "guestCast": [
+          "Eric Menyuk como The Traveler",
+          "Biff Yeager como Lt. Cmdr. Argyle",
+          "Stanley Kamel como Kosinski",
+          "Herta Ware como Yvette Picard",
+          "Victoria Dillard como Ballerina",
+          "Charles Dayton como Crew Member"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242173.jpg"
       },
@@ -1772,7 +2355,12 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "108",
         "stardate": "",
         "synopsis": "Passing through a series of complex energy patterns, the Enterprise crew find themselves trying to solve the mystery surrounding the death of Assistant Chief Engineer Singh and the altered personalities of Lt. Worf, Dr. Crusher and the Captain.",
-        "guestCast": [],
+        "guestCast": [
+          "Colm Meaney como Miles O'Brien",
+          "Kavi Raz como Lt. Cmdr. Singh",
+          "John Durbin como Ssestar",
+          "Marc Alaimo como Badar N'D'D"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242174.jpg"
       },
@@ -1784,7 +2372,17 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "109",
         "stardate": "",
         "synopsis": "To learn the origin of a mysterious ship, Picard must get help from a planet where Wesley faces a death sentence.",
-        "guestCast": [],
+        "guestCast": [
+          "Brenda Bakke como Rivan",
+          "Jay Louden como Liator",
+          "Brad Zerbst como Nurse",
+          "Judith Jones como Edo Girl",
+          "Josh Clark como Conn Officer",
+          "David Q. Combs como First Mediator",
+          "Richard Lavin como Second Mediator",
+          "David Graves como Edo Boy #2",
+          "Eric Matthew como Edo Boy #1"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242175.jpg"
       },
@@ -1796,7 +2394,11 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "110",
         "stardate": "",
         "synopsis": "A vengeful Ferengi captain returns Picard's long-lost ship, the Stargazer, after installing a mind-altering device.",
-        "guestCast": [],
+        "guestCast": [
+          "Frank Corsentino como DaiMon Bok",
+          "Robert Towers como Rata",
+          "Douglas Warhit como Kazago"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242176.jpg"
       },
@@ -1808,7 +2410,11 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "111",
         "stardate": "",
         "synopsis": "Q gives the powers of the Q to Riker and tells him his shipmates wishes will be granted if he joins with those of the Q Continuum.",
-        "guestCast": [],
+        "guestCast": [
+          "John de Lancie como Q",
+          "William A. Wallace como Wesley",
+          "Elaine Nalee como Klingon Survivor"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242177.jpg"
       },
@@ -1820,7 +2426,18 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "105",
         "stardate": "",
         "synopsis": "Counselor Troi faces an arranged marriage when the Enterprise arrives at a planet, her future husband to be has had dreams of a unknown woman for years before meeting her.",
-        "guestCast": [],
+        "guestCast": [
+          "Majel Barrett Roddenberry como Lwaxana Troi",
+          "Carel Struycken como Mr. Homn",
+          "Robert Knepper como Wyatt Miller",
+          "Nan Martin como Victoria Miller",
+          "Robert Ellenstein como Steven Miller",
+          "Michael Rider como Transporter Chief",
+          "Raye Birk como Wrenn",
+          "Anna Katarina como Valeda Wrenn",
+          "Danitza Kingsley como Ariana",
+          "Armin Shimerman como Betazoid Gift Box"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242178.jpg"
       },
@@ -1832,7 +2449,18 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "113",
         "stardate": "",
         "synopsis": "Captain Picard, Data and Dr. Crusher are trapped in a holodeck program as 1940's detectives during a holdeck malfunction that interferes with a meeting with a alien species that requires the captain only.",
-        "guestCast": [],
+        "guestCast": [
+          "William Boyett como Dan Bell",
+          "Lawrence Tierney como Cyrus Redblock",
+          "David Selburg como Whalen",
+          "Gary Armagnac como Lt. McNary",
+          "Harvey Jason como Felix Leech",
+          "Rhonda Aldrich como Madeline",
+          "Dick Miller como Vendor",
+          "Mike Genovese como Desk Sergeant",
+          "Carolyn Allport como Jessica Bradley",
+          "Erik Cord como Thug"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242179.jpg"
       },
@@ -1844,7 +2472,10 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "114",
         "stardate": "",
         "synopsis": "The Enterprise explores Data's home planet, Omicron Theta. They find his brother, and the dark secret he carries.",
-        "guestCast": [],
+        "guestCast": [
+          "Biff Yeager como Lt. Cmdr. Argyle",
+          "Brent Spiner como Lore"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242180.jpg"
       },
@@ -1856,7 +2487,12 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "115",
         "stardate": "",
         "synopsis": "An Enterprise away team beams down to a planet with a matriarchal society to search for survivors of a crashed Federation freighter.",
-        "guestCast": [],
+        "guestCast": [
+          "Patricia McPherson como Ariel",
+          "Karen Montgomery como Beata",
+          "Sam Hennings como Ramsey",
+          "Leonard Crofoot como Trent"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242181.jpg"
       },
@@ -1868,7 +2504,18 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "116",
         "stardate": "",
         "synopsis": "At a Federation space station aliens known as the Binars come aboard to upgrade the Enterprises computer and Holographic systems. During this process, the Enterprise is hijacked while Captain Picard and Riker are in the Holodeck.",
-        "guestCast": [],
+        "guestCast": [
+          "Carolyn McCormick como Minuet",
+          "Gene Dynarski como Cmdr. Orfil Quinteros",
+          "Katy Boyer como Zero One",
+          "Alexandra Johnson como One Zero",
+          "Abdul Salaam El Razzac como Bass Player",
+          "Jack Sheldon como Piano Player",
+          "Iva Lane como Zero Zero",
+          "Kelli Ann McNally como One One",
+          "Ron Brown como Drummer",
+          "Majel Barrett Roddenberry como Computer"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242182.jpg"
       },
@@ -2189,7 +2836,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "16",
         "overallNumber": "42",
-        "title": "Q Who",
+        "title": "Q Who?",
         "date": "1989-05-08",
         "productionCode": "142",
         "stardate": "",
@@ -2419,7 +3066,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "13",
         "overallNumber": "61",
-        "title": "Deja Q",
+        "title": "Déjà Q",
         "date": "1990-02-05",
         "productionCode": "161",
         "stardate": "",
@@ -2575,7 +3222,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "26",
         "overallNumber": "74",
-        "title": "The Best of Both Worlds, Part I",
+        "title": "The Best of Both Worlds",
         "date": "1990-06-18",
         "productionCode": "174",
         "stardate": "",
@@ -2589,7 +3236,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "1",
         "overallNumber": "75",
-        "title": "The Best of Both Worlds, Part II",
+        "title": "The Best of Both Worlds Part II",
         "date": "1990-09-24",
         "productionCode": "175",
         "stardate": "",
@@ -2889,7 +3536,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "26",
         "overallNumber": "100",
-        "title": "Redemption, Part I",
+        "title": "Redemption",
         "date": "1991-06-17",
         "productionCode": "200",
         "stardate": "",
@@ -2903,7 +3550,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "1",
         "overallNumber": "101",
-        "title": "Redemption, Part II",
+        "title": "Redemption II",
         "date": "1991-09-23",
         "productionCode": "201",
         "stardate": "",
@@ -2975,7 +3622,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "7",
         "overallNumber": "107",
-        "title": "Unification, Part I",
+        "title": "Unification I",
         "date": "1991-11-04",
         "productionCode": "208",
         "stardate": "",
@@ -2987,7 +3634,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "8",
         "overallNumber": "108",
-        "title": "Unification, Part II",
+        "title": "Unification II",
         "date": "1991-11-11",
         "productionCode": "207",
         "stardate": "",
@@ -3203,7 +3850,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "26",
         "overallNumber": "126",
-        "title": "Time's Arrow, Part I",
+        "title": "Time's Arrow",
         "date": "1992-06-15",
         "productionCode": "226",
         "stardate": "",
@@ -3819,7 +4466,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "25",
         "overallNumber": "177",
-        "title": "All Good Things...",
+        "title": "All Good Things... (1)",
         "date": "1994-05-23",
         "productionCode": "277",
         "stardate": "",
@@ -3831,7 +4478,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "26",
         "overallNumber": "178",
-        "title": "All Good Things...",
+        "title": "All Good Things... (2)",
         "date": "1994-05-23",
         "productionCode": "277",
         "stardate": "",
@@ -3847,7 +4494,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "1",
         "overallNumber": "1",
-        "title": "Emissary",
+        "title": "Emissary, Part I",
         "date": "1993-01-03",
         "productionCode": "40510-721 (401-402)",
         "stardate": "",
@@ -3859,7 +4506,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "2",
         "overallNumber": "2",
-        "title": "Emissary",
+        "title": "Emissary, Part II",
         "date": "1993-01-03",
         "productionCode": "40510-721 (401-402)",
         "stardate": "",
@@ -4049,11 +4696,11 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/119/297842.jpg"
       },
       {
-        "displayNumber": "The Federation ambassador from Betazed, Lwaxana Troi, visits the station, and develops an affection for Odo. Meanwhile, data from a mysterious Gamma Quadrant probe causes system failures on DS9.",
-        "overallNumber": "The Federation ambassador from Betazed, Lwaxana Troi, visits the station, and develops an affection for Odo. Meanwhile, data from a mysterious Gamma Quadrant probe causes system failures on DS9.",
-        "title": "The Federation ambassador from Betazed, Lwaxana Troi, visits the station, and develops an affection for Odo. Meanwhile, data from a mysterious Gamma Quadrant probe causes system failures on DS9.",
+        "displayNumber": "18",
+        "overallNumber": "18",
+        "title": "Dramatis Personae",
         "date": "1993-05-30",
-        "productionCode": "The Federation ambassador from Betazed, Lwaxana Troi, visits the station, and develops an affection for Odo. Meanwhile, data from a mysterious Gamma Quadrant probe causes system failures on DS9.",
+        "productionCode": "",
         "stardate": "",
         "synopsis": "Acting out roles both melodramatic and deadly, the DS9 command staff are infected by a viral historical incident archive from an alien culture within the Gamma Quadrant.",
         "guestCast": [],
@@ -4061,9 +4708,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/130/325203.jpg"
       },
       {
-        "displayNumber": "18",
-        "overallNumber": "18",
-        "title": "Dramatis Personae",
+        "displayNumber": "19",
+        "overallNumber": "19",
+        "title": "Duet",
         "date": "1993-06-13",
         "productionCode": "40510-418",
         "stardate": "",
@@ -4073,36 +4720,16 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/119/297843.jpg"
       },
       {
-        "displayNumber": "Tensions rise between the DS9 crew members after they are telepathically imprinted with the memories of participants in an alien power struggle.",
-        "overallNumber": "Tensions rise between the DS9 crew members after they are telepathically imprinted with the memories of participants in an alien power struggle.",
-        "title": "Tensions rise between the DS9 crew members after they are telepathically imprinted with the memories of participants in an alien power struggle.",
+        "displayNumber": "20",
+        "overallNumber": "20",
+        "title": "In the Hands of the Prophets",
         "date": "1993-06-20",
-        "productionCode": "Tensions rise between the DS9 crew members after they are telepathically imprinted with the memories of participants in an alien power struggle.",
+        "productionCode": "",
         "stardate": "",
         "synopsis": "Orthodox Bajorans voice objections to secular teachings about the wormhole in the station's school, causing violent tensions to erupt between DS9's crew and an increasingly popular fundamentalist faction of the Bajoran faith.",
         "guestCast": [],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/119/297844.jpg"
-      },
-      {
-        "displayNumber": "19",
-        "overallNumber": "19",
-        "title": "Duet",
-        "date": "June 13, 1993",
-        "productionCode": "40510-419",
-        "stardate": "",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "20",
-        "overallNumber": "20",
-        "title": "In the Hands of the Prophets",
-        "date": "June 20, 1993",
-        "productionCode": "40510-420",
-        "stardate": "",
-        "synopsis": "",
-        "guestCast": []
       }
     ],
     [
@@ -4119,11 +4746,11 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/131/328998.jpg"
       },
       {
-        "displayNumber": "Quark gives Kira a Bajoran earring he claims was sent as a message from a Cardassian mining planet. (Part 1 of 3)",
-        "overallNumber": "Quark gives Kira a Bajoran earring he claims was sent as a message from a Cardassian mining planet. (Part 1 of 3)",
-        "title": "Quark gives Kira a Bajoran earring he claims was sent as a message from a Cardassian mining planet. (Part 1 of 3)",
+        "displayNumber": "2",
+        "overallNumber": "22",
+        "title": "The Circle",
         "date": "1993-10-03",
-        "productionCode": "Quark gives Kira a Bajoran earring he claims was sent as a message from a Cardassian mining planet. (Part 1 of 3)",
+        "productionCode": "",
         "stardate": "",
         "synopsis": "When Kira is removed from her post aboard DS9, Vedek Bareil invites her to visit his monastery on Bajor to reflect on her next step. Meanwhile, Odo, Sisko, and Li Nalas attempt to discover who is the driving force behind The Circle when they begin arming themselves with weapons from a mysterious source.",
         "guestCast": [],
@@ -4131,9 +4758,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/119/297846.jpg"
       },
       {
-        "displayNumber": "2",
-        "overallNumber": "22",
-        "title": "The Circle",
+        "displayNumber": "3",
+        "overallNumber": "23",
+        "title": "The Siege",
         "date": "1993-10-10",
         "productionCode": "40510-422",
         "stardate": "",
@@ -4143,11 +4770,11 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/131/329023.jpg"
       },
       {
-        "displayNumber": "The Circle attempts to topple the Bajoran government, but there is more to the situation than meets the eye. (Part 2 of 3)",
-        "overallNumber": "The Circle attempts to topple the Bajoran government, but there is more to the situation than meets the eye. (Part 2 of 3)",
-        "title": "The Circle attempts to topple the Bajoran government, but there is more to the situation than meets the eye. (Part 2 of 3)",
+        "displayNumber": "4",
+        "overallNumber": "24",
+        "title": "Invasive Procedures",
         "date": "1993-10-17",
-        "productionCode": "The Circle attempts to topple the Bajoran government, but there is more to the situation than meets the eye. (Part 2 of 3)",
+        "productionCode": "",
         "stardate": "",
         "synopsis": "When a violent plasma storm leads to the evacuation of the station, the remaining crew are overtaken by a group of mercenaries led by a timid Trill named Verad who has plans for Lieutenant Dax.",
         "guestCast": [],
@@ -4155,9 +4782,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/131/329033.jpg"
       },
       {
-        "displayNumber": "3",
-        "overallNumber": "23",
-        "title": "The Siege",
+        "displayNumber": "5",
+        "overallNumber": "25",
+        "title": "Cardassians",
         "date": "1993-10-24",
         "productionCode": "40510-423",
         "stardate": "",
@@ -4167,11 +4794,11 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/119/297848.jpg"
       },
       {
-        "displayNumber": "Sisko and Li Nalas help stop Deep Space Nine from being commandeered by The Circle, while Kira and Dax try to put an end to the Circle by presenting evidence that Minister Jaro is being backed by the Cardassians. (Part 3 of 3)",
-        "overallNumber": "Sisko and Li Nalas help stop Deep Space Nine from being commandeered by The Circle, while Kira and Dax try to put an end to the Circle by presenting evidence that Minister Jaro is being backed by the Cardassians. (Part 3 of 3)",
-        "title": "Sisko and Li Nalas help stop Deep Space Nine from being commandeered by The Circle, while Kira and Dax try to put an end to the Circle by presenting evidence that Minister Jaro is being backed by the Cardassians. (Part 3 of 3)",
+        "displayNumber": "6",
+        "overallNumber": "26",
+        "title": "Melora",
         "date": "1993-10-31",
-        "productionCode": "Sisko and Li Nalas help stop Deep Space Nine from being commandeered by The Circle, while Kira and Dax try to put an end to the Circle by presenting evidence that Minister Jaro is being backed by the Cardassians. (Part 3 of 3)",
+        "productionCode": "",
         "stardate": "",
         "synopsis": "Ensign Melora Pazlar, a new arrival on DS9 with a special gravity-based disability, finds an admirer in Bashir. Meanwhile, Quark receives a death threat from one of his former associates.",
         "guestCast": [],
@@ -4179,9 +4806,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/132/331068.jpg"
       },
       {
-        "displayNumber": "4",
-        "overallNumber": "24",
-        "title": "Invasive Procedures",
+        "displayNumber": "7",
+        "overallNumber": "27",
+        "title": "Rules of Acquisition",
         "date": "1993-11-07",
         "productionCode": "40510-424",
         "stardate": "",
@@ -4191,9 +4818,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/146/365603.jpg"
       },
       {
-        "displayNumber": "5",
-        "overallNumber": "25",
-        "title": "Cardassians",
+        "displayNumber": "8",
+        "overallNumber": "28",
+        "title": "Necessary Evil",
         "date": "1993-11-14",
         "productionCode": "40510-425",
         "stardate": "",
@@ -4203,9 +4830,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/146/365602.jpg"
       },
       {
-        "displayNumber": "6",
-        "overallNumber": "26",
-        "title": "Melora",
+        "displayNumber": "9",
+        "overallNumber": "29",
+        "title": "Second Sight",
         "date": "1993-11-21",
         "productionCode": "40510-426",
         "stardate": "",
@@ -4215,9 +4842,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/146/365604.jpg"
       },
       {
-        "displayNumber": "7",
-        "overallNumber": "27",
-        "title": "Rules of Acquisition",
+        "displayNumber": "10",
+        "overallNumber": "30",
+        "title": "Sanctuary",
         "date": "1993-11-28",
         "productionCode": "40510-427",
         "stardate": "",
@@ -4227,9 +4854,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/146/365605.jpg"
       },
       {
-        "displayNumber": "8",
-        "overallNumber": "28",
-        "title": "Necessary Evil",
+        "displayNumber": "11",
+        "overallNumber": "31",
+        "title": "Rivals",
         "date": "1994-01-02",
         "productionCode": "40510-428",
         "stardate": "",
@@ -4239,9 +4866,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/146/365607.jpg"
       },
       {
-        "displayNumber": "9",
-        "overallNumber": "29",
-        "title": "Second Sight",
+        "displayNumber": "12",
+        "overallNumber": "32",
+        "title": "The Alternate",
         "date": "1994-01-09",
         "productionCode": "40510-429",
         "stardate": "",
@@ -4251,9 +4878,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/146/365609.jpg"
       },
       {
-        "displayNumber": "10",
-        "overallNumber": "30",
-        "title": "Sanctuary",
+        "displayNumber": "13",
+        "overallNumber": "33",
+        "title": "Armageddon Game",
         "date": "1994-01-30",
         "productionCode": "40510-430",
         "stardate": "",
@@ -4263,9 +4890,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/146/365610.jpg"
       },
       {
-        "displayNumber": "11",
-        "overallNumber": "31",
-        "title": "Rivals",
+        "displayNumber": "14",
+        "overallNumber": "34",
+        "title": "Whispers",
         "date": "1994-02-06",
         "productionCode": "40510-431",
         "stardate": "",
@@ -4275,9 +4902,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/146/365611.jpg"
       },
       {
-        "displayNumber": "12",
-        "overallNumber": "32",
-        "title": "The Alternate",
+        "displayNumber": "15",
+        "overallNumber": "35",
+        "title": "Paradise",
         "date": "1994-02-13",
         "productionCode": "40510-432",
         "stardate": "",
@@ -4287,9 +4914,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/163/408287.jpg"
       },
       {
-        "displayNumber": "13",
-        "overallNumber": "33",
-        "title": "Armageddon Game",
+        "displayNumber": "16",
+        "overallNumber": "36",
+        "title": "Shadowplay",
         "date": "1994-02-20",
         "productionCode": "40510-433",
         "stardate": "",
@@ -4299,9 +4926,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/163/408291.jpg"
       },
       {
-        "displayNumber": "14",
-        "overallNumber": "34",
-        "title": "Whispers",
+        "displayNumber": "17",
+        "overallNumber": "37",
+        "title": "Playing God",
         "date": "1994-02-27",
         "productionCode": "40510-434",
         "stardate": "",
@@ -4311,9 +4938,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/163/408318.jpg"
       },
       {
-        "displayNumber": "15",
-        "overallNumber": "35",
-        "title": "Paradise",
+        "displayNumber": "18",
+        "overallNumber": "38",
+        "title": "Profit and Loss",
         "date": "1994-03-20",
         "productionCode": "40510-435",
         "stardate": "",
@@ -4323,9 +4950,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/163/408343.jpg"
       },
       {
-        "displayNumber": "16",
-        "overallNumber": "36",
-        "title": "Shadowplay",
+        "displayNumber": "19",
+        "overallNumber": "39",
+        "title": "Blood Oath",
         "date": "1994-03-27",
         "productionCode": "40510-436",
         "stardate": "",
@@ -4335,9 +4962,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/163/408370.jpg"
       },
       {
-        "displayNumber": "17",
-        "overallNumber": "37",
-        "title": "Playing God",
+        "displayNumber": "20",
+        "overallNumber": "40",
+        "title": "The Maquis, Part I",
         "date": "1994-04-24",
         "productionCode": "40510-437",
         "stardate": "",
@@ -4347,9 +4974,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/163/408941.jpg"
       },
       {
-        "displayNumber": "18",
-        "overallNumber": "38",
-        "title": "Profit and Loss",
+        "displayNumber": "21",
+        "overallNumber": "41",
+        "title": "The Maquis, Part II",
         "date": "1994-05-01",
         "productionCode": "40510-438",
         "stardate": "",
@@ -4359,9 +4986,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/163/408971.jpg"
       },
       {
-        "displayNumber": "19",
-        "overallNumber": "39",
-        "title": "Blood Oath",
+        "displayNumber": "22",
+        "overallNumber": "42",
+        "title": "The Wire",
         "date": "1994-05-08",
         "productionCode": "40510-439",
         "stardate": "",
@@ -4371,9 +4998,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411078.jpg"
       },
       {
-        "displayNumber": "20",
-        "overallNumber": "40",
-        "title": "The Maquis, Part I",
+        "displayNumber": "23",
+        "overallNumber": "43",
+        "title": "Crossover",
         "date": "1994-05-15",
         "productionCode": "40510-440",
         "stardate": "",
@@ -4383,9 +5010,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411107.jpg"
       },
       {
-        "displayNumber": "21",
-        "overallNumber": "41",
-        "title": "The Maquis, Part II",
+        "displayNumber": "24",
+        "overallNumber": "44",
+        "title": "The Collaborator",
         "date": "1994-05-22",
         "productionCode": "40510-441",
         "stardate": "",
@@ -4395,9 +5022,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411116.jpg"
       },
       {
-        "displayNumber": "22",
-        "overallNumber": "42",
-        "title": "The Wire",
+        "displayNumber": "25",
+        "overallNumber": "45",
+        "title": "Tribunal",
         "date": "1994-06-05",
         "productionCode": "40510-442",
         "stardate": "",
@@ -4407,9 +5034,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411138.jpg"
       },
       {
-        "displayNumber": "23",
-        "overallNumber": "43",
-        "title": "Crossover",
+        "displayNumber": "26",
+        "overallNumber": "46",
+        "title": "The Jem'Hadar",
         "date": "1994-06-12",
         "productionCode": "40510-443",
         "stardate": "",
@@ -4417,36 +5044,6 @@ export var SERIES_EPISODE_DETAILS = {
         "guestCast": [],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411139.jpg"
-      },
-      {
-        "displayNumber": "24",
-        "overallNumber": "44",
-        "title": "The Collaborator",
-        "date": "May 22, 1994",
-        "productionCode": "40510-444",
-        "stardate": "",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "25",
-        "overallNumber": "45",
-        "title": "Tribunal",
-        "date": "June 5, 1994",
-        "productionCode": "40510-445",
-        "stardate": "",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "26",
-        "overallNumber": "46",
-        "title": "The Jem'Hadar",
-        "date": "June 12, 1994",
-        "productionCode": "40510-446",
-        "stardate": "",
-        "synopsis": "",
-        "guestCast": []
       }
     ],
     [
@@ -4523,11 +5120,11 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411357.jpg"
       },
       {
-        "displayNumber": "Quark purchases a salvaged ship from the Gamma Quadrant and discovers an infant on board. Sisko invites Mardah, the dabo woman Jake is interested in, to dinner. Odo officially gets quarters aboard DS9.",
-        "overallNumber": "Quark purchases a salvaged ship from the Gamma Quadrant and discovers an infant on board. Sisko invites Mardah, the dabo woman Jake is interested in, to dinner. Odo officially gets quarters aboard DS9.",
-        "title": "Quark purchases a salvaged ship from the Gamma Quadrant and discovers an infant on board. Sisko invites Mardah, the dabo woman Jake is interested in, to dinner. Odo officially gets quarters aboard DS9.",
+        "displayNumber": "7",
+        "overallNumber": "53",
+        "title": "Civil Defense",
         "date": "1994-11-13",
-        "productionCode": "Quark purchases a salvaged ship from the Gamma Quadrant and discovers an infant on board. Sisko invites Mardah, the dabo woman Jake is interested in, to dinner. Odo officially gets quarters aboard DS9.",
+        "productionCode": "",
         "stardate": "",
         "synopsis": "Sisko, Jake, and O'Brien accidentally trigger an old Cardassian security system that believes DS9 has been taken over in a Bajoran workers' revolt and puts the entire station in lockdown.",
         "guestCast": [],
@@ -4535,9 +5132,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411417.jpg"
       },
       {
-        "displayNumber": "7",
-        "overallNumber": "53",
-        "title": "Civil Defense",
+        "displayNumber": "8",
+        "overallNumber": "54",
+        "title": "Meridian",
         "date": "1994-11-20",
         "productionCode": "40510-453",
         "stardate": "",
@@ -4547,9 +5144,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411604.jpg"
       },
       {
-        "displayNumber": "8",
-        "overallNumber": "54",
-        "title": "Meridian",
+        "displayNumber": "9",
+        "overallNumber": "55",
+        "title": "Defiant",
         "date": "1994-11-27",
         "productionCode": "40510-454",
         "stardate": "",
@@ -4559,11 +5156,11 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411605.jpg"
       },
       {
-        "displayNumber": "Dax falls in love with Deral, who will soon disappear because he is a member of Meridian, a planet that phases between dimensions every 60 years.",
-        "overallNumber": "Dax falls in love with Deral, who will soon disappear because he is a member of Meridian, a planet that phases between dimensions every 60 years.",
-        "title": "Dax falls in love with Deral, who will soon disappear because he is a member of Meridian, a planet that phases between dimensions every 60 years.",
+        "displayNumber": "10",
+        "overallNumber": "56",
+        "title": "Fascination",
         "date": "1994-12-04",
-        "productionCode": "Dax falls in love with Deral, who will soon disappear because he is a member of Meridian, a planet that phases between dimensions every 60 years.",
+        "productionCode": "",
         "stardate": "",
         "synopsis": "When Ambassador Lwaxana Troi and Keiko O'Brien return to DS9 for the Bajoran Gratitude Festival, residents of the station suddenly become uncontrollably infatuated with one another.",
         "guestCast": [],
@@ -4571,9 +5168,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411620.jpg"
       },
       {
-        "displayNumber": "9",
-        "overallNumber": "55",
-        "title": "Defiant",
+        "displayNumber": "11",
+        "overallNumber": "57",
+        "title": "Past Tense, Part I",
         "date": "1995-01-08",
         "productionCode": "40510-455",
         "stardate": "",
@@ -4583,9 +5180,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411638.jpg"
       },
       {
-        "displayNumber": "10",
-        "overallNumber": "56",
-        "title": "Fascination",
+        "displayNumber": "12",
+        "overallNumber": "58",
+        "title": "Past Tense, Part II",
         "date": "1995-01-15",
         "productionCode": "40510-456",
         "stardate": "",
@@ -4595,9 +5192,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411676.jpg"
       },
       {
-        "displayNumber": "11",
-        "overallNumber": "57",
-        "title": "Past Tense: Part I",
+        "displayNumber": "13",
+        "overallNumber": "59",
+        "title": "Life Support",
         "date": "1995-02-05",
         "productionCode": "40510-457",
         "stardate": "",
@@ -4607,11 +5204,11 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411693.jpg"
       },
       {
-        "displayNumber": "A transporter accident sends Sisko, Bashir, and Dax three centuries into Earth's dark past to a time just before the 2024 Bell riots, a violent civil disturbance in opposition to Sanctuaries which are controlled ghettos for the dispossessed.",
-        "overallNumber": "A transporter accident sends Sisko, Bashir, and Dax three centuries into Earth's dark past to a time just before the 2024 Bell riots, a violent civil disturbance in opposition to Sanctuaries which are controlled ghettos for the dispossessed.",
-        "title": "A transporter accident sends Sisko, Bashir, and Dax three centuries into Earth's dark past to a time just before the 2024 Bell riots, a violent civil disturbance in opposition to Sanctuaries which are controlled ghettos for the dispossessed.",
+        "displayNumber": "14",
+        "overallNumber": "60",
+        "title": "Heart of Stone",
         "date": "1995-02-12",
-        "productionCode": "A transporter accident sends Sisko, Bashir, and Dax three centuries into Earth's dark past to a time just before the 2024 Bell riots, a violent civil disturbance in opposition to Sanctuaries which are controlled ghettos for the dispossessed.",
+        "productionCode": "",
         "stardate": "",
         "synopsis": "Pursuing a Maquis raider to an unstable moon, Kira becomes trapped within an expanding crystal formation that threatens to engulf her. Meanwhile, Nog attempts to persuade a skeptical Commander Sisko to write him a letter of recommendation to join Starfleet Academy.",
         "guestCast": [],
@@ -4619,9 +5216,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/167/417773.jpg"
       },
       {
-        "displayNumber": "12",
-        "overallNumber": "58",
-        "title": "Past Tense: Part II",
+        "displayNumber": "15",
+        "overallNumber": "61",
+        "title": "Destiny",
         "date": "1995-02-19",
         "productionCode": "40510-458",
         "stardate": "",
@@ -4631,9 +5228,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/167/417816.jpg"
       },
       {
-        "displayNumber": "13",
-        "overallNumber": "59",
-        "title": "Life Support",
+        "displayNumber": "16",
+        "overallNumber": "62",
+        "title": "Prophet Motive",
         "date": "1995-02-26",
         "productionCode": "40510-459",
         "stardate": "",
@@ -4643,9 +5240,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/167/417866.jpg"
       },
       {
-        "displayNumber": "14",
-        "overallNumber": "60",
-        "title": "Heart of Stone",
+        "displayNumber": "17",
+        "overallNumber": "63",
+        "title": "Visionary",
         "date": "1995-03-05",
         "productionCode": "40510-460",
         "stardate": "",
@@ -4655,9 +5252,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/167/417910.jpg"
       },
       {
-        "displayNumber": "15",
-        "overallNumber": "61",
-        "title": "Destiny",
+        "displayNumber": "18",
+        "overallNumber": "64",
+        "title": "Distant Voices",
         "date": "1995-04-16",
         "productionCode": "40510-461",
         "stardate": "",
@@ -4667,9 +5264,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/167/419162.jpg"
       },
       {
-        "displayNumber": "16",
-        "overallNumber": "62",
-        "title": "Prophet Motive",
+        "displayNumber": "19",
+        "overallNumber": "65",
+        "title": "Through the Looking Glass",
         "date": "1995-04-23",
         "productionCode": "40510-462",
         "stardate": "",
@@ -4679,9 +5276,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/167/419203.jpg"
       },
       {
-        "displayNumber": "17",
-        "overallNumber": "63",
-        "title": "Visionary",
+        "displayNumber": "20",
+        "overallNumber": "66",
+        "title": "Improbable Cause",
         "date": "1995-05-07",
         "productionCode": "40510-463",
         "stardate": "",
@@ -4691,9 +5288,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/167/419215.jpg"
       },
       {
-        "displayNumber": "18",
-        "overallNumber": "64",
-        "title": "Distant Voices",
+        "displayNumber": "21",
+        "overallNumber": "67",
+        "title": "The Die is Cast",
         "date": "1995-05-07",
         "productionCode": "40510-464",
         "stardate": "",
@@ -4703,11 +5300,11 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/167/419230.jpg"
       },
       {
-        "displayNumber": "Approaching his 30th birthday, Julian Bashir is subjected to a telepathic attack by an alien seeking a restricted substance. He wakes up to find the station almost deserted and that he is aging rapidly.",
-        "overallNumber": "Approaching his 30th birthday, Julian Bashir is subjected to a telepathic attack by an alien seeking a restricted substance. He wakes up to find the station almost deserted and that he is aging rapidly.",
-        "title": "Approaching his 30th birthday, Julian Bashir is subjected to a telepathic attack by an alien seeking a restricted substance. He wakes up to find the station almost deserted and that he is aging rapidly.",
+        "displayNumber": "22",
+        "overallNumber": "68",
+        "title": "Explorers",
         "date": "1995-05-14",
-        "productionCode": "Approaching his 30th birthday, Julian Bashir is subjected to a telepathic attack by an alien seeking a restricted substance. He wakes up to find the station almost deserted and that he is aging rapidly.",
+        "productionCode": "",
         "stardate": "",
         "synopsis": "An invigorated Sisko returns from Bajor and decides to build a replica of an eight hundred-year-old Bajoran lightship, hoping to use it to prove that ancient Bajoran explorers could have made it to Cardassia before developing warp drive.",
         "guestCast": [],
@@ -4715,9 +5312,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/167/419260.jpg"
       },
       {
-        "displayNumber": "19",
-        "overallNumber": "65",
-        "title": "Through the Looking Glass",
+        "displayNumber": "23",
+        "overallNumber": "69",
+        "title": "Family Business",
         "date": "1995-05-21",
         "productionCode": "40510-466",
         "stardate": "",
@@ -4727,9 +5324,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/167/419283.jpg"
       },
       {
-        "displayNumber": "20",
-        "overallNumber": "66",
-        "title": "Improbable Cause",
+        "displayNumber": "24",
+        "overallNumber": "70",
+        "title": "Shakaar",
         "date": "1995-05-28",
         "productionCode": "40510-465",
         "stardate": "",
@@ -4739,11 +5336,11 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/167/419881.jpg"
       },
       {
-        "displayNumber": "Garak's tailor shop is bombed, forcing Odo to investigate who is trying to kill the Cardassian exile – and why. (Part 1 of 2)",
-        "overallNumber": "Garak's tailor shop is bombed, forcing Odo to investigate who is trying to kill the Cardassian exile – and why. (Part 1 of 2)",
-        "title": "Garak's tailor shop is bombed, forcing Odo to investigate who is trying to kill the Cardassian exile – and why. (Part 1 of 2)",
+        "displayNumber": "25",
+        "overallNumber": "71",
+        "title": "Facets",
         "date": "1995-06-18",
-        "productionCode": "Garak's tailor shop is bombed, forcing Odo to investigate who is trying to kill the Cardassian exile – and why. (Part 1 of 2)",
+        "productionCode": "",
         "stardate": "",
         "synopsis": "While Jadzia performs the Trill zhian'tara ritual and meets with the previous Dax hosts, Nog undergoes his stress reaction test in preparation for entrance into Starfleet Academy.",
         "guestCast": [],
@@ -4751,9 +5348,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/167/419894.jpg"
       },
       {
-        "displayNumber": "21",
-        "overallNumber": "67",
-        "title": "The Die Is Cast",
+        "displayNumber": "26",
+        "overallNumber": "72",
+        "title": "The Adversary",
         "date": "1995-06-25",
         "productionCode": "40510-467",
         "stardate": "",
@@ -4761,75 +5358,15 @@ export var SERIES_EPISODE_DETAILS = {
         "guestCast": [],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/168/420036.jpg"
-      },
-      {
-        "displayNumber": "Garak reluctantly tortures Odo for information to prove his loyalty to his former mentor, Enabran Tain, as a joint Tal Shiar/Obsidian Order attack on the Founders in the Omarian Nebula is underway. (Part 2 of 2)",
-        "overallNumber": "Garak reluctantly tortures Odo for information to prove his loyalty to his former mentor, Enabran Tain, as a joint Tal Shiar/Obsidian Order attack on the Founders in the Omarian Nebula is underway. (Part 2 of 2)",
-        "title": "Garak reluctantly tortures Odo for information to prove his loyalty to his former mentor, Enabran Tain, as a joint Tal Shiar/Obsidian Order attack on the Founders in the Omarian Nebula is underway. (Part 2 of 2)",
-        "date": "Garak reluctantly tortures Odo for information to prove his loyalty to his former mentor, Enabran Tain, as a joint Tal Shiar/Obsidian Order attack on the Founders in the Omarian Nebula is underway. (Part 2 of 2)",
-        "productionCode": "Garak reluctantly tortures Odo for information to prove his loyalty to his former mentor, Enabran Tain, as a joint Tal Shiar/Obsidian Order attack on the Founders in the Omarian Nebula is underway. (Part 2 of 2)",
-        "stardate": "",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "22",
-        "overallNumber": "68",
-        "title": "Explorers",
-        "date": "May 6, 1995",
-        "productionCode": "40510-468",
-        "stardate": "",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "23",
-        "overallNumber": "69",
-        "title": "Family Business",
-        "date": "May 13, 1995",
-        "productionCode": "40510-469",
-        "stardate": "",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "24",
-        "overallNumber": "70",
-        "title": "Shakaar",
-        "date": "May 20, 1995",
-        "productionCode": "40510-470",
-        "stardate": "",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "25",
-        "overallNumber": "71",
-        "title": "Facets",
-        "date": "June 10, 1995",
-        "productionCode": "40510-471",
-        "stardate": "",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "26",
-        "overallNumber": "72",
-        "title": "The Adversary",
-        "date": "June 17, 1995",
-        "productionCode": "40510-472",
-        "stardate": "",
-        "synopsis": "",
-        "guestCast": []
       }
     ],
     [
       {
         "displayNumber": "1",
         "overallNumber": "73",
-        "title": "The Way of the Warrior",
+        "title": "The Way of the Warrior, Part I",
         "date": "1995-10-02",
-        "productionCode": "40510-718 (40510-473, 40510-474)",
+        "productionCode": "",
         "stardate": "49011.4",
         "synopsis": "When a Klingon fleet under General Martok arrives at the station ostensibly to protect the Alpha Quadrant from the Dominion, Sisko recruits Lieutenant Commander Worf to investigate the Klingons' true intentions.",
         "guestCast": [],
@@ -4839,9 +5376,9 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "2",
         "overallNumber": "74",
-        "title": "The Way of the Warrior",
+        "title": "The Way of the Warrior, Part II",
         "date": "1995-10-02",
-        "productionCode": "40510-718 (40510-473, 40510-474)",
+        "productionCode": "",
         "stardate": "49011.4",
         "synopsis": "Believing that the recent Cardasssian coup was orchestrated by the Dominion, the Klingon decision to attack Cardassia puts the Federation-Klingon alliance in jeopardy, and forces Worf to choose between his people and his oath to the Federation.",
         "guestCast": [],
@@ -4849,21 +5386,21 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/168/420284.jpg"
       },
       {
-        "displayNumber": "A Klingon fleet arrives on its way to expand the Klingon Empire at the expense of the Cardassians in the face of the Dominion threat, and Worf is brought to DS9 to negotiate. Originally shown as a single two-hour episode, but converted to two separate episodes in later syndication.",
-        "overallNumber": "A Klingon fleet arrives on its way to expand the Klingon Empire at the expense of the Cardassians in the face of the Dominion threat, and Worf is brought to DS9 to negotiate. Originally shown as a single two-hour episode, but converted to two separate episodes in later syndication.",
-        "title": "A Klingon fleet arrives on its way to expand the Klingon Empire at the expense of the Cardassians in the face of the Dominion threat, and Worf is brought to DS9 to negotiate. Originally shown as a single two-hour episode, but converted to two separate episodes in later syndication.",
+        "displayNumber": "3",
+        "overallNumber": "75",
+        "title": "The Visitor",
         "date": "1995-10-09",
-        "productionCode": "A Klingon fleet arrives on its way to expand the Klingon Empire at the expense of the Cardassians in the face of the Dominion threat, and Worf is brought to DS9 to negotiate. Originally shown as a single two-hour episode, but converted to two separate episodes in later syndication.",
-        "stardate": "A Klingon fleet arrives on its way to expand the Klingon Empire at the expense of the Cardassians in the face of the Dominion threat, and Worf is brought to DS9 to negotiate. Originally shown as a single two-hour episode, but converted to two separate episodes in later syndication.",
+        "productionCode": "",
+        "stardate": "",
         "synopsis": "When an aspiring writer turns up in the middle of the night, an elderly Jake Sisko recounts his life, which has become an endless quest to locate his father, after an accident in the engine room of the Defiant apparently claimed Benjamin Sisko's life.",
         "guestCast": [],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/168/420441.jpg"
       },
       {
-        "displayNumber": "3",
-        "overallNumber": "75",
-        "title": "The Visitor",
+        "displayNumber": "4",
+        "overallNumber": "76",
+        "title": "Hippocratic Oath",
         "date": "1995-10-16",
         "productionCode": "40510-476",
         "stardate": "49037.7",
@@ -4873,9 +5410,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/168/420456.jpg"
       },
       {
-        "displayNumber": "4",
-        "overallNumber": "76",
-        "title": "Hippocratic Oath",
+        "displayNumber": "5",
+        "overallNumber": "77",
+        "title": "Indiscretion",
         "date": "1995-10-23",
         "productionCode": "40510-475",
         "stardate": "49066.5",
@@ -4885,9 +5422,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/168/420491.jpg"
       },
       {
-        "displayNumber": "5",
-        "overallNumber": "77",
-        "title": "Indiscretion",
+        "displayNumber": "6",
+        "overallNumber": "78",
+        "title": "Rejoined",
         "date": "1995-10-30",
         "productionCode": "40510-477",
         "stardate": "49122.4",
@@ -4897,48 +5434,66 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/168/421015.jpg"
       },
       {
-        "displayNumber": "6",
-        "overallNumber": "78",
-        "title": "Rejoined",
+        "displayNumber": "7",
+        "overallNumber": "79",
+        "title": "Starship Down",
         "date": "1995-11-06",
         "productionCode": "40510-478",
         "stardate": "49195.5",
         "synopsis": "When Sisko defends a Karemma ship that has been trading with the Federation without the Dominion's knowledge, a badly damaged Defiant is forced into a dangerous game of cat-and-mouse with two Jem'Hadar ships inside a gas giant.",
-        "guestCast": [],
+        "guestCast": [
+          "F.J. Rio como Enrique Muñiz",
+          "James Cromwell como Hanok",
+          "Sara Mornell como Ensign Carson",
+          "Jay Baker como Stevens",
+          "Mark Allen Shepherd como Morn"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/168/421028.jpg"
-      },
-      {
-        "displayNumber": "7",
-        "overallNumber": "79",
-        "title": "Starship Down",
-        "date": "1995-11-13",
-        "productionCode": "40510-479",
-        "stardate": "49263.5",
-        "synopsis": "On a shakedown cruise to Earth to drop off Nog at Starfleet Academy, a malfunction on Quark's new ship causes Quark, Rom, and Nog to crash in the year 1947 in Roswell, New Mexico.",
-        "guestCast": [],
-        "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/168/421267.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "80",
         "title": "Little Green Men",
+        "date": "1995-11-13",
+        "productionCode": "40510-479",
+        "stardate": "49263.5",
+        "synopsis": "On a shakedown cruise to Earth to drop off Nog at Starfleet Academy, a malfunction on Quark's new ship causes Quark, Rom, and Nog to crash in the year 1947 in Roswell, New Mexico.",
+        "guestCast": [
+          "Aron Eisenberg como Nog",
+          "Max Grodénchik como Rom",
+          "Megan Gallagher como Faith Garland",
+          "Conor O'Farrell como Jeff Carlson",
+          "James MacDonald como Captain Wainwright",
+          "Charles Napier como Lt. General Rex Denning",
+          "Mark Allen Shepherd como Morn"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/168/421267.jpg"
+      },
+      {
+        "displayNumber": "9",
+        "overallNumber": "81",
+        "title": "The Sword of Kahless",
         "date": "1995-11-20",
         "productionCode": "40510-480",
         "stardate": "49201.3",
         "synopsis": "Klingon Dahar Master Kor, Jadzia Dax, and Worf search a remote planet in the Gamma Quadrant for the fabled Sword of Kahless; the mythical, millennia-old weapon of the Klingon Empire's first leader.",
-        "guestCast": [],
+        "guestCast": [
+          "John Colicos como Kor",
+          "Rick Pasqualone como Toral",
+          "Tom Morga como Soto"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/168/421283.jpg"
       },
       {
-        "displayNumber": "Quark, Rom, Nog and Odo are accidentally thrust back in time to Roswell, New Mexico, Earth, in 1947.",
-        "overallNumber": "Quark, Rom, Nog and Odo are accidentally thrust back in time to Roswell, New Mexico, Earth, in 1947.",
-        "title": "Quark, Rom, Nog and Odo are accidentally thrust back in time to Roswell, New Mexico, Earth, in 1947.",
+        "displayNumber": "10",
+        "overallNumber": "82",
+        "title": "Our Man Bashir",
         "date": "1995-11-27",
-        "productionCode": "Quark, Rom, Nog and Odo are accidentally thrust back in time to Roswell, New Mexico, Earth, in 1947.",
-        "stardate": "Quark, Rom, Nog and Odo are accidentally thrust back in time to Roswell, New Mexico, Earth, in 1947.",
+        "productionCode": "",
+        "stardate": "",
         "synopsis": "A transporter emergency aboard the USS Orinoco replaces the characters in Dr. Bashir's secret agent holosuite program with the physical forms DS9's senior staff.",
         "guestCast": [
           "Andrew J. Robinson como Elim Garak",
@@ -4957,9 +5512,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/168/421317.jpg"
       },
       {
-        "displayNumber": "9",
-        "overallNumber": "81",
-        "title": "The Sword of Kahless",
+        "displayNumber": "11",
+        "overallNumber": "83",
+        "title": "Homefront",
         "date": "1996-01-01",
         "productionCode": "40510-481",
         "stardate": "49289",
@@ -4979,9 +5534,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/168/421339.jpg"
       },
       {
-        "displayNumber": "10",
-        "overallNumber": "82",
-        "title": "Our Man Bashir",
+        "displayNumber": "12",
+        "overallNumber": "84",
+        "title": "Paradise Lost",
         "date": "1996-01-08",
         "productionCode": "40510-482",
         "stardate": "49300.7",
@@ -5001,12 +5556,12 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/169/424817.jpg"
       },
       {
-        "displayNumber": "Bashir plays a 1960s secret agent in a holosuite, when Garak unexpectedly intrudes, but his help is needed when the DS9 computer uses the holosuite to store the patterns of other crew members during a transporter accident.",
-        "overallNumber": "Bashir plays a 1960s secret agent in a holosuite, when Garak unexpectedly intrudes, but his help is needed when the DS9 computer uses the holosuite to store the patterns of other crew members during a transporter accident.",
-        "title": "Bashir plays a 1960s secret agent in a holosuite, when Garak unexpectedly intrudes, but his help is needed when the DS9 computer uses the holosuite to store the patterns of other crew members during a transporter accident.",
+        "displayNumber": "13",
+        "overallNumber": "85",
+        "title": "Crossfire",
         "date": "1996-01-29",
-        "productionCode": "Bashir plays a 1960s secret agent in a holosuite, when Garak unexpectedly intrudes, but his help is needed when the DS9 computer uses the holosuite to store the patterns of other crew members during a transporter accident.",
-        "stardate": "Bashir plays a 1960s secret agent in a holosuite, when Garak unexpectedly intrudes, but his help is needed when the DS9 computer uses the holosuite to store the patterns of other crew members during a transporter accident.",
+        "productionCode": "",
+        "stardate": "",
         "synopsis": "Odo is forced to confront his feelings for Kira when Bajoran First Minister Shakaar visits DS9.",
         "guestCast": [
           "Duncan Regehr como Shakaar Edon",
@@ -5020,9 +5575,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/176/441748.jpg"
       },
       {
-        "displayNumber": "11",
-        "overallNumber": "83",
-        "title": "Homefront",
+        "displayNumber": "14",
+        "overallNumber": "86",
+        "title": "Return to Grace",
         "date": "1996-02-05",
         "productionCode": "40510-483",
         "stardate": "49370.0",
@@ -5037,12 +5592,12 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/176/441761.jpg"
       },
       {
-        "displayNumber": "Sisko and Odo are brought to Earth when it's suspected Changelings are infiltrating Starfleet. (Part 1 of 2)",
-        "overallNumber": "Sisko and Odo are brought to Earth when it's suspected Changelings are infiltrating Starfleet. (Part 1 of 2)",
-        "title": "Sisko and Odo are brought to Earth when it's suspected Changelings are infiltrating Starfleet. (Part 1 of 2)",
+        "displayNumber": "15",
+        "overallNumber": "87",
+        "title": "Sons of Mogh",
         "date": "1996-02-12",
-        "productionCode": "Sisko and Odo are brought to Earth when it's suspected Changelings are infiltrating Starfleet. (Part 1 of 2)",
-        "stardate": "Sisko and Odo are brought to Earth when it's suspected Changelings are infiltrating Starfleet. (Part 1 of 2)",
+        "productionCode": "",
+        "stardate": "",
         "synopsis": "In an attempt to regain his lost honor, Worf's brother Kurn arrives on the station with a troubling request. Meanwhile, Major Kira and Chief O'Brien investigate Klingon activity near the Bajoran border.",
         "guestCast": [
           "Tony Todd como Kurn",
@@ -5057,9 +5612,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/176/441775.jpg"
       },
       {
-        "displayNumber": "12",
-        "overallNumber": "84",
-        "title": "Paradise Lost",
+        "displayNumber": "16",
+        "overallNumber": "88",
+        "title": "Bar Association",
         "date": "1996-02-19",
         "productionCode": "40510-484",
         "stardate": "49482.3",
@@ -5077,12 +5632,12 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/176/441790.jpg"
       },
       {
-        "displayNumber": "As Sisko and Odo prepare for a Dominion invasion, they discover a plot to place the Federation under military control. (Part 2 of 2)",
-        "overallNumber": "As Sisko and Odo prepare for a Dominion invasion, they discover a plot to place the Federation under military control. (Part 2 of 2)",
-        "title": "As Sisko and Odo prepare for a Dominion invasion, they discover a plot to place the Federation under military control. (Part 2 of 2)",
+        "displayNumber": "17",
+        "overallNumber": "89",
+        "title": "Accession",
         "date": "1996-02-26",
-        "productionCode": "As Sisko and Odo prepare for a Dominion invasion, they discover a plot to place the Federation under military control. (Part 2 of 2)",
-        "stardate": "As Sisko and Odo prepare for a Dominion invasion, they discover a plot to place the Federation under military control. (Part 2 of 2)",
+        "productionCode": "",
+        "stardate": "",
         "synopsis": "Sisko's role as Emissary is challenged when a 300-year-old Bajoran lightship emerges from the wormhole and the passenger claims that he is the Emissary of the Prophets. Meanwhile, Keiko O'Brien returns to DS9 with some surprising news.",
         "guestCast": [
           "Richard Libertini como Akorem Laan",
@@ -5101,9 +5656,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/176/442240.jpg"
       },
       {
-        "displayNumber": "13",
-        "overallNumber": "85",
-        "title": "Crossfire",
+        "displayNumber": "18",
+        "overallNumber": "90",
+        "title": "Rules of Engagement",
         "date": "1996-04-08",
         "productionCode": "40510-485",
         "stardate": "49517.3",
@@ -5120,9 +5675,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/176/442258.jpg"
       },
       {
-        "displayNumber": "14",
-        "overallNumber": "86",
-        "title": "Return to Grace",
+        "displayNumber": "19",
+        "overallNumber": "91",
+        "title": "Hard Time",
         "date": "1996-04-15",
         "productionCode": "40510-486",
         "stardate": "49534.2",
@@ -5140,9 +5695,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/176/442276.jpg"
       },
       {
-        "displayNumber": "15",
-        "overallNumber": "87",
-        "title": "Sons of Mogh",
+        "displayNumber": "20",
+        "overallNumber": "92",
+        "title": "Shattered Mirror",
         "date": "1996-04-22",
         "productionCode": "40510-487",
         "stardate": "49556.2",
@@ -5166,9 +5721,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/176/442288.jpg"
       },
       {
-        "displayNumber": "16",
-        "overallNumber": "88",
-        "title": "Bar Association",
+        "displayNumber": "21",
+        "overallNumber": "93",
+        "title": "The Muse",
         "date": "1996-04-29",
         "productionCode": "40510-488",
         "stardate": "49565.1",
@@ -5186,9 +5741,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/177/442871.jpg"
       },
       {
-        "displayNumber": "17",
-        "overallNumber": "89",
-        "title": "Accession",
+        "displayNumber": "22",
+        "overallNumber": "94",
+        "title": "For the Cause",
         "date": "1996-05-06",
         "productionCode": "40510-489",
         "stardate": "49600.7",
@@ -5206,12 +5761,12 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/177/442883.jpg"
       },
       {
-        "displayNumber": "A famous Bajoran poet, Akorem Laan, who disappeared over 200 years ago, appears from the wormhole and convinces Sisko that he is the true Emissary, but when he announces a return to the pre-occupation caste system, Sisko points out it would disqualify Bajor for membership in The Federation. O'Brien is less than enthusiastic when Keiko announces she's expecting.",
-        "overallNumber": "A famous Bajoran poet, Akorem Laan, who disappeared over 200 years ago, appears from the wormhole and convinces Sisko that he is the true Emissary, but when he announces a return to the pre-occupation caste system, Sisko points out it would disqualify Bajor for membership in The Federation. O'Brien is less than enthusiastic when Keiko announces she's expecting.",
-        "title": "A famous Bajoran poet, Akorem Laan, who disappeared over 200 years ago, appears from the wormhole and convinces Sisko that he is the true Emissary, but when he announces a return to the pre-occupation caste system, Sisko points out it would disqualify Bajor for membership in The Federation. O'Brien is less than enthusiastic when Keiko announces she's expecting.",
+        "displayNumber": "23",
+        "overallNumber": "95",
+        "title": "To the Death",
         "date": "1996-05-13",
-        "productionCode": "A famous Bajoran poet, Akorem Laan, who disappeared over 200 years ago, appears from the wormhole and convinces Sisko that he is the true Emissary, but when he announces a return to the pre-occupation caste system, Sisko points out it would disqualify Bajor for membership in The Federation. O'Brien is less than enthusiastic when Keiko announces she's expecting.",
-        "stardate": "A famous Bajoran poet, Akorem Laan, who disappeared over 200 years ago, appears from the wormhole and convinces Sisko that he is the true Emissary, but when he announces a return to the pre-occupation caste system, Sisko points out it would disqualify Bajor for membership in The Federation. O'Brien is less than enthusiastic when Keiko announces she's expecting.",
+        "productionCode": "",
+        "stardate": "",
         "synopsis": "After a rogue band of Jem'Hadar attack DS9, the crew of the Defiant reluctantly join forces with a group of loyal Jem'Hadar in order to prevent the rogues from obtaining a dangerous piece of ancient technology.",
         "guestCast": [
           "Clarence Williams III como Omet'iklan",
@@ -5225,9 +5780,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/177/442896.jpg"
       },
       {
-        "displayNumber": "18",
-        "overallNumber": "90",
-        "title": "Rules of Engagement",
+        "displayNumber": "24",
+        "overallNumber": "96",
+        "title": "The Quickening",
         "date": "1996-05-20",
         "productionCode": "40510-490",
         "stardate": "49665.3",
@@ -5246,9 +5801,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/177/442917.jpg"
       },
       {
-        "displayNumber": "19",
-        "overallNumber": "91",
-        "title": "Hard Time",
+        "displayNumber": "25",
+        "overallNumber": "97",
+        "title": "Body Parts",
         "date": "1996-06-10",
         "productionCode": "40510-491",
         "stardate": "49680.5",
@@ -5268,9 +5823,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/177/442920.jpg"
       },
       {
-        "displayNumber": "20",
-        "overallNumber": "92",
-        "title": "Shattered Mirror",
+        "displayNumber": "26",
+        "overallNumber": "98",
+        "title": "Broken Link",
         "date": "1996-06-17",
         "productionCode": "40510-492",
         "stardate": "49699.1",
@@ -5286,76 +5841,6 @@ export var SERIES_EPISODE_DETAILS = {
         ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/179/449503.jpg"
-      },
-      {
-        "displayNumber": "21",
-        "overallNumber": "93",
-        "title": "The Muse",
-        "date": "April 27, 1996",
-        "productionCode": "40510-493",
-        "stardate": "49702.2",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "22",
-        "overallNumber": "94",
-        "title": "For the Cause",
-        "date": "May 4, 1996",
-        "productionCode": "40510-494",
-        "stardate": "49729.8",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "23",
-        "overallNumber": "95",
-        "title": "To the Death",
-        "date": "May 11, 1996",
-        "productionCode": "40510-495",
-        "stardate": "49904.2",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "24",
-        "overallNumber": "96",
-        "title": "The Quickening",
-        "date": "May 18, 1996",
-        "productionCode": "40510-496",
-        "stardate": "49909.7",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "Bashir tries to free the population of a Gamma Quadrant world in the Teplan system of an engineered disease left by the Dominion 200 years previously.",
-        "overallNumber": "Bashir tries to free the population of a Gamma Quadrant world in the Teplan system of an engineered disease left by the Dominion 200 years previously.",
-        "title": "Bashir tries to free the population of a Gamma Quadrant world in the Teplan system of an engineered disease left by the Dominion 200 years previously.",
-        "date": "Bashir tries to free the population of a Gamma Quadrant world in the Teplan system of an engineered disease left by the Dominion 200 years previously.",
-        "productionCode": "Bashir tries to free the population of a Gamma Quadrant world in the Teplan system of an engineered disease left by the Dominion 200 years previously.",
-        "stardate": "Bashir tries to free the population of a Gamma Quadrant world in the Teplan system of an engineered disease left by the Dominion 200 years previously.",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "25",
-        "overallNumber": "97",
-        "title": "Body Parts",
-        "date": "June 8, 1996",
-        "productionCode": "40510-497",
-        "stardate": "49930.3",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "26",
-        "overallNumber": "98",
-        "title": "Broken Link",
-        "date": "June 15, 1996",
-        "productionCode": "40510-498",
-        "stardate": "49962.4",
-        "synopsis": "",
-        "guestCast": []
       }
     ],
     [
@@ -5419,12 +5904,12 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/179/449552.jpg"
       },
       {
-        "displayNumber": "Worf finds himself attracted to Grilka, Quark's ex wife (episode 3.3), when she visits the station.",
-        "overallNumber": "Worf finds himself attracted to Grilka, Quark's ex wife (episode 3.3), when she visits the station.",
-        "title": "Worf finds himself attracted to Grilka, Quark's ex wife (episode 3.3), when she visits the station.",
+        "displayNumber": "4",
+        "overallNumber": "102",
+        "title": "...Nor the Battle to the Strong",
         "date": "1996-10-21",
-        "productionCode": "Worf finds himself attracted to Grilka, Quark's ex wife (episode 3.3), when she visits the station.",
-        "stardate": "Worf finds himself attracted to Grilka, Quark's ex wife (episode 3.3), when she visits the station.",
+        "productionCode": "",
+        "stardate": "",
         "synopsis": "On their way back from a medical conference, Jake and Dr. Bashir are diverted to the Federation colony on Ajilon Prime who have been attacked by the Klingons. However, when the the Klingons renew their attacks on the colony, Jake is forced to confront the hard realities of war as battle erupts around him.",
         "guestCast": [
           "Lisa Lord como Nurse",
@@ -5440,9 +5925,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/179/449574.jpg"
       },
       {
-        "displayNumber": "4",
-        "overallNumber": "102",
-        "title": "...Nor the Battle to the Strong",
+        "displayNumber": "5",
+        "overallNumber": "103",
+        "title": "The Assignment",
         "date": "1996-10-28",
         "productionCode": "40510-502",
         "stardate": "50098.7",
@@ -5461,9 +5946,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/179/449583.jpg"
       },
       {
-        "displayNumber": "5",
-        "overallNumber": "103",
-        "title": "The Assignment",
+        "displayNumber": "6",
+        "overallNumber": "104",
+        "title": "Trials and Tribble-ations",
         "date": "1996-11-04",
         "productionCode": "40510-504",
         "stardate": "50124.3",
@@ -5482,9 +5967,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/179/449610.jpg"
       },
       {
-        "displayNumber": "6",
-        "overallNumber": "104",
-        "title": "Trials and Tribble-ations",
+        "displayNumber": "7",
+        "overallNumber": "105",
+        "title": "Let He Who is Without Sin...",
         "date": "1996-11-11",
         "productionCode": "40510-503",
         "stardate": "4523.7",
@@ -5502,12 +5987,12 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/179/449803.jpg"
       },
       {
-        "displayNumber": "Darvin, a disgraced Klingon spy, travels back in time. The DS9 crew must prevent him from altering the timeline. Based on the original Star Trek episode \"The Trouble with Tribbles\" by David Gerrold.",
-        "overallNumber": "Darvin, a disgraced Klingon spy, travels back in time. The DS9 crew must prevent him from altering the timeline. Based on the original Star Trek episode \"The Trouble with Tribbles\" by David Gerrold.",
-        "title": "Darvin, a disgraced Klingon spy, travels back in time. The DS9 crew must prevent him from altering the timeline. Based on the original Star Trek episode \"The Trouble with Tribbles\" by David Gerrold.",
+        "displayNumber": "8",
+        "overallNumber": "106",
+        "title": "Things Past",
         "date": "1996-11-18",
-        "productionCode": "Darvin, a disgraced Klingon spy, travels back in time. The DS9 crew must prevent him from altering the timeline. Based on the original Star Trek episode \"The Trouble with Tribbles\" by David Gerrold.",
-        "stardate": "Darvin, a disgraced Klingon spy, travels back in time. The DS9 crew must prevent him from altering the timeline. Based on the original Star Trek episode \"The Trouble with Tribbles\" by David Gerrold.",
+        "productionCode": "",
+        "stardate": "",
         "synopsis": "Sisko, Dax, Odo, and Garak find themselves trapped seven years in the past on Terok Nor, but everyone thinks that they're condemned Bajorans. With Cardassians in control of the station, Odo's memory of a crime he once investigated may be the only key to their survival.",
         "guestCast": [
           "Andrew J. Robinson como Elim Garak",
@@ -5524,9 +6009,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/179/449816.jpg"
       },
       {
-        "displayNumber": "7",
-        "overallNumber": "105",
-        "title": "Let He Who Is Without Sin...",
+        "displayNumber": "9",
+        "overallNumber": "107",
+        "title": "The Ascent",
         "date": "1996-11-25",
         "productionCode": "40510-505",
         "stardate": "50136.7",
@@ -5539,9 +6024,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/179/449821.jpg"
       },
       {
-        "displayNumber": "8",
-        "overallNumber": "106",
-        "title": "Things Past",
+        "displayNumber": "10",
+        "overallNumber": "108",
+        "title": "Rapture",
         "date": "1996-12-30",
         "productionCode": "40510-506",
         "stardate": "50144.6",
@@ -5557,9 +6042,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/179/449835.jpg"
       },
       {
-        "displayNumber": "9",
-        "overallNumber": "107",
-        "title": "The Ascent",
+        "displayNumber": "11",
+        "overallNumber": "109",
+        "title": "The Darkness and the Light",
         "date": "1997-01-06",
         "productionCode": "40510-507",
         "stardate": "50245.2",
@@ -5580,12 +6065,12 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/179/449872.jpg"
       },
       {
-        "displayNumber": "Forced to crash-land on a desolate planet, Odo and Quark must climb a mountain to transmit a distress signal. Jake and Nog (temporarily back at DS9) find sharing quarters isn't as enjoyable as they thought it would be.",
-        "overallNumber": "Forced to crash-land on a desolate planet, Odo and Quark must climb a mountain to transmit a distress signal. Jake and Nog (temporarily back at DS9) find sharing quarters isn't as enjoyable as they thought it would be.",
-        "title": "Forced to crash-land on a desolate planet, Odo and Quark must climb a mountain to transmit a distress signal. Jake and Nog (temporarily back at DS9) find sharing quarters isn't as enjoyable as they thought it would be.",
+        "displayNumber": "12",
+        "overallNumber": "110",
+        "title": "The Begotten",
         "date": "1997-01-27",
-        "productionCode": "Forced to crash-land on a desolate planet, Odo and Quark must climb a mountain to transmit a distress signal. Jake and Nog (temporarily back at DS9) find sharing quarters isn't as enjoyable as they thought it would be.",
-        "stardate": "Forced to crash-land on a desolate planet, Odo and Quark must climb a mountain to transmit a distress signal. Jake and Nog (temporarily back at DS9) find sharing quarters isn't as enjoyable as they thought it would be.",
+        "productionCode": "",
+        "stardate": "",
         "synopsis": "The discovery of an infant Changeling gives Odo a chance to correct what he sees as the invasive mistakes in his upbringing. Meanwhile, Kira goes into labor with the O'Briens' baby.",
         "guestCast": [
           "Rosalind Chao como Keiko O'Brien",
@@ -5597,9 +6082,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/463183.jpg"
       },
       {
-        "displayNumber": "10",
-        "overallNumber": "108",
-        "title": "Rapture",
+        "displayNumber": "13",
+        "overallNumber": "111",
+        "title": "For the Uniform",
         "date": "1997-02-03",
         "productionCode": "40510-508",
         "stardate": "50387.9",
@@ -5613,12 +6098,12 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/463262.jpg"
       },
       {
-        "displayNumber": "An accident causes Sisko to have prophetic visions. When he finds an ancient Bajoran city, lost for 20,000 years, Kai Winn reconsiders her attitude towards him.",
-        "overallNumber": "An accident causes Sisko to have prophetic visions. When he finds an ancient Bajoran city, lost for 20,000 years, Kai Winn reconsiders her attitude towards him.",
-        "title": "An accident causes Sisko to have prophetic visions. When he finds an ancient Bajoran city, lost for 20,000 years, Kai Winn reconsiders her attitude towards him.",
+        "displayNumber": "14",
+        "overallNumber": "112",
+        "title": "In Purgatory's Shadow",
         "date": "1997-02-10",
-        "productionCode": "An accident causes Sisko to have prophetic visions. When he finds an ancient Bajoran city, lost for 20,000 years, Kai Winn reconsiders her attitude towards him.",
-        "stardate": "An accident causes Sisko to have prophetic visions. When he finds an ancient Bajoran city, lost for 20,000 years, Kai Winn reconsiders her attitude towards him.",
+        "productionCode": "",
+        "stardate": "",
         "synopsis": "Garak and Worf investigate a coded message which suggests that Garak's mentor, Enabran Tain, is still alive in the Gamma Quadrant. However, when their search for answers leads them into Dominion space, the pair discover something far worse than they had expected.",
         "guestCast": [
           "Marc Alaimo como Gul Dukat",
@@ -5634,9 +6119,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/463416.jpg"
       },
       {
-        "displayNumber": "11",
-        "overallNumber": "109",
-        "title": "The Darkness and the Light",
+        "displayNumber": "15",
+        "overallNumber": "113",
+        "title": "By Inferno's Light",
         "date": "1997-02-17",
         "productionCode": "40510-509",
         "stardate": "50416.2",
@@ -5659,9 +6144,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/463425.jpg"
       },
       {
-        "displayNumber": "12",
-        "overallNumber": "110",
-        "title": "The Begotten",
+        "displayNumber": "16",
+        "overallNumber": "114",
+        "title": "Doctor Bashir, I Presume",
         "date": "1997-02-24",
         "productionCode": "40510-510",
         "stardate": "50430.1",
@@ -5681,9 +6166,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/463547.jpg"
       },
       {
-        "displayNumber": "13",
-        "overallNumber": "111",
-        "title": "For the Uniform",
+        "displayNumber": "17",
+        "overallNumber": "115",
+        "title": "A Simple Investigation",
         "date": "1997-03-31",
         "productionCode": "40510-511",
         "stardate": "50485.2",
@@ -5700,9 +6185,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/463562.jpg"
       },
       {
-        "displayNumber": "14",
-        "overallNumber": "112",
-        "title": "In Purgatory's Shadow",
+        "displayNumber": "18",
+        "overallNumber": "116",
+        "title": "Business as Usual",
         "date": "1997-04-07",
         "productionCode": "40510-512",
         "stardate": "50560.1",
@@ -5721,12 +6206,12 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/463579.jpg"
       },
       {
-        "displayNumber": "Worf and Garak journey to the Gamma Quadrant to investigate a coded Cardassian message. (Part 1 of 2)",
-        "overallNumber": "Worf and Garak journey to the Gamma Quadrant to investigate a coded Cardassian message. (Part 1 of 2)",
-        "title": "Worf and Garak journey to the Gamma Quadrant to investigate a coded Cardassian message. (Part 1 of 2)",
+        "displayNumber": "19",
+        "overallNumber": "117",
+        "title": "Ties of Blood and Water",
         "date": "1997-04-14",
-        "productionCode": "Worf and Garak journey to the Gamma Quadrant to investigate a coded Cardassian message. (Part 1 of 2)",
-        "stardate": "Worf and Garak journey to the Gamma Quadrant to investigate a coded Cardassian message. (Part 1 of 2)",
+        "productionCode": "",
+        "stardate": "",
         "synopsis": "Takeny Ghemor, who considers Kira to be his daughter, arrives on DS9 and confesses that is dying. Ghemor wishes to commence the Shri-tal with Kira, a Cardassian ritual in which a dying person reveals their closest secrets to the rest of the family. But the experience dredges up Kira's memories of her own father, who suffered a fatal injury during the Occupation of Bajor.",
         "guestCast": [
           "Marc Alaimo como Gul Dukat",
@@ -5741,9 +6226,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/463598.jpg"
       },
       {
-        "displayNumber": "15",
-        "overallNumber": "113",
-        "title": "By Inferno's Light",
+        "displayNumber": "20",
+        "overallNumber": "118",
+        "title": "Ferengi Love Songs",
         "date": "1997-04-21",
         "productionCode": "40510-513",
         "stardate": "50564.2",
@@ -5763,12 +6248,12 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/463989.jpg"
       },
       {
-        "displayNumber": "Gul Dukat aligns the Cardassians with the Dominion. The station must deal with a Changeling infiltrator. (Part 2 of 2)",
-        "overallNumber": "Gul Dukat aligns the Cardassians with the Dominion. The station must deal with a Changeling infiltrator. (Part 2 of 2)",
-        "title": "Gul Dukat aligns the Cardassians with the Dominion. The station must deal with a Changeling infiltrator. (Part 2 of 2)",
+        "displayNumber": "21",
+        "overallNumber": "119",
+        "title": "Soldiers of the Empire",
         "date": "1997-04-28",
-        "productionCode": "Gul Dukat aligns the Cardassians with the Dominion. The station must deal with a Changeling infiltrator. (Part 2 of 2)",
-        "stardate": "Gul Dukat aligns the Cardassians with the Dominion. The station must deal with a Changeling infiltrator. (Part 2 of 2)",
+        "productionCode": "",
+        "stardate": "",
         "synopsis": "Dax and Worf accompany Martok on his first command since being held by the Dominion. But the ship they are given hasn't seen victory in months and the crew is near mutinous, forcing Worf to decide between loyalty to his commander and loyalty to his crew.",
         "guestCast": [
           "Aron Eisenberg como Nog",
@@ -5783,9 +6268,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464016.jpg"
       },
       {
-        "displayNumber": "16",
-        "overallNumber": "114",
-        "title": "Doctor Bashir, I Presume?",
+        "displayNumber": "22",
+        "overallNumber": "120",
+        "title": "Children of Time",
         "date": "1997-05-05",
         "productionCode": "40510-514",
         "stardate": "50590.1",
@@ -5803,9 +6288,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464031.jpg"
       },
       {
-        "displayNumber": "17",
-        "overallNumber": "115",
-        "title": "A Simple Investigation",
+        "displayNumber": "23",
+        "overallNumber": "121",
+        "title": "Blaze of Glory",
         "date": "1997-05-12",
         "productionCode": "40510-515",
         "stardate": "50606.6",
@@ -5823,110 +6308,76 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464038.jpg"
       },
       {
-        "displayNumber": "18",
-        "overallNumber": "116",
-        "title": "Business as Usual",
+        "displayNumber": "24",
+        "overallNumber": "122",
+        "title": "Empok Nor",
         "date": "1997-05-19",
         "productionCode": "40510-516",
         "stardate": "50675.5",
         "synopsis": "While salvaging components from DS9's sister station, Empok Nor, the crew run afoul of a disturbing surprise left behind by the Cardassians.",
-        "guestCast": [],
+        "guestCast": [
+          "Aron Eisenberg como Nog",
+          "Andrew J. Robinson como Elim Garak",
+          "Andy Milder como Crewman Boq'ta",
+          "Jeffrey King como Crewman Amaro",
+          "Marjean Holden como Crewman Stolzoff",
+          "Tom Hodges como Crewman Pechetti",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik",
+          "Cathy DeBuono como M'Pella"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464059.jpg"
-      },
-      {
-        "displayNumber": "19",
-        "overallNumber": "117",
-        "title": "Ties of Blood and Water",
-        "date": "1997-06-09",
-        "productionCode": "40510-517",
-        "stardate": "50712.5",
-        "synopsis": "Jake and Nog go through hell and high water while trying to cheer up the war-fatigued Captain Sisko by acquiring a mint-condition 1951 Willie Mays baseball card. Meanwhile, Weyoun arrives on DS9 to meet with Kai Winn and offers to sign a nonaggression pact with Bajor.",
-        "guestCast": [],
-        "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464073.jpg"
-      },
-      {
-        "displayNumber": "20",
-        "overallNumber": "118",
-        "title": "Ferengi Love Songs",
-        "date": "1997-06-16",
-        "productionCode": "40510-518",
-        "stardate": "50701.2",
-        "synopsis": "With continuing convoys of Jem'Hadar arriving in the Alpha Quadrant, Sisko decides to mine the wormhole to prevent further troop movement. However, this decision forces the Federation into a direct confrontation with the Dominion, and Gul Dukat responds by launching a massive assault fleet against DS9.",
-        "guestCast": [],
-        "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464389.jpg"
-      },
-      {
-        "displayNumber": "21",
-        "overallNumber": "119",
-        "title": "Soldiers of the Empire",
-        "date": "April 28, 1997",
-        "productionCode": "40510-519",
-        "stardate": "50839.2",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "22",
-        "overallNumber": "120",
-        "title": "Children of Time",
-        "date": "May 5, 1997",
-        "productionCode": "40510-520",
-        "stardate": "50814.2",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "23",
-        "overallNumber": "121",
-        "title": "Blaze of Glory",
-        "date": "May 12, 1997",
-        "productionCode": "40510-521",
-        "stardate": "50862.4",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "24",
-        "overallNumber": "122",
-        "title": "Empok Nor",
-        "date": "May 19, 1997",
-        "productionCode": "40510-522",
-        "stardate": "50901.7",
-        "synopsis": "",
-        "guestCast": []
       },
       {
         "displayNumber": "25",
         "overallNumber": "123",
         "title": "In the Cards",
-        "date": "June 9, 1997",
-        "productionCode": "40510-523",
-        "stardate": "50929.4",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "Jake wants to give his father a present to cheer him up, a 1951 Willie Mays baseball card. He enlists Nog to help him obtain it, but they run into complications with a mysterious geneticist, Dr. Giger. Kai Winn, worried over the prospect of a Federation/Dominion war and its effects on Bajor, meets with Dominion representative Weyoun.",
-        "overallNumber": "Jake wants to give his father a present to cheer him up, a 1951 Willie Mays baseball card. He enlists Nog to help him obtain it, but they run into complications with a mysterious geneticist, Dr. Giger. Kai Winn, worried over the prospect of a Federation/Dominion war and its effects on Bajor, meets with Dominion representative Weyoun.",
-        "title": "Jake wants to give his father a present to cheer him up, a 1951 Willie Mays baseball card. He enlists Nog to help him obtain it, but they run into complications with a mysterious geneticist, Dr. Giger. Kai Winn, worried over the prospect of a Federation/Dominion war and its effects on Bajor, meets with Dominion representative Weyoun.",
-        "date": "Jake wants to give his father a present to cheer him up, a 1951 Willie Mays baseball card. He enlists Nog to help him obtain it, but they run into complications with a mysterious geneticist, Dr. Giger. Kai Winn, worried over the prospect of a Federation/Dominion war and its effects on Bajor, meets with Dominion representative Weyoun.",
-        "productionCode": "Jake wants to give his father a present to cheer him up, a 1951 Willie Mays baseball card. He enlists Nog to help him obtain it, but they run into complications with a mysterious geneticist, Dr. Giger. Kai Winn, worried over the prospect of a Federation/Dominion war and its effects on Bajor, meets with Dominion representative Weyoun.",
-        "stardate": "Jake wants to give his father a present to cheer him up, a 1951 Willie Mays baseball card. He enlists Nog to help him obtain it, but they run into complications with a mysterious geneticist, Dr. Giger. Kai Winn, worried over the prospect of a Federation/Dominion war and its effects on Bajor, meets with Dominion representative Weyoun.",
-        "synopsis": "",
-        "guestCast": []
+        "date": "1997-06-09",
+        "productionCode": "40510-517",
+        "stardate": "50712.5",
+        "synopsis": "Jake and Nog go through hell and high water while trying to cheer up the war-fatigued Captain Sisko by acquiring a mint-condition 1951 Willie Mays baseball card. Meanwhile, Weyoun arrives on DS9 to meet with Kai Winn and offers to sign a nonaggression pact with Bajor.",
+        "guestCast": [
+          "Louise Fletcher como Kai Winn Adami",
+          "Aron Eisenberg como Nog",
+          "Jeffrey Combs como Weyoun",
+          "Chase Masterson como Leeta",
+          "Brian Markinson como Dr. Elias Giger",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik",
+          "Randy James como Lieutenant Jones",
+          "Charlie-Olisa Kaine como Ensign Kelly"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464073.jpg"
       },
       {
         "displayNumber": "26",
         "overallNumber": "124",
         "title": "Call to Arms",
-        "date": "June 16, 1997",
-        "productionCode": "40510-524",
-        "stardate": "50975.2",
-        "synopsis": "",
-        "guestCast": []
+        "date": "1997-06-16",
+        "productionCode": "40510-518",
+        "stardate": "50701.2",
+        "synopsis": "With continuing convoys of Jem'Hadar arriving in the Alpha Quadrant, Sisko decides to mine the wormhole to prevent further troop movement. However, this decision forces the Federation into a direct confrontation with the Dominion, and Gul Dukat responds by launching a massive assault fleet against DS9.",
+        "guestCast": [
+          "Aron Eisenberg como Nog",
+          "Marc Alaimo como Gul Dukat",
+          "Andrew J. Robinson como Elim Garak",
+          "Max Grodénchik como Rom",
+          "J.G. Hertzler como General Martok",
+          "Jeffrey Combs como Weyoun",
+          "Casey Biggs como Damar",
+          "Chase Masterson como Leeta",
+          "Melanie Smith como Tora Ziyal",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik",
+          "Randy James como Lieutenant Jones",
+          "Judi M. Durand como Station Computer",
+          "Cathy DeBuono como M'Pella",
+          "Charlie-Olisa Kaine como Ensign Kelly"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464389.jpg"
       }
     ],
     [
@@ -5938,379 +6389,564 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "40510-525",
         "stardate": "Unknown",
         "synopsis": "With the Dominion in control of DS9 and on track to winning the war against the Federation, Sisko and his crew take a captured Jem'Hadar ship into enemy territory with a mission to destroy the Jem'Hadar's supply of ketracel-white in the Alpha Quadrant.",
-        "guestCast": [],
+        "guestCast": [
+          "Aron Eisenberg como Nog",
+          "Marc Alaimo como Gul Dukat",
+          "Andrew J. Robinson como Elim Garak",
+          "J.G. Hertzler como General Martok",
+          "Jeffrey Combs como Weyoun",
+          "Casey Biggs como Damar",
+          "Barry Jenner como Admiral William J. Ross",
+          "Brock Peters como Joseph Sisko",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik",
+          "Cathy DeBuono como M'Pella"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464396.jpg"
-      },
-      {
-        "displayNumber": "Three months into the war, DS9 is still under Dominion control. Sisko and his crew are given a mission to destroy a vital Ketracel White facility deep in Dominion space using a captured Jem'Hadar ship. Jake is working for the Federation News Service. Odo is head of Terok Nor's security supported by the Vorta Weyoun.",
-        "overallNumber": "Three months into the war, DS9 is still under Dominion control. Sisko and his crew are given a mission to destroy a vital Ketracel White facility deep in Dominion space using a captured Jem'Hadar ship. Jake is working for the Federation News Service. Odo is head of Terok Nor's security supported by the Vorta Weyoun.",
-        "title": "Three months into the war, DS9 is still under Dominion control. Sisko and his crew are given a mission to destroy a vital Ketracel White facility deep in Dominion space using a captured Jem'Hadar ship. Jake is working for the Federation News Service. Odo is head of Terok Nor's security supported by the Vorta Weyoun.",
-        "date": "1997-10-06",
-        "productionCode": "Three months into the war, DS9 is still under Dominion control. Sisko and his crew are given a mission to destroy a vital Ketracel White facility deep in Dominion space using a captured Jem'Hadar ship. Jake is working for the Federation News Service. Odo is head of Terok Nor's security supported by the Vorta Weyoun.",
-        "stardate": "Three months into the war, DS9 is still under Dominion control. Sisko and his crew are given a mission to destroy a vital Ketracel White facility deep in Dominion space using a captured Jem'Hadar ship. Jake is working for the Federation News Service. Odo is head of Terok Nor's security supported by the Vorta Weyoun.",
-        "synopsis": "Sisko's crew crash land their commandeered Jem'Hadar ship on a barren world after being shot down by the Dominion and must fight for survival against a group of Jem'Hadar who have also crash landed. On DS9, Kira struggles to work alongside the Dominion and Jake continues his reporting for the Federation News Service.",
-        "guestCast": [],
-        "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464422.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "126",
         "title": "Rocks and Shoals",
-        "date": "1997-10-13",
-        "productionCode": "40510-527",
-        "stardate": "51107.2",
-        "synopsis": "Alexander Rozhenko joins the crew of the Rotarran, much to the disappointment of Worf. On DS9, Tora Ziyal returns to the station where Gul Dukat intends to use her to get closer to Kira.",
-        "guestCast": [],
+        "date": "1997-10-06",
+        "productionCode": "",
+        "stardate": "",
+        "synopsis": "Sisko's crew crash land their commandeered Jem'Hadar ship on a barren world after being shot down by the Dominion and must fight for survival against a group of Jem'Hadar who have also crash landed. On DS9, Kira struggles to work alongside the Dominion and Jake continues his reporting for the Federation News Service.",
+        "guestCast": [
+          "Aron Eisenberg como Nog",
+          "Andrew J. Robinson como Elim Garak",
+          "Christopher Shea como Keevan",
+          "Phil Morris como Remata'Klan",
+          "Lilyan Chauvin como Vedek Yassim",
+          "Paul Eckstein como Limara'Son",
+          "Joseph Fuqua como Ensign Paul Gordon",
+          "Sarah MacDonnell como Lieutenant Lisa Neeley",
+          "Judi M. Durand como Station Computer"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464454.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464422.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "127",
         "title": "Sons and Daughters",
-        "date": "1997-10-20",
-        "productionCode": "40510-526",
-        "stardate": "Unknown",
-        "synopsis": "Kira's resistance cell continues to cause trouble onboard DS9, deliberately inflaming tensions between the Jem'Hadar and the Cardassians. But their plots are complicated when the Female Changeling arrives on DS9 to pay Odo a visit. Meanwhile, Sisko relinquishes command of the Defiant to Dax after accepting a promotion.",
-        "guestCast": [],
+        "date": "1997-10-13",
+        "productionCode": "40510-527",
+        "stardate": "51107.2",
+        "synopsis": "Alexander Rozhenko joins the crew of the Rotarran, much to the disappointment of Worf. On DS9, Tora Ziyal returns to the station where Gul Dukat intends to use her to get closer to Kira.",
+        "guestCast": [
+          "Marc Alaimo como Gul Dukat",
+          "J.G. Hertzler como General Martok",
+          "Casey Biggs como Damar",
+          "Melanie Smith como Tora Ziyal",
+          "Marc Worden como Alexander Rozhenko",
+          "Gabrielle Union como N'Garen",
+          "Sam Zeller como Ch'Targh"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464476.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464454.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "128",
         "title": "Behind the Lines",
-        "date": "1997-10-27",
-        "productionCode": "40510-528",
-        "stardate": "51149.5",
-        "synopsis": "Tired of being on the losing end of the war, Captain Sisko convinces Starfleet Command to launch a fleet of starships to retake DS9. Meanwhile, time is running out for Rom, who faces execution as an enemy of the Dominion state.",
-        "guestCast": [],
+        "date": "1997-10-20",
+        "productionCode": "40510-526",
+        "stardate": "Unknown",
+        "synopsis": "Kira's resistance cell continues to cause trouble onboard DS9, deliberately inflaming tensions between the Jem'Hadar and the Cardassians. But their plots are complicated when the Female Changeling arrives on DS9 to pay Odo a visit. Meanwhile, Sisko relinquishes command of the Defiant to Dax after accepting a promotion.",
+        "guestCast": [
+          "Aron Eisenberg como Nog",
+          "Marc Alaimo como Gul Dukat",
+          "Max Grodénchik como Rom",
+          "Jeffrey Combs como Weyoun",
+          "Casey Biggs como Damar",
+          "Salome Jens como Female Changeling",
+          "Barry Jenner como Admiral William J. Ross",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik",
+          "Cathy DeBuono como M'Pella"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464501.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464476.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "129",
         "title": "Favor the Bold",
-        "date": "1997-11-03",
-        "productionCode": "40510-529",
-        "stardate": "Unknown",
-        "synopsis": "Commanded by Captain Sisko, the Federation fleet begins it's mission to retake DS9 before the Dominion can bring down the wormhole minefield. On the station, Kira's resistance cell desperately try to sabotage the main computer, and Quark seeks out an unexpected ally to help save Rom.",
-        "guestCast": [],
+        "date": "1997-10-27",
+        "productionCode": "40510-528",
+        "stardate": "51149.5",
+        "synopsis": "Tired of being on the losing end of the war, Captain Sisko convinces Starfleet Command to launch a fleet of starships to retake DS9. Meanwhile, time is running out for Rom, who faces execution as an enemy of the Dominion state.",
+        "guestCast": [
+          "Aron Eisenberg como Nog",
+          "Marc Alaimo como Gul Dukat",
+          "Andrew J. Robinson como Elim Garak",
+          "Max Grodénchik como Rom",
+          "J.G. Hertzler como General Martok",
+          "Jeffrey Combs como Weyoun",
+          "Casey Biggs como Damar",
+          "Salome Jens como Female Changeling",
+          "Chase Masterson como Leeta",
+          "Barry Jenner como Admiral William J. Ross",
+          "Melanie Smith como Tora Ziyal",
+          "Ericka Klein como Admiral Sitak",
+          "Bart McCarthy como Admiral Coburn",
+          "Andrew Palmer como Jem'Hadar Soldier",
+          "William Wellman, Jr. como Bajoran Officer",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik",
+          "Cathy DeBuono como M'Pella"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464511.jpg"
-      },
-      {
-        "displayNumber": "Learning of thousands of Dominion reinforcements gathering in the Gamma Quadrant, Sisko initiates a plan to retake Deep Space Nine and secure the wormhole before the minefield is detonated. (Part 1 of 2)",
-        "overallNumber": "Learning of thousands of Dominion reinforcements gathering in the Gamma Quadrant, Sisko initiates a plan to retake Deep Space Nine and secure the wormhole before the minefield is detonated. (Part 1 of 2)",
-        "title": "Learning of thousands of Dominion reinforcements gathering in the Gamma Quadrant, Sisko initiates a plan to retake Deep Space Nine and secure the wormhole before the minefield is detonated. (Part 1 of 2)",
-        "date": "1997-11-10",
-        "productionCode": "Learning of thousands of Dominion reinforcements gathering in the Gamma Quadrant, Sisko initiates a plan to retake Deep Space Nine and secure the wormhole before the minefield is detonated. (Part 1 of 2)",
-        "stardate": "Learning of thousands of Dominion reinforcements gathering in the Gamma Quadrant, Sisko initiates a plan to retake Deep Space Nine and secure the wormhole before the minefield is detonated. (Part 1 of 2)",
-        "synopsis": "Spontaneously deciding to wed within the week on DS9, Worf and Jadzia go through their own Klingon rituals: Worf on a four day bachelor party with the male members of the crew, while Jadzia deals with her prospective mother-in-law, who deeply opposes the idea of \"an alien\" marrying into her Klingon household.",
-        "guestCast": [],
-        "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464530.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464501.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "130",
         "title": "Sacrifice of Angels",
-        "date": "1997-11-17",
-        "productionCode": "40510-530",
+        "date": "1997-11-03",
+        "productionCode": "40510-529",
         "stardate": "Unknown",
-        "synopsis": "The mirror universe version of Kira's long dead love, Bareil Antos, beams aboard DS9 seeking refuge from the Klingon-Cardassian Alliance.",
-        "guestCast": [],
+        "synopsis": "Commanded by Captain Sisko, the Federation fleet begins it's mission to retake DS9 before the Dominion can bring down the wormhole minefield. On the station, Kira's resistance cell desperately try to sabotage the main computer, and Quark seeks out an unexpected ally to help save Rom.",
+        "guestCast": [
+          "Aron Eisenberg como Nog",
+          "Marc Alaimo como Gul Dukat",
+          "Andrew J. Robinson como Elim Garak",
+          "Max Grodénchik como Rom",
+          "J.G. Hertzler como General Martok",
+          "Jeffrey Combs como Weyoun",
+          "Casey Biggs como Damar",
+          "Salome Jens como Female Changeling",
+          "Chase Masterson como Leeta",
+          "Melanie Smith como Tora Ziyal",
+          "Darin Cooper como Cardassian Officer",
+          "David B. Levinson como Broik",
+          "Cathy DeBuono como M'Pella"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464795.jpg"
-      },
-      {
-        "displayNumber": "Sisko commands the Defiant and 600 Federation ships against a Dominion/Cardassian armada to retake Deep Space Nine. Damar has Kira, Jake and Leeta arrested. (Part 2 of 2)",
-        "overallNumber": "Sisko commands the Defiant and 600 Federation ships against a Dominion/Cardassian armada to retake Deep Space Nine. Damar has Kira, Jake and Leeta arrested. (Part 2 of 2)",
-        "title": "Sisko commands the Defiant and 600 Federation ships against a Dominion/Cardassian armada to retake Deep Space Nine. Damar has Kira, Jake and Leeta arrested. (Part 2 of 2)",
-        "date": "1997-11-24",
-        "productionCode": "Sisko commands the Defiant and 600 Federation ships against a Dominion/Cardassian armada to retake Deep Space Nine. Damar has Kira, Jake and Leeta arrested. (Part 2 of 2)",
-        "stardate": "Sisko commands the Defiant and 600 Federation ships against a Dominion/Cardassian armada to retake Deep Space Nine. Damar has Kira, Jake and Leeta arrested. (Part 2 of 2)",
-        "synopsis": "Dr. Bashir works with an eccentric group of genetically engineered humans in the hopes they can become productive members of the Federation. Meanwhile, the Dominion arrives on DS9 offering to negotiate a truce with the Federation.",
-        "guestCast": [],
-        "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464869.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464511.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "131",
         "title": "You Are Cordially Invited",
-        "date": "1998-01-01",
-        "productionCode": "40510-531",
-        "stardate": "51247.5",
-        "synopsis": "When Quark and Rom's mother Ishka is captured by the Dominion, Quark leads a team of Ferengi on a mission to Empok Nor to rescue her.",
-        "guestCast": [],
+        "date": "1997-11-10",
+        "productionCode": "",
+        "stardate": "",
+        "synopsis": "Spontaneously deciding to wed within the week on DS9, Worf and Jadzia go through their own Klingon rituals: Worf on a four day bachelor party with the male members of the crew, while Jadzia deals with her prospective mother-in-law, who deeply opposes the idea of \"an alien\" marrying into her Klingon household.",
+        "guestCast": [
+          "Aron Eisenberg como Nog",
+          "Max Grodénchik como Rom",
+          "J.G. Hertzler como General Martok",
+          "Chase Masterson como Leeta",
+          "Marc Worden como Alexander Rozhenko",
+          "Shannon Cochran como Sirella",
+          "Sidney Liufau como Manuele Atoa",
+          "Mark Allen Shepherd como Morn",
+          "Randy James como Lieutenant Jones",
+          "Cathy DeBuono como M'Pella"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464950.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464530.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "132",
         "title": "Resurrection",
-        "date": "1998-01-08",
-        "productionCode": "40510-532",
+        "date": "1997-11-17",
+        "productionCode": "40510-530",
         "stardate": "Unknown",
-        "synopsis": "Following the destruction of the starship Honshu, Sisko finds himself stranded on a deserted planet with Dukat, who has become increasingly unstable since the death of Ziyal.",
-        "guestCast": [],
+        "synopsis": "The mirror universe version of Kira's long dead love, Bareil Antos, beams aboard DS9 seeking refuge from the Klingon-Cardassian Alliance.",
+        "guestCast": [
+          "Philip Anglim como Mirror Bareil Antos",
+          "John Towey como Vedek Ossan",
+          "Scott Strozier como Security Guard",
+          "Mark Allen Shepherd como Morn",
+          "Nana Visitor como Mirror Kira Nerys"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464956.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464795.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "133",
         "title": "Statistical Probabilities",
-        "date": "1998-02-04",
-        "productionCode": "40510-533",
-        "stardate": "Unknown",
-        "synopsis": "Morn dies unexpectedly, bequeathing his entire estate to Quark, but some of Morn's old acquaintances arrive on DS9 demanding a piece of the action.",
-        "guestCast": [],
+        "date": "1997-11-24",
+        "productionCode": "",
+        "stardate": "",
+        "synopsis": "Dr. Bashir works with an eccentric group of genetically engineered humans in the hopes they can become productive members of the Federation. Meanwhile, the Dominion arrives on DS9 offering to negotiate a truce with the Federation.",
+        "guestCast": [
+          "Jeffrey Combs como Weyoun",
+          "Casey Biggs como Damar",
+          "Hilary Shepard como Lauren",
+          "Tim Ransom como Jack",
+          "Faith Salie como Sarina Douglas",
+          "Michael Keenan como Patrick",
+          "Jeannetta Arnette como Dr. Karen Loews",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik",
+          "Cathy DeBuono como M'Pella"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464978.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464869.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "134",
         "title": "The Magnificent Ferengi",
-        "date": "1998-02-11",
-        "productionCode": "40510-534",
-        "stardate": "Unknown",
-        "synopsis": "After a friend's ship is destroyed by the Dominion, a despondent Sisko contemplates resigning from Starfleet while experiencing visions of himself and his crew as sci-fi writers in 1950s America.",
-        "guestCast": [],
+        "date": "1998-01-01",
+        "productionCode": "40510-531",
+        "stardate": "51247.5",
+        "synopsis": "When Quark and Rom's mother Ishka is captured by the Dominion, Quark leads a team of Ferengi on a mission to Empok Nor to rescue her.",
+        "guestCast": [
+          "Aron Eisenberg como Nog",
+          "Max Grodénchik como Rom",
+          "Chase Masterson como Leeta",
+          "Jeffrey Combs como Brunt",
+          "Cecily Adams como Ishka",
+          "Josh Pais como Gaila",
+          "Christopher Shea como Keevan",
+          "Hamilton Camp como Leck",
+          "Iggy Pop como Yelgrun",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/186/465007.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464950.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "135",
         "title": "Waltz",
-        "date": "1998-02-18",
-        "productionCode": "40510-535",
-        "stardate": "51413.6",
-        "synopsis": "O'Brien, Dax, Dr. Bashir, and their runabout are reduced in size while investigating an anomaly. However, when the Jem'Hadar attack and commandeer the Defiant, the trio are left with no choice but to take their miniature runabout inside the Defiant to help Sisko and the others retake the ship.",
-        "guestCast": [],
+        "date": "1998-01-08",
+        "productionCode": "40510-532",
+        "stardate": "Unknown",
+        "synopsis": "Following the destruction of the starship Honshu, Sisko finds himself stranded on a deserted planet with Dukat, who has become increasingly unstable since the death of Ziyal.",
+        "guestCast": [
+          "Marc Alaimo como Gul Dukat",
+          "Jeffrey Combs como Weyoun",
+          "Casey Biggs como Damar"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/186/465031.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464956.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "136",
         "title": "Who Mourns for Morn?",
-        "date": "1998-02-25",
-        "productionCode": "40510-536",
+        "date": "1998-02-04",
+        "productionCode": "40510-533",
         "stardate": "Unknown",
-        "synopsis": "O'Brien, working undercover for Starfleet Intelligence, infiltrates the Orion Syndicate, the Alpha Quadrant's main organized crime ring and befriends the man he will have to betray.",
-        "guestCast": [],
+        "synopsis": "Morn dies unexpectedly, bequeathing his entire estate to Quark, but some of Morn's old acquaintances arrive on DS9 demanding a piece of the action.",
+        "guestCast": [
+          "Gregory Itzin como Hain",
+          "Cyril O'Reilly como Nashk",
+          "Bridget White como Larell",
+          "Brad Greenquist como Krit",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik",
+          "Judi M. Durand como Station Computer",
+          "Cathy DeBuono como M'Pella"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/186/465328.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464978.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "137",
         "title": "Far Beyond the Stars",
-        "date": "1998-03-04",
-        "productionCode": "40510-538",
+        "date": "1998-02-11",
+        "productionCode": "40510-534",
         "stardate": "Unknown",
-        "synopsis": "On a mission to recover a Federation informant from the Dominion world of Soukara, Dax is injured and Worf must choose between completing the mission or saving his wife. on DS9, O'Brien enlists Bashir's help to defeat Quark in a game of tongo.",
-        "guestCast": [],
+        "synopsis": "After a friend's ship is destroyed by the Dominion, a despondent Sisko contemplates resigning from Starfleet while experiencing visions of himself and his crew as sci-fi writers in 1950s America.",
+        "guestCast": [
+          "Penny Johnson Jerald como Kasidy Yates",
+          "Brock Peters como Joseph Sisko",
+          "Penny Johnson Jerald como Cassie",
+          "Jeffrey Combs como Officer Kevin Mulkahey",
+          "Marc Alaimo como Officer Burt Ryan",
+          "J.G. Hertzler como Roy Ritterhouse",
+          "Aron Eisenberg como News Vendor",
+          "Brock Peters como Preacher",
+          "Avery Brooks como Benny Russell",
+          "René Auberjonois como Douglas Pabst",
+          "Nana Visitor como Kay Eaton",
+          "Michael Dorn como Willie Hawkins",
+          "Armin Shimerman como Herbert Rossoff",
+          "Colm Meaney como Albert Macklin",
+          "Alexander Siddig como Julius Eaton",
+          "Cirroc Lofton como Jimmy",
+          "Terry Farrell como Darlene Kursky"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/186/465349.jpg"
-      },
-      {
-        "displayNumber": "As Sisko considers leaving Starfleet due to the destruction of Captain Swofford's ship, the Cortez, he has a vision of himself as a science fiction writer in the 1950s.",
-        "overallNumber": "As Sisko considers leaving Starfleet due to the destruction of Captain Swofford's ship, the Cortez, he has a vision of himself as a science fiction writer in the 1950s.",
-        "title": "As Sisko considers leaving Starfleet due to the destruction of Captain Swofford's ship, the Cortez, he has a vision of himself as a science fiction writer in the 1950s.",
-        "date": "1998-04-01",
-        "productionCode": "As Sisko considers leaving Starfleet due to the destruction of Captain Swofford's ship, the Cortez, he has a vision of himself as a science fiction writer in the 1950s.",
-        "stardate": "As Sisko considers leaving Starfleet due to the destruction of Captain Swofford's ship, the Cortez, he has a vision of himself as a science fiction writer in the 1950s.",
-        "synopsis": "After receiving some disturbing information from Gul Dukat, Kira uses the Orb of Time to travel into the past to discover the truth about what happened to her mother during the Occupation of Bajor.",
-        "guestCast": [],
-        "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/187/469326.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/186/465007.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "138",
         "title": "One Little Ship",
-        "date": "1998-04-08",
-        "productionCode": "40510-537",
-        "stardate": "51474.2",
-        "synopsis": "Dr. Bashir's plans to attend a medical conference on Casperia Prime are canceled when the Department of Internal Affairs arrives on DS9 and announces there has been a major security breach and a member of the senior staff has been passing information to the Dominion.",
-        "guestCast": [],
+        "date": "1998-02-18",
+        "productionCode": "40510-535",
+        "stardate": "51413.6",
+        "synopsis": "O'Brien, Dax, Dr. Bashir, and their runabout are reduced in size while investigating an anomaly. However, when the Jem'Hadar attack and commandeer the Defiant, the trio are left with no choice but to take their miniature runabout inside the Defiant to help Sisko and the others retake the ship.",
+        "guestCast": [
+          "Aron Eisenberg como Nog",
+          "Leland Crooke como Gelnon",
+          "Scott Thompson Baker como Kudak'Etan",
+          "Christian Zimmerman como Lamat'Ukan",
+          "Fritz Sperberg como Ixtana'Rax",
+          "Mark Allen Shepherd como Morn",
+          "Cathy DeBuono como M'Pella"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/187/469336.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/186/465031.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "139",
         "title": "Honor Among Thieves",
-        "date": "1998-04-15",
-        "productionCode": "40510-539",
+        "date": "1998-02-25",
+        "productionCode": "40510-536",
         "stardate": "Unknown",
-        "synopsis": "With mounting losses in the Federation-Dominion war, and the looming specter of defeat, Captain Sisko enlists Garak's help to bring the Romulan Empire into the war. However, Sisko may have to sell his soul and the values Starfleet stands for in order to achieve his mission.",
-        "guestCast": [],
+        "synopsis": "O'Brien, working undercover for Starfleet Intelligence, infiltrates the Orion Syndicate, the Alpha Quadrant's main organized crime ring and befriends the man he will have to betray.",
+        "guestCast": [
+          "Leland Crooke como Gelnon",
+          "Michael J. Harney como Chadwick",
+          "John Davis Chandler como Flith",
+          "Nick Tate como Liam Bilby",
+          "Joseph Culp como Raimus",
+          "Carlos Carrasco como Krole",
+          "Brad Blaisdell como Yint",
+          "Delilah Andre como Farian Woman"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/187/469357.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/186/465328.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "140",
         "title": "Change of Heart",
-        "date": "1998-04-22",
-        "productionCode": "40510-540",
-        "stardate": "51597.2",
-        "synopsis": "Odo consults Vic Fontaine, a self-aware holographic lounge singer, about his romantic relationship with Kira.",
-        "guestCast": [],
+        "date": "1998-03-04",
+        "productionCode": "40510-538",
+        "stardate": "Unknown",
+        "synopsis": "On a mission to recover a Federation informant from the Dominion world of Soukara, Dax is injured and Worf must choose between completing the mission or saving his wife. on DS9, O'Brien enlists Bashir's help to defeat Quark in a game of tongo.",
+        "guestCast": [
+          "Todd Waring como Glinn Lasaran"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/187/469373.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/186/465349.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "141",
         "title": "Wrongs Darker Than Death or Night",
-        "date": "1998-04-29",
-        "productionCode": "40510-541",
-        "stardate": "Unknown",
-        "synopsis": "The discovery of a 30,000 year old Bajoran tablet buried under the holy city of B'hala claiming the time of the Reckoning is at hand, and that the future of Bajor will be decided by its outcome.",
-        "guestCast": [],
+        "date": "1998-04-01",
+        "productionCode": "",
+        "stardate": "",
+        "synopsis": "After receiving some disturbing information from Gul Dukat, Kira uses the Orb of Time to travel into the past to discover the truth about what happened to her mother during the Occupation of Bajor.",
+        "guestCast": [
+          "Marc Alaimo como Gul Dukat",
+          "Thomas Kopache como Kira Taban",
+          "Leslie Hope como Kira Meru",
+          "David Bowe como Basso Tromac",
+          "Tim De Zarn como Halb Daier",
+          "Wayne Grace como Legate",
+          "Judi M. Durand como Station Computer",
+          "John Marzilli como Scavenger",
+          "Marc Marosi como Gul",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik",
+          "Cathy DeBuono como M'Pella"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/187/469407.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/187/469326.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "142",
         "title": "Inquisition",
-        "date": "1998-05-06",
-        "productionCode": "40510-542",
-        "stardate": "Unknown",
-        "synopsis": "On their way to Ferenginar, Jake and Nog's runabout comes under attack from the Jem'Hadar, and they are rescued by the Valiant, a ship manned by an elite group of over-eager Starfleet cadets who have bitten off more than they can chew.",
-        "guestCast": [],
+        "date": "1998-04-08",
+        "productionCode": "40510-537",
+        "stardate": "51474.2",
+        "synopsis": "Dr. Bashir's plans to attend a medical conference on Casperia Prime are canceled when the Department of Internal Affairs arrives on DS9 and announces there has been a major security breach and a member of the senior staff has been passing information to the Dominion.",
+        "guestCast": [
+          "William Sadler como Luther Sloan",
+          "Jeffrey Combs como Weyoun",
+          "Samantha Mudd como Chandler",
+          "Benjamin Brown como Kagan",
+          "Judi M. Durand como Station Computer",
+          "Mark Allen Shepherd como Morn"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/187/469447.jpg"
-      },
-      {
-        "displayNumber": "Dr Bashir is busy wrapping up unfinished tasks prior to departing DS9 to attend a medical conference. Just prior to his departure, an Internal Affairs unit under the command of an individual named Sloan, arrive and announce they will be interviewing all the senior staff. Things take a worrying turn for the good doctor when he realises that he is the subject of the investigation and Sloan accuses him of spying for the Dominion.",
-        "overallNumber": "Dr Bashir is busy wrapping up unfinished tasks prior to departing DS9 to attend a medical conference. Just prior to his departure, an Internal Affairs unit under the command of an individual named Sloan, arrive and announce they will be interviewing all the senior staff. Things take a worrying turn for the good doctor when he realises that he is the subject of the investigation and Sloan accuses him of spying for the Dominion.",
-        "title": "Dr Bashir is busy wrapping up unfinished tasks prior to departing DS9 to attend a medical conference. Just prior to his departure, an Internal Affairs unit under the command of an individual named Sloan, arrive and announce they will be interviewing all the senior staff. Things take a worrying turn for the good doctor when he realises that he is the subject of the investigation and Sloan accuses him of spying for the Dominion.",
-        "date": "1998-05-13",
-        "productionCode": "Dr Bashir is busy wrapping up unfinished tasks prior to departing DS9 to attend a medical conference. Just prior to his departure, an Internal Affairs unit under the command of an individual named Sloan, arrive and announce they will be interviewing all the senior staff. Things take a worrying turn for the good doctor when he realises that he is the subject of the investigation and Sloan accuses him of spying for the Dominion.",
-        "stardate": "Dr Bashir is busy wrapping up unfinished tasks prior to departing DS9 to attend a medical conference. Just prior to his departure, an Internal Affairs unit under the command of an individual named Sloan, arrive and announce they will be interviewing all the senior staff. Things take a worrying turn for the good doctor when he realises that he is the subject of the investigation and Sloan accuses him of spying for the Dominion.",
-        "synopsis": "When Grand Nagus Zek is deposed by the Ferengi Commerce Authority for granting Ferengi females the right to wear clothes with an amendment to the Ferengi Bill of Opportunities, Quark is forced to assume a female identity to prevent Brunt from becoming the next Grand Nagus.",
-        "guestCast": [],
-        "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/187/469607.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/187/469336.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "143",
         "title": "In the Pale Moonlight",
-        "date": "1998-05-20",
-        "productionCode": "40510-543",
-        "stardate": "51721.3",
-        "synopsis": "When an accident on the planet Golana sends Molly O'Brien through a mysterious vortex three hundred years into the past, she returns to the present eighteen years old with no immediate recollection of her previous life or her family.",
-        "guestCast": [],
+        "date": "1998-04-15",
+        "productionCode": "40510-539",
+        "stardate": "Unknown",
+        "synopsis": "With mounting losses in the Federation-Dominion war, and the looming specter of defeat, Captain Sisko enlists Garak's help to bring the Romulan Empire into the war. However, Sisko may have to sell his soul and the values Starfleet stands for in order to achieve his mission.",
+        "guestCast": [
+          "Andrew J. Robinson como Elim Garak",
+          "Jeffrey Combs como Weyoun",
+          "Casey Biggs como Damar",
+          "Stephen McHattie como Vreenak",
+          "Howard Shangraw como Grathon Tolar",
+          "Judi M. Durand como Station Computer",
+          "Cathy DeBuono como M'Pella"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470036.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/187/469357.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "144",
         "title": "His Way",
-        "date": "1998-06-10",
-        "productionCode": "40510-544",
-        "stardate": "Unknown",
-        "synopsis": "After receiving a distress call, the crew of the Defiant race to save a Starfleet captain stranded on an inhospitable planet. Back on DS9, Jake follows Quark's latest scheme for story research.",
-        "guestCast": [],
+        "date": "1998-04-22",
+        "productionCode": "40510-540",
+        "stardate": "51597.2",
+        "synopsis": "Odo consults Vic Fontaine, a self-aware holographic lounge singer, about his romantic relationship with Kira.",
+        "guestCast": [
+          "James Darren como Vic Fontaine",
+          "Cyndi Pass como Ginger",
+          "Debi A. Monahan como Melissa",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik",
+          "Charlie-Olisa Kaine como Ensign Kelly",
+          "Nana Visitor como Lola Chrystal"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470053.jpg"
-      },
-      {
-        "displayNumber": "Bashir shows off a new Holosuite program of a martini lounge with a 1960s Vegas singer named Vic Fontaine who is very perceptive; and gives advice to Odo when Kira visits her ex-lover Shakaar.",
-        "overallNumber": "Bashir shows off a new Holosuite program of a martini lounge with a 1960s Vegas singer named Vic Fontaine who is very perceptive; and gives advice to Odo when Kira visits her ex-lover Shakaar.",
-        "title": "Bashir shows off a new Holosuite program of a martini lounge with a 1960s Vegas singer named Vic Fontaine who is very perceptive; and gives advice to Odo when Kira visits her ex-lover Shakaar.",
-        "date": "1998-06-17",
-        "productionCode": "Bashir shows off a new Holosuite program of a martini lounge with a 1960s Vegas singer named Vic Fontaine who is very perceptive; and gives advice to Odo when Kira visits her ex-lover Shakaar.",
-        "stardate": "Bashir shows off a new Holosuite program of a martini lounge with a 1960s Vegas singer named Vic Fontaine who is very perceptive; and gives advice to Odo when Kira visits her ex-lover Shakaar.",
-        "synopsis": "Sisko is chosen to lead an invasion into Cardassian territory, ignoring a warning of impending doom if he leaves DS9 from the Prophets, resulting in fatal consequences for a member of the crew.",
-        "guestCast": [],
-        "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470108.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/187/469373.jpg"
       },
       {
         "displayNumber": "21",
         "overallNumber": "145",
         "title": "The Reckoning",
-        "date": "April 25, 1998",
-        "productionCode": "40510-545",
+        "date": "1998-04-29",
+        "productionCode": "40510-541",
         "stardate": "Unknown",
-        "synopsis": "",
-        "guestCast": []
+        "synopsis": "The discovery of a 30,000 year old Bajoran tablet buried under the holy city of B'hala claiming the time of the Reckoning is at hand, and that the future of Bajor will be decided by its outcome.",
+        "guestCast": [
+          "Louise Fletcher como Kai Winn Adami",
+          "James Greene como Ranjen Koral",
+          "Judi M. Durand como Station Computer",
+          "Mark Allen Shepherd como Morn"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/187/469407.jpg"
       },
       {
         "displayNumber": "22",
         "overallNumber": "146",
         "title": "Valiant",
-        "date": "May 2, 1998",
-        "productionCode": "40510-546",
-        "stardate": "51825.4",
-        "synopsis": "",
-        "guestCast": []
+        "date": "1998-05-06",
+        "productionCode": "40510-542",
+        "stardate": "Unknown",
+        "synopsis": "On their way to Ferenginar, Jake and Nog's runabout comes under attack from the Jem'Hadar, and they are rescued by the Valiant, a ship manned by an elite group of over-eager Starfleet cadets who have bitten off more than they can chew.",
+        "guestCast": [
+          "Aron Eisenberg como Nog",
+          "David Drew Gallagher como Riley Aldrin Shepard",
+          "Courtney Peldon como Karen Farris",
+          "Ashley Brianne McDonogh como Dorian Collins",
+          "Paul Popowich como Tim Watters",
+          "Majel Barrett Roddenberry como Federation Computer",
+          "Scott Hamm como Parton",
+          "Mark Allen Shepherd como Morn"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/187/469447.jpg"
       },
       {
         "displayNumber": "23",
         "overallNumber": "147",
         "title": "Profit and Lace",
-        "date": "May 9, 1998",
-        "productionCode": "40510-547",
-        "stardate": "Unknown",
-        "synopsis": "",
-        "guestCast": []
+        "date": "1998-05-13",
+        "productionCode": "",
+        "stardate": "",
+        "synopsis": "When Grand Nagus Zek is deposed by the Ferengi Commerce Authority for granting Ferengi females the right to wear clothes with an amendment to the Ferengi Bill of Opportunities, Quark is forced to assume a female identity to prevent Brunt from becoming the next Grand Nagus.",
+        "guestCast": [
+          "Wallace Shawn como Grand Nagus Zek",
+          "Aron Eisenberg como Nog",
+          "Max Grodénchik como Rom",
+          "Chase Masterson como Leeta",
+          "Jeffrey Combs como Brunt",
+          "Tiny Ron como Maihar'du",
+          "Cecily Adams como Ishka",
+          "Henry Gibson como Nilva",
+          "Sylvain Cecile como Uri'Lash",
+          "Symba Smith como Aluura",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik",
+          "Cathy DeBuono como M'Pella",
+          "Charlie-Olisa Kaine como Ensign Kelly"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/187/469607.jpg"
       },
       {
         "displayNumber": "24",
         "overallNumber": "148",
         "title": "Time's Orphan",
-        "date": "May 16, 1998",
-        "productionCode": "40510-548",
-        "stardate": "Unknown",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "Molly O'Brien disappears in a vortex and reappears as an 18-year-old woman, but she is now feral, bringing great difficulty for her parents.",
-        "overallNumber": "Molly O'Brien disappears in a vortex and reappears as an 18-year-old woman, but she is now feral, bringing great difficulty for her parents.",
-        "title": "Molly O'Brien disappears in a vortex and reappears as an 18-year-old woman, but she is now feral, bringing great difficulty for her parents.",
-        "date": "Molly O'Brien disappears in a vortex and reappears as an 18-year-old woman, but she is now feral, bringing great difficulty for her parents.",
-        "productionCode": "Molly O'Brien disappears in a vortex and reappears as an 18-year-old woman, but she is now feral, bringing great difficulty for her parents.",
-        "stardate": "Molly O'Brien disappears in a vortex and reappears as an 18-year-old woman, but she is now feral, bringing great difficulty for her parents.",
-        "synopsis": "",
-        "guestCast": []
+        "date": "1998-05-20",
+        "productionCode": "40510-543",
+        "stardate": "51721.3",
+        "synopsis": "When an accident on the planet Golana sends Molly O'Brien through a mysterious vortex three hundred years into the past, she returns to the present eighteen years old with no immediate recollection of her previous life or her family.",
+        "guestCast": [
+          "Rosalind Chao como Keiko O'Brien",
+          "Hana Hatae como Molly O'Brien",
+          "Michelle Krusiec como Adult Molly O'Brien",
+          "Randy James como Lieutenant Jones",
+          "Shaun Bieniek como Deputy Pinar",
+          "Mark Allen Shepherd como Morn",
+          "Cathy DeBuono como M'Pella"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470036.jpg"
       },
       {
         "displayNumber": "25",
         "overallNumber": "149",
         "title": "The Sound of Her Voice",
-        "date": "June 6, 1998",
-        "productionCode": "40510-549",
-        "stardate": "51948.3",
-        "synopsis": "",
-        "guestCast": []
+        "date": "1998-06-10",
+        "productionCode": "40510-544",
+        "stardate": "Unknown",
+        "synopsis": "After receiving a distress call, the crew of the Defiant race to save a Starfleet captain stranded on an inhospitable planet. Back on DS9, Jake follows Quark's latest scheme for story research.",
+        "guestCast": [
+          "Penny Johnson Jerald como Kasidy Yates",
+          "Debra Wilson como Captain Lisa Cusak",
+          "Mark Allen Shepherd como Morn",
+          "Cathy DeBuono como M'Pella"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470053.jpg"
       },
       {
         "displayNumber": "26",
         "overallNumber": "150",
         "title": "Tears of the Prophets",
-        "date": "June 13, 1998",
-        "productionCode": "40510-550",
-        "stardate": "Unknown",
-        "synopsis": "",
-        "guestCast": []
+        "date": "1998-06-17",
+        "productionCode": "",
+        "stardate": "",
+        "synopsis": "Sisko is chosen to lead an invasion into Cardassian territory, ignoring a warning of impending doom if he leaves DS9 from the Prophets, resulting in fatal consequences for a member of the crew.",
+        "guestCast": [
+          "James Darren como Vic Fontaine",
+          "Aron Eisenberg como Nog",
+          "Marc Alaimo como Gul Dukat",
+          "Andrew J. Robinson como Elim Garak",
+          "J.G. Hertzler como General Martok",
+          "Jeffrey Combs como Weyoun",
+          "Casey Biggs como Damar",
+          "Barry Jenner como Admiral William J. Ross",
+          "David Birney como Letant",
+          "Michelle Horn como Saghi",
+          "Bob Kirsh como Glinn",
+          "Mark Allen Shepherd como Morn"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470108.jpg"
       }
     ],
     [
@@ -6322,7 +6958,21 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "40510-551",
         "stardate": "Unknown",
         "synopsis": "Having returned to Earth, Sisko waits for guidance from the Prophets to instruct him on what to do next. Back on DS9, the newly promoted Colonel Kira faces the challenges and burdens of command, and Worf struggles to deal with the loss of Jadzia.",
-        "guestCast": [],
+        "guestCast": [
+          "James Darren como Vic Fontaine",
+          "Brock Peters como Joseph Sisko",
+          "Aron Eisenberg como Nog",
+          "J.G. Hertzler como General Martok",
+          "Jeffrey Combs como Weyoun",
+          "Casey Biggs como Damar",
+          "Barry Jenner como Admiral William J. Ross",
+          "Megan Cole como Kimara Cretak",
+          "Johnny Moran como Bajoran Man",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik",
+          "Randy James como Lieutenant Jones",
+          "Deborah Lacey como Sarah Sisko"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470127.jpg"
       },
@@ -6334,7 +6984,19 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "40510-552",
         "stardate": "52152.6",
         "synopsis": "Sisko is joined by an old friend as he searches for the mysterious Orb of the Emissary, but the Pah-wraiths send a vision to distract him. On DS9, Kira mounts a blockade around a Bajoran moon after discovering the Romulans have armed their hospital there. Aboard the Rotarran, Worf leads a mission to destroy a Dominion shipyard in order to honor Jadzia.",
-        "guestCast": [],
+        "guestCast": [
+          "Brock Peters como Joseph Sisko",
+          "J.G. Hertzler como General Martok",
+          "Jeffrey Combs como Weyoun",
+          "Casey Biggs como Damar",
+          "Barry Jenner como Admiral William J. Ross",
+          "Deborah Lacey como Sarah Sisko",
+          "Megan Cole como Kimara Cretak",
+          "Cuauhtemoc Sanchez como Bajoran Crewman",
+          "Lori Lively como Siana",
+          "Avery Brooks como Benny Russell",
+          "Casey Biggs como Dr. Wykoff"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470152.jpg"
       },
@@ -6346,7 +7008,13 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "40510-553",
         "stardate": "Unknown",
         "synopsis": "Ezri Dax struggles to cope with the memories of her previous hosts while attempting to forge new relationships with Jadzia's old friends. Meanwhile, Garak tries to manage a severe bout of claustrophobia.",
-        "guestCast": [],
+        "guestCast": [
+          "Andrew J. Robinson como Elim Garak",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik",
+          "Randy James como Lieutenant Jones",
+          "Charlie-Olisa Kaine como Ensign Kelly"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470156.jpg"
       },
@@ -6358,7 +7026,16 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "40510-554",
         "stardate": "Unknown",
         "synopsis": "Captain Solok, a Vulcan and former classmate of Captain Sisko, challenges Sisko and the crew of DS9 to a game of baseball.",
-        "guestCast": [],
+        "guestCast": [
+          "Aron Eisenberg como Nog",
+          "Max Grodénchik como Rom",
+          "Penny Johnson Jerald como Kasidy Yates",
+          "Chase Masterson como Leeta",
+          "Gregory Wagrowski como Captain Solok",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik",
+          "Cathy DeBuono como M'Pella"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470350.jpg"
       },
@@ -6370,7 +7047,17 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "40510-555",
         "stardate": "Unknown",
         "synopsis": "The genetically-engineered humans who had previously visited DS9 return to the station asking Dr. Bashir to help rouse Sarina from her cataleptic state.",
-        "guestCast": [],
+        "guestCast": [
+          "Aron Eisenberg como Nog",
+          "Hilary Shepard como Lauren",
+          "Tim Ransom como Jack",
+          "Faith Salie como Sarina Douglas",
+          "Michael Keenan como Patrick",
+          "Randy James como Lieutenant Jones",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik",
+          "Cathy DeBuono como M'Pella"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470358.jpg"
       },
@@ -6382,309 +7069,511 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "40510-556",
         "stardate": "Unknown",
         "synopsis": "A Vorta offers Odo valuable information on the Dominion in exchange for asylum. Back on DS9, O'Brien and Nog sail down the Great Material Continuum.",
-        "guestCast": [],
+        "guestCast": [
+          "Aron Eisenberg como Nog",
+          "Max Grodénchik como Rom",
+          "J.G. Hertzler como General Martok",
+          "Jeffrey Combs como Weyoun",
+          "Casey Biggs como Damar",
+          "Salome Jens como Female Changeling",
+          "David B. Levinson como Broik"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470368.jpg"
       },
       {
-        "displayNumber": "A Vorta defector, Weyoun-6, gives Odo valuable information in exchange for asylum. Weyoun-7, the next clone in the series, pursues them. Nog engages in a series of barters to get a Graviton Stabilizer for Miles.",
-        "overallNumber": "A Vorta defector, Weyoun-6, gives Odo valuable information in exchange for asylum. Weyoun-7, the next clone in the series, pursues them. Nog engages in a series of barters to get a Graviton Stabilizer for Miles.",
-        "title": "A Vorta defector, Weyoun-6, gives Odo valuable information in exchange for asylum. Weyoun-7, the next clone in the series, pursues them. Nog engages in a series of barters to get a Graviton Stabilizer for Miles.",
-        "date": "1998-11-11",
-        "productionCode": "A Vorta defector, Weyoun-6, gives Odo valuable information in exchange for asylum. Weyoun-7, the next clone in the series, pursues them. Nog engages in a series of barters to get a Graviton Stabilizer for Miles.",
-        "stardate": "A Vorta defector, Weyoun-6, gives Odo valuable information in exchange for asylum. Weyoun-7, the next clone in the series, pursues them. Nog engages in a series of barters to get a Graviton Stabilizer for Miles.",
-        "synopsis": "With the Dominion War raging, the aging Klingon warrior Kor feels left out of the action, and requests an opportunity to die with honor as a warrior. However, Kor's efforts are stymied by Martok, who holds a deeply personal grudge against Kor.",
-        "guestCast": [],
-        "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470693.jpg"
-      },
-      {
         "displayNumber": "7",
         "overallNumber": "157",
-        "title": "Once More unto the Breach",
-        "date": "1998-11-18",
-        "productionCode": "40510-557",
-        "stardate": "Unknown",
-        "synopsis": "During a supply run to the isolated outpost AR-558, Sisko and his away team volunteer to stay with the besieged and demoralized unit, which is about to come under attack by a much larger contingent of Jem'Hadar soldiers.",
-        "guestCast": [],
+        "title": "Once More Unto the Breach",
+        "date": "1998-11-11",
+        "productionCode": "",
+        "stardate": "",
+        "synopsis": "With the Dominion War raging, the aging Klingon warrior Kor feels left out of the action, and requests an opportunity to die with honor as a warrior. However, Kor's efforts are stymied by Martok, who holds a deeply personal grudge against Kor.",
+        "guestCast": [
+          "J.G. Hertzler como General Martok",
+          "John Colicos como Kor",
+          "Blake Lindsley como Synon",
+          "Neil Vipond como Darok",
+          "Nancy Youngblut como Kolana",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik",
+          "Cathy DeBuono como M'Pella"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470719.jpg"
-      },
-      {
-        "displayNumber": "Kor (Ep 2.19, \"Blood Oath\" & 4.9, \"The Sword of Kahless\"), an aging Klingon hero, asks Worf to find him a battle assignment. Martok plans a \"cavalry raid\" of five birds of prey, hitting several key targets behind enemy lines to throw them off balance.",
-        "overallNumber": "Kor (Ep 2.19, \"Blood Oath\" & 4.9, \"The Sword of Kahless\"), an aging Klingon hero, asks Worf to find him a battle assignment. Martok plans a \"cavalry raid\" of five birds of prey, hitting several key targets behind enemy lines to throw them off balance.",
-        "title": "Kor (Ep 2.19, \"Blood Oath\" & 4.9, \"The Sword of Kahless\"), an aging Klingon hero, asks Worf to find him a battle assignment. Martok plans a \"cavalry raid\" of five birds of prey, hitting several key targets behind enemy lines to throw them off balance.",
-        "date": "1998-11-25",
-        "productionCode": "Kor (Ep 2.19, \"Blood Oath\" & 4.9, \"The Sword of Kahless\"), an aging Klingon hero, asks Worf to find him a battle assignment. Martok plans a \"cavalry raid\" of five birds of prey, hitting several key targets behind enemy lines to throw them off balance.",
-        "stardate": "Kor (Ep 2.19, \"Blood Oath\" & 4.9, \"The Sword of Kahless\"), an aging Klingon hero, asks Worf to find him a battle assignment. Martok plans a \"cavalry raid\" of five birds of prey, hitting several key targets behind enemy lines to throw them off balance.",
-        "synopsis": "Kira is abducted and taken to Empok Nor by the Cult of the Pah-wraiths and discovers that the group is now led by \"the Master\" - Gul Dukat.",
-        "guestCast": [],
-        "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470737.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470693.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "158",
         "title": "The Siege of AR-558",
-        "date": "1998-12-30",
-        "productionCode": "40510-558",
+        "date": "1998-11-18",
+        "productionCode": "40510-557",
         "stardate": "Unknown",
-        "synopsis": "Severely depressed over the loss of his leg at the Siege of AR-558, Nog struggles to return to normal life aboard DS9 and seeks shelter within the holographic world of Vic Fontaine.",
-        "guestCast": [],
+        "synopsis": "During a supply run to the isolated outpost AR-558, Sisko and his away team volunteer to stay with the besieged and demoralized unit, which is about to come under attack by a much larger contingent of Jem'Hadar soldiers.",
+        "guestCast": [
+          "James Darren como Vic Fontaine",
+          "Bill Mumy como Crewman Kellin",
+          "Aron Eisenberg como Nog",
+          "Max Grodénchik como Rom",
+          "Raymond Cruz como Vargas",
+          "Patrick Kilpatrick como Reese",
+          "Annette Helde como Lieutenant Nadia Larkin"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470756.jpg"
-      },
-      {
-        "displayNumber": "Sisko and crew relieve Starfleet troops under siege by Jem'Hadar at a key communications outpost, AR-558, the largest Dominion communications array in the sector.",
-        "overallNumber": "Sisko and crew relieve Starfleet troops under siege by Jem'Hadar at a key communications outpost, AR-558, the largest Dominion communications array in the sector.",
-        "title": "Sisko and crew relieve Starfleet troops under siege by Jem'Hadar at a key communications outpost, AR-558, the largest Dominion communications array in the sector.",
-        "date": "1999-01-06",
-        "productionCode": "Sisko and crew relieve Starfleet troops under siege by Jem'Hadar at a key communications outpost, AR-558, the largest Dominion communications array in the sector.",
-        "stardate": "Sisko and crew relieve Starfleet troops under siege by Jem'Hadar at a key communications outpost, AR-558, the largest Dominion communications array in the sector.",
-        "synopsis": "Ezri returns to her family home on New Sydney to seek assistance in locating Chief O'Brien, who has disappeared while searching for the widow of a dead friend.",
-        "guestCast": [],
-        "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470780.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470719.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "159",
         "title": "Covenant",
-        "date": "1999-02-03",
-        "productionCode": "40510-559",
-        "stardate": "Unknown",
-        "synopsis": "When Grand Nagus Zek is kidnapped by the Klingon-Cardassian Alliance while on a business trip to the mirror universe, Quark and Rom have three days to secure a cloaking device for the Alliance or Zek will die.",
-        "guestCast": [],
+        "date": "1998-11-25",
+        "productionCode": "",
+        "stardate": "",
+        "synopsis": "Kira is abducted and taken to Empok Nor by the Cult of the Pah-wraiths and discovers that the group is now led by \"the Master\" - Gul Dukat.",
+        "guestCast": [
+          "Marc Alaimo como Gul Dukat",
+          "Miriam Flynn como Midwife",
+          "Norman Parker como Vedek Fala",
+          "Maureen Flannigan como Mika",
+          "Jason Leland Adams como Benyan",
+          "Mark Piatelli como Brin",
+          "David B. Levinson como Broik",
+          "Cathy DeBuono como M'Pella"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470876.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470737.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "160",
         "title": "It's Only a Paper Moon",
-        "date": "1999-02-10",
-        "productionCode": "40510-560",
-        "stardate": "52235.7",
-        "synopsis": "After several crew members are murdered, Ezri reluctantly summons the residual consciousness and personality of her symbiont's past, the psychopathic Joran Dax, to help her catch the killer.",
-        "guestCast": [],
+        "date": "1998-12-30",
+        "productionCode": "40510-558",
+        "stardate": "Unknown",
+        "synopsis": "Severely depressed over the loss of his leg at the Siege of AR-558, Nog struggles to return to normal life aboard DS9 and seeks shelter within the holographic world of Vic Fontaine.",
+        "guestCast": [
+          "James Darren como Vic Fontaine",
+          "Aron Eisenberg como Nog",
+          "Max Grodénchik como Rom",
+          "Chase Masterson como Leeta",
+          "Tami-Adrian George como Kesha",
+          "Judi M. Durand como Station Computer"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470952.jpg"
-      },
-      {
-        "displayNumber": "Nog struggles with PTSD from the traumatic battle of AR-558 where he lost his leg. So, he begins living with Vic Fontaine.",
-        "overallNumber": "Nog struggles with PTSD from the traumatic battle of AR-558 where he lost his leg. So, he begins living with Vic Fontaine.",
-        "title": "Nog struggles with PTSD from the traumatic battle of AR-558 where he lost his leg. So, he begins living with Vic Fontaine.",
-        "date": "1999-02-17",
-        "productionCode": "Nog struggles with PTSD from the traumatic battle of AR-558 where he lost his leg. So, he begins living with Vic Fontaine.",
-        "stardate": "Nog struggles with PTSD from the traumatic battle of AR-558 where he lost his leg. So, he begins living with Vic Fontaine.",
-        "synopsis": "Odo meets another of the Hundred, infant Changelings who were sent out by the Founders hundreds of years ago to explore the galaxy.",
-        "guestCast": [],
-        "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471136.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470756.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "161",
         "title": "Prodigal Daughter",
-        "date": "1999-02-24",
-        "productionCode": "40510-561",
-        "stardate": "Unknown",
-        "synopsis": "When holographic mobsters assume control of Vic Fontaine's lounge, the DS9 residents plot to run Vic's rival out of business and restore the program to normal.",
-        "guestCast": [],
+        "date": "1999-01-06",
+        "productionCode": "",
+        "stardate": "",
+        "synopsis": "Ezri returns to her family home on New Sydney to seek assistance in locating Chief O'Brien, who has disappeared while searching for the widow of a dead friend.",
+        "guestCast": [
+          "Leigh Taylor-Young como Yanas Tigan",
+          "Kevin Rahm como Norvo Tigan",
+          "Mikael Salazar como Janel Tigan",
+          "Clayton Landey como Lieutenant Fuchida",
+          "John Paragon como Thadial Bokar"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471451.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470780.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "162",
         "title": "The Emperor's New Cloak",
-        "date": "1999-03-03",
-        "productionCode": "40510-562",
+        "date": "1999-02-03",
+        "productionCode": "40510-559",
         "stardate": "Unknown",
-        "synopsis": "Attending a medical conference on Romulus, Dr. Bashir is contacted by Sloane and finds himself embroiled in an elaborate scheme devised by Section 31.",
-        "guestCast": [],
+        "synopsis": "When Grand Nagus Zek is kidnapped by the Klingon-Cardassian Alliance while on a business trip to the mirror universe, Quark and Rom have three days to secure a cloaking device for the Alliance or Zek will die.",
+        "guestCast": [
+          "Wallace Shawn como Grand Nagus Zek",
+          "Max Grodénchik como Rom",
+          "J.G. Hertzler como General Martok",
+          "Tiny Ron como Maihar'du",
+          "Andrew J. Robinson como Mirror Elim Garak",
+          "Jeffrey Combs como Mirror Brunt",
+          "Chase Masterson como Mirror Leeta",
+          "Peter C. Antoniou como Helmsman",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik",
+          "Cathy DeBuono como M'Pella",
+          "Nana Visitor como Mirror Kira Nerys",
+          "Colm Meaney como Mirror Miles \"Smiley\" O'Brien",
+          "Dennis Madalone como Marauder",
+          "Alexander Siddig como Mirror Julian Bashir",
+          "Michael Dorn como Mirror Worf",
+          "Nicole de Boer como Mirror Ezri Tigan",
+          "James Darren como Mirror Vic Fontaine"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471470.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470876.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "163",
         "title": "Field of Fire",
-        "date": "1999-04-07",
-        "productionCode": "40510-563",
-        "stardate": "Unknown",
-        "synopsis": "When Worf remains missing after a battle with the Dominion, Ezri takes a shuttle against orders to search for him. On DS9, Sisko makes plans for his future with Kasidy.",
-        "guestCast": [],
+        "date": "1999-02-10",
+        "productionCode": "40510-560",
+        "stardate": "52235.7",
+        "synopsis": "After several crew members are murdered, Ezri reluctantly summons the residual consciousness and personality of her symbiont's past, the psychopathic Joran Dax, to help her catch the killer.",
+        "guestCast": [
+          "Leigh McCloskey como Joran Belar",
+          "Art Chudabala como Lieutenant Hector Ilario",
+          "Marty Rackham como Lieutenant Chu'lak",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik",
+          "Judi M. Durand como Station Computer"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471476.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470952.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "164",
         "title": "Chimera",
-        "date": "1999-04-14",
-        "productionCode": "40510-564",
-        "stardate": "Unknown",
-        "synopsis": "On DS9, Sisko agonizes over his vision from the Prophets, warning him not to marry Kasidy, and Kai Winn receives a vision foretelling the arrival of a guide who will help her restore Bajor. Meanwhile, Ezri and Worf are interrogated aboard a Breen ship and unexpectedly witness a disturbing turn of events, one which may change the course of the entire war.",
-        "guestCast": [],
+        "date": "1999-02-17",
+        "productionCode": "",
+        "stardate": "",
+        "synopsis": "Odo meets another of the Hundred, infant Changelings who were sent out by the Founders hundreds of years ago to explore the galaxy.",
+        "guestCast": [
+          "J.G. Hertzler como Laas",
+          "John Eric Bentley como Klingon",
+          "Joel Goodness como Deputy",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471506.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471136.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "165",
-        "title": "Badda-Bing Badda-Bang",
-        "date": "1999-04-21",
-        "productionCode": "40510-566",
+        "title": "Badda-Bing, Badda-Bang",
+        "date": "1999-02-24",
+        "productionCode": "40510-561",
         "stardate": "Unknown",
-        "synopsis": "On DS9, Dukat continues his manipulation of Kai Winn, and Kasidy finds it difficult being married to the Emissary. Now aboard a Dominion vessel, Worf and Ezri continue to plot their escape from captivity, and in the wake of the new Breen-Dominion Alliance, Damar makes a shocking decision.",
-        "guestCast": [],
+        "synopsis": "When holographic mobsters assume control of Vic Fontaine's lounge, the DS9 residents plot to run Vic's rival out of business and restore the program to normal.",
+        "guestCast": [
+          "James Darren como Vic Fontaine",
+          "Aron Eisenberg como Nog",
+          "Penny Johnson Jerald como Kasidy Yates",
+          "Mike Starr como Tony Cicci",
+          "Robert Miano como Frank \"Frankie Eyes\" Chalmers",
+          "Marc Lawrence como Carl Zeemo",
+          "Christopher Mayer como Ryan",
+          "James Wellington como Al",
+          "Robert O'Reilly como Countman",
+          "Kelleia Sheerin como Dancer",
+          "Jacqueline Case como Dancer",
+          "Michelle Rudy como Dancer",
+          "Sam Micco como Croupier",
+          "Michelle Johnston como Dancer",
+          "Andrea C. Robinson como Blonde",
+          "Kelly Cooper como Dancer",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik",
+          "Leslie Hoffman como Casino Patron"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471521.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471451.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "166",
         "title": "Inter Arma Enim Silent Leges",
-        "date": "1999-04-28",
-        "productionCode": "40510-565",
+        "date": "1999-03-03",
+        "productionCode": "40510-562",
         "stardate": "Unknown",
-        "synopsis": "The Breen-Dominion Alliance launches a devasting attack at the heart of the Federation, and the Federation Alliance struggles to maintain its foothold in Cardassian space. Kai Winn, under the guidance of Dukat, begins researching forbidden texts about the Pah-wraiths. On Cardassia, Damar begins a rebellion against the Dominion.",
-        "guestCast": [],
+        "synopsis": "Attending a medical conference on Romulus, Dr. Bashir is contacted by Sloane and finds himself embroiled in an elaborate scheme devised by Section 31.",
+        "guestCast": [
+          "William Sadler como Luther Sloan",
+          "Andrew J. Robinson como Elim Garak",
+          "Barry Jenner como Admiral William J. Ross",
+          "Adrienne Barbeau como Kimara Cretak",
+          "Hal Landon, Jr. como Neral",
+          "John Fleck como Koval",
+          "Cynthia Graham como Wheeler",
+          "Joe Reynolds como Hickam"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471713.jpg"
-      },
-      {
-        "displayNumber": "While attending a diplomatic conference on Romulus, Bashir becomes an unwilling pawn of Section 31.",
-        "overallNumber": "While attending a diplomatic conference on Romulus, Bashir becomes an unwilling pawn of Section 31.",
-        "title": "While attending a diplomatic conference on Romulus, Bashir becomes an unwilling pawn of Section 31.",
-        "date": "1999-05-05",
-        "productionCode": "While attending a diplomatic conference on Romulus, Bashir becomes an unwilling pawn of Section 31.",
-        "stardate": "While attending a diplomatic conference on Romulus, Bashir becomes an unwilling pawn of Section 31.",
-        "synopsis": "Kira, Odo, and Garak travel behind enemy lines to aid Damar's rebellion against the Dominion. On DS9, Dr. Bashir discovers something disastrous during his research, and Chancellor Gowron arrives on the station with an agenda of his own.",
-        "guestCast": [],
-        "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471752.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471470.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "167",
         "title": "Penumbra",
-        "date": "1999-05-12",
-        "productionCode": "40510-567",
-        "stardate": "52576.2",
-        "synopsis": "With the help of Kira, Odo, and Garak, the Cardassian Rebellion plots to steal a Breen weapon for the Federation. On DS9, Dr. Bashir and Chief O'Brien continue to try and find a cure for Odo, and Gowron's reckless attacks against the Dominion prompt Worf to take drastic action.",
-        "guestCast": [],
+        "date": "1999-04-07",
+        "productionCode": "40510-563",
+        "stardate": "Unknown",
+        "synopsis": "When Worf remains missing after a battle with the Dominion, Ezri takes a shuttle against orders to search for him. On DS9, Sisko makes plans for his future with Kasidy.",
+        "guestCast": [
+          "Marc Alaimo como Gul Dukat",
+          "Jeffrey Combs como Weyoun",
+          "Casey Biggs como Damar",
+          "Salome Jens como Female Changeling",
+          "Penny Johnson Jerald como Kasidy Yates",
+          "Deborah Lacey como Sarah Sisko",
+          "Judi M. Durand como Station Computer",
+          "Majel Barrett Roddenberry como Federation Computer",
+          "Michelle Horn como Saghi",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik",
+          "Randy James como Lieutenant Jones",
+          "Todd E. Slayton como Thot Gor"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471770.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471476.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "168",
         "title": "'Til Death Do Us Part",
-        "date": "1999-05-19",
-        "productionCode": "40510-568",
+        "date": "1999-04-14",
+        "productionCode": "40510-564",
         "stardate": "Unknown",
-        "synopsis": "In a desperate attempt to locate a cure for Odo, Dr. Bashir and Chief O'Brien lure a member of Section 31 to DS9.",
-        "guestCast": [],
+        "synopsis": "On DS9, Sisko agonizes over his vision from the Prophets, warning him not to marry Kasidy, and Kai Winn receives a vision foretelling the arrival of a guide who will help her restore Bajor. Meanwhile, Ezri and Worf are interrogated aboard a Breen ship and unexpectedly witness a disturbing turn of events, one which may change the course of the entire war.",
+        "guestCast": [
+          "Louise Fletcher como Kai Winn Adami",
+          "Aron Eisenberg como Nog",
+          "Marc Alaimo como Gul Dukat",
+          "Jeffrey Combs como Weyoun",
+          "Casey Biggs como Damar",
+          "Salome Jens como Female Changeling",
+          "Penny Johnson Jerald como Kasidy Yates",
+          "Barry Jenner como Admiral William J. Ross",
+          "Deborah Lacey como Sarah Sisko",
+          "James Otis como Ranjen Solbor",
+          "Todd E. Slayton como Thot Gor"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471794.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471506.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "169",
         "title": "Strange Bedfellows",
-        "date": "1999-05-26",
-        "productionCode": "40510-569",
+        "date": "1999-04-21",
+        "productionCode": "40510-566",
         "stardate": "Unknown",
-        "synopsis": "Trapped on Cardassia Prime after an ambush, Kira, Damar, and Garak plot to turn their rebellion into a revolution. On DS9, Grand Nagus Zek visits the station with surprising news about the future of the Ferengi Alliance.",
-        "guestCast": [],
+        "synopsis": "On DS9, Dukat continues his manipulation of Kai Winn, and Kasidy finds it difficult being married to the Emissary. Now aboard a Dominion vessel, Worf and Ezri continue to plot their escape from captivity, and in the wake of the new Breen-Dominion Alliance, Damar makes a shocking decision.",
+        "guestCast": [
+          "Louise Fletcher como Kai Winn Adami",
+          "Marc Alaimo como Gul Dukat",
+          "J.G. Hertzler como General Martok",
+          "Jeffrey Combs como Weyoun",
+          "Casey Biggs como Damar",
+          "Salome Jens como Female Changeling",
+          "Penny Johnson Jerald como Kasidy Yates",
+          "James Otis como Ranjen Solbor",
+          "Randy James como Lieutenant Jones",
+          "Todd E. Slayton como Thot Gor"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/472391.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471521.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "170",
         "title": "The Changing Face of Evil",
-        "date": "1999-06-02",
-        "productionCode": "40510-570",
+        "date": "1999-04-28",
+        "productionCode": "40510-565",
         "stardate": "Unknown",
-        "synopsis": "The Federation Alliance begins its final assault on the Dominion. On Cardassia Prime, Kira, Damar, and Garak begin recruiting ordinary citizens to their revolution. Meanwhile, Gul Dukat and Kai Winn continue their plan to release the Pah-wraiths from the Fire Caves on Bajor.",
-        "guestCast": [],
+        "synopsis": "The Breen-Dominion Alliance launches a devasting attack at the heart of the Federation, and the Federation Alliance struggles to maintain its foothold in Cardassian space. Kai Winn, under the guidance of Dukat, begins researching forbidden texts about the Pah-wraiths. On Cardassia, Damar begins a rebellion against the Dominion.",
+        "guestCast": [
+          "Louise Fletcher como Kai Winn Adami",
+          "Aron Eisenberg como Nog",
+          "Marc Alaimo como Gul Dukat",
+          "J.G. Hertzler como General Martok",
+          "Jeffrey Combs como Weyoun",
+          "Casey Biggs como Damar",
+          "Salome Jens como Female Changeling",
+          "Penny Johnson Jerald como Kasidy Yates",
+          "Barry Jenner como Admiral William J. Ross",
+          "John Vickery como Gul Rusot",
+          "James Otis como Ranjen Solbor",
+          "Cathy DeBuono como M'Pella",
+          "Todd E. Slayton como Thot Gor"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/472405.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471713.jpg"
       },
       {
         "displayNumber": "21",
         "overallNumber": "171",
         "title": "When It Rains...",
-        "date": "1999-06-02",
-        "productionCode": "40510-571",
-        "stardate": "Unknown",
-        "synopsis": "In response to the Dominion destruction of Cardassian cities, the Cardassian military switches sides. Damar, Kira, and Garak launch an assault on Dominion Headquarters. The Federation Alliance makes a final push for victory. Sisko's role as the Emissary of the Prophets reaches its conclusion.",
-        "guestCast": [],
+        "date": "1999-05-05",
+        "productionCode": "",
+        "stardate": "",
+        "synopsis": "Kira, Odo, and Garak travel behind enemy lines to aid Damar's rebellion against the Dominion. On DS9, Dr. Bashir discovers something disastrous during his research, and Chancellor Gowron arrives on the station with an agenda of his own.",
+        "guestCast": [
+          "Louise Fletcher como Kai Winn Adami",
+          "Marc Alaimo como Gul Dukat",
+          "Andrew J. Robinson como Elim Garak",
+          "J.G. Hertzler como General Martok",
+          "Casey Biggs como Damar",
+          "Barry Jenner como Admiral William J. Ross",
+          "Robert O'Reilly como Gowron",
+          "John Vickery como Gul Rusot",
+          "Scott Burkholder como Commander Hilliard",
+          "Vaughn Armstrong como Seskal",
+          "Stephen Yoakam como General Velal",
+          "Colby French como Ensign Weldon"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/472417.jpg"
-      },
-      {
-        "displayNumber": "Sisko orders Kira, Garak and Odo to Cardassia to assist Cardassians in resistance tactics as Damar's rebellion gains ground. Bashir makes a shocking discovery about the disease that is ravaging the Founders. Dukat's cover has been blown by Sobor. Gowron arrives on DS9.",
-        "overallNumber": "Sisko orders Kira, Garak and Odo to Cardassia to assist Cardassians in resistance tactics as Damar's rebellion gains ground. Bashir makes a shocking discovery about the disease that is ravaging the Founders. Dukat's cover has been blown by Sobor. Gowron arrives on DS9.",
-        "title": "Sisko orders Kira, Garak and Odo to Cardassia to assist Cardassians in resistance tactics as Damar's rebellion gains ground. Bashir makes a shocking discovery about the disease that is ravaging the Founders. Dukat's cover has been blown by Sobor. Gowron arrives on DS9.",
-        "date": "Sisko orders Kira, Garak and Odo to Cardassia to assist Cardassians in resistance tactics as Damar's rebellion gains ground. Bashir makes a shocking discovery about the disease that is ravaging the Founders. Dukat's cover has been blown by Sobor. Gowron arrives on DS9.",
-        "productionCode": "Sisko orders Kira, Garak and Odo to Cardassia to assist Cardassians in resistance tactics as Damar's rebellion gains ground. Bashir makes a shocking discovery about the disease that is ravaging the Founders. Dukat's cover has been blown by Sobor. Gowron arrives on DS9.",
-        "stardate": "Sisko orders Kira, Garak and Odo to Cardassia to assist Cardassians in resistance tactics as Damar's rebellion gains ground. Bashir makes a shocking discovery about the disease that is ravaging the Founders. Dukat's cover has been blown by Sobor. Gowron arrives on DS9.",
-        "synopsis": "",
-        "guestCast": []
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471752.jpg"
       },
       {
         "displayNumber": "22",
         "overallNumber": "172",
-        "title": "Tacking into the Wind",
-        "date": "May 12, 1999",
-        "productionCode": "40510-572",
-        "stardate": "Unknown",
-        "synopsis": "",
-        "guestCast": []
+        "title": "Tacking Into the Wind",
+        "date": "1999-05-12",
+        "productionCode": "40510-567",
+        "stardate": "52576.2",
+        "synopsis": "With the help of Kira, Odo, and Garak, the Cardassian Rebellion plots to steal a Breen weapon for the Federation. On DS9, Dr. Bashir and Chief O'Brien continue to try and find a cure for Odo, and Gowron's reckless attacks against the Dominion prompt Worf to take drastic action.",
+        "guestCast": [
+          "Andrew J. Robinson como Elim Garak",
+          "J.G. Hertzler como General Martok",
+          "Jeffrey Combs como Weyoun",
+          "Casey Biggs como Damar",
+          "Salome Jens como Female Changeling",
+          "Robert O'Reilly como Gowron",
+          "John Vickery como Gul Rusot",
+          "J. Paul Boehmer como Vornar",
+          "Kitty Swink como Luaran",
+          "David B. Levinson como Broik",
+          "Max Omega como Thot Pran"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471770.jpg"
       },
       {
         "displayNumber": "23",
         "overallNumber": "173",
         "title": "Extreme Measures",
-        "date": "May 19, 1999",
-        "productionCode": "40510-573",
-        "stardate": "52645.7",
-        "synopsis": "",
-        "guestCast": []
+        "date": "1999-05-19",
+        "productionCode": "40510-568",
+        "stardate": "Unknown",
+        "synopsis": "In a desperate attempt to locate a cure for Odo, Dr. Bashir and Chief O'Brien lure a member of Section 31 to DS9.",
+        "guestCast": [
+          "William Sadler como Luther Sloan",
+          "Andrew J. Robinson como Elim Garak",
+          "Jacqueline Schultz como Jessica Sloan",
+          "Kate Asner como Ensign Bandee",
+          "Tom Holleron como Operative"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471794.jpg"
       },
       {
         "displayNumber": "24",
         "overallNumber": "174",
         "title": "The Dogs of War",
-        "date": "May 26, 1999",
-        "productionCode": "40510-574",
-        "stardate": "52861.3",
-        "synopsis": "",
-        "guestCast": []
+        "date": "1999-05-26",
+        "productionCode": "40510-569",
+        "stardate": "Unknown",
+        "synopsis": "Trapped on Cardassia Prime after an ambush, Kira, Damar, and Garak plot to turn their rebellion into a revolution. On DS9, Grand Nagus Zek visits the station with surprising news about the future of the Ferengi Alliance.",
+        "guestCast": [
+          "Wallace Shawn como Grand Nagus Zek",
+          "Aron Eisenberg como Nog",
+          "Andrew J. Robinson como Elim Garak",
+          "Max Grodénchik como Rom",
+          "J.G. Hertzler como General Martok",
+          "Jeffrey Combs como Weyoun",
+          "Casey Biggs como Damar",
+          "Salome Jens como Female Changeling",
+          "Penny Johnson Jerald como Kasidy Yates",
+          "Chase Masterson como Leeta",
+          "Barry Jenner como Admiral William J. Ross",
+          "Jeffrey Combs como Brunt",
+          "Tiny Ron como Maihar'du",
+          "Cecily Adams como Ishka",
+          "Julianna McCarthy como Mila",
+          "David B. Levinson como Broik",
+          "Majel Barrett Roddenberry como Federation Computer",
+          "Cathy DeBuono como M'Pella",
+          "Mel Johnson, Jr. como Legate Broca",
+          "Vaughn Armstrong como Seskal",
+          "Stephen Yoakam como General Velal",
+          "LeRoy D. Brazile como Lonar",
+          "Paul Eckstein como Jem'Hadar",
+          "Mark Allen Shepherd como Morn",
+          "Max Omega como Thot Pran"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/472391.jpg"
       },
       {
         "displayNumber": "25",
         "overallNumber": "175",
-        "title": "What You Leave Behind",
-        "date": "June 2, 1999",
-        "productionCode": "40510-749 (575–576)",
+        "title": "What You Leave Behind, Part I",
+        "date": "1999-06-02",
+        "productionCode": "40510-570",
         "stardate": "Unknown",
-        "synopsis": "",
-        "guestCast": []
+        "synopsis": "The Federation Alliance begins its final assault on the Dominion. On Cardassia Prime, Kira, Damar, and Garak begin recruiting ordinary citizens to their revolution. Meanwhile, Gul Dukat and Kai Winn continue their plan to release the Pah-wraiths from the Fire Caves on Bajor.",
+        "guestCast": [
+          "Andrew J. Robinson como Elim Garak",
+          "Jeffrey Combs como Weyoun",
+          "Rosalind Chao como Keiko O'Brien",
+          "Salome Jens como Female Changeling",
+          "Penny Johnson Jerald como Kasidy Yates",
+          "Louise Fletcher como Kai Winn Adami",
+          "James Darren como Vic Fontaine",
+          "Aron Eisenberg como Nog",
+          "Marc Alaimo como Gul Dukat",
+          "J.G. Hertzler como General Martok",
+          "Casey Biggs como Damar",
+          "Barry Jenner como Admiral William J. Ross",
+          "Hana Hatae como Molly O'Brien",
+          "Deborah Lacey como Sarah Sisko",
+          "Julianna McCarthy como Mila",
+          "Judi M. Durand como Station Computer",
+          "Mel Johnson, Jr. como Legate Broca",
+          "Cyndi Pass como Ginger",
+          "Greg Ellis como Ekoor",
+          "Kevin Scott Allen como Jem'Hadar",
+          "Christopher Halsted como Jem'Hadar First",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik",
+          "Randy James como Lieutenant Jones",
+          "Max Omega como Thot Pran",
+          "Majel Barrett Roddenberry como Narrator"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/472405.jpg"
       },
       {
         "displayNumber": "26",
         "overallNumber": "176",
-        "title": "What You Leave Behind",
-        "date": "June 2, 1999",
-        "productionCode": "40510-749 (575–576)",
+        "title": "What You Leave Behind, Part II",
+        "date": "1999-06-02",
+        "productionCode": "40510-571",
         "stardate": "Unknown",
-        "synopsis": "",
-        "guestCast": []
+        "synopsis": "In response to the Dominion destruction of Cardassian cities, the Cardassian military switches sides. Damar, Kira, and Garak launch an assault on Dominion Headquarters. The Federation Alliance makes a final push for victory. Sisko's role as the Emissary of the Prophets reaches its conclusion.",
+        "guestCast": [
+          "Andrew J. Robinson como Elim Garak",
+          "Jeffrey Combs como Weyoun",
+          "Salome Jens como Female Changeling",
+          "Penny Johnson Jerald como Kasidy Yates",
+          "Louise Fletcher como Kai Winn Adami",
+          "James Darren como Vic Fontaine",
+          "Aron Eisenberg como Nog",
+          "Marc Alaimo como Gul Dukat",
+          "J.G. Hertzler como General Martok",
+          "Casey Biggs como Damar",
+          "Barry Jenner como Admiral William J. Ross",
+          "Deborah Lacey como Sarah Sisko",
+          "Mel Johnson, Jr. como Legate Broca",
+          "Greg Ellis como Ekoor",
+          "Mark Allen Shepherd como Morn",
+          "Randy James como Lieutenant Jones",
+          "Judi M. Durand como Station Computer",
+          "Majel Barrett Roddenberry como Narrator"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/472417.jpg"
       }
     ]
   ],
@@ -6693,204 +7582,296 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "1",
         "overallNumber": "1",
-        "title": "Caretaker",
+        "title": "Caretaker, Part I",
         "date": "1995-01-16",
         "productionCode": "40840-721 (101/102)",
         "stardate": "48315.6",
         "synopsis": "While searching for a missing officer, Captain Kathryn Janeway and the crew of the Starship Voyager are swept 70,000 light years from home.",
-        "guestCast": [],
+        "guestCast": [
+          "Gavan O'Herlihy como Jabin",
+          "Basil Langton como The Caretaker",
+          "Armin Shimerman como Quark",
+          "Angela Paton como Aunt Adah",
+          "Majel Barrett Roddenberry como Computer Voice",
+          "Josh Clark como Lt. Joseph \"Joe\" Carey",
+          "Stan Ivar como Mark",
+          "Jennifer Parsons como Ocampa Nurse",
+          "Scott MacDonald como Rollins",
+          "Alicia Coppola como Lt. Stadi",
+          "Jeff McCarthy como Human Doctor",
+          "Richard Poe como Gul Evek",
+          "Bruce French como Ocampa Doctor",
+          "Keely Sims como Farmer's Daughter",
+          "Scott Jaeck como Cavit"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/70/176762.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "2",
-        "title": "Caretaker",
+        "title": "Caretaker, Part II",
         "date": "1995-01-16",
         "productionCode": "40840-721 (101/102)",
         "stardate": "48315.6",
         "synopsis": "While searching for a missing officer, Captain Kathryn Janeway and the crew of the Starship Voyager are swept 70,000 light years from home.",
-        "guestCast": [],
+        "guestCast": [
+          "Gavan O'Herlihy como Jabin",
+          "Basil Langton como The Caretaker",
+          "Jennifer Parsons como Ocampa Nurse",
+          "Scott MacDonald como Rollins",
+          "Majel Barrett Roddenberry como Announcer",
+          "David Selburg como Toscat",
+          "Eric David Johnson como Daggin",
+          "Randall Bosley como Ocampan Man",
+          "Cullen Chambers como Ocampan Man"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/70/176763.jpg"
-      },
-      {
-        "displayNumber": "While searching for a missing Maquis ship with a Starfleet spy aboard, USS Voyager is swept away to the Delta Quadrant, more than 70,000 light-years from home, by an incredibly powerful being known as the \"Caretaker\". Originally shown as a two-hour pilot movie on the UPN network, but in syndication is shown as two separate episodes.",
-        "overallNumber": "While searching for a missing Maquis ship with a Starfleet spy aboard, USS Voyager is swept away to the Delta Quadrant, more than 70,000 light-years from home, by an incredibly powerful being known as the \"Caretaker\". Originally shown as a two-hour pilot movie on the UPN network, but in syndication is shown as two separate episodes.",
-        "title": "While searching for a missing Maquis ship with a Starfleet spy aboard, USS Voyager is swept away to the Delta Quadrant, more than 70,000 light-years from home, by an incredibly powerful being known as the \"Caretaker\". Originally shown as a two-hour pilot movie on the UPN network, but in syndication is shown as two separate episodes.",
-        "date": "1995-01-23",
-        "productionCode": "While searching for a missing Maquis ship with a Starfleet spy aboard, USS Voyager is swept away to the Delta Quadrant, more than 70,000 light-years from home, by an incredibly powerful being known as the \"Caretaker\". Originally shown as a two-hour pilot movie on the UPN network, but in syndication is shown as two separate episodes.",
-        "stardate": "While searching for a missing Maquis ship with a Starfleet spy aboard, USS Voyager is swept away to the Delta Quadrant, more than 70,000 light-years from home, by an incredibly powerful being known as the \"Caretaker\". Originally shown as a two-hour pilot movie on the UPN network, but in syndication is shown as two separate episodes.",
-        "synopsis": "Tensions rise between the merged Starfleet and Maquis crews when the ship becomes trapped inside a star that's collapsed upon itself.",
-        "guestCast": [],
-        "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/70/176764.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "3",
         "title": "Parallax",
-        "date": "1995-01-30",
-        "productionCode": "40840-103",
-        "stardate": "48439.7",
-        "synopsis": "The Voyager crew discovers a world that has been destroyed by a type of energy that has been banned on all Federation worlds as being too dangerous to use.",
-        "guestCast": [],
+        "date": "1995-01-23",
+        "productionCode": "",
+        "stardate": "",
+        "synopsis": "Tensions rise between the merged Starfleet and Maquis crews when the ship becomes trapped inside a star that's collapsed upon itself.",
+        "guestCast": [
+          "Martha Hackett como Seska",
+          "Josh Clark como Lt. Joseph \"Joe\" Carey",
+          "Justin Williams como Jarvin"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/91/229635.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/70/176764.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "4",
         "title": "Time and Again",
-        "date": "1995-02-06",
-        "productionCode": "40840-104",
-        "stardate": "48498.5 (Non-Canon)",
-        "synopsis": "While seeking a source of new dilithium for the ship's power source, the crew encounters a planet of people who are stealing body organs. Neelix finds another use for Captain Janeway's private dining room.",
-        "guestCast": [],
+        "date": "1995-01-30",
+        "productionCode": "40840-103",
+        "stardate": "48439.7",
+        "synopsis": "The Voyager crew discovers a world that has been destroyed by a type of energy that has been banned on all Federation worlds as being too dangerous to use.",
+        "guestCast": [
+          "Nicolas Surovy como Pe'Nar Makull",
+          "Joel Polis como Ny Terla",
+          "Brady Bluhm como Latika",
+          "Ryan MacDonald como Shopkeeper",
+          "Steve Vaught como Officer",
+          "Jerry Spicer como Guard"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/91/229636.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/91/229635.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "5",
         "title": "Phage",
-        "date": "1995-02-13",
-        "productionCode": "40840-105",
-        "stardate": "48532.4",
-        "synopsis": "The crew discovers that a nebula is not what it seems, and Paris invites his fellow officers to share a little \"R&R\" in his holodeck program.",
-        "guestCast": [],
+        "date": "1995-02-06",
+        "productionCode": "40840-104",
+        "stardate": "48498.5 (Non-Canon)",
+        "synopsis": "While seeking a source of new dilithium for the ship's power source, the crew encounters a planet of people who are stealing body organs. Neelix finds another use for Captain Janeway's private dining room.",
+        "guestCast": [
+          "Martha Hackett como Seska",
+          "Cully Fredricksen como Dareth",
+          "Stephen Rappaport como Mutora",
+          "Majel Barrett Roddenberry como Computer Voice"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/91/229983.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/91/229636.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "6",
         "title": "The Cloud",
-        "date": "1995-02-20",
-        "productionCode": "40840-106",
-        "stardate": "48546.2",
-        "synopsis": "The discovery of a wormhole in deep space raises the crew's hopes of finding a shortcut home.",
-        "guestCast": [],
+        "date": "1995-02-13",
+        "productionCode": "40840-105",
+        "stardate": "48532.4",
+        "synopsis": "The crew discovers that a nebula is not what it seems, and Paris invites his fellow officers to share a little \"R&R\" in his holodeck program.",
+        "guestCast": [
+          "Larry Hankin como Gaunt Gary",
+          "Judy Geeson como Sandrine",
+          "Angela Dohrmann como Ricky",
+          "Luigi Amodeo como The Gigolo"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/92/230127.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/91/229983.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "7",
         "title": "Eye of the Needle",
-        "date": "1995-02-27",
-        "productionCode": "40840-107",
-        "stardate": "48579.4",
-        "synopsis": "After Paris is convicted of a murder he swears he didn't commit, Tuvok must play detective to clear him.",
-        "guestCast": [],
+        "date": "1995-02-20",
+        "productionCode": "40840-106",
+        "stardate": "48546.2",
+        "synopsis": "The discovery of a wormhole in deep space raises the crew's hopes of finding a shortcut home.",
+        "guestCast": [
+          "Michael Cumpsty como Lord Burleigh",
+          "Vaughn Armstrong como Telek R'Mor",
+          "Tarik Ergin como Lt. Ayala"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/92/230455.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/92/230127.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "8",
         "title": "Ex Post Facto",
-        "date": "1995-03-13",
-        "productionCode": "40840-108",
-        "stardate": "c. 48600.0 (Non-Canon)",
-        "synopsis": "Kim confronts life and death issues when he's held against his will by an alien race.",
-        "guestCast": [],
+        "date": "1995-02-27",
+        "productionCode": "40840-107",
+        "stardate": "48579.4",
+        "synopsis": "After Paris is convicted of a murder he swears he didn't commit, Tuvok must play detective to clear him.",
+        "guestCast": [
+          "Ray Reinhardt como Tolen Ren",
+          "Aaron Lustig como Doctor",
+          "Francis Guinan como Minister Kray",
+          "Robin McKee como Lidele Ren",
+          "Henry Brown como Numiri Captain"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/92/230547.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/92/230455.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "9",
         "title": "Emanations",
-        "date": "1995-03-20",
-        "productionCode": "40840-109",
-        "stardate": "48623.5",
-        "synopsis": "An alien leader has the technology that could send the crew 40,000 light years closer to home -- but refuses to share it with them.",
-        "guestCast": [],
+        "date": "1995-03-13",
+        "productionCode": "40840-108",
+        "stardate": "c. 48600.0 (Non-Canon)",
+        "synopsis": "Kim confronts life and death issues when he's held against his will by an alien race.",
+        "guestCast": [
+          "Martha Hackett como Seska",
+          "Jerry Hardin como Dr. Neria",
+          "Jeffrey Alan Chandler como Hatil",
+          "Cecile Callan como Ptera",
+          "Robin Groves como Araya",
+          "John Cirigliano como Alien #1"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/92/231717.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/92/230547.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "10",
         "title": "Prime Factors",
-        "date": "1995-04-10",
-        "productionCode": "40840-110",
-        "stardate": "48642.5",
-        "synopsis": "Stardate: 48658.2 Stolen food replicator technology found on a severely damaged Kazon-Nistrim ship indicates a traitor aboard Voyager . The fatal disaster occurred when the Kazon attempted to integrate Federation technology with their own. Seska becomes the prime suspect. The evidence is reinforced when questions arise over her true heritage. Who'd have thought Chakotay's old Maquis cell contained a Cardassian spy disguised as a Bajoran and his onetime lover?",
-        "guestCast": [],
+        "date": "1995-03-20",
+        "productionCode": "40840-109",
+        "stardate": "48623.5",
+        "synopsis": "An alien leader has the technology that could send the crew 40,000 light years closer to home -- but refuses to share it with them.",
+        "guestCast": [
+          "Martha Hackett como Seska",
+          "Josh Clark como Lt. Joseph \"Joe\" Carey",
+          "Ronald Guttman como Gath",
+          "Yvonne Suhor como Eudana",
+          "Andrew Hill Newman como Jaret Otel"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/92/231718.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/92/231717.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "11",
         "title": "State of Flux",
-        "date": "1995-04-24",
-        "productionCode": "40840-111",
-        "stardate": "48658.2",
-        "synopsis": "Stardate: 48693.2 Harry Kim disappears from the holodeck while role-playing in his medieval holo-novel, \"Beowulf.\" According to the characters, he died at the hands of a mystical beast called \"Grendel.\" When Chakotay and Tuvok investigate and also disappear, Janeway transfers the Doctor to the holodeck for his first Away Mission: to investigate/rescue the three vanished crewmembers. Kes encourages the Doctor to pick a name for himself and chooses Doctor Schweitzer. In the story, he survives fear, romance, and heartbreak to unmask the unlikely trespasser as a photonic alien life form taking the form of Grendel and turning missing crewmembers into energy.",
-        "guestCast": [],
+        "date": "1995-04-10",
+        "productionCode": "40840-110",
+        "stardate": "48642.5",
+        "synopsis": "Stardate: 48658.2 Stolen food replicator technology found on a severely damaged Kazon-Nistrim ship indicates a traitor aboard Voyager . The fatal disaster occurred when the Kazon attempted to integrate Federation technology with their own. Seska becomes the prime suspect. The evidence is reinforced when questions arise over her true heritage. Who'd have thought Chakotay's old Maquis cell contained a Cardassian spy disguised as a Bajoran and his onetime lover?",
+        "guestCast": [
+          "Martha Hackett como Seska",
+          "Josh Clark como Lt. Joseph \"Joe\" Carey",
+          "Anthony De Longis como Kazon First Maje Culluh",
+          "Majel Barrett Roddenberry como Computer Voice"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/93/232969.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/92/231718.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "12",
         "title": "Heroes and Demons",
-        "date": "1995-05-01",
-        "productionCode": "40840-112",
-        "stardate": "48693.2",
-        "synopsis": "An encounter with a strange nebula leaves Chakotay brain dead and the crew battling a powerful force that seems to be taking over their minds.",
-        "guestCast": [],
+        "date": "1995-04-24",
+        "productionCode": "40840-111",
+        "stardate": "48658.2",
+        "synopsis": "Stardate: 48693.2 Harry Kim disappears from the holodeck while role-playing in his medieval holo-novel, \"Beowulf.\" According to the characters, he died at the hands of a mystical beast called \"Grendel.\" When Chakotay and Tuvok investigate and also disappear, Janeway transfers the Doctor to the holodeck for his first Away Mission: to investigate/rescue the three vanished crewmembers. Kes encourages the Doctor to pick a name for himself and chooses Doctor Schweitzer. In the story, he survives fear, romance, and heartbreak to unmask the unlikely trespasser as a photonic alien life form taking the form of Grendel and turning missing crewmembers into energy.",
+        "guestCast": [
+          "Marjorie Monaghan como Freya",
+          "Christopher Neame como Unferth",
+          "Michael Keenan como Hrothgar",
+          "Majel Barrett Roddenberry como Computer Voice"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/93/232981.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/93/232969.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "13",
         "title": "Cathexis",
-        "date": "1995-05-08",
-        "productionCode": "40840-113",
-        "stardate": "48734.2",
-        "synopsis": "Stardate: 48784.2 The Vidiians capture Paris, Torres, and Durst while on an away mission. Then a bizarre Vidiian scientist divides the dual ethnic heritage of Torres into separate Human and Klingon bodies to test her Klingon DNA for resistance to the Phage disease destroying his people.",
-        "guestCast": [],
+        "date": "1995-05-01",
+        "productionCode": "40840-112",
+        "stardate": "48693.2",
+        "synopsis": "An encounter with a strange nebula leaves Chakotay brain dead and the crew battling a powerful force that seems to be taking over their minds.",
+        "guestCast": [
+          "Michael Cumpsty como Lord Burleigh",
+          "Brian Markinson como Lt. Peter Durst",
+          "Carolyn Seymour como Mrs. Templeton",
+          "Majel Barrett Roddenberry como Computer Voice"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/94/235771.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/93/232981.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "14",
         "title": "Faces",
-        "date": "1995-05-15",
-        "productionCode": "40840-114",
-        "stardate": "48784.2",
-        "synopsis": "A painful chapter in Neelix's past is reopened when the scientist responsible for killing his family beams aboard Voyager.",
-        "guestCast": [],
+        "date": "1995-05-08",
+        "productionCode": "40840-113",
+        "stardate": "48734.2",
+        "synopsis": "Stardate: 48784.2 The Vidiians capture Paris, Torres, and Durst while on an away mission. Then a bizarre Vidiian scientist divides the dual ethnic heritage of Torres into separate Human and Klingon bodies to test her Klingon DNA for resistance to the Phage disease destroying his people.",
+        "guestCast": [
+          "Brian Markinson como Lt. Peter Durst",
+          "Rob LaBelle como Talaxian Prisoner",
+          "Barton Tinapp como Guard #1"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/94/235784.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/94/235771.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "15",
         "title": "Jetrel",
-        "date": "1995-05-22",
-        "productionCode": "40840-115",
-        "stardate": "48832.1, 48840.5",
-        "synopsis": "Tuvok incurs the wrath of Maquis crewmembers when he's put in charge of a \"boot camp\" designed to bring them up to Starfleet standards.",
-        "guestCast": [],
+        "date": "1995-05-15",
+        "productionCode": "40840-114",
+        "stardate": "48784.2",
+        "synopsis": "A painful chapter in Neelix's past is reopened when the scientist responsible for killing his family beams aboard Voyager.",
+        "guestCast": [
+          "Larry Hankin como Gaunt Gary",
+          "James Sloyan como Ma'bor Jetrel",
+          "Majel Barrett Roddenberry como Computer Voice"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/94/236451.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/94/235784.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "16",
         "title": "Learning Curve",
-        "date": "May 22, 1995",
-        "productionCode": "40840-116",
-        "stardate": "48846.5",
-        "synopsis": "",
-        "guestCast": []
+        "date": "1995-05-22",
+        "productionCode": "40840-115",
+        "stardate": "48832.1, 48840.5",
+        "synopsis": "Tuvok incurs the wrath of Maquis crewmembers when he's put in charge of a \"boot camp\" designed to bring them up to Starfleet standards.",
+        "guestCast": [
+          "Derek McGrath como Chell",
+          "Armand Schultz como Dalby",
+          "Catherine MacNeal como Henley",
+          "Kenny Morrison como Gerron",
+          "Majel Barrett Roddenberry como Computer Voice",
+          "Lindsey Haun como Beatrice Burleigh",
+          "Thomas Dekker como Henry Burleigh",
+          "Derek Anthony como Ensign"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/94/236451.jpg"
       }
     ],
     [
@@ -6902,62 +7883,86 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "40840-120",
         "stardate": "48975.1",
         "synopsis": "The crew of Voyager discovers an unusual object floating in space while following a particle trail. They then land on a planet and discover an old Earth aircraft and then are led to a cave that contains cryogenic units with people from Earth in them.",
-        "guestCast": [],
+        "guestCast": [
+          "John Rubinstein como John Evansville",
+          "Sharon Lawrence como Amelia Earhart",
+          "James Saito como Japanese Soldier",
+          "David Graf como Fred Noonan",
+          "Mel Winkler como Jack Hayes"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/94/236452.jpg"
-      },
-      {
-        "displayNumber": "A group of humans from the 1930s are found in stasis on a seemingly abandoned planet, including the lost Amelia Earhart.",
-        "overallNumber": "A group of humans from the 1930s are found in stasis on a seemingly abandoned planet, including the lost Amelia Earhart.",
-        "title": "A group of humans from the 1930s are found in stasis on a seemingly abandoned planet, including the lost Amelia Earhart.",
-        "date": "1995-09-04",
-        "productionCode": "A group of humans from the 1930s are found in stasis on a seemingly abandoned planet, including the lost Amelia Earhart.",
-        "stardate": "A group of humans from the 1930s are found in stasis on a seemingly abandoned planet, including the lost Amelia Earhart.",
-        "synopsis": "Stardate: 49005.3 While performing a ritual to honor the anniversary of his father's death, Chakotay's shuttlecraft unknowingly violates Kazon-Ogla space. He becomes the target of Kar, a young Kazon boy undergoing a manhood ritual to earn his warrior name and place among his people.",
-        "guestCast": [],
-        "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/95/237952.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "18",
         "title": "Initiations",
-        "date": "1995-09-11",
-        "productionCode": "40840-121",
-        "stardate": "49005.3",
-        "synopsis": "The ship's holographic doctor has a strange encounter with Lt. Barclay that leads to him having problems telling reality from fiction. He is lead to believe that Voyager is nothing but a holographic simulation that he must fix.",
-        "guestCast": [],
+        "date": "1995-09-04",
+        "productionCode": "",
+        "stardate": "",
+        "synopsis": "Stardate: 49005.3 While performing a ritual to honor the anniversary of his father's death, Chakotay's shuttlecraft unknowingly violates Kazon-Ogla space. He becomes the target of Kar, a young Kazon boy undergoing a manhood ritual to earn his warrior name and place among his people.",
+        "guestCast": [
+          "Patrick Kilpatrick como Razik",
+          "Aron Eisenberg como Kar",
+          "Tim De Zarn como Haliz",
+          "Majel Barrett Roddenberry como Computer Voice"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/94/237370.jpg"
-      },
-      {
-        "displayNumber": "Chakotay encounters a Kazon youth who is on an initiation rite: to earn his name by killing an enemy or be killed in the attempt. Note: the \"Kazon youth\" is played by Aron Eisenberg, who plays Nog on DS9",
-        "overallNumber": "Chakotay encounters a Kazon youth who is on an initiation rite: to earn his name by killing an enemy or be killed in the attempt. Note: the \"Kazon youth\" is played by Aron Eisenberg, who plays Nog on DS9",
-        "title": "Chakotay encounters a Kazon youth who is on an initiation rite: to earn his name by killing an enemy or be killed in the attempt. Note: the \"Kazon youth\" is played by Aron Eisenberg, who plays Nog on DS9",
-        "date": "1995-09-18",
-        "productionCode": "Chakotay encounters a Kazon youth who is on an initiation rite: to earn his name by killing an enemy or be killed in the attempt. Note: the \"Kazon youth\" is played by Aron Eisenberg, who plays Nog on DS9",
-        "stardate": "Chakotay encounters a Kazon youth who is on an initiation rite: to earn his name by killing an enemy or be killed in the attempt. Note: the \"Kazon youth\" is played by Aron Eisenberg, who plays Nog on DS9",
-        "synopsis": "When Voyager's crew encounters a swarm of strange alien lifeforms in space, the aliens start forming what seems to be a attachment to Voyager. Meanwhile the encounter seems to accelerate Kes's reproductive cycle that comes only once in her species lifetime.",
-        "guestCast": [],
-        "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/95/238657.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/95/237952.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "19",
         "title": "Projections",
-        "date": "1995-09-25",
-        "productionCode": "40840-117",
-        "stardate": "48892.1",
-        "synopsis": "Stardate: 49011. Ensign Harry Kim arises one morning to find he is back in San Francisco on Earth with his girlfriend, Libby. In this alternate reality, Starfleet records show he never served aboard Voyager , which Starfleet considers lost. Instead, Kim works in Starship Design at Starfleet Headquarters. To help him restore reality, he enlists the help of a shady figure in France named Tom Paris, who has no idea who Harry is.",
-        "guestCast": [],
+        "date": "1995-09-11",
+        "productionCode": "40840-121",
+        "stardate": "49005.3",
+        "synopsis": "The ship's holographic doctor has a strange encounter with Lt. Barclay that leads to him having problems telling reality from fiction. He is lead to believe that Voyager is nothing but a holographic simulation that he must fix.",
+        "guestCast": [
+          "Dwight Schultz como Lt. Reginald \"Reg\" Barclay",
+          "Majel Barrett Roddenberry como Computer Voice"
+        ],
         "runtime": "60",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/94/235770.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/94/237370.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "20",
         "title": "Elogium",
+        "date": "1995-09-18",
+        "productionCode": "",
+        "stardate": "",
+        "synopsis": "When Voyager's crew encounters a swarm of strange alien lifeforms in space, the aliens start forming what seems to be a attachment to Voyager. Meanwhile the encounter seems to accelerate Kes's reproductive cycle that comes only once in her species lifetime.",
+        "guestCast": [
+          "Nancy Hower como Ensign Samantha Wildman",
+          "Terry Correll como Female Crew Member",
+          "Gary O'Brien como Male Crew Member"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/95/238657.jpg"
+      },
+      {
+        "displayNumber": "5",
+        "overallNumber": "21",
+        "title": "Non Sequitur",
+        "date": "1995-09-25",
+        "productionCode": "40840-117",
+        "stardate": "48892.1",
+        "synopsis": "Stardate: 49011. Ensign Harry Kim arises one morning to find he is back in San Francisco on Earth with his girlfriend, Libby. In this alternate reality, Starfleet records show he never served aboard Voyager , which Starfleet considers lost. Instead, Kim works in Starship Design at Starfleet Headquarters. To help him restore reality, he enlists the help of a shady figure in France named Tom Paris, who has no idea who Harry is.",
+        "guestCast": [
+          "Louis Giambalvo como Cosimo",
+          "Jennifer Gatti como Libby",
+          "Mark Kiely como Lt. Lasca",
+          "Jack Shearer como Admiral Strickler",
+          "Majel Barrett Roddenberry como Computer Voice"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/94/235770.jpg"
+      },
+      {
+        "displayNumber": "6",
+        "overallNumber": "22",
+        "title": "Twisted",
         "date": "1995-10-02",
         "productionCode": "40840-118",
         "stardate": "48921.3",
@@ -6967,9 +7972,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/95/238714.jpg"
       },
       {
-        "displayNumber": "5",
-        "overallNumber": "21",
-        "title": "Non Sequitur",
+        "displayNumber": "7",
+        "overallNumber": "23",
+        "title": "Parturition",
         "date": "1995-10-09",
         "productionCode": "40840-122",
         "stardate": "49011",
@@ -6979,21 +7984,21 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/96/241116.jpg"
       },
       {
-        "displayNumber": "Harry Kim wakes up in 24th century San Francisco with no record of him on Voyager.",
-        "overallNumber": "Harry Kim wakes up in 24th century San Francisco with no record of him on Voyager.",
-        "title": "Harry Kim wakes up in 24th century San Francisco with no record of him on Voyager.",
+        "displayNumber": "8",
+        "overallNumber": "24",
+        "title": "Persistence of Vision",
         "date": "1995-10-30",
-        "productionCode": "Harry Kim wakes up in 24th century San Francisco with no record of him on Voyager.",
-        "stardate": "Harry Kim wakes up in 24th century San Francisco with no record of him on Voyager.",
+        "productionCode": "",
+        "stardate": "",
         "synopsis": "A strange force causes the crew to enter a delusional state in which their most buried thoughts come to the surface.",
         "guestCast": [],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/96/241117.jpg"
       },
       {
-        "displayNumber": "6",
-        "overallNumber": "22",
-        "title": "Twisted",
+        "displayNumber": "9",
+        "overallNumber": "25",
+        "title": "Tattoo",
         "date": "1995-11-06",
         "productionCode": "40840-119",
         "stardate": "48945.8",
@@ -7003,9 +8008,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/96/241119.jpg"
       },
       {
-        "displayNumber": "7",
-        "overallNumber": "23",
-        "title": "Parturition",
+        "displayNumber": "10",
+        "overallNumber": "26",
+        "title": "Cold Fire",
         "date": "1995-11-13",
         "productionCode": "40840-123",
         "stardate": "49068.5",
@@ -7015,9 +8020,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/96/241122.jpg"
       },
       {
-        "displayNumber": "8",
-        "overallNumber": "24",
-        "title": "Persistence of Vision",
+        "displayNumber": "11",
+        "overallNumber": "27",
+        "title": "Maneuvers",
         "date": "1995-11-20",
         "productionCode": "40840-124",
         "stardate": "49037.2",
@@ -7027,9 +8032,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/96/242465.jpg"
       },
       {
-        "displayNumber": "9",
-        "overallNumber": "25",
-        "title": "Tattoo",
+        "displayNumber": "12",
+        "overallNumber": "28",
+        "title": "Resistance",
         "date": "1995-11-27",
         "productionCode": "40840-125",
         "stardate": "49211.5",
@@ -7039,9 +8044,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/96/242466.jpg"
       },
       {
-        "displayNumber": "10",
-        "overallNumber": "26",
-        "title": "Cold Fire",
+        "displayNumber": "13",
+        "overallNumber": "29",
+        "title": "Prototype",
         "date": "1996-01-15",
         "productionCode": "40840-126",
         "stardate": "49164.8",
@@ -7051,9 +8056,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/97/242555.jpg"
       },
       {
-        "displayNumber": "11",
-        "overallNumber": "27",
-        "title": "Maneuvers",
+        "displayNumber": "14",
+        "overallNumber": "30",
+        "title": "Alliances",
         "date": "1996-01-22",
         "productionCode": "40840-127",
         "stardate": "49208.5",
@@ -7063,9 +8068,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/98/245235.jpg"
       },
       {
-        "displayNumber": "12",
-        "overallNumber": "28",
-        "title": "Resistance",
+        "displayNumber": "15",
+        "overallNumber": "31",
+        "title": "Threshold",
         "date": "1996-01-29",
         "productionCode": "40840-128",
         "stardate": "49234.1",
@@ -7075,9 +8080,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/98/246260.jpg"
       },
       {
-        "displayNumber": "13",
-        "overallNumber": "29",
-        "title": "Prototype",
+        "displayNumber": "16",
+        "overallNumber": "32",
+        "title": "Meld",
         "date": "1996-02-05",
         "productionCode": "40840-129",
         "stardate": "49270.9",
@@ -7087,9 +8092,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/98/246268.jpg"
       },
       {
-        "displayNumber": "14",
-        "overallNumber": "30",
-        "title": "Alliances",
+        "displayNumber": "17",
+        "overallNumber": "33",
+        "title": "Dreadnought",
         "date": "1996-02-12",
         "productionCode": "40840-131",
         "stardate": "49337.4",
@@ -7099,9 +8104,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/98/246269.jpg"
       },
       {
-        "displayNumber": "15",
-        "overallNumber": "31",
-        "title": "Threshold",
+        "displayNumber": "18",
+        "overallNumber": "34",
+        "title": "Death Wish",
         "date": "1996-02-19",
         "productionCode": "40840-132",
         "stardate": "49373.4",
@@ -7111,21 +8116,21 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/98/246391.jpg"
       },
       {
-        "displayNumber": "Tom Paris breaks the transwarp barrier in the Shuttlecraft Cochrane, designed to reach warp 10, but he begins to evolve.",
-        "overallNumber": "Tom Paris breaks the transwarp barrier in the Shuttlecraft Cochrane, designed to reach warp 10, but he begins to evolve.",
-        "title": "Tom Paris breaks the transwarp barrier in the Shuttlecraft Cochrane, designed to reach warp 10, but he begins to evolve.",
+        "displayNumber": "19",
+        "overallNumber": "35",
+        "title": "Lifesigns",
         "date": "1996-02-26",
-        "productionCode": "Tom Paris breaks the transwarp barrier in the Shuttlecraft Cochrane, designed to reach warp 10, but he begins to evolve.",
-        "stardate": "Tom Paris breaks the transwarp barrier in the Shuttlecraft Cochrane, designed to reach warp 10, but he begins to evolve.",
+        "productionCode": "",
+        "stardate": "",
         "synopsis": "Voyager rescues a dying Vidiian and during the process of trying to save her life, the Doctor's adaptive program allows him to experience romantic feelings for the first time. Lt. Paris starts objecting to his treatment on Voyager and ends up assaulting Chakotay.",
         "guestCast": [],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/98/246479.jpg"
       },
       {
-        "displayNumber": "16",
-        "overallNumber": "32",
-        "title": "Meld",
+        "displayNumber": "20",
+        "overallNumber": "36",
+        "title": "Investigations",
         "date": "1996-03-13",
         "productionCode": "40840-133",
         "stardate": "49380.5",
@@ -7135,9 +8140,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/98/246480.jpg"
       },
       {
-        "displayNumber": "17",
-        "overallNumber": "33",
-        "title": "Dreadnought",
+        "displayNumber": "21",
+        "overallNumber": "37",
+        "title": "Deadlock",
         "date": "1996-03-18",
         "productionCode": "40840-134",
         "stardate": "49447.3",
@@ -7147,9 +8152,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/98/246705.jpg"
       },
       {
-        "displayNumber": "18",
-        "overallNumber": "34",
-        "title": "Death Wish",
+        "displayNumber": "22",
+        "overallNumber": "38",
+        "title": "Innocence",
         "date": "1996-04-08",
         "productionCode": "40840-130",
         "stardate": "49401.2",
@@ -7159,9 +8164,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/98/246706.jpg"
       },
       {
-        "displayNumber": "19",
-        "overallNumber": "35",
-        "title": "Lifesigns",
+        "displayNumber": "23",
+        "overallNumber": "39",
+        "title": "The Thaw",
         "date": "1996-04-29",
         "productionCode": "40840-136",
         "stardate": "49504.3",
@@ -7171,9 +8176,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/98/246708.jpg"
       },
       {
-        "displayNumber": "20",
-        "overallNumber": "36",
-        "title": "Investigations",
+        "displayNumber": "24",
+        "overallNumber": "40",
+        "title": "Tuvix",
         "date": "1996-05-06",
         "productionCode": "40840-135",
         "stardate": "49507.2",
@@ -7183,9 +8188,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/98/247021.jpg"
       },
       {
-        "displayNumber": "21",
-        "overallNumber": "37",
-        "title": "Deadlock",
+        "displayNumber": "25",
+        "overallNumber": "41",
+        "title": "Resolutions",
         "date": "1996-05-13",
         "productionCode": "40840-137",
         "stardate": "49548.7",
@@ -7195,9 +8200,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/98/247024.jpg"
       },
       {
-        "displayNumber": "22",
-        "overallNumber": "38",
-        "title": "Innocence",
+        "displayNumber": "26",
+        "overallNumber": "42",
+        "title": "Basics, Part I",
         "date": "1996-05-20",
         "productionCode": "40840-138",
         "stardate": "49578.2",
@@ -7205,46 +8210,6 @@ export var SERIES_EPISODE_DETAILS = {
         "guestCast": [],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/99/248247.jpg"
-      },
-      {
-        "displayNumber": "23",
-        "overallNumber": "39",
-        "title": "The Thaw",
-        "date": "April 29, 1996",
-        "productionCode": "40840-139",
-        "stardate": "49610.3",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "24",
-        "overallNumber": "40",
-        "title": "Tuvix",
-        "date": "May 6, 1996",
-        "productionCode": "40840-140",
-        "stardate": "49655.2",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "25",
-        "overallNumber": "41",
-        "title": "Resolutions",
-        "date": "May 13, 1996",
-        "productionCode": "40840-141",
-        "stardate": "49690.1, 49694.2",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "26",
-        "overallNumber": "42",
-        "title": "Basics, Part I",
-        "date": "May 20, 1996",
-        "productionCode": "40840-142",
-        "stardate": "50023.5",
-        "synopsis": "",
-        "guestCast": []
       }
     ],
     [
@@ -7345,21 +8310,21 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/101/253712.jpg"
       },
       {
-        "displayNumber": "A 29th century timeship causes a time paradox when it accidentally sends itself and Voyager to two different periods in 20th century Earth.",
-        "overallNumber": "A 29th century timeship causes a time paradox when it accidentally sends itself and Voyager to two different periods in 20th century Earth.",
-        "title": "A 29th century timeship causes a time paradox when it accidentally sends itself and Voyager to two different periods in 20th century Earth.",
+        "displayNumber": "9",
+        "overallNumber": "51",
+        "title": "Future's End, Part II",
         "date": "1996-11-13",
-        "productionCode": "A 29th century timeship causes a time paradox when it accidentally sends itself and Voyager to two different periods in 20th century Earth.",
-        "stardate": "A 29th century timeship causes a time paradox when it accidentally sends itself and Voyager to two different periods in 20th century Earth.",
+        "productionCode": "",
+        "stardate": "",
         "synopsis": "Lt. Paris and Tuvok seek help in Los Angeles as Henry Starling takes Voyagers Doctor hostage and prepares to launch his stolen time ship.",
         "guestCast": [],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/101/253713.jpg"
       },
       {
-        "displayNumber": "9",
-        "overallNumber": "51",
-        "title": "Future's End, Part II",
+        "displayNumber": "10",
+        "overallNumber": "52",
+        "title": "Warlord",
         "date": "1996-11-20",
         "productionCode": "40840-151",
         "stardate": "50312.6",
@@ -7369,21 +8334,21 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/102/255489.jpg"
       },
       {
-        "displayNumber": "Janeway must prevent the destruction of the Solar System by a 20th-century entrepreneur who has acquired the timeship.",
-        "overallNumber": "Janeway must prevent the destruction of the Solar System by a 20th-century entrepreneur who has acquired the timeship.",
-        "title": "Janeway must prevent the destruction of the Solar System by a 20th-century entrepreneur who has acquired the timeship.",
+        "displayNumber": "11",
+        "overallNumber": "53",
+        "title": "The Q and the Grey",
         "date": "1996-11-27",
-        "productionCode": "Janeway must prevent the destruction of the Solar System by a 20th-century entrepreneur who has acquired the timeship.",
-        "stardate": "Janeway must prevent the destruction of the Solar System by a 20th-century entrepreneur who has acquired the timeship.",
+        "productionCode": "",
+        "stardate": "",
         "synopsis": "Q surprises Captain Janeway in her quarters with the announcement that he has chosen her to be the mother of his child to be. Janeway discovers that there is a civil war going on in the Q Continuum.",
         "guestCast": [],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/102/255491.jpg"
       },
       {
-        "displayNumber": "10",
-        "overallNumber": "52",
-        "title": "Warlord",
+        "displayNumber": "12",
+        "overallNumber": "54",
+        "title": "Macrocosm",
         "date": "1996-12-11",
         "productionCode": "40840-152",
         "stardate": "50348.1, 50351.4, 50361.7",
@@ -7393,9 +8358,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/102/255631.jpg"
       },
       {
-        "displayNumber": "11",
-        "overallNumber": "53",
-        "title": "The Q and the Grey",
+        "displayNumber": "13",
+        "overallNumber": "55",
+        "title": "Fair Trade",
         "date": "1997-01-08",
         "productionCode": "40840-153",
         "stardate": "50384.2, 50392.7",
@@ -7405,9 +8370,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/102/255633.jpg"
       },
       {
-        "displayNumber": "12",
-        "overallNumber": "54",
-        "title": "Macrocosm",
+        "displayNumber": "14",
+        "overallNumber": "56",
+        "title": "Alter Ego",
         "date": "1997-01-15",
         "productionCode": "40840-154",
         "stardate": "50425.1",
@@ -7417,9 +8382,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/102/255669.jpg"
       },
       {
-        "displayNumber": "13",
-        "overallNumber": "55",
-        "title": "Fair Trade",
+        "displayNumber": "15",
+        "overallNumber": "57",
+        "title": "Coda",
         "date": "1997-01-29",
         "productionCode": "40840-156",
         "stardate": "50501.7",
@@ -7429,9 +8394,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/102/255673.jpg"
       },
       {
-        "displayNumber": "14",
-        "overallNumber": "56",
-        "title": "Alter Ego",
+        "displayNumber": "16",
+        "overallNumber": "58",
+        "title": "Blood Fever",
         "date": "1997-02-05",
         "productionCode": "40840-155",
         "stardate": "50460.3, 50471.3",
@@ -7441,9 +8406,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460586.jpg"
       },
       {
-        "displayNumber": "15",
-        "overallNumber": "57",
-        "title": "Coda",
+        "displayNumber": "17",
+        "overallNumber": "59",
+        "title": "Unity",
         "date": "1997-02-12",
         "productionCode": "40840-158",
         "stardate": "50518.6",
@@ -7453,9 +8418,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460587.jpg"
       },
       {
-        "displayNumber": "16",
-        "overallNumber": "58",
-        "title": "Blood Fever",
+        "displayNumber": "18",
+        "overallNumber": "60",
+        "title": "The Darkling",
         "date": "1997-02-19",
         "productionCode": "40840-157",
         "stardate": "50537.2, 50541.6",
@@ -7465,9 +8430,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/103/258228.jpg"
       },
       {
-        "displayNumber": "17",
-        "overallNumber": "59",
-        "title": "Unity",
+        "displayNumber": "19",
+        "overallNumber": "61",
+        "title": "Rise",
         "date": "1997-02-26",
         "productionCode": "40840-159",
         "stardate": "50614.2, 50622.4",
@@ -7477,9 +8442,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/103/258231.jpg"
       },
       {
-        "displayNumber": "18",
-        "overallNumber": "60",
-        "title": "Darkling",
+        "displayNumber": "20",
+        "overallNumber": "62",
+        "title": "Favorite Son",
         "date": "1997-03-19",
         "productionCode": "40840-161",
         "stardate": "50693.2",
@@ -7489,9 +8454,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/103/258232.jpg"
       },
       {
-        "displayNumber": "19",
-        "overallNumber": "61",
-        "title": "Rise",
+        "displayNumber": "21",
+        "overallNumber": "63",
+        "title": "Before and After",
         "date": "1997-04-09",
         "productionCode": "40840-160",
         "stardate": "50654.9",
@@ -7501,9 +8466,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/103/258234.jpg"
       },
       {
-        "displayNumber": "20",
-        "overallNumber": "62",
-        "title": "Favorite Son",
+        "displayNumber": "22",
+        "overallNumber": "64",
+        "title": "Real Life",
         "date": "1997-04-23",
         "productionCode": "40840-162",
         "stardate": "50732.4",
@@ -7513,21 +8478,21 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/104/260845.jpg"
       },
       {
-        "displayNumber": "21",
-        "overallNumber": "63",
-        "title": "Before and After",
+        "displayNumber": "23",
+        "overallNumber": "65",
+        "title": "Distant Origin",
         "date": "1997-04-30",
         "productionCode": "40840-163",
-        "stardate": "50792.6 (probable), 55836.2 (temporal jump)",
+        "stardate": "",
         "synopsis": "Scientists of the Voth race discover the human remains of a Voyager crewman and locate a genetic pattern similar to their own.",
         "guestCast": [],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/103/258235.jpg"
       },
       {
-        "displayNumber": "22",
-        "overallNumber": "64",
-        "title": "Real Life",
+        "displayNumber": "24",
+        "overallNumber": "66",
+        "title": "Displaced",
         "date": "1997-05-07",
         "productionCode": "40840-164",
         "stardate": "50836.2",
@@ -7537,9 +8502,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/70/176673.jpg"
       },
       {
-        "displayNumber": "23",
-        "overallNumber": "65",
-        "title": "Distant Origin",
+        "displayNumber": "25",
+        "overallNumber": "67",
+        "title": "Worst Case Scenario",
         "date": "1997-05-14",
         "productionCode": "40840-165",
         "stardate": "50903.7",
@@ -7549,9 +8514,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/70/176672.jpg"
       },
       {
-        "displayNumber": "24",
-        "overallNumber": "66",
-        "title": "Displaced",
+        "displayNumber": "26",
+        "overallNumber": "68",
+        "title": "Scorpion, Part I",
         "date": "1997-05-21",
         "productionCode": "40840-166",
         "stardate": "50912.4, 50929.6",
@@ -7559,33 +8524,13 @@ export var SERIES_EPISODE_DETAILS = {
         "guestCast": [],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/70/176669.jpg"
-      },
-      {
-        "displayNumber": "25",
-        "overallNumber": "67",
-        "title": "Worst Case Scenario",
-        "date": "May 14, 1997",
-        "productionCode": "40840-167",
-        "stardate": "50953.4",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "26",
-        "overallNumber": "68",
-        "title": "Scorpion, Part I",
-        "date": "May 21, 1997",
-        "productionCode": "40840-168",
-        "stardate": "50984.3, 51003.7",
-        "synopsis": "",
-        "guestCast": []
       }
     ],
     [
       {
         "displayNumber": "1",
         "overallNumber": "69",
-        "title": "Scorpion: Part II",
+        "title": "Scorpion, Part II",
         "date": "1997-09-03",
         "productionCode": "40840-169",
         "stardate": "51003.7",
@@ -7595,21 +8540,21 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/70/176670.jpg"
       },
       {
-        "displayNumber": "Janeway and Tuvok work with the Borg and meet Seven of Nine as they collaborate on developing a weapon against Species 8472 in exchange for safe passage through Borg space.",
-        "overallNumber": "Janeway and Tuvok work with the Borg and meet Seven of Nine as they collaborate on developing a weapon against Species 8472 in exchange for safe passage through Borg space.",
-        "title": "Janeway and Tuvok work with the Borg and meet Seven of Nine as they collaborate on developing a weapon against Species 8472 in exchange for safe passage through Borg space.",
+        "displayNumber": "2",
+        "overallNumber": "70",
+        "title": "The Gift",
         "date": "1997-09-10",
-        "productionCode": "Janeway and Tuvok work with the Borg and meet Seven of Nine as they collaborate on developing a weapon against Species 8472 in exchange for safe passage through Borg space.",
-        "stardate": "Janeway and Tuvok work with the Borg and meet Seven of Nine as they collaborate on developing a weapon against Species 8472 in exchange for safe passage through Borg space.",
+        "productionCode": "",
+        "stardate": "",
         "synopsis": "Kes's telepathic powers increase and she has to make a life changing decision. The Doctor starts to remove Seven of Nines Borg implants, even though she does not want him to, because of her body is starting to reject them.",
         "guestCast": [],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/104/260843.jpg"
       },
       {
-        "displayNumber": "2",
-        "overallNumber": "70",
-        "title": "The Gift",
+        "displayNumber": "3",
+        "overallNumber": "71",
+        "title": "Day of Honor",
         "date": "1997-09-17",
         "productionCode": "40840-170",
         "stardate": "51008",
@@ -7619,9 +8564,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/105/264186.jpg"
       },
       {
-        "displayNumber": "3",
-        "overallNumber": "71",
-        "title": "Day of Honor",
+        "displayNumber": "4",
+        "overallNumber": "72",
+        "title": "Nemesis",
         "date": "1997-09-24",
         "productionCode": "40840-172",
         "stardate": "Unknown",
@@ -7631,9 +8576,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/104/260846.jpg"
       },
       {
-        "displayNumber": "4",
-        "overallNumber": "72",
-        "title": "Nemesis",
+        "displayNumber": "5",
+        "overallNumber": "73",
+        "title": "Revulsion",
         "date": "1997-10-01",
         "productionCode": "40840-171",
         "stardate": "51082.4",
@@ -7643,9 +8588,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/104/260847.jpg"
       },
       {
-        "displayNumber": "5",
-        "overallNumber": "73",
-        "title": "Revulsion",
+        "displayNumber": "6",
+        "overallNumber": "74",
+        "title": "The Raven",
         "date": "1997-10-08",
         "productionCode": "40840-173",
         "stardate": "51186.2",
@@ -7655,9 +8600,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/104/261140.jpg"
       },
       {
-        "displayNumber": "6",
-        "overallNumber": "74",
-        "title": "The Raven",
+        "displayNumber": "7",
+        "overallNumber": "75",
+        "title": "Scientific Method",
         "date": "1997-10-29",
         "productionCode": "40840-174",
         "stardate": "Unknown",
@@ -7667,9 +8612,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/102/257185.jpg"
       },
       {
-        "displayNumber": "7",
-        "overallNumber": "75",
-        "title": "Scientific Method",
+        "displayNumber": "8",
+        "overallNumber": "76",
+        "title": "Year of Hell, Part I",
         "date": "1997-11-05",
         "productionCode": "40840-175",
         "stardate": "51244.3",
@@ -7679,9 +8624,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/105/264193.jpg"
       },
       {
-        "displayNumber": "8",
-        "overallNumber": "76",
-        "title": "Year of Hell: Part I",
+        "displayNumber": "9",
+        "overallNumber": "77",
+        "title": "Year of Hell, Part II",
         "date": "1997-11-12",
         "productionCode": "40840-176",
         "stardate": "51268.4",
@@ -7691,9 +8636,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/105/264196.jpg"
       },
       {
-        "displayNumber": "9",
-        "overallNumber": "77",
-        "title": "Year of Hell: Part II",
+        "displayNumber": "10",
+        "overallNumber": "78",
+        "title": "Random Thoughts",
         "date": "1997-11-19",
         "productionCode": "40840-177",
         "stardate": "51425.4",
@@ -7703,9 +8648,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/106/267201.jpg"
       },
       {
-        "displayNumber": "10",
-        "overallNumber": "78",
-        "title": "Random Thoughts",
+        "displayNumber": "11",
+        "overallNumber": "79",
+        "title": "Concerning Flight",
         "date": "1997-11-26",
         "productionCode": "40840-178",
         "stardate": "51367.2",
@@ -7715,9 +8660,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/107/269195.jpg"
       },
       {
-        "displayNumber": "11",
-        "overallNumber": "79",
-        "title": "Concerning Flight",
+        "displayNumber": "12",
+        "overallNumber": "80",
+        "title": "Mortal Coil",
         "date": "1997-12-17",
         "productionCode": "40840-179",
         "stardate": "51386.4",
@@ -7727,9 +8672,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/113/282993.jpg"
       },
       {
-        "displayNumber": "12",
-        "overallNumber": "80",
-        "title": "Mortal Coil",
+        "displayNumber": "13",
+        "overallNumber": "81",
+        "title": "Waking Moments",
         "date": "1998-01-14",
         "productionCode": "40840-180",
         "stardate": "51449.2",
@@ -7739,9 +8684,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/113/282994.jpg"
       },
       {
-        "displayNumber": "13",
-        "overallNumber": "81",
-        "title": "Waking Moments",
+        "displayNumber": "14",
+        "overallNumber": "82",
+        "title": "Message in a Bottle",
         "date": "1998-01-21",
         "productionCode": "40840-182",
         "stardate": "51471.3",
@@ -7751,9 +8696,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/113/282996.jpg"
       },
       {
-        "displayNumber": "14",
-        "overallNumber": "82",
-        "title": "Message in a Bottle",
+        "displayNumber": "15",
+        "overallNumber": "83",
+        "title": "Hunters",
         "date": "1998-02-11",
         "productionCode": "40840-181",
         "stardate": "51462",
@@ -7763,9 +8708,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/113/282997.jpg"
       },
       {
-        "displayNumber": "15",
-        "overallNumber": "83",
-        "title": "Hunters",
+        "displayNumber": "16",
+        "overallNumber": "84",
+        "title": "Prey",
         "date": "1998-02-18",
         "productionCode": "40840-183",
         "stardate": "51501.4",
@@ -7775,9 +8720,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/107/269196.jpg"
       },
       {
-        "displayNumber": "16",
-        "overallNumber": "84",
-        "title": "Prey",
+        "displayNumber": "17",
+        "overallNumber": "85",
+        "title": "Retrospect",
         "date": "1998-02-25",
         "productionCode": "40840-184",
         "stardate": "51652.3",
@@ -7787,9 +8732,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/107/269197.jpg"
       },
       {
-        "displayNumber": "17",
-        "overallNumber": "85",
-        "title": "Retrospect",
+        "displayNumber": "18",
+        "overallNumber": "86",
+        "title": "The Killing Game, Part I",
         "date": "1998-03-04",
         "productionCode": "40840-185",
         "stardate": "51658.2",
@@ -7799,9 +8744,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/111/277545.jpg"
       },
       {
-        "displayNumber": "1819",
-        "overallNumber": "8687",
-        "title": "The Killing Game",
+        "displayNumber": "19",
+        "overallNumber": "87",
+        "title": "The Killing Game, Part II",
         "date": "1998-03-04",
         "productionCode": "40840-186/187",
         "stardate": "51715.2",
@@ -7859,21 +8804,21 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/119/298753.jpg"
       },
       {
-        "displayNumber": "A Kyrian museum curator 700 years in the future hopes a Voyager relic containing a copy of the Doctor can confirm their version of history.",
-        "overallNumber": "A Kyrian museum curator 700 years in the future hopes a Voyager relic containing a copy of the Doctor can confirm their version of history.",
-        "title": "A Kyrian museum curator 700 years in the future hopes a Voyager relic containing a copy of the Doctor can confirm their version of history.",
+        "displayNumber": "24",
+        "overallNumber": "92",
+        "title": "Demon",
         "date": "1998-05-06",
-        "productionCode": "A Kyrian museum curator 700 years in the future hopes a Voyager relic containing a copy of the Doctor can confirm their version of history.",
-        "stardate": "A Kyrian museum curator 700 years in the future hopes a Voyager relic containing a copy of the Doctor can confirm their version of history.",
+        "productionCode": "",
+        "stardate": "",
         "synopsis": "Stardate: Unknown - In search of the vital chemical deuterium essential to Voyager's energy supplies, they discover a hostile \"Demon class\" planet with reserves large enough to replenish the ship. Ensign Kim and Tom Paris take a shuttlecraft to the planet's surface in environmental suits. Soon they are found on the planet without suits, and the ship's atmosphere becomes poisonous to them.",
         "guestCast": [],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/113/283013.jpg"
       },
       {
-        "displayNumber": "24",
-        "overallNumber": "92",
-        "title": "Demon",
+        "displayNumber": "25",
+        "overallNumber": "93",
+        "title": "One",
         "date": "1998-05-13",
         "productionCode": "40840-192",
         "stardate": "Unknown",
@@ -7883,9 +8828,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/113/283015.jpg"
       },
       {
-        "displayNumber": "25",
-        "overallNumber": "93",
-        "title": "One",
+        "displayNumber": "26",
+        "overallNumber": "94",
+        "title": "Hope and Fear",
         "date": "1998-05-20",
         "productionCode": "40840-193",
         "stardate": "51929.3",
@@ -7893,26 +8838,6 @@ export var SERIES_EPISODE_DETAILS = {
         "guestCast": [],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/113/283016.jpg"
-      },
-      {
-        "displayNumber": "26",
-        "overallNumber": "94",
-        "title": "Hope and Fear",
-        "date": "May 20, 1998",
-        "productionCode": "40840-194",
-        "stardate": "51978.2",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "Paris and Neelix return from a mission with a passenger named Arturis who knows more than 4,000 languages. He manages to decode a message from Starfleet that could lead to a way home.",
-        "overallNumber": "Paris and Neelix return from a mission with a passenger named Arturis who knows more than 4,000 languages. He manages to decode a message from Starfleet that could lead to a way home.",
-        "title": "Paris and Neelix return from a mission with a passenger named Arturis who knows more than 4,000 languages. He manages to decode a message from Starfleet that could lead to a way home.",
-        "date": "Paris and Neelix return from a mission with a passenger named Arturis who knows more than 4,000 languages. He manages to decode a message from Starfleet that could lead to a way home.",
-        "productionCode": "Paris and Neelix return from a mission with a passenger named Arturis who knows more than 4,000 languages. He manages to decode a message from Starfleet that could lead to a way home.",
-        "stardate": "Paris and Neelix return from a mission with a passenger named Arturis who knows more than 4,000 languages. He manages to decode a message from Starfleet that could lead to a way home.",
-        "synopsis": "",
-        "guestCast": []
       }
     ],
     [
@@ -7941,21 +8866,21 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/122/305762.jpg"
       },
       {
-        "displayNumber": "The Doctor's mobile emitter is damaged while beaming back from an away mission, merging with Seven of Nine's Borg nanoprobes and the DNA of a male Ensign to create a 29th century Borg.",
-        "overallNumber": "The Doctor's mobile emitter is damaged while beaming back from an away mission, merging with Seven of Nine's Borg nanoprobes and the DNA of a male Ensign to create a 29th century Borg.",
-        "title": "The Doctor's mobile emitter is damaged while beaming back from an away mission, merging with Seven of Nine's Borg nanoprobes and the DNA of a male Ensign to create a 29th century Borg.",
+        "displayNumber": "3",
+        "overallNumber": "97",
+        "title": "Extreme Risk",
         "date": "1998-10-28",
-        "productionCode": "The Doctor's mobile emitter is damaged while beaming back from an away mission, merging with Seven of Nine's Borg nanoprobes and the DNA of a male Ensign to create a 29th century Borg.",
-        "stardate": "The Doctor's mobile emitter is damaged while beaming back from an away mission, merging with Seven of Nine's Borg nanoprobes and the DNA of a male Ensign to create a 29th century Borg.",
+        "productionCode": "",
+        "stardate": "",
         "synopsis": "Tom Paris designs a new type of shuttlecraft named the \"Delta Flyer\" with Borg and Starfleet technologies to retrieve a Starfleet probe stuck in a giant planet's hazardous atmosphere and gravity well before aliens do. Torres exhibits reckless behavior by engaging in dangerous holodeck programs, such as orbital sky diving; her erratic behavior over several months comes to a peak and alarms her crewmates.",
         "guestCast": [],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/125/312720.jpg"
       },
       {
-        "displayNumber": "3",
-        "overallNumber": "97",
-        "title": "Extreme Risk",
+        "displayNumber": "4",
+        "overallNumber": "98",
+        "title": "In the Flesh",
         "date": "1998-11-04",
         "productionCode": "40840-197",
         "stardate": "52121.7",
@@ -7965,9 +8890,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/125/312786.jpg"
       },
       {
-        "displayNumber": "4",
-        "overallNumber": "98",
-        "title": "In the Flesh",
+        "displayNumber": "5",
+        "overallNumber": "99",
+        "title": "Once Upon a Time",
         "date": "1998-11-11",
         "productionCode": "40840-198",
         "stardate": "52136.4",
@@ -7977,21 +8902,21 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/122/305869.jpg"
       },
       {
-        "displayNumber": "The ship encounters one of the training facilities of Species 8472, for an alien invasion of Starfleet and of Earth.",
-        "overallNumber": "The ship encounters one of the training facilities of Species 8472, for an alien invasion of Starfleet and of Earth.",
-        "title": "The ship encounters one of the training facilities of Species 8472, for an alien invasion of Starfleet and of Earth.",
+        "displayNumber": "6",
+        "overallNumber": "100",
+        "title": "Timeless",
         "date": "1998-11-18",
-        "productionCode": "The ship encounters one of the training facilities of Species 8472, for an alien invasion of Starfleet and of Earth.",
-        "stardate": "The ship encounters one of the training facilities of Species 8472, for an alien invasion of Starfleet and of Earth.",
+        "productionCode": "",
+        "stardate": "",
         "synopsis": "Voyager uses new quantum slipstream technology in an attempt to return home, but a miscalculation by Kim causes the ship to crash into an ice planet. Fifteen years later, the sole survivors, Chakotay and Kim, have resigned from Starfleet and attempt to alter history to save the ship from disaster before Starfleet can stop them. They steal the Delta Flyer to send a message back in time and avert the catastrophe. However, Captain Geordi LaForge is determined to stop them at all costs.",
         "guestCast": [],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/171/427616.jpg"
       },
       {
-        "displayNumber": "5",
-        "overallNumber": "99",
-        "title": "Once Upon a Time",
+        "displayNumber": "7",
+        "overallNumber": "101",
+        "title": "Infinite Regress",
         "date": "1998-11-25",
         "productionCode": "40840-199",
         "stardate": "52138.8",
@@ -8001,9 +8926,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/122/305868.jpg"
       },
       {
-        "displayNumber": "6",
-        "overallNumber": "100",
-        "title": "Timeless",
+        "displayNumber": "8",
+        "overallNumber": "102",
+        "title": "Nothing Human",
         "date": "1998-12-02",
         "productionCode": "40840-201",
         "stardate": "52164.3",
@@ -8013,9 +8938,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/104/262277.jpg"
       },
       {
-        "displayNumber": "7",
-        "overallNumber": "101",
-        "title": "Infinite Regress",
+        "displayNumber": "9",
+        "overallNumber": "103",
+        "title": "Thirty Days",
         "date": "1998-12-09",
         "productionCode": "40840-203",
         "stardate": "52188.7",
@@ -8025,9 +8950,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/128/320400.jpg"
       },
       {
-        "displayNumber": "8",
-        "overallNumber": "102",
-        "title": "Nothing Human",
+        "displayNumber": "10",
+        "overallNumber": "104",
+        "title": "Counterpoint",
         "date": "1998-12-16",
         "productionCode": "40840-200",
         "stardate": "52143.6",
@@ -8037,9 +8962,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/134/336249.jpg"
       },
       {
-        "displayNumber": "9",
-        "overallNumber": "103",
-        "title": "Thirty Days",
+        "displayNumber": "11",
+        "overallNumber": "105",
+        "title": "Latent Image",
         "date": "1999-01-20",
         "productionCode": "40840-202",
         "stardate": "52179.4",
@@ -8049,9 +8974,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/171/427621.jpg"
       },
       {
-        "displayNumber": "10",
-        "overallNumber": "104",
-        "title": "Counterpoint",
+        "displayNumber": "12",
+        "overallNumber": "106",
+        "title": "Bride of Chaotica!",
         "date": "1999-01-27",
         "productionCode": "40840-204",
         "stardate": "52261.3",
@@ -8061,9 +8986,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/130/325706.jpg"
       },
       {
-        "displayNumber": "11",
-        "overallNumber": "105",
-        "title": "Latent Image",
+        "displayNumber": "13",
+        "overallNumber": "107",
+        "title": "Gravity",
         "date": "1999-02-03",
         "productionCode": "40840-206",
         "stardate": "52489.3",
@@ -8073,9 +8998,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/171/427624.jpg"
       },
       {
-        "displayNumber": "12",
-        "overallNumber": "106",
-        "title": "Bride of Chaotica!",
+        "displayNumber": "14",
+        "overallNumber": "108",
+        "title": "Bliss",
         "date": "1999-02-10",
         "productionCode": "40840-207",
         "stardate": "52507.2",
@@ -8085,9 +9010,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460471.jpg"
       },
       {
-        "displayNumber": "13",
-        "overallNumber": "107",
-        "title": "Gravity",
+        "displayNumber": "15",
+        "overallNumber": "109",
+        "title": "Dark Frontier, Part I",
         "date": "1999-02-17",
         "productionCode": "40840-205",
         "stardate": "52438.9",
@@ -8097,9 +9022,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/141/353133.jpg"
       },
       {
-        "displayNumber": "14",
-        "overallNumber": "108",
-        "title": "Bliss",
+        "displayNumber": "16",
+        "overallNumber": "110",
+        "title": "Dark Frontier, Part II",
         "date": "1999-02-17",
         "productionCode": "40840-209",
         "stardate": "52542.3",
@@ -8109,9 +9034,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/141/353134.jpg"
       },
       {
-        "displayNumber": "15",
-        "overallNumber": "109",
-        "title": "Dark Frontier",
+        "displayNumber": "17",
+        "overallNumber": "111",
+        "title": "The Disease",
         "date": "1999-02-24",
         "productionCode": "40840-824 (211/212)",
         "stardate": "52619.2",
@@ -8121,9 +9046,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/136/340091.jpg"
       },
       {
-        "displayNumber": "16",
-        "overallNumber": "110",
-        "title": "Dark Frontier",
+        "displayNumber": "18",
+        "overallNumber": "112",
+        "title": "Course: Oblivion",
         "date": "1999-03-03",
         "productionCode": "40840-824 (211/212)",
         "stardate": "52619.2",
@@ -8133,9 +9058,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460474.jpg"
       },
       {
-        "displayNumber": "17",
-        "overallNumber": "111",
-        "title": "The Disease",
+        "displayNumber": "19",
+        "overallNumber": "113",
+        "title": "The Fight",
         "date": "1999-03-24",
         "productionCode": "40840-210",
         "stardate": "52563.9",
@@ -8145,33 +9070,33 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460475.jpg"
       },
       {
-        "displayNumber": "18",
-        "overallNumber": "112",
-        "title": "Course: Oblivion",
+        "displayNumber": "20",
+        "overallNumber": "114",
+        "title": "Think Tank",
         "date": "1999-03-31",
         "productionCode": "40840-213",
-        "stardate": "52586.3, 52597.4 (alternative timeline)",
+        "stardate": "",
         "synopsis": "A group of extremely intelligent aliens offers to help Voyager escape from a race of bounty hunters known as the Hazari, in exchange for Seven of Nine.",
         "guestCast": [],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460476.jpg"
       },
       {
-        "displayNumber": "Lt. Torres and Ensign Paris get married; the crew discover they aren't who they think they are while trying to resolve why subspace radiation is causing them and Voyager to disintegrate. Reference to Season 4 episode \"Demon",
-        "overallNumber": "Lt. Torres and Ensign Paris get married; the crew discover they aren't who they think they are while trying to resolve why subspace radiation is causing them and Voyager to disintegrate. Reference to Season 4 episode \"Demon",
-        "title": "Lt. Torres and Ensign Paris get married; the crew discover they aren't who they think they are while trying to resolve why subspace radiation is causing them and Voyager to disintegrate. Reference to Season 4 episode \"Demon",
+        "displayNumber": "21",
+        "overallNumber": "115",
+        "title": "Juggernaut",
         "date": "1999-04-26",
-        "productionCode": "Lt. Torres and Ensign Paris get married; the crew discover they aren't who they think they are while trying to resolve why subspace radiation is causing them and Voyager to disintegrate. Reference to Season 4 episode \"Demon",
-        "stardate": "Lt. Torres and Ensign Paris get married; the crew discover they aren't who they think they are while trying to resolve why subspace radiation is causing them and Voyager to disintegrate. Reference to Season 4 episode \"Demon",
+        "productionCode": "",
+        "stardate": "",
         "synopsis": "Voyager encounters a damaged and adrift Malon freighter in danger of releasing deadly theta radiation into that sector of space and rescues two crew members. Captain Janeway sends a repair crew to try and contain the radiation spread. Before they embark on the mission, the two crewmen warn them about mythical monsters that are said to wreak havoc aboard ships.",
         "guestCast": [],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/141/353655.jpg"
       },
       {
-        "displayNumber": "19",
-        "overallNumber": "113",
-        "title": "The Fight",
+        "displayNumber": "22",
+        "overallNumber": "116",
+        "title": "Someone to Watch Over Me",
         "date": "1999-04-28",
         "productionCode": "40840-208",
         "stardate": "52531.1",
@@ -8181,9 +9106,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/144/360451.jpg"
       },
       {
-        "displayNumber": "20",
-        "overallNumber": "114",
-        "title": "Think Tank",
+        "displayNumber": "23",
+        "overallNumber": "117",
+        "title": "11:59",
         "date": "1999-05-05",
         "productionCode": "40840-214",
         "stardate": "52623.7",
@@ -8193,9 +9118,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/154/386777.jpg"
       },
       {
-        "displayNumber": "21",
-        "overallNumber": "115",
-        "title": "Juggernaut",
+        "displayNumber": "24",
+        "overallNumber": "118",
+        "title": "Relativity",
         "date": "1999-05-12",
         "productionCode": "40840-215",
         "stardate": "52640.1",
@@ -8205,9 +9130,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/171/428197.jpg"
       },
       {
-        "displayNumber": "22",
-        "overallNumber": "116",
-        "title": "Someone to Watch Over Me",
+        "displayNumber": "25",
+        "overallNumber": "119",
+        "title": "Warhead",
         "date": "1999-05-19",
         "productionCode": "40840-216",
         "stardate": "52647.1",
@@ -8217,9 +9142,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/154/386779.jpg"
       },
       {
-        "displayNumber": "23",
-        "overallNumber": "117",
-        "title": "11:59",
+        "displayNumber": "26",
+        "overallNumber": "120",
+        "title": "Equinox, Part I",
         "date": "1999-05-26",
         "productionCode": "40840-217",
         "stardate": "52763.5 (April 22, 2375)",
@@ -8227,43 +9152,13 @@ export var SERIES_EPISODE_DETAILS = {
         "guestCast": [],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/171/428208.jpg"
-      },
-      {
-        "displayNumber": "24",
-        "overallNumber": "118",
-        "title": "Relativity",
-        "date": "May 12, 1999",
-        "productionCode": "40840-218",
-        "stardate": "52861.2",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "25",
-        "overallNumber": "119",
-        "title": "Warhead",
-        "date": "May 19, 1999",
-        "productionCode": "40840-219",
-        "stardate": "52947.6",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "26",
-        "overallNumber": "120",
-        "title": "Equinox, Part I",
-        "date": "May 26, 1999",
-        "productionCode": "40840-220",
-        "stardate": "52983.6, 53017.1",
-        "synopsis": "",
-        "guestCast": []
       }
     ],
     [
       {
         "displayNumber": "1",
         "overallNumber": "121",
-        "title": "Equinox: Part II",
+        "title": "Equinox, Part II",
         "date": "1999-09-22",
         "productionCode": "40840-221",
         "stardate": "52983.6, 53017.1",
@@ -8563,7 +9458,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "26",
         "overallNumber": "146",
-        "title": "Unimatrix Zero: Part I",
+        "title": "Unimatrix Zero, Part I",
         "date": "2000-05-24",
         "productionCode": "40840-246",
         "stardate": "Unknown",
@@ -8673,7 +9568,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "9",
         "overallNumber": "155",
-        "title": "Flesh and Blood",
+        "title": "Flesh and Blood, Part I",
         "date": "2000-11-29",
         "productionCode": "40840-827",
         "stardate": "54337.5",
@@ -8685,7 +9580,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "10",
         "overallNumber": "156",
-        "title": "Flesh and Blood",
+        "title": "Flesh and Blood, Part II",
         "date": "2000-11-29",
         "productionCode": "40840-827",
         "stardate": "54337.5",
@@ -8803,21 +9698,21 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460569.jpg"
       },
       {
-        "displayNumber": "Q leaves his son (Q2) on Voyager to learn from the crew.",
-        "overallNumber": "Q leaves his son (Q2) on Voyager to learn from the crew.",
-        "title": "Q leaves his son (Q2) on Voyager to learn from the crew.",
+        "displayNumber": "20",
+        "overallNumber": "166",
+        "title": "Author, Author",
         "date": "2001-04-18",
-        "productionCode": "Q leaves his son (Q2) on Voyager to learn from the crew.",
-        "stardate": "Q leaves his son (Q2) on Voyager to learn from the crew.",
+        "productionCode": "",
+        "stardate": "",
         "synopsis": "The Voyager crew is in for an unpleasant surprise when the Doctor publishes a novel filled with characters based on his colleagues.",
         "guestCast": [],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460570.jpg"
       },
       {
-        "displayNumber": "20",
-        "overallNumber": "166",
-        "title": "Author, Author",
+        "displayNumber": "21",
+        "overallNumber": "167",
+        "title": "Friendship One",
         "date": "2001-04-25",
         "productionCode": "40840-266",
         "stardate": "54732.3",
@@ -8827,9 +9722,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460571.jpg"
       },
       {
-        "displayNumber": "21",
-        "overallNumber": "167",
-        "title": "Friendship One",
+        "displayNumber": "22",
+        "overallNumber": "168",
+        "title": "Natural Law",
         "date": "2001-05-02",
         "productionCode": "40840-267",
         "stardate": "54775.4",
@@ -8839,21 +9734,21 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460572.jpg"
       },
       {
-        "displayNumber": "The crew is sent on its first mission by Starfleet in nearly seven years: to find a lost probe sent by Earth in the 21st century that has ended up in the Delta Quadrant.",
-        "overallNumber": "The crew is sent on its first mission by Starfleet in nearly seven years: to find a lost probe sent by Earth in the 21st century that has ended up in the Delta Quadrant.",
-        "title": "The crew is sent on its first mission by Starfleet in nearly seven years: to find a lost probe sent by Earth in the 21st century that has ended up in the Delta Quadrant.",
+        "displayNumber": "23",
+        "overallNumber": "169",
+        "title": "Homestead",
         "date": "2001-05-09",
-        "productionCode": "The crew is sent on its first mission by Starfleet in nearly seven years: to find a lost probe sent by Earth in the 21st century that has ended up in the Delta Quadrant.",
-        "stardate": "The crew is sent on its first mission by Starfleet in nearly seven years: to find a lost probe sent by Earth in the 21st century that has ended up in the Delta Quadrant.",
+        "productionCode": "",
+        "stardate": "",
         "synopsis": "Neelix is reunited with his own species when he finds a settlement of Talaxians being oppressed by mercenaries on a mineral-rich asteroid.",
         "guestCast": [],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460573.jpg"
       },
       {
-        "displayNumber": "22",
-        "overallNumber": "168",
-        "title": "Natural Law",
+        "displayNumber": "24",
+        "overallNumber": "170",
+        "title": "Renaissance Man",
         "date": "2001-05-16",
         "productionCode": "40840-268",
         "stardate": "54827.7",
@@ -8863,9 +9758,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460574.jpg"
       },
       {
-        "displayNumber": "23",
-        "overallNumber": "169",
-        "title": "Homestead",
+        "displayNumber": "25",
+        "overallNumber": "171",
+        "title": "Endgame, Part I",
         "date": "2001-05-23",
         "productionCode": "40840-269",
         "stardate": "54868.6",
@@ -8875,9 +9770,9 @@ export var SERIES_EPISODE_DETAILS = {
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460575.jpg"
       },
       {
-        "displayNumber": "24",
-        "overallNumber": "170",
-        "title": "Renaissance Man",
+        "displayNumber": "26",
+        "overallNumber": "172",
+        "title": "Endgame, Part II",
         "date": "2001-05-23",
         "productionCode": "40840-270",
         "stardate": "54912.4",
@@ -8885,36 +9780,6 @@ export var SERIES_EPISODE_DETAILS = {
         "guestCast": [],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460579.jpg"
-      },
-      {
-        "displayNumber": "25",
-        "overallNumber": "171",
-        "title": "Endgame",
-        "date": "May 23, 2001",
-        "productionCode": "40840-828 (271/272)",
-        "stardate": "54973.4",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "26",
-        "overallNumber": "172",
-        "title": "Endgame",
-        "date": "May 23, 2001",
-        "productionCode": "40840-828 (271/272)",
-        "stardate": "54973.4",
-        "synopsis": "",
-        "guestCast": []
-      },
-      {
-        "displayNumber": "In the future where it took Voyager 23 years to get home, Admiral Janeway devises a plan to alter history. As the crew enters a final showdown with the Borg, the two Janeways implement a risky plan to take out one of the six Borg Transwarp Hubs in the galaxy and simultaneously cross the transwarp threshold to get home. Originally shown as a two-hour series finale, but in syndication is shown as 2 separate episodes.",
-        "overallNumber": "In the future where it took Voyager 23 years to get home, Admiral Janeway devises a plan to alter history. As the crew enters a final showdown with the Borg, the two Janeways implement a risky plan to take out one of the six Borg Transwarp Hubs in the galaxy and simultaneously cross the transwarp threshold to get home. Originally shown as a two-hour series finale, but in syndication is shown as 2 separate episodes.",
-        "title": "In the future where it took Voyager 23 years to get home, Admiral Janeway devises a plan to alter history. As the crew enters a final showdown with the Borg, the two Janeways implement a risky plan to take out one of the six Borg Transwarp Hubs in the galaxy and simultaneously cross the transwarp threshold to get home. Originally shown as a two-hour series finale, but in syndication is shown as 2 separate episodes.",
-        "date": "In the future where it took Voyager 23 years to get home, Admiral Janeway devises a plan to alter history. As the crew enters a final showdown with the Borg, the two Janeways implement a risky plan to take out one of the six Borg Transwarp Hubs in the galaxy and simultaneously cross the transwarp threshold to get home. Originally shown as a two-hour series finale, but in syndication is shown as 2 separate episodes.",
-        "productionCode": "In the future where it took Voyager 23 years to get home, Admiral Janeway devises a plan to alter history. As the crew enters a final showdown with the Borg, the two Janeways implement a risky plan to take out one of the six Borg Transwarp Hubs in the galaxy and simultaneously cross the transwarp threshold to get home. Originally shown as a two-hour series finale, but in syndication is shown as 2 separate episodes.",
-        "stardate": "In the future where it took Voyager 23 years to get home, Admiral Janeway devises a plan to alter history. As the crew enters a final showdown with the Borg, the two Janeways implement a risky plan to take out one of the six Borg Transwarp Hubs in the galaxy and simultaneously cross the transwarp threshold to get home. Originally shown as a two-hour series finale, but in syndication is shown as 2 separate episodes.",
-        "synopsis": "",
-        "guestCast": []
       }
     ]
   ],
@@ -9223,7 +10088,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "26",
         "overallNumber": "26",
-        "title": "Shockwave, Part I",
+        "title": "Shockwave (1)",
         "date": "2002-05-22",
         "productionCode": "40358-026",
         "stardate": "Unknown",
@@ -9237,7 +10102,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "1",
         "overallNumber": "27",
-        "title": "Shockwave: Part 2",
+        "title": "Shockwave (2)",
         "date": "2002-09-18",
         "productionCode": "40358-028",
         "stardate": "Unknown",
@@ -9841,7 +10706,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "1",
         "overallNumber": "77",
-        "title": "Storm Front",
+        "title": "Storm Front (1)",
         "date": "2004-10-08",
         "productionCode": "40358-077",
         "stardate": "Unknown",
@@ -9853,7 +10718,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "2",
         "overallNumber": "78",
-        "title": "Storm Front, Part II",
+        "title": "Storm Front (2)",
         "date": "2004-10-15",
         "productionCode": "40358-078",
         "stardate": "Unknown",
@@ -9877,7 +10742,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "4",
         "overallNumber": "80",
-        "title": "Borderland",
+        "title": "Borderland (1)",
         "date": "2004-10-29",
         "productionCode": "40358-080",
         "stardate": "May 17, 2154",
@@ -9889,7 +10754,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "5",
         "overallNumber": "81",
-        "title": "Cold Station 12",
+        "title": "Cold Station 12 (2)",
         "date": "2004-11-05",
         "productionCode": "40358-081",
         "stardate": "Unknown",
@@ -9901,7 +10766,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "6",
         "overallNumber": "82",
-        "title": "The Augments",
+        "title": "The Augments (3)",
         "date": "2004-11-12",
         "productionCode": "40358-082",
         "stardate": "May 27, 2154",
@@ -9913,7 +10778,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "7",
         "overallNumber": "83",
-        "title": "The Forge",
+        "title": "The Forge (1)",
         "date": "2004-11-19",
         "productionCode": "40358-083",
         "stardate": "Unknown",
@@ -9925,7 +10790,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "8",
         "overallNumber": "84",
-        "title": "Awakening",
+        "title": "Awakening (2)",
         "date": "2004-11-26",
         "productionCode": "40358-084",
         "stardate": "Unknown",
@@ -9937,7 +10802,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "9",
         "overallNumber": "85",
-        "title": "Kir'Shara",
+        "title": "Kir'Shara (3)",
         "date": "2004-12-03",
         "productionCode": "40358-085",
         "stardate": "Unknown",
@@ -9973,7 +10838,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "12",
         "overallNumber": "88",
-        "title": "Babel One",
+        "title": "Babel One (1)",
         "date": "2005-01-28",
         "productionCode": "40358-088",
         "stardate": "November 12, 2154",
@@ -9985,7 +10850,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "13",
         "overallNumber": "89",
-        "title": "United",
+        "title": "United (2)",
         "date": "2005-02-04",
         "productionCode": "40358-089",
         "stardate": "November 15, 2154",
@@ -9997,7 +10862,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "14",
         "overallNumber": "90",
-        "title": "The Aenar",
+        "title": "The Aenar (3)",
         "date": "2005-02-11",
         "productionCode": "40358-090",
         "stardate": "Unknown",
@@ -10009,7 +10874,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "15",
         "overallNumber": "91",
-        "title": "Affliction",
+        "title": "Affliction (1)",
         "date": "2005-02-18",
         "productionCode": "40358-091",
         "stardate": "November 27, 2154",
@@ -10021,7 +10886,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "16",
         "overallNumber": "92",
-        "title": "Divergence",
+        "title": "Divergence (2)",
         "date": "2005-02-25",
         "productionCode": "40358-092",
         "stardate": "Unknown",
@@ -10045,7 +10910,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "18",
         "overallNumber": "94",
-        "title": "In a Mirror, Darkly",
+        "title": "In a Mirror, Darkly (1)",
         "date": "2005-04-22",
         "productionCode": "40358-094",
         "stardate": "January 13, 2155",
@@ -10057,7 +10922,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "19",
         "overallNumber": "95",
-        "title": "In a Mirror, Darkly, Part II",
+        "title": "In a Mirror, Darkly (2)",
         "date": "2005-04-29",
         "productionCode": "40358-095",
         "stardate": "January 18, 2155",
@@ -10069,7 +10934,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "20",
         "overallNumber": "96",
-        "title": "Demons",
+        "title": "Demons (1)",
         "date": "2005-05-06",
         "productionCode": "40358-096",
         "stardate": "January 19, 2155",
@@ -10081,7 +10946,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "21",
         "overallNumber": "97",
-        "title": "Terra Prime",
+        "title": "Terra Prime (2)",
         "date": "2005-05-13",
         "productionCode": "40358-097",
         "stardate": "January 22, 2155",
@@ -10150,7 +11015,23 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "With tensions and stakes high as Starfleet continues in their efforts to end the war with the Klingons, Burnham begins to settle in to her new position aboard the U.S.S. Discovery.",
-        "guestCast": [],
+        "guestCast": [
+          "Michelle Yeoh como Starfleet Captain Philippa Georgiou",
+          "Wilson Cruz como Dr. Hugh Culber",
+          "Mary Chieffo como L'Rell",
+          "Jayne Brook como Admiral Katrina Cornwell",
+          "Rekha Sharma como Security Officer Commander Landry",
+          "Kenneth Mitchell como Klingon Commanding Officer Kol",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Julianne Grossman como Discovery Computer",
+          "Sara Mitich como Lieutenant Commander Airiam",
+          "Tasia Valenza como Shenzhou Computer",
+          "Javid Iqbal como Voq",
+          "Christopher Russell como Lieutenant Milton Richter",
+          "Dennis Andres como Engineer Rance",
+          "Jordana Blake como Betarian Girl"
+        ],
         "runtime": "49",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/130/326569.jpg"
       },
@@ -10370,7 +11251,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "14",
         "overallNumber": "14",
-        "title": "The War Without, The War Within",
+        "title": "The War Without, the War Within",
         "date": "2018-02-04",
         "productionCode": "",
         "stardate": "",
@@ -10570,7 +11451,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "6",
         "overallNumber": "21",
-        "title": "The Sound of Thunder",
+        "title": "The Sounds of Thunder",
         "date": "2019-02-21",
         "productionCode": "",
         "stardate": "",
@@ -10762,7 +11643,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "13",
         "overallNumber": "28",
-        "title": "Such Sweet Sorrow",
+        "title": "Such Sweet Sorrow, Part 1",
         "date": "2019-04-11",
         "productionCode": "",
         "stardate": "",
@@ -10796,7 +11677,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "14",
         "overallNumber": "29",
-        "title": "Such Sweet Sorrow",
+        "title": "Such Sweet Sorrow, Part 2",
         "date": "2019-04-18",
         "productionCode": "",
         "stardate": "",
@@ -10858,7 +11739,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "2",
         "overallNumber": "31",
-        "title": "Far from Home",
+        "title": "Far From Home",
         "date": "2020-10-22",
         "productionCode": "",
         "stardate": "",
@@ -11072,7 +11953,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "9",
         "overallNumber": "38",
-        "title": "Terra Firma",
+        "title": "Terra Firma, Part 1",
         "date": "2020-12-10",
         "productionCode": "",
         "stardate": "",
@@ -11100,7 +11981,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "10",
         "overallNumber": "39",
-        "title": "Terra Firma",
+        "title": "Terra Firma, Part 2",
         "date": "2020-12-17",
         "productionCode": "",
         "stardate": "",
@@ -11157,7 +12038,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "12",
         "overallNumber": "41",
-        "title": "There Is a Tide...",
+        "title": "There Is a Tide…",
         "date": "2020-12-31",
         "productionCode": "",
         "stardate": "",
@@ -11328,7 +12209,21 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Tilly and Adira lead a team of Starfleet Academy cadets on a training mission that takes a dangerous turn. Meanwhile, Burnham is pulled into tense negotiations on Ni'Var.",
-        "guestCast": [],
+        "guestCast": [
+          "Tara Rosling como President T'Rina",
+          "Chelah Horsdal como Federation President Laira Rillak",
+          "Ian Alexander como Gray Tal",
+          "David Cronenberg como Dr. Kovich",
+          "Adrian Walters como Cadet Taahz Gorev",
+          "Seamus Patterson como Cadet Harral",
+          "Amanda Arcuri como Cadet Val Sasha",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Orville Cummings como Lt. Christopher",
+          "Piotr Michael como Shuttle Computer",
+          "Avaah Blackwell como Lt. Ina",
+          "Nck Name como Lt. Callum",
+          "Patrick Haye como Ferin"
+        ],
         "runtime": "54",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/381/954681.jpg"
       },
@@ -11340,7 +12235,23 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Burnham and Book race to evacuate a group of stranded colonists in the anomaly's path as one of the Federation's brightest scientists comes aboard the U.S.S. Discovery to do high-stakes research with Saru and Stamets.",
-        "guestCast": [],
+        "guestCast": [
+          "Oded Fehr como Admiral Charles Vance",
+          "Annabelle Wallis como Zora",
+          "David Cronenberg como Dr. Kovich",
+          "Shawn Doyle como Ruon Tarka",
+          "Michael Greyeyes como Felix",
+          "Sarah Booth como Inmate #3",
+          "Jonathan Goad como Magistrate",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Sara Mitich como Lt. Cmdr. Nilsson",
+          "Orville Cummings como Lt. Christopher",
+          "Sochi Fried como Patri Doxica",
+          "Sima Sepehri como Lt. Adhar",
+          "Alireza Shojaei como Inmate #1",
+          "Aldrin Bundoc como Inmate #2"
+        ],
         "runtime": "51",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/383/959996.jpg"
       },
@@ -11352,19 +12263,42 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Seeking answers, the U.S.S. Discovery ventures into a subspace rift created by the Dark Matter Anomaly. Meanwhile, Book faces a strange visitor from his past.",
-        "guestCast": [],
+        "guestCast": [
+          "Annabelle Wallis como Zora",
+          "Ian Alexander como Gray Tal",
+          "Rothaford Gray como Book's Father",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "Sara Mitich como Lt. Cmdr. Nilsson",
+          "Raven Dauda como Dr. Tracy Pollard",
+          "Iván López como Ensign Cortez"
+        ],
         "runtime": "47",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/385/963602.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "49",
-        "title": "...But to Connect",
+        "title": "…But to Connect",
         "date": "2021-12-30",
         "productionCode": "",
         "stardate": "",
         "synopsis": "Tensions rise as representatives from across the galaxy gather to confront the threat of the Dark Matter Anomaly. Zora's new sentience raises difficult questions.",
-        "guestCast": [],
+        "guestCast": [
+          "Annabelle Wallis como Zora",
+          "Tara Rosling como President T'Rina",
+          "Chelah Horsdal como Federation President Laira Rillak",
+          "Ian Alexander como Gray Tal",
+          "David Cronenberg como Dr. Kovich",
+          "Shawn Doyle como Ruon Tarka",
+          "Phumzile Sitole como General Ndoye",
+          "Andreas Apergis como Trill Guardian Xi",
+          "Alex McCooeye como Lee'U",
+          "Giovanni Spina como Provost Sta'Kiar",
+          "Nicole Dickinson como Orion Delegate"
+        ],
         "runtime": "47",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/387/967695.jpg"
       },
@@ -11376,7 +12310,23 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Following a hunch, Captain Burnham tracks Book to an old haunt from their courier days and gets drawn into a high-stakes competition for a powerful weapon.",
-        "guestCast": [],
+        "guestCast": [
+          "Oded Fehr como Admiral Charles Vance",
+          "Annabelle Wallis como Zora",
+          "Chelah Horsdal como Federation President Laira Rillak",
+          "Shawn Doyle como Ruon Tarka",
+          "Daniel Kash como Haz Mazaro",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Emmanuel John como FHQ Security Officer",
+          "Michael Chan como FHQ Ops Officer",
+          "Nabil Khatib como Beefy Guy",
+          "Warren Scherer como Kurr",
+          "Jeff Kassel como Referee",
+          "Daniel DeSanto como Kurr's Manager",
+          "Jason Gosbee como Mat'Trub",
+          "Claudia Jurt como Zakari",
+          "Oksana Sirju como Cashier"
+        ],
         "runtime": "51",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/395/988897.jpg"
       },
@@ -11388,7 +12338,22 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Captain Burnham and the U.S.S. Discovery race to stop Book and Ruon Tarka from launching a rogue plan that could inadvertently endanger the galaxy.",
-        "guestCast": [],
+        "guestCast": [
+          "Oded Fehr como Admiral Charles Vance",
+          "Annabelle Wallis como Zora",
+          "Rachael Ancheril como Commander Nhan",
+          "Tara Rosling como President T'Rina",
+          "Shawn Doyle como Ruon Tarka",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Sara Mitich como Lt. Cmdr. Nilsson",
+          "Orville Cummings como Lt. Christopher",
+          "Fabio Tassone como Book's Ship Computer",
+          "Piotr Michael como Shuttle Computer"
+        ],
         "runtime": "45",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/396/991207.jpg"
       },
@@ -11400,7 +12365,25 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Captain Burnham and her crew must go where few have gone before: beyond the Galactic Barrier. Meanwhile, Book learns the truth of what drives Ruon Tarka.",
-        "guestCast": [],
+        "guestCast": [
+          "Oded Fehr como Admiral Charles Vance",
+          "Annabelle Wallis como Zora",
+          "Tara Rosling como President T'Rina",
+          "Chelah Horsdal como Federation President Laira Rillak",
+          "David Cronenberg como Dr. Kovich",
+          "Shawn Doyle como Ruon Tarka",
+          "Phumzile Sitole como General Ndoye",
+          "Hiro Kanagawa como Dr. Hirai",
+          "Osric Chau como Oros",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Sara Mitich como Lt. Cmdr. Nilsson",
+          "Orville Cummings como Lt. Christopher",
+          "Christopher Allen como Orion Guard"
+        ],
         "runtime": "52",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/397/993336.jpg"
       },
@@ -11412,7 +12395,22 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "While Captain Burnham leads an away mission to a planet that was once home to the aliens responsible for the DMA, Book and Tarka secretly infiltrate the U.S.S. Discovery.",
-        "guestCast": [],
+        "guestCast": [
+          "Tara Rosling como President T'Rina",
+          "Chelah Horsdal como Federation President Laira Rillak",
+          "Shawn Doyle como Ruon Tarka",
+          "Phumzile Sitole como General Ndoye",
+          "Hiro Kanagawa como Dr. Hirai",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Sara Mitich como Lt. Cmdr. Nilsson",
+          "Raven Dauda como Dr. Tracy Pollard",
+          "Piotr Michael como Shuttle Computer",
+          "Jas Dhanda como Engineer #2",
+          "Calyx Passailaigue como Engineer #1"
+        ],
         "runtime": "50",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/398/995791.jpg"
       },
@@ -11424,7 +12422,22 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "As the DMA approaches Earth and Ni'Var, Captain Burnham and the crew of the U.S.S. Discovery attempt to make First Contact with the powerful species responsible before it's too late.",
-        "guestCast": [],
+        "guestCast": [
+          "Annabelle Wallis como Zora",
+          "Tara Rosling como President T'Rina",
+          "Chelah Horsdal como Federation President Laira Rillak",
+          "Shawn Doyle como Ruon Tarka",
+          "Phumzile Sitole como General Ndoye",
+          "Hiro Kanagawa como Dr. Hirai",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Sara Mitich como Lt. Cmdr. Nilsson",
+          "Orville Cummings como Lt. Christopher",
+          "Fabio Tassone como Book's Ship Computer",
+          "Jahkeil Goldson como Science Officer"
+        ],
         "runtime": "51",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/399/997826.jpg"
       },
@@ -11436,7 +12449,29 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "In the season four finale, the DMA approaches Earth and Ni'Var. With evacuations underway, Burnham and the team aboard the U.S.S. Discovery must find a way to communicate and connect with a species far different from their own before time runs out.",
-        "guestCast": [],
+        "guestCast": [
+          "Oded Fehr como Admiral Charles Vance",
+          "Annabelle Wallis como Zora",
+          "Tara Rosling como President T'Rina",
+          "Chelah Horsdal como Federation President Laira Rillak",
+          "Shawn Doyle como Ruon Tarka",
+          "Phumzile Sitole como General Ndoye",
+          "Hiro Kanagawa como Dr. Hirai",
+          "Stacey Abrams como President of United Earth",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Sara Mitich como Lt. Cmdr. Nilsson",
+          "Raven Dauda como Dr. Tracy Pollard",
+          "Orville Cummings como Lt. Christopher",
+          "Fabio Tassone como Book's Ship Computer",
+          "Adrian Walters como Cadet Taahz Gorev",
+          "Emmanuel John como FHQ Security Officer",
+          "Seamus Patterson como Cadet Harral",
+          "Michael Chan como FHQ Ops Officer",
+          "Jean Paul Najm como FHQ Security Guard"
+        ],
         "runtime": "58",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/400/1000412.jpg"
       }
@@ -11450,7 +12485,28 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "After an 800-year-old Romulan vessel is found, Captain Burnham and the U.S.S. Discovery are sent to retrieve it. But the artifact inside is stolen, starting an epic chase. Saru is offered a lifetime position.",
-        "guestCast": [],
+        "guestCast": [
+          "Oded Fehr como Admiral Charles Vance",
+          "Annabelle Wallis como Zora",
+          "Tara Rosling como President T'Rina",
+          "David Cronenberg como Dr. Kovich",
+          "Eve Harlow como Malinne 'Moll' Ravel",
+          "Elias Toufexis como L'ak",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Orville Cummings como Lt. Christopher",
+          "Natalie Liconti como Lt. Gallo",
+          "Victoria Marie Sawal como Lt. Naya",
+          "Julianne Grossman como EV Suit Computer",
+          "Gregory Calderone como Lt. Jax",
+          "Addison Holley como Cadet Ross",
+          "Mei Chung como UFP Presidential Aide",
+          "Nicole Nwokolo como FHQ Security Officer",
+          "Michael Copeman como Dr. Vellek",
+          "J. Adam Brown como Fred"
+        ],
         "runtime": "60",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/512/1280375.jpg"
       },
@@ -11462,7 +12518,13 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "On Saru's last mission as Captain Burnham's Number One, the team ventures to a seemingly abandoned planet to hunt for what might be the greatest treasure in the galaxy.",
-        "guestCast": [],
+        "guestCast": [
+          "Oded Fehr como Admiral Charles Vance",
+          "Annabelle Wallis como Zora",
+          "Chelah Horsdal como Federation President Laira Rillak",
+          "Eve Harlow como Malinne 'Moll' Ravel",
+          "Elias Toufexis como L'ak"
+        ],
         "runtime": "53",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/512/1280376.jpg"
       },
@@ -11474,7 +12536,24 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "A new clue leads Discovery to a dangerous expedition on the planet Trill.",
-        "guestCast": [],
+        "guestCast": [
+          "Annabelle Wallis como Zora",
+          "Tara Rosling como President T'Rina",
+          "Ian Alexander como Gray Tal",
+          "Eve Harlow como Malinne 'Moll' Ravel",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Raven Dauda como Dr. Tracy Pollard",
+          "Orville Cummings como Lt. Christopher",
+          "Natalie Liconti como Lt. Gallo",
+          "Christina Dixon como Lt. Cmdr. Asha",
+          "Victoria Marie Sawal como Lt. Naya",
+          "Andreas Apergis como Trill Guardian Xi",
+          "Victor Andres Turgeon-Trelles como Duvin",
+          "Clare Coulter como Kalzara Bix",
+          "Glen Michael Grant como Delegate",
+          "Ingrid Rae Doucet como Moderator"
+        ],
         "runtime": "56",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/513/1283732.jpg"
       },
@@ -11486,7 +12565,21 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "On the way to the next clue, the U.S.S. Discovery is sabotaged by a mysterious weapon, leaving Captain Burnham, Rayner, and Stamets as the only crew members who can possibly save the ship in time.",
-        "guestCast": [],
+        "guestCast": [
+          "Hannah Cheesman como Lieutenant Commander Airiam",
+          "Annabelle Wallis como Zora",
+          "Eve Harlow como Malinne 'Moll' Ravel",
+          "Elias Toufexis como L'ak",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Orville Cummings como Lt. Christopher",
+          "Joshua Bainbridge como Regulator",
+          "James Cade como Weapons Dealer",
+          "Minh Ly como Construction Worker"
+        ],
         "runtime": "51",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/514/1286453.jpg"
       },
@@ -11498,7 +12591,19 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Burnham and Book face enemies and uncover a deadly new threat to Discovery.",
-        "guestCast": [],
+        "guestCast": [
+          "Annabelle Wallis como Zora",
+          "Eve Harlow como Malinne 'Moll' Ravel",
+          "Elias Toufexis como L'ak",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Orville Cummings como Lt. Christopher",
+          "Natalie Liconti como Lt. Gallo",
+          "Christina Dixon como Lt. Cmdr. Asha",
+          "Victoria Marie Sawal como Lt. Naya",
+          "Tony Nappo como Primarch Ruhn",
+          "Barnaby Carpenter como ISS Enterprise Computer"
+        ],
         "runtime": "56",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/516/1290125.jpg"
       },
@@ -11510,7 +12615,18 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "While undercover in a pre-warp society, Captain Burnham is forced to consider breaking the Prime Directive when a local tradition threatens Tilly's life. Meanwhile, Culber tries to connect with Stamets, and Adira steps up when Rayner assigns them a position on the bridge.",
-        "guestCast": [],
+        "guestCast": [
+          "Annabelle Wallis como Zora",
+          "David Cronenberg como Dr. Kovich",
+          "Maria del Mar como Abuela",
+          "Marium Carvell como Anorah",
+          "Alfredo Narciso como Ohvahz",
+          "June Laporte como Ravah",
+          "Orville Cummings como Lt. Christopher",
+          "Natalie Liconti como Lt. Gallo",
+          "Christina Dixon como Lt. Cmdr. Asha",
+          "Molly Lewis como Whistlespeaker"
+        ],
         "runtime": "57",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/517/1293047.jpg"
       },
@@ -11522,7 +12638,24 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "With Moll and L'ak finally in custody, the Federation is pulled into a diplomatic and ethical firestorm when the Breen arrive and demand they be handed over. Meanwhile, a frustrated Book looks for ways to help as Tilly, Adira, and Reno work to decipher the latest clue.",
-        "guestCast": [],
+        "guestCast": [
+          "Oded Fehr como Admiral Charles Vance",
+          "Annabelle Wallis como Zora",
+          "Rachael Ancheril como Commander Nhan",
+          "Tara Rosling como President T'Rina",
+          "Eve Harlow como Malinne 'Moll' Ravel",
+          "Elias Toufexis como L'ak",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Orville Cummings como Lt. Christopher",
+          "Natalie Liconti como Lt. Gallo",
+          "Christina Dixon como Lt. Cmdr. Asha",
+          "Victoria Marie Sawal como Lt. Naya",
+          "Tony Nappo como Primarch Ruhn",
+          "Dorren Lee como Lieutenant Teemo",
+          "Emmanuel John como FHQ Security Officer",
+          "Dorian Grey como Breen Lt. Arisar",
+          "Jason Lee Bell como FHQ Security Guard"
+        ],
         "runtime": "55",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/518/1295731.jpg"
       },
@@ -11534,7 +12667,23 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "When Captain Burnham is trapped within a \"mindscape\" designed to test her worthiness to retrieve the Progenitor's powerful technology, Book, Rayner, and the crew of the U.S.S. Discovery must hold off the Breen long enough for her to escape.",
-        "guestCast": [],
+        "guestCast": [
+          "Eve Harlow como Malinne 'Moll' Ravel",
+          "Elena Juatco como Hy'Rell",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Orville Cummings como Lt. Christopher",
+          "Natalie Liconti como Lt. Gallo",
+          "Christina Dixon como Lt. Cmdr. Asha",
+          "Victoria Marie Sawal como Lt. Naya",
+          "Tony Nappo como Primarch Ruhn",
+          "Zahra Bentham como Cmdr. Lorna Jemison",
+          "Dorian Grey como Breen Lt. Arisar",
+          "Joel Labelle como Breen Security Officer",
+          "Jordan Francis como Breen Helmsman",
+          "Jordan L'Abbe como Breen Ops",
+          "Glib Tretiakov como Breen Soldier"
+        ],
         "runtime": "58",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/519/1298694.jpg"
       },
@@ -11546,7 +12695,28 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "After Moll and the Breen capture a mysterious structure that contains the Progenitors' power, Captain Burnham must lead a covert mission to retrieve it before the Breen figure out how to use it.",
-        "guestCast": [],
+        "guestCast": [
+          "Annabelle Wallis como Zora",
+          "Tara Rosling como President T'Rina",
+          "Chelah Horsdal como Federation President Laira Rillak",
+          "Eve Harlow como Malinne 'Moll' Ravel",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Orville Cummings como Lt. Christopher",
+          "Natalie Liconti como Lt. Gallo",
+          "Christina Dixon como Lt. Cmdr. Asha",
+          "Victoria Marie Sawal como Lt. Naya",
+          "Zahra Bentham como Cmdr. Lorna Jemison",
+          "Dorian Grey como Breen Lt. Arisar",
+          "Eli Martyr como Breen Soldier",
+          "Jordan Collalto como Breen Soldier",
+          "Perrie Voss como Attaché Mia Greer",
+          "Tony Ofori como FHQ Comms Officer",
+          "Jordan Francis como Breen Soldier",
+          "Jordan L'Abbe como Breen Soldier",
+          "Dayton Sinkia como Breen Soldier",
+          "Makenzie Heaven Smith como Breen Scientist"
+        ],
         "runtime": "47",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/520/1300607.jpg"
       },
@@ -11558,7 +12728,31 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Trapped inside a mysterious alien portal that defies familiar rules of time, space, and gravity, Captain Burnham must fight Moll – and the environment itself – in order to locate the Progenitors' technology and secure it for the Federation. Meanwhile, Book puts himself in harm's way to help Burnham survive and Rayner leads the U.S.S. Discovery in an epic winner-takes-all battle against Breen forces.",
-        "guestCast": [],
+        "guestCast": [
+          "Oded Fehr como Admiral Charles Vance",
+          "Annabelle Wallis como Zora",
+          "Rachael Ancheril como Commander Nhan",
+          "Tara Rosling como President T'Rina",
+          "David Cronenberg como Dr. Kovich",
+          "Eve Harlow como Malinne 'Moll' Ravel",
+          "Sawandi Wilson como Leto",
+          "Somkele Iyamah como Progenitor",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Orville Cummings como Lt. Christopher",
+          "Natalie Liconti como Lt. Gallo",
+          "Christina Dixon como Lt. Cmdr. Asha",
+          "Victoria Marie Sawal como Lt. Naya",
+          "Piotr Michael como Shuttle Computer",
+          "Zahra Bentham como Cmdr. Lorna Jemison",
+          "Julianne Grossman como EV Suit Computer",
+          "Victor Andres Turgeon-Trelles como Duvin",
+          "Gregory Calderone como Lt. Jax",
+          "Patricia Summersett como Tahal"
+        ],
         "runtime": "86",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/521/1303786.jpg"
       }
@@ -11574,7 +12768,14 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Onboard the U.S.S. Discovery, Ensign Tilly encounters an unexpected visitor in need of help. However, this unlikely pair may have more in common than meets the eye.",
-        "guestCast": [],
+        "guestCast": [
+          "Yadira Guevara-Prip como Me Hani Ika Hali Ka Po",
+          "Mimi Kuzyk como Siobhan Tilly",
+          "Milton Barnes como Deck Crew #1",
+          "Joe Delfin como Worker Bee #1",
+          "Geet Arora como Worker Bee #2",
+          "Julianne Grossman como Discovery Computer"
+        ],
         "runtime": "15",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/174/436846.jpg"
       },
@@ -11586,7 +12787,9 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "After waking up in an unfamiliar sickbay, Craft finds himself on board a deserted ship, and his only companion and hope for survival is an A.I. computer interface.",
-        "guestCast": [],
+        "guestCast": [
+          "Sash Striga como Zora Holo-Dancer"
+        ],
         "runtime": "15",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/174/436850.jpg"
       },
@@ -11598,7 +12801,13 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Before he was the first Kelpien to join Starfleet, Saru lived a simple life on his home planet of Kaminar with his father and sister. Young Saru, full of ingenuity and a level of curiosity uncommon among his people, yearns to find out what lies beyond his village, leading him on an unexpected path.",
-        "guestCast": [],
+        "guestCast": [
+          "David Benjamin Tomlinson como Male Villager #1",
+          "Lisa Auguste como Female Villager #5",
+          "Adam Winlove-Smith como Male Villager #2",
+          "Clayton Scott como Male Villager #3",
+          "Krista Deady como Female Villager #4"
+        ],
         "runtime": "15",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/174/436851.jpg"
       },
@@ -11610,7 +12819,13 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Harry Mudd, back to his old tricks of stealing and double-dealing, finds himself in a precarious position aboard a hostile ship – just in time to try out his latest con.",
-        "guestCast": [],
+        "guestCast": [
+          "Myrthin Stagg como New Guard",
+          "Jonathan Watton como Federation Officer",
+          "Barbara Mamabolo como Bounty Hunter",
+          "Harry Judge como Tevrin Krit",
+          "Dan Abramovici como Guard"
+        ],
         "runtime": "15",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/176/441714.jpg"
       }
@@ -11624,7 +12839,11 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Ensign Spock's first day aboard the U.S.S. Enterprise doesn't go as planned when he and Number One are unexpectedly stuck together in a turbo lift.",
-        "guestCast": [],
+        "guestCast": [
+          "Jenette Goldstein como Enterprise Computer",
+          "Samora Smallwood como Lt. Amin",
+          "Sarah Evans como Upjohn"
+        ],
         "runtime": "14",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/214/535576.jpg"
       },
@@ -11636,7 +12855,13 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Newly minted Captain Lynne Lucero is excited to take command of the U.S.S.Cabot, until she meets Edward Larkin, an ornery scientist who believes he has found a revolutionary new use for tribbles...",
-        "guestCast": [],
+        "guestCast": [
+          "Loretta Shenosky como Cabot Computer",
+          "Krista Jang como Rob",
+          "John Jarvis como Admiral Quinn",
+          "Lisa Michelle Cornelius como Sarah",
+          "Matthew Gouveia como Noel"
+        ],
         "runtime": "15",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/214/537219.jpg"
       },
@@ -11648,55 +12873,63 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "When an attack on Starbase 28 leaves a surprise prisoner under Cadet Thira Sidhu's watch, she is faced with making a decision that may threaten her standing in Starfleet.",
-        "guestCast": [],
+        "guestCast": [
+          "Amrit Kaur como Cadet Thira Sidhu",
+          "Steve Boyle como Security Officer #1",
+          "Colette Whitaker como Station 28 Computer"
+        ],
         "runtime": "10",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/223/558985.jpg"
       },
       {
-        "displayNumber": "When Starbase 28 is attacked, Cadet Thira Sidhu is given care of a mutinous prisoner: Captain Christopher Pike of the Enterprise. Pike tries to pressure Sidhu into releasing him, but she refuses. He then reveals it is a simulated test that Sidhu has passed, allowing her to join the crew of the Enterprise.Cast : Anson Mount as Christopher Pike, Ethan Peck as Spock, Rebecca Romijn as Number One, and Amrit Kaur as Thira Sidhu",
-        "overallNumber": "When Starbase 28 is attacked, Cadet Thira Sidhu is given care of a mutinous prisoner: Captain Christopher Pike of the Enterprise. Pike tries to pressure Sidhu into releasing him, but she refuses. He then reveals it is a simulated test that Sidhu has passed, allowing her to join the crew of the Enterprise.Cast : Anson Mount as Christopher Pike, Ethan Peck as Spock, Rebecca Romijn as Number One, and Amrit Kaur as Thira Sidhu",
-        "title": "When Starbase 28 is attacked, Cadet Thira Sidhu is given care of a mutinous prisoner: Captain Christopher Pike of the Enterprise. Pike tries to pressure Sidhu into releasing him, but she refuses. He then reveals it is a simulated test that Sidhu has passed, allowing her to join the crew of the Enterprise.Cast : Anson Mount as Christopher Pike, Ethan Peck as Spock, Rebecca Romijn as Number One, and Amrit Kaur as Thira Sidhu",
+        "displayNumber": "4",
+        "overallNumber": "8",
+        "title": "Ephraim & Dot",
         "date": "2019-12-12",
         "productionCode": "",
         "stardate": "",
         "synopsis": "Ephraim, a humble tardigrade, is flying through the mycelial network when an unexpected encounter takes her on a bewildering adventure through space.",
-        "guestCast": [],
+        "guestCast": [
+          "Jenette Goldstein como Enterprise Computer",
+          "Kirk R. Thatcher como Narrator"
+        ],
         "runtime": "9",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/231/578066.jpg"
-      },
-      {
-        "displayNumber": "4",
-        "overallNumber": "8",
-        "title": "Ephraim and Dot",
-        "date": "2019-12-12",
-        "productionCode": "",
-        "stardate": "",
-        "synopsis": "When a lightning storm in space scares a young Michael Burnham, her father aims to ease her fears with a mythical story about a brave little girl who faced her own fears head on.",
-        "guestCast": [],
-        "runtime": "8",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/231/578084.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "9",
         "title": "The Girl Who Made the Stars",
-        "date": "2020-01-09",
+        "date": "2019-12-12",
         "productionCode": "",
         "stardate": "",
-        "synopsis": "12 year-old classmates Kima and Lil find themselves at odds with each other on a day that will change their lives forever.",
-        "guestCast": [],
+        "synopsis": "When a lightning storm in space scares a young Michael Burnham, her father aims to ease her fears with a mythical story about a brave little girl who faced her own fears head on.",
+        "guestCast": [
+          "Kenric Green como Mike Burnham",
+          "Kyrie McAlpin como Young Michael Burnham"
+        ],
         "runtime": "8",
-        "image": "https://static.tvmaze.com/uploads/images/original_untouched/235/588037.jpg"
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/231/578084.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "10",
         "title": "Children of Mars",
-        "date": "January 9, 2020",
+        "date": "2020-01-09",
         "productionCode": "",
         "stardate": "",
-        "synopsis": "",
-        "guestCast": []
+        "synopsis": "12 year-old classmates Kima and Lil find themselves at odds with each other on a day that will change their lives forever.",
+        "guestCast": [
+          "Robert Verlaque como Principal",
+          "Sadie Munroe como Lil",
+          "Andrea Davis como Teacher",
+          "Joy Castro como Mom",
+          "Alix Kell como Secretary",
+          "Jason Deline como Dad",
+          "Ilamaria Ebrahim como Kima"
+        ],
+        "runtime": "8",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/235/588037.jpg"
       }
     ]
   ],
@@ -11710,7 +12943,16 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "At the end of the 24th Century, and 14 years after his retirement from Starfleet, Jean-Luc Picard is living a quiet life on his vineyard, Chateau Picard. When he is sought out by a mysterious young woman, Dahj, in need of his help, he soon realizes she may have personal connections to his own past.",
-        "guestCast": [],
+        "guestCast": [
+          "Brent Spiner como Data",
+          "Orla Brady como Laris",
+          "Jamie McShane como Zhaban",
+          "Sumalee Montano como Dahj's Mother",
+          "David Carzell como Caler",
+          "Merrin Dungey como Richter",
+          "Douglas Tait como Tellarite",
+          "Maya Eshet como Index"
+        ],
         "runtime": "46",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/237/594351.jpg"
       },
@@ -11722,7 +12964,30 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Picard begins investigating the mystery of Dahj as well as what her very existence means to the Federation. Without Starfleet's support, Picard is left leaning on others for help, including Dr. Agnes Jurati and an estranged former colleague, Raffi Musiker. Meanwhile, hidden enemies are also interested in where Picard's search for the truth about Dahj will lead.",
-        "guestCast": [],
+        "guestCast": [
+          "Peyton List como Lieutenant Narissa Rizzo",
+          "Tamlyn Tomita como Commodore Oh",
+          "Orla Brady como Laris",
+          "Jamie McShane como Zhaban",
+          "Ann Magnuson como Admiral Kirsten Clancy",
+          "David Carzell como Caler",
+          "David Paymer como Dr. Moritz Benayoun",
+          "Chelsea Harris como Dr. Naáshala Kunamadèstifee",
+          "Marti Matulis como Checkpoint Supervisor",
+          "Wendy Davis como Dr. Kabath",
+          "Douglas Tait como Tellarite",
+          "Zachary James Rukavina como XB / Nameless",
+          "Alex Diehl como F8",
+          "Harrison Grant como Ensign",
+          "Chaka Desilva como Burley Fuelie",
+          "Paul Keeley como Philosophical Fuelie",
+          "Kate Fuglei como Kvetchy Fuelie",
+          "Tony Jones como Pincus",
+          "Brit Manor como Tough Fuelie",
+          "Jason Liles como Noiro",
+          "Meghan Lewis como Picard Computer / Plantia Computer",
+          "Lil Cory como XB Worker"
+        ],
         "runtime": "46",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/238/597159.jpg"
       },
@@ -11734,7 +12999,17 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Completely unaware of her special nature, Soji continues her work and captures the attention of the Borg cube research project's executive director. After rehashing past events with a reluctant Raffi, Picard seeks others willing to join his search for Bruce Maddox, including pilot and former Starfleet officer Cristóbal Rios.",
-        "guestCast": [],
+        "guestCast": [
+          "Peyton List como Lieutenant Narissa Rizzo",
+          "Tamlyn Tomita como Commodore Oh",
+          "Orla Brady como Laris",
+          "Rebecca Wisocky como Ramdha",
+          "Jamie McShane como Zhaban",
+          "Jonathan Del Arco como Hugh",
+          "Sumalee Montano como Dahj's Mother",
+          "Graham Shiels como Survivor",
+          "Son of Lee como Guard"
+        ],
         "runtime": "44",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/239/599600.jpg"
       },
@@ -11746,7 +13021,25 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "The crew's journey to Freecloud takes a detour when Picard orders a stop at the planet Vashti, where Picard and Raffi relocated Romulan refugees 14 years earlier. Upon arrival, Picard reunites with Elnor, a young Romulan he befriended during the relocation. Meanwhile, Narek continues his attempts to learn more about Soji while Narissa's impatience with his lack of progress grows.",
-        "guestCast": [],
+        "guestCast": [
+          "Jeri Ryan como Seven of Nine",
+          "Peyton List como Lieutenant Narissa Rizzo",
+          "Rebecca Wisocky como Ramdha",
+          "Amirah Vann como Zani",
+          "Evan Parke como Tenqem Andrev",
+          "Ian Nunney como Young Elnor",
+          "Kay Bess como La Sirena Computer",
+          "David Chattam como Kibitzer #2",
+          "Donny Boaz como Skantal",
+          "Ken Lyle como Fruit Vendor",
+          "Willow Geer como Refugee #1",
+          "Djamel Hamdad como Refugee #2",
+          "Erik Alvarez como Bidran",
+          "Jaime Barcelon como Waiter",
+          "Heather Wynters como Shai",
+          "Linda Nile como Kibitzer #3",
+          "Ciro Suarez como Kibitzer #1"
+        ],
         "runtime": "45",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/241/604637.jpg"
       },
@@ -11758,7 +13051,19 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "The La Sirena crew begin an unpredictable and lively expedition on Freecloud to search for Bruce Maddox. When they learn Maddox has found himself in a precarious situation, a familiar face offers her assistance.",
-        "guestCast": [],
+        "guestCast": [
+          "Jeri Ryan como Seven of Nine",
+          "Necar Zadegan como Bjayzl",
+          "Dominic Burgess como Mr. Vup",
+          "Mason Gooding como Gabriel Hwang",
+          "John Ales como Bruce Maddox",
+          "Kay Bess como La Sirena Computer",
+          "Casey Childs como Nightbox Piano Player",
+          "Sam Marra como Bartender",
+          "Landry Allbright como Chop Doc",
+          "Ayushi Chhabra como Pel",
+          "Casey King como Icheb"
+        ],
         "runtime": "47",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/242/607089.jpg"
       },
@@ -11770,7 +13075,16 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Picard and the crew track Soji to the Borg cube in Romulan space, resurfacing haunting memories for Picard. Meanwhile, Narek believes he finally found a way to safely exploit Soji for information.",
-        "guestCast": [],
+        "guestCast": [
+          "Peyton List como Lieutenant Narissa Rizzo",
+          "Jonathan Del Arco como Hugh",
+          "Sumalee Montano como Dahj's Mother",
+          "Barbara Eve Harris como Captain Emily \"Emmy\" Bosch",
+          "Marti Matulis como XB Worker",
+          "Ella Gross como Young Soji",
+          "Charlie Newhart como Romulan Guard",
+          "Rico McClinton como Older XB"
+        ],
         "runtime": "55",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/243/609621.jpg"
       },
@@ -11782,7 +13096,16 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Picard and Soji's escape via the Borg Trajector sends them to the planet Nepenthe, leaving Elnor and Hugh behind to face the wrath of Narissa, who proves she will stop at nothing to discover Soji's whereabouts. Picard helps Soji understand her origins, and seeks out old allies to help with their quest.",
-        "guestCast": [],
+        "guestCast": [
+          "Jonathan Frakes como Captain William Riker",
+          "Peyton List como Lieutenant Narissa Rizzo",
+          "Marina Sirtis como Deanna Troi",
+          "Tamlyn Tomita como Commodore Oh",
+          "Jonathan Del Arco como Hugh",
+          "Derek Webster como Tarent",
+          "Lulu Wilson como Kestra",
+          "Kay Bess como La Sirena Computer"
+        ],
         "runtime": "59",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/244/611756.jpg"
       },
@@ -11794,31 +13117,63 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "When devastating truths behind the Mars attack are revealed, Picard realizes just how far many will go to preserve secrets stretching back generations, all while the La Sirena crew grapples with secrets and revelations of their own. Narissa directs her guards to capture Elnor, setting off an unexpected chain of events on the Borg cube.",
-        "guestCast": [],
+        "guestCast": [
+          "Jeri Ryan como Seven of Nine",
+          "Peyton List como Lieutenant Narissa Rizzo",
+          "Tamlyn Tomita como Commodore Oh",
+          "Rebecca Wisocky como Ramdha",
+          "Derek Webster como Tarent",
+          "Ann Magnuson como Admiral Kirsten Clancy",
+          "Jane Hae Kim como Tal Shiar Female #1",
+          "Kendra Munger como Tal Shiar Female #2"
+        ],
         "runtime": "56",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/245/614950.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "9",
-        "title": "Et in Arcadia Ego",
+        "title": "Et in Arcadia Ego, Part 1",
         "date": "2020-03-19",
         "productionCode": "",
         "stardate": "",
         "synopsis": "Following an unconventional and dangerous transit, Picard and the crew finally arrive at Soji's home world, Coppelius. However, with Romulan warbirds on their tail, their arrival brings only greater danger as the crew discovers more than expected about the planet's inhabitants.",
-        "guestCast": [],
+        "guestCast": [
+          "Jeri Ryan como Seven of Nine",
+          "Brent Spiner como Dr. Altan Inigo Soong",
+          "Tamlyn Tomita como Commodore Oh",
+          "Zachary James Rukavina como XB / Nameless",
+          "Jade Ramsey como Arcana",
+          "Matt Perfetuo como Rune",
+          "Brian DeRozan como Romulan Officer",
+          "Nikita Ramsey como Saga",
+          "Mike Perfetuo como Codex"
+        ],
         "runtime": "46",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/247/617703.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "10",
-        "title": "Et in Arcadia Ego",
+        "title": "Et in Arcadia Ego, Part 2",
         "date": "2020-03-26",
         "productionCode": "",
         "stardate": "",
         "synopsis": "A final confrontation on the synthetics' homeworld, Coppelius, pits Picard and his team against the Romulans, as well as the synths who seek to safeguard their existence at all costs.",
-        "guestCast": [],
+        "guestCast": [
+          "Jeri Ryan como Seven of Nine",
+          "Jonathan Frakes como Captain William Riker",
+          "Brent Spiner como Data",
+          "Brent Spiner como Dr. Altan Inigo Soong",
+          "Peyton List como Lieutenant Narissa Rizzo",
+          "Tamlyn Tomita como Commodore Oh",
+          "Kay Bess como La Sirena Computer",
+          "Jade Ramsey como Arcana",
+          "Matt Perfetuo como Rune",
+          "Brian DeRozan como Romulan Officer",
+          "Nikita Ramsey como Saga",
+          "Mike Perfetuo como Codex"
+        ],
         "runtime": "58",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/248/621126.jpg"
       }
@@ -11832,7 +13187,23 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Starfleet must once again call on legendary Jean-Luc Picard after members of his former crew – Cristóbal Rios, Seven of Nine, Raffi Musiker, and Dr. Agnes Jurati – discover an anomaly in space that threatens the galaxy.",
-        "guestCast": [],
+        "guestCast": [
+          "John de Lancie como Q",
+          "Whoopi Goldberg como Guinan",
+          "Madeline Wise como Yvette Picard",
+          "Rich Ceraulo Ko como Handsome Deltan",
+          "Menik Gooneratne como Female Deltan",
+          "April Grace como Admiral Sally Whitley",
+          "Kay Bess como La Sirena Computer",
+          "Dylan Von Halle como Young Picard",
+          "Alex Diehl como Harvey",
+          "Geri-Nikole Love como Urtern",
+          "Richard Jin como Moshe",
+          "Anushka Rani como Lt. Sing",
+          "Adele Pomerenke como Kemi",
+          "Swati Kapila como Decorated Officer",
+          "Floyd Anthony Johns Jr. como Pirate #1"
+        ],
         "runtime": "56",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/399/998073.jpg"
       },
@@ -11844,7 +13215,16 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Picard finds himself transported to an alternate timeline in the year 2400 where his longtime nemesis, Q, has orchestrated one final \"trial.\" Picard searches for his trusted crew as he attempts to find the cause of this dystopian future.",
-        "guestCast": [],
+        "guestCast": [
+          "John de Lancie como Q",
+          "Annie Wersching como Borg Queen",
+          "Jon Jon Briones como First Magistrate",
+          "Patton Oswalt como Spot 73",
+          "Alex Diehl como Harvey",
+          "Paula Andrea Placido como Palace Soldier",
+          "Toni Belafonte como Zilah",
+          "Hanna-Lee Sakakibara como Romulan Rebel"
+        ],
         "runtime": "54",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/399/999491.jpg"
       },
@@ -11856,7 +13236,20 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Picard and the crew travel back to 2024 Los Angeles in search of the \"Watcher,\" who can help them identify the point at which time diverged. Seven, Raffi and Rios venture out into an unfamiliar world 400 years in their past, while Picard and Jurati attempt to gather information from an unlikely, and dangerous, ally.",
-        "guestCast": [],
+        "guestCast": [
+          "John de Lancie como Q",
+          "Annie Wersching como Borg Queen",
+          "Sol Rodríguez como Dr. Teresa Ramirez",
+          "Jon Jon Briones como First Magistrate",
+          "Chloe Wepper como Gabi",
+          "Steve Gutierrez como Ricardo",
+          "Gattlin Griffith como Mugger",
+          "Matt Kaminsky como Security Guard",
+          "Marcelo Tubert como Mr. Alvarez",
+          "Richard Chiu como Driver",
+          "Peter Lindstedt como ICE Officer #1",
+          "Maggie Pacleb como Little Girl"
+        ],
         "runtime": "47",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/400/1000383.jpg"
       },
@@ -11868,7 +13261,25 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "With time running out to save the future, Picard takes matters into his own hands and seeks out an old friend for help. Meanwhile, Rios ends up on the wrong side of the law and Jurati makes a deal with the Borg Queen.",
-        "guestCast": [],
+        "guestCast": [
+          "John de Lancie como Q",
+          "Annie Wersching como Borg Queen",
+          "Sol Rodríguez como Dr. Teresa Ramirez",
+          "Penelope Mitchell como Renée Picard",
+          "Madeline Wise como Yvette Picard",
+          "Ito Aghayere como Young Guinan",
+          "Leif Gantvoort como ICE Officer",
+          "Chloe Wepper como Gabi",
+          "Karl T. Wright como Helpful Man",
+          "Dylan Von Halle como Young Picard",
+          "Oscar Camacho como Pedro",
+          "Brian Quinn como Dale",
+          "Sean Freeland como Tall Man",
+          "Danielle Thorpe como LAPD Officer #1",
+          "Kelli Dawn Hancock como Officer Stauss",
+          "Kirk R. Thatcher como Mohawk Punk",
+          "Isabella Meneses como Small Girl"
+        ],
         "runtime": "45",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/401/1002850.jpg"
       },
@@ -11880,7 +13291,22 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Picard discovers an important person from his past may be integral to the divergence in the timeline. Q continues his manipulation of the timeline, taking an interest in Dr. Adam Soong. Seven and Raffi attempt a daring rescue of Rios, while Jurati faces the consequences of her deal with the Borg Queen.",
-        "guestCast": [],
+        "guestCast": [
+          "John de Lancie como Q",
+          "Annie Wersching como Borg Queen",
+          "Penelope Mitchell como Renée Picard",
+          "Ivo Nandi como Officer Leclerc",
+          "Leif Gantvoort como ICE Officer",
+          "Lea Thompson como Dr. Diane Werner",
+          "Jackie Geary como TBD",
+          "Kay Bess como La Sirena Computer",
+          "Shaw Jones como Guard #2",
+          "Kareem Stroud como Security Guard #2",
+          "Oscar Camacho como Pedro",
+          "Michelle Haro como Guard #1",
+          "Zach Sowers como Security Guard #1",
+          "Daniel Mooney como Young Man"
+        ],
         "runtime": "41",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/402/1006017.jpg"
       },
@@ -11892,7 +13318,19 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "With the help of Tallinn, Picard and the crew infiltrate a gala on the eve of a joint space mission, to protect one of the astronauts they believe to be integral to the restoration of the timeline – Renee Picard. Kore makes a startling discovery about her father's work.",
-        "guestCast": [],
+        "guestCast": [
+          "John de Lancie como Q",
+          "Annie Wersching como Borg Queen",
+          "Sol Rodríguez como Dr. Teresa Ramirez",
+          "Penelope Mitchell como Renée Picard",
+          "Shaw Jones como Guard #2",
+          "Kareem Stroud como Security Guard #2",
+          "Ren Hanami como Director Lee",
+          "Michelle Haro como Guard #1",
+          "Zach Sowers como Security Guard #1",
+          "Alexandre Chen como Cute Waiter",
+          "Richard Leacock como Commander Musa"
+        ],
         "runtime": "39",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/403/1008432.jpg"
       },
@@ -11904,7 +13342,21 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Tallinn ventures inside Picard's subconscious mind to help wake him from a coma and face both his darkest secrets and deepest fears. Seven and Raffi go in search of Jurati whom they fear has succumbed to the monster inside. Rios struggles to hide the truth of who he really is from Teresa.",
-        "guestCast": [],
+        "guestCast": [
+          "Sol Rodríguez como Dr. Teresa Ramirez",
+          "Madeline Wise como Yvette Picard",
+          "Ito Aghayere como Young Guinan",
+          "James Callis como Maurice Picard",
+          "Jay Karnes como Agent Wells",
+          "Ivo Nandi como Officer Leclerc",
+          "Steve Gutierrez como Ricardo",
+          "Dylan Von Halle como Young Picard",
+          "Cyrus Zoghi como Red Bearded Guy",
+          "Oscar Torre como Bartender",
+          "Marti Matulis como Prisoner",
+          "Travis Walck como Jester",
+          "Sunny Ozell como Singer"
+        ],
         "runtime": "46",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/404/1010564.jpg"
       },
@@ -11916,7 +13368,21 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "With time running out before the launch of the Europa Mission, Picard and Guinan must free themselves from FBI custody. Seven and Raffi come face-to-face with Jurati and the horror of what she's become.",
-        "guestCast": [],
+        "guestCast": [
+          "John de Lancie como Q",
+          "Sol Rodríguez como Dr. Teresa Ramirez",
+          "Ito Aghayere como Young Guinan",
+          "Jay Karnes como Agent Wells",
+          "Kay Bess como La Sirena Computer",
+          "Steve Gutierrez como Ricardo",
+          "Cyrus Zoghi como Red Bearded Guy",
+          "Oscar Torre como Bartender",
+          "Nanrisa Lee como FBI Agent",
+          "Chuti Tiu como Vulcan #2",
+          "Charles Maceo como Merc One",
+          "Jackson Garner como Young Wells",
+          "Eduardo Roman como Vulcan #1"
+        ],
         "runtime": "48",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/405/1014287.jpg"
       },
@@ -11928,7 +13394,15 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Picard and his crew fight for their lives as they come under attack from a new incarnation of an old enemy. But to survive, Picard must first face the ghosts of his past. Seven and Raffi have a final showdown with Jurati.",
-        "guestCast": [],
+        "guestCast": [
+          "Annie Wersching como Borg Queen",
+          "Sol Rodríguez como Dr. Teresa Ramirez",
+          "Madeline Wise como Yvette Picard",
+          "James Callis como Maurice Picard",
+          "Kay Bess como La Sirena Computer",
+          "Steve Gutierrez como Ricardo",
+          "Dylan Von Halle como Young Picard"
+        ],
         "runtime": "50",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/406/1016960.jpg"
       },
@@ -11940,7 +13414,19 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "With just hours until the Europa Launch, Picard and the crew find themselves in a race against time to save the future.",
-        "guestCast": [],
+        "guestCast": [
+          "John de Lancie como Q",
+          "Whoopi Goldberg como Guinan",
+          "Sol Rodríguez como Dr. Teresa Ramirez",
+          "Penelope Mitchell como Renée Picard",
+          "Wil Wheaton como Wesley Crusher",
+          "Steve Gutierrez como Ricardo",
+          "Geri-Nikole Love como Urtern",
+          "Richard Jin como Moshe",
+          "Anushka Rani como Lt. Sing",
+          "Ren Hanami como Director Lee",
+          "Adele Pomerenke como Kemi"
+        ],
         "runtime": "48",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/407/1019150.jpg"
       }
@@ -11949,120 +13435,311 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "1",
         "overallNumber": "21",
-        "title": "The Next Generation",
+        "title": "Part One: \"The Next Generation\"",
         "date": "2023-02-16",
         "productionCode": "",
         "stardate": "",
         "synopsis": "After receiving a cryptic, urgent distress call from Dr. Beverly Crusher, Admiral Jean-Luc Picard enlists help from generations old and new to embark on one final adventure: a daring mission that will change Starfleet, and his old crew forever.",
-        "guestCast": [],
+        "guestCast": [
+          "Jonathan Frakes como Captain William Riker",
+          "Gates McFadden como Dr. Beverly Crusher",
+          "Todd Stashwick como Captain Liam Shaw",
+          "Ashlei Sharpe Chestnut como Ensign Sidney La Forge",
+          "Orla Brady como Laris",
+          "Anthony Azizi como Orion",
+          "Joseph Lee como Lt. Matthew Arliss Mura",
+          "Jin Maley como Ensign Kova Rin Esmar",
+          "Stephanie Czajkowski como Lt. T'Veen",
+          "Chad Lindberg como Ensign Foster",
+          "Grace Lee como La Sirena Computer",
+          "Amy Earhart como Eleos Computer",
+          "Jani Wang como Bartender",
+          "Ric Sarabia como Human Patron",
+          "Grace Lee como Picard Chateau Computer",
+          "Christian Crandall como Dark Haired Man"
+        ],
         "runtime": "53",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/447/1118821.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "22",
-        "title": "Disengage",
+        "title": "Part Two: \"Disengage\"",
         "date": "2023-02-23",
         "productionCode": "",
         "stardate": "",
         "synopsis": "Aided by Seven of Nine and the crew of the U.S.S. Titan, Picard makes a shocking discovery that will alter his life forever - and puts him on a collision course with the most cunning enemy he's ever encountered. Meanwhile, Raffi races to track a catastrophic weapon - and collides with a familiar ally.",
-        "guestCast": [],
+        "guestCast": [
+          "Jonathan Frakes como Captain William Riker",
+          "Gates McFadden como Dr. Beverly Crusher",
+          "Michael Dorn como Worf",
+          "Todd Stashwick como Captain Liam Shaw",
+          "Ashlei Sharpe Chestnut como Ensign Sidney La Forge",
+          "Amanda Plummer como Vadic",
+          "Randy J. Goodwin como Jae Hwang",
+          "Aaron Stanford como Sneed",
+          "Robert Morgan como Fenris Ranger",
+          "Joseph Lee como Lt. Matthew Arliss Mura",
+          "Jin Maley como Ensign Kova Rin Esmar",
+          "Stephanie Czajkowski como Lt. T'Veen",
+          "Amy Earhart como Titan Computer",
+          "Tiffany Shepis como Dr. Ohk",
+          "Chad Lindberg como Ensign Foster",
+          "Grace Lee como La Sirena Computer",
+          "Amy Earhart como Eleos Computer",
+          "Adam Hunter como Security Officer",
+          "Naymon Frank como Guard"
+        ],
         "runtime": "49",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/449/1122858.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "23",
-        "title": "Seventeen Seconds",
+        "title": "Part Three: \"Seventeen Seconds\"",
         "date": "2023-03-02",
         "productionCode": "",
         "stardate": "",
         "synopsis": "Picard grapples with an explosive, life-altering revelation, while the Titan and her crew try to outmaneuver a relentless Vadic in a lethal game of nautical cat and mouse. Meanwhile, Raffi and Worf uncover a nefarious plot from a vengeful enemy Starfleet has long since forgotten.",
-        "guestCast": [],
+        "guestCast": [
+          "Jonathan Frakes como Captain William Riker",
+          "Gates McFadden como Dr. Beverly Crusher",
+          "Michael Dorn como Worf",
+          "Marina Sirtis como Deanna Troi",
+          "Todd Stashwick como Captain Liam Shaw",
+          "Ashlei Sharpe Chestnut como Ensign Sidney La Forge",
+          "Amanda Plummer como Vadic",
+          "Thomas Dekker como Titus Rikka",
+          "Joseph Lee como Lt. Matthew Arliss Mura",
+          "Jin Maley como Ensign Kova Rin Esmar",
+          "Stephanie Czajkowski como Lt. T'Veen",
+          "Amy Earhart como Titan Computer",
+          "Tiffany Shepis como Dr. Ohk",
+          "Chad Lindberg como Ensign Foster",
+          "Grace Lee como Eleos Computer",
+          "Allison Acosta como Ensign Vesco",
+          "Dean Neistat como Guard",
+          "Luis Avilez como Security Officer",
+          "Jermain Hollman como Ensign in Sickbay",
+          "Olivia Youngers como Ensign Riggs"
+        ],
         "runtime": "56",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/449/1124980.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "24",
-        "title": "No Win Scenario",
+        "title": "Part Four: \"No Win Scenario\"",
         "date": "2023-03-09",
         "productionCode": "",
         "stardate": "",
         "synopsis": "With time running out, Picard, Riker and crew must confront the sins of their past and heal fresh wounds, while the Titan, dead in the water, drifts helplessly toward certain destruction within a mysterious space anomaly.",
-        "guestCast": [],
+        "guestCast": [
+          "Jonathan Frakes como Captain William Riker",
+          "Gates McFadden como Dr. Beverly Crusher",
+          "Marina Sirtis como Deanna Troi",
+          "Todd Stashwick como Captain Liam Shaw",
+          "Ashlei Sharpe Chestnut como Ensign Sidney La Forge",
+          "Amanda Plummer como Vadic",
+          "Joseph Lee como Lt. Matthew Arliss Mura",
+          "Jin Maley como Ensign Kova Rin Esmar",
+          "Stephanie Czajkowski como Lt. T'Veen",
+          "Amy Earhart como Titan Computer",
+          "Tiffany Shepis como Dr. Ohk",
+          "Chad Lindberg como Ensign Foster",
+          "Garth Kemp como The Face",
+          "Yumarie Morales como Young Cadet",
+          "Jasmine Akakpo como Titan Ensign",
+          "Dylan J. Locke como Cadet #1"
+        ],
         "runtime": "58",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/451/1128155.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "25",
-        "title": "Imposters",
+        "title": "Part Five: \"Imposters\"",
         "date": "2023-03-16",
         "productionCode": "",
         "stardate": "",
         "synopsis": "Caught by Starfleet and facing court martial, paranoia grows as Picard struggles to uncover whether a prodigal crewman from his past has returned as an ally – or an enemy hellbent on destroying them all.",
-        "guestCast": [],
+        "guestCast": [
+          "Jonathan Frakes como Captain William Riker",
+          "Gates McFadden como Dr. Beverly Crusher",
+          "Michael Dorn como Worf",
+          "Michelle Forbes como Ro Laren",
+          "Todd Stashwick como Captain Liam Shaw",
+          "Ashlei Sharpe Chestnut como Ensign Sidney La Forge",
+          "Kirk Acevedo como Krinn",
+          "Joseph Lee como Lt. Matthew Arliss Mura",
+          "Jin Maley como Ensign Kova Rin Esmar",
+          "Stephanie Czajkowski como Lt. T'Veen",
+          "Amy Earhart como Titan Computer",
+          "Tiffany Shepis como Dr. Ohk",
+          "Grace Lee como La Sirena Computer",
+          "John Pope como Young Ensign",
+          "Alessandro Garcia como Intrepid Security Officer #1",
+          "Hope Brown como Transport Officer",
+          "Tarina Pouncy como Intrepid Security Officer #2",
+          "Justin Dobies como Bridge Security Officer",
+          "William Greenburg como Male Changeling Ensign"
+        ],
         "runtime": "55",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/452/1131118.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "26",
-        "title": "The Bounty",
+        "title": "Part Six: \"The Bounty\"",
         "date": "2023-03-23",
         "productionCode": "",
         "stardate": "",
         "synopsis": "Now on the run, Picard and the skeleton crew of the USS Titan must break into Starfleet's most top secret facility to expose a plot that could destroy the Federation. Picard must turn to an old friend for help.",
-        "guestCast": [],
+        "guestCast": [
+          "Jonathan Frakes como Captain William Riker",
+          "Gates McFadden como Dr. Beverly Crusher",
+          "Michael Dorn como Worf",
+          "Marina Sirtis como Deanna Troi",
+          "Brent Spiner como Data",
+          "LeVar Burton como Commodore Geordi La Forge",
+          "Brent Spiner como Dr. Altan Inigo Soong",
+          "Brent Spiner como Lore",
+          "Daniel Davis como James Moriarty",
+          "Todd Stashwick como Captain Liam Shaw",
+          "Ashlei Sharpe Chestnut como Ensign Sidney La Forge",
+          "Amanda Plummer como Vadic",
+          "Joseph Lee como Lt. Matthew Arliss Mura",
+          "Amy Earhart como Titan Computer",
+          "Mica Burton como Ensign Alandra La Forge",
+          "Vaughn Page como Shrike Bridge Changeling",
+          "Byron Quiros como Starfleet Lieutenant",
+          "Jin Maley como Ensign Kova Rin Esmar",
+          "Stephanie Czajkowski como Lt. T'Veen"
+        ],
         "runtime": "52",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/453/1133519.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "27",
-        "title": "Dominion",
+        "title": "Part Seven: \"Dominion\"",
         "date": "2023-03-30",
         "productionCode": "",
         "stardate": "",
         "synopsis": "Crippled, cornered, and out of options, Picard stages a gambit to trap Vadic and reveal her true motive – a gamble that puts the Titan in the crosshairs and forces Picard and Beverly to question every moral code they've ever held.",
-        "guestCast": [],
+        "guestCast": [
+          "Jonathan Frakes como Captain William Riker",
+          "Gates McFadden como Dr. Beverly Crusher",
+          "Brent Spiner como Data",
+          "LeVar Burton como Commodore Geordi La Forge",
+          "Brent Spiner como Lore",
+          "Tim Russ como Tuvok",
+          "Todd Stashwick como Captain Liam Shaw",
+          "Ashlei Sharpe Chestnut como Ensign Sidney La Forge",
+          "Amanda Plummer como Vadic",
+          "Joseph Lee como Lt. Matthew Arliss Mura",
+          "Jin Maley como Ensign Kova Rin Esmar",
+          "Stephanie Czajkowski como Lt. T'Veen",
+          "Mica Burton como Ensign Alandra La Forge",
+          "Jenson Cheng como Shrike Lieutenant",
+          "Garth Kemp como The Face"
+        ],
         "runtime": "46",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/456/1141971.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "28",
-        "title": "Surrender",
+        "title": "Part Eight: \"Surrender\"",
         "date": "2023-04-06",
         "productionCode": "",
         "stardate": "",
         "synopsis": "Vadic forces Picard to make an impossible choice: deliver what he can never give… or watch his crew perish. Their only salvation lies in the mind of an old friend and old foe.",
-        "guestCast": [],
+        "guestCast": [
+          "Jonathan Frakes como Captain William Riker",
+          "Gates McFadden como Dr. Beverly Crusher",
+          "Michael Dorn como Worf",
+          "Marina Sirtis como Deanna Troi",
+          "Brent Spiner como Data",
+          "LeVar Burton como Commodore Geordi La Forge",
+          "Brent Spiner como Lore",
+          "Todd Stashwick como Captain Liam Shaw",
+          "Ashlei Sharpe Chestnut como Ensign Sidney La Forge",
+          "Amanda Plummer como Vadic",
+          "Joseph Lee como Lt. Matthew Arliss Mura",
+          "Jin Maley como Ensign Kova Rin Esmar",
+          "Stephanie Czajkowski como Lt. T'Veen",
+          "Amy Earhart como Titan Computer",
+          "Mica Burton como Ensign Alandra La Forge",
+          "Jenson Cheng como Shrike Lieutenant",
+          "Olivia Youngers como Ensign Riggs"
+        ],
         "runtime": "52",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/456/1141969.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "29",
-        "title": "Võx",
+        "title": "Part Nine: \"Võx\"",
         "date": "2023-04-13",
         "productionCode": "",
         "stardate": "",
         "synopsis": "A devastating revelation about Jack alters the course of Picard's life forever – and uncovers a truth that threatens every soul in the Federation. The final battle begins as Picard and his crew race to save the galaxy from annihilation but not without a gut-wrenching cost.",
-        "guestCast": [],
+        "guestCast": [
+          "Jonathan Frakes como Captain William Riker",
+          "Gates McFadden como Dr. Beverly Crusher",
+          "Alice Krige como Borg Queen",
+          "Michael Dorn como Worf",
+          "Marina Sirtis como Deanna Troi",
+          "Brent Spiner como Data",
+          "LeVar Burton como Commodore Geordi La Forge",
+          "Todd Stashwick como Captain Liam Shaw",
+          "Ashlei Sharpe Chestnut como Ensign Sidney La Forge",
+          "Elizabeth Dennehy como Admiral Elizabeth Shelby",
+          "Joseph Lee como Lt. Matthew Arliss Mura",
+          "Jin Maley como Ensign Kova Rin Esmar",
+          "Amy Earhart como Titan Computer",
+          "Mica Burton como Ensign Alandra La Forge",
+          "Majel Barrett Roddenberry como Enterprise Computer",
+          "Jane Edwina Seymour como Borg Queen Body Double",
+          "Nolan North como Captain Benbassat",
+          "Grace Gregory como Security Officer"
+        ],
         "runtime": "47",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/456/1141966.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "30",
-        "title": "The Last Generation",
+        "title": "Part Ten: \"The Last Generation\"",
         "date": "2023-04-20",
         "productionCode": "",
         "stardate": "",
         "synopsis": "In a desperate last stand, Jean-Luc Picard and generations of crews both old and new fight together to save the galaxy from the greatest threat they've ever faced as the saga of Star Trek: The Next Generation comes to a thrilling, epic conclusion.",
-        "guestCast": [],
+        "guestCast": [
+          "Jonathan Frakes como Captain William Riker",
+          "Gates McFadden como Dr. Beverly Crusher",
+          "Alice Krige como Borg Queen",
+          "Michael Dorn como Worf",
+          "Marina Sirtis como Deanna Troi",
+          "Brent Spiner como Data",
+          "LeVar Burton como Commodore Geordi La Forge",
+          "Tim Russ como Tuvok",
+          "Walter Koenig como President Anton Chekov",
+          "Todd Stashwick como Captain Liam Shaw",
+          "Ashlei Sharpe Chestnut como Ensign Sidney La Forge",
+          "Joseph Lee como Lt. Matthew Arliss Mura",
+          "Jin Maley como Ensign Kova Rin Esmar",
+          "Amy Earhart como Titan Computer",
+          "Mica Burton como Ensign Alandra La Forge",
+          "Tiffany Shepis como Dr. Ohk",
+          "Majel Barrett Roddenberry como Enterprise Computer",
+          "Jane Edwina Seymour como Borg Queen Body Double",
+          "Randy J. Goodwin como Jae Hwang",
+          "David Chan como Mechanic",
+          "James MacKinnon como Starfleet Officer",
+          "John de Lancie como Q"
+        ],
         "runtime": "62",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/458/1145437.jpg"
       }
@@ -12078,7 +13755,14 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Ensign Tendi has her first day of work on Starfleet's U.S.S. Cerritos, where she meets fellow support crew members, Ensigns Mariner, Boimler and Rutherford. Meanwhile, Boimler is tasked with a secret special assignment and Rutherford attempts to keep his dating life intact while a sci-fi disaster strikes the ship.",
-        "guestCast": [],
+        "guestCast": [
+          "Paul Scheer como Lieutenant Commander Andarithio \"Andy\" Billups",
+          "Jessica McKenna como Ensign Barnes",
+          "Ben Rodgers como Lieutenant Commander Steve Stevens",
+          "Phil LaMarr como Admiral Alonzo Freeman",
+          "Jessica McKenna como Cerritos Computer",
+          "Phil LaMarr como Lieutenant Dirk"
+        ],
         "runtime": "26",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/267/668534.jpg"
       },
@@ -12090,7 +13774,19 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "After a high profile mission goes awry, Boimler is further plagued with self-doubt when Mariner proves herself to be a more naturally talented sci-fi badass than he. Rutherford quits his job in engineering and explores other departments on the U.S.S. Cerritos.",
-        "guestCast": [],
+        "guestCast": [
+          "Paul Scheer como Lieutenant Commander Andarithio \"Andy\" Billups",
+          "Jessica McKenna como Cerritos Computer",
+          "Tom Kenny como Ensign Casey",
+          "Kari Wahlgren como Anabaj",
+          "Jess Harnell como General K'orin",
+          "Tom Kenny como Quimp",
+          "Tom Kenny como Unnamed Cerritos science officer",
+          "Jessica McKenna como Unnamed Federation embassy officer",
+          "Jess Harnell como Unnamed Cerritos Napean lieutenant",
+          "Jess Harnell como Trans-dimensional energy creature",
+          "Ryan Ridley como Unnamed Cerritos Bajoran ensign"
+        ],
         "runtime": "25",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/268/670202.jpg"
       },
@@ -12102,7 +13798,17 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "A new work protocol eliminating \"buffer time\" has the Lower Decks crew running ragged as they try to keep up with their tightened schedules. Ensign Mariner and Commander Ransom's mutual lack of respect comes to a head during an away mission.",
-        "guestCast": [],
+        "guestCast": [
+          "Paul Scheer como Lieutenant Commander Andarithio \"Andy\" Billups",
+          "Jessica McKenna como Ensign Barnes",
+          "Jessica McKenna como Cerritos Computer",
+          "Neil Casey como Ensign Casey",
+          "Sam Richardson como Captain Vendome",
+          "Michelle Wong como Admiral Wong",
+          "Kevin Michael Richardson como Vindor",
+          "Neil Casey como Gernba",
+          "Nolan North como TBA"
+        ],
         "runtime": "24",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/268/670580.jpg"
       },
@@ -12114,7 +13820,17 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Captain Freeman seeks the ultimate payback after Mariner blatantly disrespects her in front of the crew. A well-meaning Tendi accidentally messes up a Lieutenant's attempt at spiritual ascension and tries to make it right.",
-        "guestCast": [],
+        "guestCast": [
+          "Paul Scheer como Lieutenant Commander Andarithio \"Andy\" Billups",
+          "Jessica McKenna como Ensign Barnes",
+          "Jessica McKenna como Cerritos Computer",
+          "Fred Tatasciore como Admiral Vassery",
+          "Eugene Cordero como Lieutenant Winger Bingston, Jr.",
+          "Eric Bauza como Cerritos Conn Officer",
+          "Al Rodrigo como Captain Durango",
+          "Haley Joel Osment como Lieutenant O'Connor",
+          "Vanessa Marshall como Merced Science Officer"
+        ],
         "runtime": "26",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/269/674813.jpg"
       },
@@ -12126,7 +13842,18 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Mariner is suspicious of Boimler's new girlfriend. Tendi and Rutherford grow jealous of a bigger starship's gear.",
-        "guestCast": [],
+        "guestCast": [
+          "Marcus Henderson como Ensign Jet Manhaver",
+          "Gillian Jacobs como Lieutenant Barbara \"Barb\" Brinson",
+          "Kari Wahlgren como Ensign Angie",
+          "Lauren Tom como Captain Nguyen",
+          "Gillian Vigman como Mixtus III Moon Generational Female",
+          "Matt Walsh como Lieutenant Commander Ron Docent",
+          "Fred Tatasciore como Mixtus II Settler",
+          "Eugene Cordero como Mixtus III Conspiracy Theorist",
+          "Nolan North como Ensign Niko",
+          "Eric Bauza como TBA"
+        ],
         "runtime": "25",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/271/678159.jpg"
       },
@@ -12138,7 +13865,18 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "The lovable, but awkward, Ensign Fletcher makes work difficult for Mariner and Boimler. Rutherford introduces Tendi to a holodeck training program he created.",
-        "guestCast": [],
+        "guestCast": [
+          "Paul Scheer como Lieutenant Commander Andarithio \"Andy\" Billups",
+          "Jessica McKenna como Ensign Barnes",
+          "Jessica McKenna como Cerritos Computer",
+          "Artemis Pebdani como Ensign Karavitus",
+          "Jack McBrayer como Badgey",
+          "Eugene Cordero como Lieutenant Winger Bingston, Jr.",
+          "Asif Ali como Ensign Asif",
+          "J.G. Hertzler como Drookmani Captain",
+          "Tim Robinson como Ensign Fletcher",
+          "Tim Robinson como Corrupted Isolinear Core"
+        ],
         "runtime": "25",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/272/681378.jpg"
       },
@@ -12150,7 +13888,15 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Mariner tries to impress her best friend from Starfleet Academy who is now a visiting Captain. Boimler is sent to a Starfleet medical ship after a transporter accident puts him \"out of phase.\"",
-        "guestCast": [],
+        "guestCast": [
+          "Toks Olagundoye como Captain Amina Ramsey",
+          "Gillian Vigman como Captain Dayton",
+          "Maurice LaMarche como Lieutenant Drew Prachett",
+          "Jennifer Hale como Lieutenant Durga",
+          "Jennifer Hale como The Dog",
+          "Vanessa Marshall como Lieutenant Ottessa Warren",
+          "Nolan North como Osler Ensign"
+        ],
         "runtime": "26",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/273/684365.jpg"
       },
@@ -12162,7 +13908,18 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Mariner, Boimler, Tendi, and Rutherford are caught off guard when aliens force them to testify about a series of seemingly unrelated events.",
-        "guestCast": [],
+        "guestCast": [
+          "John de Lancie como Q",
+          "Paul Scheer como Lieutenant Commander Andarithio \"Andy\" Billups",
+          "Ben Rodgers como Lieutenant Commander Steve Stevens",
+          "Kenneth Mitchell como Tweerk Captain",
+          "Kenneth Mitchell como Black Ops Operative #2",
+          "Kenneth Mitchell como Romulan Guard #1",
+          "Gillian Vigman como Alhambra Medical Officer",
+          "Dawnn Lewis como Alhambra Captain",
+          "Kurtwood Smith como Clar",
+          "Brandon Johnson como Black Ops Operative #1"
+        ],
         "runtime": "26",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/274/687127.jpg"
       },
@@ -12174,7 +13931,19 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Mariner repurposes Boimler's holodeck program to cast herself as the villain in a Lower Decks style movie.",
-        "guestCast": [],
+        "guestCast": [
+          "Paul Scheer como Lieutenant Commander Andarithio \"Andy\" Billups",
+          "Paul F. Tompkins como Dr. Gabers Migleemo",
+          "Ben Rodgers como Lieutenant Commander Steve Stevens",
+          "Nolan North como Chief Lars Lundy",
+          "Marcus Henderson como Ensign Jet Manhaver",
+          "Fred Tatasciore como Admiral Vassery",
+          "Eugene Cordero como Lieutenant Winger Bingston, Jr.",
+          "Gary Cole como Leonardo da Vinci",
+          "Gabrielle Ruiz como Lieutenant Lemonts",
+          "Tawny Newsome como Vindicta",
+          "Ben Rodgers como Shempo"
+        ],
         "runtime": "27",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/276/690030.jpg"
       },
@@ -12186,7 +13955,16 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Season finale. The U.S.S. Cerritos encounters a familiar enemy. Tendi helps a struggling recruit find her footing.",
-        "guestCast": [],
+        "guestCast": [
+          "Jonathan Frakes como Captain William T. Riker",
+          "Marina Sirtis como Commander Deanna Troi",
+          "Jack McBrayer como Badgey",
+          "Kether Donohue como Peanut Hamper",
+          "Kari Wahlgren como Anabaj",
+          "Rich Fulcher como Pakled Captain",
+          "Merrin Dungey como Solvang First Officer",
+          "Gillian Vigman como Captain Dayton"
+        ],
         "runtime": "29",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/277/692785.jpg"
       }
@@ -12200,7 +13978,18 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Approximately three months after the events of the season one finale, the U.S.S. Cerritos is dispatched on a mission where it ends up in a sci-fi event resulting in \"strange energy,\" which Commander Ransom inadvertently absorbs.",
-        "guestCast": [],
+        "guestCast": [
+          "Jonathan Frakes como Captain William T. Riker",
+          "Jessica McKenna como Ensign Barnes",
+          "Ben Rodgers como Lieutenant Commander Steve Stevens",
+          "Lauren Lapkus como Ensign Jennifer Sh'reyan",
+          "Phil LaMarr como Admiral Alonzo Freeman",
+          "Nolan North como Chief Lars Lundy",
+          "Eric Bauza como Cerritos Conn Officer",
+          "Missi Pyle como Cardassian Interrogator",
+          "Neil Casey como tbd",
+          "Randall Park como Apergosian High Leader"
+        ],
         "runtime": "25",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/348/870884.jpg"
       },
@@ -12212,7 +14001,21 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Our Lower Deckers have trouble bonding with Ensign Jet Manhaver, who has been assigned Boimler's bunk and shift duties. Meanwhile, we get a glimpse of Boimler's life on the U.S.S. Titan, which is more intense than he thought it would be.",
-        "guestCast": [],
+        "guestCast": [
+          "Jonathan Frakes como Captain William T. Riker",
+          "Jessica McKenna como Ensign Barnes",
+          "Carl Tart como Lieutenant Kayshon",
+          "Paul F. Tompkins como Dr. Gabers Migleemo",
+          "Ben Rodgers como Lieutenant Commander Steve Stevens",
+          "Nolan North como Chief Lars Lundy",
+          "Marcus Henderson como Ensign Jet Manhaver",
+          "Jack Quaid como Capt. William Boimler",
+          "Rich Fulcher como Pakled Captain",
+          "Vanessa Marshall como Titan's first officer",
+          "Eugene Cordero como Chairman Siggi",
+          "Robert Gilbert como tbd",
+          "Ryan Stanger como Titan's Tactical Officer"
+        ],
         "runtime": "25",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/350/875107.jpg"
       },
@@ -12224,7 +14027,9 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Assigned a special task by Dr. T'Ana, Tendi enlists Mariner for help. On the U.S.S. Cerritos , Rutherford is consumed by a bridge crew mystery.",
-        "guestCast": [],
+        "guestCast": [
+          "Robert Duncan McNeill como Lieutenant Tom Paris"
+        ],
         "runtime": "25",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/351/879932.jpg"
       },
@@ -12248,7 +14053,12 @@ export var SERIES_EPISODE_DETAILS = {
         "productionCode": "",
         "stardate": "",
         "synopsis": "Mariner and Boimler try to track down the location of a legendary Starfleet party while the bridge crew deals with an insecure alien diplomat.",
-        "guestCast": [],
+        "guestCast": [
+          "Paul Scheer como Lieutenant Commander Andarithio \"Andy\" Billups",
+          "Tom Kenny como Malvus",
+          "Richard Kind como Doopler",
+          "Jenifer Lewis como Bartender"
+        ],
         "runtime": "24",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/355/889459.jpg"
       },
@@ -12597,7 +14407,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "4",
         "overallNumber": "44",
-        "title": "A Farewell To Farms",
+        "title": "A Farewell to Farms",
         "date": "2024-11-07",
         "productionCode": "",
         "stardate": "",
@@ -12697,7 +14507,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "2",
         "overallNumber": "2",
-        "title": "Lost and Found",
+        "title": "Starstruck",
         "date": "2021-11-04",
         "productionCode": "",
         "stardate": "",
@@ -12709,7 +14519,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "3",
         "overallNumber": "3",
-        "title": "Starstruck",
+        "title": "Dream Catcher",
         "date": "2021-11-11",
         "productionCode": "",
         "stardate": "",
@@ -12721,7 +14531,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "4",
         "overallNumber": "4",
-        "title": "Dream Catcher",
+        "title": "Terror Firma",
         "date": "2021-11-18",
         "productionCode": "",
         "stardate": "",
@@ -12733,7 +14543,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "5",
         "overallNumber": "5",
-        "title": "Terror Firma",
+        "title": "Kobayashi",
         "date": "2022-01-06",
         "productionCode": "",
         "stardate": "",
@@ -12745,7 +14555,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "6",
         "overallNumber": "6",
-        "title": "Kobayashi",
+        "title": "First Contact",
         "date": "2022-01-13",
         "productionCode": "",
         "stardate": "",
@@ -12757,7 +14567,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "7",
         "overallNumber": "7",
-        "title": "First Con-tact",
+        "title": "Time Amok",
         "date": "2022-01-20",
         "productionCode": "",
         "stardate": "",
@@ -12769,7 +14579,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "8",
         "overallNumber": "8",
-        "title": "Time Amok",
+        "title": "A Moral Star, Part 1",
         "date": "2022-01-27",
         "productionCode": "",
         "stardate": "",
@@ -12781,7 +14591,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "9",
         "overallNumber": "9",
-        "title": "A Moral Star",
+        "title": "A Moral Star, Part 2",
         "date": "2022-02-03",
         "productionCode": "",
         "stardate": "",
@@ -12793,7 +14603,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "10",
         "overallNumber": "10",
-        "title": "A Moral Star",
+        "title": "Asylum",
         "date": "2022-10-27",
         "productionCode": "",
         "stardate": "",
@@ -12805,7 +14615,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "11",
         "overallNumber": "11",
-        "title": "Asylum",
+        "title": "Let Sleeping Borg Lie",
         "date": "2022-11-03",
         "productionCode": "",
         "stardate": "",
@@ -12817,7 +14627,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "12",
         "overallNumber": "12",
-        "title": "Let Sleeping Borg Lie",
+        "title": "All the World's a Stage",
         "date": "2022-11-10",
         "productionCode": "",
         "stardate": "",
@@ -12829,7 +14639,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "13",
         "overallNumber": "13",
-        "title": "All the World's a Stage",
+        "title": "Crossroads",
         "date": "2022-11-17",
         "productionCode": "",
         "stardate": "",
@@ -12841,7 +14651,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "14",
         "overallNumber": "14",
-        "title": "Crossroads",
+        "title": "Masquerade",
         "date": "2022-11-24",
         "productionCode": "",
         "stardate": "",
@@ -12853,7 +14663,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "15",
         "overallNumber": "15",
-        "title": "Masquerade",
+        "title": "Preludes",
         "date": "2022-12-01",
         "productionCode": "",
         "stardate": "",
@@ -12865,7 +14675,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "16",
         "overallNumber": "16",
-        "title": "Preludes",
+        "title": "Ghost in the Machine",
         "date": "2022-12-08",
         "productionCode": "",
         "stardate": "",
@@ -12877,7 +14687,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "17",
         "overallNumber": "17",
-        "title": "Ghost in the Machine",
+        "title": "Mindwalk",
         "date": "2022-12-15",
         "productionCode": "",
         "stardate": "",
@@ -12889,7 +14699,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "18",
         "overallNumber": "18",
-        "title": "Mindwalk",
+        "title": "Supernova, Part 1",
         "date": "2022-12-22",
         "productionCode": "",
         "stardate": "",
@@ -12901,7 +14711,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "19",
         "overallNumber": "19",
-        "title": "Supernova",
+        "title": "Supernova, Part 2",
         "date": "2022-12-29",
         "productionCode": "",
         "stardate": "",
@@ -12909,23 +14719,13 @@ export var SERIES_EPISODE_DETAILS = {
         "guestCast": [],
         "runtime": "24",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/438/1095234.jpg"
-      },
-      {
-        "displayNumber": "20",
-        "overallNumber": "20",
-        "title": "Supernova",
-        "date": "December 29, 2022",
-        "productionCode": "",
-        "stardate": "",
-        "synopsis": "",
-        "guestCast": []
       }
     ],
     [
       {
         "displayNumber": "1",
-        "overallNumber": "21",
-        "title": "Into the Breach",
+        "overallNumber": "20",
+        "title": "Into the Breach, Part I",
         "date": "2024-07-01",
         "productionCode": "",
         "stardate": "",
@@ -12936,8 +14736,8 @@ export var SERIES_EPISODE_DETAILS = {
       },
       {
         "displayNumber": "2",
-        "overallNumber": "22",
-        "title": "Into the Breach",
+        "overallNumber": "21",
+        "title": "Into the Breach, Part II",
         "date": "2024-07-01",
         "productionCode": "",
         "stardate": "",
@@ -12948,7 +14748,7 @@ export var SERIES_EPISODE_DETAILS = {
       },
       {
         "displayNumber": "3",
-        "overallNumber": "23",
+        "overallNumber": "22",
         "title": "Who Saves the Saviors",
         "date": "2024-07-01",
         "productionCode": "",
@@ -12960,7 +14760,7 @@ export var SERIES_EPISODE_DETAILS = {
       },
       {
         "displayNumber": "4",
-        "overallNumber": "24",
+        "overallNumber": "23",
         "title": "Temporal Mechanics 101",
         "date": "2024-07-01",
         "productionCode": "",
@@ -12972,7 +14772,7 @@ export var SERIES_EPISODE_DETAILS = {
       },
       {
         "displayNumber": "5",
-        "overallNumber": "25",
+        "overallNumber": "24",
         "title": "Observer's Paradox",
         "date": "2024-07-01",
         "productionCode": "",
@@ -12984,7 +14784,7 @@ export var SERIES_EPISODE_DETAILS = {
       },
       {
         "displayNumber": "6",
-        "overallNumber": "26",
+        "overallNumber": "25",
         "title": "Imposter Syndrome",
         "date": "2024-07-01",
         "productionCode": "",
@@ -12996,7 +14796,7 @@ export var SERIES_EPISODE_DETAILS = {
       },
       {
         "displayNumber": "7",
-        "overallNumber": "27",
+        "overallNumber": "26",
         "title": "The Fast and the Curious",
         "date": "2024-07-01",
         "productionCode": "",
@@ -13008,7 +14808,7 @@ export var SERIES_EPISODE_DETAILS = {
       },
       {
         "displayNumber": "8",
-        "overallNumber": "28",
+        "overallNumber": "27",
         "title": "Is There in Beauty No Truth?",
         "date": "2024-07-01",
         "productionCode": "",
@@ -13020,8 +14820,8 @@ export var SERIES_EPISODE_DETAILS = {
       },
       {
         "displayNumber": "9",
-        "overallNumber": "29",
-        "title": "The Devourer of All Things",
+        "overallNumber": "28",
+        "title": "The Devourer of All Things, Part I",
         "date": "2024-07-01",
         "productionCode": "",
         "stardate": "",
@@ -13032,8 +14832,8 @@ export var SERIES_EPISODE_DETAILS = {
       },
       {
         "displayNumber": "10",
-        "overallNumber": "30",
-        "title": "The Devourer of All Things",
+        "overallNumber": "29",
+        "title": "The Devourer of All Things, Part II",
         "date": "2024-07-01",
         "productionCode": "",
         "stardate": "",
@@ -13044,8 +14844,8 @@ export var SERIES_EPISODE_DETAILS = {
       },
       {
         "displayNumber": "11",
-        "overallNumber": "31",
-        "title": "Last Flight of the Protostar",
+        "overallNumber": "30",
+        "title": "Last Flight of the Protostar, Part I",
         "date": "2024-07-01",
         "productionCode": "",
         "stardate": "",
@@ -13056,8 +14856,8 @@ export var SERIES_EPISODE_DETAILS = {
       },
       {
         "displayNumber": "12",
-        "overallNumber": "32",
-        "title": "Last Flight of the Protostar",
+        "overallNumber": "31",
+        "title": "Last Flight of the Protostar, Part II",
         "date": "2024-07-01",
         "productionCode": "",
         "stardate": "",
@@ -13068,7 +14868,7 @@ export var SERIES_EPISODE_DETAILS = {
       },
       {
         "displayNumber": "13",
-        "overallNumber": "33",
+        "overallNumber": "32",
         "title": "A Tribble Called Quest",
         "date": "2024-07-01",
         "productionCode": "",
@@ -13080,7 +14880,7 @@ export var SERIES_EPISODE_DETAILS = {
       },
       {
         "displayNumber": "14",
-        "overallNumber": "34",
+        "overallNumber": "33",
         "title": "Cracked Mirror",
         "date": "2024-07-01",
         "productionCode": "",
@@ -13092,8 +14892,8 @@ export var SERIES_EPISODE_DETAILS = {
       },
       {
         "displayNumber": "15",
-        "overallNumber": "35",
-        "title": "Ascension",
+        "overallNumber": "34",
+        "title": "Ascension, Part I",
         "date": "2024-07-01",
         "productionCode": "",
         "stardate": "",
@@ -13104,8 +14904,8 @@ export var SERIES_EPISODE_DETAILS = {
       },
       {
         "displayNumber": "16",
-        "overallNumber": "36",
-        "title": "Ascension",
+        "overallNumber": "35",
+        "title": "Ascension, Part II",
         "date": "2024-07-01",
         "productionCode": "",
         "stardate": "",
@@ -13116,7 +14916,7 @@ export var SERIES_EPISODE_DETAILS = {
       },
       {
         "displayNumber": "17",
-        "overallNumber": "37",
+        "overallNumber": "36",
         "title": "Brink",
         "date": "2024-07-01",
         "productionCode": "",
@@ -13128,7 +14928,7 @@ export var SERIES_EPISODE_DETAILS = {
       },
       {
         "displayNumber": "18",
-        "overallNumber": "38",
+        "overallNumber": "37",
         "title": "Touch of Grey",
         "date": "2024-07-01",
         "productionCode": "",
@@ -13140,8 +14940,8 @@ export var SERIES_EPISODE_DETAILS = {
       },
       {
         "displayNumber": "19",
-        "overallNumber": "39",
-        "title": "Ouroboros",
+        "overallNumber": "38",
+        "title": "Ouroboros, Part I",
         "date": "2024-07-01",
         "productionCode": "",
         "stardate": "",
@@ -13152,8 +14952,8 @@ export var SERIES_EPISODE_DETAILS = {
       },
       {
         "displayNumber": "20",
-        "overallNumber": "40",
-        "title": "Ouroboros",
+        "overallNumber": "39",
+        "title": "Ouroboros, Part II",
         "date": "2024-07-01",
         "productionCode": "",
         "stardate": "",
@@ -13193,7 +14993,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "3",
         "overallNumber": "3",
-        "title": "Ghosts of Illyria",
+        "title": "Ghost of Illyria",
         "date": "2022-05-19",
         "productionCode": "",
         "stardate": "",
@@ -13303,7 +15103,7 @@ export var SERIES_EPISODE_DETAILS = {
       {
         "displayNumber": "2",
         "overallNumber": "12",
-        "title": "Ad Astra per Aspera",
+        "title": "Ad Astra Per Aspera",
         "date": "2023-06-22",
         "productionCode": "",
         "stardate": "",
@@ -13529,18 +15329,6 @@ export var SERIES_EPISODE_DETAILS = {
         "guestCast": [],
         "runtime": "56",
         "image": "https://static.tvmaze.com/uploads/images/original_untouched/587/1468252.jpg"
-      }
-    ],
-    [
-      {
-        "displayNumber": "1",
-        "overallNumber": "31",
-        "title": "TBA",
-        "date": "2026",
-        "productionCode": "",
-        "stardate": "",
-        "synopsis": "",
-        "guestCast": []
       }
     ]
   ],

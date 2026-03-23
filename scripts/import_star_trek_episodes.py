@@ -171,7 +171,7 @@ def fetch_guest_cast(episode_id: int) -> list[str]:
     return credits
 
 
-def fetch_tvmaze_payload(show_id: int) -> tuple[list[str], dict[tuple[int, int], dict[str, object]]]:
+def fetch_tvmaze_payload(show_id: int) -> tuple[list[str], dict[int, list[dict[str, object]]]]:
     regular_entries = fetch_json(f"https://api.tvmaze.com/shows/{show_id}/cast")
     regular_cast = []
     regular_seen = set()
@@ -182,32 +182,36 @@ def fetch_tvmaze_payload(show_id: int) -> tuple[list[str], dict[tuple[int, int],
             regular_seen.add(label)
 
     episodes = fetch_json(f"https://api.tvmaze.com/shows/{show_id}/episodes")
-    episode_map: dict[tuple[int, int], dict[str, object]] = {}
+    season_map: dict[int, list[dict[str, object]]] = {}
     episode_ids: dict[tuple[int, int], int] = {}
+
     for episode in episodes:
         season = int(episode.get("season") or 0)
         number = int(episode.get("number") or 0)
         if season < 1 or number < 1:
             continue
-        episode_map[(season, number)] = {
+        season_map.setdefault(season, []).append({
+            "season": season,
+            "number": number,
+            "name": clean_html_text(episode.get("name", "")),
             "summary": clean_html_text(episode.get("summary", "")),
             "airdate": clean_html_text(episode.get("airdate", "")),
             "runtime": clean_html_text(episode.get("runtime", "")),
             "image": ((episode.get("image") or {}).get("original") or (episode.get("image") or {}).get("medium") or ""),
             "guestCast": [],
-        }
+        })
         episode_ids[(season, number)] = int(episode["id"])
 
     with ThreadPoolExecutor(max_workers=8) as executor:
         future_map = {executor.submit(fetch_guest_cast, episode_id): key for key, episode_id in episode_ids.items()}
         for future in as_completed(future_map):
-            key = future_map[future]
+            season, number = future_map[future]
             try:
-                episode_map[key]["guestCast"] = future.result()
+                season_map[season][number - 1]["guestCast"] = future.result()
             except Exception:
-                episode_map[key]["guestCast"] = []
+                season_map[season][number - 1]["guestCast"] = []
 
-    return regular_cast, episode_map
+    return regular_cast, season_map
 
 
 def enrich_with_tvmaze(slug: str, seasons: list[list[dict[str, object]]]) -> tuple[list[list[dict[str, object]]], list[str]]:
@@ -215,24 +219,41 @@ def enrich_with_tvmaze(slug: str, seasons: list[list[dict[str, object]]]) -> tup
     if not show_id:
         return seasons, []
 
-    regular_cast, episode_map = fetch_tvmaze_payload(show_id)
+    regular_cast, season_map = fetch_tvmaze_payload(show_id)
+    overall_counter = 0
+    normalized_seasons: list[list[dict[str, object]]] = []
 
-    for season_index, season in enumerate(seasons, start=1):
-        for episode_index, episode in enumerate(season, start=1):
-            tvmaze_entry = episode_map.get((season_index, episode_index))
-            if not tvmaze_entry:
-                continue
-            if tvmaze_entry.get("summary"):
-                episode["synopsis"] = tvmaze_entry["summary"]
-            if tvmaze_entry.get("airdate"):
-                episode["date"] = tvmaze_entry["airdate"]
-            if tvmaze_entry.get("runtime"):
-                episode["runtime"] = tvmaze_entry["runtime"]
-            if tvmaze_entry.get("image"):
-                episode["image"] = tvmaze_entry["image"]
-            episode["guestCast"] = tvmaze_entry.get("guestCast") or []
+    for season_index in sorted(season_map.keys()):
+        tvmaze_season = season_map[season_index]
+        wiki_season = seasons[season_index - 1] if season_index - 1 < len(seasons) else []
+        merged_season: list[dict[str, object]] = []
 
-    return seasons, regular_cast
+        for episode_index, tvmaze_episode in enumerate(tvmaze_season, start=1):
+            overall_counter += 1
+            wiki_episode = wiki_season[episode_index - 1] if episode_index - 1 < len(wiki_season) else {}
+            production_code = str(wiki_episode.get("productionCode", "")) if wiki_episode else ""
+            stardate = str(wiki_episode.get("stardate", "")) if wiki_episode else ""
+            if len(production_code) > 30:
+                production_code = ""
+            if len(stardate) > 30:
+                stardate = ""
+
+            merged_season.append({
+                "displayNumber": str(episode_index),
+                "overallNumber": str(overall_counter),
+                "title": tvmaze_episode.get("name", "") or str(wiki_episode.get("title", "")),
+                "date": tvmaze_episode.get("airdate", "") or str(wiki_episode.get("date", "")),
+                "productionCode": production_code,
+                "stardate": stardate,
+                "synopsis": tvmaze_episode.get("summary", ""),
+                "guestCast": tvmaze_episode.get("guestCast") or [],
+                "runtime": tvmaze_episode.get("runtime", ""),
+                "image": tvmaze_episode.get("image", ""),
+            })
+
+        normalized_seasons.append(merged_season)
+
+    return normalized_seasons, regular_cast
 
 
 def main() -> None:
