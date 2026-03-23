@@ -222,14 +222,11 @@
         <button id="close-quick-video-modal" class="movies-modal__close" type="button" aria-label="Cerrar video">X</button>
       </div>
       <div class="video-modal__frame">
-        <iframe
-          src="https://www.youtube-nocookie.com/embed/qHWlccpsYIA?rel=0"
-          title="Montaje visual de Star Trek sin voces en grande"
-          loading="lazy"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+        <div
+          id="quick-video-frame-host"
+          data-video-src="https://www.youtube-nocookie.com/embed/qHWlccpsYIA?rel=0&autoplay=1"
+          data-video-title="Montaje visual de Star Trek sin voces en grande"
+        ></div>
       </div>
     </div>
   </dialog>

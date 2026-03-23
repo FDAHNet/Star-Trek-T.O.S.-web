@@ -43,7 +43,7 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
   var openQuickVideoModalButton = document.getElementById("open-quick-video-modal");
   var closeQuickVideoModalButton = document.getElementById("close-quick-video-modal");
   var quickVideoModal = document.getElementById("quick-video-modal");
-  var quickVideoModalFrame = quickVideoModal ? quickVideoModal.querySelector("iframe") : null;
+  var quickVideoFrameHost = document.getElementById("quick-video-frame-host");
   var starField = document.querySelector(".stars");
   var anniversaryBanner = document.getElementById("anniversary-banner");
 
@@ -1352,27 +1352,36 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
       return;
     }
 
-    var quickVideoSrc = quickVideoModalFrame ? quickVideoModalFrame.getAttribute("src") : "";
+    var quickVideoSrc = quickVideoFrameHost ? quickVideoFrameHost.getAttribute("data-video-src") : "";
+    var quickVideoTitle = quickVideoFrameHost ? quickVideoFrameHost.getAttribute("data-video-title") : "Video de Star Trek";
 
-    function resetQuickVideoFrame() {
-      if (!quickVideoModalFrame) {
+    function destroyQuickVideoFrame() {
+      if (!quickVideoFrameHost) {
         return;
       }
 
-      quickVideoModalFrame.setAttribute("src", "about:blank");
-      quickVideoModalFrame.setAttribute("src", "");
+      quickVideoFrameHost.innerHTML = "";
     }
 
-    function restoreQuickVideoFrame() {
-      if (!quickVideoModalFrame || !quickVideoSrc) {
+    function createQuickVideoFrame() {
+      if (!quickVideoFrameHost || !quickVideoSrc) {
         return;
       }
 
-      quickVideoModalFrame.setAttribute("src", quickVideoSrc);
+      quickVideoFrameHost.innerHTML = [
+        '<iframe',
+        '  src="' + quickVideoSrc + '"',
+        '  title="' + quickVideoTitle + '"',
+        '  loading="lazy"',
+        '  referrerpolicy="strict-origin-when-cross-origin"',
+        '  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"',
+        '  allowfullscreen',
+        '></iframe>'
+      ].join("");
     }
 
     function openModal() {
-      restoreQuickVideoFrame();
+      createQuickVideoFrame();
 
       if (typeof quickVideoModal.showModal === "function") {
         quickVideoModal.showModal();
@@ -1386,7 +1395,7 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
         quickVideoModal.close();
       } else {
         quickVideoModal.removeAttribute("open");
-        resetQuickVideoFrame();
+        destroyQuickVideoFrame();
       }
     }
 
@@ -1403,7 +1412,7 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
     });
 
     quickVideoModal.addEventListener("close", function () {
-      resetQuickVideoFrame();
+      destroyQuickVideoFrame();
     });
   }
 
