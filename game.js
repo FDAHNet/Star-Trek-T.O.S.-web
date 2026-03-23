@@ -107,36 +107,17 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
   localizeTopbar();
 
   function setupAnniversaryIntro() {
-    var storageKey = "st-universe-60-intro-seen";
-
     if (!anniversaryBanner || pageType !== "home") {
       return;
     }
 
     anniversaryBanner.classList.add("anniversary-banner--ready");
-
-    try {
-      if (window.localStorage && window.localStorage.getItem(storageKey)) {
-        return;
-      }
-    } catch (error) {
-      return;
-    }
-
     anniversaryBanner.classList.add("anniversary-banner--intro");
 
     anniversaryBanner.addEventListener("animationend", function handleIntroEnd() {
       anniversaryBanner.classList.remove("anniversary-banner--intro");
       anniversaryBanner.removeEventListener("animationend", handleIntroEnd);
     });
-
-    try {
-      if (window.localStorage) {
-        window.localStorage.setItem(storageKey, "true");
-      }
-    } catch (error) {
-      // Si el navegador bloquea storage, la animacion simplemente volvera a mostrarse.
-    }
   }
 
   function localizeHomeStatic() {
