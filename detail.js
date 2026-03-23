@@ -38,6 +38,121 @@ import { findSeriesSeasonEntry } from "./series-season-data.js";
     "star-trek-section-31": "Star_Trek:_Section_31"
   };
 
+  var MOVIE_CAST = {
+    "star-trek-the-motion-picture": [
+      { actor: "William Shatner", role: "James T. Kirk" },
+      { actor: "Leonard Nimoy", role: "Spock" },
+      { actor: "DeForest Kelley", role: "Leonard McCoy" },
+      { actor: "Persis Khambatta", role: "Ilia" },
+      { actor: "Stephen Collins", role: "Willard Decker" },
+      { actor: "James Doohan", role: "Montgomery Scott" }
+    ],
+    "star-trek-ii-the-wrath-of-khan": [
+      { actor: "William Shatner", role: "James T. Kirk" },
+      { actor: "Leonard Nimoy", role: "Spock" },
+      { actor: "DeForest Kelley", role: "Leonard McCoy" },
+      { actor: "Ricardo Montalban", role: "Khan Noonien Singh" },
+      { actor: "Bibi Besch", role: "Carol Marcus" },
+      { actor: "Merritt Butrick", role: "David Marcus" }
+    ],
+    "star-trek-iii-the-search-for-spock": [
+      { actor: "William Shatner", role: "James T. Kirk" },
+      { actor: "Leonard Nimoy", role: "Spock" },
+      { actor: "DeForest Kelley", role: "Leonard McCoy" },
+      { actor: "Christopher Lloyd", role: "Comandante Kruge" },
+      { actor: "Robin Curtis", role: "Saavik" },
+      { actor: "James Doohan", role: "Montgomery Scott" }
+    ],
+    "star-trek-iv-the-voyage-home": [
+      { actor: "William Shatner", role: "James T. Kirk" },
+      { actor: "Leonard Nimoy", role: "Spock" },
+      { actor: "DeForest Kelley", role: "Leonard McCoy" },
+      { actor: "Catherine Hicks", role: "Gillian Taylor" },
+      { actor: "James Doohan", role: "Montgomery Scott" },
+      { actor: "George Takei", role: "Hikaru Sulu" }
+    ],
+    "star-trek-v-the-final-frontier": [
+      { actor: "William Shatner", role: "James T. Kirk" },
+      { actor: "Leonard Nimoy", role: "Spock" },
+      { actor: "DeForest Kelley", role: "Leonard McCoy" },
+      { actor: "Laurence Luckinbill", role: "Sybok" },
+      { actor: "James Doohan", role: "Montgomery Scott" },
+      { actor: "Nichelle Nichols", role: "Nyota Uhura" }
+    ],
+    "star-trek-vi-the-undiscovered-country": [
+      { actor: "William Shatner", role: "James T. Kirk" },
+      { actor: "Leonard Nimoy", role: "Spock" },
+      { actor: "DeForest Kelley", role: "Leonard McCoy" },
+      { actor: "Christopher Plummer", role: "General Chang" },
+      { actor: "Kim Cattrall", role: "Valeris" },
+      { actor: "David Warner", role: "Canciller Gorkon" }
+    ],
+    "star-trek-generations": [
+      { actor: "Patrick Stewart", role: "Jean-Luc Picard" },
+      { actor: "William Shatner", role: "James T. Kirk" },
+      { actor: "Brent Spiner", role: "Data" },
+      { actor: "Malcolm McDowell", role: "Dr. Tolian Soran" },
+      { actor: "Jonathan Frakes", role: "William Riker" },
+      { actor: "LeVar Burton", role: "Geordi La Forge" }
+    ],
+    "star-trek-first-contact": [
+      { actor: "Patrick Stewart", role: "Jean-Luc Picard" },
+      { actor: "Jonathan Frakes", role: "William Riker" },
+      { actor: "Brent Spiner", role: "Data" },
+      { actor: "Alice Krige", role: "Reina Borg" },
+      { actor: "James Cromwell", role: "Zefram Cochrane" },
+      { actor: "LeVar Burton", role: "Geordi La Forge" }
+    ],
+    "star-trek-insurrection": [
+      { actor: "Patrick Stewart", role: "Jean-Luc Picard" },
+      { actor: "Jonathan Frakes", role: "William Riker" },
+      { actor: "Brent Spiner", role: "Data" },
+      { actor: "Donna Murphy", role: "Anij" },
+      { actor: "F. Murray Abraham", role: "Ru'afo" },
+      { actor: "Michael Dorn", role: "Worf" }
+    ],
+    "star-trek-nemesis": [
+      { actor: "Patrick Stewart", role: "Jean-Luc Picard" },
+      { actor: "Tom Hardy", role: "Shinzon" },
+      { actor: "Brent Spiner", role: "Data" },
+      { actor: "Jonathan Frakes", role: "William Riker" },
+      { actor: "Marina Sirtis", role: "Deanna Troi" },
+      { actor: "LeVar Burton", role: "Geordi La Forge" }
+    ],
+    "star-trek-2009": [
+      { actor: "Chris Pine", role: "James T. Kirk" },
+      { actor: "Zachary Quinto", role: "Spock" },
+      { actor: "Karl Urban", role: "Leonard McCoy" },
+      { actor: "Zoe Saldana", role: "Nyota Uhura" },
+      { actor: "Eric Bana", role: "Nero" },
+      { actor: "Simon Pegg", role: "Montgomery Scott" }
+    ],
+    "star-trek-into-darkness": [
+      { actor: "Chris Pine", role: "James T. Kirk" },
+      { actor: "Zachary Quinto", role: "Spock" },
+      { actor: "Benedict Cumberbatch", role: "Khan" },
+      { actor: "Zoe Saldana", role: "Nyota Uhura" },
+      { actor: "Karl Urban", role: "Leonard McCoy" },
+      { actor: "Simon Pegg", role: "Montgomery Scott" }
+    ],
+    "star-trek-beyond": [
+      { actor: "Chris Pine", role: "James T. Kirk" },
+      { actor: "Zachary Quinto", role: "Spock" },
+      { actor: "Karl Urban", role: "Leonard McCoy" },
+      { actor: "Zoe Saldana", role: "Nyota Uhura" },
+      { actor: "Idris Elba", role: "Krall" },
+      { actor: "Sofia Boutella", role: "Jaylah" }
+    ],
+    "star-trek-section-31": [
+      { actor: "Michelle Yeoh", role: "Philippa Georgiou" },
+      { actor: "Omari Hardwick", role: "Alok" },
+      { actor: "Sam Richardson", role: "Quasi" },
+      { actor: "Kacey Rohl", role: "Rachel Garrett" },
+      { actor: "Robert Kazinsky", role: "Zeph" },
+      { actor: "Sven Ruygrok", role: "Fuzz" }
+    ]
+  };
+
   function escapeHtml(value) {
     return String(value)
       .replace(/&/g, "&amp;")
@@ -379,6 +494,28 @@ import { findSeriesSeasonEntry } from "./series-season-data.js";
       ].join("");
 
       movieMain.insertBefore(synopsisSection, movieMain.lastElementChild);
+    }
+
+    if (movieMain && MOVIE_CAST[item.slug] && MOVIE_CAST[item.slug].length) {
+      var castSection = document.createElement("section");
+
+      castSection.className = "section";
+      castSection.innerHTML = [
+        '<div class="section-heading">',
+        '  <p class="eyebrow">Artistas</p>',
+        '  <h2>Reparto principal</h2>',
+        '  <p class="section-text">Actores y personajes mas destacados de ' + item.title + '.</p>',
+        '</div>',
+        '<article class="intro-card intro-card--cast">',
+        '  <ul class="cast-age-list">' +
+          MOVIE_CAST[item.slug].map(function (entry) {
+            return '<li><strong>' + entry.actor + '</strong> como ' + entry.role + '</li>';
+          }).join("") +
+        '</ul>',
+        '</article>'
+      ].join("");
+
+      movieMain.insertBefore(castSection, movieMain.lastElementChild);
     }
   }
 
