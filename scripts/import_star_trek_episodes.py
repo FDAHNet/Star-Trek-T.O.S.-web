@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import json
 import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from html import unescape
 from io import StringIO
 from pathlib import Path
 
@@ -23,9 +25,28 @@ SERIES_PAGES = {
     "star-trek-strange-new-worlds": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Strange_New_Worlds_episodes",
 }
 
+TVMAZE_SHOW_IDS = {
+    "star-trek-the-original-series": 490,
+    "star-trek-the-animated-series": 3513,
+    "star-trek-the-next-generation": 491,
+    "star-trek-deep-space-nine": 493,
+    "star-trek-voyager": 492,
+    "star-trek-enterprise": 714,
+    "star-trek-discovery": 7480,
+    "star-trek-short-treks": 39744,
+    "star-trek-picard": 42193,
+    "star-trek-lower-decks": 39323,
+    "star-trek-prodigy": 49333,
+    "star-trek-strange-new-worlds": 48090,
+    "star-trek-starfleet-academy": 60302,
+}
+
 HEADERS = {"User-Agent": "Mozilla/5.0 Codex Episode Importer"}
 ROOT = Path(__file__).resolve().parents[1]
-OUTPUT = ROOT / "series-episode-data.js"
+EPISODE_OUTPUT = ROOT / "series-episode-data.js"
+CAST_OUTPUT = ROOT / "series-cast-data.js"
+SESSION = requests.Session()
+SESSION.headers.update(HEADERS)
 
 
 def flatten_columns(df: pd.DataFrame) -> pd.DataFrame:
@@ -55,6 +76,14 @@ def clean_text(value: object) -> str:
     return text.strip(' "')
 
 
+def clean_html_text(value: object) -> str:
+    text = unescape(str(value or ""))
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = text.replace("‘", "'").replace("’", "'").replace("“", '"').replace("”", '"')
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
 def pick_column(columns: list[str], *patterns: str) -> str | None:
     lowered = [(col, col.lower()) for col in columns]
     for pattern in patterns:
@@ -70,7 +99,7 @@ def is_section_row(display_number: str, title: str) -> bool:
 
 
 def fetch_series_episodes(url: str) -> list[list[dict[str, str]]]:
-    response = requests.get(url, headers=HEADERS, timeout=60)
+    response = SESSION.get(url, timeout=60)
     response.raise_for_status()
     tables = [flatten_columns(df) for df in pd.read_html(StringIO(response.text))]
     season_tables = [df for df in tables if "Title" in df.columns and any("no. in season" in col.lower() for col in df.columns)]
@@ -101,6 +130,8 @@ def fetch_series_episodes(url: str) -> list[list[dict[str, str]]]:
                 "date": clean_text(row.get(date_col, "")),
                 "productionCode": clean_text(row.get(prod_col, "")),
                 "stardate": clean_text(row.get(stardate_col, "")) if stardate_col and stardate_col != date_col else "",
+                "synopsis": "",
+                "guestCast": [],
             })
 
         seasons.append(episodes)
@@ -108,18 +139,126 @@ def fetch_series_episodes(url: str) -> list[list[dict[str, str]]]:
     return seasons
 
 
+def fetch_json(url: str) -> object:
+    response = SESSION.get(url, timeout=60)
+    response.raise_for_status()
+    return response.json()
+
+
+def format_credit(entry: dict[str, object]) -> str:
+    person = (entry.get("person") or {}).get("name", "")
+    character = (entry.get("character") or {}).get("name", "")
+    person_text = clean_html_text(person)
+    character_text = clean_html_text(character)
+    if person_text and character_text:
+        return f"{person_text} como {character_text}"
+    return person_text or character_text
+
+
+def fetch_guest_cast(episode_id: int) -> list[str]:
+    try:
+        guest_entries = fetch_json(f"https://api.tvmaze.com/episodes/{episode_id}/guestcast")
+    except Exception:
+        return []
+
+    credits = []
+    seen = set()
+    for entry in guest_entries:
+        label = format_credit(entry)
+        if label and label not in seen:
+            credits.append(label)
+            seen.add(label)
+    return credits
+
+
+def fetch_tvmaze_payload(show_id: int) -> tuple[list[str], dict[tuple[int, int], dict[str, object]]]:
+    regular_entries = fetch_json(f"https://api.tvmaze.com/shows/{show_id}/cast")
+    regular_cast = []
+    regular_seen = set()
+    for entry in regular_entries:
+        label = format_credit(entry)
+        if label and label not in regular_seen:
+            regular_cast.append(label)
+            regular_seen.add(label)
+
+    episodes = fetch_json(f"https://api.tvmaze.com/shows/{show_id}/episodes")
+    episode_map: dict[tuple[int, int], dict[str, object]] = {}
+    episode_ids: dict[tuple[int, int], int] = {}
+    for episode in episodes:
+        season = int(episode.get("season") or 0)
+        number = int(episode.get("number") or 0)
+        if season < 1 or number < 1:
+            continue
+        episode_map[(season, number)] = {
+            "summary": clean_html_text(episode.get("summary", "")),
+            "airdate": clean_html_text(episode.get("airdate", "")),
+            "runtime": clean_html_text(episode.get("runtime", "")),
+            "image": ((episode.get("image") or {}).get("original") or (episode.get("image") or {}).get("medium") or ""),
+            "guestCast": [],
+        }
+        episode_ids[(season, number)] = int(episode["id"])
+
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        future_map = {executor.submit(fetch_guest_cast, episode_id): key for key, episode_id in episode_ids.items()}
+        for future in as_completed(future_map):
+            key = future_map[future]
+            try:
+                episode_map[key]["guestCast"] = future.result()
+            except Exception:
+                episode_map[key]["guestCast"] = []
+
+    return regular_cast, episode_map
+
+
+def enrich_with_tvmaze(slug: str, seasons: list[list[dict[str, object]]]) -> tuple[list[list[dict[str, object]]], list[str]]:
+    show_id = TVMAZE_SHOW_IDS.get(slug)
+    if not show_id:
+        return seasons, []
+
+    regular_cast, episode_map = fetch_tvmaze_payload(show_id)
+
+    for season_index, season in enumerate(seasons, start=1):
+        for episode_index, episode in enumerate(season, start=1):
+            tvmaze_entry = episode_map.get((season_index, episode_index))
+            if not tvmaze_entry:
+                continue
+            if tvmaze_entry.get("summary"):
+                episode["synopsis"] = tvmaze_entry["summary"]
+            if tvmaze_entry.get("airdate"):
+                episode["date"] = tvmaze_entry["airdate"]
+            if tvmaze_entry.get("runtime"):
+                episode["runtime"] = tvmaze_entry["runtime"]
+            if tvmaze_entry.get("image"):
+                episode["image"] = tvmaze_entry["image"]
+            episode["guestCast"] = tvmaze_entry.get("guestCast") or []
+
+    return seasons, regular_cast
+
+
 def main() -> None:
     payload = {}
+    cast_payload = {}
+
     for slug, url in SERIES_PAGES.items():
-        payload[slug] = fetch_series_episodes(url)
+        print(f"Importing {slug}...")
+        seasons = fetch_series_episodes(url)
+        seasons, regular_cast = enrich_with_tvmaze(slug, seasons)
+        payload[slug] = seasons
+        cast_payload[slug] = regular_cast
 
     payload["star-trek-starfleet-academy"] = [[]]
+    cast_payload["star-trek-starfleet-academy"] = []
 
-    OUTPUT.write_text(
+    EPISODE_OUTPUT.write_text(
         "export var SERIES_EPISODE_DETAILS = " + json.dumps(payload, ensure_ascii=False, indent=2) + ";\n",
         encoding="utf-8",
     )
-    print(f"Saved {OUTPUT}")
+    CAST_OUTPUT.write_text(
+        "export var SERIES_CAST_DETAILS = " + json.dumps(cast_payload, ensure_ascii=False, indent=2) + ";\n",
+        encoding="utf-8",
+    )
+    print(f"Saved {EPISODE_OUTPUT}")
+    print(f"Saved {CAST_OUTPUT}")
 
 
 if __name__ == "__main__":

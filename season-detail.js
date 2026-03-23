@@ -1,5 +1,6 @@
 import { findSeriesSeasonEntry } from "./series-season-data.js";
 import { SERIES_EPISODE_DETAILS } from "./series-episode-data.js";
+import { SERIES_CAST_DETAILS } from "./series-cast-data.js";
 
 (function () {
   "use strict";
@@ -20,6 +21,7 @@ import { SERIES_EPISODE_DETAILS } from "./series-episode-data.js";
   var episodes = SERIES_EPISODE_DETAILS[seriesSlug] && SERIES_EPISODE_DETAILS[seriesSlug][seasonNumber - 1]
     ? SERIES_EPISODE_DETAILS[seriesSlug][seasonNumber - 1]
     : [];
+  var regularCast = SERIES_CAST_DETAILS[seriesSlug] || [];
 
   if (!seriesEntry || !seasonEntry) {
     return;
@@ -35,6 +37,14 @@ import { SERIES_EPISODE_DETAILS } from "./series-episode-data.js";
   }
 
   function renderEpisodeCard(episode) {
+    var regularCastLabel = regularCast.length ? regularCast.join(" | ") : "Pendiente de completar";
+    var regularActorNames = regularCast.map(function (credit) {
+      return String(credit).split(" como ")[0];
+    });
+    var filteredGuestCast = (episode.guestCast || []).filter(function (credit) {
+      var actorName = String(credit).split(" como ")[0];
+      return regularActorNames.indexOf(actorName) === -1;
+    });
     var metaParts = [];
 
     if (episode.date) {
@@ -49,6 +59,7 @@ import { SERIES_EPISODE_DETAILS } from "./series-episode-data.js";
 
     return [
       '<article class="episode-card">',
+      (episode.image ? '  <img class="episode-card__image" src="' + escapeHtml(episode.image) + '" alt="Imagen del episodio ' + escapeHtml(episode.title) + '">' : ""),
       '  <div class="episode-card__content">',
       '    <div class="episode-card__top">',
       '      <div>',
@@ -58,6 +69,9 @@ import { SERIES_EPISODE_DETAILS } from "./series-episode-data.js";
       "      </div>",
       "    </div>",
       (metaParts.length ? "    <p>" + metaParts.join(" | ") + "</p>" : "    <p>Ficha de emision pendiente de completar.</p>"),
+      (episode.synopsis ? '    <p>' + escapeHtml(episode.synopsis) + "</p>" : ""),
+      '    <p><strong>Reparto principal:</strong> ' + escapeHtml(regularCastLabel) + "</p>",
+      (filteredGuestCast.length ? '    <p><strong>Invitados y secundarios:</strong> ' + escapeHtml(filteredGuestCast.join(" | ")) + "</p>" : ""),
       "  </div>",
       "</article>"
     ].join("");

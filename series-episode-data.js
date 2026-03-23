@@ -5,233 +5,676 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "1",
         "title": "The Man Trap",
-        "date": "September 8, 1966",
+        "date": "1966-09-08",
         "productionCode": "06",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Professor Robert Crater and his wife Nancy are archeologists, investigating the ruins of a civilization on M-113. Enterprise visits for the annual physical examination required by regulations, but the professor seems oddly reluctant. He insists all he and his wife need is salt to cope with the heat. Then Crewman Green dies, his face marked by odd red rings. Crater says he ate the borgia plant which contains toxic chemicals. But its symptoms do not include the red mottling. Kirk and Spock are determined to discover what's going on, and doubly so when a crewman on the ship dies the same way as Green.",
+        "guestCast": [
+          "DeForest Kelley como Dr. Leonard Horatio \"Bones\" McCoy",
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Grace Lee Whitney como Yeoman Janice Rand",
+          "Alfred Ryder como Prof. Robert Crater",
+          "Vince Howard como Crewman",
+          "Bruce Watson como Green",
+          "Francine Pyne como Nancy III",
+          "Michael Zaslow como Darnell",
+          "Jeanne Bal como Nancy Crater",
+          "Sandra Lee Gimpel como M-113 Creature"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/83/207633.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "2",
         "title": "Charlie X",
-        "date": "September 15, 1966",
+        "date": "1966-09-15",
         "productionCode": "08",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A small ship, the Antares , transfers a passenger to Enterprise . He is Charles Evans, recently recovered from the lifeless planet Thasus, having survived there since he was marooned by the crash that killed his parents. Oddness seems to accompany Charlie. Antares calls, with a warning her captain does not finish delivering before his ship explodes. Soon enough it becomes clear that Charlie is a young man of extraordinary powers, able to cause things to happen merely by willing them to. Kirk must regain control of his ship from a troubled, dangerously powerful teenager.",
+        "guestCast": [
+          "DeForest Kelley como Dr. Leonard Horatio \"Bones\" McCoy",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "Grace Lee Whitney como Yeoman Janice Rand",
+          "Robert Walker, Jr. como Charles \"Charlie\" Evans",
+          "Abraham Sofaer como The Thasian",
+          "Patricia McNulty como Tina Lawton",
+          "Charles Stewart como Captain Ramart",
+          "Don Eitner como Navigator",
+          "John Bellah como Crewman I",
+          "Garland Thompson como Crewman II",
+          "Dallas Mitchell como Nellis"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242086.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "3",
         "title": "Where No Man Has Gone Before",
-        "date": "September 22, 1966",
+        "date": "1966-09-22",
         "productionCode": "02b",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Enterprise recovers the pitted and burned emergency buoy from the wreckage of Valiant which penetrated the odd energy barrier that surrounds the galaxy. Garbled recordings suggest odd consequences of that journey, and even that Valiant's own captain ordered her destruction. Enterprise also visits the barrier, and it has odd effects on certain members of the crew with high esper ratings. One in particular, Kirk's friend Gary Mitchell, appears to have developed nearly godlike mental and physical abilities, and lost his moral compass as well. Now Kirk must discover how to stop - and maybe kill - his old friend before that becomes impossible, and Mitchell goes on to conquer the Federation!",
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "George Takei como Lt. Hikaru Sulu",
+          "Sally Kellerman como Dr. Elizabeth Dehner",
+          "Paul Fix como Dr. Piper",
+          "Paul Carr como Lt. Lee Kelso",
+          "Gary Lockwood como Lt. Cmdr. Gary Mitchell",
+          "Lloyd Haynes como Lt. Lloyd Alden",
+          "Andrea Dromm como Yeoman Smith"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/114/287327.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "4",
         "title": "The Naked Time",
-        "date": "September 29, 1966",
+        "date": "1966-09-29",
         "productionCode": "07",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Psi-2000 is a lifeless, frozen world in the final stages of planetary disintegration, an invaluable opportunity for scientific study. But the entire scientific outpost complement is dead, apparently by violence. And soon enough, an odd intoxication of similar nature begins sweeping through Enterprise , threatening all of the crew and even the ship itself, as intoxicated crewmen lose all sense of duty and purpose. Worse, McCoy's investigations reveal no causative agent, limiting his ability to treat those affected.",
+        "guestCast": [
+          "DeForest Kelley como Dr. Leonard Horatio \"Bones\" McCoy",
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Grace Lee Whitney como Yeoman Janice Rand",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "Bruce Hyde como Lt. Kevin Thomas Riley",
+          "Stewart Moss como Joe Tormolen",
+          "John Bellah como Laughing Crewman",
+          "William Frederick Knight como Amorous Crewman"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/95/238400.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "5",
         "title": "The Enemy Within",
-        "date": "October 6, 1966",
+        "date": "1966-10-06",
         "productionCode": "05",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "An odd, yellowish ore with magnetic properties on a crewman's clothing affects the transporter, and when Kirk is subsequently beamed up, he is split into two \"halves\". One half of him possesses his benevolent qualities, but is indecisive. The other possesses his malevolent qualities, but is afraid. At first the crew is unaware of the problem, and Kirk's reputation suffers. Then they realize what has happened, and that the transporter is useless - just when they need to bring back the remaining planetary expedition before the sub-zero night kills them! And they must discover how to \"reassemble\" the captain when it becomes clear that neither half can survive for long without the other.",
+        "guestCast": [
+          "DeForest Kelley como Dr. Leonard Horatio \"Bones\" McCoy",
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "George Takei como Lt. Hikaru Sulu",
+          "Grace Lee Whitney como Yeoman Janice Rand",
+          "Jim Goodwin como Lt. John Farrell",
+          "Garland Thompson como Wilson",
+          "Edward Madden como Geological Technician Fisher",
+          "William Shatner como Negative Captain James T. Kirk"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242089.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "6",
         "title": "Mudd's Women",
-        "date": "October 13, 1966",
+        "date": "1966-10-13",
         "productionCode": "04",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Enterprise recovers Harcourt Fenton Mudd from within an asteroid belt. His crew is also his cargo - wives for settlers on Ophiuchus III. These women are very beautiful, and have oddly compulsive effects on the male crewmembers. Having burned out most of her dilithium crystals protecting Mudd's ship, Kirk detours to a Rigel mining colony to secure more. But Mudd's women secure a communicator for him, enabling him to strike his own deal with chief miner Ben Childress and his associates. To obtain the crystals, Kirk must bring down Mudd's women, and must agree to dismiss charges against Mudd. Added to the mix is that the women may not be all they appear to be...",
+        "guestCast": [
+          "Roger C. Carmel como Harcourt Fenton \"Harry\" Mudd",
+          "Jim Goodwin como Lt. John Farrell",
+          "Jerry Foxworth como Guard",
+          "Karen Steele como Eve McHuron",
+          "Maggie Thrett como Ruth",
+          "Susan Denberg como Magda",
+          "Gene Dynarski como Ben",
+          "John Kowal como Herm",
+          "Seamon Glass como Benton"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242090.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "7",
         "title": "What Are Little Girls Made Of?",
-        "date": "October 20, 1966",
+        "date": "1966-10-20",
         "productionCode": "10",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Roger Korby, described as the \"Pasteur of archaeological medicine\" has built a reputation recovering the knowledge of dead alien civilizations, until five years ago when his entire expedition was lost on the frozen world Exo III. Or was it? When Enterprise assumes orbit, someone using Korby's voice responds to their hails. It seems Korby discovered that the civilization of Exo fled their ice age by going underground. He has uncovered some of their science, including their machinery for producing hardy androids - and for transferring a consciousness into such a machine. And he has plans for that technology. Ambitions, sinister plans...",
+        "guestCast": [
+          "Michael Strong como Dr. Roger Korby",
+          "Ted Cassidy como Ruk",
+          "Sherry Jackson como Andrea",
+          "Harry Basch como Dr. Brown",
+          "Vince Deadrick, Sr. como Mathews",
+          "Budd Albright como Rayburn"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242091.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "8",
         "title": "Miri",
-        "date": "October 27, 1966",
+        "date": "1966-10-27",
         "productionCode": "12",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Enterprise discovers a planet identical to Earth, with a very important exception: a few centuries earlier, a devasting plague struck. All of the adults were killed, but the children somehow survived - and still survive, hundreds of years later, feral and deeply distrustful of \"grups\". And there are monsters: insane, covered with scab-like plaques, they attack on sight. The disease is still active; the plaques appear on the landing party. If McCoy cannot discover a cure in the week they have left, all will die. Even Spock, now a carrier, cannot return to the ship.",
+        "guestCast": [
+          "DeForest Kelley como Dr. Leonard Horatio \"Bones\" McCoy",
+          "Grace Lee Whitney como Yeoman Janice Rand",
+          "Jim Goodwin como Lt. John Farrell",
+          "Kim Darby como Miri",
+          "Michael J. Pollard como Jahn",
+          "Keith Taylor como Jahn's Friend",
+          "Kellie Flanagan como Blonde Girl",
+          "David L. Ross como Security Guard #1",
+          "Ed McCready como Boy Creature",
+          "John Megna como Little Boy",
+          "Steven McEveety como Redheaded Boy"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242092.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "9",
         "title": "Dagger of the Mind",
-        "date": "November 3, 1966",
+        "date": "1966-11-03",
         "productionCode": "11",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Enterprise stops at the Tantalus penal colony to deliver drugs and collect research materials. Except that the research materials box contains a dangerous madman, Simon van Gelder - the former director of the colony. Kirk and psychiatrist Helen Noel beam down to speak with Tristan Adams, to learn what happened to van Gelder. It seems Dr. van Gelder was the victim of a new device, a neural neutralizer. But was what happened really an accident, or something more sinister?",
+        "guestCast": [
+          "James Gregory como Dr. Tristan Adams",
+          "DeForest Kelley como Dr. Leonard Horatio \"Bones\" McCoy",
+          "Marianna Hill como Dr. Helen Noel",
+          "Morgan Woodward como Dr. Simon Van Gelder",
+          "Eli Behar como Therapist",
+          "Susanne Wasson como Lethe",
+          "Larry Anthony como Transportation Man",
+          "Ed McCready como Inmate",
+          "John Arndt como First Crewman"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242093.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "10",
         "title": "The Corbomite Maneuver",
-        "date": "November 10, 1966",
+        "date": "1966-11-10",
         "productionCode": "03",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Mapping star systems, Enterprise encounters an odd cube. Apparently solid, it senses the ship, moves to block it - and when Enterprise attempts to disengage, pursues while emitting dangerous radiation. Kirk is forced to order its destruction. He probes farther, to find the builders of the device. And he does, when the Fesarius appears. The immense flag ship of the First Federation and her captain, the enigmatic Balok, regard the destruction of the cube as an aggressive act, and determine that the crew will be imprisoned and the ship destroyed.",
+        "guestCast": [
+          "DeForest Kelley como Dr. Leonard Horatio \"Bones\" McCoy",
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Grace Lee Whitney como Yeoman Janice Rand",
+          "Clint Howard como Balok",
+          "Anthony Call como Dave Bailey"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242094.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "11",
         "title": "The Menagerie",
-        "date": "November 17, 1966",
+        "date": "1966-11-17",
         "productionCode": "16",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Spock diverts the Enterprise to Starbase 11, where Kirk discovers that Spock's former commander, Christopher Pike, has been seriously injured and disabled by exposure to delta rays, experienced while saving a class of cadets. Pike is now confined to an elaborate life support apparatus. Spock abducts Pike and locks the Enterprise on a course for Talos IV, the only planet subject to General Order 7: visiting the world is a capital crime. Spock refuses to explain his actions, but demands a court martial, during which he presents evidence of an earlier visit. War, thousands of centuries ago, devastated the planet, and it was only now becoming able to support life again. Its inhabitants, forced underground, had developed enormous mental powers, including the ability to place illusions within the minds of others. Their plan was to breed a race of slaves to help them reclaim their world, as they were fragile and their civilization degenerate: illusions had proved a kind of narcotic. To this end, they kidnapped Captain Pike years ago...",
+        "guestCast": [
+          "Jeffrey Hunter como Captain Christopher Pike",
+          "DeForest Kelley como Dr. Leonard Horatio \"Bones\" McCoy",
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "Majel Barrett Roddenberry como Number One",
+          "Susan Oliver como Vina",
+          "Peter Duryea como Lt. Jose Tyler",
+          "John Hoyt como Dr. Philip Boyce",
+          "Malachi Throne como Commodore Jose I. Mendez",
+          "Adam Roarke como C.P.O. Garrison",
+          "Sean Kenney como Disabled Christopher Pike",
+          "Julie Parrish como Miss Piper",
+          "Hagan Beggs como Lieutenant Hansen"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242095.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "12",
         "title": "The Menagerie",
-        "date": "November 24, 1966",
+        "date": "1966-11-24",
         "productionCode": "16",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "As the court martial continues, Kirk learns the Talosians meant to breed Pike with an earlier survivor, Vina, to produce their slave race. But Pike convinces them that Earthmen would prefer death to such slavery, however pleasant illusions could make it. Humans were the Talosians last chance, but Pike convinces them to release him. Finally, as they orbit Talos, Kirk learns why Spock violated General Order 7: here, in his illusory world, Pike can live out his remaining years as the man he once was. The Talosians agree to this, and the Federation suspends General Order 7 due to the circumstances.",
+        "guestCast": [
+          "Jeffrey Hunter como Captain Christopher Pike",
+          "Majel Barrett Roddenberry como Number One",
+          "Susan Oliver como Vina",
+          "Peter Duryea como Lt. Jose Tyler",
+          "John Hoyt como Dr. Philip Boyce",
+          "Malachi Throne como Commodore Jose I. Mendez",
+          "Laurel Goodwin como Yeoman J. M. Colt",
+          "Adam Roarke como C.P.O. Garrison",
+          "Sean Kenney como Disabled Christopher Pike",
+          "Meg Wyllie como The Keeper",
+          "Hagan Beggs como Ensign Hansen"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242096.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "13",
         "title": "The Conscience of the King",
-        "date": "December 8, 1966",
+        "date": "1966-12-08",
         "productionCode": "13",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Dr. Leighton calls Enterprise to his home on Planet Q with the promise of a new food source that could end hunger. But this is a ruse: Leighton is one of the few remaining survivors of Kodos the Executioner, who used a planetary famine to apply his own ideas of eugenics on Tarsus IV years earlier. A burned body convinced authorities that Kodos had died then, but Leighton is certain that actor Anton Karidian is Kodos. Kirk is less than amused at the deception - and then someone murders Leighton. It's not enough to accuse, but it is enough for suspicion, so Kirk arranges to strand the acting troupe, and then offers them a ride on Enterprise where he hopes to ascertain whether Leighton's accusation is true.",
+        "guestCast": [
+          "DeForest Kelley como Dr. Leonard Horatio \"Bones\" McCoy",
+          "Grace Lee Whitney como Yeoman Janice Rand",
+          "Barbara Anderson como Lenore Karidian",
+          "Arnold Moss como Karidian",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "Bruce Hyde como Lt. Kevin Thomas Riley",
+          "Marc Adams como Hamlet",
+          "Natalie Norwick como Martha Leighton",
+          "William Sargent como Dr. Leighton",
+          "Karl Bruck como King Duncan",
+          "David Troy como Larry Matson"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/143/358559.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "14",
         "title": "Balance of Terror",
-        "date": "December 15, 1966",
+        "date": "1966-12-15",
         "productionCode": "09",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Enterprise tries to intercept a Romulan warship that is testing the Federation's defenses along the Neutral Zone separating the two.",
+        "guestCast": [
+          "DeForest Kelley como Dr. Leonard Horatio \"Bones\" McCoy",
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Grace Lee Whitney como Yeoman Janice Rand",
+          "Barbara Baldavin como Angela",
+          "Mark Lenard como Romulan Commander",
+          "Garry Walberg como Hansen",
+          "Stephen Mines como Tomlinson",
+          "John Warburton como The Centurion",
+          "Lawrence Montaigne como Decius",
+          "Paul Comi como Lt. Andrew Stiles"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242098.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "15",
         "title": "Shore Leave",
-        "date": "December 29, 1966",
+        "date": "1966-12-29",
         "productionCode": "17",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Enterprise visits an idyllic planet, where McCoy encounters a large white rabbit that is \"very late\". And shortly afterwards, a little girl who is following him. McCoy isn't becoming insane; it soon becomes apparent that thinking about a thing will cause it to materialize, as everyone encounters people and things from their past or their fantasies. But something on the planet's surface is draining power from Enterprise . And then McCoy, convinced that what he sees is a harmless illusion, confronts a charging knight - and dies, pierced through the heart! What kind of odd world is this, and how can the ship and crew escape it?",
+        "guestCast": [
+          "DeForest Kelley como Dr. Leonard Horatio \"Bones\" McCoy",
+          "George Takei como Lt. Hikaru Sulu",
+          "Barbara Baldavin como Angela",
+          "Shirley Bonne como Ruth",
+          "Sebastian Tom como Warrior",
+          "Bruce Mars como Finnegan",
+          "Marcia Brown como Alice",
+          "Oliver McGowan como Caretaker",
+          "Emily Banks como Yeoman Tonia Barrows",
+          "Perry Lopez como Rodriguez"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242099.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "16",
         "title": "The Galileo Seven",
-        "date": "January 5, 1967",
+        "date": "1967-01-05",
         "productionCode": "14",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Enterprise is en route to the New Paris colony to deliver much needed medical supplies, needed to counter a plague. It passes Murasaki 312, a quasar-like system. Since there is time, Kirk's standing orders require him to dispatch a scientific team to study the phenomenon. The expedition immediately runs into trouble when it is pulled off course and forced to an emergency landing on Taurus II, then beset by the hulking, homicidal natives of that planet. Can Spock's purely logical approach to leadership save the expedition and reunite its members with Enterprise ?",
+        "guestCast": [
+          "DeForest Kelley como Dr. Leonard Horatio \"Bones\" McCoy",
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "John Crawford como Commissioner Ferris",
+          "Phyllis Douglas como Yeoman Mears",
+          "Peter Marko como Gaetano",
+          "Grant Woods como Kelowitz",
+          "David L. Ross como Transporter Chief",
+          "Don Marshall como Boma",
+          "Rees Vaughn como Latimer",
+          "Robert Maffei como Creature"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242100.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "17",
         "title": "The Squire of Gothos",
-        "date": "January 12, 1967",
+        "date": "1967-01-12",
         "productionCode": "18",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Within a \"star desert\" the crew encounter the odd, storm-wracked planet Gothos. Then Kirk and Sulu disappear from the bridge. The planet's sole inhabitant is the foppish Trelane, who lives in a manor house be believes represents modern Earth, but which is actually centuries out of date. He has plans for the crew, and the power to ensure that he gets what he wants. Kirk manages to thwart him, but it's only temporary: Trelane moves Gothos itself to intercept the fleeing starship! Against that kind of power, Kirk will need all his wits...",
+        "guestCast": [
+          "DeForest Kelley como Dr. Leonard Horatio \"Bones\" McCoy",
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Michael Barrier como Lt. Vincent DeSalle",
+          "William Campbell como Trelane",
+          "Richard Carlyle como Jaeger",
+          "Venita Wolf como Yeoman Teresa Ross"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/92/230184.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "18",
         "title": "Arena",
-        "date": "January 19, 1967",
+        "date": "1967-01-19",
         "productionCode": "19",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Enterprise stops at Cestus III, there to visit Commodore Travers, who enthusiastically invites Kirk to bring his key people to the surface. Beaming down, Kirk discovers the outpost has been destroyed! The landing party comes under attack, but Kirk and Spock recover a powerful ballistic weapon and strike back. The aliens flee, with Enterprise in hot pursuit, into an unknown region of space. There, both ships are paralyzed by an \"unidentifiable power\" from the distant star system of the Metrons, and both captains are transported to a world where they may engage in hand to hand combat to determine the fate of their respective ships. But is that the whole story?",
+        "guestCast": [
+          "DeForest Kelley como Dr. Leonard Horatio \"Bones\" McCoy",
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Grant Woods como Kelowitz",
+          "Sean Kenney como DePaul",
+          "Jerry Ayres como O'Herlihy",
+          "James Farley como Lang",
+          "Tom Troupe como Lt. Harold",
+          "Carolyne Barry como Metron"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242102.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "19",
         "title": "Tomorrow Is Yesterday",
-        "date": "January 26, 1967",
+        "date": "1967-01-26",
         "productionCode": "21",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A \"black star\" slingshots Enterprise back in time, to the 1960s, in Earth orbit. She appears almost directly above a military base, which draws all sorts of unwelcome attention. The base dispatches Major John Christopher to look. Enterprise attempts to keep him at bay with the tractor beam, but his aircraft is too fragile to withstand the beam and disintegrates, forcing Enterprise to beam Christopher aboard. Now they have disrupted history. Christopher himself is not historically significant, but his son is. He must be returned, but how?",
+        "guestCast": [
+          "DeForest Kelley como Dr. Leonard Horatio \"Bones\" McCoy",
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "John Winston como Transporter Chief",
+          "Roger Perry como Captain Christopher",
+          "Hal Lynch como Air Police Sergeant",
+          "Richard Merrifield como Technician",
+          "Ed Peck como Col. Fellini",
+          "Mark Dempsey como Air Force Captain",
+          "Jim Spencer como Air Policeman",
+          "Sherri Townsend como Crew Woman"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/94/237361.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "20",
         "title": "Court Martial",
-        "date": "February 2, 1967",
+        "date": "1967-02-02",
         "productionCode": "15",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Enterprise encounters an ion storm, which requires an observer in the ion pod. Top of the duty roster is Commander Ben Finney, who is tragically lost when Kirk must eject the pod as part of the Red Alert protocol. At the starbase, Commodore Stone discovers that the computer records tell a different story: that Kirk ejected the ion pod during Yellow Alert, and that if he had waited properly, Finney might still be alive. He offers Kirk a chance to resign his commission \"for the good of the service\", but Kirk refuses - and so draws a general court martial. His advocate? The quirky Samuel Cogley, who eschews his computer in favor of books.",
+        "guestCast": [
+          "DeForest Kelley como Dr. Leonard Horatio \"Bones\" McCoy",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "Elisha Cook como Samuel T. Cogley",
+          "Percy Rodriguez como Commodore Stone",
+          "Hagan Beggs como Helmsman",
+          "Richard Webb como Ben Finney",
+          "Win De Lugo como Timothy",
+          "Alice Rawlings como Jame Finney",
+          "Bart Conrad como Krasnowsky",
+          "William Meader como Board Officer",
+          "Reginald Lal Singh como Board Officer",
+          "Joan Marshall como Areel Shaw",
+          "Nancy Wong como Personnel Officer"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242104.jpg"
       },
       {
         "displayNumber": "21",
         "overallNumber": "21",
         "title": "The Return of the Archons",
-        "date": "February 9, 1967",
+        "date": "1967-02-09",
         "productionCode": "22",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Six thousand years ago, the planet Beta III was torn apart by war, crime, and corruption. Then a visionary leader arose, Landru, who became a benevolent autocrat. He has maintained a simple, stable society that has survived since then without those \"ancient evils\". Enterprise is there to investigate the disappearance of the starship Archon in the vicinity a century earlier. It seems that Landru dislikes those who display individuality; they must be absorbed into \"The Body\" or destroyed. So it was with the \"Archons\" and so it will be with the Enterprise unless Kirk can defeat Landru. But will unseating him destabilize the society? Will it be a violation of the Prime Directive?",
+        "guestCast": [
+          "DeForest Kelley como Dr. Leonard Horatio \"Bones\" McCoy",
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "David L. Ross como Guard",
+          "Harry Townes como Reger",
+          "Charles Macaulay como Landru",
+          "Sid Haig como First Lawgiver",
+          "Brioni Farrell como Tula",
+          "Jon Lormer como Tamar",
+          "Sean Morgan como O'Neil",
+          "Torin Thatcher como Marplon",
+          "Morgan Farley como Hacom",
+          "Lev Mailer como Bilar",
+          "Christopher Held como Lindstrom"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/96/240089.jpg"
       },
       {
         "displayNumber": "22",
         "overallNumber": "22",
         "title": "Space Seed",
-        "date": "February 16, 1967",
+        "date": "1967-02-16",
         "productionCode": "24",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Enterprise chances across a DY-100 class ship, launched from Earth \"in the 1990s\". It carries around seventy people, who have been hibernating since their launch. The ship's systems revive the leader, whom Kirk soon learns is Khan Noonien Singh, the leader of a group of genetically enhanced \"supermen\" who nearly took control of Earth during the Eugenics Wars. They have essentially fled to the future, and with their capabilities, Khan plans to revive his campaign to place \"superior\" men in positions of leadership.",
+        "guestCast": [
+          "DeForest Kelley como Dr. Leonard Horatio \"Bones\" McCoy",
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "Ricardo Montalban como Khan",
+          "John Winston como Transporter Technician",
+          "Madlyn Rhue como Marla",
+          "Makee K. Blaisdell como Lt. Spinelli",
+          "Mark Tobin como Joaquin",
+          "Kathy Ahart como Crew Woman"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242106.jpg"
       },
       {
         "displayNumber": "23",
         "overallNumber": "23",
         "title": "A Taste of Armageddon",
-        "date": "February 23, 1967",
+        "date": "1967-02-23",
         "productionCode": "23",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Kirk and the Enterprise have been sent to establish diplomatic relations with the planet Eminiar VII, a planet that decidedly does not wish such relations! But Ambassador Fox insists they make the attempt. Planetside, they learn Eminiar has been fighting a war with Vendikar, another planet in the same system, for five hundred years - a war fought entirely by computers, with casualties required to report to disintegration machines for tidy disposal. And the Enterprise has been declared a casualty of a \"tricobalt satellite explosion\"; her crew must likewise report for disintegration so their deaths may be recorded and reported to Vendikar.",
+        "guestCast": [
+          "DeForest Kelley como Dr. Leonard Horatio \"Bones\" McCoy",
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "David L. Ross como Lt. Galloway",
+          "Sean Kenney como DePaul",
+          "Barbara Babcock como Mea 3",
+          "Miko Mayama como Tamula",
+          "Robert Sampson como Sar 6",
+          "David Opatoshu como Anan 7",
+          "Gene Lyons como Ambassador Robert Fox",
+          "Dick Cherney como Council Member",
+          "Eddie Paskey como Eminiar Guard"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242107.jpg"
       },
       {
         "displayNumber": "24",
         "overallNumber": "24",
         "title": "This Side of Paradise",
-        "date": "March 2, 1967",
+        "date": "1967-03-02",
         "productionCode": "25",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Federation established a colony on Omicron Ceti III before it knew that the system's star emitted Berthold Rays, which degrade animal tissue. Tolerable for short periods with precautions, these rays spelled doom for the colony. So how are they still alive, and in better health than when they left Federation space? And perhaps more importantly, why have they accomplished... nothing? The answer threatens the Enterprise...",
+        "guestCast": [
+          "Frank Overton como Elias Sandoval",
+          "DeForest Kelley como Dr. Leonard Horatio \"Bones\" McCoy",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Grant Woods como Kelowitz",
+          "Michael Barrier como Lt. Vincent DeSalle",
+          "Eddie Paskey como Crewman",
+          "Jill Ireland como Leila Kalomi",
+          "Dick Scotter como Painter"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242108.jpg"
       },
       {
         "displayNumber": "25",
         "overallNumber": "25",
         "title": "The Devil in the Dark",
-        "date": "March 9, 1967",
+        "date": "1967-03-09",
         "productionCode": "26",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Miners on the mineral rich world of Janus II have begun to die horribly, burned to a crisp by the effects of a powerful corrosive. The Federation depends on these mines to supply minerals to many other worlds, so it sends Kirk and the Enterprise to investigate. But a starship, as one miner acerbically comments, cannot enter the mining tunnels. Kirk and Spock will have to use their wits to solve this problem. And they'll have to do it quickly, since the same agency has sabotaged the antique pergium reactor that maintains life support.",
+        "guestCast": [
+          "DeForest Kelley como Dr. Leonard Horatio \"Bones\" McCoy",
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Brad Weston como Appel",
+          "Barry Russo como Lt. Cmdr. Giotto",
+          "Ken Lynch como Vanderberg",
+          "Biff Elliot como Schmitter",
+          "George E. Allen como Engineer #1",
+          "Jon Cavett como Guard",
+          "Janos Prohaska como The Horta"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/84/212225.jpg"
       },
       {
         "displayNumber": "26",
         "overallNumber": "26",
         "title": "Errand of Mercy",
-        "date": "March 23, 1967",
+        "date": "1967-03-23",
         "productionCode": "27",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Kirk and Spock transport to the planet Organia, a pastoral realm of very low technology, which has the misfortune of being strategically important to the Klingons, who plan to use Organia as a forward base when they war on the Federation. Despite Kirk's best efforts, he cannot seem to impress upon the Organians that they are in dire peril and should ally with the Federation. Then the Klingons arrive, and being imposing martial law, and taking and executing hostages. Kirk works behind the scenes to interfere, but when the Organians betray him to the Klingons, he starts to wonder if they are worth protecting.",
+        "guestCast": [
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "John Colicos como Kor",
+          "Victor Lundin como Klingon Lieutenant",
+          "John Abbott como Ayelborne",
+          "Peter Brocco como Claymare",
+          "Walt Davis como Klingon Soldier #1",
+          "George Sawaya como Klingon Soldier #2",
+          "David Hillary Hughes como Trefayne",
+          "Paul Power como Elder"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242110.jpg"
       },
       {
         "displayNumber": "27",
         "overallNumber": "27",
         "title": "The Alternative Factor",
-        "date": "March 30, 1967",
+        "date": "1967-03-30",
         "productionCode": "20",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "An alien named Lazarus is somehow responsible for a kind of \"winking out\" effect - all of reality seems on the verge of collapse. He is fleeing a monster whose intent is nothing less than the destruction of reality. But through a mishap, Kirk is transported to the home of that monster. And he looks exactly like Lazarus! Kirk must decide which of them - if either - is the monster. If he guesses wrong, it's the end of everything.",
+        "guestCast": [
+          "DeForest Kelley como Dr. Leonard Horatio \"Bones\" McCoy",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "Eddie Paskey como Lt. Leslie",
+          "Janet MacLachlan como Lt. Charlene Masters",
+          "Robert Brown como Alternative Lazarus",
+          "Robert Brown como Lazarus",
+          "Arch Whiting como Assistant Engineer",
+          "Richard Derr como Barstow",
+          "Christian Patrick como Transporter Chief"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242111.jpg"
       },
       {
         "displayNumber": "28",
         "overallNumber": "28",
         "title": "The City on the Edge of Forever",
-        "date": "April 6, 1967",
+        "date": "1967-04-06",
         "productionCode": "28",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Ripples in time have provoked the curiosity of the Enterprise crew. One such ripple shakes the ship and gravely injures Sulu. McCoy brings him back from the brink with a powerful drug, but another ripple results in a tragic overdose, afflicting McCoy with dangerous paranoia! He beams down to the planet - the transporter was locked onto the source of the time disturbances. On the surface, he evades the landing party long enough to flee - into the past, where his psychosis results in him somehow erasing the Federation, and the Enterprise, save only the landing party. Their one chance is to use the same artifact - the self-styled Guardian of Forever - to arrive before McCoy and prevent him from changing their history.",
+        "guestCast": [
+          "DeForest Kelley como Dr. Leonard Horatio \"Bones\" McCoy",
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "John Winston como Transporter Chief",
+          "David L. Ross como Lt. Galloway",
+          "Joan Collins como Sister Edith Keeler",
+          "John Harmon como Rodent",
+          "Bart La Rue como Guardian",
+          "Hal Baylor como Policeman",
+          "Eddie Paskey como Lt. Leslie",
+          "Dick Cherney como Passerby on Sidewalk"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242112.jpg"
       },
       {
         "displayNumber": "29",
         "overallNumber": "29",
         "title": "Operation – Annihilate!",
-        "date": "April 13, 1967",
+        "date": "1967-04-13",
         "productionCode": "29",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Approaching the planet Deneva, the Enterprise encounters a private spacecraft whose pilot is flying desperately into the sun, the apparent act of a lunatic. Spock reveals disturbing news: a pattern of mass insanity that has spread across the galaxy in a nearly straight line, the current end of which is Deneva. The landing party discovers the horrifying truth - and one of them becomes its victim. Now the crew must devise a cure before Spock dies, or is driven hopelessly insane.",
+        "guestCast": [
+          "DeForest Kelley como Dr. Leonard Horatio \"Bones\" McCoy",
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "Maurishka como Yeoman Zahra",
+          "Craig Huxley como Peter",
+          "Joan Swift como Aurelan Kirk",
+          "Jerry Catron como Second Denevan",
+          "Fred Carson como First Denevan",
+          "David Armstrong como Kartan"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242113.jpg"
       }
     ],
     [
@@ -239,209 +682,420 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "30",
         "title": "Amok Time",
-        "date": "September 15, 1967",
+        "date": "1967-09-15",
         "productionCode": "34",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Spock is becoming increasing irrational, even threatening to break McCoy's neck! He can't or won't explain this behavior to Kirk, only asking to return to Vulcan. It's a request Kirk cannot grant, given the Enterprise's other business. Until McCoy tells him if Spock continues to deteriorate, he will die in days! Kirk makes the decision to take his friend back to his home world, where he learns that Spock's problem has to do with marriage...",
+        "guestCast": [
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "Arlene Martel como T'Pring",
+          "Byron Morrow como Admiral Komack",
+          "Celia Lovsky como T'Pau",
+          "Lawrence Montaigne como Stonn"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/430/1075311.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "31",
         "title": "Who Mourns for Adonais?",
-        "date": "September 22, 1967",
+        "date": "1967-09-22",
         "productionCode": "33",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Enterprise nears the planet Pollux IV, when an immense humanoid hand appears and seizes the ship! It is not actually living tissue, but a complex field of energy. And it belongs to a being who claims that he and his kind visited Earth long ago, and were then revered as gods - in this particular case, the Greek god Apollo. His request is a simple one: the crew of the Enterprise will depart the ship and establish a colony of worshippers. Of course, Kirk has no intention of doing this; he must make \"Apollo\" understand that humans have moved past him.",
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "John Winston como Lt. Kyle",
+          "Leslie Parrish como Lt. Carolyn Palamas",
+          "Michael Forest como Apollo"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/430/1075875.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "32",
         "title": "The Changeling",
-        "date": "September 29, 1967",
+        "date": "1967-09-29",
         "productionCode": "37",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A space probe of immense power and sophisticated technology has apparently annihilated the entire Malurian civilization, and now threatens Enterprise . But when Kirk hails it, the attacks cease and it allows itself to come aboard. Soon enough, the reason for its forebearance is revealed: it mistakening believes Kirk is its creator, Jackson Roykirk. This probe is Nomad , launched from Earth long ago. But its technology is far beyond what was understood then; beyond even what the modern Federation is capable of. What happened to Nomad , and why does it destroy whole civilizations?",
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "Vic Perrin como Nomad",
+          "Arnold Lessing como Security Guard",
+          "Makee K. Blaisdell como Lt. Singh",
+          "Barbara Gates como Crewwoman",
+          "Meade Martin como Crewman"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242117.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "33",
         "title": "Mirror, Mirror",
-        "date": "October 6, 1967",
+        "date": "1967-10-06",
         "productionCode": "39",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Halkans are a people deeply committed to peace. Kirk is trying to negotiate with them for dilithium, the rare mineral that's needed for warp power systems. But if there is even a chance their crystals will be used for violence, they cannot agree. Kirk beams back to his ship as a magnetic storm approaches - but the ship where he materializes is vastly different, run by savage opportunists, sadists, and killers. This ship, part of an Empire, will wipe the Halkans from their world and seize their crystals. Kirk must find a way to prevent that, and to return himself and his landing party home.",
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "John Winston como Lt. Kyle",
+          "Leonard Nimoy como Mirror Spock",
+          "William Shatner como Mirror Kirk",
+          "George Takei como Mirror Sulu",
+          "James Doohan como Mirror Scotty",
+          "Nichelle Nichols como Mirror Uhura",
+          "Walter Koenig como Mirror Chekov",
+          "Barbara Luna como Mirror Marlena",
+          "Barbara Luna como Lt. Marlena Moreau",
+          "Vic Perrin como Mirror Tharn",
+          "Vic Perrin como Tharn",
+          "John Winston como Mirror Kyle",
+          "Garth Pillsbury como Wilson",
+          "Pete Kellett como Farrell"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242118.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "34",
         "title": "The Apple",
-        "date": "October 13, 1967",
+        "date": "1967-10-13",
         "productionCode": "38",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Gamma Trianguli VI is a peaceful planet with abundant plant life. It seems a paradise, but the landing party soon feels the thorns: poisonous plants, killer storms, and explosive rocks all claim lives. Eventually, they discover a small community of primitive people who serve the mysterious Vaal, an immense statue, chiefly by feeding it when it demands this. These people live immensely long lives, and do not age or procreate unless there is an accident. Theirs is a stagnant society, and into the bargain Vaal apparently has the means to attack the Enterprise ...",
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "John Winston como Lt. Kyle",
+          "David Soul como Makora",
+          "Celeste Yarnall como Yeoman Martha Landon",
+          "Keith Andes como Akuta",
+          "Jerry Daniels como Marple",
+          "Jay D. Jones como Ensign Mallory",
+          "Mal Friedman como Hendorff",
+          "Shari Nims como Sayana"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242119.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "35",
         "title": "The Doomsday Machine",
-        "date": "October 20, 1967",
+        "date": "1967-10-20",
         "productionCode": "35",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Enterprise discovers the wreck of Constellation , a sister ship. The only survivor is Matt Decker, the Captain. He reports beaming his crew down to the fourth planet - except that there is no fourth planet! He investigated an odd occurrence: a planet apparently disintegrating, and discovered an immense space vessel cutting the planet apart with an antiproton beam, and digesting the pieces! This machine came from outside the galaxy, a relic of a devastating war fought long ago and far away. It will carve a path of destroyed solar systems through the most populous part of the Milky Way unless Kirk and his crew can stop it.",
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "George Takei como Lt. Hikaru Sulu",
+          "John Winston como Lt. Kyle",
+          "Elizabeth Rogers como Lt. Palmer",
+          "William Windom como Commodore Matthew Decker",
+          "Richard Compton como Washburn",
+          "Jerry Catron como Montgomery",
+          "John Copage como Elliot",
+          "Timothy Burns como Russ"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242120.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "36",
         "title": "Catspaw",
-        "date": "October 27, 1967",
+        "date": "1967-10-27",
         "productionCode": "30",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Sulu, Scotty and Jackson explore Pyrus VII, and then Jackson calls the ship, \"one to beam up\". He materializes dead, and a sepulchral voice threatens Kirk, saying his ship is cursed! Beaming down, Kirk discovers his men enslaved by strange aliens, who have created a Gothic castle and other artifacts straight from Halloween. But their power and threat are real - they are from a place so alien, that the sensations of this universe are intoxicating. If not stopped, they pose a grave threat to the Federation.",
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "John Winston como Transporter Chief",
+          "Michael Barrier como Lt. Vincent DeSalle",
+          "Antoinette Bower como Sylvia",
+          "Jay D. Jones como Crewman Jackson",
+          "Rhodie Cogan como First Witch",
+          "Gail Bonney como Second Witch",
+          "Mary Esther Denver como Third Witch",
+          "Theodore Marcuse como Korob"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242121.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "37",
         "title": "I, Mudd",
-        "date": "November 3, 1967",
+        "date": "1967-11-03",
         "productionCode": "41",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Mr. Norman is a new crewmember whom McCoy finds off-putting. He acts like a Vulcan, which is odd in a human. There's a good reason: Mr. Norman is not human. He is one of a collection of androids sent to hijack Enterprise by Kirk's old adversary, Harcourt Fenton Mudd! Mudd has plans for the starship, grand plans. And so do the androids.",
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Roger C. Carmel como Harcourt Fenton \"Harry\" Mudd",
+          "Kay Elliot como Stella Mudd Replica",
+          "Michael Zaslow como Jordan",
+          "Mike Howden como Lt. Rowe",
+          "Richard Tatro como Android Norman",
+          "Alyce Andrece como Alice #1 through 250",
+          "Rhae Andrece como Alice #251 through 500"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242122.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "38",
         "title": "Metamorphosis",
-        "date": "November 10, 1967",
+        "date": "1967-11-10",
         "productionCode": "31",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Enterprise sends a shuttlecraft to retrieve Federation Commissioner Nancy Hedford, who suffers from Sakuro's Disease, so that she may be treated. The craft is pulled off course and lands on a small planetoid, where the crew discover the systems will not work. They also discover a man, apparently living alone there - or, is he? He seems to from time to time commune with an energy cloud, the alien being responsible for forcing the shuttlecraft down. It means for the crew to serve as companions for the man - forever.",
+        "guestCast": [
+          "James Doohan como Lt. Cmdr. Montgomery \"Scotty\" Scott",
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "George Takei como Lt. Hikaru Sulu",
+          "Glenn Corbett como Zefram Cochrane",
+          "Elinor Donahue como Commissioner Nancy Hedford"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242123.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "39",
         "title": "Journey to Babel",
-        "date": "November 17, 1967",
+        "date": "1967-11-17",
         "productionCode": "44",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A large diplomatic conference will take place on Babel, to discuss the contentious issue of whether to admit Corridan to the Federation. Delegates are divided, and some of their motives are less than pure. Among these delegates is Sarek of Vulcan - Spock's estranged father. Add a mysterious challenging spacecraft and a murderer aboard the Enterprise , and Kirk has his hands full. Then Kirk himself is stabbed, leaving him seriously injured at the very moment when Spock is due to donate blood so that McCoy can operate on Vulcan ambassador Sarek's damaged heart. The key to solving this puzzle will require deducing which of the many factions is willing to go to violent lengths to sabotage this conference.",
+        "guestCast": [
+          "Nichelle Nichols como Lt. Nyota Uhura",
+          "Walter Koenig como Ensign Pavel Chekov",
+          "Majel Barrett Roddenberry como Nurse Christine Chapel",
+          "Mark Lenard como Ambassador Sarek",
+          "Jane Wyatt como Amanda",
+          "John Wheeler como Ambassador Gav",
+          "James X. Mitchell como Lt. Josephs",
+          "William O'Connell como Thelev",
+          "Reggie Nalder como Shras"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242124.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "40",
         "title": "Friday's Child",
-        "date": "December 1, 1967",
+        "date": "1967-12-01",
         "productionCode": "32",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Federation sends Kirk to negotiate for mining rights with Aka'ar, Te'er of the Ten Tribes of Capella IV. Capella IV has deposits of the rare mineral topaline, needed for life support systems. The Klingons need this mineral, too, and their presence creates tension further complicated by conflict among the members of the tribe. Ma'ab murders Aka'ar and becomes the new Te'er, and he has a decidedly different attitude that favors the Klingonm perspective. Worse, Kirk and McCoy will not stand by while he murders Ele'en, the pregnant wife of the old Te'er, despite this being Capellan tradition. Soon enough, the Federation party is running for the hills - literally - with Capellans and a Klingon in pursuit.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/144/361476.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "41",
         "title": "The Deadly Years",
-        "date": "December 8, 1967",
+        "date": "1967-12-08",
         "productionCode": "40",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Enterprise discovers the scientists on Gamma Hydra IV are all either dead or dying of old age, despite the fact that the oldest was around thirty! Matters get worse when the landing party begins to show signs of aging, all except for Chekov, who is mysteriously unaffected. Eventually, Kirk must be relieved of command, and as Spock and Scotty are both affected, Commodore Stocker assumes command. But Stocker has been a desk officer his entire career; he has no field experience, which leads him to make a desperate, wrong decision...",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242126.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "42",
         "title": "Obsession",
-        "date": "December 15, 1967",
+        "date": "1967-12-15",
         "productionCode": "47",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "On an obscure planet, Kirk smells something that reminds him of the past. And then two crewman die, their ghastly pallor betraying the fact that every red blood cell in their bodies has been destroyed, the hemoglobin neatly removed. A long time ago, very far from here, Kirk was a young Lieutenant about the Farragut when that ship encountered the cause: a mysterious, gaseous cloud that feeds on blood. Now, Kirk is obsessed with destroying the monster that killed his then mentor, the Farragut's captain Garrovik. Perhaps to an unhealthy degree. Or, given what Spock discovers, perhaps not.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/437/1094690.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "43",
         "title": "Wolf in the Fold",
-        "date": "December 22, 1967",
+        "date": "1967-12-22",
         "productionCode": "36",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Kirk takes Scotty to Argelius, a planet renowed for hospitality. Scotty is still recovering from serious injuries accounted to a female member of the crew, so McCoy is concerned he might harbor subconscious resentment toward women. But apparently not; he takes a young woman for a walk through the fog. Kirk and McCoy leave later, and en route to another tavern, hear a high scream. They arrive to find Scotty, bloody knife in hand, standing over the body of the young woman, who has been stabbed dozens of times! They're certain Scotty is innocent despite the evidence, but proving that will require them to discover the actual murderer - and reveal a horrifying truth from history!",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/438/1095322.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "44",
         "title": "The Trouble with Tribbles",
-        "date": "December 29, 1967",
+        "date": "1967-12-29",
         "productionCode": "42",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Under the terms of the Organian Peace Treaty, Sherman's Planet will become a colony of whoever can best develop it. To that end, the Federation intends to ship a large quantity of quadrotriticale to that planet, and Federation Undersecretary Nilz Baris is determined that the grain will arrive, so he orders the manager of Space Station K-9 to issue a distress call! Enterprise responds to discover no emergency; Baris just wants guards for his grain. And then a Klingon ship arrives, seeking shore leave. And Cyrano Jones, an itinerant trader, also arrives, with some odd animals he calls tribbles. Some very hungry, odd animals...",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242129.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "45",
         "title": "The Gamesters of Triskelion",
-        "date": "January 5, 1968",
+        "date": "1968-01-05",
         "productionCode": "46",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Kirk, Uhura and Chekov are set to beam down to examine and maintain a communications relay station, when they vanish from the transporter room in a way inconsistent with normal transport! They have been whisked across planetary systems by the mysterious Providers, who gather \"inferior\" beings from all over the galaxy and pit them against each other in blood contests. This activity is the only thing that stimulates the Providers. As the three begin their involuntary training, Enterprise begins following the scant evidence their abductors left behind, trying to locate them.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/439/1098602.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "46",
         "title": "A Piece of the Action",
-        "date": "January 12, 1968",
+        "date": "1968-01-12",
         "productionCode": "49",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Horizon visited the planet Iotia a hundred years ago, long before the Prime Directive forbid interference in pre-warp alien cultures. Beaming down to investigate the damage, Kirk, Spock and McCoy discover a culture run by mobsters! It seems that Horizon left behind a book, \"Chicago Mobs of the Twenties\", and the highly imitative people of Iotia patterned their society after the groups described in its pages. How can Enterprise undo the grievous harm Horizon did to this civilization?",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/440/1101988.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "47",
         "title": "The Immunity Syndrome",
-        "date": "January 19, 1968",
+        "date": "1968-01-19",
         "productionCode": "48",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Spock senses the crew of Intrepid , a starship crewed solely by Vulcans, die. Enterprise investigates, and discovers a zone of darkness which conceals the hazard: an immense yet single-celled organism which drains energy from anything it encounters, as it did the Intrepid and her crew. And unless they can discover how to destroy it, Enterprise will be next. Worse, there are signs the organism has accumulated sufficient energy to reproduce...",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242132.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "48",
         "title": "A Private Little War",
-        "date": "February 2, 1968",
+        "date": "1968-02-02",
         "productionCode": "45",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Kirk returns to a planet he surveyed years ago as a younger officer. There he discovers that the villagers and the hill people are now fighting, because the villagers have developed crude firearms and the idea that they should simply take anything they want from the hill people. Worse, Spock is the victim of a gunshot! Kirk and McCoy return to the surface to investigate more completely, but Enterprise must leave to avoid detection - and then a mugato bites Kirk! He must make contact with the hill people, who number among them a kind of witch doctor called a kanutu, who may be able to help. But that help comes with a price...",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242133.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "49",
         "title": "Return to Tomorrow",
-        "date": "February 9, 1968",
+        "date": "1968-02-09",
         "productionCode": "51",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Enterprise responds to odd readings, which lead the crew to a planet similar to Earth, except that it is much older, and a cataclysm stripped its atmosphere away a half million years ago; it has been dead ever since. But from somewhere on that world comes a voice. Something has evidently endured 500,000 years - the last survivors of the civilization that flourished here. And all they want are the bodies of a few humans...",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/441/1103965.jpg"
       },
       {
         "displayNumber": "21",
         "overallNumber": "50",
         "title": "Patterns of Force",
-        "date": "February 16, 1968",
+        "date": "1968-02-16",
         "productionCode": "52",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Historian and sociologist John Gill has stopped responding to transmissions. He is embedded in the Ekosian population to study it. Investigating, Kirk and Spock discover that Ekos has developed nuclear weapons - an achievement well ahead of where they should be scientifically, based on past probes. And they have modeled their society on Nazi Germany, right down to oppression of their sister planet, Zeon. It seems apparent Gill has contaminated this society, but why? And why Nazi Germany?",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/442/1105178.jpg"
       },
       {
         "displayNumber": "22",
         "overallNumber": "51",
         "title": "By Any Other Name",
-        "date": "February 23, 1968",
+        "date": "1968-02-23",
         "productionCode": "50",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Kelvans from the Andromeda galaxy have discovered that rising radiation levels will make their galaxy uninhabitable within ten millenia. So they have dispatched generation ships of soldiers to nearby galaxies to see which of them they might conquer. Enterprise encounters such a group when her crew answers a distress call. With the Kelvans' superior technology, they may well be able to conquer the entire Milky Way galaxy!",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/443/1107561.jpg"
       },
       {
         "displayNumber": "23",
         "overallNumber": "52",
         "title": "The Omega Glory",
-        "date": "March 1, 1968",
+        "date": "1968-03-01",
         "productionCode": "54",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Enterprise discovers her sister ship, Exeter in orbit around a planet, unresponsive. Kirk, Spock and McCoy beam aboard and discover only empty uniforms mixed with a handful of crystals. Then they find a log - the ship is infected with a deadly plague! Their only chance is to beam down to the planet's surface immediately. There, they discover heartbreaking evidence that Exeter's captain Ronald Tracy has violated the prime directive, up to and including mass murder. But he has what he believes is a good reason - and it depends on McCoy's research into a long ago bacteriological war.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/443/1109693.jpg"
       },
       {
         "displayNumber": "24",
         "overallNumber": "53",
         "title": "The Ultimate Computer",
-        "date": "March 8, 1968",
+        "date": "1968-03-08",
         "productionCode": "53",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Enterprise is chosen as the testbed for the revolutionary M-5 computer. The machine's inventor, Richard Daystrom, claims it can take control of a starship, freeing men for less dangerous and more rewarding work. It all depends on whether his breakthrough technology, multitronics, is as powerful and capable as he says. After a few exercises, Spock begins to wonder exactly how multitronics works - for the M-5 does not react as computers typically do.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242138.jpg"
       },
       {
         "displayNumber": "25",
         "overallNumber": "54",
         "title": "Bread and Circuses",
-        "date": "March 15, 1968",
+        "date": "1968-03-15",
         "productionCode": "43",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Enterprise follows the wreckage of the S.S. Beagle to a planet where they discover an Earth-like civilization, except that Rome never fell, and rules a world much like twentieth century America. Intercepted radio transmissions suggest deeper mysteries, so Kirk, Spock and McCoy beam down to investigate, and then find themselves caught between the Roman government and a group of \"sun worshippers\". Proconsul Claudius wants Kirk to beam down his entire crew; the Proconsul is determined that no one will leave this world!",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/447/1117504.jpg"
       },
       {
         "displayNumber": "26",
         "overallNumber": "55",
         "title": "Assignment: Earth",
-        "date": "March 29, 1968",
+        "date": "1968-03-29",
         "productionCode": "55",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Enterprise has used the \"light speed breakaway\" technique to travel to Earth in the year 1968, to study how humans survived the desperate problems of that era. Then, they intercept a man beaming back to Earth from at least a thousand light years away, a technical feat beyond even Federation science! Who is Gary Seven, how did he get access to such advanced technology, and why has he come to Earth? He has a story, but Kirk has trouble believing it. Worse, he has trouble knowing whether he should allow Seven to pursue his agenda, or try to stop him. One of those choices is certain to destroy the future... but which?",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/448/1121250.jpg"
       }
     ],
     [
@@ -449,193 +1103,289 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "56",
         "title": "Spock's Brain",
-        "date": "September 20, 1968",
+        "date": "1968-09-20",
         "productionCode": "61",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "An alien woman materializes on the bridge of the Enterprise and knocks the command crew unconscious. When they come to, they discover that Spock's brain has been stolen and they have to race against time to track her down and recover the brain in order to save Mr. Spock.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242142.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "57",
         "title": "The Enterprise Incident",
-        "date": "September 27, 1968",
+        "date": "1968-09-27",
         "productionCode": "59",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Captain Kirk acts strangely and ends up taking the ship into the Romulan neutral zone where they are surrounded by Romulans, the Romulan commander then takes a interest in Mr. Spock.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242143.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "58",
         "title": "The Paradise Syndrome",
-        "date": "October 4, 1968",
+        "date": "1968-10-04",
         "productionCode": "58",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Mr. Spock must destroy an asteroid threatening a primitive world where lost and amnesiac Captain Kirk has taken a wife.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242144.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "59",
         "title": "And the Children Shall Lead",
-        "date": "October 11, 1968",
+        "date": "1968-10-11",
         "productionCode": "60",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A group of orphaned children under an alien's control take over the minds of the Enterprise crew.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242145.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "60",
         "title": "Is There in Truth No Beauty?",
-        "date": "October 18, 1968",
+        "date": "1968-10-18",
         "productionCode": "62",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Only a jealous scientist can save Spock when he goes mad after seeing a hideous Medusan.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/459/1148804.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "61",
         "title": "Spectre of the Gun",
-        "date": "October 25, 1968",
+        "date": "1968-10-25",
         "productionCode": "56",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Powerful aliens transport the Enterprise officers into an illusionary re-creation of the gunfight at the OK Corral.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/104/262044.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "62",
         "title": "Day of the Dove",
-        "date": "November 1, 1968",
+        "date": "1968-11-01",
         "productionCode": "66",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "An alien which feeds on violence traps Klingons and Enterprise crewman together.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/464/1160912.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "63",
         "title": "For the World Is Hollow and I Have Touched the Sky",
-        "date": "November 8, 1968",
+        "date": "1968-11-08",
         "productionCode": "65",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After Dr. McCoy informs Captain Kirk that he is dying, the Enterprise crew discovers a planetoid that is on a collision course with a inhabited world. Kirk, Spock and McCoy beam down and discover it is a populated space ship where most of the inhabitants having no clue they are on a space ship.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/464/1161581.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "64",
         "title": "The Tholian Web",
-        "date": "November 15, 1968",
+        "date": "1968-11-15",
         "productionCode": "64",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Kirk is trapped on a disintegrating star ship and drifts between dimensions while the Tholian's create a energy web around the Enterprise to prevent them from escaping.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242150.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "65",
         "title": "Plato's Stepchildren",
-        "date": "November 22, 1968",
+        "date": "1968-11-22",
         "productionCode": "67",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Rulers of a culture modeled after Platos Republic kidnap Kirk, Spock and Dr. McCoy.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242151.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "66",
         "title": "Wink of an Eye",
-        "date": "November 29, 1968",
+        "date": "1968-11-29",
         "productionCode": "68",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The dying Scalosians, invisible to humans, need the Enterprise crew to help repopulate their decimated planet.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/466/1167495.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "67",
         "title": "The Empath",
-        "date": "December 6, 1968",
+        "date": "1968-12-06",
         "productionCode": "63",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After arriving at a outpost to pick up the two members of a science team, Kirk, McCoy and Spock find the team missing. They are then transported to another location by alien beings who use them in a torturous experiment involving a young girl who does not speak.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242153.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "68",
         "title": "Elaan of Troyius",
-        "date": "December 20, 1968",
+        "date": "1968-12-20",
         "productionCode": "57",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Klingons interfere when the Enterprise is ordered to transport an unwilling royal bride to her wedding in another star system. During the trip, the enterprise is sabotaged.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242154.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "69",
         "title": "Whom Gods Destroy",
-        "date": "January 3, 1969",
+        "date": "1969-01-03",
         "productionCode": "71",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Inmates gain control of an insane asylum, taking visiting Kirk and Spock prisoner.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/78/195280.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "70",
         "title": "Let That Be Your Last Battlefield",
-        "date": "January 10, 1969",
+        "date": "1969-01-10",
         "productionCode": "70",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A thousand-year feud between sworn enemies threatens to destroy the Enterprise .",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242156.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "71",
         "title": "The Mark of Gideon",
-        "date": "January 17, 1969",
+        "date": "1969-01-17",
         "productionCode": "72",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Captain Kirk suddenly finds himself on what appears to be the Enterprise, alone except for a beautiful alien woman while on a away mission to the planet Gideon.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242157.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "72",
         "title": "That Which Survives",
-        "date": "January 24, 1969",
+        "date": "1969-01-24",
         "productionCode": "69",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Enterprise discovers a planet that defies the conventional theories of planetology, so Kirk, Sulu, McCoy and D'Amato (a geologist) beam down to investigate. As they depart, a mysterious woman appears in the transporter room and attacks the chief there. Then the Enterprise is hurled nearly a thousand light years away! The strange female apparition reappears, and demonstrates that she is a grave threat to both stranded crew and the ship...",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/78/195860.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "73",
         "title": "The Lights of Zetar",
-        "date": "January 31, 1969",
+        "date": "1969-01-31",
         "productionCode": "73",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A mysterious storm has inflicted heavy - perhaps irreparable - damage on the library planetoid Memory Alpha. And it seems to have a curious affiliation with new crewmember Myra Romaine. As the Enterprise pursues the hazard, Romaine falls more under its influence, and the crew learns is is not a storm at all, but a form of life that means to survive at ANY cost.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242159.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "74",
         "title": "Requiem for Methuselah",
-        "date": "February 14, 1969",
+        "date": "1969-02-14",
         "productionCode": "76",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Rigelian Fever rages about the Enterprise; on a small planet named Holberg 917G, the crew has discovered a source of the only cure, ryetalin. Kirk, Spock and McCoy beam down, and discover the planet is the private property of Flint. At first uncooperative, Flint relents and permits the crew to gather the material. But events soon have them wondering about Flint's real goals, and his mysterious ward, the enchanting Rayna.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242160.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "75",
         "title": "The Way to Eden",
-        "date": "February 21, 1969",
+        "date": "1969-02-21",
         "productionCode": "75",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Enterprise intercepts a stolen space yacht, whose thieves destroy it rather than face capture. But they are captured, and revealed as \"counterculture\" individuals looking for a mysterious planet they call Eden. Led by an insane genius, they manage to capture the Enterprise long enough to direct it to Eden, which is located in the Romulan Neutral Zone! And to make their escape, they create a lethal trap for the crew.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242161.jpg"
       },
       {
         "displayNumber": "21",
         "overallNumber": "76",
         "title": "The Cloud Minders",
-        "date": "February 28, 1969",
+        "date": "1969-02-28",
         "productionCode": "74",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The planet Merek II is gripped by a botanical plague. The only cure is the mineral zeenite, and the only practical source of that is Ardana. But Ardana has a stratified city: the troglytes who labor live in harsh conditions, while philosophers and artists enjoy the beauty of its floating city, Stratos. One among the troglytes, Vanna, means to change this, and plans to exploit the crisis - and Federation representatives Kirk and Spock - to accomplish that.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/476/1190640.jpg"
       },
       {
         "displayNumber": "22",
         "overallNumber": "77",
         "title": "The Savage Curtain",
-        "date": "March 7, 1969",
+        "date": "1969-03-07",
         "productionCode": "77",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Enterprise surveys the planet Excalbia. As its surface is the temperature of molten rock, no landing party is possible, so when the orbital survey concludes, Kirk orders the ship to leave. And then... Abraham Lincoln appears, and at the same time a region forms on the planet suitable for human life. Kirk and Spock beam down and discover Yarnek. It seems the Excalbians are struggling to understand the concepts of good and evil; the help themselves they have constructed an experiment: four examplars of good, including Kirk and Spock, will battle four exemplars of evil, notorious figures from history. And if good loses, the Enterprise will be destroyed...",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/477/1192592.jpg"
       },
       {
         "displayNumber": "23",
         "overallNumber": "78",
         "title": "All Our Yesterdays",
-        "date": "March 14, 1969",
+        "date": "1969-03-14",
         "productionCode": "78",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "While trying to locate the missing population of a planet doomed by a coming nova, Kirk, Spock, and McCoy find a mysterious librarian who sends them back into the planet's past. While Spock and McCoy fight for survival in a frigid landscape, Kirk is accused of witchcraft.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242164.jpg"
       },
       {
         "displayNumber": "24",
         "overallNumber": "79",
         "title": "Turnabout Intruder",
-        "date": "June 3, 1969",
+        "date": "1969-06-03",
         "productionCode": "79",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Janice Lester, a lover from Kirk's past, uses alien technology to switch her consciousness into his body and vice versa, so that she can take command of the Enterprise and become a Starfleet captain as she always wanted.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242165.jpg"
       }
     ]
   ],
@@ -645,129 +1395,193 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "1",
         "title": "Beyond the Farthest Star",
-        "date": "September 8, 1973",
+        "date": "1973-09-08",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Kirk and crew beam aboard a massive derelict starship from an insect race, and learn that the ship's crew self-destructed rather than carrying a still-living malevolent entity to other worlds.",
+        "guestCast": [],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/407/1019424.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "2",
         "title": "Yesteryear",
-        "date": "September 15, 1973",
+        "date": "1973-09-15",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "An expedition through the Guardian of Forever inadvertently prevents Spock from traveling back to his childhood to save his younger self. Spock discovers that history has recorded that he died at age 7 undergoing the Kahs-wan ordeal. Spock travels back to 2237 to save his own life. Spock is successful in restoring the proper timeline; however, this time, his pet sehlat dies during the ordeal.",
+        "guestCast": [],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/480/1200383.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "3",
         "title": "One of Our Planets Is Missing",
-        "date": "September 22, 1973",
+        "date": "1973-09-22",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "An enormous space-going cloud entity feeds on the energy of whole planetary systems, and a Federation colony is next in its path. The Enterprise braves its antimatter interior and finds a way to stop it. Spock mind-melds with the entity and tells it that it is killing life, and he persuades it to return to its place of origin.",
+        "guestCast": [],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/480/1202322.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "4",
         "title": "The Lorelei Signal",
-        "date": "September 29, 1973",
+        "date": "1973-09-29",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Investigating a sector of space where starships have disappeared every 27 years, the U.S.S. Enterprise male crew are attracted by a mysterious signal. Kirk beams down with a landing party and encounters a race of beautiful women who survive by drawing the energy from the male members of the ships that they have lured to their planet.",
+        "guestCast": [],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/482/1205218.jpg"
       },
       {
         "displayNumber": "Investigating a sector of space where starships have disappeared every 27 years, the Enterprise finds a race of beautiful women living on the planet Taurus II.",
         "overallNumber": "Investigating a sector of space where starships have disappeared every 27 years, the Enterprise finds a race of beautiful women living on the planet Taurus II.",
         "title": "Investigating a sector of space where starships have disappeared every 27 years, the Enterprise finds a race of beautiful women living on the planet Taurus II.",
-        "date": "Investigating a sector of space where starships have disappeared every 27 years, the Enterprise finds a race of beautiful women living on the planet Taurus II.",
+        "date": "1973-10-06",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The U.S.S. Enterprise again crosses paths with Cyrano Jones, who this time has tribbles that do not breed but instead grow to an enormous size. The tribbles are back and are causing problems for the Klingons.",
+        "guestCast": [],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/483/1208763.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "5",
         "title": "More Tribbles, More Troubles",
-        "date": "October 6, 1973",
+        "date": "1973-10-13",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Patrolling near the Neutral Zone, the U.S.S. Enterprise finds a ship and rescues Carter Winston, a Federation citizen, financier, and philanthropist missing for 5 years. However, Winston turns out to really be a Vendorian, an alien species that can transform its shape at will. He is also allied with the Romulans.",
+        "guestCast": [],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/485/1212580.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "6",
         "title": "The Survivor",
-        "date": "October 13, 1973",
+        "date": "1973-10-20",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "On the recently-discovered planet Phylos, the U.S.S. Enterprise crew meets Dr. Keniclius, a human scientist who survived Earth's Eugenics Wars and now grown to giant proportions. The Phylosians are a once vast plant-based civilization that has been reduced to a few survivors. Led by Keniclius, the Phylosians abduct Spock so the doctor can make him into a giant clone with the intention of forcing peace on the galaxy.",
+        "guestCast": [],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/485/1214948.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "7",
         "title": "The Infinite Vulcan",
-        "date": "October 20, 1973",
+        "date": "1973-10-27",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Enterprise travels to the center of the galaxy only to discover themselves sucked into a dimension where the laws of time and space no longer apply, and \"magic\" functions for those capable of grasping its fundamentals. Stopping at Megas-Tu, a planet where magic and witchcraft are the norm, the crew finds their guide is Lucien, who is Lucifer of Earth mythology.",
+        "guestCast": [],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/487/1218589.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "8",
         "title": "The Magicks of Megas-tu",
-        "date": "October 27, 1973",
+        "date": "1973-11-03",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Enterprise travels to the shore leave planet for some well-deserved rest and relaxation. The planet can create organic androids based on the crew's imagination, but they soon discover that the planet has a hostile mind of its own. The \"amusement park\" planet's keeper is now dead and the untended machinery is constructing dangerous images from the crew members' thoughts.",
+        "guestCast": [],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/488/1221313.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "9",
         "title": "Once Upon a Planet",
-        "date": "November 3, 1973",
+        "date": "1973-11-10",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Harry Fenton Mudd is once again apprehended and incarcerated by the U.S.S. Enterprise crew, after trying to sell love crystals. He claims the love potion can cause any male and female to fall in love. He inadvertently releases it into the Enterprise 's ventilation system and they discover that his claims are true. Mudd abducts Nurse Chapel and briefly escapes to a rocky planet in a stolen Enterprise Heavy shuttlecraft, but he is recaptured and sentenced to an indefinite period in rehabilitation therapy for violations of the Federation pharmaceutical code, including fraud, illegal drug manufacturing, swindling, and transport of a dangerous life-form (a Rigellian hypnoid).",
+        "guestCast": [],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/489/1224839.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "10",
         "title": "Mudd's Passion",
-        "date": "November 10, 1973",
+        "date": "1973-11-17",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "While exploring a burnt-out supernova, the U.S.S. Enterprise responds to an old-style distress signal containing the word \"Terratin,\" and follow it to its source: an uninhabited planet about to shatter from internal stress. However, a mysterious beam strikes the ship and the crew begins to shrink... and shrink... On the planet, Kirk finds a miniature city called Terratin and soon discovers that it is a lost Earth colony that has mutated because of the supernova's radiation.",
+        "guestCast": [],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/491/1228462.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "11",
         "title": "The Terratin Incident",
-        "date": "November 17, 1973",
+        "date": "1973-11-24",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The U.S.S.Enterprise is sent on a mission to explore a \"Bermuda Triangle of Space,\" only to find itself and a Klingon battlecruiser trapped in a time warp after being caught in an ion storm. The two ships must cooperate before their only exit back to real space closes for good. This Delta Triangle is inhabited by other lost ships, many centuries old.",
+        "guestCast": [],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/493/1234980.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "12",
         "title": "The Time Trap",
-        "date": "November 24, 1973",
+        "date": "1973-12-01",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "While exploring the aquatic planet Argo, Kirk and Spock are lost at sea. They are later found... but have been transformed into water breathers. Now they must track down the planet's mysterious undersea inhabitants and find a cure, or be left to live as freaks in the Federation. The venom of a deadly sea snake is the only antidote to return them to their normal selves.",
+        "guestCast": [],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1240632.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "13",
         "title": "The Ambergris Element",
-        "date": "December 1, 1973",
+        "date": "1973-12-15",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Spock, Sulu, and Uhura are delivering a stasis box from the extinct Slaver race on the shuttlecraft Copernicus . When they detect another box and follow its signal, they soon discover that a Kzinti privateer has set a trap. Capturing the Enterprise crew, they discover their box holds a rare find, a shape-shifting Slaver weapon. Now Spock and the others must keep the Kzinti from returning to their government with the weapon.",
+        "guestCast": [],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/497/1243540.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "14",
         "title": "The Slaver Weapon",
-        "date": "December 8, 1973",
+        "date": "1974-01-05",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Beaming down to a planet to search for the crew of the missing ship Ariel , the U.S.S. Enterprise crew is captured by a race of super-intelligent slug creatures and become part of a zoo collection. They find the missing crew also trapped as prisoners in the alien zoo. Now they must somehow establish communications with their evolved slug-like captors who think of them as primitive animals.",
+        "guestCast": [],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/498/1247036.jpg"
       },
       {
         "displayNumber": "In the shuttlecraft Copernicus, Mr. Spock, Uhura and Sulu are en route to Starbase 25 to deliver a stasis box—a rare artifact of the Slaver culture when the Kzinti intervene.",
         "overallNumber": "In the shuttlecraft Copernicus, Mr. Spock, Uhura and Sulu are en route to Starbase 25 to deliver a stasis box—a rare artifact of the Slaver culture when the Kzinti intervene.",
         "title": "In the shuttlecraft Copernicus, Mr. Spock, Uhura and Sulu are en route to Starbase 25 to deliver a stasis box—a rare artifact of the Slaver culture when the Kzinti intervene.",
-        "date": "In the shuttlecraft Copernicus, Mr. Spock, Uhura and Sulu are en route to Starbase 25 to deliver a stasis box—a rare artifact of the Slaver culture when the Kzinti intervene.",
+        "date": "1974-01-12",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Kirk and Spock are chosen by a mysterious race to join an expedition of alien specialists to a \"mad planet\" and recover a missing artifact, the Soul of Alar, before the avian Skorr go on a galactic jihad.",
+        "guestCast": [],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/499/1249216.jpg"
       },
       {
         "displayNumber": "15",
@@ -775,7 +1589,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "The Eye of the Beholder",
         "date": "January 5, 1974",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "16",
@@ -783,7 +1599,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "The Jihad",
         "date": "January 12, 1974",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "",
+        "guestCast": []
       }
     ],
     [
@@ -791,49 +1609,73 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "17",
         "title": "The Pirates of Orion",
-        "date": "September 7, 1974",
+        "date": "1974-09-07",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Spock is stricken ill with a disease that is fatal to Vulcans. With time running out, the U.S.S.Enterprise must rendezvous with the S.S. Huron , a freighter carrying the only known antidote. However, Orion pirates hijack the shipment and Kirk must deal with them before Spock dies.",
+        "guestCast": [],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/500/1251785.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "18",
         "title": "Bem",
-        "date": "September 14, 1974",
+        "date": "1974-09-14",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The U.S.S. Enterprise hosts Commander Ari bn Bem, an arrogant member of a neutral race from the newly-contacted planet Pandro. However, Bem endangers all of their lives when he conducts a test of suitability upon Kirk and Spock during an exploratory mission. This occurs on a planet of primitive natives under the guardianship of a noncorporeal being.",
+        "guestCast": [],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/501/1254007.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "19",
         "title": "The Practical Joker",
-        "date": "September 21, 1974",
+        "date": "1974-09-21",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After avoiding a Romulan ambush by three of their warships, the U.S.S. Enterprise enters a strange energy cloud. The gaseous cloud affects the ship's computer turning it insane. With the crew at the mercy of the Enterprise 's computer, it indulges in a series of increasingly aggressive practical jokes.",
+        "guestCast": [],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/502/1256329.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "20",
         "title": "Albatross",
-        "date": "September 28, 1974",
+        "date": "1974-09-28",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The U.S.S. Enterprise goes to the planet Dramia to deliver medical supplies, only to have McCoy arrested and put on trial for deliberately spreading a plague that killed most of the population of the colony Dramia II. Nineteen years earlier, Dr. McCoy headed a mass-inoculation program there against Saurian virus. This disaster occurred after his team left the planet. Now Kirk must clear his friend's name before the doctor is executed.",
+        "guestCast": [],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/503/1258906.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "21",
         "title": "How Sharper Than a Serpent's Tooth",
-        "date": "October 5, 1974",
+        "date": "1974-10-05",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Backtracking a mysterious alien probe, the U.S.S. Enterprise encounters a ship in the shape of a giant feathered serpent, which turns out to be Kukulkan, a god of ancient Mayan-Aztec legend. Its captain, Kukulkan, is actually a very long-lived benevolent entity who wants the humans to worship him just as the Mayans and Aztecs did. He insists on putting Kirk and others through a test to determine if they have grown sufficiently to receive his wisdom.",
+        "guestCast": [],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/504/1261272.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "22",
         "title": "The Counter-Clock Incident",
-        "date": "October 12, 1974",
+        "date": "1974-10-12",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "While en route to Babel transporting Commodore Robert April, the U.S.S. Enterprise 's first captain, and Dr. Sarah April, his wife and ship's first doctor, the Enterprise inadvertently locks a tractor beam on a ship diving into the Beta Niobe Nova. Both ships plunge through the nova and into a bizarre parallel universe where everything is backward. With time flying in reverse, the crew begins to grow younger at an accelerated rate.",
+        "guestCast": [],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/504/1261482.jpg"
       }
     ]
   ],
@@ -843,209 +1685,324 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "1",
         "title": "Encounter at Farpoint",
-        "date": "September 28, 1987",
+        "date": "1987-09-28",
         "productionCode": "101 102",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Captain Picard takes command of the Galaxy Class Federation starship, the 'Enterprise. Picard not only takes over the 'Enterprise' but has his first encounter with a extremely powerful life form known as 'Q' who proceeds to put humanity on trial for their crimes. Q makes their first mission to the Farpoint station on Daneb IV a extreme test for the existence of humanity.",
+        "guestCast": [
+          "DeForest Kelley como Admiral Leonard H. McCoy",
+          "John de Lancie como Q",
+          "Michael Bell como Groppler Zorn",
+          "Colm Meaney como Miles O'Brien",
+          "Tim Dang como Main Bridge Security",
+          "Cary-Hiroyuki Tagawa como Trial Bailiff",
+          "Chuck Hicks como Officer",
+          "Evelyn Guerrero como Ensign",
+          "Jimmy Ortega como Lieutenant Torres",
+          "David Erskine como Bandi Shopkeeper"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242168.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "2",
         "title": "Encounter at Farpoint",
-        "date": "September 28, 1987",
+        "date": "1987-09-28",
         "productionCode": "101 102",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "At the end of the trial, Q gives Captain Picard 24 hours to solve the mystery of Farpoint station and save the human race. Picard and his team come to a unusual conclusion about the problems encountered at the way station in space.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242169.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "3",
         "title": "The Naked Now",
-        "date": "October 5, 1987",
+        "date": "1987-10-05",
         "productionCode": "103",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Enterprise away team is investigating mysterious deaths and Geordi becomes infected with a illness that is mind-altering and starts spreading throughout the rest of the ships crew.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242170.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "4",
         "title": "Code of Honor",
-        "date": "October 12, 1987",
+        "date": "1987-10-12",
         "productionCode": "104",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "While involved in a treaty discussion with the inhabitants of Ligon II, Tasha is abducted and Picard is forced to abide by the inhabitants Code of Honor to obtain her release.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242171.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "5",
         "title": "The Last Outpost",
-        "date": "October 19, 1987",
+        "date": "1987-10-19",
         "productionCode": "107",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Ferengi and Enterprise teams beam down to an unknown world to discover who or what has sapped power from both vessels.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242172.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "6",
         "title": "Where No One Has Gone Before",
-        "date": "October 26, 1987",
+        "date": "1987-10-26",
         "productionCode": "106",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Teenager Wesley Crusher and a dying alien are the crew's only hope for escape from a bizarre galaxy where thoughts become real.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242173.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "7",
         "title": "Lonely Among Us",
-        "date": "November 2, 1987",
+        "date": "1987-11-02",
         "productionCode": "108",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Passing through a series of complex energy patterns, the Enterprise crew find themselves trying to solve the mystery surrounding the death of Assistant Chief Engineer Singh and the altered personalities of Lt. Worf, Dr. Crusher and the Captain.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242174.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "8",
         "title": "Justice",
-        "date": "November 9, 1987",
+        "date": "1987-11-09",
         "productionCode": "109",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "To learn the origin of a mysterious ship, Picard must get help from a planet where Wesley faces a death sentence.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242175.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "9",
         "title": "The Battle",
-        "date": "November 16, 1987",
+        "date": "1987-11-16",
         "productionCode": "110",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A vengeful Ferengi captain returns Picard's long-lost ship, the Stargazer, after installing a mind-altering device.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242176.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "10",
         "title": "Hide and Q",
-        "date": "November 23, 1987",
+        "date": "1987-11-23",
         "productionCode": "111",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Q gives the powers of the Q to Riker and tells him his shipmates wishes will be granted if he joins with those of the Q Continuum.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242177.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "11",
         "title": "Haven",
-        "date": "November 30, 1987",
+        "date": "1987-11-30",
         "productionCode": "105",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Counselor Troi faces an arranged marriage when the Enterprise arrives at a planet, her future husband to be has had dreams of a unknown woman for years before meeting her.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242178.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "12",
         "title": "The Big Goodbye",
-        "date": "January 11, 1988",
+        "date": "1988-01-11",
         "productionCode": "113",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Captain Picard, Data and Dr. Crusher are trapped in a holodeck program as 1940's detectives during a holdeck malfunction that interferes with a meeting with a alien species that requires the captain only.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242179.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "13",
         "title": "Datalore",
-        "date": "January 18, 1988",
+        "date": "1988-01-18",
         "productionCode": "114",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Enterprise explores Data's home planet, Omicron Theta. They find his brother, and the dark secret he carries.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242180.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "14",
         "title": "Angel One",
-        "date": "January 25, 1988",
+        "date": "1988-01-25",
         "productionCode": "115",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "An Enterprise away team beams down to a planet with a matriarchal society to search for survivors of a crashed Federation freighter.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242181.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "15",
         "title": "11001001",
-        "date": "February 1, 1988",
+        "date": "1988-02-01",
         "productionCode": "116",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "At a Federation space station aliens known as the Binars come aboard to upgrade the Enterprises computer and Holographic systems. During this process, the Enterprise is hijacked while Captain Picard and Riker are in the Holodeck.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242182.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "16",
         "title": "Too Short a Season",
-        "date": "February 8, 1988",
+        "date": "1988-02-08",
         "productionCode": "112",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A diplomat is requested to mediate a hostage situation and the leader of the world wants the same diplomat that negotiated more than 40 years before. The Admiral who did the negotiations in the past comes on board and starts acting more strangely as time passes.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242183.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "17",
         "title": "When the Bough Breaks",
-        "date": "February 15, 1988",
+        "date": "1988-02-15",
         "productionCode": "118",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Inhabitants of an advanced planet, who can no longer reproduce, plan to kidnap children from the Enterprise to rebuild their race.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242184.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "18",
         "title": "Home Soil",
-        "date": "February 22, 1988",
+        "date": "1988-02-22",
         "productionCode": "117",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "On Velara III, Data and Geordi discover a microscopic creature responsible for the death of an engineer.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242185.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "19",
         "title": "Coming of Age",
-        "date": "March 14, 1988",
+        "date": "1988-03-14",
         "productionCode": "119",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Wesley is put to the test as he competes with the other top candidates to get into Starfleet Academy. Meanwhile the Enterprise is put under the scrutiny of a Starfleet officer that seems to be looking for trouble.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242186.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "20",
         "title": "Heart of Glory",
-        "date": "March 21, 1988",
+        "date": "1988-03-21",
         "productionCode": "120",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Enterprise rescues the crew of a damaged vessel in the Neutral zone, discovering several renegade Klingons who decide that they want Lt. Worf to join them.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242187.jpg"
       },
       {
         "displayNumber": "21",
         "overallNumber": "21",
         "title": "The Arsenal of Freedom",
-        "date": "April 11, 1988",
+        "date": "1988-04-11",
         "productionCode": "121",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "While investigating the disappearance of the star ship Drake, an away team beams down to a strange planet where they received a message about arms sales upon arriving in orbit. Captain Picard and Dr. Crusher vanish during the mission and the Enterprise comes under attack.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242188.jpg"
       },
       {
         "displayNumber": "22",
         "overallNumber": "22",
         "title": "Symbiosis",
-        "date": "April 18, 1988",
+        "date": "1988-04-18",
         "productionCode": "123",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When the Enterprise rescues a freighter with engine problems and is being drawn into a planets gravitational field, Picard gets more than he bargained for when it is discovered that the one planets inhabitants may be carrying a disease. The disease causes Picard to consider the Federation's Prime Directive and why it is necessary.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242189.jpg"
       },
       {
         "displayNumber": "23",
         "overallNumber": "23",
         "title": "Skin of Evil",
-        "date": "April 25, 1988",
+        "date": "1988-04-25",
         "productionCode": "122",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Deanna is held hostage by a black oil-like alien creature capable of infinite sadism… and infinite power. To save her, one of the Enterprise crew will die.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242190.jpg"
       },
       {
         "displayNumber": "24",
         "overallNumber": "24",
         "title": "We'll Always Have Paris",
-        "date": "May 2, 1988",
+        "date": "1988-05-02",
         "productionCode": "124",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Captain Picard reflects on a missed liason at a Paris cafe years in his past when the Enterprise gets a distress call from a scientist who is experimenting with Time rifts and is married to the lady he was supposed to meet in Paris all those years ago.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242191.jpg"
       },
       {
         "displayNumber": "25",
         "overallNumber": "25",
         "title": "Conspiracy",
-        "date": "May 9, 1988",
+        "date": "1988-05-09",
         "productionCode": "125",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Spurred by reports of misdeeds in Starfleet's top echelon, Captain Picard heads for Earth to uncover the truth.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242192.jpg"
       },
       {
         "displayNumber": "26",
         "overallNumber": "26",
         "title": "The Neutral Zone",
-        "date": "May 16, 1988",
+        "date": "1988-05-16",
         "productionCode": "126",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Enterprise encounters a ancient capsule containing cryogenically frozen people from 20th Century Earth. Data then brings them on board while the Enterprise is on its way to investigate a series of destroyed Federation outposts at the edge of the Romulan/Federation Neutral zone. The Enterprise soon encounters a Romulan Warbird after the Romulans presence being long absent.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242193.jpg"
       }
     ],
     [
@@ -1053,177 +2010,265 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "27",
         "title": "The Child",
-        "date": "November 21, 1988",
+        "date": "1988-11-21",
         "productionCode": "127",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Counselor Deanna Troi announces she is pregnant; the crew sets out to bring a deadly plasma plague to a laboratory.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242194.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "28",
         "title": "Where Silence Has Lease",
-        "date": "November 28, 1988",
+        "date": "1988-11-28",
         "productionCode": "128",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A being conducting an experiment traps the Enterprise in a region void of energy and matter.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242195.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "29",
         "title": "Elementary, Dear Data",
-        "date": "December 5, 1988",
+        "date": "1988-12-05",
         "productionCode": "129",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Data dons a deerstalker to solve a Sherlock Homes mystery in a holodeck recreation of Victorian London.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242196.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "30",
         "title": "The Outrageous Okona",
-        "date": "December 12, 1988",
+        "date": "1988-12-12",
         "productionCode": "130",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A roguish space captain charms all; Data consults a comic about humor.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242197.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "31",
         "title": "Loud as a Whisper",
-        "date": "January 9, 1989",
+        "date": "1989-01-09",
         "productionCode": "132",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A deaf mediator's mission to a warring planet is jeopardized when his chorus of interpreters is killed.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242198.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "32",
         "title": "The Schizoid Man",
-        "date": "January 23, 1989",
+        "date": "1989-01-23",
         "productionCode": "131",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A brilliant, dying scientist who seeks immortality transfers his mind and knowledge into Data.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242199.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "33",
         "title": "Unnatural Selection",
-        "date": "January 30, 1989",
+        "date": "1989-01-30",
         "productionCode": "133",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After discovering a unresponsive federation starship, Dr. Pulaski contracts a disease and starts to age.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242200.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "34",
         "title": "A Matter of Honor",
-        "date": "February 6, 1989",
+        "date": "1989-02-06",
         "productionCode": "134",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Commander Riker swaps positions and becomes a temporary first officer on the Klingon ship the Pah. A new crew member of the Enterprise scans the Pagh and discovers a micro lifeform growing on the hull of the ship.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242201.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "35",
         "title": "The Measure of a Man",
-        "date": "February 13, 1989",
+        "date": "1989-02-13",
         "productionCode": "135",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Commander Maddox, a scientist who opposed Data's entrance to Stafleet, now wants to dismantle Data in order to study him and create more androids. Data is forced to resign from Starfleet to avoid a dangerous test. Captain Picard ends up in a court battle to decide if Data is a lifeform or owned property.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242202.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "36",
         "title": "The Dauphin",
-        "date": "February 20, 1989",
+        "date": "1989-02-20",
         "productionCode": "136",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When the Enterprise transports a future leader to another world, a guardian stands between Wesley and a potential love interest.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242203.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "37",
         "title": "Contagion",
-        "date": "March 20, 1989",
+        "date": "1989-03-20",
         "productionCode": "137",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When coming to the aid of another Federation ship that is having problems in the Romulan neutral zone, the Enterprise starts having computer problems that leave the ship helpless. Picard believes that the problems may have something to do with a extinct alien race called the Iconians.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242204.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "38",
         "title": "The Royale",
-        "date": "March 27, 1989",
+        "date": "1989-03-27",
         "productionCode": "138",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Riker, Worf and Data are trapped in the Hotel Royale and are unable to find their way out.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242205.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "39",
         "title": "Time Squared",
-        "date": "April 3, 1989",
+        "date": "1989-04-03",
         "productionCode": "139",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Enterprise picks up a Star Fleet shuttle floating in space and much to the crew's surprise, another Captain Picard is on board the shuttle. They then learn that the Enterprise is destroyed in a upcoming disaster.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242206.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "40",
         "title": "The Icarus Factor",
-        "date": "April 24, 1989",
+        "date": "1989-04-24",
         "productionCode": "140",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Riker is offered a possible command of his own and in the process encounters his estranged father who brings him the news. Lt. Worf starts having emotional issues and Wesley digs into Klingon traditions to discover the cause.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242207.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "41",
         "title": "Pen Pals",
-        "date": "May 1, 1989",
+        "date": "1989-05-01",
         "productionCode": "141",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Data makes contact with a alien girl and pen pals with her. He then discovers that her planet is in danger fand she could be killed.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242208.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "42",
         "title": "Q Who",
-        "date": "May 8, 1989",
+        "date": "1989-05-08",
         "productionCode": "142",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After Picard refuses to let Q join the crew, Q hurls the Enterprise into a far quadrant of space where they have a encounter with a unknown cybernetic race. A little bit of Guinan's past is revealed when she senses something is wrong on board Enterprise.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242209.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "43",
         "title": "Samaritan Snare",
-        "date": "May 15, 1989",
+        "date": "1989-05-15",
         "productionCode": "143",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Geordi's life is jeopardized when an alien race kidnaps him; Picard is near death with heart complications.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242210.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "44",
         "title": "Up the Long Ladder",
-        "date": "May 22, 1989",
+        "date": "1989-05-22",
         "productionCode": "144",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Enterprise crew encounters a SOS from a lost colony ship and encounters a group of primitive colonists and after assisting them, they encounter the remaining colonists that traveled with them on another world with a unique problem of their own.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242211.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "45",
         "title": "Manhunt",
-        "date": "June 19, 1989",
+        "date": "1989-06-19",
         "productionCode": "145",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "On her way to a conference, Troi's mother boards the Enterprise and flirts with Picard.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242212.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "46",
         "title": "The Emissary",
-        "date": "June 26, 1989",
+        "date": "1989-06-29",
         "productionCode": "146",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Worf's old love, a human-Klingon hybrid, arrives to deal with a shipload of Klingons in cryogenic sleep.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242213.jpg"
       },
       {
         "displayNumber": "21",
         "overallNumber": "47",
         "title": "Peak Performance",
-        "date": "July 10, 1989",
+        "date": "1989-07-10",
         "productionCode": "147",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Ferengi ambush the Enterprise and another vessel during a battle simulation.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242214.jpg"
       },
       {
         "displayNumber": "22",
         "overallNumber": "48",
         "title": "Shades of Gray",
-        "date": "July 17, 1989",
+        "date": "1989-07-17",
         "productionCode": "148",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Stardate: 42976.1 - Riker being infected by an alien is used as the basis for a clip show.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242215.jpg"
       }
     ],
     [
@@ -1231,209 +2276,313 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "49",
         "title": "Evolution",
-        "date": "September 25, 1989",
+        "date": "1989-09-25",
         "productionCode": "150",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Enterprise brings eminent scientist Dr. Paul Stubbs to the site of a binary star system, expecting a massive stellar explosion to occur in a few hours. He has waited many years for this event and has devoted his entire life to its study. The Enterprise, however, begins to suffer a series of malfunctions, some minor but others far more serious.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242219.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "50",
         "title": "The Ensigns of Command",
-        "date": "October 2, 1989",
+        "date": "1989-10-02",
         "productionCode": "149",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When a alien race demands that a lost human colony is to be evacuated, Data is sent to deal with the issue and has problems convincing the leader of the colony to abandon their homes.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242220.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "51",
         "title": "The Survivors",
-        "date": "October 9, 1989",
+        "date": "1989-10-09",
         "productionCode": "151",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Captain Picard and the crew visit a isolate planet that is the home to two people who lived through a devastating attack. Picard then begins to suspect that all is not as it seems when the Enterprise is repeatedly attacked by a unknown ship.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242221.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "52",
         "title": "Who Watches the Watchers",
-        "date": "October 16, 1989",
+        "date": "1989-10-16",
         "productionCode": "152",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When a secret Federation observation post is accidentally revealed, a primitive culture ends up worshiping Picard as a god and prepares to sacrifice Troi to appease him.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242222.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "53",
         "title": "The Bonding",
-        "date": "October 23, 1989",
+        "date": "1989-10-23",
         "productionCode": "153",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Worf takes responsibility for a boy when his mother, the ships archaeologist is killed on a away mission.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242223.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "54",
         "title": "Booby Trap",
-        "date": "October 30, 1989",
+        "date": "1989-10-30",
         "productionCode": "154",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Enterprise experiences a rapid energy drain that leaves the crew vulnerable to radiation exposure while exploring in a area of space where a alien race once lived.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242224.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "55",
         "title": "The Enemy",
-        "date": "November 6, 1989",
+        "date": "1989-11-06",
         "productionCode": "155",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A Romulan warship thwarts attempts to rescue Geordi, stranded on a planet swept by electrical storms.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242225.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "56",
         "title": "The Price",
-        "date": "November 13, 1989",
+        "date": "1989-11-13",
         "productionCode": "156",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Troi falls for a handsome delegate who uses underhanded tactics in negotiations.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242226.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "57",
         "title": "The Vengeance Factor",
-        "date": "November 20, 1989",
+        "date": "1989-11-20",
         "productionCode": "157",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Picard offers to mediate a dispute between a peaceful society and a renegade clan that steals to live.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242227.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "58",
         "title": "The Defector",
-        "date": "January 1, 1990",
+        "date": "1990-01-01",
         "productionCode": "158",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A Romulan defector leads the Enterprise into a confrontation that could erupt into war.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242228.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "59",
         "title": "The Hunted",
-        "date": "January 10, 1990",
+        "date": "1990-01-08",
         "productionCode": "159",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A prison escapee claims he is a soldier brainwashed by his goverment to kill.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242229.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "60",
         "title": "The High Ground",
-        "date": "January 31, 1990",
+        "date": "1990-01-29",
         "productionCode": "160",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A radical takes Dr. Crusher hostage to treat his injured Comrades.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242230.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "61",
         "title": "Deja Q",
-        "date": "February 5, 1990",
+        "date": "1990-02-05",
         "productionCode": "161",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Picard's nemesis Q, claiming to have lost his powers, appears on the Enterprise.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242231.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "62",
         "title": "A Matter of Perspective",
-        "date": "February 12, 1990",
+        "date": "1990-02-12",
         "productionCode": "162",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A widow accuses Riker of seducing her and killing her husband, a respected scientist.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242232.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "63",
         "title": "Yesterday's Enterprise",
-        "date": "February 19, 1990",
+        "date": "1990-02-19",
         "productionCode": "163",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "An Enterprise from the past breaks through a time rift, altering the course of history.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242233.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "64",
         "title": "The Offspring",
-        "date": "March 12, 1990",
+        "date": "1990-03-12",
         "productionCode": "164",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "An admiral (Nicolas Coster) wants to remove Data's creation, a female android, from the Enterprise.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242234.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "65",
         "title": "Sins of the Father",
-        "date": "March 19, 1990",
+        "date": "1990-03-19",
         "productionCode": "165",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Lt. Worf and his brother Kurn defend their family honor when the Klingon high council accuses their late father of treason.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242235.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "66",
         "title": "Allegiance",
-        "date": "March 26, 1990",
+        "date": "1990-03-26",
         "productionCode": "166",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Stardate: 43714.1 Picard is secretly abducted and switched with an alien double. The crews' suspicions are raised when he starts exhibiting unusual behaviour, and is relieved of command.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242236.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "67",
         "title": "Captain's Holiday",
-        "date": "April 2, 1990",
+        "date": "1990-04-02",
         "productionCode": "167",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Stardate: 43745.2 While on vacation on Risa, Captain Picard encounters two Vorgons from the 27th Century who claim they are searching for a powerful weapon hidden somewhere on the planet.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242237.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "68",
         "title": "Tin Man",
-        "date": "April 23, 1990",
+        "date": "1990-04-23",
         "productionCode": "168",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Stardate: 43779.3 The Enterprise encounters a 'living' ship in the Neutral Zone, and risks breaking the Romulan Federation alliance in order to bring it into contact with a Betazoid emissary.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242238.jpg"
       },
       {
         "displayNumber": "21",
         "overallNumber": "69",
         "title": "Hollow Pursuits",
-        "date": "April 30, 1990",
+        "date": "1990-04-30",
         "productionCode": "169",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Stardate: 43807.4 A nervous and insecure officer, Lt. Reginald Barclay, places the Enterprise in great danger when he neglects his duties in Engineering, and instead spends his time acting out his fantasies on the holodeck.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242239.jpg"
       },
       {
         "displayNumber": "22",
         "overallNumber": "70",
         "title": "The Most Toys",
-        "date": "May 7, 1990",
+        "date": "1990-05-07",
         "productionCode": "170",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Stardate: 43872.2 The crew are shattered by the apparent death of Data in a shuttle explosion, and are prevented from carrying out a detailed investigation when Starfleet gives them orders for a new mission elsewhere. However, the crew don't realize that he was actually abducted and placed on display as part of a collection of rare and valuable items held by a disreputable character.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242240.jpg"
       },
       {
         "displayNumber": "23",
         "overallNumber": "71",
         "title": "Sarek",
-        "date": "May 14, 1990",
+        "date": "1990-05-14",
         "productionCode": "171",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Vulcan ambassador Sarek becomes temperamental while on the Enterprise with his wife.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242241.jpg"
       },
       {
         "displayNumber": "24",
         "overallNumber": "72",
         "title": "Ménage à Troi",
-        "date": "May 28, 1990",
+        "date": "1990-05-28",
         "productionCode": "172",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Ferengi kidnap Riker, Troi and her visiting mother.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242242.jpg"
       },
       {
         "displayNumber": "25",
         "overallNumber": "73",
         "title": "Transfigurations",
-        "date": "June 4, 1990",
+        "date": "1990-06-04",
         "productionCode": "173",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Enterprise crew saves a badly injured humanoid who possesses remarkable powers.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242243.jpg"
       },
       {
         "displayNumber": "26",
         "overallNumber": "74",
         "title": "The Best of Both Worlds, Part I",
-        "date": "June 18, 1990",
+        "date": "1990-06-18",
         "productionCode": "174",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Borg advance their plans to assimilate the human race by kidnapping Picard and making him into their spokesman.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242244.jpg"
       }
     ],
     [
@@ -1441,209 +2590,313 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "75",
         "title": "The Best of Both Worlds, Part II",
-        "date": "September 24, 1990",
+        "date": "1990-09-24",
         "productionCode": "175",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Riker is torn between saving Picard or humanity when the Borg plan to use the abducted captain in their scheme to destroy Earth and turn him into Locutus.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242245.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "76",
         "title": "Family",
-        "date": "October 1, 1990",
+        "date": "1990-10-01",
         "productionCode": "178",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Picard meets with his older brother in France, and contemplates resigning his Starfleet commission after his ordeal with the Borg. Worf's adoptive parents spend time with their son on the Enterprise, and succeed in embarrassing him in front of his crewmates.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242246.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "77",
         "title": "Brothers",
-        "date": "October 8, 1990",
+        "date": "1990-10-08",
         "productionCode": "177",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "While escorting a seriously ill boy to the closest Federation Starbase for treatment, Data mysteriously takes control of the Enterprise and takes it to a distant planet. He learns that his creator has summoned him for an important meeting that could change his life. However, Dr. Soong unknowingly summoned Data's twin brother Lore, into the bargain.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242247.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "78",
         "title": "Suddenly Human",
-        "date": "October 15, 1990",
+        "date": "1990-10-15",
         "productionCode": "176",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Picard faces a child-custody dilemma after the Enterprise rescues an orphaned human child.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242248.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "79",
         "title": "Remember Me",
-        "date": "October 22, 1990",
+        "date": "1990-10-22",
         "productionCode": "179",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When Doctor Crusher leaps into another dimension of reality, Enterprise crew members mysteriously disappear.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242249.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "80",
         "title": "Legacy",
-        "date": "October 29, 1990",
+        "date": "1990-10-29",
         "productionCode": "180",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Tasha Yar's sister helps the Enterprise rescue Federation members held hostage on her planet.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242250.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "81",
         "title": "Reunion",
-        "date": "November 5, 1990",
+        "date": "1990-11-05",
         "productionCode": "181",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Worf deals with a personal dilemma, Picard mediates a power struggle between successors to the Klingon Empire.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242251.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "82",
         "title": "Future Imperfect",
-        "date": "November 12, 1990",
+        "date": "1990-11-12",
         "productionCode": "182",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After an aborted mission to an uninhabited planet, Riker awakens in the future with no memory of the past 16 years.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242252.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "83",
         "title": "Final Mission",
-        "date": "November 19, 1990",
+        "date": "1990-11-19",
         "productionCode": "183",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Wesley goes on one last mission with Captain Picard that jeopardizes the Captains life before going to Starfleet academy.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242253.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "84",
         "title": "The Loss",
-        "date": "December 31, 1990",
+        "date": "1990-12-31",
         "productionCode": "184",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Troi loses her empathic sense at the same time the Enterprise encounters a mysterious life form that appears to be heading toward self-destruction.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242254.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "85",
         "title": "Data's Day",
-        "date": "January 7, 1991",
+        "date": "1991-01-07",
         "productionCode": "185",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "While the USS Enterprise heads towards a secret rendezvous, a friend's upcoming wedding compounds Data's confusion about the nuances of human feelings.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242255.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "86",
         "title": "The Wounded",
-        "date": "January 28, 1991",
+        "date": "1991-01-28",
         "productionCode": "186",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Picard and the crew attempt to apprehend a renegade Federation starship that has attacked a Cardassian space station without provocation.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242256.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "87",
         "title": "Devil's Due",
-        "date": "February 4, 1991",
+        "date": "1991-02-04",
         "productionCode": "187",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Picard tries to save a terrorized planet and the Enterprise from a woman claiming to be the devil who has returned after 1,000 years to claim the planet as she was promised.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242257.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "88",
         "title": "Clues",
-        "date": "February 11, 1991",
+        "date": "1991-02-11",
         "productionCode": "188",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Upon investigating a newly discovered Class M planet, the crew are knocked unconscious. Data claims that they had only lost 30 seconds, but the crew begin to discover clues that Data may be lying about more than just that small detail.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242258.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "89",
         "title": "First Contact",
-        "date": "February 18, 1991",
+        "date": "1991-02-18",
         "productionCode": "189",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A first-contact mission puts Riker in an alien hospital, leaving Picard to convince the planet's leaders that the Enterprise poses no threat.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242259.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "90",
         "title": "Galaxy's Child",
-        "date": "March 11, 1991",
+        "date": "1991-03-11",
         "productionCode": "190",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After killing an attacking life form, the Enterprise discovers a \"baby\" within its womb; Geordi meets the object of his admiration, but his overly familiar attitude toward her makes their interactions uncomfortable.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242260.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "91",
         "title": "Night Terrors",
-        "date": "March 18, 1991",
+        "date": "1991-03-18",
         "productionCode": "191",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When the Enterprise becomes stuck in an energy-draining rupture in space known as a Tyken's Rift, the crew begins experiencing severe sleep deprivation, but one crew member's recurring dream may provide the solution that saves them all.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242261.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "92",
         "title": "Identity Crisis",
-        "date": "March 25, 1991",
+        "date": "1991-03-25",
         "productionCode": "192",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Geordi begins to exhibit signs of mutating into another life form as a result of a parasite picked up on an Away Team mission.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242262.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "93",
         "title": "The Nth Degree",
-        "date": "April 1, 1991",
+        "date": "1991-04-01",
         "productionCode": "193",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "An alien probe threatens the Enterprise when it emits an energy surge that turns an innocuous crew member into a superhuman.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242263.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "94",
         "title": "Qpid",
-        "date": "April 22, 1991",
+        "date": "1991-04-22",
         "productionCode": "194",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Q questions the dispassionate Captain Picard about his relationship with a beautiful archaeologist, but when Picard refuses to give him any satisfactory answers, he transports the crew to Sherwood Forest for a reenactment of the Robin Hood legend.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242264.jpg"
       },
       {
         "displayNumber": "21",
         "overallNumber": "95",
         "title": "The Drumhead",
-        "date": "April 29, 1991",
+        "date": "1991-04-29",
         "productionCode": "195",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When an explosion damages the Enterprise's warp engine, a retired Starfleet admiral boards the ship and begins an investigation that ultimately leads her to suspect Captain Picard of participating in a treasonous conspiracy.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242265.jpg"
       },
       {
         "displayNumber": "22",
         "overallNumber": "96",
         "title": "Half a Life",
-        "date": "May 6, 1991",
+        "date": "1991-05-06",
         "productionCode": "196",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Lwaxana Troi pays another visit to the Enterprise, where she falls in love with a scientist from Kaelon II, but she is shocked to learn that he must soon return home to participate in a suicide ritual their culture has practiced for generations.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242266.jpg"
       },
       {
         "displayNumber": "23",
         "overallNumber": "97",
         "title": "The Host",
-        "date": "May 13, 1991",
+        "date": "1991-05-13",
         "productionCode": "197",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "While on a peacekeeping mission to the Peliar system, a Trill ambassador begins a relationship with Dr. Crusher, but when he is injured in a surprise attack, he must confess to the doctor that his body is merely a host for a symbiont..",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242267.jpg"
       },
       {
         "displayNumber": "24",
         "overallNumber": "98",
         "title": "The Mind's Eye",
-        "date": "May 27, 1991",
+        "date": "1991-05-27",
         "productionCode": "198",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Romulans brainwash Geordi as part of a plot to drive a wedge between the Federation and the Klingon Empire.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242268.jpg"
       },
       {
         "displayNumber": "25",
         "overallNumber": "99",
         "title": "In Theory",
-        "date": "June 3, 1991",
+        "date": "1991-06-03",
         "productionCode": "199",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "While the Enterprise explores a nebula with unusual properties, Data becomes involved with a crew member.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242269.jpg"
       },
       {
         "displayNumber": "26",
         "overallNumber": "100",
         "title": "Redemption, Part I",
-        "date": "June 17, 1991",
+        "date": "1991-06-17",
         "productionCode": "200",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Part 1 of 2. Picard tries to keep the Federation neutral when the Klingon Empire faces civil war; Lt. Worf struggles with divided loyalties.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242270.jpg"
       }
     ],
     [
@@ -1651,209 +2904,313 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "101",
         "title": "Redemption, Part II",
-        "date": "September 23, 1991",
+        "date": "1991-09-23",
         "productionCode": "201",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Part 2 of 2: Suspecting Romulan interference, Picard gets involved in the Klingon civil war.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242272.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "102",
         "title": "Darmok",
-        "date": "September 30, 1991",
+        "date": "1991-09-30",
         "productionCode": "202",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Picard encounters the leader of a civilization which communicates only in metaphor.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242273.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "103",
         "title": "Ensign Ro",
-        "date": "October 7, 1991",
+        "date": "1991-10-07",
         "productionCode": "203",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A Starfleet admiral, unwittingly being used by outside forces, involves the Enterprise crew in a deadly conspiracy.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242274.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "104",
         "title": "Silicon Avatar",
-        "date": "October 14, 1991",
+        "date": "1991-10-14",
         "productionCode": "204",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When the Crystalline Entitiy reappears, Picard and Data try to establish communication with it before it is destroyed by a vengeful scientist.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242275.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "105",
         "title": "Disaster",
-        "date": "October 21, 1991",
+        "date": "1991-10-21",
         "productionCode": "205",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A natural force damages the Enterprise, trapping Picard and forcing Troi to act as captain.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242276.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "106",
         "title": "The Game",
-        "date": "October 28, 1991",
+        "date": "1991-10-28",
         "productionCode": "206",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Enterprise gets a surprise visit from Starfleet Academy Cadet Wesley Crusher, who discovers something alien and sinister controlling the crew.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242277.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "107",
         "title": "Unification, Part I",
-        "date": "November 4, 1991",
+        "date": "1991-11-04",
         "productionCode": "208",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Picard and Data follow Spock on an unauthorized mission to Romulus.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242278.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "108",
         "title": "Unification, Part II",
-        "date": "November 11, 1991",
+        "date": "1991-11-11",
         "productionCode": "207",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Spock proceeds with his quest for the reunification of Vulcan and Romulans even though he and Picard are suspicious of Romulan motives.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242279.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "109",
         "title": "A Matter of Time",
-        "date": "November 18, 1991",
+        "date": "1991-11-18",
         "productionCode": "209",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "As the Enterprise crew struggles to save Penthara IV following an asteroid collision, a historian from the 26th century arrives on board.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242280.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "110",
         "title": "New Ground",
-        "date": "December 30, 1991",
+        "date": "1992-01-06",
         "productionCode": "210",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When Worf's mother tells him that his son's Earth parents can no longer care for him, Worf tries to be a father to his child, Alexander.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242281.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "111",
         "title": "Hero Worship",
-        "date": "January 6, 1992",
+        "date": "1992-01-27",
         "productionCode": "211",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When a Starfleet ship crashes inside a thick, black cloud, Data attempts to coax the traumatised young sole survivor into revealing what exactly happened.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242282.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "112",
         "title": "Violations",
-        "date": "January 27, 1992",
+        "date": "1992-02-03",
         "productionCode": "212",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Several crew members suffer violent hallucinations and comas as alien researchers visit the ship.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242283.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "113",
         "title": "The Masterpiece Society",
-        "date": "February 3, 1992",
+        "date": "1992-02-10",
         "productionCode": "213",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Enterprise tries to save a \"perfect\" colony from destruction, but the assistance causes damage of its own.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242284.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "114",
         "title": "Conundrum",
-        "date": "February 10, 1992",
+        "date": "1992-02-17",
         "productionCode": "214",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When an alien ship crosses the Enterprise's path, its strong scanners cause all of the crew members to completely lose their memories",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242285.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "115",
         "title": "Power Play",
-        "date": "February 17, 1992",
+        "date": "1992-02-24",
         "productionCode": "215",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Enterprise crew discovers a Federation starship missing for 200 years. However, Troi, O'Brien and Data find themselves haunted by demons on board.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242286.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "116",
         "title": "Ethics",
-        "date": "February 24, 1992",
+        "date": "1992-03-02",
         "productionCode": "216",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When he loses the ability to walk after an accident in the Cargo bay, a traumatised Worf asks Riker to assist him in a Klingon suicide ritual.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242287.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "117",
         "title": "The Outcast",
-        "date": "March 16, 1992",
+        "date": "1992-03-16",
         "productionCode": "217",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Riker finds himself falling for a Gennai when the two races collaborate on a mission to investigate the mysterious disappearance of a shuttle.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242288.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "118",
         "title": "Cause and Effect",
-        "date": "March 23, 1992",
+        "date": "1992-03-23",
         "productionCode": "218",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The future of the Enterprise looks bleak when the ship gets trapped in a time warp, causing the crew members to continually repeat their experience.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242289.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "119",
         "title": "The First Duty",
-        "date": "March 30, 1992",
+        "date": "1992-03-30",
         "productionCode": "219",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When Wesley Crusher's team suffers an accident at Starfleet Academy, Picard helps investigate its cause, and believes a cover-up is taking place.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242290.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "120",
         "title": "Cost of Living",
-        "date": "April 20, 1992",
+        "date": "1992-04-20",
         "productionCode": "220",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "As the ship encounters mechanical problems, Lwaxana Troi takes Worf's son under her wing while she prepares for her wedding.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242291.jpg"
       },
       {
         "displayNumber": "21",
         "overallNumber": "121",
         "title": "The Perfect Mate",
-        "date": "April 27, 1992",
+        "date": "1992-04-27",
         "productionCode": "221",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Picard finds himself attracted to a beautiful woman being given as a gift to promote reconciliation between two warring systems.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242292.jpg"
       },
       {
         "displayNumber": "22",
         "overallNumber": "122",
         "title": "Imaginary Friend",
-        "date": "May 4, 1992",
+        "date": "1992-05-04",
         "productionCode": "222",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "While exploring a rare nebula around a neutron star, the Enterprise's safety is threatened by a little girl's imaginary playmate.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242293.jpg"
       },
       {
         "displayNumber": "23",
         "overallNumber": "123",
         "title": "I, Borg",
-        "date": "May 11, 1992",
+        "date": "1992-05-11",
         "productionCode": "223",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "An encounter with a injured adolescent Borg gives Picard the opportunity to remove the Borg threat forever.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242294.jpg"
       },
       {
         "displayNumber": "24",
         "overallNumber": "124",
         "title": "The Next Phase",
-        "date": "May 18, 1992",
+        "date": "1992-05-18",
         "productionCode": "224",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Geordi and Ro disappear and are presumed dead after a transporting maneuver from a disabled Romulan science ship goes awry.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242295.jpg"
       },
       {
         "displayNumber": "25",
         "overallNumber": "125",
         "title": "The Inner Light",
-        "date": "June 1, 1992",
+        "date": "1992-06-01",
         "productionCode": "225",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Picard awakens after being hit by a mysterious particle stream from a type of probe/satellite the ship discovered, to find he is living another life on a strange planet.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242296.jpg"
       },
       {
         "displayNumber": "26",
         "overallNumber": "126",
         "title": "Time's Arrow, Part I",
-        "date": "June 15, 1992",
+        "date": "1992-06-15",
         "productionCode": "226",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Data is transported back in time to 19th century San Francisco, where he hopes to solve the mystery of his death after a Enterprise away team finds Data's head buried in a cave.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242297.jpg"
       }
     ],
     [
@@ -1861,209 +3218,313 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "127",
         "title": "Time's Arrow, Part II",
-        "date": "September 21, 1992",
+        "date": "1992-09-21",
         "productionCode": "227",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The away team after encountering Mark Twain and Guinan in the 19th century, try to solve the mystery of who and what alien is killing people in 19th century San Francisco.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242299.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "128",
         "title": "Realm of Fear",
-        "date": "September 28, 1992",
+        "date": "1992-09-28",
         "productionCode": "228",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A skittish member of Geordi's engineering staff encounters a bizarre creature while in the process of transporting from another ship.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242300.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "129",
         "title": "Man of the People",
-        "date": "October 5, 1992",
+        "date": "1992-10-05",
         "productionCode": "229",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A visiting ambassador conceals the deadly secret to his successful negotiations as he attempts to use Troi to further is reputation.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242301.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "130",
         "title": "Relics",
-        "date": "October 12, 1992",
+        "date": "1992-10-12",
         "productionCode": "230",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Enterprise discovers a Dyson Sphere, in the process they discover a disabled ship that still has a crew member on board. When beaming over to the ship, Jordi discovers Montgomery \"Scottie\" Scott in the transporter system of the ship.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242302.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "131",
         "title": "Schisms",
-        "date": "October 19, 1992",
+        "date": "1992-10-19",
         "productionCode": "231",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Adjustments to the subspace sensor array inadvertently establish a link to aliens who begin kidnapping crew members for experiments.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242303.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "132",
         "title": "True Q",
-        "date": "October 26, 1992",
+        "date": "1992-10-26",
         "productionCode": "232",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A young honor student serving aboard the Enterprise is torn between remaining a part of the crew or accepting an offer made by Q.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242304.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "133",
         "title": "Rascals",
-        "date": "November 2, 1992",
+        "date": "1992-11-02",
         "productionCode": "233",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Picard, Guinan, Ro and Keiko experience trouble aboard their shuttlecraft and transport back to the Enterprise...as 12 year old children.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242305.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "134",
         "title": "A Fistful of Datas",
-        "date": "November 9, 1992",
+        "date": "1992-11-09",
         "productionCode": "234",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After a computer malfunction,Worf, his son Alexander Rozhenko, and Counselor Deanna Troi are trapped in an Old West holodeck program wherein the interactive characters physically resemble and have the same enhanced abilities as Data.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242306.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "135",
         "title": "The Quality of Life",
-        "date": "November 16, 1992",
+        "date": "1992-11-16",
         "productionCode": "235",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Data discovers a group of robots that he believes qualify as lifeforms.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242307.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "136",
         "title": "Chain of Command, Part I",
-        "date": "December 14, 1992",
+        "date": "1992-12-14",
         "productionCode": "236",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Picard, Worf, and Dr. Crusher are reassigned from the Enterprise to a secret mission. Meanwhile, the Enterprise is under the command of Captain Edward Jellico, who immediately starts making changes, much to the dismay of the crew.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242308.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "137",
         "title": "Chain of Command, Part II",
-        "date": "December 21, 1992",
+        "date": "1992-12-21",
         "productionCode": "237",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Captain Picard's secret mission fails, leading to him being captured by Cardassians. As he is tortured by his captors, Captain Jellico and the Enterprise attempt to prevent war with the Cardassian Union.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242309.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "138",
         "title": "Ship in a Bottle",
-        "date": "January 25, 1993",
+        "date": "1993-01-25",
         "productionCode": "238",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Data is playing Sherlock Holmes on the Holodeck, a glitch appears and Lt. Barclay is called to investigate and he discovers protected Holodeck files. Professor Moriarty is then released and demands to see Captain Picard. Against the laws of physics, Moriarty is able to leave the Holodeck and takes control of the Enterprise.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242310.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "139",
         "title": "Aquiel",
-        "date": "February 1, 1993",
+        "date": "1993-02-01",
         "productionCode": "239",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A Starfleet Lieutenant and a Klingon officer is implicated in the murder of the missing starfleet officer on a remote relay station. One of the shuttlecraft's is missing as well. Aquiel Uhnari is befriended by Geordi after he reads her personal logs during the investigation.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242311.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "140",
         "title": "Face of the Enemy",
-        "date": "February 8, 1993",
+        "date": "1993-02-08",
         "productionCode": "240",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Troi wakes up as a Romulan intelligence officer much to her surprise. She then finds out that it is part of a elaborate scheme for Romulan dissident's to defect.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242312.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "141",
         "title": "Tapestry",
-        "date": "February 15, 1993",
+        "date": "1993-02-15",
         "productionCode": "241",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Picard is near death and Q makes him relive a tragedy from his Starfleet Academy days.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242313.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "142",
         "title": "Birthright, Part I",
-        "date": "February 22, 1993",
+        "date": "1993-02-22",
         "productionCode": "242",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Data is zapped by a energy stream and has strange memories from during the time he was out. Worf hears a story that his father may not have died on Khitomer but may still be alive on a planet near the Romulan neutral zone.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242314.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "143",
         "title": "Birthright, Part II",
-        "date": "March 1, 1993",
+        "date": "1993-03-01",
         "productionCode": "243",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Data explores the experience he had while zapped, Worf is held prisoner by Romulans with the Khitomer survivors.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242315.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "144",
         "title": "Starship Mine",
-        "date": "March 29, 1993",
+        "date": "1993-03-29",
         "productionCode": "244",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Captain Picard and a desperate gang of thieves are trapped on board the Enterprise while the ship is being swept with deadly baryon rays to remove radiation the ship has absorbed over time.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242316.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "145",
         "title": "Lessons",
-        "date": "April 5, 1993",
+        "date": "1993-04-05",
         "productionCode": "245",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Picard becomes intrigued and then involved with a brilliant new crew member, creating complications when a potentially deadly mission arises.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242317.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "146",
         "title": "The Chase",
-        "date": "April 26, 1993",
+        "date": "1993-04-26",
         "productionCode": "246",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The death of Picards archaeology professor results in a tantalizing mystery involving Klingons, Cardassians and Romulans.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242318.jpg"
       },
       {
         "displayNumber": "21",
         "overallNumber": "147",
         "title": "Frame of Mind",
-        "date": "May 3, 1993",
+        "date": "1993-05-03",
         "productionCode": "247",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "On a secret mission to a troubled planet, Riker questions his mental stability after experiencing a series of confusing vignettes.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242319.jpg"
       },
       {
         "displayNumber": "22",
         "overallNumber": "148",
         "title": "Suspicions",
-        "date": "May 10, 1993",
+        "date": "1993-05-10",
         "productionCode": "248",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The death of a pioneering Ferengi scientist ebroils Dr. Crusher in a mystery that may end her Starfleet career.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242320.jpg"
       },
       {
         "displayNumber": "23",
         "overallNumber": "149",
         "title": "Rightful Heir",
-        "date": "May 17, 1993",
+        "date": "1993-05-17",
         "productionCode": "249",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Warrior Kahless returns from death to reclaim the Klingon empire.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242321.jpg"
       },
       {
         "displayNumber": "24",
         "overallNumber": "150",
         "title": "Second Chances",
-        "date": "May 24, 1993",
+        "date": "1993-05-24",
         "productionCode": "250",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Riker returns to the site of a 8-year old mission, to retrieve important research data and is unnerved to encounter his identical twin.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242322.jpg"
       },
       {
         "displayNumber": "25",
         "overallNumber": "151",
         "title": "Timescape",
-        "date": "June 14, 1993",
+        "date": "1993-06-14",
         "productionCode": "251",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When returning to the Enterprise, Picard, Data, Troi and Geordi find that the Enterpise is frozen in time with a Romulan ship and in the middle of a core breach.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242323.jpg"
       },
       {
         "displayNumber": "26",
         "overallNumber": "152",
         "title": "Descent, Part I",
-        "date": "June 21, 1993",
+        "date": "1993-06-21",
         "productionCode": "252",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Data experiences anger for the first time during a Borg attack that differs from previous encounters. Picard and the crew try to track the Borg down while Data attempts to recreate the emotion.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242324.jpg"
       }
     ],
     [
@@ -2071,209 +3532,313 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "153",
         "title": "Descent, Part II",
-        "date": "September 20, 1993",
+        "date": "1993-09-20",
         "productionCode": "253",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Imprisoned by the Borg and cut off from his ship, Picard, Troi and LaForge attempt to break Lore's hold on Data. Meanwhile, Dr. Crusher tries to beam up all the search parties on the planet while eluding a Borg ship.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242326.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "154",
         "title": "Liaisons",
-        "date": "September 27, 1993",
+        "date": "1993-09-27",
         "productionCode": "254",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A cultural exchange teams Worf with an obnoxious ambassador and strands Picard with a woman who seems to be obsessed with him.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242327.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "155",
         "title": "Interface",
-        "date": "October 4, 1993",
+        "date": "1993-10-04",
         "productionCode": "255",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "In defiance of Picard's orders, Geordi uses a risky procedure in an effort to find and save his missing mother.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242328.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "156",
         "title": "Gambit, Part I",
-        "date": "October 11, 1993",
+        "date": "1993-10-11",
         "productionCode": "256",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Captain Picard infiltrates a smuggling ring that is searching for Romulan artifacts.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242329.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "157",
         "title": "Gambit, Part II",
-        "date": "October 18, 1993",
+        "date": "1993-10-18",
         "productionCode": "257",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Captain Picard and commander Riker pose as enemies in order to retrieve a deadly artifact.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242330.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "158",
         "title": "Phantasms",
-        "date": "October 25, 1993",
+        "date": "1993-10-25",
         "productionCode": "258",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The crew helps Data investigate when his dream program begins suddenly generating nightmares. Meanwhile, Picard attempts to avoid attending a boring Starfleet banquet.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242331.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "159",
         "title": "Dark Page",
-        "date": "November 1, 1993",
+        "date": "1993-11-01",
         "productionCode": "259",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Lwaxana Troi visits the Enterprise , but she's preoccupied by a dark secret she has carried for years.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242332.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "160",
         "title": "Attached",
-        "date": "November 8, 1993",
+        "date": "1993-11-08",
         "productionCode": "260",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After escaping imprisonment on an alien world, Picard and Beverly find that their thoughts are connected by brain implants.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242333.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "161",
         "title": "Force of Nature",
-        "date": "November 15, 1993",
+        "date": "1993-11-15",
         "productionCode": "261",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The crew is shocked when an alien brother and sister sneak on board and claim their planet is being destroyed by the Enterprise's warp drive.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242334.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "162",
         "title": "Inheritance",
-        "date": "November 22, 1993",
+        "date": "1993-11-22",
         "productionCode": "262",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "During a mission to save an endangered planet, Data is stunned when he meets a native scientist who claims to be his estranged mother.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242335.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "163",
         "title": "Parallels",
-        "date": "November 29, 1993",
+        "date": "1993-11-29",
         "productionCode": "263",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After Worf returns from a bat'leth tournament, he is the only person who notices subtle changes on the Enterprise .",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242336.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "164",
         "title": "The Pegasus",
-        "date": "January 10, 1994",
+        "date": "1994-01-10",
         "productionCode": "264",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Riker's loyalties are tested when he is reunited with his former captain, Pressman, now Admiral, of the missing ship Pegasus.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242337.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "165",
         "title": "Homeward",
-        "date": "January 17, 1994",
+        "date": "1994-01-17",
         "productionCode": "265",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Worf's brother violates the Prime Directive in order to save an alien race whose existence is threatened when violent storms bombard their planet.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242338.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "166",
         "title": "Sub Rosa",
-        "date": "January 31, 1994",
+        "date": "1994-01-31",
         "productionCode": "266",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Dr Crusher is shocked to come across a family secret when she attends her grandmothers funeral.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242339.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "167",
         "title": "Lower Decks",
-        "date": "February 7, 1994",
+        "date": "1994-02-07",
         "productionCode": "267",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Four young officers become embroiled in a secret - and potentially dangerous - mission as they vie for promotion.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242340.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "168",
         "title": "Thine Own Self",
-        "date": "February 14, 1994",
+        "date": "1994-02-14",
         "productionCode": "268",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Data trails a probe which has crashed on to a primitive planet. But when he crashes too, he finds himself unable to remember anything prior to the event.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242341.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "169",
         "title": "Masks",
-        "date": "February 21, 1994",
+        "date": "1994-02-21",
         "productionCode": "269",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Picard discovers that an 87-million-years-old comet has been housing alien beings, which attack both Data and the Enterprise' computer systems.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242342.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "170",
         "title": "Eye of the Beholder",
-        "date": "February 28, 1994",
+        "date": "1994-02-28",
         "productionCode": "270",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A suicide on the Enterprise leaves the crew stunned by the loss. Meanwhile, Deanna and Worf begin to form a relationship.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242343.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "171",
         "title": "Genesis",
-        "date": "March 21, 1994",
+        "date": "1994-03-21",
         "productionCode": "271",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Picard and Data brave going into an asteroid field when a new torpedo's guidance system malfunctions. Meanwhile, the crew begin to act strangely.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242344.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "172",
         "title": "Journey's End",
-        "date": "March 28, 1994",
+        "date": "1994-03-28",
         "productionCode": "272",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When the Federation gives the Cardassians access to a planet inhabited by Native American Indians, Picard has the unenviable task of trying to relocate them.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242345.jpg"
       },
       {
         "displayNumber": "21",
         "overallNumber": "173",
         "title": "Firstborn",
-        "date": "April 25, 1994",
+        "date": "1994-04-25",
         "productionCode": "273",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Alexander must face his first rite of ascension initiation, during which a Klingon warrior named K'Mtar has a disturbing request for him.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242346.jpg"
       },
       {
         "displayNumber": "22",
         "overallNumber": "174",
         "title": "Bloodlines",
-        "date": "May 2, 1994",
+        "date": "1994-05-02",
         "productionCode": "274",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Captain Picard battles to rescue his son from a vengeful Ferengi whose own son was killed by Picard during the Battle of Maxia.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242347.jpg"
       },
       {
         "displayNumber": "23",
         "overallNumber": "175",
         "title": "Emergence",
-        "date": "May 9, 1994",
+        "date": "1994-05-09",
         "productionCode": "275",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The computer systems on board the Enterprise begin experiencing repeated malfunctions, leading the crew to suspect that the ship itself may be evolving.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242348.jpg"
       },
       {
         "displayNumber": "24",
         "overallNumber": "176",
         "title": "Preemptive Strike",
-        "date": "May 16, 1994",
+        "date": "1994-05-16",
         "productionCode": "276",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When Ro is assigned to infiltrate the Maquis, she finds herself sympathising with their plight, forcing her to choose between her divided loyalties.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242349.jpg"
       },
       {
         "displayNumber": "25",
         "overallNumber": "177",
         "title": "All Good Things...",
-        "date": "May 23, 1994",
+        "date": "1994-05-23",
         "productionCode": "277",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Captain Picard finds himself travelling between the past, present and future, but discovers he may be responsible for the end of mankind.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242350.jpg"
       },
       {
         "displayNumber": "26",
         "overallNumber": "178",
         "title": "All Good Things...",
-        "date": "May 23, 1994",
+        "date": "1994-05-23",
         "productionCode": "277",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "In the second of the two-part series finale, Picard continues his race against time to try and end the threat to the future of mankind.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242351.jpg"
       }
     ]
   ],
@@ -2283,161 +3848,241 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "1",
         "title": "Emissary",
-        "date": "January 3, 1993",
+        "date": "1993-01-03",
         "productionCode": "40510-721 (401-402)",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "In 2369, Cardassian forces finally withdraw from 70 years of Bajoran occupation -- on the edge of explored space, a new crew takes command of a former Cardassian space station and makes an incredible discovery that will change the galaxy.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/119/297824.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "2",
         "title": "Emissary",
-        "date": "January 3, 1993",
+        "date": "1993-01-03",
         "productionCode": "40510-721 (401-402)",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "In 2369, Cardassian forces finally withdraw from 70 years of Bajoran occupation -- on the edge of explored space, a new crew takes command of a former Cardassian space station and makes an incredible discovery that will change the galaxy.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411142.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "3",
         "title": "Past Prologue",
-        "date": "January 10, 1993",
+        "date": "1993-01-10",
         "productionCode": "40510-404",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A Bajoran terrorist tests Major Kira's loyalties to the Federation when he attempts to rid Bajor of the Federation for good.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/179/449824.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "4",
         "title": "A Man Alone",
-        "date": "January 17, 1993",
+        "date": "1993-01-17",
         "productionCode": "40510-403",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Odo, the station's mysterious, gruff and yet incredibly fair shape-shifter Constable, falls under suspicion for a Bajoran's baffling murder -- and xenophobic hatred rears its ugly head in the station's rush to judgment.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/179/449828.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "5",
         "title": "Babel",
-        "date": "January 24, 1993",
+        "date": "1993-01-24",
         "productionCode": "40510-405",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "During refurbishment, Miles O'Brien unknowingly triggers a formerly dormant Bajoran underground booby trap that releases a potentially fatal virus throughout the station.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/129/323675.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "6",
         "title": "Captive Pursuit",
-        "date": "January 31, 1993",
+        "date": "1993-01-31",
         "productionCode": "40510-406",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "As visitors from the Gamma Quadrant start to arrive through the wormhole, Chief O'Brien befriends an unusual alien, Tosk, as hunters descend on the station searching for their humanoid prey",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/119/297829.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "7",
         "title": "Q-Less",
-        "date": "February 7, 1993",
+        "date": "1993-02-07",
         "productionCode": "40510-407",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Q arrives on DS9 fresh from exploring the Gamma Quadrant with archaeologist Vash. Soon afterwards, unexplained power fluctuations begin to plague the station, threatening to destroy it.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/119/297837.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "8",
         "title": "Dax",
-        "date": "February 14, 1993",
+        "date": "1993-02-14",
         "productionCode": "40510-408",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "New evidence reopens a thirty-year-old murder case and Jadzia Dax's previous host, Curzon, is the prime suspect.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/129/323736.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "9",
         "title": "The Passenger",
-        "date": "February 21, 1993",
+        "date": "1993-02-21",
         "productionCode": "40510-409",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "An alien criminal, attempting to prolong his life, hides his consciousness inside the mind of a station crew member.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/129/323974.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "10",
         "title": "Move Along Home",
-        "date": "March 14, 1993",
+        "date": "1993-03-14",
         "productionCode": "40510-410",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After being swindled by Quark, the Wadi, a visiting delegation from the Gamma Quadrant turns four crew members into 'pieces' for a bizarre game.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/129/324033.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "11",
         "title": "The Nagus",
-        "date": "March 21, 1993",
+        "date": "1993-03-21",
         "productionCode": "40510-411",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Grand Nagus Zek, the leader of the Ferengi Alliance, pays a surprise visit to lowly Quark's Bar to host a conference on exploiting the Gamma Quadrant -- and names Quark, not his own son, as his successor.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/119/297839.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "12",
         "title": "Vortex",
-        "date": "April 18, 1993",
+        "date": "1993-04-18",
         "productionCode": "40510-412",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A fugitive from the Gamma Quadrant attempts to trade evidence about Odo's people for freedom.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/119/297840.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "13",
         "title": "Battle Lines",
-        "date": "April 25, 1993",
+        "date": "1993-04-25",
         "productionCode": "40510-413",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A glimpse of the wormhole and Gamma Quadrant turns tragic, when a runabout carrying Kai Opaka, Sisko, Bashir, and Kira crashes on a planet of eternal war, where it is impossible for the combatants to die.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/119/297841.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "14",
         "title": "The Storyteller",
-        "date": "May 2, 1993",
+        "date": "1993-05-02",
         "productionCode": "40510-414",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Chief O'Brien is appointed spiritual leader of a Bajoran village. Meanwhile, Nog and Jake try to help their new friend settle a struggle between two Bajoran villages.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/130/325177.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "15",
         "title": "Progress",
-        "date": "May 9, 1993",
+        "date": "1993-05-09",
         "productionCode": "40510-415",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "While overseeing an evacuation mission, Kira must try to persuade a stubborn old farmer to leave his home. Back on the station, Jake and Nog set out to turn an inordinate amount of seemingly worthless condiments into profit.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/130/325196.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "16",
         "title": "If Wishes Were Horses",
-        "date": "May 16, 1993",
+        "date": "1993-05-16",
         "productionCode": "40510-416",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "DS9 residents suddenly find their imaginations are manifested in physical form, and a spatial rift threatens to destroy the Bajoran system.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/130/325199.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "17",
         "title": "The Forsaken",
-        "date": "May 23, 1993",
+        "date": "1993-05-23",
         "productionCode": "40510-417",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A visiting Lwaxana Troi becomes enamoured with Odo after he retrieves a stolen item of hers from a thief. Meanwhile, an alien computer program wreaks havoc with the station's systems.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/119/297842.jpg"
       },
       {
         "displayNumber": "The Federation ambassador from Betazed, Lwaxana Troi, visits the station, and develops an affection for Odo. Meanwhile, data from a mysterious Gamma Quadrant probe causes system failures on DS9.",
         "overallNumber": "The Federation ambassador from Betazed, Lwaxana Troi, visits the station, and develops an affection for Odo. Meanwhile, data from a mysterious Gamma Quadrant probe causes system failures on DS9.",
         "title": "The Federation ambassador from Betazed, Lwaxana Troi, visits the station, and develops an affection for Odo. Meanwhile, data from a mysterious Gamma Quadrant probe causes system failures on DS9.",
-        "date": "The Federation ambassador from Betazed, Lwaxana Troi, visits the station, and develops an affection for Odo. Meanwhile, data from a mysterious Gamma Quadrant probe causes system failures on DS9.",
+        "date": "1993-05-30",
         "productionCode": "The Federation ambassador from Betazed, Lwaxana Troi, visits the station, and develops an affection for Odo. Meanwhile, data from a mysterious Gamma Quadrant probe causes system failures on DS9.",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Acting out roles both melodramatic and deadly, the DS9 command staff are infected by a viral historical incident archive from an alien culture within the Gamma Quadrant.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/130/325203.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "18",
         "title": "Dramatis Personae",
-        "date": "May 30, 1993",
+        "date": "1993-06-13",
         "productionCode": "40510-418",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After a Cardassian man arrives on the station suffering from an illness that he could only have contracted at a Bajoran labor camp during the Occupation, Major Kira leads an investigation to determine whether he is actually a notorious war criminal.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/119/297843.jpg"
       },
       {
         "displayNumber": "Tensions rise between the DS9 crew members after they are telepathically imprinted with the memories of participants in an alien power struggle.",
         "overallNumber": "Tensions rise between the DS9 crew members after they are telepathically imprinted with the memories of participants in an alien power struggle.",
         "title": "Tensions rise between the DS9 crew members after they are telepathically imprinted with the memories of participants in an alien power struggle.",
-        "date": "Tensions rise between the DS9 crew members after they are telepathically imprinted with the memories of participants in an alien power struggle.",
+        "date": "1993-06-20",
         "productionCode": "Tensions rise between the DS9 crew members after they are telepathically imprinted with the memories of participants in an alien power struggle.",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Orthodox Bajorans voice objections to secular teachings about the wormhole in the station's school, causing violent tensions to erupt between DS9's crew and an increasingly popular fundamentalist faction of the Bajoran faith.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/119/297844.jpg"
       },
       {
         "displayNumber": "19",
@@ -2445,7 +4090,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Duet",
         "date": "June 13, 1993",
         "productionCode": "40510-419",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "20",
@@ -2453,7 +4100,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "In the Hands of the Prophets",
         "date": "June 20, 1993",
         "productionCode": "40510-420",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "",
+        "guestCast": []
       }
     ],
     [
@@ -2461,209 +4110,313 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "21",
         "title": "The Homecoming",
-        "date": "September 26, 1993",
+        "date": "1993-09-26",
         "productionCode": "40510-421",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When Quark presents Major Kira with an earring belonging to a presumed dead Bajoran Resistance legend, she and Chief O'Brien journey to Cardassia IV in an attempt to free him from from a slave-labour colony. Meanwhile, an extremist Bajoran faction known as The Circle continues to agitate tensions on DS9 and Bajor.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/131/328998.jpg"
       },
       {
         "displayNumber": "Quark gives Kira a Bajoran earring he claims was sent as a message from a Cardassian mining planet. (Part 1 of 3)",
         "overallNumber": "Quark gives Kira a Bajoran earring he claims was sent as a message from a Cardassian mining planet. (Part 1 of 3)",
         "title": "Quark gives Kira a Bajoran earring he claims was sent as a message from a Cardassian mining planet. (Part 1 of 3)",
-        "date": "Quark gives Kira a Bajoran earring he claims was sent as a message from a Cardassian mining planet. (Part 1 of 3)",
+        "date": "1993-10-03",
         "productionCode": "Quark gives Kira a Bajoran earring he claims was sent as a message from a Cardassian mining planet. (Part 1 of 3)",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When Kira is removed from her post aboard DS9, Vedek Bareil invites her to visit his monastery on Bajor to reflect on her next step. Meanwhile, Odo, Sisko, and Li Nalas attempt to discover who is the driving force behind The Circle when they begin arming themselves with weapons from a mysterious source.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/119/297846.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "22",
         "title": "The Circle",
-        "date": "October 3, 1993",
+        "date": "1993-10-10",
         "productionCode": "40510-422",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "As Federation citizens are evacuated from DS9, Sisko and a skeleton crew attempt to prevent The Circle and the Bajoran military forces under their control from occupying the station. Kira and Dax attempt to reach the Chamber of Ministers on Bajor with evidence of Cardassian involvement in the conflict.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/131/329023.jpg"
       },
       {
         "displayNumber": "The Circle attempts to topple the Bajoran government, but there is more to the situation than meets the eye. (Part 2 of 3)",
         "overallNumber": "The Circle attempts to topple the Bajoran government, but there is more to the situation than meets the eye. (Part 2 of 3)",
         "title": "The Circle attempts to topple the Bajoran government, but there is more to the situation than meets the eye. (Part 2 of 3)",
-        "date": "The Circle attempts to topple the Bajoran government, but there is more to the situation than meets the eye. (Part 2 of 3)",
+        "date": "1993-10-17",
         "productionCode": "The Circle attempts to topple the Bajoran government, but there is more to the situation than meets the eye. (Part 2 of 3)",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When a violent plasma storm leads to the evacuation of the station, the remaining crew are overtaken by a group of mercenaries led by a timid Trill named Verad who has plans for Lieutenant Dax.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/131/329033.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "23",
         "title": "The Siege",
-        "date": "October 10, 1993",
+        "date": "1993-10-24",
         "productionCode": "40510-423",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Political tensions rise on DS9 when Bajorans board the station with a orphaned Cardassian whom they have adopted.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/119/297848.jpg"
       },
       {
         "displayNumber": "Sisko and Li Nalas help stop Deep Space Nine from being commandeered by The Circle, while Kira and Dax try to put an end to the Circle by presenting evidence that Minister Jaro is being backed by the Cardassians. (Part 3 of 3)",
         "overallNumber": "Sisko and Li Nalas help stop Deep Space Nine from being commandeered by The Circle, while Kira and Dax try to put an end to the Circle by presenting evidence that Minister Jaro is being backed by the Cardassians. (Part 3 of 3)",
         "title": "Sisko and Li Nalas help stop Deep Space Nine from being commandeered by The Circle, while Kira and Dax try to put an end to the Circle by presenting evidence that Minister Jaro is being backed by the Cardassians. (Part 3 of 3)",
-        "date": "Sisko and Li Nalas help stop Deep Space Nine from being commandeered by The Circle, while Kira and Dax try to put an end to the Circle by presenting evidence that Minister Jaro is being backed by the Cardassians. (Part 3 of 3)",
+        "date": "1993-10-31",
         "productionCode": "Sisko and Li Nalas help stop Deep Space Nine from being commandeered by The Circle, while Kira and Dax try to put an end to the Circle by presenting evidence that Minister Jaro is being backed by the Cardassians. (Part 3 of 3)",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Ensign Melora Pazlar, a new arrival on DS9 with a special gravity-based disability, finds an admirer in Bashir. Meanwhile, Quark receives a death threat from one of his former associates.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/132/331068.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "24",
         "title": "Invasive Procedures",
-        "date": "October 17, 1993",
+        "date": "1993-11-07",
         "productionCode": "40510-424",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Grand Nagus Zek assigns Quark to initiate negotiations with a planet in the Gamma Quadrant, the Nagus believes it will help the Ferengi Alliance get a profitable business foothold in new territory. However, the plan is put into jeopardy when Quark's new associate turns out to be more than he appears.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/146/365603.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "25",
         "title": "Cardassians",
-        "date": "October 24, 1993",
+        "date": "1993-11-14",
         "productionCode": "40510-425",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After an attempt on Quark's life, Odo re-opens an unsolved five-year-old murder investigation in which Kira Nerys was originally a suspect.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/146/365602.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "26",
         "title": "Melora",
-        "date": "October 31, 1993",
+        "date": "1993-11-21",
         "productionCode": "40510-426",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "On the fourth anniversary of his wife's death at the massacre at Wolf 359, Sisko has an unexpected encounter with a mysterious woman visiting the station.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/146/365604.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "27",
         "title": "Rules of Acquisition",
-        "date": "November 7, 1993",
+        "date": "1993-11-28",
         "productionCode": "40510-427",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A group of refugees from the Gamma Quadrant travel through the wormhole in search of their fabled homeland, Kentanna.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/146/365605.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "28",
         "title": "Necessary Evil",
-        "date": "November 14, 1993",
+        "date": "1994-01-02",
         "productionCode": "40510-428",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Quark feels threatened when a charming con artist arrives on the station and opens up a competing bar and casino on the Promenade. Meanwhile, Chief O'Brien is determined to beat Doctor Bashir at racquetball.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/146/365607.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "29",
         "title": "Second Sight",
-        "date": "November 21, 1993",
+        "date": "1994-01-09",
         "productionCode": "40510-429",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Dr. Mora Pol, the Bajoran scientist who studied Odo when he was first discovered, arrives on DS9 with evidence that he has found DNA signatures similar to Odo's on a planet in the Gamma Quadrant.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/146/365609.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "30",
         "title": "Sanctuary",
-        "date": "November 28, 1993",
+        "date": "1994-01-30",
         "productionCode": "40510-430",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Chief O'Brien and Dr. Bashir help the T'Lani and the Kelleruns eliminate their stockpiles of deadly biological weapons used in their centuries-long war. However, when both governments decide to make sure no technical knowledge of the weapons remains, O'Brien and Bashir must put their differences aside in the name of survival.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/146/365610.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "31",
         "title": "Rivals",
-        "date": "January 2, 1994",
+        "date": "1994-02-06",
         "productionCode": "40510-431",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Upon returning from a mission to the Parada system, O'Brien begins to notice the crew acting strange around him and suspects there may be some unknown influence at work.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/146/365611.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "32",
         "title": "The Alternate",
-        "date": "January 9, 1994",
+        "date": "1994-02-13",
         "productionCode": "40510-432",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "While surveying nearby star systems for M-Class planets, Sisko and O'Brien find themselves stranded on a previously unknown colony world where the colonists have adapted to life without advanced technology.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/163/408287.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "33",
         "title": "Armageddon Game",
-        "date": "January 30, 1994",
+        "date": "1994-02-20",
         "productionCode": "40510-433",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After discovering a colony in the Gamma Quadrant, Dax and Odo investigate the mysterious disappearance of several colonists. Back on the station Vedek Bareil visits Kira, and Jake gets a job with Chief O'Brien.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/163/408291.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "34",
         "title": "Whispers",
-        "date": "February 6, 1994",
+        "date": "1994-02-27",
         "productionCode": "40510-434",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "While hosting her first Trill initiate, Dax discovers a tiny, expanding protouniverse that threatens to destroy the entire Bajoran system.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/163/408318.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "35",
         "title": "Paradise",
-        "date": "February 13, 1994",
+        "date": "1994-03-20",
         "productionCode": "40510-435",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When a damaged Cardassian ship shows up near DS9, Quark is unexpectedly reunited with his lost Cardassian love, who is now a member of the Cardassian dissident movement.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/163/408343.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "36",
         "title": "Shadowplay",
-        "date": "February 20, 1994",
+        "date": "1994-03-27",
         "productionCode": "40510-436",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Three legendary Klingon warriors reunite on DS9 seeking Curzon Dax, with whom they entered into a blood oath to one day exact revenge on their sworn enemy. Finding Jadzia to be as worthy a warrior as they felt Curzon to be, they invite her to join them on their crusade.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/163/408370.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "37",
         "title": "Playing God",
-        "date": "February 27, 1994",
+        "date": "1994-04-24",
         "productionCode": "40510-437",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When a Cardassian freighter, the Bok'Nor, explodes at DS9, the Cardassians blame Federation colonists in the newly established Demilitarized Zone. Meanwhile, Quark is approached by a Vulcan with an unusual business proposition.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/163/408941.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "38",
         "title": "Profit and Loss",
-        "date": "March 20, 1994",
+        "date": "1994-05-01",
         "productionCode": "40510-438",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Under increasing pressure from Starfleet Command, Sisko tries to rescue Gul Dukat, stop the Maquis from escalating conflict within the Demilitarized Zone, and prevent an all-out war between Cardassia and the Federation.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/163/408971.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "39",
         "title": "Blood Oath",
-        "date": "March 27, 1994",
+        "date": "1994-05-08",
         "productionCode": "40510-439",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When an addictive implant in Garak's brain begins to break down, causing the exiled Cardassian extreme pain, Dr. Bashir must convince a reluctant Garak to accept his help.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411078.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "40",
         "title": "The Maquis, Part I",
-        "date": "April 24, 1994",
+        "date": "1994-05-15",
         "productionCode": "40510-440",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After suffering an accident whilst traveling through the wormhole, Kira and Dr. Bashir find themselves trapped in the mirror universe first encountered by James T. Kirk a century earlier.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411107.jpg"
       },
       {
         "displayNumber": "21",
         "overallNumber": "41",
         "title": "The Maquis, Part II",
-        "date": "May 1, 1994",
+        "date": "1994-05-22",
         "productionCode": "40510-441",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The man most likely to take over as the new Bajoran Kai, Vedek Bareil, is accused of collaborating with the Cardassians during the Occupation.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411116.jpg"
       },
       {
         "displayNumber": "22",
         "overallNumber": "42",
         "title": "The Wire",
-        "date": "May 8, 1994",
+        "date": "1994-06-05",
         "productionCode": "40510-442",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Chief O'Brien is arrested by the Cardassians for collaborating with the Maquis. However, on Cardassian justice is swift: the verdict is known before the trial even begins, and it's always guilty.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411138.jpg"
       },
       {
         "displayNumber": "23",
         "overallNumber": "43",
         "title": "Crossover",
-        "date": "May 15, 1994",
+        "date": "1994-06-12",
         "productionCode": "40510-443",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "On a camping trip in the Gamma Quadrant to conduct a planetary survey report, Sisko, Jake, Nog, and Quark encounter the ruthless soldiers of the mysterious Dominion, the Jem'Hadar.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411139.jpg"
       },
       {
         "displayNumber": "24",
@@ -2671,7 +4424,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "The Collaborator",
         "date": "May 22, 1994",
         "productionCode": "40510-444",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "25",
@@ -2679,7 +4434,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Tribunal",
         "date": "June 5, 1994",
         "productionCode": "40510-445",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "26",
@@ -2687,7 +4444,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "The Jem'Hadar",
         "date": "June 12, 1994",
         "productionCode": "40510-446",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "",
+        "guestCast": []
       }
     ],
     [
@@ -2695,209 +4454,313 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "47",
         "title": "The Search, Part I",
-        "date": "September 24, 1994",
+        "date": "1994-09-26",
         "productionCode": "40510-447",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After their violent confrontation with the Jem'Hadar, Sisko takes an untested Starfleet ship, the Defiant, into the Gamma Quadrant in an attempt to make peaceful contact with the Founders of the Dominion.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411140.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "48",
         "title": "The Search, Part II",
-        "date": "October 1, 1994",
+        "date": "1994-10-03",
         "productionCode": "40510-448",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "On his newly discovered homeworld, Odo learns to connect with his fellow Changelings. Back on DS9, Sisko grows concerned that the price the Federation is willing to pay for peace with the Dominion may be too high.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411141.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "49",
         "title": "The House of Quark",
-        "date": "October 8, 1994",
+        "date": "1994-10-16",
         "productionCode": "40510-449",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When Quark lies about killing a Klingon in his bar, he is pulled into a power struggle between rival Klingon families on Qo'noS and forced to marry the dead man's widow. Meanwhile, Chief O'Brien must confront the fact that Keiko gave up her career to join him on DS9.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411294.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "50",
         "title": "Equilibrium",
-        "date": "October 15, 1994",
+        "date": "1994-10-23",
         "productionCode": "40510-450",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When Jadzia begins experiencing violent mood swings and hallucinations, a disturbing secret from Dax's symbiont history reveals a much larger deception.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411336.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "51",
         "title": "Second Skin",
-        "date": "October 22, 1994",
+        "date": "1994-10-30",
         "productionCode": "40510-451",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "As she travels to Bajor in search of answers about her past, Kira is abducted by Cardassians, surgically altered, and told she is the missing Obsidian Order deep-cover operative, Iliana Ghemor.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411355.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "52",
         "title": "The Abandoned",
-        "date": "October 29, 1994",
+        "date": "1994-11-06",
         "productionCode": "40510-452",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When a Jem'Hadar infant is found in salvaged spaceship wreckage from the Gamma Quadrant, Odo strives to teach the rapidly maturing soldier to think for himself.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411357.jpg"
       },
       {
         "displayNumber": "Quark purchases a salvaged ship from the Gamma Quadrant and discovers an infant on board. Sisko invites Mardah, the dabo woman Jake is interested in, to dinner. Odo officially gets quarters aboard DS9.",
         "overallNumber": "Quark purchases a salvaged ship from the Gamma Quadrant and discovers an infant on board. Sisko invites Mardah, the dabo woman Jake is interested in, to dinner. Odo officially gets quarters aboard DS9.",
         "title": "Quark purchases a salvaged ship from the Gamma Quadrant and discovers an infant on board. Sisko invites Mardah, the dabo woman Jake is interested in, to dinner. Odo officially gets quarters aboard DS9.",
-        "date": "Quark purchases a salvaged ship from the Gamma Quadrant and discovers an infant on board. Sisko invites Mardah, the dabo woman Jake is interested in, to dinner. Odo officially gets quarters aboard DS9.",
+        "date": "1994-11-13",
         "productionCode": "Quark purchases a salvaged ship from the Gamma Quadrant and discovers an infant on board. Sisko invites Mardah, the dabo woman Jake is interested in, to dinner. Odo officially gets quarters aboard DS9.",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Sisko, Jake, and O'Brien accidentally trigger an old Cardassian security system that believes DS9 has been taken over in a Bajoran workers' revolt and puts the entire station in lockdown.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411417.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "53",
         "title": "Civil Defense",
-        "date": "November 5, 1994",
+        "date": "1994-11-20",
         "productionCode": "40510-453",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "On an exploration mission to the Gamma Quadrant, the Defiant encounters a unique planet that shifts between corporeal and non-corporeal dimensions. Back on DS9, Quark attempts to create a new holosuite program.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411604.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "54",
         "title": "Meridian",
-        "date": "November 12, 1994",
+        "date": "1994-11-27",
         "productionCode": "40510-454",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When William Riker from the Enterprise unexpectedly arrives on DS9 on vacation, he takes a liking to Kira, who has also been ordered to take some time off. However, when Kira gives Will a tour of the Defiant, it becomes clear that there's more to Will's vacation than meets the eye.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411605.jpg"
       },
       {
         "displayNumber": "Dax falls in love with Deral, who will soon disappear because he is a member of Meridian, a planet that phases between dimensions every 60 years.",
         "overallNumber": "Dax falls in love with Deral, who will soon disappear because he is a member of Meridian, a planet that phases between dimensions every 60 years.",
         "title": "Dax falls in love with Deral, who will soon disappear because he is a member of Meridian, a planet that phases between dimensions every 60 years.",
-        "date": "Dax falls in love with Deral, who will soon disappear because he is a member of Meridian, a planet that phases between dimensions every 60 years.",
+        "date": "1994-12-04",
         "productionCode": "Dax falls in love with Deral, who will soon disappear because he is a member of Meridian, a planet that phases between dimensions every 60 years.",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When Ambassador Lwaxana Troi and Keiko O'Brien return to DS9 for the Bajoran Gratitude Festival, residents of the station suddenly become uncontrollably infatuated with one another.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411620.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "55",
         "title": "Defiant",
-        "date": "November 19, 1994",
+        "date": "1995-01-08",
         "productionCode": "40510-455",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After a transporter malfunction aboard the Defiant, Sisko, Bashir, and Dax find themselves thrown back three hundred years into Earth's dark past without any means of getting home.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411638.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "56",
         "title": "Fascination",
-        "date": "November 26, 1994",
+        "date": "1995-01-15",
         "productionCode": "40510-456",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "With history itself at stake, Sisko assumes the role of a pivotal historical figure in order to restore the timeline, even if it means sacrificing his own life.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411676.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "57",
         "title": "Past Tense: Part I",
-        "date": "December 31, 1994",
+        "date": "1995-02-05",
         "productionCode": "40510-457",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After a serious accident aboard a Bajoran shuttle, Dr. Bashir struggles to save Vedek Bareil's life while Kai Winn concludes a peace treaty with Cardassia, putting his ethics to the ultimate test. Jake and Nog reluctantly explore the differences between Human and Ferengi cultures.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/164/411693.jpg"
       },
       {
         "displayNumber": "A transporter accident sends Sisko, Bashir, and Dax three centuries into Earth's dark past to a time just before the 2024 Bell riots, a violent civil disturbance in opposition to Sanctuaries which are controlled ghettos for the dispossessed.",
         "overallNumber": "A transporter accident sends Sisko, Bashir, and Dax three centuries into Earth's dark past to a time just before the 2024 Bell riots, a violent civil disturbance in opposition to Sanctuaries which are controlled ghettos for the dispossessed.",
         "title": "A transporter accident sends Sisko, Bashir, and Dax three centuries into Earth's dark past to a time just before the 2024 Bell riots, a violent civil disturbance in opposition to Sanctuaries which are controlled ghettos for the dispossessed.",
-        "date": "A transporter accident sends Sisko, Bashir, and Dax three centuries into Earth's dark past to a time just before the 2024 Bell riots, a violent civil disturbance in opposition to Sanctuaries which are controlled ghettos for the dispossessed.",
+        "date": "1995-02-12",
         "productionCode": "A transporter accident sends Sisko, Bashir, and Dax three centuries into Earth's dark past to a time just before the 2024 Bell riots, a violent civil disturbance in opposition to Sanctuaries which are controlled ghettos for the dispossessed.",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Pursuing a Maquis raider to an unstable moon, Kira becomes trapped within an expanding crystal formation that threatens to engulf her. Meanwhile, Nog attempts to persuade a skeptical Commander Sisko to write him a letter of recommendation to join Starfleet Academy.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/167/417773.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "58",
         "title": "Past Tense: Part II",
-        "date": "January 7, 1995",
+        "date": "1995-02-19",
         "productionCode": "40510-458",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "An ancient Bajoran prophecy complicates the first joint Bajoran, Cardassian, and Federation science mission: an attempt to establish a permanent communications link through the wormhole.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/167/417816.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "59",
         "title": "Life Support",
-        "date": "January 28, 1995",
+        "date": "1995-02-26",
         "productionCode": "40510-459",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When Grand Nagus Zek revises The Rules of Acquisition to be more philanthropic, Quark and Rom start to question whether their leader has gone insane. Meanwhile, when Dr. Bashir is nominated for a prestigious Federation medical award, his reaction is less than enthusiastic.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/167/417866.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "60",
         "title": "Heart of Stone",
-        "date": "February 4, 1995",
+        "date": "1995-03-05",
         "productionCode": "40510-460",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After receiving a minor dose of radiation poisoning, Chief O'Brien inexplicably begins experiencing a series of jumps into the future. Meanwhile, a Romulan delegation arrives on DS9 expecting an intelligence report on the Dominion in exchange for the continued use of the cloaking device aboard the Defiant.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/167/417910.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "61",
         "title": "Destiny",
-        "date": "February 11, 1995",
+        "date": "1995-04-16",
         "productionCode": "40510-461",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After being assaulted by an alien thief in the infirmary, Dr. Bashir wakes to discover he has a dual mystery on his hands: what happened to the station while he was unconscious and why is he suddenly aging so rapidly?",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/167/419162.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "62",
         "title": "Prophet Motive",
-        "date": "February 18, 1995",
+        "date": "1995-04-23",
         "productionCode": "40510-462",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Smiley O'Brien from the mirror universe kidnaps Commander Sisko and convines him to impersonate his deceased, mirror universe self in order to persuade the alternate version of his dead wife, Jennifer Sisko, to join the Terran Rebels.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/167/419203.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "63",
         "title": "Visionary",
-        "date": "February 25, 1995",
+        "date": "1995-05-07",
         "productionCode": "40510-463",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When a bomb destroys Garak's tailor shop, Odo begins an investigation into who might want the exiled Cardassian killed and why.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/167/419215.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "64",
         "title": "Distant Voices",
-        "date": "April 8, 1995",
+        "date": "1995-05-07",
         "productionCode": "40510-464",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When the covertly assembled Romulan-Cardassian attack fleet enters the Gamma Quadrant on a mission of destruction, Garak is forced to interrogate Odo for information on the Founders. Meanwhile, Sisko goes against orders on a mission to rescue Odo.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/167/419230.jpg"
       },
       {
         "displayNumber": "Approaching his 30th birthday, Julian Bashir is subjected to a telepathic attack by an alien seeking a restricted substance. He wakes up to find the station almost deserted and that he is aging rapidly.",
         "overallNumber": "Approaching his 30th birthday, Julian Bashir is subjected to a telepathic attack by an alien seeking a restricted substance. He wakes up to find the station almost deserted and that he is aging rapidly.",
         "title": "Approaching his 30th birthday, Julian Bashir is subjected to a telepathic attack by an alien seeking a restricted substance. He wakes up to find the station almost deserted and that he is aging rapidly.",
-        "date": "Approaching his 30th birthday, Julian Bashir is subjected to a telepathic attack by an alien seeking a restricted substance. He wakes up to find the station almost deserted and that he is aging rapidly.",
+        "date": "1995-05-14",
         "productionCode": "Approaching his 30th birthday, Julian Bashir is subjected to a telepathic attack by an alien seeking a restricted substance. He wakes up to find the station almost deserted and that he is aging rapidly.",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "An invigorated Sisko returns from Bajor and decides to build a replica of an eight hundred-year-old Bajoran lightship, hoping to use it to prove that ancient Bajoran explorers could have made it to Cardassia before developing warp drive.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/167/419260.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "65",
         "title": "Through the Looking Glass",
-        "date": "April 15, 1995",
+        "date": "1995-05-21",
         "productionCode": "40510-466",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When Quark's mother breaks Ferengi law by wearing clothes and earning profit, Quark and Rom are forced to return home to Ferenginar in order to convince her to confess and make restitution for her crimes. On DS9, Jake eagerly tries to matchmake his father with freighter captain, Kasidy Yates.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/167/419283.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "66",
         "title": "Improbable Cause",
-        "date": "April 22, 1995",
+        "date": "1995-05-28",
         "productionCode": "40510-465",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When Kai Winn is appointed Bajoran First Minister, Kira becomes concerned about Winn's growing grip on power. However, when the Kai orders Kira to convince her old Resistance leader to return some farming equipment to the government, the situation rapidly descends into a vicious power struggle.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/167/419881.jpg"
       },
       {
         "displayNumber": "Garak's tailor shop is bombed, forcing Odo to investigate who is trying to kill the Cardassian exile – and why. (Part 1 of 2)",
         "overallNumber": "Garak's tailor shop is bombed, forcing Odo to investigate who is trying to kill the Cardassian exile – and why. (Part 1 of 2)",
         "title": "Garak's tailor shop is bombed, forcing Odo to investigate who is trying to kill the Cardassian exile – and why. (Part 1 of 2)",
-        "date": "Garak's tailor shop is bombed, forcing Odo to investigate who is trying to kill the Cardassian exile – and why. (Part 1 of 2)",
+        "date": "1995-06-18",
         "productionCode": "Garak's tailor shop is bombed, forcing Odo to investigate who is trying to kill the Cardassian exile – and why. (Part 1 of 2)",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "While Jadzia performs the Trill zhian'tara ritual and meets with the previous Dax hosts, Nog undergoes his stress reaction test in preparation for entrance into Starfleet Academy.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/167/419894.jpg"
       },
       {
         "displayNumber": "21",
         "overallNumber": "67",
         "title": "The Die Is Cast",
-        "date": "April 29, 1995",
+        "date": "1995-06-25",
         "productionCode": "40510-467",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When a destabilizing coup takes places on the Tzenkethi homeworld, a newly promoted Captain Sisko is ordered to take the Defiant on a border patrol to evaluate the situation. However, soon after departing DS9 the Defiant develops a series of malfunctions, leading Sisko to consider that they may have a saboteur onboard.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/168/420036.jpg"
       },
       {
         "displayNumber": "Garak reluctantly tortures Odo for information to prove his loyalty to his former mentor, Enabran Tain, as a joint Tal Shiar/Obsidian Order attack on the Founders in the Omarian Nebula is underway. (Part 2 of 2)",
@@ -2905,7 +4768,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Garak reluctantly tortures Odo for information to prove his loyalty to his former mentor, Enabran Tain, as a joint Tal Shiar/Obsidian Order attack on the Founders in the Omarian Nebula is underway. (Part 2 of 2)",
         "date": "Garak reluctantly tortures Odo for information to prove his loyalty to his former mentor, Enabran Tain, as a joint Tal Shiar/Obsidian Order attack on the Founders in the Omarian Nebula is underway. (Part 2 of 2)",
         "productionCode": "Garak reluctantly tortures Odo for information to prove his loyalty to his former mentor, Enabran Tain, as a joint Tal Shiar/Obsidian Order attack on the Founders in the Omarian Nebula is underway. (Part 2 of 2)",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "22",
@@ -2913,7 +4778,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Explorers",
         "date": "May 6, 1995",
         "productionCode": "40510-468",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "23",
@@ -2921,7 +4788,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Family Business",
         "date": "May 13, 1995",
         "productionCode": "40510-469",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "24",
@@ -2929,7 +4798,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Shakaar",
         "date": "May 20, 1995",
         "productionCode": "40510-470",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "25",
@@ -2937,7 +4808,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Facets",
         "date": "June 10, 1995",
         "productionCode": "40510-471",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "26",
@@ -2945,7 +4818,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "The Adversary",
         "date": "June 17, 1995",
         "productionCode": "40510-472",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "",
+        "guestCast": []
       }
     ],
     [
@@ -2953,209 +4828,464 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "73",
         "title": "The Way of the Warrior",
-        "date": "September 30, 1995",
+        "date": "1995-10-02",
         "productionCode": "40510-718 (40510-473, 40510-474)",
-        "stardate": "49011.4"
+        "stardate": "49011.4",
+        "synopsis": "When a Klingon fleet under General Martok arrives at the station ostensibly to protect the Alpha Quadrant from the Dominion, Sisko recruits Lieutenant Commander Worf to investigate the Klingons' true intentions.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/168/420054.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "74",
         "title": "The Way of the Warrior",
-        "date": "September 30, 1995",
+        "date": "1995-10-02",
         "productionCode": "40510-718 (40510-473, 40510-474)",
-        "stardate": "49011.4"
+        "stardate": "49011.4",
+        "synopsis": "Believing that the recent Cardasssian coup was orchestrated by the Dominion, the Klingon decision to attack Cardassia puts the Federation-Klingon alliance in jeopardy, and forces Worf to choose between his people and his oath to the Federation.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/168/420284.jpg"
       },
       {
         "displayNumber": "A Klingon fleet arrives on its way to expand the Klingon Empire at the expense of the Cardassians in the face of the Dominion threat, and Worf is brought to DS9 to negotiate. Originally shown as a single two-hour episode, but converted to two separate episodes in later syndication.",
         "overallNumber": "A Klingon fleet arrives on its way to expand the Klingon Empire at the expense of the Cardassians in the face of the Dominion threat, and Worf is brought to DS9 to negotiate. Originally shown as a single two-hour episode, but converted to two separate episodes in later syndication.",
         "title": "A Klingon fleet arrives on its way to expand the Klingon Empire at the expense of the Cardassians in the face of the Dominion threat, and Worf is brought to DS9 to negotiate. Originally shown as a single two-hour episode, but converted to two separate episodes in later syndication.",
-        "date": "A Klingon fleet arrives on its way to expand the Klingon Empire at the expense of the Cardassians in the face of the Dominion threat, and Worf is brought to DS9 to negotiate. Originally shown as a single two-hour episode, but converted to two separate episodes in later syndication.",
+        "date": "1995-10-09",
         "productionCode": "A Klingon fleet arrives on its way to expand the Klingon Empire at the expense of the Cardassians in the face of the Dominion threat, and Worf is brought to DS9 to negotiate. Originally shown as a single two-hour episode, but converted to two separate episodes in later syndication.",
-        "stardate": "A Klingon fleet arrives on its way to expand the Klingon Empire at the expense of the Cardassians in the face of the Dominion threat, and Worf is brought to DS9 to negotiate. Originally shown as a single two-hour episode, but converted to two separate episodes in later syndication."
+        "stardate": "A Klingon fleet arrives on its way to expand the Klingon Empire at the expense of the Cardassians in the face of the Dominion threat, and Worf is brought to DS9 to negotiate. Originally shown as a single two-hour episode, but converted to two separate episodes in later syndication.",
+        "synopsis": "When an aspiring writer turns up in the middle of the night, an elderly Jake Sisko recounts his life, which has become an endless quest to locate his father, after an accident in the engine room of the Defiant apparently claimed Benjamin Sisko's life.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/168/420441.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "75",
         "title": "The Visitor",
-        "date": "October 7, 1995",
+        "date": "1995-10-16",
         "productionCode": "40510-476",
-        "stardate": "49037.7"
+        "stardate": "49037.7",
+        "synopsis": "After crash landing on a planet, Dr. Bashir tries to help members of a rogue Jem'Hadar unit free themselves of their addiction to the drug the Founders use to control them. Meanwhile, Worf tries to adjust to life aboard DS9.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/168/420456.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "76",
         "title": "Hippocratic Oath",
-        "date": "October 14, 1995",
+        "date": "1995-10-23",
         "productionCode": "40510-475",
-        "stardate": "49066.5"
+        "stardate": "49066.5",
+        "synopsis": "Major Kira and Gul Dukat form an uneasy alliance as they search for a missing Cardassian prison ship, the Ravinok, that disappeared six years earlier while carrying Bajoran prisoners. Back on DS9, Sisko is overwhelmed by the prospect of Kasidy Yates living aboard the station when she decides to take work closer to Bajor.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/168/420491.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "77",
         "title": "Indiscretion",
-        "date": "October 21, 1995",
+        "date": "1995-10-30",
         "productionCode": "40510-477",
-        "stardate": "49122.4"
+        "stardate": "49122.4",
+        "synopsis": "When Jadzia Dax is reunited with the Kahn symbiont, the wife of one of her previous hosts, together the pair must decide whether or not to defy Trill social taboo and rekindle their former relationship.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/168/421015.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "78",
         "title": "Rejoined",
-        "date": "October 28, 1995",
+        "date": "1995-11-06",
         "productionCode": "40510-478",
-        "stardate": "49195.5"
+        "stardate": "49195.5",
+        "synopsis": "When Sisko defends a Karemma ship that has been trading with the Federation without the Dominion's knowledge, a badly damaged Defiant is forced into a dangerous game of cat-and-mouse with two Jem'Hadar ships inside a gas giant.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/168/421028.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "79",
         "title": "Starship Down",
-        "date": "November 4, 1995",
+        "date": "1995-11-13",
         "productionCode": "40510-479",
-        "stardate": "49263.5"
+        "stardate": "49263.5",
+        "synopsis": "On a shakedown cruise to Earth to drop off Nog at Starfleet Academy, a malfunction on Quark's new ship causes Quark, Rom, and Nog to crash in the year 1947 in Roswell, New Mexico.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/168/421267.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "80",
         "title": "Little Green Men",
-        "date": "November 11, 1995",
+        "date": "1995-11-20",
         "productionCode": "40510-480",
-        "stardate": "49201.3"
+        "stardate": "49201.3",
+        "synopsis": "Klingon Dahar Master Kor, Jadzia Dax, and Worf search a remote planet in the Gamma Quadrant for the fabled Sword of Kahless; the mythical, millennia-old weapon of the Klingon Empire's first leader.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/168/421283.jpg"
       },
       {
         "displayNumber": "Quark, Rom, Nog and Odo are accidentally thrust back in time to Roswell, New Mexico, Earth, in 1947.",
         "overallNumber": "Quark, Rom, Nog and Odo are accidentally thrust back in time to Roswell, New Mexico, Earth, in 1947.",
         "title": "Quark, Rom, Nog and Odo are accidentally thrust back in time to Roswell, New Mexico, Earth, in 1947.",
-        "date": "Quark, Rom, Nog and Odo are accidentally thrust back in time to Roswell, New Mexico, Earth, in 1947.",
+        "date": "1995-11-27",
         "productionCode": "Quark, Rom, Nog and Odo are accidentally thrust back in time to Roswell, New Mexico, Earth, in 1947.",
-        "stardate": "Quark, Rom, Nog and Odo are accidentally thrust back in time to Roswell, New Mexico, Earth, in 1947."
+        "stardate": "Quark, Rom, Nog and Odo are accidentally thrust back in time to Roswell, New Mexico, Earth, in 1947.",
+        "synopsis": "A transporter emergency aboard the USS Orinoco replaces the characters in Dr. Bashir's secret agent holosuite program with the physical forms DS9's senior staff.",
+        "guestCast": [
+          "Andrew J. Robinson como Elim Garak",
+          "Max Grodénchik como Rom",
+          "Ken Marshall como Lt. Commander Michael Eddington",
+          "Marci Brickhouse como Mona Luvsitt",
+          "Melissa Young como Caprice",
+          "Judi M. Durand como Station Computer",
+          "Nana Visitor como Anastasia Komananov",
+          "Michael Dorn como Duchamps",
+          "Colm Meaney como Falcon",
+          "Terry Farrell como Honey Bare",
+          "Avery Brooks como Dr. Hippocrates Noah"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/168/421317.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "81",
         "title": "The Sword of Kahless",
-        "date": "November 18, 1995",
+        "date": "1996-01-01",
         "productionCode": "40510-481",
-        "stardate": "49289"
+        "stardate": "49289",
+        "synopsis": "After the bombing of a Federation conference is revealed to be the work of the Dominion, Sisko and Odo travel to Earth in hopes of uncovering the Changeling responsible.",
+        "guestCast": [
+          "Aron Eisenberg como Nog",
+          "Brock Peters como Joseph Sisko",
+          "Robert Foxworth como Admiral Leyton",
+          "Susan Gibney como Erika Benteen",
+          "Herschel Sparber como President Jaresh-Inyo",
+          "Dylan Chalfy como Head Officer",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik",
+          "Randy James como Lieutenant Jones"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/168/421339.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "82",
         "title": "Our Man Bashir",
-        "date": "November 25, 1995",
+        "date": "1996-01-08",
         "productionCode": "40510-482",
-        "stardate": "49300.7"
+        "stardate": "49300.7",
+        "synopsis": "When Starfleet tightens security measures on Earth and institutes martial law to combat the Changeling threat, Sisko and Odo begin to investigate a suspicious trail of events that imply all may not be what it seems.",
+        "guestCast": [
+          "Aron Eisenberg como Nog",
+          "Brock Peters como Joseph Sisko",
+          "Robert Foxworth como Admiral Leyton",
+          "Susan Gibney como Erika Benteen",
+          "Herschel Sparber como President Jaresh-Inyo",
+          "David Drew Gallagher como Riley Aldrin Shepard",
+          "Mina Badie como Security Officer",
+          "Rudolph Willrich como Academy Commandant",
+          "Bobby C. King como Security Chief"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/169/424817.jpg"
       },
       {
         "displayNumber": "Bashir plays a 1960s secret agent in a holosuite, when Garak unexpectedly intrudes, but his help is needed when the DS9 computer uses the holosuite to store the patterns of other crew members during a transporter accident.",
         "overallNumber": "Bashir plays a 1960s secret agent in a holosuite, when Garak unexpectedly intrudes, but his help is needed when the DS9 computer uses the holosuite to store the patterns of other crew members during a transporter accident.",
         "title": "Bashir plays a 1960s secret agent in a holosuite, when Garak unexpectedly intrudes, but his help is needed when the DS9 computer uses the holosuite to store the patterns of other crew members during a transporter accident.",
-        "date": "Bashir plays a 1960s secret agent in a holosuite, when Garak unexpectedly intrudes, but his help is needed when the DS9 computer uses the holosuite to store the patterns of other crew members during a transporter accident.",
+        "date": "1996-01-29",
         "productionCode": "Bashir plays a 1960s secret agent in a holosuite, when Garak unexpectedly intrudes, but his help is needed when the DS9 computer uses the holosuite to store the patterns of other crew members during a transporter accident.",
-        "stardate": "Bashir plays a 1960s secret agent in a holosuite, when Garak unexpectedly intrudes, but his help is needed when the DS9 computer uses the holosuite to store the patterns of other crew members during a transporter accident."
+        "stardate": "Bashir plays a 1960s secret agent in a holosuite, when Garak unexpectedly intrudes, but his help is needed when the DS9 computer uses the holosuite to store the patterns of other crew members during a transporter accident.",
+        "synopsis": "Odo is forced to confront his feelings for Kira when Bajoran First Minister Shakaar visits DS9.",
+        "guestCast": [
+          "Duncan Regehr como Shakaar Edon",
+          "Bruce Wright como Sarish Rez",
+          "Charles Tentindo como Ensign Jimenez",
+          "David B. Levinson como Broik",
+          "Randy James como Lieutenant Jones",
+          "Judi M. Durand como Station Computer"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/176/441748.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "83",
         "title": "Homefront",
-        "date": "December 30, 1995",
+        "date": "1996-02-05",
         "productionCode": "40510-483",
-        "stardate": "49370.0"
+        "stardate": "49370.0",
+        "synopsis": "Stripped of his former rank, Dukat returns to escort Major Kira to an intelligence sharing conference between Cardassia and Bajor. However, when a Klingon Bird-of-Prey attacks the conference, Kira and Dukat unite to hunt down those responsible.",
+        "guestCast": [
+          "Marc Alaimo como Gul Dukat",
+          "Casey Biggs como Damar",
+          "Cyia Batten como Tora Ziyal",
+          "John Kenton Shull como K'Temang"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/176/441761.jpg"
       },
       {
         "displayNumber": "Sisko and Odo are brought to Earth when it's suspected Changelings are infiltrating Starfleet. (Part 1 of 2)",
         "overallNumber": "Sisko and Odo are brought to Earth when it's suspected Changelings are infiltrating Starfleet. (Part 1 of 2)",
         "title": "Sisko and Odo are brought to Earth when it's suspected Changelings are infiltrating Starfleet. (Part 1 of 2)",
-        "date": "Sisko and Odo are brought to Earth when it's suspected Changelings are infiltrating Starfleet. (Part 1 of 2)",
+        "date": "1996-02-12",
         "productionCode": "Sisko and Odo are brought to Earth when it's suspected Changelings are infiltrating Starfleet. (Part 1 of 2)",
-        "stardate": "Sisko and Odo are brought to Earth when it's suspected Changelings are infiltrating Starfleet. (Part 1 of 2)"
+        "stardate": "Sisko and Odo are brought to Earth when it's suspected Changelings are infiltrating Starfleet. (Part 1 of 2)",
+        "synopsis": "In an attempt to regain his lost honor, Worf's brother Kurn arrives on the station with a troubling request. Meanwhile, Major Kira and Chief O'Brien investigate Klingon activity near the Bajoran border.",
+        "guestCast": [
+          "Tony Todd como Kurn",
+          "Robert DoQui como Noggra",
+          "Dell Yount como Tilikia",
+          "D. Elliot Woods como Klingon Officer",
+          "Mark Allen Shepherd como Morn",
+          "Randy James como Lieutenant Jones",
+          "Judi M. Durand como Station Computer"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/176/441775.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "84",
         "title": "Paradise Lost",
-        "date": "January 6, 1996",
+        "date": "1996-02-19",
         "productionCode": "40510-484",
-        "stardate": "49482.3"
+        "stardate": "49482.3",
+        "synopsis": "Tired of unfair pay and working conditions, Rom organizes a union for the employees of Quark's Bar and encourages them to go on strike. Meanwhile, Worf has troubling settling into life onboard DS9.",
+        "guestCast": [
+          "Max Grodénchik como Rom",
+          "Chase Masterson como Leeta",
+          "Jeffrey Combs como Brunt",
+          "Jason Marsden como Grimp",
+          "Emilio Borelli como Frool",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/176/441790.jpg"
       },
       {
         "displayNumber": "As Sisko and Odo prepare for a Dominion invasion, they discover a plot to place the Federation under military control. (Part 2 of 2)",
         "overallNumber": "As Sisko and Odo prepare for a Dominion invasion, they discover a plot to place the Federation under military control. (Part 2 of 2)",
         "title": "As Sisko and Odo prepare for a Dominion invasion, they discover a plot to place the Federation under military control. (Part 2 of 2)",
-        "date": "As Sisko and Odo prepare for a Dominion invasion, they discover a plot to place the Federation under military control. (Part 2 of 2)",
+        "date": "1996-02-26",
         "productionCode": "As Sisko and Odo prepare for a Dominion invasion, they discover a plot to place the Federation under military control. (Part 2 of 2)",
-        "stardate": "As Sisko and Odo prepare for a Dominion invasion, they discover a plot to place the Federation under military control. (Part 2 of 2)"
+        "stardate": "As Sisko and Odo prepare for a Dominion invasion, they discover a plot to place the Federation under military control. (Part 2 of 2)",
+        "synopsis": "Sisko's role as Emissary is challenged when a 300-year-old Bajoran lightship emerges from the wormhole and the passenger claims that he is the Emissary of the Prophets. Meanwhile, Keiko O'Brien returns to DS9 with some surprising news.",
+        "guestCast": [
+          "Richard Libertini como Akorem Laan",
+          "Rosalind Chao como Keiko O'Brien",
+          "Hana Hatae como Molly O'Brien",
+          "Camille Saviola como Kai Opaka",
+          "Robert Symonds como Vedek Porta",
+          "David Carpenter como Onara",
+          "Grace Zandarski como Latara",
+          "Laura Jane Salvato como Gia",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik",
+          "Judi M. Durand como Station Computer"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/176/442240.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "85",
         "title": "Crossfire",
-        "date": "January 27, 1996",
+        "date": "1996-04-08",
         "productionCode": "40510-485",
-        "stardate": "49517.3"
+        "stardate": "49517.3",
+        "synopsis": "When Worf is accused of destroying a civilian transport ship during an engagement with the Klingons, a hearing is held on DS9 to determine if Worf should be extradited to Qo'noS on charges of murder.",
+        "guestCast": [
+          "Ron Canada como Ch'Pok",
+          "Deborah Strang como Admiral T'Lara",
+          "Christopher Michael como Helm Officer",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik",
+          "Cenita L. Johnson como Glidia"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/176/442258.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "86",
         "title": "Return to Grace",
-        "date": "February 3, 1996",
+        "date": "1996-04-15",
         "productionCode": "40510-486",
-        "stardate": "49534.2"
+        "stardate": "49534.2",
+        "synopsis": "After being convicted of espionage, Chief O'Brien struggles to re-integrate back into his life on DS9 after serving 20 years in an Argrathi virtual prison.",
+        "guestCast": [
+          "Rosalind Chao como Keiko O'Brien",
+          "Hana Hatae como Molly O'Brien",
+          "F.J. Rio como Enrique Muñiz",
+          "Margot Rose como K'Par Rinn",
+          "Craig Wasson como Ee'char",
+          "David B. Levinson como Broik",
+          "Judi M. Durand como Station Computer"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/176/442276.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "87",
         "title": "Sons of Mogh",
-        "date": "February 10, 1996",
+        "date": "1996-04-22",
         "productionCode": "40510-487",
-        "stardate": "49556.2"
+        "stardate": "49556.2",
+        "synopsis": "When the counterpart of the long-deceased Jennifer Sisko lures Jake to the mirror universe, Sisko is forced into helping the Terran Rebellian against the Klingon-Cardassian Alliance.",
+        "guestCast": [
+          "Andrew J. Robinson como Mirror Elim Garak",
+          "Felecia M. Bell como Mirror Jennifer Sisko",
+          "Aron Eisenberg como Mirror Nog",
+          "Carlos Carrasco como Klingon Alliance Officer",
+          "Dennis Madalone como Marauder",
+          "James Black como Klingon Alliance Helmsman",
+          "David B. Levinson como Broik",
+          "Judi M. Durand como Station Computer",
+          "Nana Visitor como Mirror Kira Nerys",
+          "Colm Meaney como Mirror Miles \"Smiley\" O'Brien",
+          "Alexander Siddig como Mirror Julian Bashir",
+          "Michael Dorn como Mirror Worf",
+          "Terry Farrell como Mirror Jadzia Idaris"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/176/442288.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "88",
         "title": "Bar Association",
-        "date": "February 17, 1996",
+        "date": "1996-04-29",
         "productionCode": "40510-488",
-        "stardate": "49565.1"
+        "stardate": "49565.1",
+        "synopsis": "A mysterious woman arrives on DS9 and encourages Jake to begin writing a novel. Lwaxana Troi, pregnant with a son, unexpectedly visits Odo and asks him to help her escape her husband.",
+        "guestCast": [
+          "Meg Foster como Onaya",
+          "Majel Barrett Roddenberry como Lwaxana Troi",
+          "Michael Ansara como Jeyal",
+          "David B. Levinson como Broik",
+          "Randy James como Lieutenant Jones",
+          "Judi M. Durand como Station Computer",
+          "Patricia Tallman como Nurse Tagana"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/177/442871.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "89",
         "title": "Accession",
-        "date": "February 24, 1996",
+        "date": "1996-05-06",
         "productionCode": "40510-489",
-        "stardate": "49600.7"
+        "stardate": "49600.7",
+        "synopsis": "Sisko is forced to confront the betrayal of someone he cares about when they are accused of being a Maquis smuggler. As the only two Cardassian residents on DS9, Garak and Ziyal begin spending time together.",
+        "guestCast": [
+          "Andrew J. Robinson como Elim Garak",
+          "Penny Johnson Jerald como Kasidy Yates",
+          "Tracy Middendorf como Tora Ziyal",
+          "Ken Marshall como Lt. Commander Michael Eddington",
+          "John Prosky como Brathaw",
+          "Steven Vincent Leigh como Lieutenant Reese",
+          "Randy James como Lieutenant Jones"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/177/442883.jpg"
       },
       {
         "displayNumber": "A famous Bajoran poet, Akorem Laan, who disappeared over 200 years ago, appears from the wormhole and convinces Sisko that he is the true Emissary, but when he announces a return to the pre-occupation caste system, Sisko points out it would disqualify Bajor for membership in The Federation. O'Brien is less than enthusiastic when Keiko announces she's expecting.",
         "overallNumber": "A famous Bajoran poet, Akorem Laan, who disappeared over 200 years ago, appears from the wormhole and convinces Sisko that he is the true Emissary, but when he announces a return to the pre-occupation caste system, Sisko points out it would disqualify Bajor for membership in The Federation. O'Brien is less than enthusiastic when Keiko announces she's expecting.",
         "title": "A famous Bajoran poet, Akorem Laan, who disappeared over 200 years ago, appears from the wormhole and convinces Sisko that he is the true Emissary, but when he announces a return to the pre-occupation caste system, Sisko points out it would disqualify Bajor for membership in The Federation. O'Brien is less than enthusiastic when Keiko announces she's expecting.",
-        "date": "A famous Bajoran poet, Akorem Laan, who disappeared over 200 years ago, appears from the wormhole and convinces Sisko that he is the true Emissary, but when he announces a return to the pre-occupation caste system, Sisko points out it would disqualify Bajor for membership in The Federation. O'Brien is less than enthusiastic when Keiko announces she's expecting.",
+        "date": "1996-05-13",
         "productionCode": "A famous Bajoran poet, Akorem Laan, who disappeared over 200 years ago, appears from the wormhole and convinces Sisko that he is the true Emissary, but when he announces a return to the pre-occupation caste system, Sisko points out it would disqualify Bajor for membership in The Federation. O'Brien is less than enthusiastic when Keiko announces she's expecting.",
-        "stardate": "A famous Bajoran poet, Akorem Laan, who disappeared over 200 years ago, appears from the wormhole and convinces Sisko that he is the true Emissary, but when he announces a return to the pre-occupation caste system, Sisko points out it would disqualify Bajor for membership in The Federation. O'Brien is less than enthusiastic when Keiko announces she's expecting."
+        "stardate": "A famous Bajoran poet, Akorem Laan, who disappeared over 200 years ago, appears from the wormhole and convinces Sisko that he is the true Emissary, but when he announces a return to the pre-occupation caste system, Sisko points out it would disqualify Bajor for membership in The Federation. O'Brien is less than enthusiastic when Keiko announces she's expecting.",
+        "synopsis": "After a rogue band of Jem'Hadar attack DS9, the crew of the Defiant reluctantly join forces with a group of loyal Jem'Hadar in order to prevent the rogues from obtaining a dangerous piece of ancient technology.",
+        "guestCast": [
+          "Clarence Williams III como Omet'iklan",
+          "Jeffrey Combs como Weyoun",
+          "Brian Thompson como Toman'torax",
+          "Scott Haven como Virak'kara",
+          "Randy James como Lieutenant Jones",
+          "Scott Leva como Ensign Ramirez"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/177/442896.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "90",
         "title": "Rules of Engagement",
-        "date": "April 6, 1996",
+        "date": "1996-05-20",
         "productionCode": "40510-490",
-        "stardate": "49665.3"
+        "stardate": "49665.3",
+        "synopsis": "Dr. Bashir attempts to rid a planet of a bio-engineered plague that was sent by the Dominion as punishment for resistance.",
+        "guestCast": [
+          "Michael Sarrazin como Trevean",
+          "Dylan Haggerty como Epran",
+          "Ellen Wheeler como Ekoria",
+          "Loren Lester como Attendant",
+          "Heide Margolis como Norva",
+          "Alan Echeverria como Tamar",
+          "Lisa Moncure como Latia",
+          "Judi M. Durand como Station Computer"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/177/442917.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "91",
         "title": "Hard Time",
-        "date": "April 13, 1996",
+        "date": "1996-06-10",
         "productionCode": "40510-491",
-        "stardate": "49680.5"
+        "stardate": "49680.5",
+        "synopsis": "After learning that he is dying from a rare Ferengi disease, Quark decides to auction his vacuum-desiccated body on the Ferengi Futures Exchange. When an injured Keiko O'Brien returns from an expedition to the Gamma Quadrant, Dr. Bashir must take extreme measures to save the life of her unborn child.",
+        "guestCast": [
+          "Andrew J. Robinson como Elim Garak",
+          "Max Grodénchik como Rom",
+          "Rosalind Chao como Keiko O'Brien",
+          "Hana Hatae como Molly O'Brien",
+          "Jeffrey Combs como Brunt",
+          "Mark Allen Shepherd como Morn",
+          "David B. Levinson como Broik",
+          "Randy James como Lieutenant Jones",
+          "Max Grodénchik como Grand Nagus Gint"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/177/442920.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "92",
         "title": "Shattered Mirror",
-        "date": "April 20, 1996",
+        "date": "1996-06-17",
         "productionCode": "40510-492",
-        "stardate": "49699.1"
+        "stardate": "49699.1",
+        "synopsis": "When Odo is plagued by an unknown illness that renders him barely able to hold his shape, Dr. Bashir and Odo see not other option but to track down the Founders. Meanwhile, tensions between the Federation and the Klingon Empire continue to rise.",
+        "guestCast": [
+          "Andrew J. Robinson como Elim Garak",
+          "Salome Jens como Female Changeling",
+          "Robert O'Reilly como Gowron",
+          "Leslie Bevis como Freighter Captain Rionoj",
+          "Jill Jacobson como Chalan Aroya",
+          "Andrew Hawkes como Amat'igan",
+          "David B. Levinson como Broik"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/179/449503.jpg"
       },
       {
         "displayNumber": "21",
@@ -3163,7 +5293,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "The Muse",
         "date": "April 27, 1996",
         "productionCode": "40510-493",
-        "stardate": "49702.2"
+        "stardate": "49702.2",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "22",
@@ -3171,7 +5303,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "For the Cause",
         "date": "May 4, 1996",
         "productionCode": "40510-494",
-        "stardate": "49729.8"
+        "stardate": "49729.8",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "23",
@@ -3179,7 +5313,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "To the Death",
         "date": "May 11, 1996",
         "productionCode": "40510-495",
-        "stardate": "49904.2"
+        "stardate": "49904.2",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "24",
@@ -3187,7 +5323,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "The Quickening",
         "date": "May 18, 1996",
         "productionCode": "40510-496",
-        "stardate": "49909.7"
+        "stardate": "49909.7",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "Bashir tries to free the population of a Gamma Quadrant world in the Teplan system of an engineered disease left by the Dominion 200 years previously.",
@@ -3195,7 +5333,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Bashir tries to free the population of a Gamma Quadrant world in the Teplan system of an engineered disease left by the Dominion 200 years previously.",
         "date": "Bashir tries to free the population of a Gamma Quadrant world in the Teplan system of an engineered disease left by the Dominion 200 years previously.",
         "productionCode": "Bashir tries to free the population of a Gamma Quadrant world in the Teplan system of an engineered disease left by the Dominion 200 years previously.",
-        "stardate": "Bashir tries to free the population of a Gamma Quadrant world in the Teplan system of an engineered disease left by the Dominion 200 years previously."
+        "stardate": "Bashir tries to free the population of a Gamma Quadrant world in the Teplan system of an engineered disease left by the Dominion 200 years previously.",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "25",
@@ -3203,7 +5343,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Body Parts",
         "date": "June 8, 1996",
         "productionCode": "40510-497",
-        "stardate": "49930.3"
+        "stardate": "49930.3",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "26",
@@ -3211,7 +5353,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Broken Link",
         "date": "June 15, 1996",
         "productionCode": "40510-498",
-        "stardate": "49962.4"
+        "stardate": "49962.4",
+        "synopsis": "",
+        "guestCast": []
       }
     ],
     [
@@ -3219,209 +5363,500 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "99",
         "title": "Apocalypse Rising",
-        "date": "September 30, 1996",
+        "date": "1996-09-30",
         "productionCode": "40510-499",
-        "stardate": "50015.9"
+        "stardate": "50015.9",
+        "synopsis": "As the war between the Federation and the Klingon Empire intensifies, Sisko leads an undercover team deep into Klingon territory in an attempt to expose the Changeling impersonating Chancellor Gowron.",
+        "guestCast": [
+          "Marc Alaimo como Gul Dukat",
+          "J.G. Hertzler como General Martok",
+          "Casey Biggs como Damar",
+          "Robert O'Reilly como Gowron",
+          "John L. Bennett como Towering Klingon",
+          "Robert Zachar como Head Guard",
+          "Ivor Bartels como Young Klingon",
+          "Robert Budaska como Burly Klingon",
+          "Tony Epper como Drunken Klingon",
+          "Mark Allen Shepherd como Morn",
+          "Randy James como Lieutenant Jones"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/179/449523.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "100",
         "title": "The Ship",
-        "date": "October 7, 1996",
+        "date": "1996-10-07",
         "productionCode": "40510-500",
-        "stardate": "50049.3"
+        "stardate": "50049.3",
+        "synopsis": "While conducting a mineral survey of an uninhabited planet in the Gamma Quadrant, the crew of the Defiant encounter a crashed Jem'Hadar ship and must fight to get it, and themselves, back to the Federation.",
+        "guestCast": [
+          "F.J. Rio como Enrique Muñiz",
+          "Kaitlin Hopkins como Kilana",
+          "Hilary Shepard como Ensign Hoya",
+          "Ken Lesco como T'Lor"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/179/449544.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "101",
         "title": "Looking for par'Mach in All the Wrong Places",
-        "date": "October 14, 1996",
+        "date": "1996-10-14",
         "productionCode": "40510-501",
-        "stardate": "50061.2"
+        "stardate": "50061.2",
+        "synopsis": "When Grilka, Quark's ex-wife, unexpectedly visits DS9, Quark asks an already smitten Worf to help him pursue his former wife. Elsewhere, O'Brien and Kira struggle with their feelings for each other now that Kira is carrying the O'Brien's unborn child.",
+        "guestCast": [
+          "Rosalind Chao como Keiko O'Brien",
+          "Joseph Ruskin como Tumek",
+          "Mary Kay Adams como Grilka",
+          "Phil Morris como Thopok",
+          "Mark Allen Shepherd como Morn"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/179/449552.jpg"
       },
       {
         "displayNumber": "Worf finds himself attracted to Grilka, Quark's ex wife (episode 3.3), when she visits the station.",
         "overallNumber": "Worf finds himself attracted to Grilka, Quark's ex wife (episode 3.3), when she visits the station.",
         "title": "Worf finds himself attracted to Grilka, Quark's ex wife (episode 3.3), when she visits the station.",
-        "date": "Worf finds himself attracted to Grilka, Quark's ex wife (episode 3.3), when she visits the station.",
+        "date": "1996-10-21",
         "productionCode": "Worf finds himself attracted to Grilka, Quark's ex wife (episode 3.3), when she visits the station.",
-        "stardate": "Worf finds himself attracted to Grilka, Quark's ex wife (episode 3.3), when she visits the station."
+        "stardate": "Worf finds himself attracted to Grilka, Quark's ex wife (episode 3.3), when she visits the station.",
+        "synopsis": "On their way back from a medical conference, Jake and Dr. Bashir are diverted to the Federation colony on Ajilon Prime who have been attacked by the Klingons. However, when the the Klingons renew their attacks on the colony, Jake is forced to confront the hard realities of war as battle erupts around him.",
+        "guestCast": [
+          "Lisa Lord como Nurse",
+          "Andrew Kavovit como Kirby",
+          "Karen Austin como Dr. Kalandra",
+          "Danny Goldring como Burke",
+          "Mark Holton como Bolian Orderly",
+          "Jeb Brown como Ensign",
+          "Elle Alexander como Female Guard",
+          "Greg Christopher Smith como Male Guard"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/179/449574.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "102",
         "title": "...Nor the Battle to the Strong",
-        "date": "October 21, 1996",
+        "date": "1996-10-28",
         "productionCode": "40510-502",
-        "stardate": "50098.7"
+        "stardate": "50098.7",
+        "synopsis": "Keiko O'Brien returns from the Fire Caves on Bajor possessed by an alien entity which demands that Chief O'Brien follow its every instruction if he doesn't want his wife to die.",
+        "guestCast": [
+          "Max Grodénchik como Rom",
+          "Rosalind Chao como Keiko O'Brien",
+          "Hana Hatae como Molly O'Brien",
+          "Judi M. Durand como Station Computer",
+          "Majel Barrett Roddenberry como Federation Computer",
+          "Patrick B. Egan como Jiyar",
+          "Rosie Malek-Yonan como Tekoa",
+          "Mark Allen Shepherd como Morn"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/179/449583.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "103",
         "title": "The Assignment",
-        "date": "October 28, 1996",
+        "date": "1996-11-04",
         "productionCode": "40510-504",
-        "stardate": "50124.3"
+        "stardate": "50124.3",
+        "synopsis": "When Temporal Investigations arrives on DS9, Sisko recounts how he and the crew of the Defiant traveled back in time to prevent the assassination of Captain James T. Kirk during the original Enterprise's mission to Space Station K-7.",
+        "guestCast": [
+          "Charlie Brill como Arne Darvin",
+          "Jack Blessing como Dulmer",
+          "Jim Jansen como Lucsly",
+          "Deirdre Imershein como Lieutenant Watley",
+          "Leslie Ackerman como Waitress",
+          "Charles Rahi Chun como Engineer",
+          "Mark Allen Shepherd como Morn",
+          "Randy James como Lieutenant Jones"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/179/449610.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "104",
         "title": "Trials and Tribble-ations",
-        "date": "November 4, 1996",
+        "date": "1996-11-11",
         "productionCode": "40510-503",
-        "stardate": "4523.7"
+        "stardate": "4523.7",
+        "synopsis": "After agreeing to vacation on Risa with Jadzia, Worf is irritated to discover they will be joined by Dr. Bashir, Leeta, and Quark. However, everyone's vacation is thrown into disarray by the arrival of a radical fundamentalist group determined to start a political revolution on Risa.",
+        "guestCast": [
+          "Vanessa Williams como Arandis",
+          "Chase Masterson como Leeta",
+          "Monte Markham como Pascal Fullerton",
+          "Frank Kopyc como Bolian Aide",
+          "Blair Valk como Risian Woman",
+          "Zora DeHorter como Risian Woman",
+          "Mark Allen Shepherd como Morn"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/179/449803.jpg"
       },
       {
         "displayNumber": "Darvin, a disgraced Klingon spy, travels back in time. The DS9 crew must prevent him from altering the timeline. Based on the original Star Trek episode \"The Trouble with Tribbles\" by David Gerrold.",
         "overallNumber": "Darvin, a disgraced Klingon spy, travels back in time. The DS9 crew must prevent him from altering the timeline. Based on the original Star Trek episode \"The Trouble with Tribbles\" by David Gerrold.",
         "title": "Darvin, a disgraced Klingon spy, travels back in time. The DS9 crew must prevent him from altering the timeline. Based on the original Star Trek episode \"The Trouble with Tribbles\" by David Gerrold.",
-        "date": "Darvin, a disgraced Klingon spy, travels back in time. The DS9 crew must prevent him from altering the timeline. Based on the original Star Trek episode \"The Trouble with Tribbles\" by David Gerrold.",
+        "date": "1996-11-18",
         "productionCode": "Darvin, a disgraced Klingon spy, travels back in time. The DS9 crew must prevent him from altering the timeline. Based on the original Star Trek episode \"The Trouble with Tribbles\" by David Gerrold.",
-        "stardate": "Darvin, a disgraced Klingon spy, travels back in time. The DS9 crew must prevent him from altering the timeline. Based on the original Star Trek episode \"The Trouble with Tribbles\" by David Gerrold."
+        "stardate": "Darvin, a disgraced Klingon spy, travels back in time. The DS9 crew must prevent him from altering the timeline. Based on the original Star Trek episode \"The Trouble with Tribbles\" by David Gerrold.",
+        "synopsis": "Sisko, Dax, Odo, and Garak find themselves trapped seven years in the past on Terok Nor, but everyone thinks that they're condemned Bajorans. With Cardassians in control of the station, Odo's memory of a crime he once investigated may be the only key to their survival.",
+        "guestCast": [
+          "Andrew J. Robinson como Elim Garak",
+          "Kurtwood Smith como Thrax",
+          "Marc Alaimo como Gul Dukat",
+          "Victor Bevine como Belar",
+          "Judi M. Durand como Station Computer",
+          "Brenan Baird como Cardassian Soldier",
+          "Louahn Lowe como Okala",
+          "David B. Levinson como Broik",
+          "Randy James como Lieutenant Jones"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/179/449816.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "105",
         "title": "Let He Who Is Without Sin...",
-        "date": "November 11, 1996",
+        "date": "1996-11-25",
         "productionCode": "40510-505",
-        "stardate": "50136.7"
+        "stardate": "50136.7",
+        "synopsis": "Quark and Odo are forced to put their grievances aside when they crash land on an inhospitable planet and must work together to survive. Back on DS9, Nog returns from Starfleet Academy and moves into new quarters with Jake.",
+        "guestCast": [
+          "Aron Eisenberg como Nog",
+          "Max Grodénchik como Rom"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/179/449821.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "106",
         "title": "Things Past",
-        "date": "November 18, 1996",
+        "date": "1996-12-30",
         "productionCode": "40510-506",
-        "stardate": "50144.6"
+        "stardate": "50144.6",
+        "synopsis": "On the eve of Bajor's entry into the Federation, Sisko begins experiencing visions that lead him to ruins of the lost Bajoran city of B'hala. However, when the visions that are guiding him become potentially fatal, Sisko must choose between his faith in the Prophets or his life.",
+        "guestCast": [
+          "Louise Fletcher como Kai Winn Adami",
+          "Penny Johnson Jerald como Kasidy Yates",
+          "Ernest Perry Jr. como Admiral Charlie Whatley",
+          "Mark Allen Shepherd como Morn",
+          "Randy James como Lieutenant Jones"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/179/449835.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "107",
         "title": "The Ascent",
-        "date": "November 25, 1996",
+        "date": "1997-01-06",
         "productionCode": "40510-507",
-        "stardate": "50245.2"
+        "stardate": "50245.2",
+        "synopsis": "Major Kira is forced to confront her actions during the Cardassian Occupation when a mysterious assassin begins killing members of her former resistance cell.",
+        "guestCast": [
+          "Aron Eisenberg como Nog",
+          "William Lucking como Furel",
+          "Diane Salinger como Lupaza",
+          "Randy Oglesby como Silaran Prin",
+          "Jennifer Savidge como Trentin Fala",
+          "Judi M. Durand como Station Computer",
+          "Christian R. Conrad como Lieutenant Brilgar",
+          "Scott McElroy como Guard",
+          "Matt Roe como Latha Mabrin",
+          "Randy James como Lieutenant Jones"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/179/449872.jpg"
       },
       {
         "displayNumber": "Forced to crash-land on a desolate planet, Odo and Quark must climb a mountain to transmit a distress signal. Jake and Nog (temporarily back at DS9) find sharing quarters isn't as enjoyable as they thought it would be.",
         "overallNumber": "Forced to crash-land on a desolate planet, Odo and Quark must climb a mountain to transmit a distress signal. Jake and Nog (temporarily back at DS9) find sharing quarters isn't as enjoyable as they thought it would be.",
         "title": "Forced to crash-land on a desolate planet, Odo and Quark must climb a mountain to transmit a distress signal. Jake and Nog (temporarily back at DS9) find sharing quarters isn't as enjoyable as they thought it would be.",
-        "date": "Forced to crash-land on a desolate planet, Odo and Quark must climb a mountain to transmit a distress signal. Jake and Nog (temporarily back at DS9) find sharing quarters isn't as enjoyable as they thought it would be.",
+        "date": "1997-01-27",
         "productionCode": "Forced to crash-land on a desolate planet, Odo and Quark must climb a mountain to transmit a distress signal. Jake and Nog (temporarily back at DS9) find sharing quarters isn't as enjoyable as they thought it would be.",
-        "stardate": "Forced to crash-land on a desolate planet, Odo and Quark must climb a mountain to transmit a distress signal. Jake and Nog (temporarily back at DS9) find sharing quarters isn't as enjoyable as they thought it would be."
+        "stardate": "Forced to crash-land on a desolate planet, Odo and Quark must climb a mountain to transmit a distress signal. Jake and Nog (temporarily back at DS9) find sharing quarters isn't as enjoyable as they thought it would be.",
+        "synopsis": "The discovery of an infant Changeling gives Odo a chance to correct what he sees as the invasive mistakes in his upbringing. Meanwhile, Kira goes into labor with the O'Briens' baby.",
+        "guestCast": [
+          "Rosalind Chao como Keiko O'Brien",
+          "Duncan Regehr como Shakaar Edon",
+          "James Sloyan como Dr. Mora Pol",
+          "Peggy Roeder como Y'Pora"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/463183.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "108",
         "title": "Rapture",
-        "date": "December 30, 1996",
+        "date": "1997-02-03",
         "productionCode": "40510-508",
-        "stardate": "50387.9"
+        "stardate": "50387.9",
+        "synopsis": "Sisko obsessively pursues the former Starfleet officer Michael Eddington, now the leader of the Maquis.",
+        "guestCast": [
+          "Aron Eisenberg como Nog",
+          "Ken Marshall como Lt. Commander Michael Eddington",
+          "Eric Pierpoint como Captain Sanders"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/463262.jpg"
       },
       {
         "displayNumber": "An accident causes Sisko to have prophetic visions. When he finds an ancient Bajoran city, lost for 20,000 years, Kai Winn reconsiders her attitude towards him.",
         "overallNumber": "An accident causes Sisko to have prophetic visions. When he finds an ancient Bajoran city, lost for 20,000 years, Kai Winn reconsiders her attitude towards him.",
         "title": "An accident causes Sisko to have prophetic visions. When he finds an ancient Bajoran city, lost for 20,000 years, Kai Winn reconsiders her attitude towards him.",
-        "date": "An accident causes Sisko to have prophetic visions. When he finds an ancient Bajoran city, lost for 20,000 years, Kai Winn reconsiders her attitude towards him.",
+        "date": "1997-02-10",
         "productionCode": "An accident causes Sisko to have prophetic visions. When he finds an ancient Bajoran city, lost for 20,000 years, Kai Winn reconsiders her attitude towards him.",
-        "stardate": "An accident causes Sisko to have prophetic visions. When he finds an ancient Bajoran city, lost for 20,000 years, Kai Winn reconsiders her attitude towards him."
+        "stardate": "An accident causes Sisko to have prophetic visions. When he finds an ancient Bajoran city, lost for 20,000 years, Kai Winn reconsiders her attitude towards him.",
+        "synopsis": "Garak and Worf investigate a coded message which suggests that Garak's mentor, Enabran Tain, is still alive in the Gamma Quadrant. However, when their search for answers leads them into Dominion space, the pair discover something far worse than they had expected.",
+        "guestCast": [
+          "Marc Alaimo como Gul Dukat",
+          "Andrew J. Robinson como Elim Garak",
+          "J.G. Hertzler como General Martok",
+          "Melanie Smith como Tora Ziyal",
+          "Paul Dooley como Enabran Tain",
+          "James Horan como Ikat'ika",
+          "Carrie Stauber como Romulan",
+          "Jim Palladino como Jem'Hadar Guard"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/463416.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "109",
         "title": "The Darkness and the Light",
-        "date": "January 6, 1997",
+        "date": "1997-02-17",
         "productionCode": "40510-509",
-        "stardate": "50416.2"
+        "stardate": "50416.2",
+        "synopsis": "The crew of DS9 prepares to defend the Alpha Quadrant from an invading Dominion fleet. Still trapped in the Gamma Quadrant, Worf, Garak, and the other prisoners continue their attempts to escape from the Dominion Internment Camp.",
+        "guestCast": [
+          "Marc Alaimo como Gul Dukat",
+          "Andrew J. Robinson como Elim Garak",
+          "J.G. Hertzler como General Martok",
+          "Melanie Smith como Tora Ziyal",
+          "Robert O'Reilly como Gowron",
+          "James Horan como Ikat'ika",
+          "Carrie Stauber como Romulan",
+          "Ray Buktenica como Deyos",
+          "Judi M. Durand como Station Computer",
+          "Barry Wiggins como Jem'Hadar Officer",
+          "Don Fischer como Jem'Hadar Guard",
+          "Randy James como Lieutenant Jones"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/463425.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "110",
         "title": "The Begotten",
-        "date": "January 27, 1997",
+        "date": "1997-02-24",
         "productionCode": "40510-510",
-        "stardate": "50430.1"
+        "stardate": "50430.1",
+        "synopsis": "Dr. Lewis Zimmerman arrives on DS9 intending to use Dr. Julian Bashir as the model for his new Long-term Medical Hologram, but when Zimmerman's plans threaten to unveil a dark secret that Bashir has carried since childhood, Julian is forced to make a life-altering confession.",
+        "guestCast": [
+          "Robert Picardo como Dr. Lewis Zimmerman",
+          "Robert Picardo como EMH Mark I",
+          "Max Grodénchik como Rom",
+          "Chase Masterson como Leeta",
+          "Brian George como Richard Bashir",
+          "J. Patrick McCormack como Admiral Bennett",
+          "Fadwa El Guindi como Amsha Bashir",
+          "Mark Allen Shepherd como Morn",
+          "Alexander Siddig como LMH"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/463547.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "111",
         "title": "For the Uniform",
-        "date": "February 3, 1997",
+        "date": "1997-03-31",
         "productionCode": "40510-511",
-        "stardate": "50485.2"
+        "stardate": "50485.2",
+        "synopsis": "Odo falls for a mysterious woman who has been targeted for murder by the Orion Syndicate.",
+        "guestCast": [
+          "Randy Mulkey como Idanian Operative",
+          "Nicholas Worth como Sorm",
+          "John Durbin como Traidy",
+          "Dey Young como Arissa",
+          "Brant Cotton como Tauvid Rem",
+          "Mark Allen Shepherd como Morn"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/463562.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "112",
         "title": "In Purgatory's Shadow",
-        "date": "February 10, 1997",
+        "date": "1997-04-07",
         "productionCode": "40510-512",
-        "stardate": "50560.1"
+        "stardate": "50560.1",
+        "synopsis": "Quark must wrestle with his conscience when his cousin Gaila offers him a lucrative job as a weapons dealer.",
+        "guestCast": [
+          "Steven Berkoff como Hagath",
+          "Josh Pais como Gaila",
+          "Tim Halligan como Farrakk",
+          "Lawrence Tierney como Regent of Palamar",
+          "Eric Cadora como Customer",
+          "Mark Allen Shepherd como Morn",
+          "Randy James como Lieutenant Jones",
+          "Charlie Curtis como Talura"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/463579.jpg"
       },
       {
         "displayNumber": "Worf and Garak journey to the Gamma Quadrant to investigate a coded Cardassian message. (Part 1 of 2)",
         "overallNumber": "Worf and Garak journey to the Gamma Quadrant to investigate a coded Cardassian message. (Part 1 of 2)",
         "title": "Worf and Garak journey to the Gamma Quadrant to investigate a coded Cardassian message. (Part 1 of 2)",
-        "date": "Worf and Garak journey to the Gamma Quadrant to investigate a coded Cardassian message. (Part 1 of 2)",
+        "date": "1997-04-14",
         "productionCode": "Worf and Garak journey to the Gamma Quadrant to investigate a coded Cardassian message. (Part 1 of 2)",
-        "stardate": "Worf and Garak journey to the Gamma Quadrant to investigate a coded Cardassian message. (Part 1 of 2)"
+        "stardate": "Worf and Garak journey to the Gamma Quadrant to investigate a coded Cardassian message. (Part 1 of 2)",
+        "synopsis": "Takeny Ghemor, who considers Kira to be his daughter, arrives on DS9 and confesses that is dying. Ghemor wishes to commence the Shri-tal with Kira, a Cardassian ritual in which a dying person reveals their closest secrets to the rest of the family. But the experience dredges up Kira's memories of her own father, who suffered a fatal injury during the Occupation of Bajor.",
+        "guestCast": [
+          "Marc Alaimo como Gul Dukat",
+          "Jeffrey Combs como Weyoun",
+          "William Lucking como Furel",
+          "Thomas Kopache como Kira Taban",
+          "Lawrence Pressman como Tekeny Ghemor",
+          "Rick Schatz como Gantt",
+          "Mark Allen Shepherd como Morn"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/463598.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "113",
         "title": "By Inferno's Light",
-        "date": "February 17, 1997",
+        "date": "1997-04-21",
         "productionCode": "40510-513",
-        "stardate": "50564.2"
+        "stardate": "50564.2",
+        "synopsis": "Feeling depressed, Quark returns home to Ferenginar to visit his mother, but doesn't know whether to be panicked or overjoyed when he learns that she is now the secret lover of the Grand Nagus.",
+        "guestCast": [
+          "Max Grodénchik como Rom",
+          "Chase Masterson como Leeta",
+          "Jeffrey Combs como Brunt",
+          "Wallace Shawn como Grand Nagus Zek",
+          "Tiny Ron como Maihar'du",
+          "Cecily Adams como Ishka",
+          "Hamilton Camp como Leck",
+          "Mark Allen Shepherd como Morn",
+          "Randy James como Lieutenant Jones"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/463989.jpg"
       },
       {
         "displayNumber": "Gul Dukat aligns the Cardassians with the Dominion. The station must deal with a Changeling infiltrator. (Part 2 of 2)",
         "overallNumber": "Gul Dukat aligns the Cardassians with the Dominion. The station must deal with a Changeling infiltrator. (Part 2 of 2)",
         "title": "Gul Dukat aligns the Cardassians with the Dominion. The station must deal with a Changeling infiltrator. (Part 2 of 2)",
-        "date": "Gul Dukat aligns the Cardassians with the Dominion. The station must deal with a Changeling infiltrator. (Part 2 of 2)",
+        "date": "1997-04-28",
         "productionCode": "Gul Dukat aligns the Cardassians with the Dominion. The station must deal with a Changeling infiltrator. (Part 2 of 2)",
-        "stardate": "Gul Dukat aligns the Cardassians with the Dominion. The station must deal with a Changeling infiltrator. (Part 2 of 2)"
+        "stardate": "Gul Dukat aligns the Cardassians with the Dominion. The station must deal with a Changeling infiltrator. (Part 2 of 2)",
+        "synopsis": "Dax and Worf accompany Martok on his first command since being held by the Dominion. But the ship they are given hasn't seen victory in months and the crew is near mutinous, forcing Worf to decide between loyalty to his commander and loyalty to his crew.",
+        "guestCast": [
+          "Aron Eisenberg como Nog",
+          "J.G. Hertzler como General Martok",
+          "Rick Worthy como Kornan",
+          "Sandra Nelson como Tavana",
+          "David Graf como Leskit",
+          "Scott Leva como Ortikan",
+          "David B. Levinson como Broik"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464016.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "114",
         "title": "Doctor Bashir, I Presume?",
-        "date": "February 24, 1997",
+        "date": "1997-05-05",
         "productionCode": "40510-514",
-        "stardate": "50590.1"
+        "stardate": "50590.1",
+        "synopsis": "Investigating an isolated planet surrounded by a powerful energy field, the crew of the Defiant discovers the unexpected history of the planet's colonists.",
+        "guestCast": [
+          "Jennifer Parsons como Miranda O'Brien",
+          "Gary Frank como Yedrin Dax",
+          "Doren Fein como Molly",
+          "Davida Williams como Lisa",
+          "Jesse Littlejohn como Gabriel",
+          "Marybeth Massett como Parell",
+          "Brian Evaret Chandler como Brota"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464031.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "115",
         "title": "A Simple Investigation",
-        "date": "March 31, 1997",
+        "date": "1997-05-12",
         "productionCode": "40510-515",
-        "stardate": "50606.6"
+        "stardate": "50606.6",
+        "synopsis": "Driven to desperation by the Dominion, the Maquis launch a massive strike against Cardassia. In order to prevent mass Cardassian casualities, Sisko is forced to trust the traitor Michael Eddington to try to stop the missiles from reaching their target.",
+        "guestCast": [
+          "Aron Eisenberg como Nog",
+          "J.G. Hertzler como General Martok",
+          "Ken Marshall como Lt. Commander Michael Eddington",
+          "Gretchen German como Rebecca Sullivan",
+          "Majel Barrett Roddenberry como Federation Computer",
+          "David B. Levinson como Broik",
+          "Randy James como Lieutenant Jones"
+        ],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464038.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "116",
         "title": "Business as Usual",
-        "date": "April 7, 1997",
+        "date": "1997-05-19",
         "productionCode": "40510-516",
-        "stardate": "50675.5"
+        "stardate": "50675.5",
+        "synopsis": "While salvaging components from DS9's sister station, Empok Nor, the crew run afoul of a disturbing surprise left behind by the Cardassians.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464059.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "117",
         "title": "Ties of Blood and Water",
-        "date": "April 14, 1997",
+        "date": "1997-06-09",
         "productionCode": "40510-517",
-        "stardate": "50712.5"
+        "stardate": "50712.5",
+        "synopsis": "Jake and Nog go through hell and high water while trying to cheer up the war-fatigued Captain Sisko by acquiring a mint-condition 1951 Willie Mays baseball card. Meanwhile, Weyoun arrives on DS9 to meet with Kai Winn and offers to sign a nonaggression pact with Bajor.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464073.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "118",
         "title": "Ferengi Love Songs",
-        "date": "April 21, 1997",
+        "date": "1997-06-16",
         "productionCode": "40510-518",
-        "stardate": "50701.2"
+        "stardate": "50701.2",
+        "synopsis": "With continuing convoys of Jem'Hadar arriving in the Alpha Quadrant, Sisko decides to mine the wormhole to prevent further troop movement. However, this decision forces the Federation into a direct confrontation with the Dominion, and Gul Dukat responds by launching a massive assault fleet against DS9.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464389.jpg"
       },
       {
         "displayNumber": "21",
@@ -3429,7 +5864,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Soldiers of the Empire",
         "date": "April 28, 1997",
         "productionCode": "40510-519",
-        "stardate": "50839.2"
+        "stardate": "50839.2",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "22",
@@ -3437,7 +5874,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Children of Time",
         "date": "May 5, 1997",
         "productionCode": "40510-520",
-        "stardate": "50814.2"
+        "stardate": "50814.2",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "23",
@@ -3445,7 +5884,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Blaze of Glory",
         "date": "May 12, 1997",
         "productionCode": "40510-521",
-        "stardate": "50862.4"
+        "stardate": "50862.4",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "24",
@@ -3453,7 +5894,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Empok Nor",
         "date": "May 19, 1997",
         "productionCode": "40510-522",
-        "stardate": "50901.7"
+        "stardate": "50901.7",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "25",
@@ -3461,7 +5904,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "In the Cards",
         "date": "June 9, 1997",
         "productionCode": "40510-523",
-        "stardate": "50929.4"
+        "stardate": "50929.4",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "Jake wants to give his father a present to cheer him up, a 1951 Willie Mays baseball card. He enlists Nog to help him obtain it, but they run into complications with a mysterious geneticist, Dr. Giger. Kai Winn, worried over the prospect of a Federation/Dominion war and its effects on Bajor, meets with Dominion representative Weyoun.",
@@ -3469,7 +5914,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Jake wants to give his father a present to cheer him up, a 1951 Willie Mays baseball card. He enlists Nog to help him obtain it, but they run into complications with a mysterious geneticist, Dr. Giger. Kai Winn, worried over the prospect of a Federation/Dominion war and its effects on Bajor, meets with Dominion representative Weyoun.",
         "date": "Jake wants to give his father a present to cheer him up, a 1951 Willie Mays baseball card. He enlists Nog to help him obtain it, but they run into complications with a mysterious geneticist, Dr. Giger. Kai Winn, worried over the prospect of a Federation/Dominion war and its effects on Bajor, meets with Dominion representative Weyoun.",
         "productionCode": "Jake wants to give his father a present to cheer him up, a 1951 Willie Mays baseball card. He enlists Nog to help him obtain it, but they run into complications with a mysterious geneticist, Dr. Giger. Kai Winn, worried over the prospect of a Federation/Dominion war and its effects on Bajor, meets with Dominion representative Weyoun.",
-        "stardate": "Jake wants to give his father a present to cheer him up, a 1951 Willie Mays baseball card. He enlists Nog to help him obtain it, but they run into complications with a mysterious geneticist, Dr. Giger. Kai Winn, worried over the prospect of a Federation/Dominion war and its effects on Bajor, meets with Dominion representative Weyoun."
+        "stardate": "Jake wants to give his father a present to cheer him up, a 1951 Willie Mays baseball card. He enlists Nog to help him obtain it, but they run into complications with a mysterious geneticist, Dr. Giger. Kai Winn, worried over the prospect of a Federation/Dominion war and its effects on Bajor, meets with Dominion representative Weyoun.",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "26",
@@ -3477,7 +5924,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Call to Arms",
         "date": "June 16, 1997",
         "productionCode": "40510-524",
-        "stardate": "50975.2"
+        "stardate": "50975.2",
+        "synopsis": "",
+        "guestCast": []
       }
     ],
     [
@@ -3485,209 +5934,313 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "125",
         "title": "A Time to Stand",
-        "date": "September 27, 1997",
+        "date": "1997-09-29",
         "productionCode": "40510-525",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "With the Dominion in control of DS9 and on track to winning the war against the Federation, Sisko and his crew take a captured Jem'Hadar ship into enemy territory with a mission to destroy the Jem'Hadar's supply of ketracel-white in the Alpha Quadrant.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464396.jpg"
       },
       {
         "displayNumber": "Three months into the war, DS9 is still under Dominion control. Sisko and his crew are given a mission to destroy a vital Ketracel White facility deep in Dominion space using a captured Jem'Hadar ship. Jake is working for the Federation News Service. Odo is head of Terok Nor's security supported by the Vorta Weyoun.",
         "overallNumber": "Three months into the war, DS9 is still under Dominion control. Sisko and his crew are given a mission to destroy a vital Ketracel White facility deep in Dominion space using a captured Jem'Hadar ship. Jake is working for the Federation News Service. Odo is head of Terok Nor's security supported by the Vorta Weyoun.",
         "title": "Three months into the war, DS9 is still under Dominion control. Sisko and his crew are given a mission to destroy a vital Ketracel White facility deep in Dominion space using a captured Jem'Hadar ship. Jake is working for the Federation News Service. Odo is head of Terok Nor's security supported by the Vorta Weyoun.",
-        "date": "Three months into the war, DS9 is still under Dominion control. Sisko and his crew are given a mission to destroy a vital Ketracel White facility deep in Dominion space using a captured Jem'Hadar ship. Jake is working for the Federation News Service. Odo is head of Terok Nor's security supported by the Vorta Weyoun.",
+        "date": "1997-10-06",
         "productionCode": "Three months into the war, DS9 is still under Dominion control. Sisko and his crew are given a mission to destroy a vital Ketracel White facility deep in Dominion space using a captured Jem'Hadar ship. Jake is working for the Federation News Service. Odo is head of Terok Nor's security supported by the Vorta Weyoun.",
-        "stardate": "Three months into the war, DS9 is still under Dominion control. Sisko and his crew are given a mission to destroy a vital Ketracel White facility deep in Dominion space using a captured Jem'Hadar ship. Jake is working for the Federation News Service. Odo is head of Terok Nor's security supported by the Vorta Weyoun."
+        "stardate": "Three months into the war, DS9 is still under Dominion control. Sisko and his crew are given a mission to destroy a vital Ketracel White facility deep in Dominion space using a captured Jem'Hadar ship. Jake is working for the Federation News Service. Odo is head of Terok Nor's security supported by the Vorta Weyoun.",
+        "synopsis": "Sisko's crew crash land their commandeered Jem'Hadar ship on a barren world after being shot down by the Dominion and must fight for survival against a group of Jem'Hadar who have also crash landed. On DS9, Kira struggles to work alongside the Dominion and Jake continues his reporting for the Federation News Service.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464422.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "126",
         "title": "Rocks and Shoals",
-        "date": "October 4, 1997",
+        "date": "1997-10-13",
         "productionCode": "40510-527",
-        "stardate": "51107.2"
+        "stardate": "51107.2",
+        "synopsis": "Alexander Rozhenko joins the crew of the Rotarran, much to the disappointment of Worf. On DS9, Tora Ziyal returns to the station where Gul Dukat intends to use her to get closer to Kira.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464454.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "127",
         "title": "Sons and Daughters",
-        "date": "October 11, 1997",
+        "date": "1997-10-20",
         "productionCode": "40510-526",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Kira's resistance cell continues to cause trouble onboard DS9, deliberately inflaming tensions between the Jem'Hadar and the Cardassians. But their plots are complicated when the Female Changeling arrives on DS9 to pay Odo a visit. Meanwhile, Sisko relinquishes command of the Defiant to Dax after accepting a promotion.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464476.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "128",
         "title": "Behind the Lines",
-        "date": "October 18, 1997",
+        "date": "1997-10-27",
         "productionCode": "40510-528",
-        "stardate": "51149.5"
+        "stardate": "51149.5",
+        "synopsis": "Tired of being on the losing end of the war, Captain Sisko convinces Starfleet Command to launch a fleet of starships to retake DS9. Meanwhile, time is running out for Rom, who faces execution as an enemy of the Dominion state.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464501.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "129",
         "title": "Favor the Bold",
-        "date": "October 25, 1997",
+        "date": "1997-11-03",
         "productionCode": "40510-529",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Commanded by Captain Sisko, the Federation fleet begins it's mission to retake DS9 before the Dominion can bring down the wormhole minefield. On the station, Kira's resistance cell desperately try to sabotage the main computer, and Quark seeks out an unexpected ally to help save Rom.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464511.jpg"
       },
       {
         "displayNumber": "Learning of thousands of Dominion reinforcements gathering in the Gamma Quadrant, Sisko initiates a plan to retake Deep Space Nine and secure the wormhole before the minefield is detonated. (Part 1 of 2)",
         "overallNumber": "Learning of thousands of Dominion reinforcements gathering in the Gamma Quadrant, Sisko initiates a plan to retake Deep Space Nine and secure the wormhole before the minefield is detonated. (Part 1 of 2)",
         "title": "Learning of thousands of Dominion reinforcements gathering in the Gamma Quadrant, Sisko initiates a plan to retake Deep Space Nine and secure the wormhole before the minefield is detonated. (Part 1 of 2)",
-        "date": "Learning of thousands of Dominion reinforcements gathering in the Gamma Quadrant, Sisko initiates a plan to retake Deep Space Nine and secure the wormhole before the minefield is detonated. (Part 1 of 2)",
+        "date": "1997-11-10",
         "productionCode": "Learning of thousands of Dominion reinforcements gathering in the Gamma Quadrant, Sisko initiates a plan to retake Deep Space Nine and secure the wormhole before the minefield is detonated. (Part 1 of 2)",
-        "stardate": "Learning of thousands of Dominion reinforcements gathering in the Gamma Quadrant, Sisko initiates a plan to retake Deep Space Nine and secure the wormhole before the minefield is detonated. (Part 1 of 2)"
+        "stardate": "Learning of thousands of Dominion reinforcements gathering in the Gamma Quadrant, Sisko initiates a plan to retake Deep Space Nine and secure the wormhole before the minefield is detonated. (Part 1 of 2)",
+        "synopsis": "Spontaneously deciding to wed within the week on DS9, Worf and Jadzia go through their own Klingon rituals: Worf on a four day bachelor party with the male members of the crew, while Jadzia deals with her prospective mother-in-law, who deeply opposes the idea of \"an alien\" marrying into her Klingon household.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464530.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "130",
         "title": "Sacrifice of Angels",
-        "date": "November 1, 1997",
+        "date": "1997-11-17",
         "productionCode": "40510-530",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "The mirror universe version of Kira's long dead love, Bareil Antos, beams aboard DS9 seeking refuge from the Klingon-Cardassian Alliance.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464795.jpg"
       },
       {
         "displayNumber": "Sisko commands the Defiant and 600 Federation ships against a Dominion/Cardassian armada to retake Deep Space Nine. Damar has Kira, Jake and Leeta arrested. (Part 2 of 2)",
         "overallNumber": "Sisko commands the Defiant and 600 Federation ships against a Dominion/Cardassian armada to retake Deep Space Nine. Damar has Kira, Jake and Leeta arrested. (Part 2 of 2)",
         "title": "Sisko commands the Defiant and 600 Federation ships against a Dominion/Cardassian armada to retake Deep Space Nine. Damar has Kira, Jake and Leeta arrested. (Part 2 of 2)",
-        "date": "Sisko commands the Defiant and 600 Federation ships against a Dominion/Cardassian armada to retake Deep Space Nine. Damar has Kira, Jake and Leeta arrested. (Part 2 of 2)",
+        "date": "1997-11-24",
         "productionCode": "Sisko commands the Defiant and 600 Federation ships against a Dominion/Cardassian armada to retake Deep Space Nine. Damar has Kira, Jake and Leeta arrested. (Part 2 of 2)",
-        "stardate": "Sisko commands the Defiant and 600 Federation ships against a Dominion/Cardassian armada to retake Deep Space Nine. Damar has Kira, Jake and Leeta arrested. (Part 2 of 2)"
+        "stardate": "Sisko commands the Defiant and 600 Federation ships against a Dominion/Cardassian armada to retake Deep Space Nine. Damar has Kira, Jake and Leeta arrested. (Part 2 of 2)",
+        "synopsis": "Dr. Bashir works with an eccentric group of genetically engineered humans in the hopes they can become productive members of the Federation. Meanwhile, the Dominion arrives on DS9 offering to negotiate a truce with the Federation.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464869.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "131",
         "title": "You Are Cordially Invited",
-        "date": "November 8, 1997",
+        "date": "1998-01-01",
         "productionCode": "40510-531",
-        "stardate": "51247.5"
+        "stardate": "51247.5",
+        "synopsis": "When Quark and Rom's mother Ishka is captured by the Dominion, Quark leads a team of Ferengi on a mission to Empok Nor to rescue her.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464950.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "132",
         "title": "Resurrection",
-        "date": "November 15, 1997",
+        "date": "1998-01-08",
         "productionCode": "40510-532",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Following the destruction of the starship Honshu, Sisko finds himself stranded on a deserted planet with Dukat, who has become increasingly unstable since the death of Ziyal.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464956.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "133",
         "title": "Statistical Probabilities",
-        "date": "November 22, 1997",
+        "date": "1998-02-04",
         "productionCode": "40510-533",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Morn dies unexpectedly, bequeathing his entire estate to Quark, but some of Morn's old acquaintances arrive on DS9 demanding a piece of the action.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/185/464978.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "134",
         "title": "The Magnificent Ferengi",
-        "date": "December 27, 1997",
+        "date": "1998-02-11",
         "productionCode": "40510-534",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "After a friend's ship is destroyed by the Dominion, a despondent Sisko contemplates resigning from Starfleet while experiencing visions of himself and his crew as sci-fi writers in 1950s America.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/186/465007.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "135",
         "title": "Waltz",
-        "date": "January 3, 1998",
+        "date": "1998-02-18",
         "productionCode": "40510-535",
-        "stardate": "51413.6"
+        "stardate": "51413.6",
+        "synopsis": "O'Brien, Dax, Dr. Bashir, and their runabout are reduced in size while investigating an anomaly. However, when the Jem'Hadar attack and commandeer the Defiant, the trio are left with no choice but to take their miniature runabout inside the Defiant to help Sisko and the others retake the ship.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/186/465031.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "136",
         "title": "Who Mourns for Morn?",
-        "date": "January 31, 1998",
+        "date": "1998-02-25",
         "productionCode": "40510-536",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "O'Brien, working undercover for Starfleet Intelligence, infiltrates the Orion Syndicate, the Alpha Quadrant's main organized crime ring and befriends the man he will have to betray.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/186/465328.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "137",
         "title": "Far Beyond the Stars",
-        "date": "February 7, 1998",
+        "date": "1998-03-04",
         "productionCode": "40510-538",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "On a mission to recover a Federation informant from the Dominion world of Soukara, Dax is injured and Worf must choose between completing the mission or saving his wife. on DS9, O'Brien enlists Bashir's help to defeat Quark in a game of tongo.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/186/465349.jpg"
       },
       {
         "displayNumber": "As Sisko considers leaving Starfleet due to the destruction of Captain Swofford's ship, the Cortez, he has a vision of himself as a science fiction writer in the 1950s.",
         "overallNumber": "As Sisko considers leaving Starfleet due to the destruction of Captain Swofford's ship, the Cortez, he has a vision of himself as a science fiction writer in the 1950s.",
         "title": "As Sisko considers leaving Starfleet due to the destruction of Captain Swofford's ship, the Cortez, he has a vision of himself as a science fiction writer in the 1950s.",
-        "date": "As Sisko considers leaving Starfleet due to the destruction of Captain Swofford's ship, the Cortez, he has a vision of himself as a science fiction writer in the 1950s.",
+        "date": "1998-04-01",
         "productionCode": "As Sisko considers leaving Starfleet due to the destruction of Captain Swofford's ship, the Cortez, he has a vision of himself as a science fiction writer in the 1950s.",
-        "stardate": "As Sisko considers leaving Starfleet due to the destruction of Captain Swofford's ship, the Cortez, he has a vision of himself as a science fiction writer in the 1950s."
+        "stardate": "As Sisko considers leaving Starfleet due to the destruction of Captain Swofford's ship, the Cortez, he has a vision of himself as a science fiction writer in the 1950s.",
+        "synopsis": "After receiving some disturbing information from Gul Dukat, Kira uses the Orb of Time to travel into the past to discover the truth about what happened to her mother during the Occupation of Bajor.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/187/469326.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "138",
         "title": "One Little Ship",
-        "date": "February 14, 1998",
+        "date": "1998-04-08",
         "productionCode": "40510-537",
-        "stardate": "51474.2"
+        "stardate": "51474.2",
+        "synopsis": "Dr. Bashir's plans to attend a medical conference on Casperia Prime are canceled when the Department of Internal Affairs arrives on DS9 and announces there has been a major security breach and a member of the senior staff has been passing information to the Dominion.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/187/469336.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "139",
         "title": "Honor Among Thieves",
-        "date": "February 21, 1998",
+        "date": "1998-04-15",
         "productionCode": "40510-539",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "With mounting losses in the Federation-Dominion war, and the looming specter of defeat, Captain Sisko enlists Garak's help to bring the Romulan Empire into the war. However, Sisko may have to sell his soul and the values Starfleet stands for in order to achieve his mission.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/187/469357.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "140",
         "title": "Change of Heart",
-        "date": "February 28, 1998",
+        "date": "1998-04-22",
         "productionCode": "40510-540",
-        "stardate": "51597.2"
+        "stardate": "51597.2",
+        "synopsis": "Odo consults Vic Fontaine, a self-aware holographic lounge singer, about his romantic relationship with Kira.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/187/469373.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "141",
         "title": "Wrongs Darker Than Death or Night",
-        "date": "March 28, 1998",
+        "date": "1998-04-29",
         "productionCode": "40510-541",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "The discovery of a 30,000 year old Bajoran tablet buried under the holy city of B'hala claiming the time of the Reckoning is at hand, and that the future of Bajor will be decided by its outcome.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/187/469407.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "142",
         "title": "Inquisition",
-        "date": "April 4, 1998",
+        "date": "1998-05-06",
         "productionCode": "40510-542",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "On their way to Ferenginar, Jake and Nog's runabout comes under attack from the Jem'Hadar, and they are rescued by the Valiant, a ship manned by an elite group of over-eager Starfleet cadets who have bitten off more than they can chew.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/187/469447.jpg"
       },
       {
         "displayNumber": "Dr Bashir is busy wrapping up unfinished tasks prior to departing DS9 to attend a medical conference. Just prior to his departure, an Internal Affairs unit under the command of an individual named Sloan, arrive and announce they will be interviewing all the senior staff. Things take a worrying turn for the good doctor when he realises that he is the subject of the investigation and Sloan accuses him of spying for the Dominion.",
         "overallNumber": "Dr Bashir is busy wrapping up unfinished tasks prior to departing DS9 to attend a medical conference. Just prior to his departure, an Internal Affairs unit under the command of an individual named Sloan, arrive and announce they will be interviewing all the senior staff. Things take a worrying turn for the good doctor when he realises that he is the subject of the investigation and Sloan accuses him of spying for the Dominion.",
         "title": "Dr Bashir is busy wrapping up unfinished tasks prior to departing DS9 to attend a medical conference. Just prior to his departure, an Internal Affairs unit under the command of an individual named Sloan, arrive and announce they will be interviewing all the senior staff. Things take a worrying turn for the good doctor when he realises that he is the subject of the investigation and Sloan accuses him of spying for the Dominion.",
-        "date": "Dr Bashir is busy wrapping up unfinished tasks prior to departing DS9 to attend a medical conference. Just prior to his departure, an Internal Affairs unit under the command of an individual named Sloan, arrive and announce they will be interviewing all the senior staff. Things take a worrying turn for the good doctor when he realises that he is the subject of the investigation and Sloan accuses him of spying for the Dominion.",
+        "date": "1998-05-13",
         "productionCode": "Dr Bashir is busy wrapping up unfinished tasks prior to departing DS9 to attend a medical conference. Just prior to his departure, an Internal Affairs unit under the command of an individual named Sloan, arrive and announce they will be interviewing all the senior staff. Things take a worrying turn for the good doctor when he realises that he is the subject of the investigation and Sloan accuses him of spying for the Dominion.",
-        "stardate": "Dr Bashir is busy wrapping up unfinished tasks prior to departing DS9 to attend a medical conference. Just prior to his departure, an Internal Affairs unit under the command of an individual named Sloan, arrive and announce they will be interviewing all the senior staff. Things take a worrying turn for the good doctor when he realises that he is the subject of the investigation and Sloan accuses him of spying for the Dominion."
+        "stardate": "Dr Bashir is busy wrapping up unfinished tasks prior to departing DS9 to attend a medical conference. Just prior to his departure, an Internal Affairs unit under the command of an individual named Sloan, arrive and announce they will be interviewing all the senior staff. Things take a worrying turn for the good doctor when he realises that he is the subject of the investigation and Sloan accuses him of spying for the Dominion.",
+        "synopsis": "When Grand Nagus Zek is deposed by the Ferengi Commerce Authority for granting Ferengi females the right to wear clothes with an amendment to the Ferengi Bill of Opportunities, Quark is forced to assume a female identity to prevent Brunt from becoming the next Grand Nagus.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/187/469607.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "143",
         "title": "In the Pale Moonlight",
-        "date": "April 11, 1998",
+        "date": "1998-05-20",
         "productionCode": "40510-543",
-        "stardate": "51721.3"
+        "stardate": "51721.3",
+        "synopsis": "When an accident on the planet Golana sends Molly O'Brien through a mysterious vortex three hundred years into the past, she returns to the present eighteen years old with no immediate recollection of her previous life or her family.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470036.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "144",
         "title": "His Way",
-        "date": "April 18, 1998",
+        "date": "1998-06-10",
         "productionCode": "40510-544",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "After receiving a distress call, the crew of the Defiant race to save a Starfleet captain stranded on an inhospitable planet. Back on DS9, Jake follows Quark's latest scheme for story research.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470053.jpg"
       },
       {
         "displayNumber": "Bashir shows off a new Holosuite program of a martini lounge with a 1960s Vegas singer named Vic Fontaine who is very perceptive; and gives advice to Odo when Kira visits her ex-lover Shakaar.",
         "overallNumber": "Bashir shows off a new Holosuite program of a martini lounge with a 1960s Vegas singer named Vic Fontaine who is very perceptive; and gives advice to Odo when Kira visits her ex-lover Shakaar.",
         "title": "Bashir shows off a new Holosuite program of a martini lounge with a 1960s Vegas singer named Vic Fontaine who is very perceptive; and gives advice to Odo when Kira visits her ex-lover Shakaar.",
-        "date": "Bashir shows off a new Holosuite program of a martini lounge with a 1960s Vegas singer named Vic Fontaine who is very perceptive; and gives advice to Odo when Kira visits her ex-lover Shakaar.",
+        "date": "1998-06-17",
         "productionCode": "Bashir shows off a new Holosuite program of a martini lounge with a 1960s Vegas singer named Vic Fontaine who is very perceptive; and gives advice to Odo when Kira visits her ex-lover Shakaar.",
-        "stardate": "Bashir shows off a new Holosuite program of a martini lounge with a 1960s Vegas singer named Vic Fontaine who is very perceptive; and gives advice to Odo when Kira visits her ex-lover Shakaar."
+        "stardate": "Bashir shows off a new Holosuite program of a martini lounge with a 1960s Vegas singer named Vic Fontaine who is very perceptive; and gives advice to Odo when Kira visits her ex-lover Shakaar.",
+        "synopsis": "Sisko is chosen to lead an invasion into Cardassian territory, ignoring a warning of impending doom if he leaves DS9 from the Prophets, resulting in fatal consequences for a member of the crew.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470108.jpg"
       },
       {
         "displayNumber": "21",
@@ -3695,7 +6248,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "The Reckoning",
         "date": "April 25, 1998",
         "productionCode": "40510-545",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "22",
@@ -3703,7 +6258,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Valiant",
         "date": "May 2, 1998",
         "productionCode": "40510-546",
-        "stardate": "51825.4"
+        "stardate": "51825.4",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "23",
@@ -3711,7 +6268,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Profit and Lace",
         "date": "May 9, 1998",
         "productionCode": "40510-547",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "24",
@@ -3719,7 +6278,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Time's Orphan",
         "date": "May 16, 1998",
         "productionCode": "40510-548",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "Molly O'Brien disappears in a vortex and reappears as an 18-year-old woman, but she is now feral, bringing great difficulty for her parents.",
@@ -3727,7 +6288,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Molly O'Brien disappears in a vortex and reappears as an 18-year-old woman, but she is now feral, bringing great difficulty for her parents.",
         "date": "Molly O'Brien disappears in a vortex and reappears as an 18-year-old woman, but she is now feral, bringing great difficulty for her parents.",
         "productionCode": "Molly O'Brien disappears in a vortex and reappears as an 18-year-old woman, but she is now feral, bringing great difficulty for her parents.",
-        "stardate": "Molly O'Brien disappears in a vortex and reappears as an 18-year-old woman, but she is now feral, bringing great difficulty for her parents."
+        "stardate": "Molly O'Brien disappears in a vortex and reappears as an 18-year-old woman, but she is now feral, bringing great difficulty for her parents.",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "25",
@@ -3735,7 +6298,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "The Sound of Her Voice",
         "date": "June 6, 1998",
         "productionCode": "40510-549",
-        "stardate": "51948.3"
+        "stardate": "51948.3",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "26",
@@ -3743,7 +6308,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Tears of the Prophets",
         "date": "June 13, 1998",
         "productionCode": "40510-550",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "",
+        "guestCast": []
       }
     ],
     [
@@ -3751,209 +6318,313 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "151",
         "title": "Image in the Sand",
-        "date": "September 30, 1998",
+        "date": "1998-09-30",
         "productionCode": "40510-551",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Having returned to Earth, Sisko waits for guidance from the Prophets to instruct him on what to do next. Back on DS9, the newly promoted Colonel Kira faces the challenges and burdens of command, and Worf struggles to deal with the loss of Jadzia.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470127.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "152",
         "title": "Shadows and Symbols",
-        "date": "October 7, 1998",
+        "date": "1998-10-07",
         "productionCode": "40510-552",
-        "stardate": "52152.6"
+        "stardate": "52152.6",
+        "synopsis": "Sisko is joined by an old friend as he searches for the mysterious Orb of the Emissary, but the Pah-wraiths send a vision to distract him. On DS9, Kira mounts a blockade around a Bajoran moon after discovering the Romulans have armed their hospital there. Aboard the Rotarran, Worf leads a mission to destroy a Dominion shipyard in order to honor Jadzia.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470152.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "153",
         "title": "Afterimage",
-        "date": "October 14, 1998",
+        "date": "1998-10-14",
         "productionCode": "40510-553",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Ezri Dax struggles to cope with the memories of her previous hosts while attempting to forge new relationships with Jadzia's old friends. Meanwhile, Garak tries to manage a severe bout of claustrophobia.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470156.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "154",
         "title": "Take Me Out to the Holosuite",
-        "date": "October 21, 1998",
+        "date": "1998-10-21",
         "productionCode": "40510-554",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Captain Solok, a Vulcan and former classmate of Captain Sisko, challenges Sisko and the crew of DS9 to a game of baseball.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470350.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "155",
         "title": "Chrysalis",
-        "date": "October 28, 1998",
+        "date": "1998-10-28",
         "productionCode": "40510-555",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "The genetically-engineered humans who had previously visited DS9 return to the station asking Dr. Bashir to help rouse Sarina from her cataleptic state.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470358.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "156",
         "title": "Treachery, Faith and the Great River",
-        "date": "November 4, 1998",
+        "date": "1998-11-04",
         "productionCode": "40510-556",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "A Vorta offers Odo valuable information on the Dominion in exchange for asylum. Back on DS9, O'Brien and Nog sail down the Great Material Continuum.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470368.jpg"
       },
       {
         "displayNumber": "A Vorta defector, Weyoun-6, gives Odo valuable information in exchange for asylum. Weyoun-7, the next clone in the series, pursues them. Nog engages in a series of barters to get a Graviton Stabilizer for Miles.",
         "overallNumber": "A Vorta defector, Weyoun-6, gives Odo valuable information in exchange for asylum. Weyoun-7, the next clone in the series, pursues them. Nog engages in a series of barters to get a Graviton Stabilizer for Miles.",
         "title": "A Vorta defector, Weyoun-6, gives Odo valuable information in exchange for asylum. Weyoun-7, the next clone in the series, pursues them. Nog engages in a series of barters to get a Graviton Stabilizer for Miles.",
-        "date": "A Vorta defector, Weyoun-6, gives Odo valuable information in exchange for asylum. Weyoun-7, the next clone in the series, pursues them. Nog engages in a series of barters to get a Graviton Stabilizer for Miles.",
+        "date": "1998-11-11",
         "productionCode": "A Vorta defector, Weyoun-6, gives Odo valuable information in exchange for asylum. Weyoun-7, the next clone in the series, pursues them. Nog engages in a series of barters to get a Graviton Stabilizer for Miles.",
-        "stardate": "A Vorta defector, Weyoun-6, gives Odo valuable information in exchange for asylum. Weyoun-7, the next clone in the series, pursues them. Nog engages in a series of barters to get a Graviton Stabilizer for Miles."
+        "stardate": "A Vorta defector, Weyoun-6, gives Odo valuable information in exchange for asylum. Weyoun-7, the next clone in the series, pursues them. Nog engages in a series of barters to get a Graviton Stabilizer for Miles.",
+        "synopsis": "With the Dominion War raging, the aging Klingon warrior Kor feels left out of the action, and requests an opportunity to die with honor as a warrior. However, Kor's efforts are stymied by Martok, who holds a deeply personal grudge against Kor.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470693.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "157",
         "title": "Once More unto the Breach",
-        "date": "November 11, 1998",
+        "date": "1998-11-18",
         "productionCode": "40510-557",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "During a supply run to the isolated outpost AR-558, Sisko and his away team volunteer to stay with the besieged and demoralized unit, which is about to come under attack by a much larger contingent of Jem'Hadar soldiers.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470719.jpg"
       },
       {
         "displayNumber": "Kor (Ep 2.19, \"Blood Oath\" & 4.9, \"The Sword of Kahless\"), an aging Klingon hero, asks Worf to find him a battle assignment. Martok plans a \"cavalry raid\" of five birds of prey, hitting several key targets behind enemy lines to throw them off balance.",
         "overallNumber": "Kor (Ep 2.19, \"Blood Oath\" & 4.9, \"The Sword of Kahless\"), an aging Klingon hero, asks Worf to find him a battle assignment. Martok plans a \"cavalry raid\" of five birds of prey, hitting several key targets behind enemy lines to throw them off balance.",
         "title": "Kor (Ep 2.19, \"Blood Oath\" & 4.9, \"The Sword of Kahless\"), an aging Klingon hero, asks Worf to find him a battle assignment. Martok plans a \"cavalry raid\" of five birds of prey, hitting several key targets behind enemy lines to throw them off balance.",
-        "date": "Kor (Ep 2.19, \"Blood Oath\" & 4.9, \"The Sword of Kahless\"), an aging Klingon hero, asks Worf to find him a battle assignment. Martok plans a \"cavalry raid\" of five birds of prey, hitting several key targets behind enemy lines to throw them off balance.",
+        "date": "1998-11-25",
         "productionCode": "Kor (Ep 2.19, \"Blood Oath\" & 4.9, \"The Sword of Kahless\"), an aging Klingon hero, asks Worf to find him a battle assignment. Martok plans a \"cavalry raid\" of five birds of prey, hitting several key targets behind enemy lines to throw them off balance.",
-        "stardate": "Kor (Ep 2.19, \"Blood Oath\" & 4.9, \"The Sword of Kahless\"), an aging Klingon hero, asks Worf to find him a battle assignment. Martok plans a \"cavalry raid\" of five birds of prey, hitting several key targets behind enemy lines to throw them off balance."
+        "stardate": "Kor (Ep 2.19, \"Blood Oath\" & 4.9, \"The Sword of Kahless\"), an aging Klingon hero, asks Worf to find him a battle assignment. Martok plans a \"cavalry raid\" of five birds of prey, hitting several key targets behind enemy lines to throw them off balance.",
+        "synopsis": "Kira is abducted and taken to Empok Nor by the Cult of the Pah-wraiths and discovers that the group is now led by \"the Master\" - Gul Dukat.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470737.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "158",
         "title": "The Siege of AR-558",
-        "date": "November 18, 1998",
+        "date": "1998-12-30",
         "productionCode": "40510-558",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Severely depressed over the loss of his leg at the Siege of AR-558, Nog struggles to return to normal life aboard DS9 and seeks shelter within the holographic world of Vic Fontaine.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470756.jpg"
       },
       {
         "displayNumber": "Sisko and crew relieve Starfleet troops under siege by Jem'Hadar at a key communications outpost, AR-558, the largest Dominion communications array in the sector.",
         "overallNumber": "Sisko and crew relieve Starfleet troops under siege by Jem'Hadar at a key communications outpost, AR-558, the largest Dominion communications array in the sector.",
         "title": "Sisko and crew relieve Starfleet troops under siege by Jem'Hadar at a key communications outpost, AR-558, the largest Dominion communications array in the sector.",
-        "date": "Sisko and crew relieve Starfleet troops under siege by Jem'Hadar at a key communications outpost, AR-558, the largest Dominion communications array in the sector.",
+        "date": "1999-01-06",
         "productionCode": "Sisko and crew relieve Starfleet troops under siege by Jem'Hadar at a key communications outpost, AR-558, the largest Dominion communications array in the sector.",
-        "stardate": "Sisko and crew relieve Starfleet troops under siege by Jem'Hadar at a key communications outpost, AR-558, the largest Dominion communications array in the sector."
+        "stardate": "Sisko and crew relieve Starfleet troops under siege by Jem'Hadar at a key communications outpost, AR-558, the largest Dominion communications array in the sector.",
+        "synopsis": "Ezri returns to her family home on New Sydney to seek assistance in locating Chief O'Brien, who has disappeared while searching for the widow of a dead friend.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470780.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "159",
         "title": "Covenant",
-        "date": "November 25, 1998",
+        "date": "1999-02-03",
         "productionCode": "40510-559",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "When Grand Nagus Zek is kidnapped by the Klingon-Cardassian Alliance while on a business trip to the mirror universe, Quark and Rom have three days to secure a cloaking device for the Alliance or Zek will die.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470876.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "160",
         "title": "It's Only a Paper Moon",
-        "date": "December 30, 1998",
+        "date": "1999-02-10",
         "productionCode": "40510-560",
-        "stardate": "52235.7"
+        "stardate": "52235.7",
+        "synopsis": "After several crew members are murdered, Ezri reluctantly summons the residual consciousness and personality of her symbiont's past, the psychopathic Joran Dax, to help her catch the killer.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/470952.jpg"
       },
       {
         "displayNumber": "Nog struggles with PTSD from the traumatic battle of AR-558 where he lost his leg. So, he begins living with Vic Fontaine.",
         "overallNumber": "Nog struggles with PTSD from the traumatic battle of AR-558 where he lost his leg. So, he begins living with Vic Fontaine.",
         "title": "Nog struggles with PTSD from the traumatic battle of AR-558 where he lost his leg. So, he begins living with Vic Fontaine.",
-        "date": "Nog struggles with PTSD from the traumatic battle of AR-558 where he lost his leg. So, he begins living with Vic Fontaine.",
+        "date": "1999-02-17",
         "productionCode": "Nog struggles with PTSD from the traumatic battle of AR-558 where he lost his leg. So, he begins living with Vic Fontaine.",
-        "stardate": "Nog struggles with PTSD from the traumatic battle of AR-558 where he lost his leg. So, he begins living with Vic Fontaine."
+        "stardate": "Nog struggles with PTSD from the traumatic battle of AR-558 where he lost his leg. So, he begins living with Vic Fontaine.",
+        "synopsis": "Odo meets another of the Hundred, infant Changelings who were sent out by the Founders hundreds of years ago to explore the galaxy.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471136.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "161",
         "title": "Prodigal Daughter",
-        "date": "January 6, 1999",
+        "date": "1999-02-24",
         "productionCode": "40510-561",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "When holographic mobsters assume control of Vic Fontaine's lounge, the DS9 residents plot to run Vic's rival out of business and restore the program to normal.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471451.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "162",
         "title": "The Emperor's New Cloak",
-        "date": "February 3, 1999",
+        "date": "1999-03-03",
         "productionCode": "40510-562",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Attending a medical conference on Romulus, Dr. Bashir is contacted by Sloane and finds himself embroiled in an elaborate scheme devised by Section 31.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471470.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "163",
         "title": "Field of Fire",
-        "date": "February 10, 1999",
+        "date": "1999-04-07",
         "productionCode": "40510-563",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "When Worf remains missing after a battle with the Dominion, Ezri takes a shuttle against orders to search for him. On DS9, Sisko makes plans for his future with Kasidy.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471476.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "164",
         "title": "Chimera",
-        "date": "February 17, 1999",
+        "date": "1999-04-14",
         "productionCode": "40510-564",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "On DS9, Sisko agonizes over his vision from the Prophets, warning him not to marry Kasidy, and Kai Winn receives a vision foretelling the arrival of a guide who will help her restore Bajor. Meanwhile, Ezri and Worf are interrogated aboard a Breen ship and unexpectedly witness a disturbing turn of events, one which may change the course of the entire war.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471506.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "165",
         "title": "Badda-Bing Badda-Bang",
-        "date": "February 24, 1999",
+        "date": "1999-04-21",
         "productionCode": "40510-566",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "On DS9, Dukat continues his manipulation of Kai Winn, and Kasidy finds it difficult being married to the Emissary. Now aboard a Dominion vessel, Worf and Ezri continue to plot their escape from captivity, and in the wake of the new Breen-Dominion Alliance, Damar makes a shocking decision.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471521.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "166",
         "title": "Inter Arma Enim Silent Leges",
-        "date": "March 3, 1999",
+        "date": "1999-04-28",
         "productionCode": "40510-565",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "The Breen-Dominion Alliance launches a devasting attack at the heart of the Federation, and the Federation Alliance struggles to maintain its foothold in Cardassian space. Kai Winn, under the guidance of Dukat, begins researching forbidden texts about the Pah-wraiths. On Cardassia, Damar begins a rebellion against the Dominion.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471713.jpg"
       },
       {
         "displayNumber": "While attending a diplomatic conference on Romulus, Bashir becomes an unwilling pawn of Section 31.",
         "overallNumber": "While attending a diplomatic conference on Romulus, Bashir becomes an unwilling pawn of Section 31.",
         "title": "While attending a diplomatic conference on Romulus, Bashir becomes an unwilling pawn of Section 31.",
-        "date": "While attending a diplomatic conference on Romulus, Bashir becomes an unwilling pawn of Section 31.",
+        "date": "1999-05-05",
         "productionCode": "While attending a diplomatic conference on Romulus, Bashir becomes an unwilling pawn of Section 31.",
-        "stardate": "While attending a diplomatic conference on Romulus, Bashir becomes an unwilling pawn of Section 31."
+        "stardate": "While attending a diplomatic conference on Romulus, Bashir becomes an unwilling pawn of Section 31.",
+        "synopsis": "Kira, Odo, and Garak travel behind enemy lines to aid Damar's rebellion against the Dominion. On DS9, Dr. Bashir discovers something disastrous during his research, and Chancellor Gowron arrives on the station with an agenda of his own.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471752.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "167",
         "title": "Penumbra",
-        "date": "April 7, 1999",
+        "date": "1999-05-12",
         "productionCode": "40510-567",
-        "stardate": "52576.2"
+        "stardate": "52576.2",
+        "synopsis": "With the help of Kira, Odo, and Garak, the Cardassian Rebellion plots to steal a Breen weapon for the Federation. On DS9, Dr. Bashir and Chief O'Brien continue to try and find a cure for Odo, and Gowron's reckless attacks against the Dominion prompt Worf to take drastic action.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471770.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "168",
         "title": "'Til Death Do Us Part",
-        "date": "April 14, 1999",
+        "date": "1999-05-19",
         "productionCode": "40510-568",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "In a desperate attempt to locate a cure for Odo, Dr. Bashir and Chief O'Brien lure a member of Section 31 to DS9.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/471794.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "169",
         "title": "Strange Bedfellows",
-        "date": "April 21, 1999",
+        "date": "1999-05-26",
         "productionCode": "40510-569",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Trapped on Cardassia Prime after an ambush, Kira, Damar, and Garak plot to turn their rebellion into a revolution. On DS9, Grand Nagus Zek visits the station with surprising news about the future of the Ferengi Alliance.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/472391.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "170",
         "title": "The Changing Face of Evil",
-        "date": "April 28, 1999",
+        "date": "1999-06-02",
         "productionCode": "40510-570",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "The Federation Alliance begins its final assault on the Dominion. On Cardassia Prime, Kira, Damar, and Garak begin recruiting ordinary citizens to their revolution. Meanwhile, Gul Dukat and Kai Winn continue their plan to release the Pah-wraiths from the Fire Caves on Bajor.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/472405.jpg"
       },
       {
         "displayNumber": "21",
         "overallNumber": "171",
         "title": "When It Rains...",
-        "date": "May 5, 1999",
+        "date": "1999-06-02",
         "productionCode": "40510-571",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "In response to the Dominion destruction of Cardassian cities, the Cardassian military switches sides. Damar, Kira, and Garak launch an assault on Dominion Headquarters. The Federation Alliance makes a final push for victory. Sisko's role as the Emissary of the Prophets reaches its conclusion.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/188/472417.jpg"
       },
       {
         "displayNumber": "Sisko orders Kira, Garak and Odo to Cardassia to assist Cardassians in resistance tactics as Damar's rebellion gains ground. Bashir makes a shocking discovery about the disease that is ravaging the Founders. Dukat's cover has been blown by Sobor. Gowron arrives on DS9.",
@@ -3961,7 +6632,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Sisko orders Kira, Garak and Odo to Cardassia to assist Cardassians in resistance tactics as Damar's rebellion gains ground. Bashir makes a shocking discovery about the disease that is ravaging the Founders. Dukat's cover has been blown by Sobor. Gowron arrives on DS9.",
         "date": "Sisko orders Kira, Garak and Odo to Cardassia to assist Cardassians in resistance tactics as Damar's rebellion gains ground. Bashir makes a shocking discovery about the disease that is ravaging the Founders. Dukat's cover has been blown by Sobor. Gowron arrives on DS9.",
         "productionCode": "Sisko orders Kira, Garak and Odo to Cardassia to assist Cardassians in resistance tactics as Damar's rebellion gains ground. Bashir makes a shocking discovery about the disease that is ravaging the Founders. Dukat's cover has been blown by Sobor. Gowron arrives on DS9.",
-        "stardate": "Sisko orders Kira, Garak and Odo to Cardassia to assist Cardassians in resistance tactics as Damar's rebellion gains ground. Bashir makes a shocking discovery about the disease that is ravaging the Founders. Dukat's cover has been blown by Sobor. Gowron arrives on DS9."
+        "stardate": "Sisko orders Kira, Garak and Odo to Cardassia to assist Cardassians in resistance tactics as Damar's rebellion gains ground. Bashir makes a shocking discovery about the disease that is ravaging the Founders. Dukat's cover has been blown by Sobor. Gowron arrives on DS9.",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "22",
@@ -3969,7 +6642,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Tacking into the Wind",
         "date": "May 12, 1999",
         "productionCode": "40510-572",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "23",
@@ -3977,7 +6652,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Extreme Measures",
         "date": "May 19, 1999",
         "productionCode": "40510-573",
-        "stardate": "52645.7"
+        "stardate": "52645.7",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "24",
@@ -3985,7 +6662,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "The Dogs of War",
         "date": "May 26, 1999",
         "productionCode": "40510-574",
-        "stardate": "52861.3"
+        "stardate": "52861.3",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "25",
@@ -3993,7 +6672,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "What You Leave Behind",
         "date": "June 2, 1999",
         "productionCode": "40510-749 (575–576)",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "26",
@@ -4001,7 +6682,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "What You Leave Behind",
         "date": "June 2, 1999",
         "productionCode": "40510-749 (575–576)",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "",
+        "guestCast": []
       }
     ]
   ],
@@ -4011,129 +6694,193 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "1",
         "title": "Caretaker",
-        "date": "January 16, 1995",
+        "date": "1995-01-16",
         "productionCode": "40840-721 (101/102)",
-        "stardate": "48315.6"
+        "stardate": "48315.6",
+        "synopsis": "While searching for a missing officer, Captain Kathryn Janeway and the crew of the Starship Voyager are swept 70,000 light years from home.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/70/176762.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "2",
         "title": "Caretaker",
-        "date": "January 16, 1995",
+        "date": "1995-01-16",
         "productionCode": "40840-721 (101/102)",
-        "stardate": "48315.6"
+        "stardate": "48315.6",
+        "synopsis": "While searching for a missing officer, Captain Kathryn Janeway and the crew of the Starship Voyager are swept 70,000 light years from home.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/70/176763.jpg"
       },
       {
         "displayNumber": "While searching for a missing Maquis ship with a Starfleet spy aboard, USS Voyager is swept away to the Delta Quadrant, more than 70,000 light-years from home, by an incredibly powerful being known as the \"Caretaker\". Originally shown as a two-hour pilot movie on the UPN network, but in syndication is shown as two separate episodes.",
         "overallNumber": "While searching for a missing Maquis ship with a Starfleet spy aboard, USS Voyager is swept away to the Delta Quadrant, more than 70,000 light-years from home, by an incredibly powerful being known as the \"Caretaker\". Originally shown as a two-hour pilot movie on the UPN network, but in syndication is shown as two separate episodes.",
         "title": "While searching for a missing Maquis ship with a Starfleet spy aboard, USS Voyager is swept away to the Delta Quadrant, more than 70,000 light-years from home, by an incredibly powerful being known as the \"Caretaker\". Originally shown as a two-hour pilot movie on the UPN network, but in syndication is shown as two separate episodes.",
-        "date": "While searching for a missing Maquis ship with a Starfleet spy aboard, USS Voyager is swept away to the Delta Quadrant, more than 70,000 light-years from home, by an incredibly powerful being known as the \"Caretaker\". Originally shown as a two-hour pilot movie on the UPN network, but in syndication is shown as two separate episodes.",
+        "date": "1995-01-23",
         "productionCode": "While searching for a missing Maquis ship with a Starfleet spy aboard, USS Voyager is swept away to the Delta Quadrant, more than 70,000 light-years from home, by an incredibly powerful being known as the \"Caretaker\". Originally shown as a two-hour pilot movie on the UPN network, but in syndication is shown as two separate episodes.",
-        "stardate": "While searching for a missing Maquis ship with a Starfleet spy aboard, USS Voyager is swept away to the Delta Quadrant, more than 70,000 light-years from home, by an incredibly powerful being known as the \"Caretaker\". Originally shown as a two-hour pilot movie on the UPN network, but in syndication is shown as two separate episodes."
+        "stardate": "While searching for a missing Maquis ship with a Starfleet spy aboard, USS Voyager is swept away to the Delta Quadrant, more than 70,000 light-years from home, by an incredibly powerful being known as the \"Caretaker\". Originally shown as a two-hour pilot movie on the UPN network, but in syndication is shown as two separate episodes.",
+        "synopsis": "Tensions rise between the merged Starfleet and Maquis crews when the ship becomes trapped inside a star that's collapsed upon itself.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/70/176764.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "3",
         "title": "Parallax",
-        "date": "January 23, 1995",
+        "date": "1995-01-30",
         "productionCode": "40840-103",
-        "stardate": "48439.7"
+        "stardate": "48439.7",
+        "synopsis": "The Voyager crew discovers a world that has been destroyed by a type of energy that has been banned on all Federation worlds as being too dangerous to use.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/91/229635.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "4",
         "title": "Time and Again",
-        "date": "January 30, 1995",
+        "date": "1995-02-06",
         "productionCode": "40840-104",
-        "stardate": "48498.5 (Non-Canon)"
+        "stardate": "48498.5 (Non-Canon)",
+        "synopsis": "While seeking a source of new dilithium for the ship's power source, the crew encounters a planet of people who are stealing body organs. Neelix finds another use for Captain Janeway's private dining room.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/91/229636.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "5",
         "title": "Phage",
-        "date": "February 6, 1995",
+        "date": "1995-02-13",
         "productionCode": "40840-105",
-        "stardate": "48532.4"
+        "stardate": "48532.4",
+        "synopsis": "The crew discovers that a nebula is not what it seems, and Paris invites his fellow officers to share a little \"R&R\" in his holodeck program.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/91/229983.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "6",
         "title": "The Cloud",
-        "date": "February 13, 1995",
+        "date": "1995-02-20",
         "productionCode": "40840-106",
-        "stardate": "48546.2"
+        "stardate": "48546.2",
+        "synopsis": "The discovery of a wormhole in deep space raises the crew's hopes of finding a shortcut home.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/92/230127.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "7",
         "title": "Eye of the Needle",
-        "date": "February 20, 1995",
+        "date": "1995-02-27",
         "productionCode": "40840-107",
-        "stardate": "48579.4"
+        "stardate": "48579.4",
+        "synopsis": "After Paris is convicted of a murder he swears he didn't commit, Tuvok must play detective to clear him.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/92/230455.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "8",
         "title": "Ex Post Facto",
-        "date": "February 27, 1995",
+        "date": "1995-03-13",
         "productionCode": "40840-108",
-        "stardate": "c. 48600.0 (Non-Canon)"
+        "stardate": "c. 48600.0 (Non-Canon)",
+        "synopsis": "Kim confronts life and death issues when he's held against his will by an alien race.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/92/230547.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "9",
         "title": "Emanations",
-        "date": "March 13, 1995",
+        "date": "1995-03-20",
         "productionCode": "40840-109",
-        "stardate": "48623.5"
+        "stardate": "48623.5",
+        "synopsis": "An alien leader has the technology that could send the crew 40,000 light years closer to home -- but refuses to share it with them.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/92/231717.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "10",
         "title": "Prime Factors",
-        "date": "March 20, 1995",
+        "date": "1995-04-10",
         "productionCode": "40840-110",
-        "stardate": "48642.5"
+        "stardate": "48642.5",
+        "synopsis": "Stardate: 48658.2 Stolen food replicator technology found on a severely damaged Kazon-Nistrim ship indicates a traitor aboard Voyager . The fatal disaster occurred when the Kazon attempted to integrate Federation technology with their own. Seska becomes the prime suspect. The evidence is reinforced when questions arise over her true heritage. Who'd have thought Chakotay's old Maquis cell contained a Cardassian spy disguised as a Bajoran and his onetime lover?",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/92/231718.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "11",
         "title": "State of Flux",
-        "date": "April 10, 1995",
+        "date": "1995-04-24",
         "productionCode": "40840-111",
-        "stardate": "48658.2"
+        "stardate": "48658.2",
+        "synopsis": "Stardate: 48693.2 Harry Kim disappears from the holodeck while role-playing in his medieval holo-novel, \"Beowulf.\" According to the characters, he died at the hands of a mystical beast called \"Grendel.\" When Chakotay and Tuvok investigate and also disappear, Janeway transfers the Doctor to the holodeck for his first Away Mission: to investigate/rescue the three vanished crewmembers. Kes encourages the Doctor to pick a name for himself and chooses Doctor Schweitzer. In the story, he survives fear, romance, and heartbreak to unmask the unlikely trespasser as a photonic alien life form taking the form of Grendel and turning missing crewmembers into energy.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/93/232969.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "12",
         "title": "Heroes and Demons",
-        "date": "April 24, 1995",
+        "date": "1995-05-01",
         "productionCode": "40840-112",
-        "stardate": "48693.2"
+        "stardate": "48693.2",
+        "synopsis": "An encounter with a strange nebula leaves Chakotay brain dead and the crew battling a powerful force that seems to be taking over their minds.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/93/232981.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "13",
         "title": "Cathexis",
-        "date": "May 1, 1995",
+        "date": "1995-05-08",
         "productionCode": "40840-113",
-        "stardate": "48734.2"
+        "stardate": "48734.2",
+        "synopsis": "Stardate: 48784.2 The Vidiians capture Paris, Torres, and Durst while on an away mission. Then a bizarre Vidiian scientist divides the dual ethnic heritage of Torres into separate Human and Klingon bodies to test her Klingon DNA for resistance to the Phage disease destroying his people.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/94/235771.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "14",
         "title": "Faces",
-        "date": "May 8, 1995",
+        "date": "1995-05-15",
         "productionCode": "40840-114",
-        "stardate": "48784.2"
+        "stardate": "48784.2",
+        "synopsis": "A painful chapter in Neelix's past is reopened when the scientist responsible for killing his family beams aboard Voyager.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/94/235784.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "15",
         "title": "Jetrel",
-        "date": "May 15, 1995",
+        "date": "1995-05-22",
         "productionCode": "40840-115",
-        "stardate": "48832.1, 48840.5"
+        "stardate": "48832.1, 48840.5",
+        "synopsis": "Tuvok incurs the wrath of Maquis crewmembers when he's put in charge of a \"boot camp\" designed to bring them up to Starfleet standards.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/94/236451.jpg"
       },
       {
         "displayNumber": "16",
@@ -4141,7 +6888,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Learning Curve",
         "date": "May 22, 1995",
         "productionCode": "40840-116",
-        "stardate": "48846.5"
+        "stardate": "48846.5",
+        "synopsis": "",
+        "guestCast": []
       }
     ],
     [
@@ -4149,209 +6898,313 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "17",
         "title": "The 37's",
-        "date": "August 28, 1995",
+        "date": "1995-08-28",
         "productionCode": "40840-120",
-        "stardate": "48975.1"
+        "stardate": "48975.1",
+        "synopsis": "The crew of Voyager discovers an unusual object floating in space while following a particle trail. They then land on a planet and discover an old Earth aircraft and then are led to a cave that contains cryogenic units with people from Earth in them.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/94/236452.jpg"
       },
       {
         "displayNumber": "A group of humans from the 1930s are found in stasis on a seemingly abandoned planet, including the lost Amelia Earhart.",
         "overallNumber": "A group of humans from the 1930s are found in stasis on a seemingly abandoned planet, including the lost Amelia Earhart.",
         "title": "A group of humans from the 1930s are found in stasis on a seemingly abandoned planet, including the lost Amelia Earhart.",
-        "date": "A group of humans from the 1930s are found in stasis on a seemingly abandoned planet, including the lost Amelia Earhart.",
+        "date": "1995-09-04",
         "productionCode": "A group of humans from the 1930s are found in stasis on a seemingly abandoned planet, including the lost Amelia Earhart.",
-        "stardate": "A group of humans from the 1930s are found in stasis on a seemingly abandoned planet, including the lost Amelia Earhart."
+        "stardate": "A group of humans from the 1930s are found in stasis on a seemingly abandoned planet, including the lost Amelia Earhart.",
+        "synopsis": "Stardate: 49005.3 While performing a ritual to honor the anniversary of his father's death, Chakotay's shuttlecraft unknowingly violates Kazon-Ogla space. He becomes the target of Kar, a young Kazon boy undergoing a manhood ritual to earn his warrior name and place among his people.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/95/237952.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "18",
         "title": "Initiations",
-        "date": "September 4, 1995",
+        "date": "1995-09-11",
         "productionCode": "40840-121",
-        "stardate": "49005.3"
+        "stardate": "49005.3",
+        "synopsis": "The ship's holographic doctor has a strange encounter with Lt. Barclay that leads to him having problems telling reality from fiction. He is lead to believe that Voyager is nothing but a holographic simulation that he must fix.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/94/237370.jpg"
       },
       {
         "displayNumber": "Chakotay encounters a Kazon youth who is on an initiation rite: to earn his name by killing an enemy or be killed in the attempt. Note: the \"Kazon youth\" is played by Aron Eisenberg, who plays Nog on DS9",
         "overallNumber": "Chakotay encounters a Kazon youth who is on an initiation rite: to earn his name by killing an enemy or be killed in the attempt. Note: the \"Kazon youth\" is played by Aron Eisenberg, who plays Nog on DS9",
         "title": "Chakotay encounters a Kazon youth who is on an initiation rite: to earn his name by killing an enemy or be killed in the attempt. Note: the \"Kazon youth\" is played by Aron Eisenberg, who plays Nog on DS9",
-        "date": "Chakotay encounters a Kazon youth who is on an initiation rite: to earn his name by killing an enemy or be killed in the attempt. Note: the \"Kazon youth\" is played by Aron Eisenberg, who plays Nog on DS9",
+        "date": "1995-09-18",
         "productionCode": "Chakotay encounters a Kazon youth who is on an initiation rite: to earn his name by killing an enemy or be killed in the attempt. Note: the \"Kazon youth\" is played by Aron Eisenberg, who plays Nog on DS9",
-        "stardate": "Chakotay encounters a Kazon youth who is on an initiation rite: to earn his name by killing an enemy or be killed in the attempt. Note: the \"Kazon youth\" is played by Aron Eisenberg, who plays Nog on DS9"
+        "stardate": "Chakotay encounters a Kazon youth who is on an initiation rite: to earn his name by killing an enemy or be killed in the attempt. Note: the \"Kazon youth\" is played by Aron Eisenberg, who plays Nog on DS9",
+        "synopsis": "When Voyager's crew encounters a swarm of strange alien lifeforms in space, the aliens start forming what seems to be a attachment to Voyager. Meanwhile the encounter seems to accelerate Kes's reproductive cycle that comes only once in her species lifetime.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/95/238657.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "19",
         "title": "Projections",
-        "date": "September 11, 1995",
+        "date": "1995-09-25",
         "productionCode": "40840-117",
-        "stardate": "48892.1"
+        "stardate": "48892.1",
+        "synopsis": "Stardate: 49011. Ensign Harry Kim arises one morning to find he is back in San Francisco on Earth with his girlfriend, Libby. In this alternate reality, Starfleet records show he never served aboard Voyager , which Starfleet considers lost. Instead, Kim works in Starship Design at Starfleet Headquarters. To help him restore reality, he enlists the help of a shady figure in France named Tom Paris, who has no idea who Harry is.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/94/235770.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "20",
         "title": "Elogium",
-        "date": "September 18, 1995",
+        "date": "1995-10-02",
         "productionCode": "40840-118",
-        "stardate": "48921.3"
+        "stardate": "48921.3",
+        "synopsis": "While giving a party for Kes, the crew starts encountering a spatial distortion phenomenon. It gradually starts occurring inside the ship, changing Voyager's structural layout.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/95/238714.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "21",
         "title": "Non Sequitur",
-        "date": "September 25, 1995",
+        "date": "1995-10-09",
         "productionCode": "40840-122",
-        "stardate": "49011"
+        "stardate": "49011",
+        "synopsis": "During a shuttle mission to replenish Voyager's food supplies, Neelix and Lt. Paris discover an embryonic pod and become caretakers of the hatchling infant.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/96/241116.jpg"
       },
       {
         "displayNumber": "Harry Kim wakes up in 24th century San Francisco with no record of him on Voyager.",
         "overallNumber": "Harry Kim wakes up in 24th century San Francisco with no record of him on Voyager.",
         "title": "Harry Kim wakes up in 24th century San Francisco with no record of him on Voyager.",
-        "date": "Harry Kim wakes up in 24th century San Francisco with no record of him on Voyager.",
+        "date": "1995-10-30",
         "productionCode": "Harry Kim wakes up in 24th century San Francisco with no record of him on Voyager.",
-        "stardate": "Harry Kim wakes up in 24th century San Francisco with no record of him on Voyager."
+        "stardate": "Harry Kim wakes up in 24th century San Francisco with no record of him on Voyager.",
+        "synopsis": "A strange force causes the crew to enter a delusional state in which their most buried thoughts come to the surface.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/96/241117.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "22",
         "title": "Twisted",
-        "date": "October 2, 1995",
+        "date": "1995-11-06",
         "productionCode": "40840-119",
-        "stardate": "48945.8"
+        "stardate": "48945.8",
+        "synopsis": "On an away team looking for needed resources, Chakotay is reminded of his youth when he disappointed his father by not embracing his tribe's cultural heritage. He finds a familiar cultural symbol drawn in the ground used by his ancestors to \"heal the land.\" Chakotay then tries to contact the beings his tribe calls the \"Sky Spirits.\" Meanwhile, the Doctor continues to monitor Ensign Samantha Wildman's pregnancy.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/96/241119.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "23",
         "title": "Parturition",
-        "date": "October 9, 1995",
+        "date": "1995-11-13",
         "productionCode": "40840-123",
-        "stardate": "49068.5"
+        "stardate": "49068.5",
+        "synopsis": "Voyager encounters people of Kes's race, the Ocompa, living on a space station; they lead the crew to the female of the Caretaker's species, who believes they caused the Caretaker's death.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/96/241122.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "24",
         "title": "Persistence of Vision",
-        "date": "October 30, 1995",
+        "date": "1995-11-20",
         "productionCode": "40840-124",
-        "stardate": "49037.2"
+        "stardate": "49037.2",
+        "synopsis": "Chakotay feels responsible after Seska masterminds a successful raid on the Voyager that gives the Kazons vital Federation technology.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/96/242465.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "25",
         "title": "Tattoo",
-        "date": "November 6, 1995",
+        "date": "1995-11-27",
         "productionCode": "40840-125",
-        "stardate": "49211.5"
+        "stardate": "49211.5",
+        "synopsis": "Janeway is forced to rely on her own devices when Torres and Tuvok are captured by the Mokra during an away mission to find tellurium. She is then assisted by a man who thinks she is his daughter.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/96/242466.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "26",
         "title": "Cold Fire",
-        "date": "November 13, 1995",
+        "date": "1996-01-15",
         "productionCode": "40840-126",
-        "stardate": "49164.8"
+        "stardate": "49164.8",
+        "synopsis": "Lt. Torres and Ensign Kim help a humanoid robot that is discovered by Voyager. Torres is then kidnapped by the robot and its fellow robots, who threaten to destroy Voyager unless Torres helps them.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/97/242555.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "27",
         "title": "Maneuvers",
-        "date": "November 20, 1995",
+        "date": "1996-01-22",
         "productionCode": "40840-127",
-        "stardate": "49208.5"
+        "stardate": "49208.5",
+        "synopsis": "Captain Janeway reluctantly tries to form an alliance with the Kazons and their longtime enemies in order to strengthen Voyager's position in the quadrant.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/98/245235.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "28",
         "title": "Resistance",
-        "date": "November 27, 1995",
+        "date": "1996-01-29",
         "productionCode": "40840-128",
-        "stardate": "49234.1"
+        "stardate": "49234.1",
+        "synopsis": "Paris experiments with breaking the warp 10 barrier. Once transwarp is achieved, Lt. Paris starts to undergo a strange transformation which places his life in danger.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/98/246260.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "29",
         "title": "Prototype",
-        "date": "January 15, 1996",
+        "date": "1996-02-05",
         "productionCode": "40840-129",
-        "stardate": "49270.9"
+        "stardate": "49270.9",
+        "synopsis": "After a crewman is murdered, Tuvok decides to try and understand what drives a person to commit violent crimes. He uses a mind meld on the killer and starts to have violent tendencies of his own.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/98/246268.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "30",
         "title": "Alliances",
-        "date": "January 22, 1996",
+        "date": "1996-02-12",
         "productionCode": "40840-131",
-        "stardate": "49337.4"
+        "stardate": "49337.4",
+        "synopsis": "Stardate: 49447. Voyager encounters Dreadnought, an advanced, self-aware Cardassian missile also drawn into the Delta Quadrant that B'Elanna Torres reprogrammed during her time in the Maquis. The missile, believing it is still in the Alpha quadrant on its Maquis mission, is on course to destroy Rakosa V, an inhabited world of millions. Now, B'Elanna must outsmart her programming to disarm Dreadnought before it reaches its objective.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/98/246269.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "31",
         "title": "Threshold",
-        "date": "January 29, 1996",
+        "date": "1996-02-19",
         "productionCode": "40840-132",
-        "stardate": "49373.4"
+        "stardate": "49373.4",
+        "synopsis": "While taking a sample of a strange space phenomenon, Voyager brings a Q aboard. This in turn causes the original Q to come onboard, demanding that the new Q come back to the Q Continuum with him.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/98/246391.jpg"
       },
       {
         "displayNumber": "Tom Paris breaks the transwarp barrier in the Shuttlecraft Cochrane, designed to reach warp 10, but he begins to evolve.",
         "overallNumber": "Tom Paris breaks the transwarp barrier in the Shuttlecraft Cochrane, designed to reach warp 10, but he begins to evolve.",
         "title": "Tom Paris breaks the transwarp barrier in the Shuttlecraft Cochrane, designed to reach warp 10, but he begins to evolve.",
-        "date": "Tom Paris breaks the transwarp barrier in the Shuttlecraft Cochrane, designed to reach warp 10, but he begins to evolve.",
+        "date": "1996-02-26",
         "productionCode": "Tom Paris breaks the transwarp barrier in the Shuttlecraft Cochrane, designed to reach warp 10, but he begins to evolve.",
-        "stardate": "Tom Paris breaks the transwarp barrier in the Shuttlecraft Cochrane, designed to reach warp 10, but he begins to evolve."
+        "stardate": "Tom Paris breaks the transwarp barrier in the Shuttlecraft Cochrane, designed to reach warp 10, but he begins to evolve.",
+        "synopsis": "Voyager rescues a dying Vidiian and during the process of trying to save her life, the Doctor's adaptive program allows him to experience romantic feelings for the first time. Lt. Paris starts objecting to his treatment on Voyager and ends up assaulting Chakotay.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/98/246479.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "32",
         "title": "Meld",
-        "date": "February 5, 1996",
+        "date": "1996-03-13",
         "productionCode": "40840-133",
-        "stardate": "49380.5"
+        "stardate": "49380.5",
+        "synopsis": "Lt. Paris leaves Voyager to travel with a Talaxian convoy claiming to not fit in with Voyager's crew. Neelix later suspects Lt. Paris of being a traitor to Voyager when he decides to become a investigative video journalist.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/98/246480.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "33",
         "title": "Dreadnought",
-        "date": "February 12, 1996",
+        "date": "1996-03-18",
         "productionCode": "40840-134",
-        "stardate": "49447.3"
+        "stardate": "49447.3",
+        "synopsis": "While trying to avoid the Vidiians, Voyager travels to a region of space that will disguise them from their sensors. Subsequently, an onboard disaster occurs while Ensign Wildman is having her baby, which causes problems for the Doctor.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/98/246705.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "34",
         "title": "Death Wish",
-        "date": "February 19, 1996",
+        "date": "1996-04-08",
         "productionCode": "40840-130",
-        "stardate": "49401.2"
+        "stardate": "49401.2",
+        "synopsis": "After Tuvok crash lands on a moon that is considered sacred, he attempts to save three abandoned children, while also repairing his shuttle.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/98/246706.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "35",
         "title": "Lifesigns",
-        "date": "February 26, 1996",
+        "date": "1996-04-29",
         "productionCode": "40840-136",
-        "stardate": "49504.3"
+        "stardate": "49504.3",
+        "synopsis": "The crew of Voyager discovers a world with technology and no people. They then determine that the planets inhabitants are in hibernation in order to protect themselves from a natural disaster.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/98/246708.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "36",
         "title": "Investigations",
-        "date": "March 13, 1996",
+        "date": "1996-05-06",
         "productionCode": "40840-135",
-        "stardate": "49507.2"
+        "stardate": "49507.2",
+        "synopsis": "Stardate: 49655.2 While returning from an away mission, a transporter accident merges Tuvok and Neelix into one new being with the personality of both combined. He calls himself \"Tuvix.\" But the Doctor's search for how to restore their original forms causes a moral dilemma as Tuvix does not wish to be terminated.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/98/247021.jpg"
       },
       {
         "displayNumber": "21",
         "overallNumber": "37",
         "title": "Deadlock",
-        "date": "March 18, 1996",
+        "date": "1996-05-13",
         "productionCode": "40840-137",
-        "stardate": "49548.7"
+        "stardate": "49548.7",
+        "synopsis": "After Captain Janeway and Chakotay contract a deadly virus, they are set down on a small planet so the rest of the crew will not become infected.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/98/247024.jpg"
       },
       {
         "displayNumber": "22",
         "overallNumber": "38",
         "title": "Innocence",
-        "date": "April 8, 1996",
+        "date": "1996-05-20",
         "productionCode": "40840-138",
-        "stardate": "49578.2"
+        "stardate": "49578.2",
+        "synopsis": "Chakotay is told his son has been taken by the Kazons, during the process of trying to rescue him Voyager is taken by the Kazons after the crew looses the ship in a running battle with the Kazons.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/99/248247.jpg"
       },
       {
         "displayNumber": "23",
@@ -4359,7 +7212,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "The Thaw",
         "date": "April 29, 1996",
         "productionCode": "40840-139",
-        "stardate": "49610.3"
+        "stardate": "49610.3",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "24",
@@ -4367,7 +7222,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Tuvix",
         "date": "May 6, 1996",
         "productionCode": "40840-140",
-        "stardate": "49655.2"
+        "stardate": "49655.2",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "25",
@@ -4375,7 +7232,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Resolutions",
         "date": "May 13, 1996",
         "productionCode": "40840-141",
-        "stardate": "49690.1, 49694.2"
+        "stardate": "49690.1, 49694.2",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "26",
@@ -4383,7 +7242,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Basics, Part I",
         "date": "May 20, 1996",
         "productionCode": "40840-142",
-        "stardate": "50023.5"
+        "stardate": "50023.5",
+        "synopsis": "",
+        "guestCast": []
       }
     ],
     [
@@ -4391,209 +7252,313 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "43",
         "title": "Basics, Part II",
-        "date": "September 4, 1996",
+        "date": "1996-09-04",
         "productionCode": "40840-146",
-        "stardate": "50032.7"
+        "stardate": "50032.7",
+        "synopsis": "Captain Janeway and her crew battle the primitive planet they were dropped on while a rescue attempt originates from Voyager itself.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/100/250697.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "44",
         "title": "Flashback",
-        "date": "September 11, 1996",
+        "date": "1996-09-11",
         "productionCode": "40840-145",
-        "stardate": "50126.4"
+        "stardate": "50126.4",
+        "synopsis": "Mind melding with Tuvok causes Captain Janeway to relive her tour of duty with Capt. Sulu and Cmdr. Rand.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/100/250694.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "45",
         "title": "The Chute",
-        "date": "September 18, 1996",
+        "date": "1996-09-18",
         "productionCode": "40840-147",
-        "stardate": "50156.2"
+        "stardate": "50156.2",
+        "synopsis": "Lt. Paris and Ensign Kim are accused of being members of a terrorist group called 'Open Sky' and imprisoned; Nexis is asked to use his ship on a special mission to help them.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/100/250692.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "46",
         "title": "The Swarm",
-        "date": "September 25, 1996",
+        "date": "1996-09-25",
         "productionCode": "40840-149",
-        "stardate": "50252.3"
+        "stardate": "50252.3",
+        "synopsis": "Voyager's crew fights off alien vessels; a holodeck accident cause the Doctor's memory circuits to fail; Lt. Paris and Belana are injured.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/100/252142.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "47",
         "title": "False Profits",
-        "date": "October 2, 1996",
+        "date": "1996-10-02",
         "productionCode": "40840-144",
-        "stardate": "50074.3"
+        "stardate": "50074.3",
+        "synopsis": "Stardate: 50074.3 Voyager discovers a pair of Ferengi masquerading as demigods to profit from a planetary culture still in its Bronze Age. They arrived through the Barzan Wormhole, which leads back to the Alpha Quadrant; however, its Delta Quadrant end is highly unstable and always moving. The crew must find a way to end this exploitation while trying to use the same wormhole to return home.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/101/253710.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "48",
         "title": "Remember",
-        "date": "October 9, 1996",
+        "date": "1996-10-09",
         "productionCode": "40840-148",
-        "stardate": "50203.1, 50211.4"
+        "stardate": "50203.1, 50211.4",
+        "synopsis": "Lt. Torres is haunted by dreams of a forbidden love affair when the crew of Voyager picks up several Enaran passengers.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/102/255490.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "49",
         "title": "Sacred Ground",
-        "date": "October 30, 1996",
+        "date": "1996-10-30",
         "productionCode": "40840-143",
-        "stardate": "50063.2"
+        "stardate": "50063.2",
+        "synopsis": "Kes is accidentally injured at a sacred shrine and Captain Janeway undergoes a arduous spiritual test in order to try and save her on the Nechani world.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/101/253711.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "50",
         "title": "Future's End, Part I",
-        "date": "November 6, 1996",
+        "date": "1996-11-06",
         "productionCode": "40840-150",
-        "stardate": "50312.6"
+        "stardate": "50312.6",
+        "synopsis": "Voyager accidentally travels back in time when they have a encounter with a ship from the future that wants to destroy them. They arrive in 1996 Los Angeles and attempt to help prevent a event that could drastically alter Earth's future in the 29th century.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/101/253712.jpg"
       },
       {
         "displayNumber": "A 29th century timeship causes a time paradox when it accidentally sends itself and Voyager to two different periods in 20th century Earth.",
         "overallNumber": "A 29th century timeship causes a time paradox when it accidentally sends itself and Voyager to two different periods in 20th century Earth.",
         "title": "A 29th century timeship causes a time paradox when it accidentally sends itself and Voyager to two different periods in 20th century Earth.",
-        "date": "A 29th century timeship causes a time paradox when it accidentally sends itself and Voyager to two different periods in 20th century Earth.",
+        "date": "1996-11-13",
         "productionCode": "A 29th century timeship causes a time paradox when it accidentally sends itself and Voyager to two different periods in 20th century Earth.",
-        "stardate": "A 29th century timeship causes a time paradox when it accidentally sends itself and Voyager to two different periods in 20th century Earth."
+        "stardate": "A 29th century timeship causes a time paradox when it accidentally sends itself and Voyager to two different periods in 20th century Earth.",
+        "synopsis": "Lt. Paris and Tuvok seek help in Los Angeles as Henry Starling takes Voyagers Doctor hostage and prepares to launch his stolen time ship.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/101/253713.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "51",
         "title": "Future's End, Part II",
-        "date": "November 13, 1996",
+        "date": "1996-11-20",
         "productionCode": "40840-151",
-        "stardate": "50312.6"
+        "stardate": "50312.6",
+        "synopsis": "Stardate: 50348.1 An injured Ilari named Tieran, brought on board Voyager before his ship explodes, transfers his consciousness into Kes' mind moments before he dies. The alien gains control over her and uses her abilities to steal a shuttlecraft. The warlord returns to his home world to attempt a political coup.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/102/255489.jpg"
       },
       {
         "displayNumber": "Janeway must prevent the destruction of the Solar System by a 20th-century entrepreneur who has acquired the timeship.",
         "overallNumber": "Janeway must prevent the destruction of the Solar System by a 20th-century entrepreneur who has acquired the timeship.",
         "title": "Janeway must prevent the destruction of the Solar System by a 20th-century entrepreneur who has acquired the timeship.",
-        "date": "Janeway must prevent the destruction of the Solar System by a 20th-century entrepreneur who has acquired the timeship.",
+        "date": "1996-11-27",
         "productionCode": "Janeway must prevent the destruction of the Solar System by a 20th-century entrepreneur who has acquired the timeship.",
-        "stardate": "Janeway must prevent the destruction of the Solar System by a 20th-century entrepreneur who has acquired the timeship."
+        "stardate": "Janeway must prevent the destruction of the Solar System by a 20th-century entrepreneur who has acquired the timeship.",
+        "synopsis": "Q surprises Captain Janeway in her quarters with the announcement that he has chosen her to be the mother of his child to be. Janeway discovers that there is a civil war going on in the Q Continuum.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/102/255491.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "52",
         "title": "Warlord",
-        "date": "November 20, 1996",
+        "date": "1996-12-11",
         "productionCode": "40840-152",
-        "stardate": "50348.1, 50351.4, 50361.7"
+        "stardate": "50348.1, 50351.4, 50361.7",
+        "synopsis": "Stardate: 50425.1 Captain Janeway and Neelix return from a difficult first contact and trade mission with the Tak Tak to find Voyager disabled and adrift in space with the crew barely alive. They soon learn that alien macroviral lifeforms overran the ship and grew rapidly in size. After Neelix becomes infected, Captain Janeway and The Doctor must retake the ship.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/102/255631.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "53",
         "title": "The Q and the Grey",
-        "date": "November 27, 1996",
+        "date": "1997-01-08",
         "productionCode": "40840-153",
-        "stardate": "50384.2, 50392.7"
+        "stardate": "50384.2, 50392.7",
+        "synopsis": "Neelix meet's up with Wiiban, a fellow Telaxian who he used to work with in the past and is conned into using a Federation shuttlecraft to traffic in narcotics.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/102/255633.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "54",
         "title": "Macrocosm",
-        "date": "December 11, 1996",
+        "date": "1997-01-15",
         "productionCode": "40840-154",
-        "stardate": "50425.1"
+        "stardate": "50425.1",
+        "synopsis": "When Ensign Kim falls for a attractive Holodeck character, he seeks help from Tuvok in learning how to suppress his emotions.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/102/255669.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "55",
         "title": "Fair Trade",
-        "date": "January 8, 1997",
+        "date": "1997-01-29",
         "productionCode": "40840-156",
-        "stardate": "50501.7"
+        "stardate": "50501.7",
+        "synopsis": "Captain Janeway is critically injured in a shuttle crash all the crew except for Kes thinks she is dead. Janeway has visions of her deceased father Admiral Janeway.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/102/255673.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "56",
         "title": "Alter Ego",
-        "date": "January 15, 1997",
+        "date": "1997-02-05",
         "productionCode": "40840-155",
-        "stardate": "50460.3, 50471.3"
+        "stardate": "50460.3, 50471.3",
+        "synopsis": "Torres has a unpleasant encounter with Vorick, a Vulcan crew member who is starting to go through Pon-Far. Torres then finds herself getting more and more out of control putting crew members in jeopardy.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460586.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "57",
         "title": "Coda",
-        "date": "January 29, 1997",
+        "date": "1997-02-12",
         "productionCode": "40840-158",
-        "stardate": "50518.6"
+        "stardate": "50518.6",
+        "synopsis": "Commander Chakotay is attacked after answering a distress signal then is surprised by the people who sent the signal. Captain Janeway makes a scary discovery in nearby space, a derelict Borg Cube.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460587.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "58",
         "title": "Blood Fever",
-        "date": "February 5, 1997",
+        "date": "1997-02-19",
         "productionCode": "40840-157",
-        "stardate": "50537.2, 50541.6"
+        "stardate": "50537.2, 50541.6",
+        "synopsis": "Stardate: 50693.2 When the doctor tries to enhance his personality by incorporating the psychological profiles of famous and historical people, he is overwhelmed by their dark sides and begins exhibiting signs of a split personality, one the regular doctor and the other dark and evil. Kes considers leaving Voyager when they encounter a race with vast knowledge of the region of space they are currently exploring.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/103/258228.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "59",
         "title": "Unity",
-        "date": "February 12, 1997",
+        "date": "1997-02-26",
         "productionCode": "40840-159",
-        "stardate": "50614.2, 50622.4"
+        "stardate": "50614.2, 50622.4",
+        "synopsis": "Voyager's crew is giving help to the Nezu's planet when they are being hit by asteroids. Tuvok and Neelix are trapped on the ground when they attempt to rescue a Nezu doctor who says he has information about the asteroids that are hitting the planet.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/103/258231.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "60",
         "title": "Darkling",
-        "date": "February 19, 1997",
+        "date": "1997-03-19",
         "productionCode": "40840-161",
-        "stardate": "50693.2"
+        "stardate": "50693.2",
+        "synopsis": "Ensign Kim leads Voyager to a strange planet where the almost all female population claims to recall his birth there on that planet.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/103/258232.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "61",
         "title": "Rise",
-        "date": "February 26, 1997",
+        "date": "1997-04-09",
         "productionCode": "40840-160",
-        "stardate": "50654.9"
+        "stardate": "50654.9",
+        "synopsis": "Stardate: 50973 The Doctor's life-extension experimental treatment sends Kes out of temporal sync. She begins traveling backward through time from the moment of her death. With each shift, she comes closer to a solution but she also grows months and years younger at a time.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/103/258234.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "62",
         "title": "Favorite Son",
-        "date": "March 19, 1997",
+        "date": "1997-04-23",
         "productionCode": "40840-162",
-        "stardate": "50732.4"
+        "stardate": "50732.4",
+        "synopsis": "Voyager comes across a previously unseen phenomena in space, and Tom becomes trapped inside it. The Doctor attempts to experience a home life by creating a holographic family. B'ellana helps him make them more real after meeting them and seeing they are far too perfect.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/104/260845.jpg"
       },
       {
         "displayNumber": "21",
         "overallNumber": "63",
         "title": "Before and After",
-        "date": "April 9, 1997",
+        "date": "1997-04-30",
         "productionCode": "40840-163",
-        "stardate": "50792.6 (probable), 55836.2 (temporal jump)"
+        "stardate": "50792.6 (probable), 55836.2 (temporal jump)",
+        "synopsis": "Scientists of the Voth race discover the human remains of a Voyager crewman and locate a genetic pattern similar to their own.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/103/258235.jpg"
       },
       {
         "displayNumber": "22",
         "overallNumber": "64",
         "title": "Real Life",
-        "date": "April 23, 1997",
+        "date": "1997-05-07",
         "productionCode": "40840-164",
-        "stardate": "50836.2"
+        "stardate": "50836.2",
+        "synopsis": "Strange aliens replace Voyager's crew members one by one and claim not to know why they are there. The transplanted crew members arrive in an idyllic world. The aliens take over Voyager when enough are aboard, and Janeway scrambles to retake it.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/70/176673.jpg"
       },
       {
         "displayNumber": "23",
         "overallNumber": "65",
         "title": "Distant Origin",
-        "date": "April 30, 1997",
+        "date": "1997-05-14",
         "productionCode": "40840-165",
-        "stardate": "50903.7"
+        "stardate": "50903.7",
+        "synopsis": "Members of the Voyager crew clandestinely participate in a hidden holodeck program where the ship's Maquis members stage an insurrection.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/70/176672.jpg"
       },
       {
         "displayNumber": "24",
         "overallNumber": "66",
         "title": "Displaced",
-        "date": "May 7, 1997",
+        "date": "1997-05-21",
         "productionCode": "40840-166",
-        "stardate": "50912.4, 50929.6"
+        "stardate": "50912.4, 50929.6",
+        "synopsis": "About to enter Borg space, the Voyager crew discovers a threat so devastating that even the Borg cannot deal with it.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/70/176669.jpg"
       },
       {
         "displayNumber": "25",
@@ -4601,7 +7566,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Worst Case Scenario",
         "date": "May 14, 1997",
         "productionCode": "40840-167",
-        "stardate": "50953.4"
+        "stardate": "50953.4",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "26",
@@ -4609,7 +7576,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Scorpion, Part I",
         "date": "May 21, 1997",
         "productionCode": "40840-168",
-        "stardate": "50984.3, 51003.7"
+        "stardate": "50984.3, 51003.7",
+        "synopsis": "",
+        "guestCast": []
       }
     ],
     [
@@ -4617,209 +7586,313 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "69",
         "title": "Scorpion: Part II",
-        "date": "September 3, 1997",
+        "date": "1997-09-03",
         "productionCode": "40840-169",
-        "stardate": "51003.7"
+        "stardate": "51003.7",
+        "synopsis": "Voyager finds a solution to combat the invader of Borg space. Janeway asks for free passage through their territory and in return she'll share a biological weapon. Seven of Nine is assigned to work with Janeway and the Voyager crew, but can the Borg be trusted to uphold their end of the bargain.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/70/176670.jpg"
       },
       {
         "displayNumber": "Janeway and Tuvok work with the Borg and meet Seven of Nine as they collaborate on developing a weapon against Species 8472 in exchange for safe passage through Borg space.",
         "overallNumber": "Janeway and Tuvok work with the Borg and meet Seven of Nine as they collaborate on developing a weapon against Species 8472 in exchange for safe passage through Borg space.",
         "title": "Janeway and Tuvok work with the Borg and meet Seven of Nine as they collaborate on developing a weapon against Species 8472 in exchange for safe passage through Borg space.",
-        "date": "Janeway and Tuvok work with the Borg and meet Seven of Nine as they collaborate on developing a weapon against Species 8472 in exchange for safe passage through Borg space.",
+        "date": "1997-09-10",
         "productionCode": "Janeway and Tuvok work with the Borg and meet Seven of Nine as they collaborate on developing a weapon against Species 8472 in exchange for safe passage through Borg space.",
-        "stardate": "Janeway and Tuvok work with the Borg and meet Seven of Nine as they collaborate on developing a weapon against Species 8472 in exchange for safe passage through Borg space."
+        "stardate": "Janeway and Tuvok work with the Borg and meet Seven of Nine as they collaborate on developing a weapon against Species 8472 in exchange for safe passage through Borg space.",
+        "synopsis": "Kes's telepathic powers increase and she has to make a life changing decision. The Doctor starts to remove Seven of Nines Borg implants, even though she does not want him to, because of her body is starting to reject them.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/104/260843.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "70",
         "title": "The Gift",
-        "date": "September 10, 1997",
+        "date": "1997-09-17",
         "productionCode": "40840-170",
-        "stardate": "51008"
+        "stardate": "51008",
+        "synopsis": "Torres has a stressful & emotional day with Paris. A race decimated by the Borg, called the Caatati request major assistance from Voyager.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/105/264186.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "71",
         "title": "Day of Honor",
-        "date": "September 17, 1997",
+        "date": "1997-09-24",
         "productionCode": "40840-172",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "After Chakotay is marooned on a planet where two alien life forms are attempting genocide against each other, he starts to feel sympathy for the aliens who are helping him since he is not of their enemy race. Janeway and the command crew attempt to discover where Chakotay's shuttle crashed.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/104/260846.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "72",
         "title": "Nemesis",
-        "date": "September 24, 1997",
+        "date": "1997-10-01",
         "productionCode": "40840-171",
-        "stardate": "51082.4"
+        "stardate": "51082.4",
+        "synopsis": "The Doctor and Torres go on a away mission to a space station after receiving a distress call from a holographic crewman. Ensign Kim and Seven of Nine work with each other again and start to get to know each other.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/104/260847.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "73",
         "title": "Revulsion",
-        "date": "October 1, 1997",
+        "date": "1997-10-08",
         "productionCode": "40840-173",
-        "stardate": "51186.2"
+        "stardate": "51186.2",
+        "synopsis": "Seven of Nine's Borg implants begin regenerating after she experiences hallucinations and flashbacks from her life before assimilation. She flees Voyager in a shuttle to attempt rejoining the Borg. After escaping into a region of space governed by the B'omar, she discovers a wrecked Federation spaceship on an uninhabited moon. This ship is the Raven where the Borg assimilated her and her parents 20 years ago.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/104/261140.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "74",
         "title": "The Raven",
-        "date": "October 8, 1997",
+        "date": "1997-10-29",
         "productionCode": "40840-174",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "The Doctor and Seven of Nine discover that a mysterious illness striking down the crew is the work of aliens conducting genetic experiments on crew members.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/102/257185.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "75",
         "title": "Scientific Method",
-        "date": "October 29, 1997",
+        "date": "1997-11-05",
         "productionCode": "40840-175",
-        "stardate": "51244.3"
+        "stardate": "51244.3",
+        "synopsis": "A renegade Krenim warship with the ability to alter the time stream threatens the crew of Voyager as they pass through what has now become the Krenim empire.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/105/264193.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "76",
         "title": "Year of Hell: Part I",
-        "date": "November 5, 1997",
+        "date": "1997-11-12",
         "productionCode": "40840-176",
-        "stardate": "51268.4"
+        "stardate": "51268.4",
+        "synopsis": "Captain Janeway desperately tries to keep Voyager from being completely destroyed, Paris and Chakotay try to plot how to save Voyager while on the Krenim time ship.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/105/264196.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "77",
         "title": "Year of Hell: Part II",
-        "date": "November 12, 1997",
+        "date": "1997-11-19",
         "productionCode": "40840-177",
-        "stardate": "51425.4"
+        "stardate": "51425.4",
+        "synopsis": "While Voyager's crew is on shore leave on a planet of peaceful telepaths with no crime, one of the world's citizens performs a savage beating. This sparks an investigation and jailing of Lt. Torres due to her voilent thoughts. Tuvok makes friends with the world's police officer, and Neelix becomes interested in a female shopkeeper.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/106/267201.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "78",
         "title": "Random Thoughts",
-        "date": "November 19, 1997",
+        "date": "1997-11-26",
         "productionCode": "40840-178",
-        "stardate": "51367.2"
+        "stardate": "51367.2",
+        "synopsis": "While on their journey home, Voyager is plundered by space pirates, who use a special transporter to steal machinery from passing ships. Captain Janeway and Tuvok pursue them to their homeworld, where the holodeck program of Leonardo Da Vinci helps Captain Janeway get Voyager's items back.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/107/269195.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "79",
         "title": "Concerning Flight",
-        "date": "November 26, 1997",
+        "date": "1997-12-17",
         "productionCode": "40840-179",
-        "stardate": "51386.4"
+        "stardate": "51386.4",
+        "synopsis": "Neelix is accidently killed by a protomatter discharge on an away mission and then \"reactivated\" by Seven's Borg nanoprobes. He finds himself in a deep existential and spiritual crisis, questioning his faith and the meaning of his existence,",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/113/282993.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "80",
         "title": "Mortal Coil",
-        "date": "December 17, 1997",
+        "date": "1998-01-14",
         "productionCode": "40840-180",
-        "stardate": "51449.2"
+        "stardate": "51449.2",
+        "synopsis": "The crew experiences vivid nightmares, all containing the same mysterious alien. Chakotay must stay awake to lead an attack against a species that lives in the dreams of Voyager's crew.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/113/282994.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "81",
         "title": "Waking Moments",
-        "date": "January 14, 1998",
+        "date": "1998-01-21",
         "productionCode": "40840-182",
-        "stardate": "51471.3"
+        "stardate": "51471.3",
+        "synopsis": "Seven of Nine discovers an ancient subspace relay network that extends to the Alpha Quadrant. They can send the Doctor through to a Federation ship at the other end, the experimental U.S.S. Prometheus , only to discover that Romulans have taken it over.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/113/282996.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "82",
         "title": "Message in a Bottle",
-        "date": "January 21, 1998",
+        "date": "1998-02-11",
         "productionCode": "40840-181",
-        "stardate": "51462"
+        "stardate": "51462",
+        "synopsis": "After contacting Starfleet Command using the alien relay modules to communicate with Earth, Starfleet replies with letters from the crew's friends and family. Using of the alien array attracts the attention of the Hirogen, an alien species that live to hunt other humanoids.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/113/282997.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "83",
         "title": "Hunters",
-        "date": "February 11, 1998",
+        "date": "1998-02-18",
         "productionCode": "40840-183",
-        "stardate": "51501.4"
+        "stardate": "51501.4",
+        "synopsis": "Stardate: 51652.3 - When Voyager encounters a disabled Hirogen ship with a wounded Hirogen aboard, Captain Janeway beams him aboard for treatment. Soon, the prey being hunted by this particular Hirogen, a member of Species 8472, boards Voyager , damaging it. The only immediate solution is to let the Hirogen assist the crew in tracking its prey. Finding the creature severely wounded, Captain Janeway puts it under her protection, much to the chagrin of Hirogen. Seven of Nine disobeys Janeway's order and transports the Hirogen hunter and the creature to another Hirogen ship.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/107/269196.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "84",
         "title": "Prey",
-        "date": "February 18, 1998",
+        "date": "1998-02-25",
         "productionCode": "40840-184",
-        "stardate": "51652.3"
+        "stardate": "51652.3",
+        "synopsis": "After working with an arms dealer, Seven of Nine starts having mental images of the arms dealer holding her captive and stealing Borg Nanobots from her. Captain Janeway starts an investigation into the matter with the help of the Doctor.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/107/269197.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "85",
         "title": "Retrospect",
-        "date": "February 25, 1998",
+        "date": "1998-03-04",
         "productionCode": "40840-185",
-        "stardate": "51658.2"
+        "stardate": "51658.2",
+        "synopsis": "When the Hirogen capture and board Voyager , they discover that they can use the holodeck to improve the hunt by putting the prey through different situations and locations. In one simulation, Captain Janeway, Torres, Tuvok, and Seven of Nine are members of the French resistance in occupied France during World War II, with the Hirogen in roles as Nazi SS Officers. Since the Hirogen implanted the crew with subdermal transmitters, they have no idea this is on the holodeck with the safety protocols removed, and they think it's real. The Doctor in sickbay is forced to heal the injured, and it is up to him to disable the transmitters and help the crew escape.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/111/277545.jpg"
       },
       {
         "displayNumber": "1819",
         "overallNumber": "8687",
         "title": "The Killing Game",
-        "date": "March 4, 1998",
+        "date": "1998-03-04",
         "productionCode": "40840-186/187",
-        "stardate": "51715.2"
+        "stardate": "51715.2",
+        "synopsis": "Captain Janeway, Seven of Nine, and Harry Kim work to shut down the Holodeck simulation set in occupied France during World War II that the Hirogens started and expanded while also trying to restore the rest of the crew's identities.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/111/278230.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "88",
         "title": "Vis à Vis",
-        "date": "April 8, 1998",
+        "date": "1998-04-08",
         "productionCode": "40840-188",
-        "stardate": "51762.4"
+        "stardate": "51762.4",
+        "synopsis": "An identity-stealing alien (or genome thief) switches physical forms with Tom Paris and then takes command of Voyager after assuming Janeway's identity.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/113/282998.jpg"
       },
       {
         "displayNumber": "21",
         "overallNumber": "89",
         "title": "The Omega Directive",
-        "date": "April 15, 1998",
+        "date": "1998-04-15",
         "productionCode": "40840-189",
-        "stardate": "51781.2"
+        "stardate": "51781.2",
+        "synopsis": "Stardate: 51781.2 - Voyager is forced out of warp when it detects the most powerful substance known to exist called \"Omega,\" which only Janeway and Seven of Nine know about onboard the ship. The Borg experimented with \"Omega\" in the past. Due to the nature of the particle, a top-secret Starfleet directive gives knowledge of it only to Starfleet Captains and orders its destruction at all costs because the unstable molecule has the power to destroy subspace. Janeway must enlist the help of the senior crew on a need-to-know basis to destroy it safely.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/113/283004.jpg"
       },
       {
         "displayNumber": "22",
         "overallNumber": "90",
         "title": "Unforgettable",
-        "date": "April 22, 1998",
+        "date": "1998-04-22",
         "productionCode": "40840-190",
-        "stardate": "51813.4"
+        "stardate": "51813.4",
+        "synopsis": "A beautiful alien fleeing danger asks for Chakotay's help, claiming they knew each other in the past. She requests asylum aboard Voyager , saying she was on the ship a month ago and fell in love with Chakotay. But neither he nor any of the crew remembers her anymore.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/117/294719.jpg"
       },
       {
         "displayNumber": "23",
         "overallNumber": "91",
         "title": "Living Witness",
-        "date": "April 29, 1998",
+        "date": "1998-04-29",
         "productionCode": "40840-191",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Seven hundred years into the future, a backup version of the Doctor is reactivated and faces trial for war crimes. He must uncover the truth to defend Voyager's crew and set history straight when an alien race claims that the Warship Voyager was responsible for war crimes committed against their race when the ship passed their planet centuries ago.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/119/298753.jpg"
       },
       {
         "displayNumber": "A Kyrian museum curator 700 years in the future hopes a Voyager relic containing a copy of the Doctor can confirm their version of history.",
         "overallNumber": "A Kyrian museum curator 700 years in the future hopes a Voyager relic containing a copy of the Doctor can confirm their version of history.",
         "title": "A Kyrian museum curator 700 years in the future hopes a Voyager relic containing a copy of the Doctor can confirm their version of history.",
-        "date": "A Kyrian museum curator 700 years in the future hopes a Voyager relic containing a copy of the Doctor can confirm their version of history.",
+        "date": "1998-05-06",
         "productionCode": "A Kyrian museum curator 700 years in the future hopes a Voyager relic containing a copy of the Doctor can confirm their version of history.",
-        "stardate": "A Kyrian museum curator 700 years in the future hopes a Voyager relic containing a copy of the Doctor can confirm their version of history."
+        "stardate": "A Kyrian museum curator 700 years in the future hopes a Voyager relic containing a copy of the Doctor can confirm their version of history.",
+        "synopsis": "Stardate: Unknown - In search of the vital chemical deuterium essential to Voyager's energy supplies, they discover a hostile \"Demon class\" planet with reserves large enough to replenish the ship. Ensign Kim and Tom Paris take a shuttlecraft to the planet's surface in environmental suits. Soon they are found on the planet without suits, and the ship's atmosphere becomes poisonous to them.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/113/283013.jpg"
       },
       {
         "displayNumber": "24",
         "overallNumber": "92",
         "title": "Demon",
-        "date": "May 6, 1998",
+        "date": "1998-05-13",
         "productionCode": "40840-192",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Stardate: 51929.3 - When Voyager encounters a deadly radioactive nebula, Captain Janeway decides to save time by going through it and placing the crew in protective stasis chambers to survive, with only Seven of Nine and the Doctor left to protect the ship. Seven soon starts experiencing hallucinations when an alien wants to trade vital supplies.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/113/283015.jpg"
       },
       {
         "displayNumber": "25",
         "overallNumber": "93",
         "title": "One",
-        "date": "May 13, 1998",
+        "date": "1998-05-20",
         "productionCode": "40840-193",
-        "stardate": "51929.3"
+        "stardate": "51929.3",
+        "synopsis": "Stardate: 51978.2 - An alien translator named Arturis can finally decode the Starfleet message received by Voyager five months ago. It directs them to a nearby sector where an unmanned Federation starship waits for them. It's equipped with a propulsion system faster than warp drive, which can bring them home within three months. While the crew members are elated, Seven requests permission to remain in the Delta quadrant. However, everything is not what it seems when alien technology is found aboard the new ship.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/113/283016.jpg"
       },
       {
         "displayNumber": "26",
@@ -4827,7 +7900,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Hope and Fear",
         "date": "May 20, 1998",
         "productionCode": "40840-194",
-        "stardate": "51978.2"
+        "stardate": "51978.2",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "Paris and Neelix return from a mission with a passenger named Arturis who knows more than 4,000 languages. He manages to decode a message from Starfleet that could lead to a way home.",
@@ -4835,7 +7910,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Paris and Neelix return from a mission with a passenger named Arturis who knows more than 4,000 languages. He manages to decode a message from Starfleet that could lead to a way home.",
         "date": "Paris and Neelix return from a mission with a passenger named Arturis who knows more than 4,000 languages. He manages to decode a message from Starfleet that could lead to a way home.",
         "productionCode": "Paris and Neelix return from a mission with a passenger named Arturis who knows more than 4,000 languages. He manages to decode a message from Starfleet that could lead to a way home.",
-        "stardate": "Paris and Neelix return from a mission with a passenger named Arturis who knows more than 4,000 languages. He manages to decode a message from Starfleet that could lead to a way home."
+        "stardate": "Paris and Neelix return from a mission with a passenger named Arturis who knows more than 4,000 languages. He manages to decode a message from Starfleet that could lead to a way home.",
+        "synopsis": "",
+        "guestCast": []
       }
     ],
     [
@@ -4843,209 +7920,313 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "95",
         "title": "Night",
-        "date": "October 14, 1998",
+        "date": "1998-10-14",
         "productionCode": "40840-195",
-        "stardate": "52081.2"
+        "stardate": "52081.2",
+        "synopsis": "Stardate: 52081.2 - Voyager enters a desolate expanse of space where no stars are visible and will take two years to cross. The lack of starlight causes morale issues with the crew, and Janeway questions the choices that stranded her crew in the Delta Quadrant so far from home. They encounter two mysterious alien races who may be at war with each other. Janeway comes to the aid of one of them.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/120/302443.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "96",
         "title": "Drone",
-        "date": "October 21, 1998",
+        "date": "1998-10-21",
         "productionCode": "40840-196",
-        "stardate": "52095.2"
+        "stardate": "52095.2",
+        "synopsis": "A transporter accident merges some of Seven Of Nine's Borg nanoprobes with the Doctor's 29th Century moble holo-emitter during an away mission, creating a 29th Century super-Borg drone hybrid. Seven discovers her maternal nature as she raises and educates the young drone. Captain Janeway must decide how to deal with the potential danger to all non-borg life.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/122/305762.jpg"
       },
       {
         "displayNumber": "The Doctor's mobile emitter is damaged while beaming back from an away mission, merging with Seven of Nine's Borg nanoprobes and the DNA of a male Ensign to create a 29th century Borg.",
         "overallNumber": "The Doctor's mobile emitter is damaged while beaming back from an away mission, merging with Seven of Nine's Borg nanoprobes and the DNA of a male Ensign to create a 29th century Borg.",
         "title": "The Doctor's mobile emitter is damaged while beaming back from an away mission, merging with Seven of Nine's Borg nanoprobes and the DNA of a male Ensign to create a 29th century Borg.",
-        "date": "The Doctor's mobile emitter is damaged while beaming back from an away mission, merging with Seven of Nine's Borg nanoprobes and the DNA of a male Ensign to create a 29th century Borg.",
+        "date": "1998-10-28",
         "productionCode": "The Doctor's mobile emitter is damaged while beaming back from an away mission, merging with Seven of Nine's Borg nanoprobes and the DNA of a male Ensign to create a 29th century Borg.",
-        "stardate": "The Doctor's mobile emitter is damaged while beaming back from an away mission, merging with Seven of Nine's Borg nanoprobes and the DNA of a male Ensign to create a 29th century Borg."
+        "stardate": "The Doctor's mobile emitter is damaged while beaming back from an away mission, merging with Seven of Nine's Borg nanoprobes and the DNA of a male Ensign to create a 29th century Borg.",
+        "synopsis": "Tom Paris designs a new type of shuttlecraft named the \"Delta Flyer\" with Borg and Starfleet technologies to retrieve a Starfleet probe stuck in a giant planet's hazardous atmosphere and gravity well before aliens do. Torres exhibits reckless behavior by engaging in dangerous holodeck programs, such as orbital sky diving; her erratic behavior over several months comes to a peak and alarms her crewmates.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/125/312720.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "97",
         "title": "Extreme Risk",
-        "date": "October 28, 1998",
+        "date": "1998-11-04",
         "productionCode": "40840-197",
-        "stardate": "52121.7"
+        "stardate": "52121.7",
+        "synopsis": "The crew of Voyager discovers a simulation of San Francisco's Starfleet Headquarters being run by Species 8472 and used to practice launching an assault on Earth and the Alpha Quadrant. Species 8472 shape-shift into human form using regular doses of drugs.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/125/312786.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "98",
         "title": "In the Flesh",
-        "date": "November 4, 1998",
+        "date": "1998-11-11",
         "productionCode": "40840-198",
-        "stardate": "52136.4"
+        "stardate": "52136.4",
+        "synopsis": "While Voyager searches for the crew of the crashed Delta Flyer carrying Tuvok, Paris, and Ensign Samantha Wildman, Neelix must keep Samantha's daughter Naomi occupied. He tries to amuse her with a magical \"holonovel\" about forest creatures called Flotter and Trevis. When it is discovered that Samantha is badly injured, Neelix must decide how much he should tell Naomi in an attempt to protect her feelings.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/122/305869.jpg"
       },
       {
         "displayNumber": "The ship encounters one of the training facilities of Species 8472, for an alien invasion of Starfleet and of Earth.",
         "overallNumber": "The ship encounters one of the training facilities of Species 8472, for an alien invasion of Starfleet and of Earth.",
         "title": "The ship encounters one of the training facilities of Species 8472, for an alien invasion of Starfleet and of Earth.",
-        "date": "The ship encounters one of the training facilities of Species 8472, for an alien invasion of Starfleet and of Earth.",
+        "date": "1998-11-18",
         "productionCode": "The ship encounters one of the training facilities of Species 8472, for an alien invasion of Starfleet and of Earth.",
-        "stardate": "The ship encounters one of the training facilities of Species 8472, for an alien invasion of Starfleet and of Earth."
+        "stardate": "The ship encounters one of the training facilities of Species 8472, for an alien invasion of Starfleet and of Earth.",
+        "synopsis": "Voyager uses new quantum slipstream technology in an attempt to return home, but a miscalculation by Kim causes the ship to crash into an ice planet. Fifteen years later, the sole survivors, Chakotay and Kim, have resigned from Starfleet and attempt to alter history to save the ship from disaster before Starfleet can stop them. They steal the Delta Flyer to send a message back in time and avert the catastrophe. However, Captain Geordi LaForge is determined to stop them at all costs.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/171/427616.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "99",
         "title": "Once Upon a Time",
-        "date": "November 11, 1998",
+        "date": "1998-11-25",
         "productionCode": "40840-199",
-        "stardate": "52138.8"
+        "stardate": "52138.8",
+        "synopsis": "Voyager encounters a Borg cube's debris field containing technology called a Vinculum, a device that connects all the drone's minds. The device causes Seven of Nine to exhibit multiple personalities of people she assimilated as a member of the collective, including a Klingon, a Ferengi, a Vulcan, and a human. Soon, they become so strong that they may overwhelm Seven's own personality.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/122/305868.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "100",
         "title": "Timeless",
-        "date": "November 18, 1998",
+        "date": "1998-12-02",
         "productionCode": "40840-201",
-        "stardate": "52164.3"
+        "stardate": "52164.3",
+        "synopsis": "A dying alien organism attaches itself to B'Elanna's nervous system, and the Doctor doesn't know how to treat her. He enlists the help of a holographic recreation of the Cardassian Dr. Crell Mossett, an exobiology specialist and war criminal, to save her life. B'Elanna refuses all treatment when the Bajoran crew informs her that Crell was responsible for sadistic war crimes during the occupation. The Doctor experiences a moral quandary about using and retaining Crell's program.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/104/262277.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "101",
         "title": "Infinite Regress",
-        "date": "November 25, 1998",
+        "date": "1998-12-09",
         "productionCode": "40840-203",
-        "stardate": "52188.7"
+        "stardate": "52188.7",
+        "synopsis": "The crew of Voyager discovers a strange ocean world in space and offers to help the inhabitants find out why the ocean is losing water to space. They find the forcefield maintaining the planet's integrity is breaking down. Tom Paris directly disobeys orders in an attempt to save the planet, which results in his demotion to Ensign and being placed in the brig for thirty days. Paris tells the story of this episode in a letter for his father to pass the time in the ship's brig. When first encountering the world, Paris interrupts Kim in the middle of his Chaotica holodeck adventure.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/128/320400.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "102",
         "title": "Nothing Human",
-        "date": "December 2, 1998",
+        "date": "1998-12-16",
         "productionCode": "40840-200",
-        "stardate": "52143.6"
+        "stardate": "52143.6",
+        "synopsis": "While traveling through Devore space, Captain Janeway must hide all telepaths on board in transporter stasis as telepathy is illegal under Devore law. This includes two families of alien telepathic refugees rescued by the ship's crew. The Devore commander boards and inspects Voyager numerous times during their passage through that area of space. Sometime later, he returns in a small shuttle and requests asylum wishing to defect.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/134/336249.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "103",
         "title": "Thirty Days",
-        "date": "December 9, 1998",
+        "date": "1999-01-20",
         "productionCode": "40840-202",
-        "stardate": "52179.4"
+        "stardate": "52179.4",
+        "synopsis": "The Doctor discovers evidence that his short-term memory files may have been tampered with and some events were deleted. He launches an investigation into whom or what could be responsible and is shocked at who it is and why they're doing it. The Doctor recalls the death of crew member Jetal and struggles with a decision he had to make.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/171/427621.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "104",
         "title": "Counterpoint",
-        "date": "December 16, 1998",
+        "date": "1999-01-27",
         "productionCode": "40840-204",
-        "stardate": "52261.3"
+        "stardate": "52261.3",
+        "synopsis": "Chaos erupts when aliens from the Fifth Dimension interpret Lt. Paris' \"Captain Proton\" holographic novel as reality. These photonic energy life forms mistake the characters in Tom's holonovel for real people and a threat. The holodeck characters interpret this as an attack, and soon Dr. Chaotica tries to wipe them out. The only person that can stop him is Captain Janeway in the role of Queen Arachnia of the Spider People.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/130/325706.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "105",
         "title": "Latent Image",
-        "date": "January 20, 1999",
+        "date": "1999-02-03",
         "productionCode": "40840-206",
-        "stardate": "52489.3"
+        "stardate": "52489.3",
+        "synopsis": "When the shuttle carrying Tuvok, Paris, and the Doctor crashes on a deserted planet pulled down by its intense gravity, they wait to be rescued. This is a temporally-distorted area of space. From their perspective, many weeks have passed with no contact from Voyager, while onboard, only a few hours have passed as the crew plan a rescue attempt. The three are stranded with an alien woman who falls in love with Tuvok, and he finds himself somewhat attracted to her.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/171/427624.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "106",
         "title": "Bride of Chaotica!",
-        "date": "January 27, 1999",
+        "date": "1999-02-10",
         "productionCode": "40840-207",
-        "stardate": "52507.2"
+        "stardate": "52507.2",
+        "synopsis": "After five years, discovering a wormhole leading directly to Alpha Quadrant and Earth elates the crew beyond belief, but Seven Of Nine remains unconvinced that this is real. She suspects there is something wrong with how quickly and easily the Voyager's crew accepts the appearance of the phenomenon. To help her cause, she recruits Naomi Wildman, the Doctor, and an alien pilot named Qatai to stop the ship from entering and from being digested by a large bioplasmic space-dwelling lifeform.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460471.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "107",
         "title": "Gravity",
-        "date": "February 3, 1999",
+        "date": "1999-02-17",
         "productionCode": "40840-205",
-        "stardate": "52438.9"
+        "stardate": "52438.9",
+        "synopsis": "Stardate: 52619.2 - After defeating a Borg scout ship, Captain Janeway decides to launch an attack on another damaged Sphere to steal a trans-warp coil (Borg propulsion technology). However, as the crew prepares for their heist, the Borg Queen is secretly aware of the entire plan. During the mission, Seven of Nine's loyalty becomes divided between the Borg and Voyager and is lured back to the Borg collective by the Queen in exchange for the crew's safety.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/141/353133.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "108",
         "title": "Bliss",
-        "date": "February 10, 1999",
+        "date": "1999-02-17",
         "productionCode": "40840-209",
-        "stardate": "52542.3"
+        "stardate": "52542.3",
+        "synopsis": "After defeating a Borg ship, Captain Janeway decides to launch an attack to steal a trans-warp coil to shorten Voyager's journey home. The Borg detect her plan and access Seven Of Nine's neural transceiver to deliver an ultimatum: rejoin the collective or the ship and its crew will be assimilated. The ship will be guaranteed safe passage through Borg space if she agrees. After she agrees to rejoin the Borg Collective, the Borg Queen attempts to put her to work helping the Borg. Janeway launches a rescue mission to save Seven of Nine from being re-assimilated by the Borg.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/141/353134.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "109",
         "title": "Dark Frontier",
-        "date": "February 17, 1999",
+        "date": "1999-02-24",
         "productionCode": "40840-824 (211/212)",
-        "stardate": "52619.2"
+        "stardate": "52619.2",
+        "synopsis": "Ensign Kim breaks Starfleet medical rules involving contact with unknown alien species, putting Voyager in possible medical jeopardy. Without medical clearance, Kim involves himself in a love affair with an exotic member of the Varo species. Problems arise when they become biochemically interdependent after the incident.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/136/340091.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "110",
         "title": "Dark Frontier",
-        "date": "February 17, 1999",
+        "date": "1999-03-03",
         "productionCode": "40840-824 (211/212)",
-        "stardate": "52619.2"
+        "stardate": "52619.2",
+        "synopsis": "Stardate: 52586.3 After Paris and Torres wed, the ship and its crew start to disintegrate on the molecular level due to subspace radiation caused by their new enhanced warp drive. As Voyager crew members begin dying, they make a startling discovery about their true identities. They are not the real Voyager . Every member of the crew and even Voyager itself are biomimetic duplicates from the \"Demon class\" planet visited months ago in the episode \"Demon\" (S04E24).",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460474.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "111",
         "title": "The Disease",
-        "date": "February 24, 1999",
+        "date": "1999-03-24",
         "productionCode": "40840-210",
-        "stardate": "52563.9"
+        "stardate": "52563.9",
+        "synopsis": "When Voyager is trapped in \"chaotic space,\" an area where the laws of physics are in a state of flux, Chakotay begins hearing and seeing things. The telepathic aliens living inside the space are trying to contact the ship. However, prolonged communication may leave him insane or braindead. In their first attempt, Chakotay was boxing on the holodeck. The aliens induced further hallucinations of him boxing as \"The Maquis Mauler,\" fighting Delta Quadrant's champion \"Kid Chaos.\" Ultimately, the aliens help Voyager safely leave \"chaotic space.\"",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460475.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "112",
         "title": "Course: Oblivion",
-        "date": "March 3, 1999",
+        "date": "1999-03-31",
         "productionCode": "40840-213",
-        "stardate": "52586.3, 52597.4 (alternative timeline)"
+        "stardate": "52586.3, 52597.4 (alternative timeline)",
+        "synopsis": "A group of extremely intelligent aliens offers to help Voyager escape from a race of bounty hunters known as the Hazari, in exchange for Seven of Nine.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460476.jpg"
       },
       {
         "displayNumber": "Lt. Torres and Ensign Paris get married; the crew discover they aren't who they think they are while trying to resolve why subspace radiation is causing them and Voyager to disintegrate. Reference to Season 4 episode \"Demon",
         "overallNumber": "Lt. Torres and Ensign Paris get married; the crew discover they aren't who they think they are while trying to resolve why subspace radiation is causing them and Voyager to disintegrate. Reference to Season 4 episode \"Demon",
         "title": "Lt. Torres and Ensign Paris get married; the crew discover they aren't who they think they are while trying to resolve why subspace radiation is causing them and Voyager to disintegrate. Reference to Season 4 episode \"Demon",
-        "date": "Lt. Torres and Ensign Paris get married; the crew discover they aren't who they think they are while trying to resolve why subspace radiation is causing them and Voyager to disintegrate. Reference to Season 4 episode \"Demon",
+        "date": "1999-04-26",
         "productionCode": "Lt. Torres and Ensign Paris get married; the crew discover they aren't who they think they are while trying to resolve why subspace radiation is causing them and Voyager to disintegrate. Reference to Season 4 episode \"Demon",
-        "stardate": "Lt. Torres and Ensign Paris get married; the crew discover they aren't who they think they are while trying to resolve why subspace radiation is causing them and Voyager to disintegrate. Reference to Season 4 episode \"Demon"
+        "stardate": "Lt. Torres and Ensign Paris get married; the crew discover they aren't who they think they are while trying to resolve why subspace radiation is causing them and Voyager to disintegrate. Reference to Season 4 episode \"Demon",
+        "synopsis": "Voyager encounters a damaged and adrift Malon freighter in danger of releasing deadly theta radiation into that sector of space and rescues two crew members. Captain Janeway sends a repair crew to try and contain the radiation spread. Before they embark on the mission, the two crewmen warn them about mythical monsters that are said to wreak havoc aboard ships.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/141/353655.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "113",
         "title": "The Fight",
-        "date": "March 24, 1999",
+        "date": "1999-04-28",
         "productionCode": "40840-208",
-        "stardate": "52531.1"
+        "stardate": "52531.1",
+        "synopsis": "The Doctor teaches Seven Of Nine about human behavior and how humans interact with each other while dating. The Doctor learns a bit about his own possible humanity during the lessons. After her disastrous first date with a crew member, the Doctor personally guides her, but he soon realizes he is falling in love with her. Meanwhile, Neelix guides an ambassador of a monastic colony through the ship, unwittingly creating a potentially embarrassing situation for the ambassador when he requests forbidden food and drink.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/144/360451.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "114",
         "title": "Think Tank",
-        "date": "March 31, 1999",
+        "date": "1999-05-05",
         "productionCode": "40840-214",
-        "stardate": "52623.7"
+        "stardate": "52623.7",
+        "synopsis": "Captain Janeway recalls a 21st-century ancestor Shannon O'Donnel, involved in creating a seminal self-contained biosphere called the Millennium Gate on Earth on New Year's Eve 2000. O'Donnel must convince the last holdout, local bookstore owner Henry Janeway to approve the plan.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/154/386777.jpg"
       },
       {
         "displayNumber": "21",
         "overallNumber": "115",
         "title": "Juggernaut",
-        "date": "April 26, 1999",
+        "date": "1999-05-12",
         "productionCode": "40840-215",
-        "stardate": "52640.1"
+        "stardate": "52640.1",
+        "synopsis": "When Voyager is destroyed, Captain Braxton of the 29th Century Timeship Relativity recruits Seven of Nine to travel back in time and find who planted the \"temporal disruptor.\" However, to save Voyager , she must do this without being discovered by the past Janeway.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/171/428197.jpg"
       },
       {
         "displayNumber": "22",
         "overallNumber": "116",
         "title": "Someone to Watch Over Me",
-        "date": "April 28, 1999",
+        "date": "1999-05-19",
         "productionCode": "40840-216",
-        "stardate": "52647.1"
+        "stardate": "52647.1",
+        "synopsis": "While Kim is serving as commander of Voyager , the ship receives a distress signal. When the away team, including the Doctor, goes to a planet searching for someone needing assistance, they find a mysterious object with artificial intelligence. After Kim beams the device onboard, the crew discovers it to be an intelligent alien missile. They attempt to separate the intelligence from the weapon to save the intelligence and neutralize the weapon. But, it links with the Doctor's program terrorizing the crew and requests it be allowed to complete its mission of mass destruction.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/154/386779.jpg"
       },
       {
         "displayNumber": "23",
         "overallNumber": "117",
         "title": "11:59",
-        "date": "May 5, 1999",
+        "date": "1999-05-26",
         "productionCode": "40840-217",
-        "stardate": "52763.5 (April 22, 2375)"
+        "stardate": "52763.5 (April 22, 2375)",
+        "synopsis": "Voyager encounters another Federation starship, the USS Equinox , commanded by Captain Rudy Ransom, which the Caretaker also abducted and stranded in the Delta Quadrant. As Janeway tries to figure out Captain Ransom, hostile aliens attack both ships. However, the Doctor exposes a terrible secret the Equinox crew harbors, and Ransom steals Voyager's technology and takes Seven of Nine and the Doctor as hostages.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/171/428208.jpg"
       },
       {
         "displayNumber": "24",
@@ -5053,7 +8234,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Relativity",
         "date": "May 12, 1999",
         "productionCode": "40840-218",
-        "stardate": "52861.2"
+        "stardate": "52861.2",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "25",
@@ -5061,7 +8244,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Warhead",
         "date": "May 19, 1999",
         "productionCode": "40840-219",
-        "stardate": "52947.6"
+        "stardate": "52947.6",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "26",
@@ -5069,7 +8254,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Equinox, Part I",
         "date": "May 26, 1999",
         "productionCode": "40840-220",
-        "stardate": "52983.6, 53017.1"
+        "stardate": "52983.6, 53017.1",
+        "synopsis": "",
+        "guestCast": []
       }
     ],
     [
@@ -5077,209 +8264,313 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "121",
         "title": "Equinox: Part II",
-        "date": "September 22, 1999",
+        "date": "1999-09-22",
         "productionCode": "40840-221",
-        "stardate": "52983.6, 53017.1"
+        "stardate": "52983.6, 53017.1",
+        "synopsis": "Captain Janeway takes her quest for revenge against Captain Ransom to extremes when she orders the use of photon torpedoes against the Equinox , tractors a neutral ship, nearly kills an Equinox crewman during an interrogation, and relieves Chakotay of duty when he questions her actions.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/171/428210.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "122",
         "title": "Survival Instinct",
-        "date": "September 29, 1999",
+        "date": "1999-09-29",
         "productionCode": "40840-222",
-        "stardate": "53049.2"
+        "stardate": "53049.2",
+        "synopsis": "Stardate: 53049.2 - Seven of Nine discovers that she was freed from the Borg collective once before with three other Borg drones when their ship crashed on a planet. She is also responsible for their re-assimilation. Now, the three renegade drones stalk Seven because they are linked in their own \"collective\" and want to learn from Seven how to terminate their neural links and restore their individuality. Seven is willing to help.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460487.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "123",
         "title": "Barge of the Dead",
-        "date": "October 6, 1999",
+        "date": "1999-10-06",
         "productionCode": "40840-223",
-        "stardate": "53082.5"
+        "stardate": "53082.5",
+        "synopsis": "Stardate: Unknown. During a near-death experience aboard a shuttlecraft, B'Elanna finds herself aboard the Klingon Barge of the Dead, a spectral vessel transporting dishonored souls to Gre'thor . It is the Klingon Hell and the antithesis of Sto-vo-kor . After seeing her mother Miral there, B'Elanna must confront her Klingon heritage and risk her life to go back and save her mother's soul from this fate, even at the cost of her own.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/155/388685.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "124",
         "title": "Tinker, Tenor, Doctor, Spy",
-        "date": "October 13, 1999",
+        "date": "1999-10-13",
         "productionCode": "40840-224",
-        "stardate": "53127.6"
+        "stardate": "53127.6",
+        "synopsis": "Stardate: Unknown. The Doctor programs himself with a subroutine allowing him to daydream, which puts him directly into the center of a crisis. An alien scavenger race called the Overlookers gains access to the Doctor's cognitive subroutines to make him their spy. But, the alien spy monitoring the Doctor's visions mistakes them for reality. When the alien raiders believe they have gathered enough information about Voyager , they plan to launch an attack.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/178/446551.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "125",
         "title": "Alice",
-        "date": "October 20, 1999",
+        "date": "1999-10-20",
         "productionCode": "40840-226",
-        "stardate": "53225.7"
+        "stardate": "53225.7",
+        "synopsis": "Tom Paris persuades Chakotay to allow him to buy a shuttle from a space junkyard. While repairing it, the shuttle, which Tom names \"Alice,\" begins to gain control over Tom's mind. The sexy female persona turns the space shuttle into an obsession of Tom's, and it convinces him to cannibalize Voyager's parts.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460491.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "126",
         "title": "Riddles",
-        "date": "November 3, 1999",
+        "date": "1999-11-03",
         "productionCode": "40840-227",
-        "stardate": "53263.2"
+        "stardate": "53263.2",
+        "synopsis": "An attack by an intelligent energy source robs Tuvok of his mental prowess, leaving him exposed and vulnerable. He soon starts experiencing emotions he never expressed before. Janeway searches for the \"shadow people\" responsible for the attack. Neelix takes care of Tuvok the entire time.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460494.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "127",
         "title": "Dragon's Teeth",
-        "date": "November 10, 1999",
+        "date": "1999-11-10",
         "productionCode": "40840-225",
-        "stardate": "53167.9"
+        "stardate": "53167.9",
+        "synopsis": "Voyager comes under attack from an armada belonging to a territorial race of aliens known as the Turei. Escaping the attack by sheltering on a decimated planet, the Voyager crew finds a hibernating warrior race in chambers deep below the surface. Captain Janeway tries to ally with the inhabitants, the Vaadwaur. However, she soon begins to think the Vaadwaur may pose a more significant threat than the enemy above.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460496.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "128",
         "title": "One Small Step",
-        "date": "November 17, 1999",
+        "date": "1999-11-17",
         "productionCode": "40840-228",
-        "stardate": "53292.7, 53301.2"
+        "stardate": "53292.7, 53301.2",
+        "synopsis": "Voyager crosses paths with a graviton ellipse, a rare spatial anomaly that swallowed the Ares IV , an Earth ship orbiting Mars in 2032. The discovery calls for an away mission to search the 300-year-old U.S. spacecraft from the first manned mission to Mars trapped inside this massive ball of energy.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460503.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "129",
         "title": "The Voyager Conspiracy",
-        "date": "November 24, 1999",
+        "date": "1999-11-24",
         "productionCode": "40840-229",
-        "stardate": "53326.9, 53329.1"
+        "stardate": "53326.9, 53329.1",
+        "synopsis": "Seven of Nine begins a new method of data analysis that makes her craft a conspiracy theory that Janeway and Tuvok intentionally stranded Voyager in the Delta Quadrant. Later, a data-overloaded Seven of Nine starts spreading rumors of a mutiny and insurrection when the ship encounters an alien with technology that can catapult the ship light-years closer to home and cut years off their journey.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460504.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "130",
         "title": "Pathfinder",
-        "date": "December 1, 1999",
+        "date": "1999-12-01",
         "productionCode": "40840-230",
-        "stardate": "53382.7"
+        "stardate": "53382.7",
+        "synopsis": "On Earth, the Starship Enterprise's Lt. Barclay tries to find a way to communicate with the Starship Voyager using an artificially generated micro-wormhole. He becomes so obsessed that he needs the help of Counsellor Troi to keep his grip on reality.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460505.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "131",
         "title": "Fair Haven",
-        "date": "January 12, 2000",
+        "date": "2000-01-12",
         "productionCode": "40840-231",
-        "stardate": "53418.5"
+        "stardate": "53418.5",
+        "synopsis": "The Voyager crew enjoys leisure time in a holo-program created by Tom Paris and set in Fair Haven, an Irish coastal village of the early 20th century. Captain Janeway falls for a handsome holo-character designed specifically for her. But, a deadly neutrino wave approaching Voyager brings the festivities to a halt as this wave may prove more dangerous than they first imagined.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460506.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "132",
         "title": "Blink of an Eye",
-        "date": "January 19, 2000",
+        "date": "2000-01-19",
         "productionCode": "40840-233",
-        "stardate": "53541.8"
+        "stardate": "53541.8",
+        "synopsis": "Voyager becomes trapped in orbit of a primitive planet where time passes rapidly (days are seconds aboard the ship) and enters the mythos of its indigenous people. Inadvertently influencing the civilization, Voyager eventually becomes the target of newfound weaponry.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460510.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "133",
         "title": "Virtuoso",
-        "date": "January 26, 2000",
+        "date": "2000-01-26",
         "productionCode": "40840-234",
-        "stardate": "53556.4"
+        "stardate": "53556.4",
+        "synopsis": "When a technologically superior race, the Qomar, discovers the Doctor's singing talents, he becomes a celebrity among a race that never developed music. His newfound popularity makes him consider resigning his commission to stay on the alien world, embracing a career in opera singing with his millions of adoring fans.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460511.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "134",
         "title": "Memorial",
-        "date": "February 2, 2000",
+        "date": "2000-02-02",
         "productionCode": "40840-236",
-        "stardate": "53621.3"
+        "stardate": "53621.3",
+        "synopsis": "The crew of Voyager experience vivid memories and dreams of a battle they don't remember having, with an enemy they have never encountered. Captain Janeway worries about crew members suffering from post-traumatic stress disorders after Chakotay, Neelix, Kim, and Paris return from an exploration.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460512.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "135",
         "title": "Tsunkatse",
-        "date": "February 9, 2000",
+        "date": "2000-02-09",
         "productionCode": "40840-232",
-        "stardate": "53447.2, 53529.4"
+        "stardate": "53447.2, 53529.4",
+        "synopsis": "Seven of Nine is forced to fight a Pendari gladiator in a competition for her life known as \"Tsunkatse\" when she and Tuvok are abducted from the Delta Flyer. If she refuses to fight, Tuvok will be denied the medical aid needed to keep him from dying of injuries sustained from an explosion on the shuttle.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/107/269518.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "136",
         "title": "Collective",
-        "date": "February 16, 2000",
+        "date": "2000-02-16",
         "productionCode": "40840-235",
-        "stardate": "53582.9"
+        "stardate": "53582.9",
+        "synopsis": "A Borg ship captures a Voyager shuttle with Chakotay, Kim, Neelix, and Paris on board. Janeway enters hostage negotiations with a gang of dangerously erratic Borg children, who the Borg rejected as unworthy drones.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460515.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "137",
         "title": "Spirit Folk",
-        "date": "February 23, 2000",
+        "date": "2000-02-23",
         "productionCode": "40840-237",
-        "stardate": "53659.1"
+        "stardate": "53659.1",
+        "synopsis": "The inhabitants of the holographic town of Fair Haven suspect the Voyager crew of having mystical powers when they witness the use of their futuristic technology.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460517.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "138",
         "title": "Ashes to Ashes",
-        "date": "March 1, 2000",
+        "date": "2000-03-01",
         "productionCode": "40840-238",
-        "stardate": "53679.4"
+        "stardate": "53679.4",
+        "synopsis": "The long-dead Ensign Lindsay Ballard seeks sanctuary aboard Voyager after being killed during an away mission with Ensign Kim three years ago. She is pursued by an alien race known as the Kobali, whose only reproduction method is reanimating cadavers of other species or \"resurrection\" of the dead through genetic engineering. They had revived her and taken her as a new member of their race. When the full extent of her new Kobali genes is activated, they reach a point where she must choose between her old home on the ship or her new home with her adoptive Kobali family.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460519.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "139",
         "title": "Child's Play",
-        "date": "March 8, 2000",
+        "date": "2000-03-08",
         "productionCode": "40840-239",
-        "stardate": "53722.4"
+        "stardate": "53722.4",
+        "synopsis": "Seven of Nine defends a child Borg drone whose parents come to reclaim him. Seven suspects that Icheb's parents are not telling the truth about their son's assimilation. Mezoti, one of the Borg children still on board Voyager , holds the key to the mystery. The boy's parents plan on using him as a secret genetic weapon for revenge on the Borg, even if it results in his death.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460520.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "140",
         "title": "Good Shepherd",
-        "date": "March 15, 2000",
+        "date": "2000-03-15",
         "productionCode": "40840-240",
-        "stardate": "53753.2"
+        "stardate": "53753.2",
+        "synopsis": "Captain Janeway takes three crew members with poor performance records on an away mission in the Delta Flyer to bring them up to Starfleet standards. However, an unexpected collision with a Dark Matter comet leaves the crew in a dangerous situation. Plus, an unexpected attack forces them to work together to survive.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460521.jpg"
       },
       {
         "displayNumber": "21",
         "overallNumber": "141",
         "title": "Live Fast and Prosper",
-        "date": "April 19, 2000",
+        "date": "2000-04-19",
         "productionCode": "40840-242",
-        "stardate": "53849.2"
+        "stardate": "53849.2",
+        "synopsis": "A group of con artists impersonates Captain Janeway and the crew of Voyager while pulling scams and marring Starfleet's reputation. The crew must find the imposters soon, or they will be punished for the con artists' crimes.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460527.jpg"
       },
       {
         "displayNumber": "22",
         "overallNumber": "142",
         "title": "Muse",
-        "date": "April 26, 2000",
+        "date": "2000-04-26",
         "productionCode": "40840-244",
-        "stardate": "53896.1"
+        "stardate": "53896.1",
+        "synopsis": "A well-meaning alien poet discovers an unconscious B'Elanna Torres after her crash landing in the Delta Flyer . He uses her Voyager stories to inspire his theatrical work, composing plays based on the crew and their life on the ship to win favor with his Warlord.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460533.jpg"
       },
       {
         "displayNumber": "23",
         "overallNumber": "143",
         "title": "Fury",
-        "date": "May 3, 2000",
+        "date": "2000-05-03",
         "productionCode": "40840-241",
-        "stardate": "53810.5"
+        "stardate": "53810.5",
+        "synopsis": "Former crew member Kes returns to Voyager in a state of rage, blaming Captain Janeway for her past. Using her expanded Ocampan powers in a fit of revenge, she travels through time to betray the crew to the Vidiians, an alien life form that will absorb the crew's internal organs.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460535.jpg"
       },
       {
         "displayNumber": "24",
         "overallNumber": "144",
         "title": "Life Line",
-        "date": "May 10, 2000",
+        "date": "2000-05-10",
         "productionCode": "40840-243",
-        "stardate": "53872.6"
+        "stardate": "53872.6",
+        "synopsis": "The Pathfinder Project uses a pulsar and the MIDAS Array, allowing a data stream to reach Voyager and Voyager to reply every 32 days. News reaches Voyager through the up-and-running Pathfinder that the Doctor's creator, Dr. Lewis Zimmerman, is critically ill. In an attempt to save his life, Captain Janeway authorizes the transmission of the Doctor's program to the Alpha Quadrant. Once there, the Doctor finds Zimmerman refuses to be examined by an \"obsolete\" EMH program and himself in danger of matrix degeneration.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460538.jpg"
       },
       {
         "displayNumber": "25",
         "overallNumber": "145",
         "title": "The Haunting of Deck Twelve",
-        "date": "May 17, 2000",
+        "date": "2000-05-17",
         "productionCode": "40840-245",
-        "stardate": "53937.2"
+        "stardate": "53937.2",
+        "synopsis": "When Voyager encounters some engineering problems, Neelix keeps the Borg children entertained with a ghost story about an electromagnetic life force that holds Voyager hostage while trying to make contact with Janeway and get itself home. It's the story of an adventure the crew experienced several months ago with the ghost that lives on Deck Twelve.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460539.jpg"
       },
       {
         "displayNumber": "26",
         "overallNumber": "146",
         "title": "Unimatrix Zero: Part I",
-        "date": "May 24, 2000",
+        "date": "2000-05-24",
         "productionCode": "40840-246",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Seven of Nine is led to a place known as Unimatrix Zero, a place where Borg drones are individuals for a short period during their regeneration. However, once their regeneration is complete, all recollection of the event is erased. Captain Janeway uses this to form a plan of attack that would create a mutiny instilling independent thought from within the Borg Collective.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460540.jpg"
       }
     ],
     [
@@ -5287,209 +8578,313 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "147",
         "title": "Unimatrix Zero, Part II",
-        "date": "October 4, 2000",
+        "date": "2000-10-04",
         "productionCode": "40840-247",
-        "stardate": "54014.4"
+        "stardate": "54014.4",
+        "synopsis": "Stardate: 54014.4 - The away team of Janeway, Tuvok, and Torres infiltrate the Borg Collective and execute their plan to undermine it, even though it may destroy Unimatirix Zero forever. Meanwhile, the Borg queen launches a full-scale attack against Voyager. Seven of Nine reunites with a former lover.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460541.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "148",
         "title": "Imperfection",
-        "date": "October 11, 2000",
+        "date": "2000-10-11",
         "productionCode": "40840-248",
-        "stardate": "54129.4"
+        "stardate": "54129.4",
+        "synopsis": "Stardate: 54129.4 - Rebi and Azan reunite with their home world and leave the crew of Voyager . Mezoti accepts the invitation to stay with Rebi and Azan and live with them. Seven of Nine is placed in a life-threatening situation when her Borg implants begin to malfunction. She can only survive with replacement parts from a living drone. Janeway, Tuvok, and Paris search a destroyed Borg ship for parts but find only drones deactivated for too long. With Icheb now the last of the remaining Borg children on Voyager , he offers his implants through a risky procedure that may cost both of their lives. Seven rejects his offer to protect him, but Icheb secretly performs the dangerous operation on himself to save the ailing Seven.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/108/271716.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "149",
         "title": "Drive",
-        "date": "October 18, 2000",
+        "date": "2000-10-18",
         "productionCode": "40840-249",
-        "stardate": "54058.6"
+        "stardate": "54058.6",
+        "synopsis": "When Paris enters the Delta Flyer in a race with Torres as his co-pilot, he learns that the Flyer is targeted for foul play.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460542.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "150",
         "title": "Repression",
-        "date": "October 25, 2000",
+        "date": "2000-10-25",
         "productionCode": "40840-251",
-        "stardate": "54101"
+        "stardate": "54101",
+        "synopsis": "After members of the crew are discovered unconscious, Tuvok leads the search for the mysterious attacker who preys on those involved in the Maquis resistance movement.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460545.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "151",
         "title": "Critical Care",
-        "date": "November 1, 2000",
+        "date": "2000-11-01",
         "productionCode": "40840-250",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "The Doctor is abducted from Voyager and forced to work in a hospital where patients are treated based on their social status. He must sidestep the tyrannical hospital administrator to treat patients other than the privileged.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460546.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "152",
         "title": "Inside Man",
-        "date": "November 8, 2000",
+        "date": "2000-11-08",
         "productionCode": "40840-252",
-        "stardate": "54208.3"
+        "stardate": "54208.3",
+        "synopsis": "Stardate: 54208.3 - Voyager receives a hologram of Reginald Barclay, bringing news that the ship can be returned home in a matter of hours through a \"geodesic fold.\" However, after seeing him exhibit strange behavior, the crew becomes suspicious of the holographic Barclay's intentions. On Earth, Barclay enlists Counselor Deanna Troi's help to warn the Voyager crew when they discover the Ferengi hijacked Lt. Barclay's hologram and reprogramed it.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/108/272396.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "153",
         "title": "Body and Soul",
-        "date": "November 15, 2000",
+        "date": "2000-11-15",
         "productionCode": "40840-255",
-        "stardate": "54238.3"
+        "stardate": "54238.3",
+        "synopsis": "Stardate: 54283.3 - While in the Delta Flyer, the Doctor, Harry Kim, and Seven of Nine come under attack for transporting a hologram through Lokirrim space, an act they strictly forbid. Seven of Nine downloads him into her cybernetic implants to hide the Doctor shortly before being taken to a Lokirrim holding cell. While inside Seven, the Doctor revels in his newfound human sensations, especially an attraction to a female alien. On board Voyager, Tuvok enters Pon Farr.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/108/272488.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "154",
         "title": "Nightingale",
-        "date": "November 22, 2000",
+        "date": "2000-11-22",
         "productionCode": "40840-256",
-        "stardate": "54274.7"
+        "stardate": "54274.7",
+        "synopsis": "Stardate: 54274.7 - While Voyager stops for major maintenance on an uninhabited planet, Harry Kim, Seven, and Neelix use the Delta Flyer to search for dilithium when they come across a war between two alien races, the Kraylor and the Annari. After receiving a distress call from a damaged Kraylor ship claiming to be on a humanitarian mission, Harry accepts his first chance at commanding a vessel of his own. However, power goes to his head as captain of the crippled alien ship under attack. Finding the ship has an uninspiring name, he renames it the Nightingale. Meanwhile, on Voyager , Icheb believes B'Elanna Torres has become attracted to him.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460548.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "155",
         "title": "Flesh and Blood",
-        "date": "November 29, 2000",
+        "date": "2000-11-29",
         "productionCode": "40840-827",
-        "stardate": "54337.5"
+        "stardate": "54337.5",
+        "synopsis": "The Doctor shocks Janeway and the crew when he commits treason to help a group of rebel holograms escape subjugation by the Hirogen.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460549.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "156",
         "title": "Flesh and Blood",
-        "date": "November 29, 2000",
+        "date": "2000-11-29",
         "productionCode": "40840-827",
-        "stardate": "54337.5"
+        "stardate": "54337.5",
+        "synopsis": "The Doctor commits treason to help a rebel band of holograms but becomes disillusioned when the leader abducts a Voyager crew member.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460550.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "157",
         "title": "Shattered",
-        "date": "January 17, 2001",
+        "date": "2001-01-17",
         "productionCode": "40840-257",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "The ship splinters into a myriad of time zones, and only Chakotay can travel among the fragments of time to save Janeway and the crew.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460555.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "158",
         "title": "Lineage",
-        "date": "January 24, 2001",
+        "date": "2001-01-24",
         "productionCode": "40840-258",
-        "stardate": "54452.6"
+        "stardate": "54452.6",
+        "synopsis": "A pregnant B'Elanna Torres is tormented by memories of an unhappy childhood as a human-Klingon youngster and the toll it took on her family.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460562.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "159",
         "title": "Repentance",
-        "date": "January 31, 2001",
+        "date": "2001-01-31",
         "productionCode": "40840-259",
-        "stardate": "54474.6"
+        "stardate": "54474.6",
+        "synopsis": "Seven of Nine cries a river of shame over her actions as a Borg after she witnesses a once-violent alien criminal's intense guilt.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460563.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "160",
         "title": "Prophecy",
-        "date": "February 7, 2001",
+        "date": "2001-02-07",
         "productionCode": "40840-260",
-        "stardate": "54518.2"
+        "stardate": "54518.2",
+        "synopsis": "A band of nomadic Klingons mistake B'Elanna's unborn child for their long-awaited messiah, and they resolve to follow the baby.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460564.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "161",
         "title": "The Void",
-        "date": "February 14, 2001",
+        "date": "2001-02-14",
         "productionCode": "40840-261",
-        "stardate": "54553.4"
+        "stardate": "54553.4",
+        "synopsis": "Janeway forges an alliance among several hostile ships that have been preying on each other while trapped in a void.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460565.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "162",
         "title": "Workforce, Part I",
-        "date": "February 21, 2001",
+        "date": "2001-02-21",
         "productionCode": "40840-262",
-        "stardate": "54584.3"
+        "stardate": "54584.3",
+        "synopsis": "Stardate: 54584.3 - The crew of Voyager carries out their everyday lives as workers on an industrial planet called Quarra, totally unaware of their time on Voyager or their situation in the Delta Quadrant. Almost the entire crew has been abducted and brainwashed to serve in this severely short-handed alien society. Chakotay, Kim, and Neelix return from their trading mission on the Delta Flyer to find the ship abandoned and adrift in a nebula with only the Doctor on board and the acting Captain. The Doctor informs them that the vessel hit a space mine and fell into a trap, forcing them to abandon the ship in the escape pods. Alien ships captured the crew, and the Doctor has heard nothing from them. After going undercover on the planet, Chakotay and Neelix must now find a way to return the crew and restore their memories while evading local authorities who have uncovered their plan. Kim and the Doctor remain on Voyager to complete repairs. Also, Janeway falls for a mystery man on Quarra.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460566.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "163",
         "title": "Workforce, Part II",
-        "date": "February 28, 2001",
+        "date": "2001-02-28",
         "productionCode": "40840-263",
-        "stardate": "54622.4"
+        "stardate": "54622.4",
+        "synopsis": "Stardate: 54622.4 - While the Doctor and Kim defend the ship, Chakotay must infiltrate the Quarren power plant and convince Janeway and his other abducted colleagues to return to Voyager . Matters are complicated when Chakotay is exposed and taken for interrogation. He struggles to maintain his identity against the Quarren's Division 6. Meanwhile, Neelix transports back to Voyager with an unconscious B'Elanna, whose memories slowly return.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460567.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "164",
         "title": "Human Error",
-        "date": "March 7, 2001",
+        "date": "2001-03-07",
         "productionCode": "40840-264",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "When Seven of Nine tries to perfect her social skills on the holodeck, she experiences the breadth of human emotions while researching relationships. She soon overwhelms her Borg implants as her hobby quickly becomes an obsession. This leads her to neglect her duties, placing Voyager in great danger when it accidentally wanders into an interstellar firing range.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460568.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "165",
         "title": "Q2",
-        "date": "April 11, 2001",
+        "date": "2001-04-11",
         "productionCode": "40840-265",
-        "stardate": "54704.5"
+        "stardate": "54704.5",
+        "synopsis": "Q2, Q's adolescent son, must receive a weeklong rehabilitation period at the hands of his reluctant aunt.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460569.jpg"
       },
       {
         "displayNumber": "Q leaves his son (Q2) on Voyager to learn from the crew.",
         "overallNumber": "Q leaves his son (Q2) on Voyager to learn from the crew.",
         "title": "Q leaves his son (Q2) on Voyager to learn from the crew.",
-        "date": "Q leaves his son (Q2) on Voyager to learn from the crew.",
+        "date": "2001-04-18",
         "productionCode": "Q leaves his son (Q2) on Voyager to learn from the crew.",
-        "stardate": "Q leaves his son (Q2) on Voyager to learn from the crew."
+        "stardate": "Q leaves his son (Q2) on Voyager to learn from the crew.",
+        "synopsis": "The Voyager crew is in for an unpleasant surprise when the Doctor publishes a novel filled with characters based on his colleagues.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460570.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "166",
         "title": "Author, Author",
-        "date": "April 18, 2001",
+        "date": "2001-04-25",
         "productionCode": "40840-266",
-        "stardate": "54732.3"
+        "stardate": "54732.3",
+        "synopsis": "Janeway must gain the trust of an alien society crippled by the advanced knowledge of anti-matter contained inside a first contact probe launched from Earth in 2067.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460571.jpg"
       },
       {
         "displayNumber": "21",
         "overallNumber": "167",
         "title": "Friendship One",
-        "date": "April 25, 2001",
+        "date": "2001-05-02",
         "productionCode": "40840-267",
-        "stardate": "54775.4"
+        "stardate": "54775.4",
+        "synopsis": "Seven of Nine and Chakotay crash land on an isolated planet section that has been shielded from the rest of the inhabitants where they are surrounded by a primitive tribe of hunter-gatherers.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460572.jpg"
       },
       {
         "displayNumber": "The crew is sent on its first mission by Starfleet in nearly seven years: to find a lost probe sent by Earth in the 21st century that has ended up in the Delta Quadrant.",
         "overallNumber": "The crew is sent on its first mission by Starfleet in nearly seven years: to find a lost probe sent by Earth in the 21st century that has ended up in the Delta Quadrant.",
         "title": "The crew is sent on its first mission by Starfleet in nearly seven years: to find a lost probe sent by Earth in the 21st century that has ended up in the Delta Quadrant.",
-        "date": "The crew is sent on its first mission by Starfleet in nearly seven years: to find a lost probe sent by Earth in the 21st century that has ended up in the Delta Quadrant.",
+        "date": "2001-05-09",
         "productionCode": "The crew is sent on its first mission by Starfleet in nearly seven years: to find a lost probe sent by Earth in the 21st century that has ended up in the Delta Quadrant.",
-        "stardate": "The crew is sent on its first mission by Starfleet in nearly seven years: to find a lost probe sent by Earth in the 21st century that has ended up in the Delta Quadrant."
+        "stardate": "The crew is sent on its first mission by Starfleet in nearly seven years: to find a lost probe sent by Earth in the 21st century that has ended up in the Delta Quadrant.",
+        "synopsis": "Neelix is reunited with his own species when he finds a settlement of Talaxians being oppressed by mercenaries on a mineral-rich asteroid.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460573.jpg"
       },
       {
         "displayNumber": "22",
         "overallNumber": "168",
         "title": "Natural Law",
-        "date": "May 2, 2001",
+        "date": "2001-05-16",
         "productionCode": "40840-268",
-        "stardate": "54827.7"
+        "stardate": "54827.7",
+        "synopsis": "The Doctor impersonates several crew members to retrieve the ship's warp core and save Janeway's life.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460574.jpg"
       },
       {
         "displayNumber": "23",
         "overallNumber": "169",
         "title": "Homestead",
-        "date": "May 9, 2001",
+        "date": "2001-05-23",
         "productionCode": "40840-269",
-        "stardate": "54868.6"
+        "stardate": "54868.6",
+        "synopsis": "A time traveler forces Janeway into a deadly showdown with her nemesis, the Borg Queen; a romance ignites during Voyager's peril.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460575.jpg"
       },
       {
         "displayNumber": "24",
         "overallNumber": "170",
         "title": "Renaissance Man",
-        "date": "May 16, 2001",
+        "date": "2001-05-23",
         "productionCode": "40840-270",
-        "stardate": "54912.4"
+        "stardate": "54912.4",
+        "synopsis": "A time traveler forces Capt. Janeway into a deadly showdown with her nemesis, the Borg Queen; a romance ignites during Voyager's peril.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460579.jpg"
       },
       {
         "displayNumber": "25",
@@ -5497,7 +8892,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Endgame",
         "date": "May 23, 2001",
         "productionCode": "40840-828 (271/272)",
-        "stardate": "54973.4"
+        "stardate": "54973.4",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "26",
@@ -5505,7 +8902,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Endgame",
         "date": "May 23, 2001",
         "productionCode": "40840-828 (271/272)",
-        "stardate": "54973.4"
+        "stardate": "54973.4",
+        "synopsis": "",
+        "guestCast": []
       },
       {
         "displayNumber": "In the future where it took Voyager 23 years to get home, Admiral Janeway devises a plan to alter history. As the crew enters a final showdown with the Borg, the two Janeways implement a risky plan to take out one of the six Borg Transwarp Hubs in the galaxy and simultaneously cross the transwarp threshold to get home. Originally shown as a two-hour series finale, but in syndication is shown as 2 separate episodes.",
@@ -5513,7 +8912,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "In the future where it took Voyager 23 years to get home, Admiral Janeway devises a plan to alter history. As the crew enters a final showdown with the Borg, the two Janeways implement a risky plan to take out one of the six Borg Transwarp Hubs in the galaxy and simultaneously cross the transwarp threshold to get home. Originally shown as a two-hour series finale, but in syndication is shown as 2 separate episodes.",
         "date": "In the future where it took Voyager 23 years to get home, Admiral Janeway devises a plan to alter history. As the crew enters a final showdown with the Borg, the two Janeways implement a risky plan to take out one of the six Borg Transwarp Hubs in the galaxy and simultaneously cross the transwarp threshold to get home. Originally shown as a two-hour series finale, but in syndication is shown as 2 separate episodes.",
         "productionCode": "In the future where it took Voyager 23 years to get home, Admiral Janeway devises a plan to alter history. As the crew enters a final showdown with the Borg, the two Janeways implement a risky plan to take out one of the six Borg Transwarp Hubs in the galaxy and simultaneously cross the transwarp threshold to get home. Originally shown as a two-hour series finale, but in syndication is shown as 2 separate episodes.",
-        "stardate": "In the future where it took Voyager 23 years to get home, Admiral Janeway devises a plan to alter history. As the crew enters a final showdown with the Borg, the two Janeways implement a risky plan to take out one of the six Borg Transwarp Hubs in the galaxy and simultaneously cross the transwarp threshold to get home. Originally shown as a two-hour series finale, but in syndication is shown as 2 separate episodes."
+        "stardate": "In the future where it took Voyager 23 years to get home, Admiral Janeway devises a plan to alter history. As the crew enters a final showdown with the Borg, the two Janeways implement a risky plan to take out one of the six Borg Transwarp Hubs in the galaxy and simultaneously cross the transwarp threshold to get home. Originally shown as a two-hour series finale, but in syndication is shown as 2 separate episodes.",
+        "synopsis": "",
+        "guestCast": []
       }
     ]
   ],
@@ -5523,209 +8924,313 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "1",
         "title": "Broken Bow",
-        "date": "September 26, 2001",
+        "date": "2001-09-26",
         "productionCode": "40358-721",
-        "stardate": "April 16, 2151"
+        "stardate": "April 16, 2151",
+        "synopsis": "In the early 22nd century, Captain Jonathan Archer commands a crew at the front lines of intergalactic upheaval as he takes command of the Enterprise , Earth's first warp-speed space vessel. For its maiden voyage, he volunteers to return a wounded Klingon to his home planet over the objections of Earth's Vulcan allies, who do not believe the humans are ready for interstellar travel.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157501.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "2",
         "title": "Broken Bow",
-        "date": "September 26, 2001",
+        "date": "2001-09-26",
         "productionCode": "40358-721",
-        "stardate": "April 16, 2151"
+        "stardate": "April 16, 2151",
+        "synopsis": "Captain Archer takes command of Earth's first warp-speed space vessel and volunteers to return a wounded Klingon to his home planet over the objections of Earth's Vulcan allies, who do not believe the humans are ready for interstellar travel. The Enterprise discovers interference to destabilize the Klingon Empire by genetically-enhanced Suliban involved in a Temporal Cold War.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157502.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "3",
         "title": "Fight or Flight",
-        "date": "October 3, 2001",
+        "date": "2001-10-03",
         "productionCode": "40358-003",
-        "stardate": "May 6, 2151"
+        "stardate": "May 6, 2151",
+        "synopsis": "As they continue their deep space exploration, the Enterprise crew grows restless after two weeks without contact with sentient life. But, they encounter an abandoned alien ship containing 15 humanoid corpses that were part of a scientific experiment. The horrific sight inspires Hoshi to panic and demand a return to Earth, but Archer insists on continuing the mission and finding out more about the abandoned dead. Trouble comes calling when the aliens conducting the gruesome experiments return and attack Captain Archer and his crew.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157503.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "4",
         "title": "Strange New World",
-        "date": "October 10, 2001",
+        "date": "2001-10-10",
         "productionCode": "40358-004",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "The Enterprise investigates an uninhabited Earthlike planet far more dangerous than expected. It proves irresistible to Trip, who persuades Archer to allow his survey team to camp overnight on the planet's surface, unaware of a gathering storm. The strong winds kick up pollen released by flowers that induce hallucinations and paranoia, infecting the crew members visiting the planet. After relocating into nearby caves, Trip, Mayweather, T'Pol, and two other crew members become convinced they are being watched.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157504.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "5",
         "title": "Unexpected",
-        "date": "October 17, 2001",
+        "date": "2001-10-17",
         "productionCode": "40358-005",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "After discovering the presence of a damaged Xyrillian vessel, Archer dispatches Trip to assist with its power source problems. He is delighted to have a friendly encounter with one of the ship's female engineers, but it has an unexpected side effect. After discovering that their special moment resulted in his becoming pregnant, he realizes he's had an unwitting experience with alien sex. Archer and his crew must then try and return the rapidly growing alien baby to its mother.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157505.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "6",
         "title": "Terra Nova",
-        "date": "October 24, 2001",
+        "date": "2001-10-24",
         "productionCode": "40358-006",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "The Enterprise crew alters course to investigate the mystery of Terra Nova, a legendary deep-space Earth colony whose inhabitants mysteriously disappeared decades ago. But when they arrive, they encounter the descendants of the colonists who have become a tribe of human-hating cave-dwellers and more alien than Archer could ever have imagined.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157506.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "7",
         "title": "The Andorian Incident",
-        "date": "October 31, 2001",
+        "date": "2001-10-31",
         "productionCode": "40358-007",
-        "stardate": "June 19, 2151"
+        "stardate": "June 19, 2151",
+        "synopsis": "Archer's curiosity about an ancient monastery unwittingly places his crew in the midst of a long-standing interstellar conflict between the Vulcans and their arch rivals, the Andorians.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157507.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "8",
         "title": "Breaking the Ice",
-        "date": "November 7, 2001",
+        "date": "2001-11-07",
         "productionCode": "40358-008",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "The sudden appearance of a Vulcan starship disrupts Enterprise's probe of an unusual comet containing eisilium, a rare mineral. Trip discovers that T'Pol is transmitting coded messages to the Vulcan ship. After he learns the content of her communiqués, she reluctantly takes Trip into her confidence about her pending marriage on Vulcan. On their mission to the comet for core samples, Reed and Mayweather use explosives that unfortunately shift the comet's rotation. When the sun rises, the ice crumbles and traps them in a crevasse. Captain Archer reluctantly asks the Vulcans for help to use their tractor beam on the shuttle.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157508.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "9",
         "title": "Civilization",
-        "date": "November 14, 2001",
+        "date": "2001-11-14",
         "productionCode": "40358-009",
-        "stardate": "July 31, 2151"
+        "stardate": "July 31, 2151",
+        "synopsis": "Disguised as locals, Archer and his expedition explore a civilization bedeviled by a virulent ailment possibly linked to a covert -- and anomalous -- nuclear reactor. Determined to find the truth, the captain teams up with a local apothecary, leading to a close encounter between the two.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157509.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "10",
         "title": "Fortunate Son",
-        "date": "November 21, 2001",
+        "date": "2001-11-21",
         "productionCode": "40358-010",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "After receiving a distress signal, Starfleet Command dispatches Enterprise to assist Fortunate , a human freight vessel attacked by Nausicaan pirates wounding the captain. On arriving, they are surprised that Fortunate's acting commander and crew are resistant to Archer's efforts to help them and determined to seek revenge against their attackers, no matter the repercussion",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157510.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "11",
         "title": "Cold Front",
-        "date": "November 28, 2001",
+        "date": "2001-11-28",
         "productionCode": "40358-011",
-        "stardate": "September 12, 2151"
+        "stardate": "September 12, 2151",
+        "synopsis": "The Enterprise comes in contact with an alien vessel transporting stargazers to observe a spectacular stellar event. They are Borothan pilgrims who have come to see the Great Plume of Agosoria, a phenomenon their religion associates with the beginning of the universe. Archer invites them aboard the ship to witness it, not realizing that the Suliban agent Silik is among them. Archer quickly realizes that Silik is engaged in a nefarious time-traveling mission and must stop him before he can tamper with the course of history.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157511.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "12",
         "title": "Silent Enemy",
-        "date": "January 16, 2002",
+        "date": "2002-01-16",
         "productionCode": "40358-012",
-        "stardate": "September 1, 2151"
+        "stardate": "September 1, 2151",
+        "synopsis": "When an unidentified enemy vessel attacks Enterprise , Archer orders the ship's return to Jupiter Station for weapon upgrades. But, Reed, Tucker, and the crew work frantically to get their new phase cannons operational to meet this new threat. Meanwhile, Archer realizes no one knows Reed well enough to give him a personalized birthday gift. So, he orders Sato to investigate Reed's favorite food.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157512.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "13",
         "title": "Dear Doctor",
-        "date": "January 23, 2002",
+        "date": "2002-01-23",
         "productionCode": "40358-013",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "The fascination with human behavior and culture expressed by Dr. Phlox in his letter to a peer is contrasted by his dissenting view of the crew's treatment of a dying alien race.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157513.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "14",
         "title": "Sleeping Dogs",
-        "date": "January 30, 2002",
+        "date": "2002-01-30",
         "productionCode": "40358-014",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "When Enterprise comes across a disabled Klingon vessel, Archer dispatches a shuttlepod with T'Pol, Hoshi, and Reed to investigate. There, a hostile female Klingon ambushes them and hijacks the shuttlepod, leaving the Enterprise crewmembers dangerously stranded aboard the Klingon vessel. Now it's up to Archer to take the Klingon under guard and enlist her help rescuing his crew.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157514.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "15",
         "title": "Shadows of P'Jem",
-        "date": "February 6, 2002",
+        "date": "2002-02-06",
         "productionCode": "40358-015",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Archer and the crew are startled to discover the Vulcan High Command has ordered T'Pol to leave Enterprise and are equally frustrated at her seeming indifference about reassignment. However, T'Pol's last mission as a Starfleet officer proves eventful when a militant faction on Coridan, an alien planet, kidnaps her and Archer. Aid comes in the form of the mercurial Andorians: their leader, Shran, still owes Archer a debt (from the events of \"The Andorian Incident\"). The Vulcans are covertly backing the ruling faction on Coridan, while the Andorians are aiding the freedom fighters. With the help of the Andorians, Malcolm and Trip rescue Archer and T'Pol over the objections of the Vulcan ship retrieving T'Pol, and Shran considers his debt to Archer repaid.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157515.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "16",
         "title": "Shuttlepod One",
-        "date": "February 13, 2002",
+        "date": "2002-02-13",
         "productionCode": "40358-016",
-        "stardate": "November 9, 2151"
+        "stardate": "November 9, 2151",
+        "synopsis": "Trip and Reed are dispatched on a shuttle mission to investigate an asteroid field and are cut off from Enterprise, thereby becoming convinced the starship has been destroyed and that their days are numbered.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157516.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "17",
         "title": "Fusion",
-        "date": "February 27, 2002",
+        "date": "2002-02-27",
         "productionCode": "40358-017",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "En route to the eye-catching Arachnid Nebula, the crew encounters an obsolete Vulcan vessel manned by the Vahklas, a Vulcan sect that embraces emotional impulses. Despite her misgivings, T'Pol allows her curiosity about their lifestyle to get the best of her.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157517.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "18",
         "title": "Rogue Planet",
-        "date": "March 20, 2002",
+        "date": "2002-03-20",
         "productionCode": "40358-018",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "The crew explores a jungle planet that's been turned into a hunting ground by a race of stalkers called the Eska. They hunt indigenous creatures for recreation, one of which contacts Archer as a shadowy woman he imagined as a child.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157518.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "19",
         "title": "Acquisition",
-        "date": "March 27, 2002",
+        "date": "2002-03-27",
         "productionCode": "40358-019",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "The Enterprise is invaded by Ferengi marauders, who knock out the crew with sleeping gas and pillage the ship for gold, equipment and slaves.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/275/688740.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "20",
         "title": "Oasis",
-        "date": "April 3, 2002",
+        "date": "2002-04-03",
         "productionCode": "40358-020",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "After hearing of a supposedly haunted alien ship on a desolate planet, Archer decides to cannibalize the wreck to replenish Enterprise's supplies and discovers the vessel is inhabited after all. While exploring the ship, the Enterprise crew encounters some ghostly apparitions and an alien race surviving despite insurmountable odds. Trip helps repair their derelict vessel and is befriended by Liana, an attractive humanoid alien who develops feelings for him.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157520.jpg"
       },
       {
         "displayNumber": "21",
         "overallNumber": "21",
         "title": "Detained",
-        "date": "April 24, 2002",
+        "date": "2002-04-24",
         "productionCode": "40358-021",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "While exploring a planet, Archer and Mayweather accidentally enter a \"military zone\" and are detained in an internment prison by an alien race called Tandarans, who are at war with the Suliban. While the Enterprise crew's previous encounters with the Suliban have been disastrous, Archer and Mayweather find themselves held with some Suliban detainees who they believe are wrongly imprisoned. This situation leads to a clash of wills between Archer and the Tandaran commandant.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157522.jpg"
       },
       {
         "displayNumber": "22",
         "overallNumber": "22",
         "title": "Vox Sola",
-        "date": "May 1, 2002",
+        "date": "2002-05-01",
         "productionCode": "40358-022",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Hoshi thinks she is to blame for a series of misunderstandings that sent a group of visiting aliens off the Enterprise in a huff. As the Kreetassans depart, a strange, symbiotic alien creature boards Enterprise capturing a few crew members, including Archer and Trip. This unidentifiable parasite cocoons them in its web, feeding off their bodies to survive. With the captured crewmembers' lives in jeopardy, an insecure Hoshi, under T'Pol's command, faces her biggest challenge by finding a way to communicate with the lifeform and persuade it to return to its home planet.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157523.jpg"
       },
       {
         "displayNumber": "23",
         "overallNumber": "23",
         "title": "Fallen Hero",
-        "date": "May 8, 2002",
+        "date": "2002-05-08",
         "productionCode": "40358-023",
-        "stardate": "February 9, 2152"
+        "stardate": "February 9, 2152",
+        "synopsis": "Duty interferes with the crew's first shore leave when the Enterprise is sent to the planet Mazar to fetch a distinguished Vulcan ambassador accused of criminal misconduct. The mission disturbs T'Pol, who's a great admirer of the diplomat.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157524.jpg"
       },
       {
         "displayNumber": "24",
         "overallNumber": "24",
         "title": "Desert Crossing",
-        "date": "May 8, 2002",
+        "date": "2002-05-08",
         "productionCode": "40358-024",
-        "stardate": "February 12, 2152"
+        "stardate": "February 12, 2152",
+        "synopsis": "When Archer and Trip repair a vessel belonging to an alien leader, the Earthmen are repaid with an invitation to their new friend's volatile world.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157525.jpg"
       },
       {
         "displayNumber": "25",
         "overallNumber": "25",
         "title": "Two Days and Two Nights",
-        "date": "May 15, 2002",
+        "date": "2002-05-15",
         "productionCode": "40358-025",
-        "stardate": "February 18, 2152"
+        "stardate": "February 18, 2152",
+        "synopsis": "T'Pol talks Archer into joining the shore-leave party on the planet Risa, where he encounters a troubled alien beauty; Hoshi learns a new language from a local man; a pair of aliens take advantage of Trip and Reed; Dr. Phlox's hibernation is disrupted by Mayweather's injury.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157526.jpg"
       },
       {
         "displayNumber": "26",
         "overallNumber": "26",
         "title": "Shockwave, Part I",
-        "date": "May 22, 2002",
+        "date": "2002-05-22",
         "productionCode": "40358-026",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Archer blames himself when the destruction of an alien colony prompts Starfleet to recall the Enterprise to Earth.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157527.jpg"
       }
     ],
     [
@@ -5733,209 +9238,313 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "27",
         "title": "Shockwave: Part 2",
-        "date": "September 18, 2002",
+        "date": "2002-09-18",
         "productionCode": "40358-028",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "The sinister Suliban insist that Archer be turned over to them -- and with Archer nowhere to be found aboard the ship. He's stuck in the 31st century, in a decimated city with Daniels, whose intent is to save the future by protecting the past -- and Archer.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157542.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "28",
         "title": "Carbon Creek",
-        "date": "September 25, 2002",
+        "date": "2002-09-25",
         "productionCode": "40358-027",
-        "stardate": "April 12, 2152"
+        "stardate": "April 12, 2152",
+        "synopsis": "T'Pol entertains Archer and Trip with the tale of a crash-landed Vulcan ship, whose stranded crew lived in disguise among the denizens of a Pennsylvania mining town circa 1957.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157544.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "29",
         "title": "Minefield",
-        "date": "October 2, 2002",
+        "date": "2002-10-02",
         "productionCode": "40358-029",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Archer's awkward breakfast with Reed is interrupted when the Enterprise enters a minefield and Reed has to defuse an explosive affixed to the hull.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157545.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "30",
         "title": "Dead Stop",
-        "date": "October 9, 2002",
+        "date": "2002-10-09",
         "productionCode": "40358-031",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Following the ordeal in the minefield, the crew links up with an automated repair vessel that troubles Archer when its computer steals information from the Enterprise's data banks.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157546.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "31",
         "title": "A Night in Sickbay",
-        "date": "October 16, 2002",
+        "date": "2002-10-16",
         "productionCode": "40358-030",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Archer is fuming after the Kreetassans refuse to part with parts for Enterprise because of a diplomatic gaffe involving his dog, Porthos, who then falls ill with a mysterious disorder. But Dr. Phlox thinks there's more to Archer's rants than meets the ear.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157547.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "32",
         "title": "Marauders",
-        "date": "October 30, 2002",
+        "date": "2002-10-30",
         "productionCode": "40358-032",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Archer and Trip visit an alien colony seeking deuterium fuel, but their suspicions are aroused when the planet's drillers prove reluctant to deal with them. Aboard Enterprise, Mayweather's sensors detect an approaching Klingon vessel.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157548.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "33",
         "title": "The Seventh",
-        "date": "November 6, 2002",
+        "date": "2002-11-06",
         "productionCode": "40358-033",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "A disturbing incident from T'Pol's past prompts her to seek Archer's help in apprehending a renegade undercover Vulcan agent wanted for smuggling biotoxins used to make weapons.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157550.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "34",
         "title": "The Communicator",
-        "date": "November 13, 2002",
+        "date": "2002-11-13",
         "productionCode": "40358-034",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Returning from covertly observing a preatomic-era alien world on the verge of war, Lieutenant Reed realizes he lost his communicator somewhere on the planet. Archer and Reed return to recover the lost technology, only to find the natives found it first. Captured and interrogated as spies, Archer and Reed find themselves doing even more damage to the culture when they are scanned and found to belong to another race. They face execution and autopsy. Meanwhile, Tucker and Mayweather try to figure out how to activate the cloak on the Suliban cell ship so they can mount a discreet rescue.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157551.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "35",
         "title": "Singularity",
-        "date": "November 20, 2002",
+        "date": "2002-11-20",
         "productionCode": "40358-035",
-        "stardate": "August 14, 2152"
+        "stardate": "August 14, 2152",
+        "synopsis": "As the Enterprise nears a black hole in a trinary star system, radiation from the stellar phenomenon causes the crew to become increasingly erratic and obsessed with mundane tasks. Trip, for example, can't stop tinkering with the Captain's chair, while Phlox is fiercely determined to find the cause of Mayweather's headache. Eventually, crew members fall unconscious one by one, leaving T'Pol the only one left awake to save the ship.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157552.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "36",
         "title": "Vanishing Point",
-        "date": "November 27, 2002",
+        "date": "2002-11-27",
         "productionCode": "40358-036",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Hoshi is convinced her body's molecules are destabilizing after enduring a traumatic trip through the Enterprise transporter to escape a sudden storm on a primitive planet.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157553.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "37",
         "title": "Precious Cargo",
-        "date": "December 11, 2002",
+        "date": "2002-12-11",
         "productionCode": "40358-037",
-        "stardate": "September 12, 2152"
+        "stardate": "September 12, 2152",
+        "synopsis": "Trip boards a Retellian freighter to repair a stasis pod, which holds an exotic-looking alien female in suspended animation. When the woman accidentally wakes up, Trip discovers she's a kidnapped Krios royal and prisoner, not a passenger. He frees Kaitaama, but her haughty behavior interferes with his rescue efforts when the pair flees the freighter sharing a cramped escape pod. Archer pressures a captured kidnapper to help him locate Trip and Kaitaama.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157554.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "38",
         "title": "The Catwalk",
-        "date": "December 18, 2002",
+        "date": "2002-12-18",
         "productionCode": "40358-038",
-        "stardate": "September 18, 2152"
+        "stardate": "September 18, 2152",
+        "synopsis": "When a lethal neutronic storm approaches faster than Enterprise can escape, the crew takes shelter in the reinforced but cramped maintenance shafts inside the warp nacelles for eight days. They also provide refuge to three Takret, who aren't exactly honest about themselves. They claim to be stellar cartographers. But, they deserted the Takret Militia due to its corrupt leadership known to seize and plunder alien vessels, killing their crews without provocation. The three have been pursued for weeks by a Takret Militia ship. With the Takret immune to the storm's radiation, the Militia ship's crew attempts to seize Enterprise .",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157555.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "39",
         "title": "Dawn",
-        "date": "January 8, 2003",
+        "date": "2003-01-08",
         "productionCode": "40358-039",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "During a solo test mission on Shuttlepod One, Trip is attacked by a territorial alien and forced to land on the night side of a barren moon. As he tries contacting Enterprise , he discovers his Arkonian foe has made an emergency landing nearby. The two contend with each other and then team up as a scorching sun rises and threatens both their lives. The Enterprise soon encounters an Arkonian ship, which initially appears hostile partly due to distrust of T'Pol and Vulcans. But the Arkonian captain agrees to split the search for Trip and his pilot.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157556.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "40",
         "title": "Stigma",
-        "date": "February 5, 2003",
+        "date": "2003-02-05",
         "productionCode": "40358-040",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Enterprise visits the planet Dekendi III hosting an Interspecies Medical Exchange conference. Dr. Phlox requests the Vulcan delegation provide him with the latest research on a terminal neurological disease called Pa'nar Syndrome without revealing that T'Pol is infected. Pa'nar Syndrome is a rare illness associated with mind melders, a sect ostracized by Vulcan society. A forced mind meld against her will infected T'Pol in the episode Fusion . She tries to keep her disease a secret while Dr. Phlox researches treatment methods. Meanwhile, one of Phlox's wives, Feezal, visits Enterprise to install a neutron microscope and begins flirting heavily with Trip. He is uneasy that a colleague's wife is making overt sexual advances toward him.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157557.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "41",
         "title": "Cease Fire",
-        "date": "February 12, 2003",
+        "date": "2003-02-12",
         "productionCode": "40358-041",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Both the Vulcans and the Andorians claim the planetoid Weytahn (or Paan Mokar, as Vulcans call it) in an age-old feud and military conflict erupts again. As the fighting goes on, the Vulcans are willing to discuss cease-fire terms represented by Ambassador Soval. However, Imperial Guard officer Shran believes only Captain Archer can be trusted to mediate the bloody dispute, which drags the Enterprise crew into the tense situation.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157558.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "42",
         "title": "Future Tense",
-        "date": "February 19, 2003",
+        "date": "2003-02-19",
         "productionCode": "40358-042",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "The Enterprise finds a small, disabled ship drifting in space and discovers it contains a human corpse. More questions arise when the Suliban and Tholians each claim the craft. Both alien species attack the Enterprise and later each other to seize the derelict.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157559.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "43",
         "title": "Canamar",
-        "date": "February 26, 2003",
+        "date": "2003-02-26",
         "productionCode": "40358-043",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Following a seemingly successful first contact mission, Archer and Trip are charged with smuggling and imprisoned aboard a penal vessel. When prisoners hijack the ship, Archer and Trip must pass as outlaws.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157560.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "44",
         "title": "The Crossing",
-        "date": "April 2, 2003",
+        "date": "2003-04-02",
         "productionCode": "40358-044",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "When a massive alien vessel engulfs Enterprise , non-corporeal beings invade/possess the bodies of Trip and other crew members and hijack their souls. These non-corporeal beings claim to be explorers. But these \"wisps\" may not plan on giving the bodies back.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157561.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "45",
         "title": "Judgment",
-        "date": "April 9, 2003",
+        "date": "2003-04-09",
         "productionCode": "40358-045",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Archer is put on trial by the Klingons and accused by a disgraced Klingon officer of having his battle-cruiser crippled by the Enterprise in a firefight, and of aiding rebels of the Empire, but he finds a friend in his defender, Kolos.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157563.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "46",
         "title": "Horizon",
-        "date": "April 16, 2003",
+        "date": "2003-04-16",
         "productionCode": "40358-046",
-        "stardate": "January 10, 2153"
+        "stardate": "January 10, 2153",
+        "synopsis": "When Enterprise diverts to investigate an unusual planetary phenomenon near Earth, Mayweather visits his family after the sudden death of his father, a cargo-ship captain. But his return to his old home, the ECS Horizon, is complicated by family tension. He clashes with his brother, the ship's new captain, and pirates attack the ship. Meanwhile, Archer and Trip invite a reluctant T'Pol for movie night to see Frankenstein and find her reaction surprising. She says she will suggest Ambassador Soval show the movie to every Vulcan newly arrived on Earth.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157564.jpg"
       },
       {
         "displayNumber": "21",
         "overallNumber": "47",
         "title": "The Breach",
-        "date": "April 23, 2003",
+        "date": "2003-04-23",
         "productionCode": "40358-047",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "The rescue of a damaged transport prompts the Denobulan Phlox to confront his prejudices when he treats an Antaran, whose people are sworn enemies of Phlox's. Three other Denobulans are holed up in an underground cave, where Trip, Reed, and Mayweather are dispatched to retrieve them when militants take over a planet.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157566.jpg"
       },
       {
         "displayNumber": "22",
         "overallNumber": "48",
         "title": "Cogenitor",
-        "date": "April 30, 2003",
+        "date": "2003-04-30",
         "productionCode": "40358-048",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "The Enterprise crew makes first contact with the Vissians, a species with three genders. Trip meets one of the species' third gender, a Cogenitor, a being used for only breeding purposes. After learning how badly Vissians treat all Cogenitors, Trip attempts to help this Cogenitor, even though it directly interferes with Vissian culture.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157568.jpg"
       },
       {
         "displayNumber": "23",
         "overallNumber": "49",
         "title": "Regeneration",
-        "date": "May 7, 2003",
+        "date": "2003-05-07",
         "productionCode": "40358-049",
-        "stardate": "March 1, 2153"
+        "stardate": "March 1, 2153",
+        "synopsis": "A scientific research team uncovered the remnants of an alien ship and two frozen cybernetic bodies in the arctic. These aliens soon thaw out and flee Earth, taking the research team with them. Starfleet orders Enterprise to find them, but nothing prepares the crew for just how dangerous these aliens really are - Borg drones",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157570.jpg"
       },
       {
         "displayNumber": "24",
         "overallNumber": "50",
         "title": "First Flight",
-        "date": "May 14, 2003",
+        "date": "2003-05-14",
         "productionCode": "40358-050",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Stunned by the death of former Starfleet rival and friend, A.G. Robinson, in a mountain climbing accident, Archer grudgingly recalls their competitive relationship with T'Pol as they probe a possible dark matter nebula during a shuttle voyage. He describes how he and A.G. broke the Warp 2.5 barrier on the first high-warp test flight that saved the NX program almost ten years earlier. After they confirm the first dark matter nebula, T'Pol suggests Archer name it the Robinson Nebula.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157571.jpg"
       },
       {
         "displayNumber": "25",
         "overallNumber": "51",
         "title": "Bounty",
-        "date": "May 14, 2003",
+        "date": "2003-05-14",
         "productionCode": "40358-051",
-        "stardate": "March 21, 2153"
+        "stardate": "March 21, 2153",
+        "synopsis": "A crafty Tellarite tricks Archer into boarding his ship and kidnaps him to collect a Klingon bounty. They want to punish Archer because he is the only prisoner to escape the prison planet Rura Penthe. As Enterprise pursues, contamination by a stray virus while exploring an uninhabited desert planet prematurely starts T'Pol's mating cycle, the pon farr , where she must mate or die. She finds herself confined to the decon chamber with Phlox.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157573.jpg"
       },
       {
         "displayNumber": "26",
         "overallNumber": "52",
         "title": "The Expanse",
-        "date": "May 21, 2003",
+        "date": "2003-05-21",
         "productionCode": "40358-052",
-        "stardate": "April 24, 2153"
+        "stardate": "April 24, 2153",
+        "synopsis": "The Xindi, an alien race from the Delphic Expanse, launched a devastating attack on Earth, causing millions of casualties and massive damage in Florida. As Enterprise returns home, an unlikely source from the future informs Archer about the Xindi and that their next attack will destroy Earth. Capt. Archer and the crew embark on a mission to the galaxy's far reaches to stop the Xindi. Complicating matters are the machinations of a vengeful Klingon still looking to capture Archer.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157574.jpg"
       }
     ],
     [
@@ -5943,193 +9552,289 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "53",
         "title": "The Xindi",
-        "date": "September 10, 2003",
+        "date": "2003-09-10",
         "productionCode": "40358-053",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Enterprise penetrates the Delphic Expanse hunting the Xindi who attacked Earth, threatening to exterminate humanity. Captain Archer and Trip attempt to learn about the mysterious and antagonistic race. But their zeal to capture a Xindi leads them into a trap.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157604.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "54",
         "title": "Anomaly",
-        "date": "September 17, 2003",
+        "date": "2003-09-17",
         "productionCode": "40358-054",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Waves of spatial anomalies pervading the Delphic Expanse distort the laws of physics. They cripple the Enterprise disrupting power, weapons, and computer systems while searching for the Xindi. These destructive distortions leave the ship's stores vulnerable to Ventaxian pirates who loot critical supplies.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157605.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "55",
         "title": "Extinction",
-        "date": "September 24, 2003",
+        "date": "2003-09-24",
         "productionCode": "40358-055",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Enterprise's ongoing pursuit of the Xindi leads to an investigation of an abandoned Xindi vessel on a jungle world. A highly contagious mutagenic virus infects Archer, Hoshi, and Reed and rapidly mutates them into the planet's primal and extinct native beings, the Loque'eque, but T'Pol is unaffected. As Phlox searches for a cure, Trip and T'Pol negotiate with aliens determined to kill all those infected.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157606.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "56",
         "title": "Rajiin",
-        "date": "October 1, 2003",
+        "date": "2003-10-01",
         "productionCode": "40358-056",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Archer, Trip, and Reed return from an alien barter town with Rajiin, an alluring woman seeking to escape her life as a sex slave. But once on board, her beguiling sensuality proves irresistible to the Enterprise crew. She uses her alien mental powers on them to steal biometric data about humans so her Xindi overlords can make a bio-weapon. Two Xindi ships attack the NX-01 to retrieve Rajiin. Meanwhile, Trip and T'Pol attempt to synthesize trellium-D to insulate Enterprise from further destruction by the spatial anomalies of the Delphic Expanse.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157607.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "57",
         "title": "Impulse",
-        "date": "October 8, 2003",
+        "date": "2003-10-08",
         "productionCode": "40358-057",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "When Enterprise responds to a distress call from the Vulcan cruiser Seleya , stranded in the Delphic Expanse, Archer and his boarding team (T'Pol, Reed, and Hawkins) arrive on board to find its crew in a deranged, raging, zombie-like state that quickly manifests in T'Pol as well.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157608.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "58",
         "title": "Exile",
-        "date": "October 15, 2003",
+        "date": "2003-10-15",
         "productionCode": "40358-058",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "A powerful and lonely telepath named Tarquin begs Hoshi to visit his faraway planet. Smitten with her, he offers to part with crucial intelligence on the Xindi only after she visits. But when Enterprise returns to pick up Hoshi, Tarquin refuses to let her go. He wants her to be his new Companion.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157609.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "59",
         "title": "The Shipment",
-        "date": "October 29, 2003",
+        "date": "2003-10-29",
         "productionCode": "40358-059",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Archer, Reed, and MACO Major Hayes infiltrate a Xindi-Sloth industrial colony that synthesizes the vital explosive material for the Xindi super-weapon that will attack Earth. The trio kidnaps the plant foreman, who allies with them once he learns of the Xindi council's attack on Earth. Elsewhere, Trip, T'Pol, and Dr. Phlox test captured Xindi firearms to create better defenses against them.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157610.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "60",
         "title": "Twilight",
-        "date": "November 5, 2003",
+        "date": "2003-11-05",
         "productionCode": "40358-060",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "After an accident on the Enterprise in 2153, a spatial distortion leaves Archer with a puzzling form of amnesia due to interspatial parasites and unable to form new long-term memories. He wakes up every day not remembering anything from the day before. At one point, he is further confused about finding himself in the future aboard an Enterprise commanded by T'Pol. Twelve years into the future, he wakes up one morning and is stunned to learn the outcome of the human-Xindi conflict. After destroying Earth, the Xindi continued searching the galaxy, determined to annihilate all Humans. The remnants of humanity have settled on the distant planet Ceti Alpha V. Now, Archer learns that he may be the key to undoing this entire tragedy if Phlox's new treatment destroys the parasites without harming him.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157611.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "61",
         "title": "North Star",
-        "date": "November 12, 2003",
+        "date": "2003-11-12",
         "productionCode": "40358-061",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "The crew investigates a world within the Delphic Expanse with a civilization closely resembling America's 19th-century Wild West. A previously unknown colony of humans is oppressing an alien race called the Skagarans. Archer becomes embroiled in a cultural conflict and sets out to learn how both races got there.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157612.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "62",
         "title": "Similitude",
-        "date": "November 19, 2003",
+        "date": "2003-11-19",
         "productionCode": "40358-062",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Trip suffers a catastrophic injury in an accident that disables Enterprise inside a hazardous space cloud. His only hope for survival is a transplant from a clone or \"mimetic symbiont\" which Phlox grows from one of his exotic creatures. Phlox and the crew named the clone Sim. But his rapid growth and replication of Trip's behavior alarm the crew. Archer faces an ethical dilemma as the clone gains sentience and does not want to die from harvesting his organs for Trip's survival.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157613.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "63",
         "title": "Carpenter Street",
-        "date": "November 26, 2003",
+        "date": "2003-11-26",
         "productionCode": "40358-063",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Acting on a tip from Daniels, Archer and T'Pol time-travel to the year 2004, where the Xindi are building a secret weapon in an abandoned Detroit factory. They must stop the Xindi from destroying Earth with a biological weapon.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157614.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "64",
         "title": "Chosen Realm",
-        "date": "January 14, 2004",
+        "date": "2004-01-14",
         "productionCode": "40358-064",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "After Archer rescues them from their crippled vessel, the Triannons take the Enterprise crew hostage. These alien religious zealots plot to use the ship to eradicate heretics on their homeworld.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157615.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "65",
         "title": "Proving Ground",
-        "date": "January 21, 2004",
+        "date": "2004-01-21",
         "productionCode": "40358-065",
-        "stardate": "December 6, 2153"
+        "stardate": "December 6, 2153",
+        "synopsis": "Andorian Imperial Guard Commander Shran arrives in the Delphic Expanse and proposes an alliance with Archer, offering to help steal the Xindi's superweapon. Elsewhere, Lt. Talas, an Andorian officer with her own agenda, helps Lt. Reed repair the Enterprise's damaged weapons systems.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157616.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "66",
         "title": "Stratagem",
-        "date": "February 4, 2004",
+        "date": "2004-02-04",
         "productionCode": "40358-066",
-        "stardate": "December 12, 2153"
+        "stardate": "December 12, 2153",
+        "synopsis": "Archer seeks to destroy the superweapon the Xindi are constructing by creating an elaborate ruse to fool its designer, Degra, into revealing its hiding place. Archer and Degra are in a shuttle. With Degra suffering from memory loss, Archer tells him they escaped together from a prison and that the Insectoids took power after destroying Earth.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157617.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "67",
         "title": "Harbinger",
-        "date": "February 11, 2004",
+        "date": "2004-02-11",
         "productionCode": "40358-067",
-        "stardate": "December 27, 2153"
+        "stardate": "December 27, 2153",
+        "synopsis": "Lt. Reed and MACO leader Maj. Hayes feud over training drills which disrupts Archer and Phlox's investigation of a rescued alien near a spatial anomaly. The dying alien refuses to disclose his motives for exploring the anomaly. As Archer tries to unravel the mystery surrounding the alien, long-simmering feelings explode between Reed and Hayes. Trip's interest in a pretty MACO corporal sparks a heated exchange with T'Pol, who eventually confesses her feelings for Trip.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157618.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "68",
         "title": "Doctor's Orders",
-        "date": "February 18, 2004",
+        "date": "2004-02-18",
         "productionCode": "40358-068",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Archer places Dr. Phlox in control of the Enterprise when the crew requires sedation to survive a trans-dimensional disturbance. This mind-altering section of the Expanse is lethal to humanoids. But Phlox's Denobulan physiology doesn't entirely shield him from its effects, causing hallucinations.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157619.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "69",
         "title": "Hatchery",
-        "date": "February 25, 2004",
+        "date": "2004-02-25",
         "productionCode": "40358-069",
-        "stardate": "January 8, 2154"
+        "stardate": "January 8, 2154",
+        "synopsis": "The discovery of unhatched Xindi-Insectoid eggs inside a crashed vessel brings out the paternal side of Archer, who alarms the crew with his obsessive determination to save the embryos.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157620.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "70",
         "title": "Azati Prime",
-        "date": "March 3, 2004",
+        "date": "2004-03-03",
         "productionCode": "40358-070",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "After pinpointing the site of the Xindi doomsday weapon, Archer plans to sacrifice himself to destroy it. Daniels arrives and takes him 400 years into the future to show him the far-reaching consequences of the Enterprise crew's actions and to beg Archer to reconsider.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157621.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "71",
         "title": "Damage",
-        "date": "April 21, 2004",
+        "date": "2004-04-21",
         "productionCode": "40358-071",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "While dissension among Xindi ranks festers, Degra gets Archer returned to Enterprise . Archer considers compromising his morals to restore Enterprise's warp capacity after a fleet of Xindi-controlled warships cripple the vessel's engines. Sacrificing his ethics, he attacks an innocent alien ship to get their warp coil to repair the Enterprise's engines and intercept the Xindi superweapon. Meanwhile, T'Pol grows increasingly volatile, prompting her to confide a troubling secret to Phlox. Trellium-D exposure led to her addiction, with withdrawal symptoms weakening her emotional control.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157622.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "72",
         "title": "The Forgotten",
-        "date": "April 28, 2004",
+        "date": "2004-04-28",
         "productionCode": "40358-072",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Archer persuades Xindi weapon-designer, Degra, to examine evidence of the plot to pit the Xindi against Earth to prove humanity is not his enemy. When Archer demonstrates they've been manipulated, Degra offers to attempt to delay the launch of their superweapon. Meanwhile, the crew mourns their lost mates, with Trip still coming to terms with his sister's death and wrestling with the recent death of a subordinate. T'Pol confronts her substance addiction to trellium-D.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157623.jpg"
       },
       {
         "displayNumber": "21",
         "overallNumber": "73",
         "title": "E²",
-        "date": "May 5, 2004",
+        "date": "2004-05-05",
         "productionCode": "40358-073",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Before attempting to use a Xindi subspace corridor to reach the Xindi council, the Enterprise crew faces a bizarre encounter with their own descendants on an Enterprise . Captained by T'Pol's son Lorian, the ship warns Archer of an alien attack by Kovaalan ships. Enterprise escapes into the subspace corridor, but attack damage destabilizes the corridor, causing a time shift with the ship emerging in 2037. Will foreknowledge change anything?",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157624.jpg"
       },
       {
         "displayNumber": "22",
         "overallNumber": "74",
         "title": "The Council",
-        "date": "May 12, 2004",
+        "date": "2004-05-12",
         "productionCode": "40358-074",
-        "stardate": "February 12, 2154"
+        "stardate": "February 12, 2154",
+        "synopsis": "Enterprise arrives at the location of the Xindi Council, and with Degra's help and Hoshi translating, Archer makes his plea before the five Xindi races. Archer must prove that the Sphere Builders have been lying and Humanity is not their enemy. While the Primates and Arboreals are already aware of the truth, convincing the other three races will not be easy. The Reptilians and Insectoids refuse to even listen to Archer. Meanwhile, seeing a diminished number of successful timelines with Earth destroyed, the Sphere-Builders arrange a secret meeting with the Reptilians. They seize the Xindi weapon and launch it, protected by five Insectoid ships. Elsewhere, T'Pol and Reed lead a mission inside a Sphere to retrieve its memory core for information about the Sphere network inhabiting the Expanse.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157625.jpg"
       },
       {
         "displayNumber": "23",
         "overallNumber": "75",
         "title": "Countdown",
-        "date": "May 19, 2004",
+        "date": "2004-05-19",
         "productionCode": "40358-075",
-        "stardate": "February 13, 2154"
+        "stardate": "February 13, 2154",
+        "synopsis": "The Reptilians kidnapped Hoshi to brainwash her into cracking the weapon's arming codes. Meanwhile, Archer and his new Xindi allies (Arboreals, Primates, and Aquatics) attempt to stop the arming of the superweapon aimed toward Earth, launching a full-scale assault on the device. When the Sphere-Builders see the weapon is about to be destroyed, they cause at least one sphere to emit massive spatial anomalies destroying many ships. Reptilians and Insectoids escape with the weapon through a subspace vortex heading for Earth.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157626.jpg"
       },
       {
         "displayNumber": "24",
         "overallNumber": "76",
         "title": "Zero Hour",
-        "date": "May 26, 2004",
+        "date": "2004-05-26",
         "productionCode": "40358-076",
-        "stardate": "February 14, 2154"
+        "stardate": "February 14, 2154",
+        "synopsis": "Archer tries to coax a traumatized Hoshi into using her decryption skills to disable the Xindi doomsday weapon before the Reptilians can use it to destroy Earth. Archer risks his life in a dangerous gambit to intercept the superweapon, sneak by the Xindi Reptilians aboard, and disarm it from inside. Meanwhile, the Enterprise embarks on its own desperate mission to cripple the rest of the spheres.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157627.jpg"
       }
     ],
     [
@@ -6137,177 +9842,265 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "77",
         "title": "Storm Front",
-        "date": "October 8, 2004",
+        "date": "2004-10-08",
         "productionCode": "40358-077",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Archer awakes from destroying the Xindi superweapon in the U.S. circa 1944 as a prisoner of Nazis controlling New York City. But he escapes with the help of American insurgents. The crew aboard Enterprise seeks answers for their journey back in time and the changes to Earth's history. They find a dying Daniels on board who tells T'Pol about an alien faction of the Temporal Cold War led by Vosk, now allied with the Nazis altering the events of World War II. Archer, T'Pol, and the Enterprise must defeat the aliens and restore the timeline to return to their time.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157659.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "78",
         "title": "Storm Front, Part II",
-        "date": "October 15, 2004",
+        "date": "2004-10-15",
         "productionCode": "40358-078",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Vosk and his people altered Earth's past, threatening to destroy many futures. Frustrated by limited Nazi technology, Vosk offers to return Trip and Mayweather to the Enterprise if Archer assists Vosk in creating his time machine. Vosk releases the prisoners, with Suliban agent Silik taking Trip's form; Silik also needs to stop Vosk. Meanwhile, Alicia's comrades in Nazi-occupied New York learn of Archer's space vessel on the eve of an Allied counterattack. Archer, Silik, and Alicia's comrades attack Vosk's time machine facility to disable its protective shield. Their efforts allow Enterprise to destroy the facility. Daniels returns to tell Archer that the timelines are restored and sends Enterprise home.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157661.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "79",
         "title": "Home",
-        "date": "October 22, 2004",
+        "date": "2004-10-22",
         "productionCode": "40358-079",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "The Enterprise finally returns to Earth with great fanfare, and the weary crew members face repercussions of their journeys, both positive and negative. But the novelty quickly disappears for Archer, forced to vacation after a heated exchange with a Vulcan official. Also, Trip accompanies T'Pol to Vulcan, where he meets her mother, T'Les, but when T'Pol reconsiders marriage to her former fiance, Koss, Trip questions their relationship. The Xindi scare causes increased violent incidents against alien species on Earth, and Reed worries about Phlox's safety.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157663.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "80",
         "title": "Borderland",
-        "date": "October 29, 2004",
+        "date": "2004-10-29",
         "productionCode": "40358-080",
-        "stardate": "May 17, 2154"
+        "stardate": "May 17, 2154",
+        "synopsis": "When genetically engineered humans left over from the Eugenics Wars hijack a Klingon ship, the Klingons threaten war with Earth. Archer enlists the criminal Dr. Arik Soong, the Augments' creator and \"father,\" to help hunt them down.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157665.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "81",
         "title": "Cold Station 12",
-        "date": "November 5, 2004",
+        "date": "2004-11-05",
         "productionCode": "40358-081",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Cold Station 12 is a medical research facility where hundreds of genetically enhanced embryos left over from the Eugenics Wars are still stored. Arik Soong leads his band of Augments to the scientific outpost, intending to retrieve the embryos, bring them to life, and create a superhuman army of Augments. On the raid, Soong realizes just how ruthless his \"children\" have become and threatens to release the deadly pathogens stored on-site if anyone interferes.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157667.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "82",
         "title": "The Augments",
-        "date": "November 12, 2004",
+        "date": "2004-11-12",
         "productionCode": "40358-082",
-        "stardate": "May 27, 2154"
+        "stardate": "May 27, 2154",
+        "synopsis": "The Enterprise crew cautiously pursues Dr. Arik Soong and his superhuman Augments across hostile Klingon space toward a hidden planet where he intends to raise his Augment army. But in defiance of their \"father\" Soong, Malik devises a heinous plot to use a bioweapon against a Klingon colony planet, undoubtedly leading to interstellar war, to safeguard the Augments from Enterprise and further Starfleet interference. Malik's rash proposal leads to a rift with Soong.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157669.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "83",
         "title": "The Forge",
-        "date": "November 19, 2004",
+        "date": "2004-11-19",
         "productionCode": "40358-083",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "The crew joins forces with Vulcan authorities to investigate a deadly bombing of Earth's embassy, which may be the work of a sect devoted to the logical teachings of Surak, the father of Vulcan philosophy.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157670.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "84",
         "title": "Awakening",
-        "date": "November 26, 2004",
+        "date": "2004-11-26",
         "productionCode": "40358-084",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "The Syrranites subject Archer to a potentially lethal mind-meld after learning that information about Surak was placed in his head. Meanwhile, Vulcan officials plot the dissidents' destruction.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157671.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "85",
         "title": "Kir'Shara",
-        "date": "December 3, 2004",
+        "date": "2004-12-03",
         "productionCode": "40358-085",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "As Vulcan prepares for war, V'Las sends a commando team to eliminate Archer, T'Pol and T'Pau, while Soval risks his sanity to warn the Andorians of the impending attack.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157673.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "86",
         "title": "Daedalus",
-        "date": "January 14, 2005",
+        "date": "2005-01-14",
         "productionCode": "40358-086",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Emory Erickson, the inventor of the transporter, boards the Enterprise to test new transporter upgrades. He also enlists Archer's help with a risky experiment resulting in a crew member's death. This forces Emory to reveal the real purpose of his test, searching for and retrieving his lost son.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157674.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "87",
         "title": "Observer Effect",
-        "date": "January 21, 2005",
+        "date": "2005-01-21",
         "productionCode": "40358-087",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Two non-corporeal Organians possess the bodies of various crew members to observe humanity's reaction to tragedy. The curious beings study the response of the Enterprise crew to a fatal silicon-based viral infection contracted by Trip and Hoshi during an away mission. Phlox works feverishly for a cure. Will the \"advanced\" aliens learn anything about human empathy and compassion?",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157676.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "88",
         "title": "Babel One",
-        "date": "January 28, 2005",
+        "date": "2005-01-28",
         "productionCode": "40358-088",
-        "stardate": "November 12, 2154"
+        "stardate": "November 12, 2154",
+        "synopsis": "While escorting a Tellarite ambassador to the neutral planet Babel for a peace conference with the Andorians, the Enterprise is attacked after answering a distress call from Shran. A secret Romulan vessel attacks ships on all sides, trying to halt any chance for peace.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157678.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "89",
         "title": "United",
-        "date": "February 4, 2005",
+        "date": "2005-02-04",
         "productionCode": "40358-089",
-        "stardate": "November 15, 2154"
+        "stardate": "November 15, 2154",
+        "synopsis": "Archer tries to unify the Andorians, Tellarites, and Vulcans in a plan to capture a remote-controlled Romulan marauder ship threatening to destabilize the region. But, a desire for vengeance interferes with Archer's attempts to ally Shran and the Tellarites, where Archer and Shran fight to the death, almost. Trip and Reed probe the inner workings of the unmanned Romulan warship and must outwit their captors to escape.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157680.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "90",
         "title": "The Aenar",
-        "date": "February 11, 2005",
+        "date": "2005-02-11",
         "productionCode": "40358-090",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "Archer and the crew try to prevent the Romulans from starting an intergalactic war. He visits Shran's icy homeworld to find an Andorian subspecies called the Aenar to determine their connection to the marauder destroying ships in the region. The Aenar are telepaths who could gain control of the Romulan drone vessels.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157681.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "91",
         "title": "Affliction",
-        "date": "February 18, 2005",
+        "date": "2005-02-18",
         "productionCode": "40358-091",
-        "stardate": "November 27, 2154"
+        "stardate": "November 27, 2154",
+        "synopsis": "Enterprise visits Earth for the launch of its sister vessel C olumbia , where Trip prepares for her maiden voyage as her new chief engineer. Meanwhile, Klingons kidnap Phlox and force him to help them find a cure for a mutated virus that threatens their species.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157683.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "92",
         "title": "Divergence",
-        "date": "February 25, 2005",
+        "date": "2005-02-25",
         "productionCode": "40358-092",
-        "stardate": "Unknown"
+        "stardate": "Unknown",
+        "synopsis": "With Columbia's help, the Enterprise crew grapples with the sabotage left by Klingon Augments as they pursue the truth behind Dr. Phlox's kidnapping. Trip rejoins Enterprise on a desperate mission to rejuvenate her warp drive. Then both ships head deep into Klingon space to find Dr. Phlox. Antaak convinces Phlox to cooperate with the Klingons and help find a cure for the mutated virus ravaging one of their outposts.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157684.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "93",
         "title": "Bound",
-        "date": "April 15, 2005",
+        "date": "2005-04-15",
         "productionCode": "40358-093",
-        "stardate": "December 27, 2154"
+        "stardate": "December 27, 2154",
+        "synopsis": "As a gift for negotiating a deal with the Orion Syndicate, an Orion pirate persuades Archer to accept three alluring Orion slave women. But the captain's good-faith gesture has terrible results when the trio wreaks havoc within the ship, seducing all the men on board.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157685.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "94",
         "title": "In a Mirror, Darkly",
-        "date": "April 22, 2005",
+        "date": "2005-04-22",
         "productionCode": "40358-094",
-        "stardate": "January 13, 2155"
+        "stardate": "January 13, 2155",
+        "synopsis": "An amoral, imperialistic version of the Enterprise crew exists in a dark alternate universe. Commander Archer of the Terran Empire Enterprise mutinies against Captain Forrest to investigate an anomaly in Tholian space and capture a future Earth ship. The Star Trek episodes \"Mirror, Mirror\" and \"The Tholian Web\" inspire this mirror-universe tale.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/500/1251015.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "95",
         "title": "In a Mirror, Darkly, Part II",
-        "date": "April 29, 2005",
+        "date": "2005-04-29",
         "productionCode": "40358-095",
-        "stardate": "January 18, 2155"
+        "stardate": "January 18, 2155",
+        "synopsis": "In the mirror universe, power-hungry Archer and the crew use the 23rd-century Defiant to thwart a Tholian attack and its advanced weaponry to put down a rebellion setting their sights on seizing control of all of Earth's Terran Empire. But first, he must rid the ship of a deadly Gorn stowaway.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/500/1251061.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "96",
         "title": "Demons",
-        "date": "May 6, 2005",
+        "date": "2005-05-06",
         "productionCode": "40358-096",
-        "stardate": "January 19, 2155"
+        "stardate": "January 19, 2155",
+        "synopsis": "Archer and the crew are on Earth for a historic conference at Starfleet Headquarters to establish an interplanetary coalition. But the plans are menaced by a fanatical xenophobe, John Frederick Paxton. He leads Terra Prime, an underground Human isolationist movement plotting against the government and threatening to undermine the talks. This radical faction opposes the increasing number and influence of aliens on Earth and advocates expelling all non-Humans from Earth and the rest of the Sol system.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157688.jpg"
       },
       {
         "displayNumber": "21",
         "overallNumber": "97",
         "title": "Terra Prime",
-        "date": "May 13, 2005",
+        "date": "2005-05-13",
         "productionCode": "40358-097",
-        "stardate": "January 22, 2155"
+        "stardate": "January 22, 2155",
+        "synopsis": "Determined to scorch Starfleet Command in San Francisco if Earth refuses to abolish a proposed interplanetary alliance and make all aliens leave Earth immediately, Paxton blackmails Trip into modifying his doomsday weapon, the Verteron array on Mars. Archer and a handpicked team infiltrate Terra Prime's Mars headquarters to stop Paxton. Hoshi takes command of Enterprise as a traitor lurks within the crew. Elsewhere, the origin of Trip and T'Pol's child is revealed.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157695.jpg"
       },
       {
         "displayNumber": "22",
         "overallNumber": "98",
         "title": "These Are the Voyages...",
-        "date": "May 13, 2005",
+        "date": "2005-05-13",
         "productionCode": "40358-098",
-        "stardate": "47457.1"
+        "stardate": "47457.1",
+        "synopsis": "Commander Riker interacts with Archer's crew in a hologram of their final mission as he deals with a dark secret from his past. Six years after the Terra Prime incident, an emotional Captain Archer and the crew return to Earth to decommission Enterprise and sign the charter for the Federation, the new alliance of planets they helped forge. Enroute, Archer agrees to help his old ally Shran retrieve his daughter as the captain prepares a speech to celebrate the Federation's establishment.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/63/157696.jpg"
       }
     ]
   ],
@@ -6317,121 +10110,326 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "1",
         "title": "The Vulcan Hello",
-        "date": "September 24, 2017",
+        "date": "2017-09-24",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "While patrolling Federation space, the U.S.S. Shenzhou encounters an object of unknown origin, putting First Officer Michael Burnham to her greatest test yet.",
+        "guestCast": [],
+        "runtime": "42",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/128/322025.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "2",
         "title": "Battle at the Binary Stars",
-        "date": "September 24, 2017",
+        "date": "2017-09-24",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Face to face with Klingon vessels, the U.S.S. Shenzhou prepares for the possibility of war if negotiations fail. Amidst the turmoil, Burnham looks back to her Vulcan upbringing for guidance.",
+        "guestCast": [],
+        "runtime": "38",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/128/322287.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "3",
         "title": "Context Is for Kings",
-        "date": "October 1, 2017",
+        "date": "2017-10-01",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Burnham finds herself aboard the U.S.S. Discovery where she quickly realizes things are not as they seem, including the mysterious Captain Gabriel Lorca.",
+        "guestCast": [],
+        "runtime": "48",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/129/324412.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "4",
         "title": "The Butcher's Knife Cares Not for the Lamb's Cry",
-        "date": "October 8, 2017",
+        "date": "2017-10-08",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "With tensions and stakes high as Starfleet continues in their efforts to end the war with the Klingons, Burnham begins to settle in to her new position aboard the U.S.S. Discovery.",
+        "guestCast": [],
+        "runtime": "49",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/130/326569.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "5",
         "title": "Choose Your Pain",
-        "date": "October 15, 2017",
+        "date": "2017-10-15",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "While on a mission, Lorca unexpectedly finds himself in the company of prisoner of war, Starfleet Lieutenant Ash Tyler and notorious intergalactic criminal, Harry Mudd. Burnham voices her concerns about the repercussions of the spore drive jumps on \"Ripper\".",
+        "guestCast": [],
+        "runtime": "47",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/131/328978.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "6",
         "title": "Lethe",
-        "date": "October 22, 2017",
+        "date": "2017-10-22",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The U.S.S. Discovery crew is intrigued by new addition, Lt. Ash Tyler. Sarek seeks Burnham's help, rekindling memories from her past. Admiral Cornwell questions Lorca's tactics.",
+        "guestCast": [
+          "Wilson Cruz como Dr. Hugh Culber",
+          "Jayne Brook como Admiral Katrina Cornwell",
+          "James Frain como Ambassador Sarek",
+          "Mia Kirshner como Amanda Grayson",
+          "Kenneth Mitchell como Klingon Commanding Officer Kol",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Julianne Grossman como Discovery Computer",
+          "Sara Mitich como Lieutenant Commander Airiam",
+          "Conrad Coates como Admiral Terral",
+          "Damon Runyan como Ujilli",
+          "Clare McConnell como Dennas",
+          "Jonathan Whittaker como Vulcan Director",
+          "Luke Humphrey como Adjunct V'Latak"
+        ],
+        "runtime": "44",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/132/330735.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "7",
         "title": "Magic to Make the Sanest Man Go Mad",
-        "date": "October 29, 2017",
+        "date": "2017-10-29",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "As the U.S.S. Discovery crew attempts to let loose at a party, an unwelcome visitor comes aboard bringing about a problematic and twisted sequence of events.",
+        "guestCast": [
+          "Wilson Cruz como Dr. Hugh Culber",
+          "Rainn Wilson como Harcourt Fenton \"Harry\" Mudd",
+          "Katherine Barrell como Stella",
+          "Peter MacNeill como Baron Grimes",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "Julianne Grossman como Discovery Computer",
+          "Sara Mitich como Lieutenant Commander Airiam",
+          "Milton Barnes como Deck Crew #1",
+          "Hamza Fouad como Deck Crew #2",
+          "Jason Deline como Medical Officer",
+          "Izaak Smith como Jogger #1"
+        ],
+        "runtime": "47",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/133/332957.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "8",
         "title": "Si Vis Pacem, Para Bellum",
-        "date": "November 5, 2017",
+        "date": "2017-11-05",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The U.S.S. Discovery is tasked with a high priority mission to planet Pahvo and learn the science behind the Klingons' cloaking technology.",
+        "guestCast": [
+          "Wilson Cruz como Dr. Hugh Culber",
+          "Mary Chieffo como L'Rell",
+          "Jayne Brook como Admiral Katrina Cornwell",
+          "Kenneth Mitchell como Klingon Commanding Officer Kol",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "Julianne Grossman como Discovery Computer",
+          "Sara Mitich como Lieutenant Commander Airiam",
+          "Conrad Coates como Admiral Terral",
+          "Tyler Evan Webb como Shuttle Klingon 1",
+          "Michael Boisvert como Kovil",
+          "Anthony Grant como Klingon Communications Officer"
+        ],
+        "runtime": "42",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/133/332925.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "9",
         "title": "Into the Forest I Go",
-        "date": "November 12, 2017",
+        "date": "2017-11-12",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Bypassing Starfleet's orders, Lorca uses the U.S.S. Discovery crew's ultimate asset, the ship itself, in an effort to end the war with the Klingons once and for all.",
+        "guestCast": [
+          "Wilson Cruz como Dr. Hugh Culber",
+          "Mary Chieffo como L'Rell",
+          "Jayne Brook como Admiral Katrina Cornwell",
+          "Kenneth Mitchell como Klingon Commanding Officer Kol",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Julianne Grossman como Discovery Computer",
+          "Sara Mitich como Lieutenant Commander Airiam",
+          "Conrad Coates como Admiral Terral",
+          "Michael Ayres como Transport Officer",
+          "David Benjamin Tomlinson como Klingon Bridge Officer"
+        ],
+        "runtime": "47",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/134/335131.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "10",
         "title": "Despite Yourself",
-        "date": "January 7, 2018",
+        "date": "2018-01-07",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "While in unfamiliar territory, the U.S.S. Discovery crew is forced to get creative in their next efforts to survive opposing and unprecedented forces and return home.",
+        "guestCast": [
+          "Wilson Cruz como Dr. Hugh Culber",
+          "Mary Chieffo como L'Rell",
+          "Sam Vartholomeos como Ensign Danby Connor",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "Julianne Grossman como Discovery Computer",
+          "Sara Mitich como Lieutenant Commander Airiam",
+          "Ali Momen como Lieutenant Kamran Gant",
+          "Romaine Waite como Troy Januzzi",
+          "Chris Violette como Britch Weeton"
+        ],
+        "runtime": "48",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/135/337690.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "11",
         "title": "The Wolf Inside",
-        "date": "January 14, 2018",
+        "date": "2018-01-14",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The crew continues their guise, and Burnham is ordered on a merciless mission to end the resistance in hopes of helping the U.S.S. Discovery to return home. Meanwhile, Tilly works on restoring Stamets' neurofunction.",
+        "guestCast": [
+          "Wilson Cruz como Dr. Hugh Culber",
+          "Michelle Yeoh como Emperor Philippa Georgiou Augustus Iaponius Centarius",
+          "James Frain como Ambassador Sarek",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Julianne Grossman como Discovery Computer",
+          "Tasia Valenza como Shenzhou Computer",
+          "Ali Momen como Lieutenant Kamran Gant",
+          "Romaine Waite como Troy Januzzi",
+          "Chris Violette como Britch Weeton",
+          "Riley Gilchrist como Admiral Shukar",
+          "Devon MacDonald como Engineering Officer Harrington",
+          "Dwain Murphy como Captain Maddox",
+          "Javid Iqbal como Voq"
+        ],
+        "runtime": "49",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/142/356316.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "12",
         "title": "Vaulting Ambition",
-        "date": "January 21, 2018",
+        "date": "2018-01-21",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Burnham heads to the ISS Charon with a special \"gift\" for the Emperor. With the help of an unexpected source, Stamets gains clarity while trapped inside the mycelial network. Saru asks for L'Rell's help.",
+        "guestCast": [
+          "Michelle Yeoh como Emperor Philippa Georgiou Augustus Iaponius Centarius",
+          "Wilson Cruz como Dr. Hugh Culber",
+          "Mary Chieffo como L'Rell",
+          "Raven Dauda como Dr. Tracy Pollard",
+          "Tasia Valenza como Shenzhou Computer",
+          "Jeremy Crittenden como Lord Eling",
+          "Dwain Murphy como Captain Maddox",
+          "Billy MacLellan como Barlow",
+          "Marie Ward como Junior Guard",
+          "Sam Asante como Senior Guard"
+        ],
+        "runtime": "38",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/142/356125.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "13",
         "title": "What's Past Is Prologue",
-        "date": "January 28, 2018",
+        "date": "2018-01-28",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Lorca plans to move forward with a coup against the Emperor, propelling Burnham to make a quick decision to save not only herself, but the U.S.S. Discovery.",
+        "guestCast": [
+          "Michelle Yeoh como Emperor Philippa Georgiou Augustus Iaponius Centarius",
+          "Rekha Sharma como Security Officer Commander Landry",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "Sara Mitich como Lieutenant Commander Airiam",
+          "Jeremy Crittenden como Lord Eling"
+        ],
+        "runtime": "44",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/143/358013.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "14",
         "title": "The War Without, The War Within",
-        "date": "February 4, 2018",
+        "date": "2018-02-04",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Back on the USS Discovery, Michael Burnham and the crew are faced with the harsh reality of the war during their absence. In order to move forward, Starfleet must use unconventional tactics and sources to take their next action against the Klingons.",
+        "guestCast": [
+          "Michelle Yeoh como Emperor Philippa Georgiou Augustus Iaponius Centarius",
+          "Mary Chieffo como L'Rell",
+          "Jayne Brook como Admiral Katrina Cornwell",
+          "James Frain como Ambassador Sarek",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "Julianne Grossman como Discovery Computer",
+          "Sara Mitich como Lieutenant Commander Airiam",
+          "Raven Dauda como Dr. Tracy Pollard",
+          "Michael Ayres como Transport Officer",
+          "Riley Gilchrist como Admiral Shukar",
+          "Harry Judge como Tellarite Admiral Gorch",
+          "Melanie Nicholls-King como Admiral Drake"
+        ],
+        "runtime": "49",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/145/362809.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "15",
         "title": "Will You Take My Hand?",
-        "date": "February 11, 2018",
+        "date": "2018-02-11",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "With Georgiou at the helm of the plan to end the Klingon war once and for all, the U.S.S. Discovery crew struggles to fathom and tolerate her hostile tactics. Memories of past hardships are rekindled within Burnham.",
+        "guestCast": [
+          "Michelle Yeoh como Emperor Philippa Georgiou Augustus Iaponius Centarius",
+          "Mary Chieffo como L'Rell",
+          "Jayne Brook como Admiral Katrina Cornwell",
+          "James Frain como Ambassador Sarek",
+          "Mia Kirshner como Amanda Grayson",
+          "Clint Howard como Orion",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "Julianne Grossman como Discovery Computer",
+          "Sara Mitich como Lieutenant Commander Airiam",
+          "Damon Runyan como Ujilli",
+          "Michael Ayres como Transport Officer",
+          "Clare McConnell como Dennas",
+          "Riley Gilchrist como Admiral Shukar",
+          "Harry Judge como Tellarite Admiral Gorch",
+          "Morgan Kohan como Weapons Trader",
+          "David Benjamin Tomlinson como Klingon Player #1",
+          "Bree Wasylenko como Shava",
+          "Matthew Binkley como Shavo",
+          "Anthony Grant como Er' Toom",
+          "Crystal Leger como Klingon Player #2"
+        ],
+        "runtime": "45",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/146/365064.jpg"
       }
     ],
     [
@@ -6439,113 +10437,400 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "16",
         "title": "Brother",
-        "date": "January 17, 2019",
+        "date": "2019-01-17",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After answering a distress signal from the U.S.S. Enterprise, the U.S.S. Discovery welcomes aboard Captain Christopher Pike and begins a new mission to investigate the meaning behind seven mysterious red signals. Michael Burnham grapples with her past growing up on Vulcan with her foster parents and brother Spock.",
+        "guestCast": [
+          "Tig Notaro como Commander Jett Reno",
+          "James Frain como Ambassador Sarek",
+          "Mia Kirshner como Amanda Grayson",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Julianne Grossman como Discovery Computer",
+          "Sara Mitich como Lt. Cmdr. Nilsson",
+          "Hannah Cheesman como Lieutenant Commander Airiam",
+          "Raven Dauda como Dr. Tracy Pollard",
+          "Rachael Ancheril como Commander Nhan",
+          "Ethan Peck como Spock",
+          "Arista Arhin como Young Michael Burnham",
+          "Liam Hughes como Young Spock",
+          "Sean Connolly Affleck como Lieutenant Evan Connolly"
+        ],
+        "runtime": "61",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/180/450978.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "17",
         "title": "New Eden",
-        "date": "January 24, 2019",
+        "date": "2019-01-24",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A new signal appears, prompting Stamets' emotional return to the mycelial network and leading Burnham, Pike and Owosekun to a pre-warp planet, where they face a complex ethical dilemma. Tilly's overeagerness lands her in trouble but when the planet – and Discovery's landing party – are threatened, her curiosity may be the one thing that can save them.",
+        "guestCast": [
+          "Bahia Watson como May Ahearn",
+          "Andrew Moodie como Jacob",
+          "Sheila McCarthy como All-Mother",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "Julianne Grossman como Discovery Computer",
+          "Hannah Cheesman como Lieutenant Commander Airiam",
+          "Raven Dauda como Dr. Tracy Pollard",
+          "Kiara Alondra Groulx como Rose",
+          "Claire Qute como Teen May Hologram",
+          "Noah Davis como Lieutenant (2053)"
+        ],
+        "runtime": "43",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/181/453436.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "18",
         "title": "Point of Light",
-        "date": "January 31, 2019",
+        "date": "2019-01-31",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A surprise visitor to the U.S.S. Discovery brings shocking news about Spock and dredges up past regrets for Burnham. Following the asteroid incident, Tilly struggles to keep a grip on her reality. L'Rell's authority on Qo'noS is threatened.",
+        "guestCast": [
+          "Michelle Yeoh como Emperor Philippa Georgiou Augustus Iaponius Centarius",
+          "Mary Chieffo como L'Rell",
+          "Alan Van Sprang como Leland",
+          "Mia Kirshner como Amanda Grayson",
+          "Bahia Watson como May Ahearn",
+          "Kenneth Mitchell como Kol-Sha",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Julianne Grossman como Discovery Computer",
+          "Hannah Cheesman como Lieutenant Commander Airiam",
+          "Damon Runyan como Ujilli",
+          "Pay Chen como Starfleet Psychiatrist (Recording)",
+          "Xavier Sotelo como Captain Diego Vela"
+        ],
+        "runtime": "49",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/182/455369.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "19",
         "title": "An Obol for Charon",
-        "date": "February 7, 2019",
+        "date": "2019-02-07",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A mysterious sphere threatens the U.S.S. Discovery even as May, in her original form, implements a plan that puts Tilly's life in danger. Saru and Burnham's bond grows when Saru is forced to acknowledge a deeply unsettling Kelpien truth. Pike receives new intel on Spock from a loyal friend.",
+        "guestCast": [
+          "Tig Notaro como Commander Jett Reno",
+          "Rachael Ancheril como Commander Nhan",
+          "Bahia Watson como May Ahearn",
+          "Rebecca Romijn como Number One",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Julianne Grossman como Discovery Computer",
+          "Hannah Cheesman como Lieutenant Commander Airiam",
+          "Raven Dauda como Dr. Tracy Pollard"
+        ],
+        "runtime": "51",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/182/455535.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "20",
         "title": "Saints of Imperfection",
-        "date": "February 14, 2019",
+        "date": "2019-02-14",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Burnham and the crew navigate a dangerous alien landscape in a race against time to save Tilly's life, but Stamets is not at all prepared for what they find in the process. Section 31 is assigned to help track down Spock, much to Pike's dismay.",
+        "guestCast": [
+          "Michelle Yeoh como Emperor Philippa Georgiou Augustus Iaponius Centarius",
+          "Rachael Ancheril como Commander Nhan",
+          "Jayne Brook como Admiral Katrina Cornwell",
+          "Alan Van Sprang como Leland",
+          "Bahia Watson como May Ahearn",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "Julianne Grossman como Discovery Computer",
+          "Hannah Cheesman como Lieutenant Commander Airiam"
+        ],
+        "runtime": "52",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460236.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "21",
         "title": "The Sound of Thunder",
-        "date": "February 21, 2019",
+        "date": "2019-02-21",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When a new signal appears over Saru's home planet, Burnham, Saru and the crew embark on a perilous mission that puts Saru in danger and raises questions about the Red Angel's intentions. Hugh struggles to come to terms with his new reality.",
+        "guestCast": [
+          "Javier Botet como Ba'ul",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Julianne Grossman como Discovery Computer",
+          "Hannah Cheesman como Lieutenant Commander Airiam",
+          "Raven Dauda como Dr. Tracy Pollard",
+          "Michael Ayres como Transport Officer",
+          "Hannah Spear como Siranna",
+          "Mark Pellington como Ba'ul",
+          "David Benjamin Tomlinson como Kelpien Villager #1"
+        ],
+        "runtime": "56",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/460237.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "22",
         "title": "Light and Shadows",
-        "date": "February 28, 2019",
+        "date": "2019-02-28",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Burnham goes to Vulcan in search of Spock, where she unearths surprising family secrets. In researching what is left of the Red Angel's signal over Kaminar, Pike and Tyler end up in battle with time itself. Georgiou has a few tricks up her sleeve for Leland and Section 31.",
+        "guestCast": [
+          "Michelle Yeoh como Emperor Philippa Georgiou Augustus Iaponius Centarius",
+          "Ethan Peck como Spock",
+          "James Frain como Ambassador Sarek",
+          "Alan Van Sprang como Leland",
+          "Mia Kirshner como Amanda Grayson",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "Julianne Grossman como Discovery Computer",
+          "Hannah Cheesman como Lieutenant Commander Airiam",
+          "Arista Arhin como Young Michael Burnham",
+          "Liam Hughes como Young Spock"
+        ],
+        "runtime": "40",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/184/462433.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "23",
         "title": "If Memory Serves",
-        "date": "March 7, 2019",
+        "date": "2019-03-07",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Spock and Burnham head to Talos IV, where the process of healing Spock forces the siblings to confront their troubled past. Stamets desperately tries to reconnect with an increasingly disconnected Hugh, while Tyler struggles to shed the crew's suspicions of him due to his past as Voq.",
+        "guestCast": [
+          "Michelle Yeoh como Emperor Philippa Georgiou Augustus Iaponius Centarius",
+          "Rachael Ancheril como Commander Nhan",
+          "Ethan Peck como Spock",
+          "Alan Van Sprang como Leland",
+          "Alisen Down como Starfleet Psychiatrist",
+          "Melissa George como Vina",
+          "Rob Brownstein como Talosian Male",
+          "Dee Pelletier como Talosian Female",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "Julianne Grossman como Discovery Computer",
+          "Sara Mitich como Lt. Cmdr. Nilsson",
+          "Hannah Cheesman como Lieutenant Commander Airiam",
+          "Arista Arhin como Young Michael Burnham",
+          "Harry Judge como Tellarite Admiral Gorch",
+          "Liam Hughes como Young Spock",
+          "Tara Nicodemo como Admiral Patar",
+          "Riley Gilchrist como Andorian Admiral",
+          "Jon De Leon como Section 31 Engineer"
+        ],
+        "runtime": "54",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/186/465259.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "24",
         "title": "Project Daedalus",
-        "date": "March 14, 2019",
+        "date": "2019-03-14",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When the Discovery crew infiltrates Section 31's headquarters, suspicions arise that the crew may have a traitor in their midst. Burnham tries to help Spock but her efforts don't go as planned.",
+        "guestCast": [
+          "Rachael Ancheril como Commander Nhan",
+          "Jayne Brook como Admiral Katrina Cornwell",
+          "Ethan Peck como Spock",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "Hannah Cheesman como Lieutenant Commander Airiam",
+          "Arista Arhin como Young Michael Burnham",
+          "Alisen Down como Starfleet Psychiatrist",
+          "Tara Nicodemo como Admiral Patar",
+          "Tyler Hynes como Stephen"
+        ],
+        "runtime": "52",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/187/467861.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "25",
         "title": "The Red Angel",
-        "date": "March 21, 2019",
+        "date": "2019-03-21",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Burnham is stunned when she learns her ties to Section 31 run deeper than she ever fathomed. Armed with the identity of the Red Angel, the U.S.S. Discovery goes to work on its most critical mission to date.",
+        "guestCast": [
+          "Michelle Yeoh como Emperor Philippa Georgiou Augustus Iaponius Centarius",
+          "Rachael Ancheril como Commander Nhan",
+          "Jayne Brook como Admiral Katrina Cornwell",
+          "Ethan Peck como Spock",
+          "Alan Van Sprang como Leland",
+          "Sonja Sohn como Gabrielle Burnham",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "Sara Mitich como Lt. Cmdr. Nilsson",
+          "Hannah Cheesman como Lieutenant Commander Airiam",
+          "Jason Anthony como Control Computer"
+        ],
+        "runtime": "48",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/189/472660.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "26",
         "title": "Perpetual Infinity",
-        "date": "March 28, 2019",
+        "date": "2019-03-28",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Burnham receives the reunion she's been longing for, but it doesn't go quite as she imagined. Georgiou and Tyler sense a disturbing change in Leland.",
+        "guestCast": [
+          "Michelle Yeoh como Emperor Philippa Georgiou Augustus Iaponius Centarius",
+          "Rachael Ancheril como Commander Nhan",
+          "Ethan Peck como Spock",
+          "Alan Van Sprang como Leland",
+          "Sonja Sohn como Gabrielle Burnham",
+          "Kenric Green como Mike Burnham",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "Sara Mitich como Lt. Cmdr. Nilsson",
+          "Arista Arhin como Young Michael Burnham"
+        ],
+        "runtime": "49",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/189/473157.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "27",
         "title": "Through the Valley of Shadows",
-        "date": "April 4, 2019",
+        "date": "2019-04-04",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A fourth signal leads the U.S.S. Discovery to an insular world, where Pike is forced to make a life-changing choice. Burnham and Spock investigate a Section 31 ship gone rogue, leading to a discovery with catastrophic consequences.",
+        "guestCast": [
+          "Tig Notaro como Commander Jett Reno",
+          "Rachael Ancheril como Commander Nhan",
+          "Mary Chieffo como L'Rell",
+          "Ethan Peck como Spock",
+          "Mia Kirshner como Amanda Grayson",
+          "Kenneth Mitchell como Tenavik",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Julianne Grossman como Discovery Computer",
+          "Sara Mitich como Lt. Cmdr. Nilsson",
+          "Ali Momen como Lieutenant Kamran Gant",
+          "Ian James Corlett como Section 31 Computer",
+          "Byron Abalos como Trainee #1",
+          "Olivia Croft como Trainee #2"
+        ],
+        "runtime": "46",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/189/474712.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "28",
         "title": "Such Sweet Sorrow",
-        "date": "April 11, 2019",
+        "date": "2019-04-11",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When the U.S.S. Discovery's crucial mission does not go according to plan, Burnham realizes what must ultimately be done. The crew prepares for the battle of a lifetime as Leland's Control ships get closer.",
+        "guestCast": [
+          "Michelle Yeoh como Emperor Philippa Georgiou Augustus Iaponius Centarius",
+          "Tig Notaro como Commander Jett Reno",
+          "Rachael Ancheril como Commander Nhan",
+          "Jayne Brook como Admiral Katrina Cornwell",
+          "Ethan Peck como Spock",
+          "James Frain como Ambassador Sarek",
+          "Alan Van Sprang como Leland",
+          "Mia Kirshner como Amanda Grayson",
+          "Sonja Sohn como Gabrielle Burnham",
+          "Rebecca Romijn como Number One",
+          "Yadira Guevara-Prip como Me Hani Ika Hali Ka Po",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "Julianne Grossman como Discovery Computer",
+          "Sara Mitich como Lt. Cmdr. Nilsson",
+          "Hanneke Talbot como Lieutenant Mann",
+          "Nicole Dickinson como Yeoman Colt",
+          "Chai Valladares como Lieutenant Nicola",
+          "Samora Smallwood como Lieutenant Amin"
+        ],
+        "runtime": "48",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/190/476521.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "29",
         "title": "Such Sweet Sorrow",
-        "date": "April 18, 2019",
+        "date": "2019-04-18",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The U.S.S. Discovery battles against Control in a fight not only for their lives but for the future, with a little help from some unexpected friends. Spock and Burnham discern vital new connections between the red signals while Burnham faces one of life's harshest truths: the right decisions are often the hardest to make.",
+        "guestCast": [
+          "Michelle Yeoh como Emperor Philippa Georgiou Augustus Iaponius Centarius",
+          "Tig Notaro como Commander Jett Reno",
+          "Rachael Ancheril como Commander Nhan",
+          "Mary Chieffo como L'Rell",
+          "Jayne Brook como Admiral Katrina Cornwell",
+          "Ethan Peck como Spock",
+          "Alan Van Sprang como Leland",
+          "Mia Kirshner como Amanda Grayson",
+          "Rebecca Romijn como Number One",
+          "Yadira Guevara-Prip como Me Hani Ika Hali Ka Po",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "Julianne Grossman como Discovery Computer",
+          "Sara Mitich como Lt. Cmdr. Nilsson",
+          "Raven Dauda como Dr. Tracy Pollard",
+          "Hanneke Talbot como Lieutenant Mann",
+          "Nicole Dickinson como Yeoman Colt",
+          "Hannah Spear como Siranna",
+          "Chai Valladares como Lieutenant Nicola",
+          "Samora Smallwood como Lieutenant Amin",
+          "Zarrin Darnell-Martin como Nurse",
+          "Kyana Teresa como Doctor",
+          "Thom Marriott como Council Member",
+          "Glenn Hetrick como K'Vort"
+        ],
+        "runtime": "65",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/192/481140.jpg"
       }
     ],
     [
@@ -6553,105 +10838,396 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "30",
         "title": "That Hope Is You, Part 1",
-        "date": "October 15, 2020",
+        "date": "2020-10-15",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Arriving 930 years in the future, Burnham navigates a galaxy she no longer recognizes while searching for the rest of the U.S.S. Discovery crew.",
+        "guestCast": [
+          "Adil Hussain como Aditya Sahil",
+          "Fabio Tassone como Book's Ship Computer",
+          "Riley Gilchrist como Andorian Regulator",
+          "Nicole Dickinson como Hadley",
+          "David Benjamin Tomlinson como Cosmo Traitt",
+          "Julianne Grossman como Sanctuary Voice",
+          "Jake Michaels como Ithor the Orion",
+          "Brandon McGibbon como Ithyk the Andorian"
+        ],
+        "runtime": "53",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/283/709387.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "31",
         "title": "Far from Home",
-        "date": "October 22, 2020",
+        "date": "2020-10-22",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After the U.S.S. Discovery crash-lands on a strange planet, the crew finds themselves racing against time to repair their ship. Meanwhile, Saru and Tilly embark on a perilous first-contact mission in hopes of finding Burnham.",
+        "guestCast": [
+          "Michelle Yeoh como Emperor Philippa Georgiou Augustus Iaponius Centarius",
+          "Tig Notaro como Commander Jett Reno",
+          "Jake Weber como Zareh",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Sara Mitich como Lt. Cmdr. Nilsson",
+          "Raven Dauda como Dr. Tracy Pollard",
+          "Kevan Kase como Lookout",
+          "Sanjay Pavone como Ensign Hazmat",
+          "Jonathan Koensgen como Kal",
+          "Lindsay Owen Pierre como Os'ir the Bartender",
+          "Wole Daramola como Red Eyes (Heavy)"
+        ],
+        "runtime": "54",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/279/698499.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "32",
         "title": "People of Earth",
-        "date": "October 29, 2020",
+        "date": "2020-10-29",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Finally reunited, Burnham and the U.S.S. Discovery crew journey to Earth, eager to learn what happened to the Federation in their absence.",
+        "guestCast": [
+          "Michelle Yeoh como Emperor Philippa Georgiou Augustus Iaponius Centarius",
+          "Blu del Barrio como Adira",
+          "Phumzile Sitole como General Ndoye",
+          "Adil Hussain como Aditya Sahil",
+          "Kenneth Welsh como Admiral Senna Tal",
+          "Christopher Heyerdahl como Wen",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Sara Mitich como Lt. Cmdr. Nilsson",
+          "Fabio Tassone como Book's Ship Computer",
+          "Riley Gilchrist como Andorian Regulator",
+          "Xavier Lopez como Passing Crew Member",
+          "Fodé Bangoura como Alien Merchant",
+          "Shawn Campbell como Supervising Inspector"
+        ],
+        "runtime": "49",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/279/698501.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "33",
         "title": "Forget Me Not",
-        "date": "November 5, 2020",
+        "date": "2020-11-05",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Burnham and Adira visit the Trill homeworld in hopes of unlocking the secrets trapped within Adira's mind. Back on the U.S.S. Discovery, Saru's efforts to help the crew reconnect with one another take a surprising turn.",
+        "guestCast": [
+          "Michelle Yeoh como Emperor Philippa Georgiou Augustus Iaponius Centarius",
+          "Blu del Barrio como Adira",
+          "Annabelle Wallis como Zora",
+          "Ian Alexander como Gray Tal",
+          "Andreas Apergis como Trill Guardian Xi",
+          "Karen Robinson como Trill Leader Pav",
+          "Kenneth Welsh como Admiral Senna Tal",
+          "Andrew Shaver como Trill Commissioner Vos",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Julianne Grossman como Discovery Computer",
+          "Sara Mitich como Lt. Cmdr. Nilsson",
+          "Raven Dauda como Dr. Tracy Pollard",
+          "Elana Dunkelman como Disco Engineer #1",
+          "Christine L. Nguyen como Disco Engineer #2"
+        ],
+        "runtime": "55",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/280/700804.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "34",
         "title": "Die Trying",
-        "date": "November 12, 2020",
+        "date": "2020-11-12",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After reuniting with what remains of Starfleet and the Federation, the U.S.S. Discovery and its crew must prove that a 930 year old crew and starship are exactly what this new future needs.",
+        "guestCast": [
+          "Michelle Yeoh como Emperor Philippa Georgiou Augustus Iaponius Centarius",
+          "Blu del Barrio como Adira",
+          "Oded Fehr como Admiral Charles Vance",
+          "Tig Notaro como Commander Jett Reno",
+          "David Cronenberg como Dr. Kovich",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "Sara Mitich como Lt. Cmdr. Nilsson",
+          "Vanessa Jackson como Lieutenant Audrey Willa",
+          "Brendan Beiser como Eli the E.M.H.",
+          "Ana Sani como Mom",
+          "Jake Epstein como Dr. Attis",
+          "Rosie Simon como Starfleet Ensign",
+          "Shazdeh Kapadia como Daughter #2",
+          "Vanessa Burns como Holo Security Officer #2",
+          "Ava Mackinnon como Daughter #1",
+          "Daniel Woodrow como Holo Officer #3",
+          "Jajube Mandiela como Holo Officer #2",
+          "Shannon Lahaie como Tactical Officer",
+          "R.J. Parrish como Holo Security Officer #1",
+          "Chris Zamat como Holo Officer #1"
+        ],
+        "runtime": "56",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/283/708335.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "35",
         "title": "Scavengers",
-        "date": "November 19, 2020",
+        "date": "2020-11-19",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After receiving a message from Book, Burnham and Georgiou embark on a rogue mission to find him, leaving Saru to pick up the pieces with Admiral Vance. Meanwhile, Stamets forms an unexpected bond with Adira.",
+        "guestCast": [
+          "Michelle Yeoh como Emperor Philippa Georgiou Augustus Iaponius Centarius",
+          "Blu del Barrio como Adira",
+          "Oded Fehr como Admiral Charles Vance",
+          "Ian Alexander como Gray Tal",
+          "Noah Averbach-Katz como Ryn",
+          "Ian Lake como Tolor",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Julianne Grossman como Discovery Computer",
+          "Sara Mitich como Lt. Cmdr. Nilsson",
+          "Vanessa Jackson como Lieutenant Audrey Willa",
+          "Katherine Trowell como Captain Bandra",
+          "Jun Che como Lai",
+          "Avaah Blackwell como Captain Rahma",
+          "Danijel Mandic como Salvage Regulator",
+          "Mark Robinson como Captain L'Teis",
+          "Antonio Ortega como Engineer"
+        ],
+        "runtime": "49",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/282/706840.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "36",
         "title": "Unification III",
-        "date": "November 26, 2020",
+        "date": "2020-11-26",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "While grappling with the fallout of her recent actions, and what her future might hold, Burnham agrees to represent the Federation in an intense debate about the release of politically sensitive – but highly valuable – Burn data.",
+        "guestCast": [
+          "Oded Fehr como Admiral Charles Vance",
+          "Sonja Sohn como Gabrielle Burnham",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "Julianne Grossman como Discovery Computer",
+          "Sara Mitich como Lt. Cmdr. Nilsson",
+          "Tara Rosling como President T'Rina",
+          "Oliver Becker como N'Raj",
+          "Stephanie Belding como Shira",
+          "Emmanuel Kabongo como V'Kir"
+        ],
+        "runtime": "51",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/284/710324.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "37",
         "title": "The Sanctuary",
-        "date": "December 3, 2020",
+        "date": "2020-12-03",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Burnham and the U.S.S. Discovery crew travel to Book's home planet to help rescue it from Osyraa, the formidable leader of the Emerald Chain. Meanwhile, Stamets and Adira continue their search for valuable information on the origin of the Burn.",
+        "guestCast": [
+          "Michelle Yeoh como Emperor Philippa Georgiou Augustus Iaponius Centarius",
+          "Blu del Barrio como Adira",
+          "Oded Fehr como Admiral Charles Vance",
+          "Janet Kidder como Osyraa",
+          "Ache Hernandez como Kyheem",
+          "Noah Averbach-Katz como Ryn",
+          "Ian Lake como Tolor",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Sara Mitich como Lt. Cmdr. Nilsson",
+          "Raven Dauda como Dr. Tracy Pollard",
+          "Fabio Tassone como Book's Ship Computer",
+          "Luca Doulgeris como Leto",
+          "Jhaleil Swaby como San",
+          "Ross Carter como Lt. Haj"
+        ],
+        "runtime": "48",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/285/712926.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "38",
         "title": "Terra Firma",
-        "date": "December 10, 2020",
+        "date": "2020-12-10",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The U.S.S. Discovery crew journey to a mysterious planet in hopes of finding a cure for Georgiou's deteriorating condition. Stamets and Adira make a stunning breakthrough with the newly acquired Burn data.",
+        "guestCast": [
+          "Michelle Yeoh como Emperor Philippa Georgiou Augustus Iaponius Centarius",
+          "Blu del Barrio como Adira",
+          "Hannah Cheesman como Lieutenant Commander Airiam",
+          "Oded Fehr como Admiral Charles Vance",
+          "David Cronenberg como Dr. Kovich",
+          "Rekha Sharma como Security Officer Commander Landry",
+          "Paul Guilfoyle como Carl / Guardian of Forever",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "Julianne Grossman como Discovery Computer",
+          "Sara Mitich como Lt. Cmdr. Nilsson",
+          "Hannah Spear como Dr. Issa",
+          "David Benjamin Tomlinson como Kelpien Servant"
+        ],
+        "runtime": "48",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/288/720565.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "39",
         "title": "Terra Firma",
-        "date": "December 17, 2020",
+        "date": "2020-12-17",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Georgiou uncovers the true depths of the plot against her, leading her to a revelation about how deeply her time on the U.S.S. Discovery truly changed her.",
+        "guestCast": [
+          "Michelle Yeoh como Emperor Philippa Georgiou Augustus Iaponius Centarius",
+          "Blu del Barrio como Adira",
+          "Hannah Cheesman como Lieutenant Commander Airiam",
+          "Oded Fehr como Admiral Charles Vance",
+          "Tig Notaro como Commander Jett Reno",
+          "Rekha Sharma como Security Officer Commander Landry",
+          "Paul Guilfoyle como Carl / Guardian of Forever",
+          "Daniel Kash como Lieutenant Duggan",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "Sara Mitich como Lt. Cmdr. Nilsson"
+        ],
+        "runtime": "50",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/288/720566.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "40",
         "title": "Su'Kal",
-        "date": "December 24, 2020",
+        "date": "2020-12-24",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Discovery ventures to the Verubin Nebula, where Burnham, Saru, and Culber make a shocking realization about the origin of the Burn as the rest of the crew faces an unexpected threat.",
+        "guestCast": [
+          "Blu del Barrio como Adira",
+          "Oded Fehr como Admiral Charles Vance",
+          "Tig Notaro como Commander Jett Reno",
+          "Ian Alexander como Gray Tal",
+          "Janet Kidder como Osyraa",
+          "Bill Irwin como Su'Kal",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "Raven Dauda como Dr. Tracy Pollard",
+          "Fabio Tassone como Book's Ship Computer",
+          "Avaah Blackwell como Lieutenant Ina",
+          "Jinny Jessica Jacinto como The Monster",
+          "Robert Verlaque como Kelpien Elder Holo",
+          "Nelu Handa como Smiling Starfleet Lieutenant Holo",
+          "Danny Waugh como Vulcan Holo",
+          "Andrew Hinkson como Regulator"
+        ],
+        "runtime": "55",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/289/723249.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "41",
         "title": "There Is a Tide...",
-        "date": "December 31, 2020",
+        "date": "2020-12-31",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After capturing the U.S.S. Discovery, Osyraa seeks a meeting with Admiral Vance while Burnham and the crew must overcome unimaginable odds as they attempt to regain command of their ship.",
+        "guestCast": [
+          "Oded Fehr como Admiral Charles Vance",
+          "Annabelle Wallis como Zora",
+          "Janet Kidder como Osyraa",
+          "Jake Weber como Zareh",
+          "Noah Averbach-Katz como Ryn",
+          "Kenneth Mitchell como Invigilator Aurellio",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "Fabio Tassone como Book's Ship Computer",
+          "Vanessa Jackson como Lieutenant Audrey Willa",
+          "Avaah Blackwell como Lieutenant Ina",
+          "Dorren Lee como Lieutenant Teemo",
+          "Brendan Beiser como Eli the E.M.H.",
+          "Roy Samuelson como Emerald Chain Computer",
+          "Lisa Berry como Kanak",
+          "Nicole Dickinson como Strong Regulator",
+          "Lamont James como Regulator Guard #1",
+          "Alexander Mandra como Avryz"
+        ],
+        "runtime": "48",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/290/726301.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "42",
         "title": "That Hope Is You, Part 2",
-        "date": "January 7, 2021",
+        "date": "2021-01-07",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "As the Emerald Chain tightens its grip and the mystery of the Burn is finally solved, Burnham and the crew have one last chance to save themselves – and the Federation.",
+        "guestCast": [
+          "Blu del Barrio como Adira",
+          "Oded Fehr como Admiral Charles Vance",
+          "Annabelle Wallis como Zora",
+          "Tig Notaro como Commander Jett Reno",
+          "Ian Alexander como Gray Tal",
+          "David Cronenberg como Dr. Kovich",
+          "Janet Kidder como Osyraa",
+          "Jake Weber como Zareh",
+          "Bill Irwin como Su'Kal",
+          "Adil Hussain como Aditya Sahil",
+          "Kenneth Mitchell como Invigilator Aurellio",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "Julianne Grossman como Discovery Computer",
+          "Sara Mitich como Lt. Cmdr. Nilsson",
+          "Raven Dauda como Dr. Tracy Pollard",
+          "Tara Rosling como President T'Rina",
+          "Vanessa Jackson como Lieutenant Audrey Willa",
+          "Avaah Blackwell como Lieutenant Ina",
+          "Dorren Lee como Lieutenant Teemo",
+          "Karen Robinson como Trill Leader Pav",
+          "Hannah Spear como Dr. Issa",
+          "Roy Samuelson como Emerald Chain Computer",
+          "Jinny Jessica Jacinto como The Monster",
+          "David Benjamin Tomlinson como Young Su'Kal",
+          "Farhang Ghajar como Bridge Regulator",
+          "Ako Chanoine como Regulator Escort #1"
+        ],
+        "runtime": "62",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/291/728572.jpg"
       }
     ],
     [
@@ -6659,105 +11235,210 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "43",
         "title": "Kobayashi Maru",
-        "date": "November 18, 2021",
+        "date": "2021-11-18",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After months spent reconnecting the Federation with distant worlds, Captain Michael Burnham and the crew of the U.S.S. Discovery are sent to assist a damaged space station – a seemingly routine mission that reveals the existence of a terrifying new threat.",
+        "guestCast": [
+          "Oded Fehr como Admiral Charles Vance",
+          "Chelah Horsdal como Federation President Laira Rillak",
+          "Ian Alexander como Gray Tal",
+          "Bill Irwin como Su'Kal",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Sara Mitich como Lt. Cmdr. Nilsson",
+          "Raven Dauda como Dr. Tracy Pollard",
+          "Orville Cummings como Lt. Christopher",
+          "Vanessa Jackson como Lieutenant Audrey Willa",
+          "Luca Doulgeris como Leto",
+          "Ache Hernandez como Kyheem",
+          "Adrian Walters como Cadet Taahz Gorev",
+          "Alex McCooeye como Lee'U",
+          "Rodrigo Fernandez-Stoll como Nalas",
+          "David Sobolov como Ba'ul Council Member",
+          "Avaah Blackwell como Kelpien Council Member #2",
+          "Jodi Jahnke como Kelpien Council Member #1"
+        ],
+        "runtime": "53",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/376/940458.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "44",
         "title": "Anomaly",
-        "date": "November 25, 2021",
+        "date": "2021-11-25",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Saru returns to help the U.S.S. Discovery uncover the mystery of an unusually destructive new force. As Burnham leads the crew, she must also find a way to help Book cope with an unimaginable loss.",
+        "guestCast": [
+          "Oded Fehr como Admiral Charles Vance",
+          "Annabelle Wallis como Zora",
+          "Tara Rosling como President T'Rina",
+          "Chelah Horsdal como Federation President Laira Rillak",
+          "Ian Alexander como Gray Tal",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Patrick Kwok-Choon como Lt. Cmdr. Gen Rhys",
+          "Oyin Oladejo como Lt. Cmdr. Joann Owosekun",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "Sara Mitich como Lt. Cmdr. Nilsson",
+          "Fabio Tassone como Book's Ship Computer",
+          "Luca Doulgeris como Leto",
+          "Katherine Trowell como Captain Bandra",
+          "Linford Mark Robinson como Starfleet Captain #1"
+        ],
+        "runtime": "50",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/377/944798.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "45",
         "title": "Choose to Live",
-        "date": "December 2, 2021",
+        "date": "2021-12-02",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Burnham and Tilly hunt the killer of a Starfleet officer as Stamets and the science team race against the clock to prevent the anomaly from killing anyone else.",
+        "guestCast": [
+          "Oded Fehr como Admiral Charles Vance",
+          "Tara Rosling como President T'Rina",
+          "Chelah Horsdal como Federation President Laira Rillak",
+          "Ian Alexander como Gray Tal",
+          "Sonja Sohn como Gabrielle Burnham",
+          "Ayesha Mansur Gonsalves como J'Vini",
+          "Emily Coutts como Lt. Cmdr. Keyla Detmer",
+          "Ronnie Rowe como Lt. Cmdr. Ronald Altman Bryce",
+          "David Benjamin Tomlinson como Lt. J.G. Linus",
+          "Andreas Apergis como Trill Guardian Xi",
+          "Luca Doulgeris como Leto",
+          "Ache Hernandez como Kyheem",
+          "Giovanni Spina como Provost Sta'Kiar",
+          "Mimi Côté como Qowat Milat Nun",
+          "Khalil Abdul-Malik como Credence First Officer"
+        ],
+        "runtime": "55",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/379/949632.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "46",
         "title": "All Is Possible",
-        "date": "December 9, 2021",
+        "date": "2021-12-09",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Tilly and Adira lead a team of Starfleet Academy cadets on a training mission that takes a dangerous turn. Meanwhile, Burnham is pulled into tense negotiations on Ni'Var.",
+        "guestCast": [],
+        "runtime": "54",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/381/954681.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "47",
         "title": "The Examples",
-        "date": "December 16, 2021",
+        "date": "2021-12-16",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Burnham and Book race to evacuate a group of stranded colonists in the anomaly's path as one of the Federation's brightest scientists comes aboard the U.S.S. Discovery to do high-stakes research with Saru and Stamets.",
+        "guestCast": [],
+        "runtime": "51",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/383/959996.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "48",
         "title": "Stormy Weather",
-        "date": "December 23, 2021",
+        "date": "2021-12-23",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Seeking answers, the U.S.S. Discovery ventures into a subspace rift created by the Dark Matter Anomaly. Meanwhile, Book faces a strange visitor from his past.",
+        "guestCast": [],
+        "runtime": "47",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/385/963602.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "49",
         "title": "...But to Connect",
-        "date": "December 30, 2021",
+        "date": "2021-12-30",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Tensions rise as representatives from across the galaxy gather to confront the threat of the Dark Matter Anomaly. Zora's new sentience raises difficult questions.",
+        "guestCast": [],
+        "runtime": "47",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/387/967695.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "50",
         "title": "All In",
-        "date": "February 10, 2022",
+        "date": "2022-02-10",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Following a hunch, Captain Burnham tracks Book to an old haunt from their courier days and gets drawn into a high-stakes competition for a powerful weapon.",
+        "guestCast": [],
+        "runtime": "51",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/395/988897.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "51",
         "title": "Rubicon",
-        "date": "February 17, 2022",
+        "date": "2022-02-17",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Captain Burnham and the U.S.S. Discovery race to stop Book and Ruon Tarka from launching a rogue plan that could inadvertently endanger the galaxy.",
+        "guestCast": [],
+        "runtime": "45",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/396/991207.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "52",
         "title": "The Galactic Barrier",
-        "date": "February 24, 2022",
+        "date": "2022-02-24",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Captain Burnham and her crew must go where few have gone before: beyond the Galactic Barrier. Meanwhile, Book learns the truth of what drives Ruon Tarka.",
+        "guestCast": [],
+        "runtime": "52",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/397/993336.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "53",
         "title": "Rosetta",
-        "date": "March 3, 2022",
+        "date": "2022-03-03",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "While Captain Burnham leads an away mission to a planet that was once home to the aliens responsible for the DMA, Book and Tarka secretly infiltrate the U.S.S. Discovery.",
+        "guestCast": [],
+        "runtime": "50",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/398/995791.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "54",
         "title": "Species Ten-C",
-        "date": "March 10, 2022",
+        "date": "2022-03-10",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "As the DMA approaches Earth and Ni'Var, Captain Burnham and the crew of the U.S.S. Discovery attempt to make First Contact with the powerful species responsible before it's too late.",
+        "guestCast": [],
+        "runtime": "51",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/399/997826.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "55",
         "title": "Coming Home",
-        "date": "March 17, 2022",
+        "date": "2022-03-17",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "In the season four finale, the DMA approaches Earth and Ni'Var. With evacuations underway, Burnham and the team aboard the U.S.S. Discovery must find a way to communicate and connect with a species far different from their own before time runs out.",
+        "guestCast": [],
+        "runtime": "58",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/400/1000412.jpg"
       }
     ],
     [
@@ -6765,81 +11446,121 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "56",
         "title": "Red Directive",
-        "date": "April 4, 2024",
+        "date": "2024-04-04",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After an 800-year-old Romulan vessel is found, Captain Burnham and the U.S.S. Discovery are sent to retrieve it. But the artifact inside is stolen, starting an epic chase. Saru is offered a lifetime position.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/512/1280375.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "57",
         "title": "Under the Twin Moons",
-        "date": "April 4, 2024",
+        "date": "2024-04-04",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "On Saru's last mission as Captain Burnham's Number One, the team ventures to a seemingly abandoned planet to hunt for what might be the greatest treasure in the galaxy.",
+        "guestCast": [],
+        "runtime": "53",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/512/1280376.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "58",
         "title": "Jinaal",
-        "date": "April 11, 2024",
+        "date": "2024-04-11",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A new clue leads Discovery to a dangerous expedition on the planet Trill.",
+        "guestCast": [],
+        "runtime": "56",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/513/1283732.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "59",
         "title": "Face the Strange",
-        "date": "April 18, 2024",
+        "date": "2024-04-18",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "On the way to the next clue, the U.S.S. Discovery is sabotaged by a mysterious weapon, leaving Captain Burnham, Rayner, and Stamets as the only crew members who can possibly save the ship in time.",
+        "guestCast": [],
+        "runtime": "51",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/514/1286453.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "60",
         "title": "Mirrors",
-        "date": "April 25, 2024",
+        "date": "2024-04-25",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Burnham and Book face enemies and uncover a deadly new threat to Discovery.",
+        "guestCast": [],
+        "runtime": "56",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/516/1290125.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "61",
         "title": "Whistlespeak",
-        "date": "May 2, 2024",
+        "date": "2024-05-02",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "While undercover in a pre-warp society, Captain Burnham is forced to consider breaking the Prime Directive when a local tradition threatens Tilly's life. Meanwhile, Culber tries to connect with Stamets, and Adira steps up when Rayner assigns them a position on the bridge.",
+        "guestCast": [],
+        "runtime": "57",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/517/1293047.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "62",
         "title": "Erigah",
-        "date": "May 9, 2024",
+        "date": "2024-05-09",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "With Moll and L'ak finally in custody, the Federation is pulled into a diplomatic and ethical firestorm when the Breen arrive and demand they be handed over. Meanwhile, a frustrated Book looks for ways to help as Tilly, Adira, and Reno work to decipher the latest clue.",
+        "guestCast": [],
+        "runtime": "55",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/518/1295731.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "63",
         "title": "Labyrinths",
-        "date": "May 16, 2024",
+        "date": "2024-05-16",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When Captain Burnham is trapped within a \"mindscape\" designed to test her worthiness to retrieve the Progenitor's powerful technology, Book, Rayner, and the crew of the U.S.S. Discovery must hold off the Breen long enough for her to escape.",
+        "guestCast": [],
+        "runtime": "58",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/519/1298694.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "64",
         "title": "Lagrange Point",
-        "date": "May 23, 2024",
+        "date": "2024-05-23",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After Moll and the Breen capture a mysterious structure that contains the Progenitors' power, Captain Burnham must lead a covert mission to retrieve it before the Breen figure out how to use it.",
+        "guestCast": [],
+        "runtime": "47",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/520/1300607.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "65",
         "title": "Life, Itself",
-        "date": "May 30, 2024",
+        "date": "2024-05-30",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Trapped inside a mysterious alien portal that defies familiar rules of time, space, and gravity, Captain Burnham must fight Moll – and the environment itself – in order to locate the Progenitors' technology and secure it for the Federation. Meanwhile, Book puts himself in harm's way to help Burnham survive and Rayner leads the U.S.S. Discovery in an epic winner-takes-all battle against Breen forces.",
+        "guestCast": [],
+        "runtime": "86",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/521/1303786.jpg"
       }
     ]
   ],
@@ -6849,33 +11570,49 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "1",
         "title": "Runaway",
-        "date": "October 4, 2018",
+        "date": "2018-10-04",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Onboard the U.S.S. Discovery, Ensign Tilly encounters an unexpected visitor in need of help. However, this unlikely pair may have more in common than meets the eye.",
+        "guestCast": [],
+        "runtime": "15",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/174/436846.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "2",
         "title": "Calypso",
-        "date": "November 8, 2018",
+        "date": "2018-11-08",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After waking up in an unfamiliar sickbay, Craft finds himself on board a deserted ship, and his only companion and hope for survival is an A.I. computer interface.",
+        "guestCast": [],
+        "runtime": "15",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/174/436850.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "3",
         "title": "The Brightest Star",
-        "date": "December 6, 2018",
+        "date": "2018-12-06",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Before he was the first Kelpien to join Starfleet, Saru lived a simple life on his home planet of Kaminar with his father and sister. Young Saru, full of ingenuity and a level of curiosity uncommon among his people, yearns to find out what lies beyond his village, leading him on an unexpected path.",
+        "guestCast": [],
+        "runtime": "15",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/174/436851.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "4",
         "title": "The Escape Artist",
-        "date": "January 3, 2019",
+        "date": "2019-01-03",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Harry Mudd, back to his old tricks of stealing and double-dealing, finds himself in a precarious position aboard a hostile ship – just in time to try out his latest con.",
+        "guestCast": [],
+        "runtime": "15",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/176/441714.jpg"
       }
     ],
     [
@@ -6883,49 +11620,73 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "5",
         "title": "Q&A",
-        "date": "October 5, 2019",
+        "date": "2019-10-05",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Ensign Spock's first day aboard the U.S.S. Enterprise doesn't go as planned when he and Number One are unexpectedly stuck together in a turbo lift.",
+        "guestCast": [],
+        "runtime": "14",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/214/535576.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "6",
         "title": "The Trouble with Edward",
-        "date": "October 10, 2019",
+        "date": "2019-10-10",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Newly minted Captain Lynne Lucero is excited to take command of the U.S.S.Cabot, until she meets Edward Larkin, an ornery scientist who believes he has found a revolutionary new use for tribbles...",
+        "guestCast": [],
+        "runtime": "15",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/214/537219.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "7",
         "title": "Ask Not",
-        "date": "November 14, 2019",
+        "date": "2019-11-14",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When an attack on Starbase 28 leaves a surprise prisoner under Cadet Thira Sidhu's watch, she is faced with making a decision that may threaten her standing in Starfleet.",
+        "guestCast": [],
+        "runtime": "10",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/223/558985.jpg"
       },
       {
         "displayNumber": "When Starbase 28 is attacked, Cadet Thira Sidhu is given care of a mutinous prisoner: Captain Christopher Pike of the Enterprise. Pike tries to pressure Sidhu into releasing him, but she refuses. He then reveals it is a simulated test that Sidhu has passed, allowing her to join the crew of the Enterprise.Cast : Anson Mount as Christopher Pike, Ethan Peck as Spock, Rebecca Romijn as Number One, and Amrit Kaur as Thira Sidhu",
         "overallNumber": "When Starbase 28 is attacked, Cadet Thira Sidhu is given care of a mutinous prisoner: Captain Christopher Pike of the Enterprise. Pike tries to pressure Sidhu into releasing him, but she refuses. He then reveals it is a simulated test that Sidhu has passed, allowing her to join the crew of the Enterprise.Cast : Anson Mount as Christopher Pike, Ethan Peck as Spock, Rebecca Romijn as Number One, and Amrit Kaur as Thira Sidhu",
         "title": "When Starbase 28 is attacked, Cadet Thira Sidhu is given care of a mutinous prisoner: Captain Christopher Pike of the Enterprise. Pike tries to pressure Sidhu into releasing him, but she refuses. He then reveals it is a simulated test that Sidhu has passed, allowing her to join the crew of the Enterprise.Cast : Anson Mount as Christopher Pike, Ethan Peck as Spock, Rebecca Romijn as Number One, and Amrit Kaur as Thira Sidhu",
-        "date": "When Starbase 28 is attacked, Cadet Thira Sidhu is given care of a mutinous prisoner: Captain Christopher Pike of the Enterprise. Pike tries to pressure Sidhu into releasing him, but she refuses. He then reveals it is a simulated test that Sidhu has passed, allowing her to join the crew of the Enterprise.Cast : Anson Mount as Christopher Pike, Ethan Peck as Spock, Rebecca Romijn as Number One, and Amrit Kaur as Thira Sidhu",
+        "date": "2019-12-12",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Ephraim, a humble tardigrade, is flying through the mycelial network when an unexpected encounter takes her on a bewildering adventure through space.",
+        "guestCast": [],
+        "runtime": "9",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/231/578066.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "8",
         "title": "Ephraim and Dot",
-        "date": "December 12, 2019",
+        "date": "2019-12-12",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When a lightning storm in space scares a young Michael Burnham, her father aims to ease her fears with a mythical story about a brave little girl who faced her own fears head on.",
+        "guestCast": [],
+        "runtime": "8",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/231/578084.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "9",
         "title": "The Girl Who Made the Stars",
-        "date": "December 12, 2019",
+        "date": "2020-01-09",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "12 year-old classmates Kima and Lil find themselves at odds with each other on a day that will change their lives forever.",
+        "guestCast": [],
+        "runtime": "8",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/235/588037.jpg"
       },
       {
         "displayNumber": "6",
@@ -6933,7 +11694,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Children of Mars",
         "date": "January 9, 2020",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "",
+        "guestCast": []
       }
     ]
   ],
@@ -6943,81 +11706,121 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "1",
         "title": "Remembrance",
-        "date": "January 23, 2020",
+        "date": "2020-01-23",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "At the end of the 24th Century, and 14 years after his retirement from Starfleet, Jean-Luc Picard is living a quiet life on his vineyard, Chateau Picard. When he is sought out by a mysterious young woman, Dahj, in need of his help, he soon realizes she may have personal connections to his own past.",
+        "guestCast": [],
+        "runtime": "46",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/237/594351.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "2",
         "title": "Maps and Legends",
-        "date": "January 30, 2020",
+        "date": "2020-01-30",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Picard begins investigating the mystery of Dahj as well as what her very existence means to the Federation. Without Starfleet's support, Picard is left leaning on others for help, including Dr. Agnes Jurati and an estranged former colleague, Raffi Musiker. Meanwhile, hidden enemies are also interested in where Picard's search for the truth about Dahj will lead.",
+        "guestCast": [],
+        "runtime": "46",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/238/597159.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "3",
         "title": "The End Is the Beginning",
-        "date": "February 6, 2020",
+        "date": "2020-02-06",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Completely unaware of her special nature, Soji continues her work and captures the attention of the Borg cube research project's executive director. After rehashing past events with a reluctant Raffi, Picard seeks others willing to join his search for Bruce Maddox, including pilot and former Starfleet officer Cristóbal Rios.",
+        "guestCast": [],
+        "runtime": "44",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/239/599600.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "4",
         "title": "Absolute Candor",
-        "date": "February 13, 2020",
+        "date": "2020-02-13",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The crew's journey to Freecloud takes a detour when Picard orders a stop at the planet Vashti, where Picard and Raffi relocated Romulan refugees 14 years earlier. Upon arrival, Picard reunites with Elnor, a young Romulan he befriended during the relocation. Meanwhile, Narek continues his attempts to learn more about Soji while Narissa's impatience with his lack of progress grows.",
+        "guestCast": [],
+        "runtime": "45",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/241/604637.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "5",
         "title": "Stardust City Rag",
-        "date": "February 20, 2020",
+        "date": "2020-02-20",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The La Sirena crew begin an unpredictable and lively expedition on Freecloud to search for Bruce Maddox. When they learn Maddox has found himself in a precarious situation, a familiar face offers her assistance.",
+        "guestCast": [],
+        "runtime": "47",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/242/607089.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "6",
         "title": "The Impossible Box",
-        "date": "February 27, 2020",
+        "date": "2020-02-27",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Picard and the crew track Soji to the Borg cube in Romulan space, resurfacing haunting memories for Picard. Meanwhile, Narek believes he finally found a way to safely exploit Soji for information.",
+        "guestCast": [],
+        "runtime": "55",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/243/609621.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "7",
         "title": "Nepenthe",
-        "date": "March 5, 2020",
+        "date": "2020-03-05",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Picard and Soji's escape via the Borg Trajector sends them to the planet Nepenthe, leaving Elnor and Hugh behind to face the wrath of Narissa, who proves she will stop at nothing to discover Soji's whereabouts. Picard helps Soji understand her origins, and seeks out old allies to help with their quest.",
+        "guestCast": [],
+        "runtime": "59",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/244/611756.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "8",
         "title": "Broken Pieces",
-        "date": "March 12, 2020",
+        "date": "2020-03-12",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When devastating truths behind the Mars attack are revealed, Picard realizes just how far many will go to preserve secrets stretching back generations, all while the La Sirena crew grapples with secrets and revelations of their own. Narissa directs her guards to capture Elnor, setting off an unexpected chain of events on the Borg cube.",
+        "guestCast": [],
+        "runtime": "56",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/245/614950.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "9",
         "title": "Et in Arcadia Ego",
-        "date": "March 19, 2020",
+        "date": "2020-03-19",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Following an unconventional and dangerous transit, Picard and the crew finally arrive at Soji's home world, Coppelius. However, with Romulan warbirds on their tail, their arrival brings only greater danger as the crew discovers more than expected about the planet's inhabitants.",
+        "guestCast": [],
+        "runtime": "46",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/247/617703.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "10",
         "title": "Et in Arcadia Ego",
-        "date": "March 26, 2020",
+        "date": "2020-03-26",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A final confrontation on the synthetics' homeworld, Coppelius, pits Picard and his team against the Romulans, as well as the synths who seek to safeguard their existence at all costs.",
+        "guestCast": [],
+        "runtime": "58",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/248/621126.jpg"
       }
     ],
     [
@@ -7025,81 +11828,121 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "11",
         "title": "The Star Gazer",
-        "date": "March 3, 2022",
+        "date": "2022-03-03",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Starfleet must once again call on legendary Jean-Luc Picard after members of his former crew – Cristóbal Rios, Seven of Nine, Raffi Musiker, and Dr. Agnes Jurati – discover an anomaly in space that threatens the galaxy.",
+        "guestCast": [],
+        "runtime": "56",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/399/998073.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "12",
         "title": "Penance",
-        "date": "March 10, 2022",
+        "date": "2022-03-10",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Picard finds himself transported to an alternate timeline in the year 2400 where his longtime nemesis, Q, has orchestrated one final \"trial.\" Picard searches for his trusted crew as he attempts to find the cause of this dystopian future.",
+        "guestCast": [],
+        "runtime": "54",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/399/999491.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "13",
         "title": "Assimilation",
-        "date": "March 17, 2022",
+        "date": "2022-03-17",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Picard and the crew travel back to 2024 Los Angeles in search of the \"Watcher,\" who can help them identify the point at which time diverged. Seven, Raffi and Rios venture out into an unfamiliar world 400 years in their past, while Picard and Jurati attempt to gather information from an unlikely, and dangerous, ally.",
+        "guestCast": [],
+        "runtime": "47",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/400/1000383.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "14",
         "title": "Watcher",
-        "date": "March 24, 2022",
+        "date": "2022-03-24",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "With time running out to save the future, Picard takes matters into his own hands and seeks out an old friend for help. Meanwhile, Rios ends up on the wrong side of the law and Jurati makes a deal with the Borg Queen.",
+        "guestCast": [],
+        "runtime": "45",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/401/1002850.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "15",
         "title": "Fly Me to the Moon",
-        "date": "March 31, 2022",
+        "date": "2022-03-31",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Picard discovers an important person from his past may be integral to the divergence in the timeline. Q continues his manipulation of the timeline, taking an interest in Dr. Adam Soong. Seven and Raffi attempt a daring rescue of Rios, while Jurati faces the consequences of her deal with the Borg Queen.",
+        "guestCast": [],
+        "runtime": "41",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/402/1006017.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "16",
         "title": "Two of One",
-        "date": "April 7, 2022",
+        "date": "2022-04-07",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "With the help of Tallinn, Picard and the crew infiltrate a gala on the eve of a joint space mission, to protect one of the astronauts they believe to be integral to the restoration of the timeline – Renee Picard. Kore makes a startling discovery about her father's work.",
+        "guestCast": [],
+        "runtime": "39",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/403/1008432.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "17",
         "title": "Monsters",
-        "date": "April 14, 2022",
+        "date": "2022-04-14",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Tallinn ventures inside Picard's subconscious mind to help wake him from a coma and face both his darkest secrets and deepest fears. Seven and Raffi go in search of Jurati whom they fear has succumbed to the monster inside. Rios struggles to hide the truth of who he really is from Teresa.",
+        "guestCast": [],
+        "runtime": "46",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/404/1010564.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "18",
         "title": "Mercy",
-        "date": "April 21, 2022",
+        "date": "2022-04-21",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "With time running out before the launch of the Europa Mission, Picard and Guinan must free themselves from FBI custody. Seven and Raffi come face-to-face with Jurati and the horror of what she's become.",
+        "guestCast": [],
+        "runtime": "48",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/405/1014287.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "19",
         "title": "Hide and Seek",
-        "date": "April 28, 2022",
+        "date": "2022-04-28",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Picard and his crew fight for their lives as they come under attack from a new incarnation of an old enemy. But to survive, Picard must first face the ghosts of his past. Seven and Raffi have a final showdown with Jurati.",
+        "guestCast": [],
+        "runtime": "50",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/406/1016960.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "20",
         "title": "Farewell",
-        "date": "May 5, 2022",
+        "date": "2022-05-05",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "With just hours until the Europa Launch, Picard and the crew find themselves in a race against time to save the future.",
+        "guestCast": [],
+        "runtime": "48",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/407/1019150.jpg"
       }
     ],
     [
@@ -7107,81 +11950,121 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "21",
         "title": "The Next Generation",
-        "date": "February 16, 2023",
+        "date": "2023-02-16",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After receiving a cryptic, urgent distress call from Dr. Beverly Crusher, Admiral Jean-Luc Picard enlists help from generations old and new to embark on one final adventure: a daring mission that will change Starfleet, and his old crew forever.",
+        "guestCast": [],
+        "runtime": "53",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/447/1118821.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "22",
         "title": "Disengage",
-        "date": "February 23, 2023",
+        "date": "2023-02-23",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Aided by Seven of Nine and the crew of the U.S.S. Titan, Picard makes a shocking discovery that will alter his life forever - and puts him on a collision course with the most cunning enemy he's ever encountered. Meanwhile, Raffi races to track a catastrophic weapon - and collides with a familiar ally.",
+        "guestCast": [],
+        "runtime": "49",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/449/1122858.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "23",
         "title": "Seventeen Seconds",
-        "date": "March 2, 2023",
+        "date": "2023-03-02",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Picard grapples with an explosive, life-altering revelation, while the Titan and her crew try to outmaneuver a relentless Vadic in a lethal game of nautical cat and mouse. Meanwhile, Raffi and Worf uncover a nefarious plot from a vengeful enemy Starfleet has long since forgotten.",
+        "guestCast": [],
+        "runtime": "56",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/449/1124980.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "24",
         "title": "No Win Scenario",
-        "date": "March 9, 2023",
+        "date": "2023-03-09",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "With time running out, Picard, Riker and crew must confront the sins of their past and heal fresh wounds, while the Titan, dead in the water, drifts helplessly toward certain destruction within a mysterious space anomaly.",
+        "guestCast": [],
+        "runtime": "58",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/451/1128155.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "25",
         "title": "Imposters",
-        "date": "March 16, 2023",
+        "date": "2023-03-16",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Caught by Starfleet and facing court martial, paranoia grows as Picard struggles to uncover whether a prodigal crewman from his past has returned as an ally – or an enemy hellbent on destroying them all.",
+        "guestCast": [],
+        "runtime": "55",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/452/1131118.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "26",
         "title": "The Bounty",
-        "date": "March 23, 2023",
+        "date": "2023-03-23",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Now on the run, Picard and the skeleton crew of the USS Titan must break into Starfleet's most top secret facility to expose a plot that could destroy the Federation. Picard must turn to an old friend for help.",
+        "guestCast": [],
+        "runtime": "52",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/453/1133519.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "27",
         "title": "Dominion",
-        "date": "March 30, 2023",
+        "date": "2023-03-30",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Crippled, cornered, and out of options, Picard stages a gambit to trap Vadic and reveal her true motive – a gamble that puts the Titan in the crosshairs and forces Picard and Beverly to question every moral code they've ever held.",
+        "guestCast": [],
+        "runtime": "46",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/456/1141971.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "28",
         "title": "Surrender",
-        "date": "April 6, 2023",
+        "date": "2023-04-06",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Vadic forces Picard to make an impossible choice: deliver what he can never give… or watch his crew perish. Their only salvation lies in the mind of an old friend and old foe.",
+        "guestCast": [],
+        "runtime": "52",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/456/1141969.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "29",
         "title": "Võx",
-        "date": "April 13, 2023",
+        "date": "2023-04-13",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A devastating revelation about Jack alters the course of Picard's life forever – and uncovers a truth that threatens every soul in the Federation. The final battle begins as Picard and his crew race to save the galaxy from annihilation but not without a gut-wrenching cost.",
+        "guestCast": [],
+        "runtime": "47",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/456/1141966.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "30",
         "title": "The Last Generation",
-        "date": "April 20, 2023",
+        "date": "2023-04-20",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "In a desperate last stand, Jean-Luc Picard and generations of crews both old and new fight together to save the galaxy from the greatest threat they've ever faced as the saga of Star Trek: The Next Generation comes to a thrilling, epic conclusion.",
+        "guestCast": [],
+        "runtime": "62",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/458/1145437.jpg"
       }
     ]
   ],
@@ -7191,81 +12074,121 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "1",
         "title": "Second Contact",
-        "date": "August 6, 2020",
+        "date": "2020-08-06",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Ensign Tendi has her first day of work on Starfleet's U.S.S. Cerritos, where she meets fellow support crew members, Ensigns Mariner, Boimler and Rutherford. Meanwhile, Boimler is tasked with a secret special assignment and Rutherford attempts to keep his dating life intact while a sci-fi disaster strikes the ship.",
+        "guestCast": [],
+        "runtime": "26",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/267/668534.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "2",
         "title": "Envoys",
-        "date": "August 13, 2020",
+        "date": "2020-08-13",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After a high profile mission goes awry, Boimler is further plagued with self-doubt when Mariner proves herself to be a more naturally talented sci-fi badass than he. Rutherford quits his job in engineering and explores other departments on the U.S.S. Cerritos.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/268/670202.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "3",
         "title": "Temporal Edict",
-        "date": "August 20, 2020",
+        "date": "2020-08-20",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A new work protocol eliminating \"buffer time\" has the Lower Decks crew running ragged as they try to keep up with their tightened schedules. Ensign Mariner and Commander Ransom's mutual lack of respect comes to a head during an away mission.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/268/670580.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "4",
         "title": "Moist Vessel",
-        "date": "August 27, 2020",
+        "date": "2020-08-27",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Captain Freeman seeks the ultimate payback after Mariner blatantly disrespects her in front of the crew. A well-meaning Tendi accidentally messes up a Lieutenant's attempt at spiritual ascension and tries to make it right.",
+        "guestCast": [],
+        "runtime": "26",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/269/674813.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "5",
         "title": "Cupid's Errant Arrow",
-        "date": "September 3, 2020",
+        "date": "2020-09-03",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Mariner is suspicious of Boimler's new girlfriend. Tendi and Rutherford grow jealous of a bigger starship's gear.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/271/678159.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "6",
         "title": "Terminal Provocations",
-        "date": "September 10, 2020",
+        "date": "2020-09-10",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The lovable, but awkward, Ensign Fletcher makes work difficult for Mariner and Boimler. Rutherford introduces Tendi to a holodeck training program he created.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/272/681378.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "7",
         "title": "Much Ado About Boimler",
-        "date": "September 17, 2020",
+        "date": "2020-09-17",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Mariner tries to impress her best friend from Starfleet Academy who is now a visiting Captain. Boimler is sent to a Starfleet medical ship after a transporter accident puts him \"out of phase.\"",
+        "guestCast": [],
+        "runtime": "26",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/273/684365.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "8",
         "title": "Veritas",
-        "date": "September 24, 2020",
+        "date": "2020-09-24",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Mariner, Boimler, Tendi, and Rutherford are caught off guard when aliens force them to testify about a series of seemingly unrelated events.",
+        "guestCast": [],
+        "runtime": "26",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/274/687127.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "9",
         "title": "Crisis Point",
-        "date": "October 1, 2020",
+        "date": "2020-10-01",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Mariner repurposes Boimler's holodeck program to cast herself as the villain in a Lower Decks style movie.",
+        "guestCast": [],
+        "runtime": "27",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/276/690030.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "10",
         "title": "No Small Parts",
-        "date": "October 8, 2020",
+        "date": "2020-10-08",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Season finale. The U.S.S. Cerritos encounters a familiar enemy. Tendi helps a struggling recruit find her footing.",
+        "guestCast": [],
+        "runtime": "29",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/277/692785.jpg"
       }
     ],
     [
@@ -7273,81 +12196,121 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "11",
         "title": "Strange Energies",
-        "date": "August 12, 2021",
+        "date": "2021-08-12",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Approximately three months after the events of the season one finale, the U.S.S. Cerritos is dispatched on a mission where it ends up in a sci-fi event resulting in \"strange energy,\" which Commander Ransom inadvertently absorbs.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/348/870884.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "12",
         "title": "Kayshon, His Eyes Open",
-        "date": "August 19, 2021",
+        "date": "2021-08-19",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Our Lower Deckers have trouble bonding with Ensign Jet Manhaver, who has been assigned Boimler's bunk and shift duties. Meanwhile, we get a glimpse of Boimler's life on the U.S.S. Titan, which is more intense than he thought it would be.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/350/875107.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "13",
         "title": "We'll Always Have Tom Paris",
-        "date": "August 26, 2021",
+        "date": "2021-08-26",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Assigned a special task by Dr. T'Ana, Tendi enlists Mariner for help. On the U.S.S. Cerritos , Rutherford is consumed by a bridge crew mystery.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/351/879932.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "14",
         "title": "Mugato, Gumato",
-        "date": "September 2, 2021",
+        "date": "2021-09-02",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The U.S.S. Cerritos is dispatched to a planet to investigate an unexplained sighting of a dangerous Mugato.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/353/884236.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "15",
         "title": "An Embarrassment of Dooplers",
-        "date": "September 9, 2021",
+        "date": "2021-09-09",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Mariner and Boimler try to track down the location of a legendary Starfleet party while the bridge crew deals with an insecure alien diplomat.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/355/889459.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "16",
         "title": "The Spy Humongous",
-        "date": "September 16, 2021",
+        "date": "2021-09-16",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Anomaly consolidation day on the U.S.S. Cerritos leaves the Lower Deckers with mixed emotions. Captain Freeman attempts to negotiate peace on the Pakled home world.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/357/893946.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "17",
         "title": "Where Pleasant Fountains Lie",
-        "date": "September 23, 2021",
+        "date": "2021-09-23",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Mariner and Boimler are stranded on an uninhabited planet with a sentient computer. On the Cerritos, Lt. Commander Billups must prove his engineering abilities to an old adversary.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/359/899825.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "18",
         "title": "I, Excretus",
-        "date": "September 30, 2021",
+        "date": "2021-09-30",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A consultant arrives on the U.S.S. Cerritos to run drills that require the lower deckers and bridge crew to swap duties.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/361/904774.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "19",
         "title": "wej Duj",
-        "date": "October 7, 2021",
+        "date": "2021-10-07",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Boimler tries to find a bridge buddy while the U.S.S. Cerritos crew has down time during a long warp trip.",
+        "guestCast": [],
+        "runtime": "26",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/363/909258.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "20",
         "title": "First First Contact",
-        "date": "October 14, 2021",
+        "date": "2021-10-14",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "In the season two finale, the U.S.S. Cerritos is tasked to aid an Excelsior-class starship on a first contact mission.",
+        "guestCast": [],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/366/915928.jpg"
       }
     ],
     [
@@ -7355,81 +12318,121 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "21",
         "title": "Grounded",
-        "date": "August 25, 2022",
+        "date": "2022-08-25",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Mariner enlists her friends on a rogue mission to exonerate her mother, as Captain Freeman faces a military tribunal for the destruction of Pakled Planet.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/419/1049552.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "22",
         "title": "The Least Dangerous Game",
-        "date": "September 1, 2022",
+        "date": "2022-09-01",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "On a tropical paradise planet, Mariner questions Commander Ransom on how he structures his away team. Boimler makes a bold career decision.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/481/1203081.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "23",
         "title": "Mining the Mind's Mines",
-        "date": "September 8, 2022",
+        "date": "2022-09-08",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "On a remote science outpost, stone orbs are bringing fantasies to life. Tendi starts her first day as a Senior Science Officer Trainee.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/421/1053602.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "24",
         "title": "Room for Growth",
-        "date": "September 15, 2022",
+        "date": "2022-09-15",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Mariner, Boimler and Tendi clash with their arch-rivals: Delta Shift. The Cerritos engineers go on mandatory relaxation leave.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/422/1055422.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "25",
         "title": "Reflections",
-        "date": "September 22, 2022",
+        "date": "2022-09-22",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Mariner and Boimler work the Starfleet recruitment booth at an alien job fair, Rutherford challenges himself.",
+        "guestCast": [],
+        "runtime": "26",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/423/1057500.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "26",
         "title": "Hear All, Trust Nothing",
-        "date": "September 29, 2022",
+        "date": "2022-09-29",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Cerritos crew unexpectedly spends a day on Deep Space Nine.",
+        "guestCast": [],
+        "runtime": "26",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/423/1059650.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "27",
         "title": "A Mathematically Perfect Redemption",
-        "date": "October 6, 2022",
+        "date": "2022-10-06",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A wayward Starfleet ensign struggles to find a path to redemption.",
+        "guestCast": [],
+        "runtime": "27",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/424/1061677.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "28",
         "title": "Crisis Point 2: Paradoxus",
-        "date": "October 13, 2022",
+        "date": "2022-10-13",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Boimler's holodeck movie sequel tries to live up to the original.",
+        "guestCast": [],
+        "runtime": "27",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/426/1065626.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "29",
         "title": "Trusted Sources",
-        "date": "October 20, 2022",
+        "date": "2022-10-20",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A visiting reporter on the Cerritos puts Captain Freeman on edge.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/526/1315902.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "30",
         "title": "The Stars at Night",
-        "date": "October 27, 2022",
+        "date": "2022-10-27",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "In the season three finale, the U.S.S. Cerritos crew must prove their worth in a mission race.",
+        "guestCast": [],
+        "runtime": "28",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/526/1317225.jpg"
       }
     ],
     [
@@ -7437,81 +12440,121 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "31",
         "title": "Twovix",
-        "date": "September 7, 2023",
+        "date": "2023-09-07",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Cerritos ensigns must assist a caretaker on the voyage of a historically significant starship.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/527/1318061.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "32",
         "title": "I Have No Bones Yet I Must Flee",
-        "date": "September 7, 2023",
+        "date": "2023-09-07",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Mariner tries to get demoted, Rutherford tries to get promoted, and Boimler makes a big move.",
+        "guestCast": [],
+        "runtime": "23",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/475/1188053.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "33",
         "title": "In the Cradle of Vexilon",
-        "date": "September 14, 2023",
+        "date": "2023-09-14",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Boimler leads his first away mission on an alien megastructure.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/476/1192196.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "34",
         "title": "Something Borrowed, Something Green",
-        "date": "September 21, 2023",
+        "date": "2023-09-21",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Tendi is summoned back to Orion for a wedding.",
+        "guestCast": [],
+        "runtime": "26",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/534/1336715.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "35",
         "title": "Empathological Fallacies",
-        "date": "September 28, 2023",
+        "date": "2023-09-28",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A trio of Betazoids cause chaos on the Cerritos.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/537/1343746.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "36",
         "title": "Parth Ferengi's Heart Place",
-        "date": "October 5, 2023",
+        "date": "2023-10-05",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Cerritos visits the Ferengi homeworld.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/479/1199446.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "37",
         "title": "A Few Badgeys More",
-        "date": "October 12, 2023",
+        "date": "2023-10-12",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Three computerized villains return to cause problems for the Cerritos crew.",
+        "guestCast": [],
+        "runtime": "26",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/480/1201410.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "38",
         "title": "Caves",
-        "date": "October 19, 2023",
+        "date": "2023-10-19",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Lower Deckers go on a classic cave mission.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/481/1204598.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "39",
         "title": "The Inner Fight",
-        "date": "October 26, 2023",
+        "date": "2023-10-26",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Captain Freeman assigns the Lower Deckers an overly safe mission to try and keep a self-destructive Mariner out of danger.",
+        "guestCast": [],
+        "runtime": "26",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/482/1207110.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "40",
         "title": "Old Friends, New Planets",
-        "date": "November 2, 2023",
+        "date": "2023-11-02",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Mariner faces her past in the season four finale.",
+        "guestCast": [],
+        "runtime": "30",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/545/1363268.jpg"
       }
     ],
     [
@@ -7519,81 +12562,121 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "41",
         "title": "Dos Cerritos",
-        "date": "October 24, 2024",
+        "date": "2024-10-24",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A spatial anomaly forces the Cerritos crew to face their own faces.",
+        "guestCast": [],
+        "runtime": "28",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/540/1351816.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "42",
         "title": "Shades of Green",
-        "date": "October 24, 2024",
+        "date": "2024-10-24",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Tendi races to stop a conflict while Boimler and Mariner race to stop capitalists. Rutherford fixes a door.",
+        "guestCast": [],
+        "runtime": "26",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/540/1351276.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "43",
         "title": "The Best Exotic Nanite Hotel",
-        "date": "October 31, 2024",
+        "date": "2024-10-31",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Lower Deckers hunt nanites on a resort in space.",
+        "guestCast": [],
+        "runtime": "26",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/541/1354265.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "44",
         "title": "A Farewell To Farms",
-        "date": "November 7, 2024",
+        "date": "2024-11-07",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Dr. Migleemo cooks up some hot dishes while Mariner prefers hers served cold.",
+        "guestCast": [],
+        "runtime": "27",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/542/1357047.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "45",
         "title": "Starbase 80?!",
-        "date": "November 14, 2024",
+        "date": "2024-11-14",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Ransom uses too much disinfectant gel while Mariner gets paranoid about curses.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/552/1380322.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "46",
         "title": "Of Gods and Angles",
-        "date": "November 21, 2024",
+        "date": "2024-11-21",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Mariner teams up with a troubled ensign while the Cerritos hosts peace talks between warring civilizations.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/544/1361188.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "47",
         "title": "Fully Dilated",
-        "date": "November 28, 2024",
+        "date": "2024-11-28",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "It's a pre-warp society undercover Girls Trip!",
+        "guestCast": [],
+        "runtime": "26",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/545/1363493.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "48",
         "title": "Upper Decks",
-        "date": "December 5, 2024",
+        "date": "2024-12-05",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Lower Deckers have a pumpkin carving party.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/546/1366333.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "49",
         "title": "Fissure Quest",
-        "date": "December 12, 2024",
+        "date": "2024-12-12",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Fissures must be closed before they get inflamed.",
+        "guestCast": [],
+        "runtime": "28",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/547/1368699.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "50",
         "title": "The New Next Generation",
-        "date": "December 19, 2024",
+        "date": "2024-12-19",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Season finale where lots of wild stuff happens!",
+        "guestCast": [],
+        "runtime": "34",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/558/1395752.jpg"
       }
     ]
   ],
@@ -7603,153 +12686,229 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "1",
         "title": "Lost and Found",
-        "date": "October 28, 2021",
+        "date": "2021-10-28",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A group of lawless teens, exiled on a mining colony outside Federation space, discover a derelict Starfleet ship. Dal must gather an unlikely crew for their newfound ship if they are going to escape Tars Lamora, but the Diviner and his daughter Gwyn have other plans.",
+        "guestCast": [],
+        "runtime": "46",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/370/925037.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "2",
         "title": "Lost and Found",
-        "date": "October 28, 2021",
+        "date": "2021-11-04",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Even with the guidance of their hologram advisor Janeway, the crew of The Protostar is tested when their ship is on a dangerous cosmic collision course.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/374/935867.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "3",
         "title": "Starstruck",
-        "date": "November 4, 2021",
+        "date": "2021-11-11",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The crew has their first away mission on an undiscovered planet that manifests their deepest desires, only to realize the planet has desires of its own.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/374/935868.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "4",
         "title": "Dream Catcher",
-        "date": "November 11, 2021",
+        "date": "2021-11-18",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Marooned on a deadly planet, the crew must work together with their captive Gwyn to stay alive…except the planet isn't the only thing in pursuit.",
+        "guestCast": [],
+        "runtime": "23",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/376/940559.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "5",
         "title": "Terror Firma",
-        "date": "November 18, 2021",
+        "date": "2022-01-06",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "As Gwyn struggles to find her role aboard the U.S.S. Protostar, Dal tests his leadership skills in the newly discovered holodeck.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/388/970941.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "6",
         "title": "Kobayashi",
-        "date": "January 6, 2022",
+        "date": "2022-01-13",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When a mentor from Dal's past persuades him to use their Federation cover for personal gain, they quickly discover Starfleet has protocols for a reason.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/389/973025.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "7",
         "title": "First Con-tact",
-        "date": "January 13, 2022",
+        "date": "2022-01-20",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When the U.S.S. Protostar is fractured in time by an anomaly, Hologram Janeway must synchronize the disjointed crew and save their ship before it destructs.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/391/978317.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "8",
         "title": "Time Amok",
-        "date": "January 20, 2022",
+        "date": "2022-01-27",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The crew forgo their dreams of Starfleet to return to Tars Lamora in a no-win scenario.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/392/982132.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "9",
         "title": "A Moral Star",
-        "date": "January 27, 2022",
+        "date": "2022-02-03",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When the plan goes awry, the crew must improvise. Meanwhile, Gwyn discovers a dark truth that will forever jeopardize their quest toward salvation.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/394/986142.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "10",
         "title": "A Moral Star",
-        "date": "February 3, 2022",
+        "date": "2022-10-27",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "At the edge of Federation space, the crew applies for asylum at a comm relay outpost, only for their starship to reveal its shocking true purpose.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/428/1072363.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "11",
         "title": "Asylum",
-        "date": "October 27, 2022",
+        "date": "2022-11-03",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When the crew encounters a dormant Borg Cube, Zero risks everything to save their ship.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/429/1072804.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "12",
         "title": "Let Sleeping Borg Lie",
-        "date": "November 3, 2022",
+        "date": "2022-11-10",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The crew answers a distress call to find a colony trapped in Starfleet's past.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/430/1075751.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "13",
         "title": "All the World's a Stage",
-        "date": "November 10, 2022",
+        "date": "2022-11-17",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When the crew attempts to secure transport to the Federation, they unwittingly cross paths with the Vice Admiral who is hunting them.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/431/1077697.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "14",
         "title": "Crossroads",
-        "date": "November 17, 2022",
+        "date": "2022-11-24",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Trapped in the Neutral Zone, the crew encounters a rogue geneticist who sheds light on Dal's past.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/431/1079844.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "15",
         "title": "Masquerade",
-        "date": "November 24, 2022",
+        "date": "2022-12-01",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A Starfleet Admiral digs into the past of the Protostar crew. Meanwhile, the Diviner recalls his life's mission.",
+        "guestCast": [],
+        "runtime": "23",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/432/1081736.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "16",
         "title": "Preludes",
-        "date": "December 1, 2022",
+        "date": "2022-12-08",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When the crew gets trapped in the holodeck by a mysterious malfunction, they aren't sure what's programmed or what's real.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/433/1084601.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "17",
         "title": "Ghost in the Machine",
-        "date": "December 8, 2022",
+        "date": "2022-12-15",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Desperate to warn Starfleet of their dilemma, a daring experiment goes awry as Dal inadvertently swaps minds with a Starfleet Vice Admiral.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/435/1087753.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "18",
         "title": "Mindwalk",
-        "date": "December 15, 2022",
+        "date": "2022-12-22",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Surrounded by the Federation armada, the crew attempts to stop their ship from destroying all of Starfleet.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/436/1090798.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "19",
         "title": "Supernova",
-        "date": "December 22, 2022",
+        "date": "2022-12-29",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "As all looks lost, the young crew of the Protostar save the day at the very last moment.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/438/1095234.jpg"
       },
       {
         "displayNumber": "20",
@@ -7757,7 +12916,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "Supernova",
         "date": "December 29, 2022",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "",
+        "guestCast": []
       }
     ],
     [
@@ -7765,161 +12926,241 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "21",
         "title": "Into the Breach",
-        "date": "July 1, 2024",
+        "date": "2024-07-01",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Dal and his friends board Janeway's starship to investigate the wormhole created by the Protostar. Tired of his training, Dal longs for some action.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/526/1315332.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "22",
         "title": "Into the Breach",
-        "date": "July 1, 2024",
+        "date": "2024-07-01",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Gwyn runs into a familiar foe on the planet Solum. Janeway reveals the true stakes of their mission to Dal and his friends.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/526/1315333.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "23",
         "title": "Who Saves the Saviors",
-        "date": "July 1, 2024",
+        "date": "2024-07-01",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Traveling through the time rift, Dal and the crew search for Chakotay on Solum. With the support of her father, Gwyn challenges Asencia.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/526/1316721.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "24",
         "title": "Temporal Mechanics 101",
-        "date": "July 1, 2024",
+        "date": "2024-07-01",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Although separated by decades, the Infinity and the Voyager crews band together to save Gwyn's life. A mysterious messenger reaches out to Gwyn.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/526/1316722.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "25",
         "title": "Observer's Paradox",
-        "date": "July 1, 2024",
+        "date": "2024-07-01",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Reunited on the Voyager and under strict supervision, the gang must decode a secret message their mysterious benefactor left with Murf.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/526/1316723.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "26",
         "title": "Imposter Syndrome",
-        "date": "July 1, 2024",
+        "date": "2024-07-01",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Hoping to hijack the Infinity before its scheduled destruction, Dal and the crew create hologram doubles to cover for their absence.",
+        "guestCast": [],
+        "runtime": "25",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/526/1316724.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "27",
         "title": "The Fast and the Curious",
-        "date": "July 1, 2024",
+        "date": "2024-07-01",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After using a Borg conduit to travel through time faster, Dal and his friends find themselves at the mercy of a demanding Kazon.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/526/1316725.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "28",
         "title": "Is There in Beauty No Truth?",
-        "date": "July 1, 2024",
+        "date": "2024-07-01",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The crew detours to a colony of non-corporeal entities, who offer Zero an opportunity to obtain a physical body. Janeway discovers Dal's real intentions.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/530/1325001.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "29",
         "title": "The Devourer of All Things",
-        "date": "July 1, 2024",
+        "date": "2024-07-01",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Finally arriving at the coordinates, the Infinity crew discovers a hidden planet – and the long-awaited identity of their mysterious messenger.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/530/1325002.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "30",
         "title": "The Devourer of All Things",
-        "date": "July 1, 2024",
+        "date": "2024-07-01",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "On the run from their time-erasing pursuers, the Infinity crew and their new ally search for an escape. The Voyager embarks on a rescue mission.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/530/1325005.jpg"
       },
       {
         "displayNumber": "11",
         "overallNumber": "31",
         "title": "Last Flight of the Protostar",
-        "date": "July 1, 2024",
+        "date": "2024-07-01",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Thanks to Wesley Crusher's timely intervention, the cadets find the Protostar — but the ship's marooned guardian isn't eager for their assistance.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/530/1325008.jpg"
       },
       {
         "displayNumber": "12",
         "overallNumber": "32",
         "title": "Last Flight of the Protostar",
-        "date": "July 1, 2024",
+        "date": "2024-07-01",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Chakotay and the cadets devise a bold but perilous plan to relaunch the Protostar. Before the ship can fly, however, it will first have to sail.",
+        "guestCast": [],
+        "runtime": "23",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/530/1325010.jpg"
       },
       {
         "displayNumber": "13",
         "overallNumber": "33",
         "title": "A Tribble Called Quest",
-        "date": "July 1, 2024",
+        "date": "2024-07-01",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "While harvesting bosonite on a barren world that they need to proto-warp back to Voyager the crew encounters aggressive, genetically-modified tribbles — and the Klingon scientist who created them.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/530/1325013.jpg"
       },
       {
         "displayNumber": "14",
         "overallNumber": "34",
         "title": "Cracked Mirror",
-        "date": "July 1, 2024",
+        "date": "2024-07-01",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Protostar's reunion with Voyager has unexpected side effects, bouncing the crew between alternate realities — including the Mirror Universe.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/530/1325015.jpg"
       },
       {
         "displayNumber": "15",
         "overallNumber": "35",
         "title": "Ascension",
-        "date": "July 1, 2024",
+        "date": "2024-07-01",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Prodigy crew and Chakotay reunite with Voyager, bringing the timelost Protostar with them. But the past catches up to them when Ilthuran delivers a dire warning — Asencia is coming.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/530/1325016.jpg"
       },
       {
         "displayNumber": "16",
         "overallNumber": "36",
         "title": "Ascension",
-        "date": "July 1, 2024",
+        "date": "2024-07-01",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When Asencia's mysterious time weapon strikes Voyager and threatens all aboard, it's up to the crews of the Protostar, Voyager, and Nova Squadron to survive the attack.",
+        "guestCast": [],
+        "runtime": "22",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/530/1325018.jpg"
       },
       {
         "displayNumber": "17",
         "overallNumber": "37",
         "title": "Brink",
-        "date": "July 1, 2024",
+        "date": "2024-07-01",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "To prevent a war between the Federation and Solum, Gwyn leads the Protostar crew on a mission to rescue Ilthuran. But surprising discoveries force Gwyn to make hard choices which have dire consequences for everyone.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/530/1325019.jpg"
       },
       {
         "displayNumber": "18",
         "overallNumber": "38",
         "title": "Touch of Grey",
-        "date": "July 1, 2024",
+        "date": "2024-07-01",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Admiral Janeway devises a clever plan to liberate her crew from Asencia's prison, where they're trapped with an angry captive from the Loom.",
+        "guestCast": [],
+        "runtime": "23",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/530/1325022.jpg"
       },
       {
         "displayNumber": "19",
         "overallNumber": "39",
         "title": "Ouroboros",
-        "date": "July 1, 2024",
+        "date": "2024-07-01",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Determined to save both Starfleet and Solum, the Prodigy crew must stop an invasion on the Federation and open the wormhole that will send the Protostar back to Tars Lamora.",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/530/1325024.jpg"
       },
       {
         "displayNumber": "20",
         "overallNumber": "40",
         "title": "Ouroboros",
-        "date": "July 1, 2024",
+        "date": "2024-07-01",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "To save the present and fix the past, our crew must face the Loom and pilot the Protostar through the temporal wormhole back to Tars Lamora. Even if they succeed, what will the future hold?",
+        "guestCast": [],
+        "runtime": "24",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/530/1325025.jpg"
       }
     ]
   ],
@@ -7929,81 +13170,121 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "1",
         "title": "Strange New Worlds",
-        "date": "May 5, 2022",
+        "date": "2022-05-05",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When one of Pike's officers goes missing while on a secret mission for Starfleet, Pike has to come out of self-imposed exile. He must navigate how to rescue his officer, while struggling with what to do with the vision of the future he's been given.",
+        "guestCast": [],
+        "runtime": "54",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/468/1171498.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "2",
         "title": "Children of the Comet",
-        "date": "May 12, 2022",
+        "date": "2022-05-12",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "While on a survey mission, the U.S.S. Enterprise discovers a comet is going to strike an inhabited planet. They try to re-route the comet, only to find that an ancient alien relic buried on the comet's icy surface is somehow stopping them. As the away team try to unlock the relic's secrets, Pike and Number One deal with a group of zealots who want to prevent the U.S.S. Enterprise from interfering.",
+        "guestCast": [],
+        "runtime": "52",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/408/1020731.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "3",
         "title": "Ghosts of Illyria",
-        "date": "May 19, 2022",
+        "date": "2022-05-19",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The U.S.S. Enterprise encounters a contagion that ravages the ship. One by one, the entire crew is incapacitated except for Number One, Una Chin-Riley, who must now confront a secret she's been hiding as she races to find a cure.",
+        "guestCast": [],
+        "runtime": "46",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/409/1023529.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "4",
         "title": "Memento Mori",
-        "date": "May 26, 2022",
+        "date": "2022-05-26",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "While on a routine supply mission to a colony planet, the U.S.S. Enterprise comes under an attack from an unknown malevolent force. Pike brings all his heart and experience to bear in facing the crisis, but the security officer warns him that the enemy cannot be dealt with by conventional Starfleet means.",
+        "guestCast": [],
+        "runtime": "54",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/410/1026572.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "5",
         "title": "Spock Amok",
-        "date": "June 2, 2022",
+        "date": "2022-06-02",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "It's a comedy of manners when Spock has a personal visit in the middle of Spock and Captain Pike's crucial negotiations with an unusual alien species.",
+        "guestCast": [],
+        "runtime": "52",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/410/1027311.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "6",
         "title": "Lift Us Where Suffering Cannot Reach",
-        "date": "June 9, 2022",
+        "date": "2022-06-09",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A threat to an idyllic planet reunites Captain Pike with the lost love of his life. To protect her and a scientific holy child from a conspiracy, Pike offers his help and is forced to face unresolved feelings of his past.",
+        "guestCast": [],
+        "runtime": "50",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/412/1031255.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "7",
         "title": "The Serene Squall",
-        "date": "June 16, 2022",
+        "date": "2022-06-16",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "While on a dangerous humanitarian mission, the crew of the U.S.S. Enterprise stumbles into a harrowing game of leverage with the quadrant's deadliest space pirate",
+        "guestCast": [],
+        "runtime": "50",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/413/1032789.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "8",
         "title": "The Elysian Kingdom",
-        "date": "June 23, 2022",
+        "date": "2022-06-23",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The U.S.S. Enterprise becomes stuck in a nebula that is home to an alien consciousness that traps the crew in a fairy tale.",
+        "guestCast": [],
+        "runtime": "53",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/413/1034226.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "9",
         "title": "All Those Who Wander",
-        "date": "June 30, 2022",
+        "date": "2022-06-30",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The U.S.S. Enterprise crew comes face-to-face with their demons – and scary monsters too – when their landing party is stranded on a barren planet with a ravenous enemy.",
+        "guestCast": [],
+        "runtime": "49",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/414/1036014.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "10",
         "title": "A Quality of Mercy",
-        "date": "July 7, 2022",
+        "date": "2022-07-07",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Just as Captain Pike thinks he's figured out how to escape his fate, he's visited by his future self, who shows him the consequences of his actions.",
+        "guestCast": [],
+        "runtime": "63",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/415/1037658.jpg"
       }
     ],
     [
@@ -8011,81 +13292,121 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "11",
         "title": "The Broken Circle",
-        "date": "June 15, 2023",
+        "date": "2023-06-15",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A distress call from Lt. Noonien-Singh compels Spock to disobey orders and take the U.S.S. Enterprise and its crew into disputed space, risking renewed hostilities with the Klingons in a bid to aid their shipmate.",
+        "guestCast": [],
+        "runtime": "52",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/462/1156288.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "12",
         "title": "Ad Astra per Aspera",
-        "date": "June 22, 2023",
+        "date": "2023-06-22",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Commander Una faces court-martial along with possible imprisonment and dishonorable dismissal from Starfleet, and her defense is in the hands of a lawyer who's also a childhood friend with whom she had a terrible falling out.",
+        "guestCast": [],
+        "runtime": "57",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/465/1162629.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "13",
         "title": "Tomorrow and Tomorrow and Tomorrow",
-        "date": "June 29, 2023",
+        "date": "2023-06-29",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "La'an travels back in time to the 21st century Earth to prevent a attack which will alter humanity's future history.",
+        "guestCast": [],
+        "runtime": "61",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/466/1167269.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "14",
         "title": "Among the Lotus Eaters",
-        "date": "July 6, 2023",
+        "date": "2023-07-06",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Returning to a planet that dredges up tragic memories, Captain Pike and his landing party find themselves forgetting everything, including their own identities as he confronts a ghost from his past.",
+        "guestCast": [],
+        "runtime": "57",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/462/1156289.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "15",
         "title": "Charades",
-        "date": "July 13, 2023",
+        "date": "2023-07-13",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "A shuttle accident leads to Spock's Vulcan DNA being removed by aliens, making him fully human and completely unprepared to face T'Pring's family.",
+        "guestCast": [],
+        "runtime": "60",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/468/1171497.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "16",
         "title": "Lost in Translation",
-        "date": "July 20, 2023",
+        "date": "2023-07-20",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Uhura seems to be the only one who can hear a strange sound. When the noise triggers terrifying hallucinations, she enlists an unlikely assistant to help her track down the source.",
+        "guestCast": [],
+        "runtime": "54",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/469/1174492.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "17",
         "title": "Those Old Scientists",
-        "date": "July 22, 2023",
+        "date": "2023-07-22",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "An accident while investigating a time portal sends Ensigns Beckett Mariner and Bradward Boimler through time from the 24th Century, and Captain Pike and his crew must get them back where they belong before they can alter the timeline.",
+        "guestCast": [],
+        "runtime": "48",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/469/1174482.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "18",
         "title": "Under the Cloak of War",
-        "date": "July 27, 2023",
+        "date": "2023-07-27",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Captain Pike and his crew welcome a Klingon defector aboard the U.S.S. Enterprise, but his presence triggers the revelation of some shocking secrets.",
+        "guestCast": [],
+        "runtime": "49",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/471/1178441.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "19",
         "title": "Subspace Rhapsody",
-        "date": "August 3, 2023",
+        "date": "2023-08-03",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "An accident with an experimental quantum probability field causes everyone on the U.S.S. Enterprise to break uncontrollably into song, but the real danger is that the field is expanding and beginning to impact other ships — allies and enemies alike.",
+        "guestCast": [],
+        "runtime": "62",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/471/1178440.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "20",
         "title": "Hegemony",
-        "date": "August 10, 2023",
+        "date": "2023-08-10",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When the U.S.S. Enterprise investigates an attack on a colony at the edge of Federation space, Captain Pike and his crew face the return of a formidable enemy.",
+        "guestCast": [],
+        "runtime": "53",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/472/1180520.jpg"
       }
     ],
     [
@@ -8093,81 +13414,121 @@ export var SERIES_EPISODE_DETAILS = {
         "displayNumber": "1",
         "overallNumber": "21",
         "title": "Hegemony, Part II",
-        "date": "July 17, 2025",
+        "date": "2025-07-17",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Pike leads a risky rescue behind enemy lines as the landing party flees a deadly enemy.",
+        "guestCast": [],
+        "runtime": "48",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/572/1432124.jpg"
       },
       {
         "displayNumber": "2",
         "overallNumber": "22",
         "title": "Wedding Bell Blues",
-        "date": "July 17, 2025",
+        "date": "2025-07-17",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "At a Federation celebration, an uninvited guest disrupts Spock and the crew's reflections.",
+        "guestCast": [],
+        "runtime": "50",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/587/1468262.jpg"
       },
       {
         "displayNumber": "3",
         "overallNumber": "23",
         "title": "Shuttle to Kenfori",
-        "date": "July 24, 2025",
+        "date": "2025-07-24",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Pike and M'Benga enter disputed Klingon space to find a cure for Batel, as M'Benga's past resurfaces on a planet swarming with deadly creatures.",
+        "guestCast": [],
+        "runtime": "50",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/587/1468261.jpg"
       },
       {
         "displayNumber": "4",
         "overallNumber": "24",
         "title": "A Space Adventure Hour",
-        "date": "July 31, 2025",
+        "date": "2025-07-31",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When La'An tests a prototype holodeck with a fictional case only she can solve, the consequences of failure get greater and greater, with the Enterprise hanging in the balance.",
+        "guestCast": [],
+        "runtime": "48",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/572/1432129.jpg"
       },
       {
         "displayNumber": "5",
         "overallNumber": "25",
         "title": "Through the Lens of Time",
-        "date": "August 7, 2025",
+        "date": "2025-08-07",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Chapel and Korby's quest to uncover the next step in human evolution leads the Enterprise to a planet where ancient ruins hide a deeper mystery and a terrifying secret.",
+        "guestCast": [],
+        "runtime": "54",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/587/1468258.jpg"
       },
       {
         "displayNumber": "6",
         "overallNumber": "26",
         "title": "The Sehlat Who Ate Its Tail",
-        "date": "August 14, 2025",
+        "date": "2025-08-14",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "Lieutenant Commander James Kirk's first day in the Captain's chair of the U.S.S. Farragut takes a disastrous turn when the Enterprise is captured by a deadly Scavenger Ship. But the alien menace is not exactly what it seems…",
+        "guestCast": [],
+        "runtime": "49",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/587/1468256.jpg"
       },
       {
         "displayNumber": "7",
         "overallNumber": "27",
         "title": "What Is Starfleet?",
-        "date": "August 21, 2025",
+        "date": "2025-08-21",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "The Enterprise escorts cargo to help a war-ravaged planet, but controversial truths about it cause Pike and the crew to come under the scrutiny of an investigative journalist.",
+        "guestCast": [],
+        "runtime": "40",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/587/1468255.jpg"
       },
       {
         "displayNumber": "8",
         "overallNumber": "28",
         "title": "Four-and-a-Half Vulcans",
-        "date": "August 28, 2025",
+        "date": "2025-08-28",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "After the Enterprise completes a mission requiring several of the crew to become Vulcan, new problems arise when it is time for them to change back into humans.",
+        "guestCast": [],
+        "runtime": "54",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/572/1432131.jpg"
       },
       {
         "displayNumber": "9",
         "overallNumber": "29",
         "title": "Terrarium",
-        "date": "September 4, 2025",
+        "date": "2025-09-04",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When Ortegas crash lands on a deadly toxic moon, where the chances of survival are slim to none, she finds herself stranded and forced to challenge her most closely held beliefs in order to survive.",
+        "guestCast": [],
+        "runtime": "56",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/587/1468253.jpg"
       },
       {
         "displayNumber": "10",
         "overallNumber": "30",
         "title": "New Life and New Civilizations",
-        "date": "September 11, 2025",
+        "date": "2025-09-11",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "When an ancient, evil alien force re-emerges, Pike must make one of the hardest decisions of his life to stop the evil from spreading.",
+        "guestCast": [],
+        "runtime": "56",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/587/1468252.jpg"
       }
     ],
     [
@@ -8177,7 +13538,9 @@ export var SERIES_EPISODE_DETAILS = {
         "title": "TBA",
         "date": "2026",
         "productionCode": "",
-        "stardate": ""
+        "stardate": "",
+        "synopsis": "",
+        "guestCast": []
       }
     ]
   ],

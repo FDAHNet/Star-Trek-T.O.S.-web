@@ -738,6 +738,54 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
     });
   }
 
+  function hydrateClassicSeasonData() {
+    return Promise.all([
+      import("./series-episode-data.js"),
+      import("./series-cast-data.js")
+    ]).then(function (modules) {
+      var episodeModule = modules[0];
+      var castModule = modules[1];
+      var tosEpisodeSeasons = episodeModule.SERIES_EPISODE_DETAILS["star-trek-the-original-series"] || [];
+      var tosRegularCast = castModule.SERIES_CAST_DETAILS["star-trek-the-original-series"] || [];
+
+      season = Object.assign({}, season, {
+        episodes: season.episodes.map(function (episode, index) {
+          var enrichedSeason = tosEpisodeSeasons[seasonId - 1] || [];
+          var enrichedEpisode = enrichedSeason[index] || {};
+
+          return Object.assign({}, episode, {
+            synopsis: enrichedEpisode.synopsis || episode.summary,
+            guestCast: enrichedEpisode.guestCast || [],
+            regularCast: tosRegularCast,
+            image: enrichedEpisode.image || "",
+            runtime: enrichedEpisode.runtime || "",
+            productionCode: enrichedEpisode.productionCode || "",
+            stardate: enrichedEpisode.stardate || "",
+            overallNumber: enrichedEpisode.overallNumber || String(episode.number),
+            displayNumber: enrichedEpisode.displayNumber || String(episode.number),
+            date: enrichedEpisode.date || episode.date
+          });
+        })
+      });
+    }).catch(function () {
+      season = Object.assign({}, season, {
+        episodes: season.episodes.map(function (episode) {
+          return Object.assign({}, episode, {
+            synopsis: episode.summary,
+            guestCast: [],
+            regularCast: [],
+            image: "",
+            runtime: "",
+            productionCode: "",
+            stardate: "",
+            overallNumber: String(episode.number),
+            displayNumber: String(episode.number)
+          });
+        })
+      });
+    });
+  }
+
   function formatCount(total, visible) {
     if (visible === total) {
       return total + " episodios listados";
@@ -805,18 +853,39 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
   }
 
   function buildEpisodeCard(episode) {
+    var regularActorNames = (episode.regularCast || []).map(function (credit) {
+      return String(credit).split(" como ")[0];
+    });
+    var filteredGuestCast = (episode.guestCast || []).filter(function (credit) {
+      var actorName = String(credit).split(" como ")[0];
+      return regularActorNames.indexOf(actorName) === -1;
+    });
+    var meta = ["Emision original: " + episode.date];
+
+    if (episode.productionCode) {
+      meta.push("Codigo: " + episode.productionCode);
+    }
+    if (episode.stardate) {
+      meta.push("Fecha estelar: " + episode.stardate);
+    }
+    if (episode.runtime) {
+      meta.push("Duracion: " + episode.runtime + " min");
+    }
+
     return [
       '<article class="episode-card">',
-      '  <img class="episode-card__image" src="' + buildEpisodeArt(episode) + '" alt="Ilustracion del episodio ' + episode.number + ": " + episode.title + '">',
+      '  <img class="episode-card__image" src="' + (episode.image || buildEpisodeArt(episode)) + '" alt="Ilustracion del episodio ' + episode.number + ": " + episode.title + '">',
       '  <div class="episode-card__content">',
       '    <div class="episode-card__top">',
       "      <div>",
       '        <span class="episode-card__number">Episodio ' + episode.number + "</span>",
       '        <h3 class="episode-card__title">' + episode.title + "</h3>",
-      '        <p class="episode-card__meta">Emision original: ' + episode.date + "</p>",
+      '        <p class="episode-card__meta">' + meta.join(" | ") + "</p>",
       "      </div>",
       "    </div>",
-      "    <p>" + episode.summary + "</p>",
+      "    <p>" + (episode.synopsis || episode.summary) + "</p>",
+      "    <p><strong>Reparto principal:</strong> " + (episode.regularCast || []).join(" | ") + "</p>",
+      (filteredGuestCast.length ? "    <p><strong>Invitados y secundarios:</strong> " + filteredGuestCast.join(" | ") + "</p>" : ""),
       "  </div>",
       "</article>"
     ].join("");
@@ -829,13 +898,16 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
       return season.episodes.slice();
     }
 
-    return season.episodes.filter(function (episode) {
-      var haystack = normalize(
-        episode.number + " " +
-        episode.title + " " +
-        episode.summary + " " +
-        episode.date
-      );
+      return season.episodes.filter(function (episode) {
+        var haystack = normalize(
+          episode.number + " " +
+          episode.title + " " +
+          episode.summary + " " +
+          (episode.synopsis || "") + " " +
+          episode.date + " " +
+          (episode.regularCast || []).join(" ") + " " +
+          (episode.guestCast || []).join(" ")
+        );
 
       return haystack.indexOf(normalizedQuery) !== -1;
     });
@@ -1357,16 +1429,18 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
   }
 
   setupStarfield();
-  localizeSeasonStatic();
-  renderSeasonShell();
-  renderCastAges();
-  setupCharacterReveal();
+  hydrateClassicSeasonData().finally(function () {
+    localizeSeasonStatic();
+    renderSeasonShell();
+    renderCastAges();
+    setupCharacterReveal();
 
-  if (episodeSearch) {
-    episodeSearch.addEventListener("input", function (event) {
-      renderEpisodes(event.target.value);
-    });
-  }
+    if (episodeSearch) {
+      episodeSearch.addEventListener("input", function (event) {
+        renderEpisodes(event.target.value);
+      });
+    }
 
-  renderEpisodes("");
+    renderEpisodes("");
+  });
 }());
