@@ -44,6 +44,12 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
   var closeQuickVideoModalButton = document.getElementById("close-quick-video-modal");
   var quickVideoModal = document.getElementById("quick-video-modal");
   var quickVideoFrameHost = document.getElementById("quick-video-frame-host");
+  var heroChronologyEyebrow = document.getElementById("hero-chronology-eyebrow");
+  var heroChronologyTitle = document.getElementById("hero-chronology-title");
+  var heroChronologyText = document.getElementById("hero-chronology-text");
+  var heroChronologyControls = document.getElementById("hero-chronology-controls");
+  var heroChronologyTrack = document.getElementById("hero-chronology-track");
+  var chronologySortButtons = Array.prototype.slice.call(document.querySelectorAll("[data-chronology-sort]"));
   var starField = document.querySelector(".stars");
   var anniversaryBanner = document.getElementById("anniversary-banner");
 
@@ -425,6 +431,214 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
         timelineLabel: item.timelineLabel,
         releaseLabel: item.releaseLabel
       };
+    });
+  }
+
+  function getChronologyLabels() {
+    var labels = {
+      es: {
+        eyebrow: "Cronología Trek",
+        title: "Línea temporal interactiva",
+        text: "Ordena series y películas por su estreno real o por el lugar que ocupan dentro del universo Star Trek.",
+        sortTimeline: "Ordenar por cronología Trek",
+        sortRelease: "Ordenar por emisión",
+        sortAria: "Ordenar cronología Trek",
+        series: "Serie",
+        movie: "Película",
+        release: "Emisión",
+        chronology: "Cronología",
+        continuity: "Continuidad",
+        mainTimeline: "Línea principal",
+        kelvinTimeline: "Línea Kelvin"
+      },
+      en: {
+        eyebrow: "Trek chronology",
+        title: "Interactive timeline",
+        text: "Sort series and movies by real release order or by where they sit inside the Star Trek universe.",
+        sortTimeline: "Sort by Trek chronology",
+        sortRelease: "Sort by release",
+        sortAria: "Sort Trek chronology",
+        series: "Series",
+        movie: "Movie",
+        release: "Release",
+        chronology: "Chronology",
+        continuity: "Continuity",
+        mainTimeline: "Prime timeline",
+        kelvinTimeline: "Kelvin timeline"
+      },
+      fr: {
+        eyebrow: "Chronologie Trek",
+        title: "Ligne temporelle interactive",
+        text: "Triez les séries et les films par sortie réelle ou par leur place dans l'univers Star Trek.",
+        sortTimeline: "Trier par chronologie Trek",
+        sortRelease: "Trier par diffusion",
+        sortAria: "Trier la chronologie Trek",
+        series: "Série",
+        movie: "Film",
+        release: "Diffusion",
+        chronology: "Chronologie",
+        continuity: "Continuité",
+        mainTimeline: "Ligne principale",
+        kelvinTimeline: "Ligne Kelvin"
+      },
+      ru: {
+        eyebrow: "Хронология Trek",
+        title: "Интерактивная временная шкала",
+        text: "Сортируйте сериалы и фильмы по дате выхода или по месту в хронологии вселенной Star Trek.",
+        sortTimeline: "Сортировать по хронологии Trek",
+        sortRelease: "Сортировать по выходу",
+        sortAria: "Сортировка хронологии Trek",
+        series: "Сериал",
+        movie: "Фильм",
+        release: "Показ",
+        chronology: "Хронология",
+        continuity: "Непрерывность",
+        mainTimeline: "Основная линия",
+        kelvinTimeline: "Линия Кельвина"
+      },
+      uk: {
+        eyebrow: "Хронологія Trek",
+        title: "Інтерактивна часова лінія",
+        text: "Сортуйте серіали й фільми за датою виходу або за місцем у хронології всесвіту Star Trek.",
+        sortTimeline: "Сортувати за хронологією Trek",
+        sortRelease: "Сортувати за виходом",
+        sortAria: "Сортування хронології Trek",
+        series: "Серіал",
+        movie: "Фільм",
+        release: "Показ",
+        chronology: "Хронологія",
+        continuity: "Тяглість",
+        mainTimeline: "Основна лінія",
+        kelvinTimeline: "Лінія Кельвіна"
+      },
+      ca: {
+        eyebrow: "Cronologia Trek",
+        title: "Línia temporal interactiva",
+        text: "Ordena sèries i pel·lícules per estrena real o pel lloc que ocupen dins de l'univers Star Trek.",
+        sortTimeline: "Ordenar per cronologia Trek",
+        sortRelease: "Ordenar per emissió",
+        sortAria: "Ordenar cronologia Trek",
+        series: "Sèrie",
+        movie: "Pel·lícula",
+        release: "Emissió",
+        chronology: "Cronologia",
+        continuity: "Continuïtat",
+        mainTimeline: "Línia principal",
+        kelvinTimeline: "Línia Kelvin"
+      }
+    };
+
+    return labels[getLanguage()] || labels.es;
+  }
+
+  function getChronologyEntries() {
+    var seriesEntries = SERIES_DETAILS.map(function (series) {
+      var orderValues = getSeriesOrderValues(series.title);
+
+      return {
+        title: series.title,
+        href: getSeriesDetailUrl(series.title),
+        type: "series",
+        continuity: series.continuity,
+        releaseLabel: series.releaseLabel,
+        releaseStart: orderValues.release,
+        timelineLabel: series.timelineLabel,
+        timelineStart: orderValues.timeline
+      };
+    });
+
+    var movieEntries = MOVIES.map(function (movie) {
+      return {
+        title: movie.title,
+        href: getMovieDetailUrl(movie.title),
+        type: "movie",
+        continuity: movie.continuity,
+        releaseLabel: movie.releaseLabel,
+        releaseStart: movie.releaseStart,
+        timelineLabel: movie.timelineLabel,
+        timelineStart: movie.timelineStart
+      };
+    });
+
+    return seriesEntries.concat(movieEntries);
+  }
+
+  function localizeContinuityLabel(rawLabel, labels) {
+    if (rawLabel === "Linea principal" || rawLabel === "Línea principal" || rawLabel === "Prime timeline") {
+      return labels.mainTimeline;
+    }
+
+    if (rawLabel === "Linea Kelvin" || rawLabel === "Línea Kelvin" || rawLabel === "Kelvin timeline") {
+      return labels.kelvinTimeline;
+    }
+
+    return rawLabel;
+  }
+
+  function renderHeroChronology(sortMode) {
+    if (!heroChronologyTrack) {
+      return;
+    }
+
+    var labels = getChronologyLabels();
+    var entries = getChronologyEntries().sort(function (left, right) {
+      if (sortMode === "release") {
+        return left.releaseStart - right.releaseStart || left.timelineStart - right.timelineStart;
+      }
+
+      return left.timelineStart - right.timelineStart || left.releaseStart - right.releaseStart;
+    });
+
+    if (heroChronologyEyebrow) {
+      heroChronologyEyebrow.textContent = labels.eyebrow;
+    }
+    if (heroChronologyTitle) {
+      heroChronologyTitle.textContent = labels.title;
+    }
+    if (heroChronologyText) {
+      heroChronologyText.textContent = labels.text;
+    }
+    if (heroChronologyControls) {
+      heroChronologyControls.setAttribute("aria-label", labels.sortAria);
+    }
+
+    chronologySortButtons.forEach(function (button) {
+      var mode = button.getAttribute("data-chronology-sort") || "timeline";
+      var isActive = mode === sortMode;
+
+      button.textContent = mode === "timeline" ? labels.sortTimeline : labels.sortRelease;
+      button.classList.toggle("is-active", isActive);
+      button.setAttribute("aria-pressed", isActive ? "true" : "false");
+    });
+
+    heroChronologyTrack.innerHTML = entries.map(function (entry, index) {
+      var entryType = entry.type === "series" ? labels.series : labels.movie;
+      var continuity = localizeContinuityLabel(entry.continuity, labels);
+
+      return [
+        '<a class="hero-chronology__item hero-chronology__item--' + entry.type + '" href="' + entry.href + '">',
+        '<span class="hero-chronology__step">' + String(index + 1).padStart(2, "0") + "</span>",
+        '<span class="hero-chronology__kind">' + entryType + "</span>",
+        '<h3 class="hero-chronology__item-title">' + entry.title + "</h3>",
+        '<div class="hero-chronology__meta">',
+        '<span><strong>' + labels.release + ":</strong> " + entry.releaseLabel + "</span>",
+        '<span><strong>' + labels.chronology + ":</strong> " + entry.timelineLabel + "</span>",
+        '<span><strong>' + labels.continuity + ":</strong> " + continuity + "</span>",
+        "</div>",
+        "</a>"
+      ].join("");
+    }).join("");
+  }
+
+  function setupHeroChronology() {
+    if (!chronologySortButtons.length || !heroChronologyTrack) {
+      return;
+    }
+
+    chronologySortButtons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        renderHeroChronology(button.getAttribute("data-chronology-sort") || "timeline");
+      });
     });
   }
 
@@ -1529,6 +1743,8 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
     setupAnniversaryIntro();
     document.title = "Star Trek - Universo";
     localizeHomeStatic();
+    renderHeroChronology("timeline");
+    setupHeroChronology();
     renderHomeStats();
     renderHomeSeasonCards();
     renderFranchiseSeries("release");

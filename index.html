@@ -43,6 +43,24 @@
           <a class="button button--primary button--hero-series" href="#otras-series">Explorar Series</a>
           <button id="open-movies-modal" class="button button--ghost button--hero-movies" type="button">Explorar Peliculas</button>
         </div>
+
+        <section class="hero-chronology" aria-labelledby="hero-chronology-title">
+          <div class="hero-chronology__header">
+            <div class="hero-chronology__copy">
+              <p id="hero-chronology-eyebrow" class="hero-chronology__eyebrow">Cronología Trek</p>
+              <h2 id="hero-chronology-title" class="hero-chronology__title">Línea temporal interactiva</h2>
+              <p id="hero-chronology-text" class="hero-chronology__text">
+                Ordena series y películas por su estreno real o por el lugar que ocupan dentro del universo Star Trek.
+              </p>
+            </div>
+            <div id="hero-chronology-controls" class="series-sort hero-chronology__controls" role="group" aria-label="Ordenar cronología Trek">
+              <button class="season-selector__link series-sort__button" type="button" data-chronology-sort="timeline">Ordenar por cronología Trek</button>
+              <button class="season-selector__link series-sort__button" type="button" data-chronology-sort="release">Ordenar por emisión</button>
+            </div>
+          </div>
+
+          <div id="hero-chronology-track" class="hero-chronology__track" aria-live="polite"></div>
+        </section>
       </div>
 
       <aside class="hero__card" aria-label="Datos clave del sitio">
