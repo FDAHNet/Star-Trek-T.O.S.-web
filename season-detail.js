@@ -1,6 +1,8 @@
+import { getLanguage } from "./i18n/index.js";
 import { findSeriesSeasonEntry } from "./series-season-data.js";
 import { SERIES_EPISODE_DETAILS } from "./series-episode-data.js";
 import { SERIES_CAST_DETAILS } from "./series-cast-data.js";
+import { SERIES_EPISODE_TRANSLATIONS } from "./series-episode-translations.js";
 
 (function () {
   "use strict";
@@ -36,7 +38,13 @@ import { SERIES_CAST_DETAILS } from "./series-cast-data.js";
       .replace(/'/g, "&#39;");
   }
 
-  function renderEpisodeCard(episode) {
+  function renderEpisodeCard(episode, episodeIndex) {
+    var language = getLanguage();
+    var episodeTranslations = SERIES_EPISODE_TRANSLATIONS[seriesSlug] && SERIES_EPISODE_TRANSLATIONS[seriesSlug][seasonNumber - 1]
+      ? SERIES_EPISODE_TRANSLATIONS[seriesSlug][seasonNumber - 1]
+      : [];
+    var translationEntry = episodeTranslations[episodeIndex] || {};
+    var localizedSynopsis = translationEntry[language] || translationEntry.en || episode.synopsis || "";
     var regularCastLabel = regularCast.length ? regularCast.join(" | ") : "Pendiente de completar";
     var regularActorNames = regularCast.map(function (credit) {
       return String(credit).split(" como ")[0];
@@ -69,7 +77,7 @@ import { SERIES_CAST_DETAILS } from "./series-cast-data.js";
       "      </div>",
       "    </div>",
       (metaParts.length ? "    <p>" + metaParts.join(" | ") + "</p>" : "    <p>Ficha de emision pendiente de completar.</p>"),
-      (episode.synopsis ? '    <p>' + escapeHtml(episode.synopsis) + "</p>" : ""),
+      (localizedSynopsis ? '    <p>' + escapeHtml(localizedSynopsis) + "</p>" : ""),
       '    <p><strong>Reparto principal:</strong> ' + escapeHtml(regularCastLabel) + "</p>",
       (filteredGuestCast.length ? '    <p><strong>Invitados y secundarios:</strong> ' + escapeHtml(filteredGuestCast.join(" | ")) + "</p>" : ""),
       "  </div>",

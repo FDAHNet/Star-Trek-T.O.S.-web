@@ -741,20 +741,26 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
   function hydrateClassicSeasonData() {
     return Promise.all([
       import("./series-episode-data.js"),
-      import("./series-cast-data.js")
+      import("./series-cast-data.js"),
+      import("./series-episode-translations.js")
     ]).then(function (modules) {
       var episodeModule = modules[0];
       var castModule = modules[1];
+      var translationModule = modules[2];
       var tosEpisodeSeasons = episodeModule.SERIES_EPISODE_DETAILS["star-trek-the-original-series"] || [];
       var tosRegularCast = castModule.SERIES_CAST_DETAILS["star-trek-the-original-series"] || [];
+      var tosSynopsisTranslations = translationModule.SERIES_EPISODE_TRANSLATIONS["star-trek-the-original-series"] || [];
 
       season = Object.assign({}, season, {
         episodes: season.episodes.map(function (episode, index) {
           var enrichedSeason = tosEpisodeSeasons[seasonId - 1] || [];
           var enrichedEpisode = enrichedSeason[index] || {};
+          var translatedSeason = tosSynopsisTranslations[seasonId - 1] || [];
+          var translatedSynopsis = translatedSeason[index] || {};
 
           return Object.assign({}, episode, {
             synopsis: enrichedEpisode.synopsis || episode.summary,
+            synopsisTranslations: translatedSynopsis,
             guestCast: enrichedEpisode.guestCast || [],
             regularCast: tosRegularCast,
             image: enrichedEpisode.image || "",
@@ -772,6 +778,7 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
         episodes: season.episodes.map(function (episode) {
           return Object.assign({}, episode, {
             synopsis: episode.summary,
+            synopsisTranslations: {},
             guestCast: [],
             regularCast: [],
             image: "",
@@ -853,6 +860,7 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
   }
 
   function buildEpisodeCard(episode) {
+    var language = getLanguage();
     var regularActorNames = (episode.regularCast || []).map(function (credit) {
       return String(credit).split(" como ")[0];
     });
@@ -872,6 +880,8 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
       meta.push("Duracion: " + episode.runtime + " min");
     }
 
+    var localizedSynopsis = (episode.synopsisTranslations && episode.synopsisTranslations[language]) || episode.synopsis || episode.summary;
+
     return [
       '<article class="episode-card">',
       '  <img class="episode-card__image" src="' + (episode.image || buildEpisodeArt(episode)) + '" alt="Ilustracion del episodio ' + episode.number + ": " + episode.title + '">',
@@ -883,7 +893,7 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
       '        <p class="episode-card__meta">' + meta.join(" | ") + "</p>",
       "      </div>",
       "    </div>",
-      "    <p>" + (episode.synopsis || episode.summary) + "</p>",
+      "    <p>" + localizedSynopsis + "</p>",
       "    <p><strong>Reparto principal:</strong> " + (episode.regularCast || []).join(" | ") + "</p>",
       (filteredGuestCast.length ? "    <p><strong>Invitados y secundarios:</strong> " + filteredGuestCast.join(" | ") + "</p>" : ""),
       "  </div>",
@@ -899,11 +909,12 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
     }
 
       return season.episodes.filter(function (episode) {
+        var localizedSynopsis = (episode.synopsisTranslations && episode.synopsisTranslations[getLanguage()]) || episode.synopsis || "";
         var haystack = normalize(
           episode.number + " " +
           episode.title + " " +
           episode.summary + " " +
-          (episode.synopsis || "") + " " +
+          localizedSynopsis + " " +
           episode.date + " " +
           (episode.regularCast || []).join(" ") + " " +
           (episode.guestCast || []).join(" ")
