@@ -21,6 +21,23 @@ import { findSeriesSeasonEntry } from "./series-season-data.js";
     "star-trek-section-31": { accent: "#ff758a", secondary: "#8a63ff", tag: "Georgiou", era: "Operacion encubierta" }
   };
 
+  var WIKIPEDIA_MOVIE_TITLES = {
+    "star-trek-the-motion-picture": "Star_Trek:_The_Motion_Picture",
+    "star-trek-ii-the-wrath-of-khan": "Star_Trek_II:_The_Wrath_of_Khan",
+    "star-trek-iii-the-search-for-spock": "Star_Trek_III:_The_Search_for_Spock",
+    "star-trek-iv-the-voyage-home": "Star_Trek_IV:_The_Voyage_Home",
+    "star-trek-v-the-final-frontier": "Star_Trek_V:_The_Final_Frontier",
+    "star-trek-vi-the-undiscovered-country": "Star_Trek_VI:_The_Undiscovered_Country",
+    "star-trek-generations": "Star_Trek_Generations",
+    "star-trek-first-contact": "Star_Trek:_First_Contact",
+    "star-trek-insurrection": "Star_Trek:_Insurrection",
+    "star-trek-nemesis": "Star_Trek:_Nemesis",
+    "star-trek-2009": "Star_Trek_(2009_film)",
+    "star-trek-into-darkness": "Star_Trek_Into_Darkness",
+    "star-trek-beyond": "Star_Trek_Beyond",
+    "star-trek-section-31": "Star_Trek:_Section_31"
+  };
+
   function escapeHtml(value) {
     return String(value)
       .replace(/&/g, "&amp;")
@@ -96,7 +113,7 @@ import { findSeriesSeasonEntry } from "./series-season-data.js";
     return lines;
   }
 
-  function createMoviePoster(item) {
+  function createFallbackMoviePoster(item) {
     var meta = MOVIE_POSTER_META[item.slug] || { accent: "#7fe7ff", secondary: "#ffd36e", tag: item.timelineLabel, era: item.continuity };
     var seed = hashString(item.slug || item.title);
     var stars = buildPosterStars(seed);
@@ -150,6 +167,37 @@ import { findSeriesSeasonEntry } from "./series-season-data.js";
     return "data:image/svg+xml;charset=UTF-8," + encodeURIComponent(svg);
   }
 
+  function fetchWikipediaMoviePoster(slug) {
+    var wikiTitle = WIKIPEDIA_MOVIE_TITLES[slug];
+
+    if (!wikiTitle || typeof fetch !== "function") {
+      return Promise.resolve(null);
+    }
+
+    return fetch("https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(wikiTitle))
+      .then(function (response) {
+        if (!response.ok) {
+          throw new Error("No se pudo cargar el poster de Wikipedia");
+        }
+
+        return response.json();
+      })
+      .then(function (payload) {
+        if (payload && payload.originalimage && payload.originalimage.source) {
+          return payload.originalimage.source;
+        }
+
+        if (payload && payload.thumbnail && payload.thumbnail.source) {
+          return payload.thumbnail.source;
+        }
+
+        return null;
+      })
+      .catch(function () {
+        return null;
+      });
+  }
+
   var body = document.body;
   var detailType = body.getAttribute("data-detail-type");
   var detailSlug = body.getAttribute("data-detail-slug");
@@ -188,9 +236,30 @@ import { findSeriesSeasonEntry } from "./series-season-data.js";
   if (detailType === "movie" && heroVisual) {
     heroVisual.classList.add("detail-hero__visual--poster");
     heroVisual.innerHTML = [
-      '<img class="movie-poster" src="' + createMoviePoster(item) + '" alt="Poster ilustrado de ' + escapeHtml(item.title) + '">',
-      '<p class="detail-hero__caption">Poster visual de la ficha de ' + escapeHtml(item.title) + '</p>'
+      '<img class="movie-poster" src="' + createFallbackMoviePoster(item) + '" alt="Poster de ' + escapeHtml(item.title) + '">',
+      '<p class="detail-hero__caption">Poster de la pelicula</p>'
     ].join("");
+
+    fetchWikipediaMoviePoster(item.slug).then(function (posterUrl) {
+      var posterElement;
+      var captionElement;
+
+      if (!posterUrl) {
+        return;
+      }
+
+      posterElement = heroVisual.querySelector(".movie-poster");
+      captionElement = heroVisual.querySelector(".detail-hero__caption");
+
+      if (posterElement) {
+        posterElement.src = posterUrl;
+        posterElement.alt = "Poster oficial de " + item.title + " desde Wikipedia";
+      }
+
+      if (captionElement) {
+        captionElement.textContent = "Poster de la pelicula desde Wikipedia";
+      }
+    });
   }
 
   var cardsGrid = document.getElementById("detail-cards-grid");
