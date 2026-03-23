@@ -198,6 +198,34 @@ import { findSeriesSeasonEntry } from "./series-season-data.js";
       });
   }
 
+  function buildMoviePosterModal(item, posterSrc, posterAlt) {
+    var dialog = document.createElement("dialog");
+
+    dialog.className = "poster-modal";
+    dialog.setAttribute("aria-label", "Poster ampliado de " + item.title);
+    dialog.innerHTML = [
+      '<div class="poster-modal__panel">',
+      '  <button class="poster-modal__close" type="button" aria-label="Cerrar poster">X</button>',
+      '  <img class="poster-modal__image" src="' + posterSrc + '" alt="' + escapeHtml(posterAlt) + '">',
+      '  <p class="poster-modal__caption">' + escapeHtml(item.title) + '</p>',
+      '</div>'
+    ].join("");
+
+    document.body.appendChild(dialog);
+
+    dialog.addEventListener("click", function (event) {
+      if (event.target === dialog) {
+        dialog.close();
+      }
+    });
+
+    dialog.querySelector(".poster-modal__close").addEventListener("click", function () {
+      dialog.close();
+    });
+
+    return dialog;
+  }
+
   var body = document.body;
   var detailType = body.getAttribute("data-detail-type");
   var detailSlug = body.getAttribute("data-detail-slug");
@@ -234,30 +262,43 @@ import { findSeriesSeasonEntry } from "./series-season-data.js";
 
   var heroVisual = document.querySelector(".detail-hero__visual");
   if (detailType === "movie" && heroVisual) {
+    var fallbackPoster = createFallbackMoviePoster(item);
+
     heroVisual.classList.add("detail-hero__visual--poster");
     heroVisual.innerHTML = [
-      '<img class="movie-poster" src="' + createFallbackMoviePoster(item) + '" alt="Poster de ' + escapeHtml(item.title) + '">',
-      '<p class="detail-hero__caption">Poster de la pelicula</p>'
+      '<button class="movie-poster-button" type="button" aria-label="Ampliar poster de ' + escapeHtml(item.title) + '">',
+      '  <img class="movie-poster" src="' + fallbackPoster + '" alt="Poster de ' + escapeHtml(item.title) + '">',
+      '</button>',
+      '<p class="detail-hero__caption">Pulsa el poster para ampliarlo</p>'
     ].join("");
 
-    fetchWikipediaMoviePoster(item.slug).then(function (posterUrl) {
-      var posterElement;
-      var captionElement;
+    var posterButton = heroVisual.querySelector(".movie-poster-button");
+    var posterElement = heroVisual.querySelector(".movie-poster");
+    var captionElement = heroVisual.querySelector(".detail-hero__caption");
+    var posterModal = buildMoviePosterModal(item, fallbackPoster, "Poster de " + item.title);
+    var modalPoster = posterModal.querySelector(".poster-modal__image");
 
+    posterButton.addEventListener("click", function () {
+      posterModal.showModal();
+    });
+
+    fetchWikipediaMoviePoster(item.slug).then(function (posterUrl) {
       if (!posterUrl) {
         return;
       }
-
-      posterElement = heroVisual.querySelector(".movie-poster");
-      captionElement = heroVisual.querySelector(".detail-hero__caption");
 
       if (posterElement) {
         posterElement.src = posterUrl;
         posterElement.alt = "Poster oficial de " + item.title + " desde Wikipedia";
       }
 
+      if (modalPoster) {
+        modalPoster.src = posterUrl;
+        modalPoster.alt = "Poster oficial de " + item.title + " desde Wikipedia";
+      }
+
       if (captionElement) {
-        captionElement.textContent = "Poster de la pelicula desde Wikipedia";
+        captionElement.textContent = "Pulsa el poster para ampliarlo";
       }
     });
   }

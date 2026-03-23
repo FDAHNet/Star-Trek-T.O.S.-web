@@ -515,23 +515,98 @@ h3 {
   padding: 20px;
 }
 
+.movie-poster-button {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: zoom-in;
+}
+
 .movie-poster {
-  width: min(100%, 320px);
+  width: min(100%, 340px);
   margin: 0 auto;
   aspect-ratio: 3 / 4;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 22px;
   border: 1px solid rgba(255, 255, 255, 0.12);
   box-shadow:
     0 22px 50px rgba(0, 0, 0, 0.38),
     0 0 0 1px rgba(255, 255, 255, 0.04) inset;
   background: linear-gradient(180deg, rgba(16, 31, 58, 0.98), rgba(7, 14, 28, 0.98));
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.movie-poster-button:hover .movie-poster,
+.movie-poster-button:focus-visible .movie-poster {
+  transform: translateY(-4px) scale(1.01);
+  border-color: rgba(255, 211, 110, 0.38);
+  box-shadow:
+    0 26px 56px rgba(0, 0, 0, 0.42),
+    0 0 26px rgba(127, 231, 255, 0.15);
 }
 
 .detail-hero__caption {
   margin: 0;
   color: var(--muted);
   font-size: 0.92rem;
+  text-align: center;
+}
+
+.poster-modal {
+  width: min(760px, calc(100% - 24px));
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: var(--text);
+}
+
+.poster-modal::backdrop {
+  background: rgba(3, 7, 15, 0.88);
+  backdrop-filter: blur(8px);
+}
+
+.poster-modal__panel {
+  position: relative;
+  padding: 28px 28px 20px;
+  border: 1px solid var(--line);
+  border-radius: 30px;
+  background:
+    radial-gradient(circle at top, rgba(67, 117, 188, 0.18), transparent 28%),
+    linear-gradient(180deg, rgba(6, 15, 28, 0.98), rgba(7, 14, 28, 0.98));
+  box-shadow: var(--shadow);
+}
+
+.poster-modal__close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 42px;
+  height: 42px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.poster-modal__image {
+  width: min(100%, 560px);
+  max-height: 78vh;
+  margin: 0 auto;
+  object-fit: contain;
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.42);
+  background: linear-gradient(180deg, rgba(16, 31, 58, 0.98), rgba(7, 14, 28, 0.98));
+}
+
+.poster-modal__caption {
+  margin: 16px 0 0;
+  color: var(--muted);
   text-align: center;
 }
 
