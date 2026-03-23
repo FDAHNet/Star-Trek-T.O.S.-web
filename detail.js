@@ -4,6 +4,152 @@ import { findSeriesSeasonEntry } from "./series-season-data.js";
 (function () {
   "use strict";
 
+  var MOVIE_POSTER_META = {
+    "star-trek-the-motion-picture": { accent: "#7fe7ff", secondary: "#5f8cff", tag: "V'Ger", era: "La empresa renace" },
+    "star-trek-ii-the-wrath-of-khan": { accent: "#ff8a5b", secondary: "#d9415a", tag: "Khan", era: "Venganza y sacrificio" },
+    "star-trek-iii-the-search-for-spock": { accent: "#ffb36b", secondary: "#ff5d7f", tag: "Genesis", era: "Salvar a Spock" },
+    "star-trek-iv-the-voyage-home": { accent: "#6ff3d8", secondary: "#5db6ff", tag: "1986", era: "Viaje temporal" },
+    "star-trek-v-the-final-frontier": { accent: "#ffd36e", secondary: "#c471ed", tag: "La gran barrera", era: "La ultima frontera" },
+    "star-trek-vi-the-undiscovered-country": { accent: "#ffd36e", secondary: "#ff6b6b", tag: "Paz klingon", era: "El pais desconocido" },
+    "star-trek-generations": { accent: "#f7d76a", secondary: "#68d7ff", tag: "Kirk + Picard", era: "Dos eras colisionan" },
+    "star-trek-first-contact": { accent: "#8cf2ff", secondary: "#73f0b3", tag: "Los borg", era: "Primer contacto" },
+    "star-trek-insurrection": { accent: "#f6b95b", secondary: "#ff7187", tag: "Ba'ku", era: "Desobediencia moral" },
+    "star-trek-nemesis": { accent: "#dcd6ff", secondary: "#6f89ff", tag: "Shinzon", era: "El espejo de Picard" },
+    "star-trek-2009": { accent: "#83ebff", secondary: "#ff7d7d", tag: "Linea Kelvin", era: "La saga renace" },
+    "star-trek-into-darkness": { accent: "#ff9a69", secondary: "#ffc86c", tag: "Conspiracion", era: "Hacia la oscuridad" },
+    "star-trek-beyond": { accent: "#6cf0ff", secondary: "#7a8fff", tag: "Krall", era: "Mas alla" },
+    "star-trek-section-31": { accent: "#ff758a", secondary: "#8a63ff", tag: "Georgiou", era: "Operacion encubierta" }
+  };
+
+  function escapeHtml(value) {
+    return String(value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function hashString(value) {
+    var hash = 0;
+    var index;
+
+    for (index = 0; index < value.length; index += 1) {
+      hash = ((hash << 5) - hash + value.charCodeAt(index)) | 0;
+    }
+
+    return Math.abs(hash);
+  }
+
+  function buildPosterStars(seed) {
+    var stars = "";
+    var index;
+    var x;
+    var y;
+    var radius;
+    var opacity;
+
+    for (index = 0; index < 38; index += 1) {
+      x = (seed * (index + 11) * 37) % 900;
+      y = (seed * (index + 7) * 53) % 1200;
+      radius = index % 6 === 0 ? 3.2 : (index % 4 === 0 ? 2.3 : 1.5);
+      opacity = index % 5 === 0 ? 0.95 : (index % 3 === 0 ? 0.62 : 0.35);
+      stars += '<circle cx="' + x + '" cy="' + y + '" r="' + radius + '" fill="white" opacity="' + opacity + '" />';
+    }
+
+    return stars;
+  }
+
+  function buildDisplayTitle(title) {
+    return title
+      .replace(/^Star Trek:\s*/, "")
+      .replace(/^Star Trek\s*/, "")
+      .replace(/\bThe\b/g, "THE")
+      .toUpperCase();
+  }
+
+  function splitText(text, maxLength, maxLines) {
+    var words = String(text || "").split(/\s+/);
+    var lines = [];
+    var current = "";
+
+    words.forEach(function (word) {
+      var proposal = current ? current + " " + word : word;
+
+      if (proposal.length > maxLength && current) {
+        lines.push(current);
+        current = word;
+      } else {
+        current = proposal;
+      }
+    });
+
+    if (current) {
+      lines.push(current);
+    }
+
+    if (lines.length > maxLines) {
+      lines = lines.slice(0, maxLines);
+      lines[maxLines - 1] = lines[maxLines - 1].replace(/[.,;:!?-]*$/, "") + "...";
+    }
+
+    return lines;
+  }
+
+  function createMoviePoster(item) {
+    var meta = MOVIE_POSTER_META[item.slug] || { accent: "#7fe7ff", secondary: "#ffd36e", tag: item.timelineLabel, era: item.continuity };
+    var seed = hashString(item.slug || item.title);
+    var stars = buildPosterStars(seed);
+    var title = buildDisplayTitle(item.title);
+    var titleLines = splitText(title, 18, 3);
+    var summaryLines = splitText(item.summary || "", 48, 2);
+    var titleSvg = titleLines.map(function (line, index) {
+      return '<text x="94" y="' + (908 + (index * 86)) + '" font-family="Impact, Haettenschweiler, Arial Narrow Bold, sans-serif" font-size="96" fill="white">' + escapeHtml(line) + '</text>';
+    }).join("");
+    var summarySvg = summaryLines.map(function (line, index) {
+      return '<text x="98" y="' + (1046 + (index * 38)) + '" font-family="Trebuchet MS, Arial, sans-serif" font-size="26" fill="rgba(255,255,255,0.82)">' + escapeHtml(line) + '</text>';
+    }).join("");
+    var svg = [
+      '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">',
+      '  <title>' + escapeHtml(item.title) + '</title>',
+      '  <desc>Poster ilustrado de ' + escapeHtml(item.title) + ' con ambiente espacial.</desc>',
+      '  <defs>',
+      '    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">',
+      '      <stop offset="0%" stop-color="#050a14" />',
+      '      <stop offset="48%" stop-color="#09172b" />',
+      '      <stop offset="100%" stop-color="#02050d" />',
+      '    </linearGradient>',
+      '    <linearGradient id="beam" x1="10%" y1="0%" x2="100%" y2="100%">',
+      '      <stop offset="0%" stop-color="' + meta.accent + '" stop-opacity="0.88" />',
+      '      <stop offset="100%" stop-color="' + meta.secondary + '" stop-opacity="0.14" />',
+      '    </linearGradient>',
+      '    <radialGradient id="planet" cx="50%" cy="45%" r="60%">',
+      '      <stop offset="0%" stop-color="' + meta.accent + '" stop-opacity="0.96" />',
+      '      <stop offset="52%" stop-color="' + meta.secondary + '" stop-opacity="0.72" />',
+      '      <stop offset="100%" stop-color="#050a14" stop-opacity="0" />',
+      '    </radialGradient>',
+      '  </defs>',
+      '  <rect width="900" height="1200" fill="url(#bg)" />',
+      '  <rect width="900" height="1200" fill="url(#beam)" opacity="0.34" />',
+      '  <ellipse cx="700" cy="250" rx="210" ry="210" fill="url(#planet)" opacity="0.9" />',
+      '  <ellipse cx="735" cy="232" rx="56" ry="56" fill="white" opacity="0.08" />',
+      '  <g opacity="0.92">' + stars + '</g>',
+      '  <path d="M180 756 C265 696 432 654 655 682 C605 727 575 764 538 822 C388 840 265 818 180 756 Z" fill="rgba(255,255,255,0.10)" />',
+      '  <path d="M235 741 C314 699 451 683 622 709 C583 739 563 766 538 804 C418 816 310 799 235 741 Z" fill="' + meta.accent + '" opacity="0.24" />',
+      '  <ellipse cx="452" cy="744" rx="184" ry="56" fill="white" opacity="0.9" />',
+      '  <ellipse cx="582" cy="733" rx="120" ry="36" fill="white" opacity="0.82" />',
+      '  <rect x="136" y="142" width="628" height="56" rx="28" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.16)" />',
+      '  <text x="168" y="178" font-family="Trebuchet MS, Arial, sans-serif" font-size="28" letter-spacing="5" fill="' + meta.accent + '">' + escapeHtml(meta.era.toUpperCase()) + '</text>',
+      titleSvg,
+      '  <text x="98" y="' + (940 + (titleLines.length * 86)) + '" font-family="Trebuchet MS, Arial, sans-serif" font-size="30" letter-spacing="4" fill="' + meta.secondary + '">' + escapeHtml(meta.tag.toUpperCase()) + ' • ' + escapeHtml(item.releaseLabel) + '</text>',
+      summarySvg,
+      '  <text x="98" y="1112" font-family="Trebuchet MS, Arial, sans-serif" font-size="24" letter-spacing="2" fill="rgba(255,255,255,0.62)">' + escapeHtml(item.timelineLabel) + ' • ' + escapeHtml(item.continuity.toUpperCase()) + '</text>',
+      '</svg>'
+    ].join("");
+
+    return "data:image/svg+xml;charset=UTF-8," + encodeURIComponent(svg);
+  }
+
   var body = document.body;
   var detailType = body.getAttribute("data-detail-type");
   var detailSlug = body.getAttribute("data-detail-slug");
@@ -37,6 +183,15 @@ import { findSeriesSeasonEntry } from "./series-season-data.js";
       element.textContent = mapping[id];
     }
   });
+
+  var heroVisual = document.querySelector(".detail-hero__visual");
+  if (detailType === "movie" && heroVisual) {
+    heroVisual.classList.add("detail-hero__visual--poster");
+    heroVisual.innerHTML = [
+      '<img class="movie-poster" src="' + createMoviePoster(item) + '" alt="Poster ilustrado de ' + escapeHtml(item.title) + '">',
+      '<p class="detail-hero__caption">Poster visual de la ficha de ' + escapeHtml(item.title) + '</p>'
+    ].join("");
+  }
 
   var cardsGrid = document.getElementById("detail-cards-grid");
   var fallbackCards = item.cards || [
