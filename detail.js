@@ -22,7 +22,7 @@ import { findSeriesSeasonEntry } from "./series-season-data.js";
     "detail-badge": item.badge,
     "detail-title": item.title,
     "detail-title-copy": item.title,
-    "detail-summary": item.summary,
+    "detail-summary": item.detailedSynopsis || item.summary,
     "detail-release": item.releaseLabel,
     "detail-timeline": item.timelineLabel,
     "detail-continuity": item.continuity,
@@ -42,7 +42,7 @@ import { findSeriesSeasonEntry } from "./series-season-data.js";
   var fallbackCards = item.cards || [
     {
       title: detailType === "movie" ? "De que va" : "Panorama general",
-      text: item.summary
+      text: item.detailedSynopsis || item.summary
     },
     {
       title: detailType === "movie" ? "Ubicacion en Trek" : "Ubicacion en el canon",
