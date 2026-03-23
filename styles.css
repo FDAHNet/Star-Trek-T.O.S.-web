@@ -642,6 +642,11 @@ h3 {
   padding-bottom: 0;
 }
 
+.quick-map__group--video {
+  display: grid;
+  gap: 12px;
+}
+
 .quick-map__title {
   font-size: 1.7rem;
 }
@@ -702,6 +707,36 @@ h3 {
 .quick-map__chip {
   min-width: 0;
   flex: 1 1 120px;
+}
+
+.quick-map__video-card {
+  display: grid;
+  gap: 12px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.quick-map__video-frame {
+  overflow: hidden;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(5, 12, 22, 0.86);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
+}
+
+.quick-map__video-frame iframe {
+  display: block;
+  width: 100%;
+  min-height: 220px;
+  border: 0;
+}
+
+.quick-map__video-text {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.55;
 }
 
 .stat-list {
