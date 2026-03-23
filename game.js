@@ -43,6 +43,7 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
   var openQuickVideoModalButton = document.getElementById("open-quick-video-modal");
   var closeQuickVideoModalButton = document.getElementById("close-quick-video-modal");
   var quickVideoModal = document.getElementById("quick-video-modal");
+  var quickVideoModalFrame = quickVideoModal ? quickVideoModal.querySelector("iframe") : null;
   var starField = document.querySelector(".stars");
   var anniversaryBanner = document.getElementById("anniversary-banner");
 
@@ -1351,7 +1352,13 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
       return;
     }
 
+    var quickVideoSrc = quickVideoModalFrame ? quickVideoModalFrame.getAttribute("src") : "";
+
     function openModal() {
+      if (quickVideoModalFrame && quickVideoSrc) {
+        quickVideoModalFrame.setAttribute("src", quickVideoSrc);
+      }
+
       if (typeof quickVideoModal.showModal === "function") {
         quickVideoModal.showModal();
       } else {
@@ -1360,6 +1367,10 @@ import { MOVIES, OTHER_SERIES, SEASONS } from "./season-data.js";
     }
 
     function closeModal() {
+      if (quickVideoModalFrame) {
+        quickVideoModalFrame.setAttribute("src", "");
+      }
+
       if (typeof quickVideoModal.close === "function") {
         quickVideoModal.close();
       } else {
