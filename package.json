@@ -2,10 +2,12 @@
   "name": "star-trek-tos-web",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "description": "Web en español sobre la primera temporada de Star Trek: The Original Series.",
   "scripts": {
+    "seo": "node scripts/generate-seo-assets.mjs",
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run seo && vite build",
     "preview": "vite preview"
   },
   "devDependencies": {

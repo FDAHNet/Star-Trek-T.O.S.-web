@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fdahnet.github.io/Star-Trek-T.O.S.-web/sitemap.xml
